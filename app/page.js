@@ -29,7 +29,7 @@ export default async function Home({ searchParams }) {
         <ul>{rows.map((r) => <li key={r.master_record_id}><a href={`/record/${encodeURIComponent(r.master_record_id)}`}>{r.master_record_id}</a>: {r.investor_group}, {r.target_or_event}</li>)}</ul>
       )}
       <p>{proposedView ? <a href="/">Show a sample of the v9.6 records</a> : <a href="/?view=proposed">Show the proposed, unverified records</a>}</p>
-      <p><a href="/coverage">Coverage register</a> | <a href="/crosswalk">Crosswalk review</a> |<a href="/api/health">/api/health</a></p>
+      <p><a href="/coverage">Coverage register</a> | <a href="/crosswalk">Crosswalk review</a> | <a href="/eventtypes">Event-type families</a> | <a href="/api/health">/api/health</a></p>
     </main>
   );
 }
