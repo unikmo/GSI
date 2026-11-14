@@ -68,6 +68,38 @@
             "basis": "Issuer labels 'total assets' incl. assets it manages/administers, not company-owned balance sheet assets; clarify before use",
             "source_id": "CI-Q3-2024-11-14",
             "source_status": "ISSUER_REPORTED_PRE_ANNOUNCEMENT"
+          },
+          {
+            "field": "ifrs_total_net_revenue",
+            "value": 785.4,
+            "unit": "CAD_millions",
+            "basis": "Company IFRS total net revenue, Q3 2024; unlike non-IFRS adjusted revenue of CAD754.9m",
+            "source_id": "CI-Q3-2024-11-14",
+            "source_status": "ISSUER_REPORTED_PRE_ANNOUNCEMENT"
+          },
+          {
+            "field": "operating_cash_flow",
+            "value": 166.3,
+            "unit": "CAD_millions",
+            "basis": "Q3 2024 operating cash flow, three months ended 30 September 2024",
+            "source_id": "CI-Q3-2024-11-14",
+            "source_status": "ISSUER_REPORTED_PRE_ANNOUNCEMENT"
+          },
+          {
+            "field": "net_leverage_ratio",
+            "value": 3.3,
+            "unit": "x",
+            "basis": "Company-defined net debt divided by annualised adjusted EBITDA; at 30 September 2024",
+            "source_id": "CI-Q3-2024-11-14",
+            "source_status": "ISSUER_REPORTED_PRE_ANNOUNCEMENT"
+          },
+          {
+            "field": "gross_leverage_ratio",
+            "value": 3.5,
+            "unit": "x",
+            "basis": "Company-defined gross debt divided by annualised adjusted EBITDA; at 30 September 2024",
+            "source_id": "CI-Q3-2024-11-14",
+            "source_status": "ISSUER_REPORTED_PRE_ANNOUNCEMENT"
           }
         ],
         "unknown": [
@@ -75,8 +107,8 @@
           "fund_or_vehicle_legal_identity",
           "final_financing_syndicate",
           "original_cap_table_all_shareholders",
-          "trailing_12_month_ifrs_revenue",
-          "audited_fy2024_results_available_pre_announcement"
+          "audited_fy2024_results_available_pre_announcement",
+          "Trailing-twelve-month IFRS revenue not yet reconciled: only standalone Q3 2024 quarter measured here"
         ],
         "business_model": "Global asset and wealth manager; Canada, United States and Australia",
         "ownership_pre_deal": "Public company (TSX:CIX); directors and executives controlled approximately 16.88% of shares at signing, per issuer support agreements (not full beneficial ownership).",
@@ -124,7 +156,9 @@
       "review_flags": [
         "Keep CAD valuation distinct from US-denominated 2024 Mubadala annual review text",
         "Confirm issuer financial statement accounting definitions",
-        "Check later closing against signed announcement without leaking 2025 facts into 2024 snapshot"
+        "Check later closing against signed announcement without leaking 2025 facts into 2024 snapshot",
+        "IFRS net revenue CAD785.4m includes FX/other gains; CAD754.9m adjusted net revenue is a different non-IFRS basis; not interchangeable for margin calculations.",
+        "Net/gross leverage use annualised company-adjusted EBITDA, not quarterly unadjusted EBITDA. Retain denominator metadata."
       ]
     },
     {
