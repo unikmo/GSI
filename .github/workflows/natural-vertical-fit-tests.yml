@@ -10,6 +10,8 @@ on:
       - 'tests/capitalIntelligenceIntake.test.mjs'
       - 'tests/capitalIntelligenceSchema.test.mjs'
       - 'tests/mubadalaResearchPilot.test.mjs'
+      - 'tests/strategyLifecycleSchema.test.mjs'
+      - 'supabase/capital_intelligence_strategy_lifecycle_private.sql'
       - 'research/investee_snapshots/mubadala_pilot_2026-11-14.json'
       - 'supabase/capital_intelligence_snapshots_private.sql'
       - '.github/workflows/natural-vertical-fit-tests.yml'
