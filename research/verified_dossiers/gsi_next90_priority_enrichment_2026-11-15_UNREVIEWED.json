@@ -4621,11 +4621,6 @@
       },
       "source_register": [
         {
-          "url": "",
-          "role": "MASTER_PRIMARY",
-          "state": "MASTER_REFERENCE_NOT_INDEPENDENTLY_CHECKED_IN_THIS_BATCH"
-        },
-        {
           "url": "https://worldoil.com/news/2025/4/10/mubadala-energy-buys-24-stake-in-kimmeridge-marking-its-first-major-u-s-lng-investment/",
           "role": "MASTER_INDEPENDENT",
           "state": "MASTER_REFERENCE_NOT_INDEPENDENTLY_CHECKED_IN_THIS_BATCH"
@@ -4660,17 +4655,19 @@
         "reason": "Investor-specific cash flows/entry basis not yet verified"
       },
       "data_quality": {
-        "stage": "PRIORITIZED_FOR_DEEP_VERIFICATION",
+        "stage": "SOURCE_LINK_REPAIR_REQUIRED",
         "ready_for_public_display": false,
         "aggregation_eligible": false,
         "source_sufficiency": "NOT_TESTED",
         "next_checks": [
+          "Locate and validate an official source; master URL blank",
           "Obtain contemporaneous investee historical audited statements",
           "Verify exact financing vehicle, buyer/share seller and settlement",
           "Extract specific investor capital and beneficial ownership, not consortium totals",
           "Verify subsequent follow-on and exits, as-known at each date",
           "Collect transaction-date fund strategy and macro evidence"
-        ]
+        ],
+        "source_gap": "MASTER_PRIMARY_SOURCE_MISSING; independent original source required before this record can be promoted"
       }
     },
     {
