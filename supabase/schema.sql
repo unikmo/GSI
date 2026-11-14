@@ -9,4 +9,5 @@ create table if not exists gsi_master_test (
   source_version text default 'v9.6'
 );
 alter table gsi_master_test enable row level security;
+drop policy if exists "read test rows" on gsi_master_test;
 create policy "read test rows" on gsi_master_test for select using (true);
