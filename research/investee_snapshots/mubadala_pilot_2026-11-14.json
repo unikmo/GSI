@@ -1,0 +1,298 @@
+{
+  "research_status": "UNREVIEWED",
+  "research_as_of": "2026-11-14",
+  "method": "Point-in-time, primary-source-first research; distinguish issuer-disclosed financial facts, deal statements, independent corroboration and later status updates. No unverified numerical imputations.",
+  "records": [
+    {
+      "master_record_id": "GSI24N11-005",
+      "event": "Mubadala Capital affiliate / CI Financial take-private",
+      "announcement_date": "2024-11-25",
+      "investee": "CI Financial Corp.",
+      "vehicle": "Affiliate of Mubadala Capital (precise vehicle not disclosed in this source)",
+      "event_family": "PUBLIC_TO_PRIVATE_BUYOUT_AGREEMENT",
+      "announcement_state": "DEFINITIVE_AGREEMENT_SIGNED",
+      "later_status": {
+        "state": "COMPLETED",
+        "effective_date": "2025-08-12",
+        "source_id": "CI-CLOSE-2025-08-13",
+        "used_as_contemporaneous_input": false
+      },
+      "company_snapshot": {
+        "as_of_date": "2024-09-30",
+        "financial_period": "Q3 2024, three months ended 2024-09-30",
+        "disclosures": [
+          {
+            "field": "reported_ebitda",
+            "value": 124.8,
+            "unit": "CAD_millions",
+            "basis": "Company-reported EBITDA, Q3 2024",
+            "source_id": "CI-Q3-2024-11-14",
+            "source_status": "ISSUER_REPORTED_PRE_ANNOUNCEMENT"
+          },
+          {
+            "field": "adjusted_ebitda_attributable_to_shareholders",
+            "value": 270.5,
+            "unit": "CAD_millions",
+            "basis": "Non-IFRS adjusted measure, Q3 2024; not same basis as reported EBITDA",
+            "source_id": "CI-Q3-2024-11-14",
+            "source_status": "ISSUER_REPORTED_PRE_ANNOUNCEMENT"
+          },
+          {
+            "field": "adjusted_net_revenue",
+            "value": 754.9,
+            "unit": "CAD_millions",
+            "basis": "Non-IFRS adjusted net revenue, Q3 2024; not total IFRS net revenue",
+            "source_id": "CI-Q3-2024-11-14",
+            "source_status": "ISSUER_REPORTED_PRE_ANNOUNCEMENT"
+          },
+          {
+            "field": "net_debt",
+            "value": 3602.4,
+            "unit": "CAD_millions",
+            "basis": "Company-defined net debt at 2024-09-30",
+            "source_id": "CI-Q3-2024-11-14",
+            "source_status": "ISSUER_REPORTED_PRE_ANNOUNCEMENT"
+          },
+          {
+            "field": "free_cash_flow",
+            "value": 192.3,
+            "unit": "CAD_millions",
+            "basis": "Company-defined non-IFRS FCF, Q3 2024",
+            "source_id": "CI-Q3-2024-11-14",
+            "source_status": "ISSUER_REPORTED_PRE_ANNOUNCEMENT"
+          },
+          {
+            "field": "assets_under_management_and_administration",
+            "value": 518.1,
+            "unit": "CAD_billions",
+            "basis": "Issuer labels 'total assets' incl. assets it manages/administers, not company-owned balance sheet assets; clarify before use",
+            "source_id": "CI-Q3-2024-11-14",
+            "source_status": "ISSUER_REPORTED_PRE_ANNOUNCEMENT"
+          }
+        ],
+        "unknown": [
+          "investor_specific_equity_cheque",
+          "fund_or_vehicle_legal_identity",
+          "final_financing_syndicate",
+          "original_cap_table_all_shareholders",
+          "trailing_12_month_ifrs_revenue",
+          "audited_fy2024_results_available_pre_announcement"
+        ],
+        "business_model": "Global asset and wealth manager; Canada, United States and Australia",
+        "ownership_pre_deal": "Public company (TSX:CIX); directors and executives controlled approximately 16.88% of shares at signing, per issuer support agreements (not full beneficial ownership).",
+        "ownership_transaction": "Proposed cash $32/share except management rollover agreements; management rollover opportunity and debt structure disclosed, specific funding split unknown"
+      },
+      "announced_terms": [
+        {
+          "field": "equity_valuation",
+          "value": 4700,
+          "unit": "CAD_millions",
+          "basis": "Transaction equity valuation, NOT investor cheque",
+          "source_id": "CI-DEAL-2024-11-25",
+          "status": "ANNOUNCED"
+        },
+        {
+          "field": "enterprise_value",
+          "value": 12100,
+          "unit": "CAD_millions",
+          "basis": "Implied deal EV, NOT investor cheque",
+          "source_id": "CI-DEAL-2024-11-25",
+          "status": "ANNOUNCED"
+        },
+        {
+          "field": "price_per_share",
+          "value": 32,
+          "unit": "CAD",
+          "basis": "Consideration to non-rollover common shareholders",
+          "source_id": "CI-DEAL-2024-11-25",
+          "status": "ANNOUNCED"
+        },
+        {
+          "field": "possible_preferred_equity_reduction_cash",
+          "value": 750,
+          "unit": "CAD_millions_maximum",
+          "basis": "Mubadala Capital announced intention to fund UP TO this amount at closing; not proven paid",
+          "source_id": "CI-DEAL-2024-11-25",
+          "status": "INTENTION_NOT_DISBURSEMENT"
+        }
+      ],
+      "source_ids": [
+        "CI-Q3-2024-11-14",
+        "CI-DEAL-2024-11-25",
+        "CI-CLOSE-2025-08-13"
+      ],
+      "review_flags": [
+        "Keep CAD valuation distinct from US-denominated 2024 Mubadala annual review text",
+        "Confirm issuer financial statement accounting definitions",
+        "Check later closing against signed announcement without leaking 2025 facts into 2024 snapshot"
+      ]
+    },
+    {
+      "master_record_id": "GSI26B02-005",
+      "event": "Mubadala Investment Company leads Moove Series C",
+      "announcement_date": "2026-08-05",
+      "investee": "Moove",
+      "vehicle": "Mubadala Investment Company (actual investing vehicle/legal participant not identified in announcement)",
+      "event_family": "EQUITY_FINANCING",
+      "announcement_state": "ROUND_REPORTED_RAISED_UNVERIFIED_INVESTOR_ALLOCATION",
+      "company_snapshot": {
+        "as_of_date": "2026-08-05",
+        "financial_period": "ARR reported at announcement, no separate fiscal financial period disclosed",
+        "disclosures": [
+          {
+            "field": "annual_recurring_revenue",
+            "value": 420,
+            "unit": "USD_millions",
+            "basis": "Issuer-claimed ARR, not recognised IFRS revenue or audited annual accounts; observation date inferred from announcement",
+            "source_id": "MOOVE-ANN-2026-08-05",
+            "source_status": "COMPANY_CLAIM_IN_INVESTOR_RELEASE"
+          },
+          {
+            "field": "fleet_vehicles",
+            "value": 42000,
+            "unit": "vehicles_approximate",
+            "basis": "Issuer-claimed fleet scale at announcement",
+            "source_id": "MOOVE-ANN-2026-08-05",
+            "source_status": "COMPANY_CLAIM_IN_INVESTOR_RELEASE"
+          },
+          {
+            "field": "cities",
+            "value": 29,
+            "unit": "cities",
+            "basis": "Issuer-claimed operational scale",
+            "source_id": "MOOVE-ANN-2026-08-05",
+            "source_status": "COMPANY_CLAIM_IN_INVESTOR_RELEASE"
+          },
+          {
+            "field": "countries",
+            "value": 13,
+            "unit": "countries",
+            "basis": "Issuer-claimed operational scale; secondary reporting differs",
+            "source_id": "MOOVE-ANN-2026-08-05",
+            "source_status": "COMPANY_CLAIM_IN_INVESTOR_RELEASE"
+          }
+        ],
+        "unknown": [
+          "audited_revenue",
+          "ebitda",
+          "ebitda_margin",
+          "operating_cash_flow",
+          "net_debt",
+          "cash_balance",
+          "investor_specific_ticket",
+          "stake_acquired",
+          "pre_money_vs_post_money_valuation",
+          "legal_fund_or_vehicle"
+        ],
+        "business_model": "Asset-backed fleet ownership, financing and operational infrastructure for human-driven and autonomous mobility",
+        "markets_reported": [
+          "UAE headquarters",
+          "13-country operating footprint reported, detailed jurisdictional revenue allocation not disclosed"
+        ],
+        "existing_investors_reported": [
+          "Woven Capital",
+          "Ion Pacific",
+          "BlueCrest Capital Management",
+          "Sona Capital",
+          "BlackRock",
+          "MUFG",
+          "Franklin Templeton",
+          "Uber",
+          "Left Lane",
+          "Ontario Power Generation Pension Plan"
+        ],
+        "ownership_summary": "Privately held, shareholder ownership percentages not disclosed in retrieved sources"
+      },
+      "announced_terms": [
+        {
+          "field": "series_c_total_round",
+          "value": 250,
+          "unit": "USD_millions",
+          "basis": "Entire fundraising round, NOT Mubadala-specific cheque",
+          "source_id": "MOOVE-ANN-2026-08-05",
+          "status": "ANNOUNCED_RAISED"
+        },
+        {
+          "field": "reported_valuation",
+          "value": 2100,
+          "unit": "USD_millions",
+          "basis": "Reported valuation without clearly stated pre/post-money basis",
+          "source_id": "MOOVE-ANN-2026-08-05",
+          "status": "REPORTED_VALUATION"
+        }
+      ],
+      "source_ids": [
+        "MOOVE-ANN-2026-08-05",
+        "MOOVE-SECONDARY-2026-08-05"
+      ],
+      "review_flags": [
+        "Independent news repeats company figures but is not independent audit of ARR or fleet count",
+        "Mubadala total ticket not stated",
+        "Original 2023 Mubadala initial investment cited but not yet independently matched to a master row",
+        "Country count appears 13 vs 14 across sources; verify as-of scope"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "CI-Q3-2024-11-14",
+      "publisher": "CI Financial",
+      "published_on": "2024-11-14",
+      "url": "https://ir.cifinancial.com/news/news-details/2024/CI-Financial-Reports-Record-Financial-Results-for-the-Third-Quarter/default.aspx",
+      "source_type": "ISSUER_FINANCIAL_RELEASE",
+      "evidence_character": "Primary company disclosure; non-IFRS measures not independently verified here"
+    },
+    {
+      "id": "CI-DEAL-2024-11-25",
+      "publisher": "CI Financial",
+      "published_on": "2024-11-25",
+      "url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+      "source_type": "ISSUER_TRANSACTION_RELEASE",
+      "evidence_character": "Signing terms and management arrangements; not closing proof"
+    },
+    {
+      "id": "CI-CLOSE-2025-08-13",
+      "publisher": "CI Financial",
+      "published_on": "2025-08-13",
+      "url": "https://ir.cifinancial.com/news/news-details/2025/CI-Financial-and-Mubadala-Capital-Announce-Completion-of-Take-Private-Transaction-by-Mubadala-Capital/default.aspx",
+      "source_type": "ISSUER_CLOSING_RELEASE",
+      "evidence_character": "Later issuer assertion of legal completion; not 2024 entry information"
+    },
+    {
+      "id": "MOOVE-ANN-2026-08-05",
+      "publisher": "Mubadala / Moove",
+      "published_on": "2026-08-05",
+      "url": "https://www.mubadala.com/en/news/moove-raises-250-million-at-2-1-billion-valuation-to-scale-the-global-infrastructure-layer-for-autonomous-mobility",
+      "source_type": "INVESTOR_AND_INVESTEE_RELEASE",
+      "evidence_character": "Reported round and operating metrics; not audited financials or Mubadala allocation"
+    },
+    {
+      "id": "MOOVE-SECONDARY-2026-08-05",
+      "publisher": "TechCrunch",
+      "published_on": "2026-08-05",
+      "url": "https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/",
+      "source_type": "INDEPENDENT_MEDIA",
+      "evidence_character": "Journalistic interview/reporting, but investor/company numbers not audited"
+    }
+  ],
+  "research_backlog": [
+    {
+      "priority": 1,
+      "master_record_id": "GSI24N11-005",
+      "work": "Obtain CI IFRS Q3 2024 financial statements and 2023 audited annual report, reconcile Q3 adjusted and IFRS measures and financing structure"
+    },
+    {
+      "priority": 1,
+      "master_record_id": "GSI26B02-005",
+      "work": "Find independent pre-announcement Moove revenue/EBITDA/ownership disclosures, original co-investor allocations, institutional round filings"
+    },
+    {
+      "priority": 2,
+      "work": "Filter Mubadala transaction families to direct investees; exclude fund formations, divestments, MoUs and policy events from operating-company EBITDA cohorts"
+    },
+    {
+      "priority": 2,
+      "work": "Sequence oldest-to-newest investee snapshots and capture as-of, source publication and retrieval, correction history"
+    }
+  ]
+}
