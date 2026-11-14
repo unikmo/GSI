@@ -1,0 +1,1135 @@
+{
+  "batch_id": "MUBADALA_BATCH_02_20_2026-11-14",
+  "prior_batch": "MUBADALA_20_2026-11-14",
+  "created_on": "2026-11-14",
+  "state": "UNREVIEWED_NOT_DECISION_GRADE",
+  "method": "20 NEW master-linked entries, chronologically focused on 2020–2021. Sources: contemporaneous fund/company official releases, SEC/EU filings and follow-on closing reports. Do not double count signing and closing events. No financial fact imputation.",
+  "records": [
+    {
+      "master_record_id": "GSI-2020-03-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Waymo",
+      "event_family": "DIRECT_GROWTH_EQUITY",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2020-03-03",
+      "transaction_status_master": "ANNOUNCED_PARTICIPATION",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-invests-autonomous-self-driving-technology",
+      "source_independent_master": "https://ifswf.org/sites/default/files/annual-reports/2020%20Mubadala%20Annual%20Review.pdf",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-03-001-S1",
+          "url": "https://waymo.com/blog/2020/03/waymo-raises-first-external-investment-round/",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-03-03"
+        }
+      ],
+      "metrics": {
+        "round_total_usd_m": 2250,
+        "round_scope": "Initial external round; not Mubadala specific",
+        "investors": [
+          "Silver Lake",
+          "CPP Investments",
+          "Mubadala",
+          "Magna",
+          "Andreessen Horowitz",
+          "AutoNation",
+          "Alphabet"
+        ]
+      },
+      "interpretation": "First external round reported on Waymo site, Mubadala participation confirmed by investor; specific cheque, valuation, stake and pre-entry revenues undisclosed.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-03-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Borealis AG",
+      "event_family": "PARTIAL_DIVESTMENT_SIGNING",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2020-03-12",
+      "transaction_status_master": "SIGNED_2020_03_CLOSED_2020_10",
+      "source_primary_master": "https://www.mubadala.com/en/news/39-share-purchase-mubadala-omv-acquire-majority-stake-borealis-us468-billion-largest",
+      "source_independent_master": "https://www.omv.com/en/media/press-releases/2020/201029-omv-and-mubadala-complete-borealis-transaction",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-03-002-S1",
+          "url": "https://www.omv.com/en/media/press-releases/2020/200312-omv-signs-agreement-to-increase-its-shareholding-in-borealis-to-75percent-repositioning-in-a-low-carbon-world",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-03-12"
+        },
+        {
+          "id": "GSI-2020-03-002-S2",
+          "url": "https://www.omv.com/en/media/press-releases/2020/200326-adhoc-omv-and-mubadala-agree-on-payment-of-the-purchase-price-for-the-additional-39percent-share-in-borealis-in-tranches",
+          "role": "CORROBORATION_OR_FOLLOWUP",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-03-12"
+        },
+        {
+          "id": "GSI-2020-03-002-S3",
+          "url": "https://www.omv.com/en/media/press-releases/2020/201029-omv-and-mubadala-complete-borealis-transaction",
+          "role": "CORROBORATION_OR_FOLLOWUP",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-03-12"
+        }
+      ],
+      "metrics": {
+        "stake_sold_pct": 39,
+        "reported_price_usd_m": 4680,
+        "stake_retained_pct": 25,
+        "buyer": "OMV",
+        "signed_on": "2020-03-12",
+        "closing_on": "2020-10-29",
+        "payment_amendment_signed": "2020-03-26",
+        "amended_scheduled_tranches_usd_m": [
+          2340,
+          2340
+        ],
+        "amendment_scope": "Contractual instalments; not proof of actual payment dates"
+      },
+      "interpretation": "OMV and Mubadala separately confirm agreement, deferred-payment amendment and eventual closing; buyer net cash-out differs from headline seller price; realised investment profit remains unavailable.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-06-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Jio Platforms",
+      "event_family": "PRIMARY_EQUITY_SUBSCRIPTION",
+      "investing_entity_master": "MIC Redwood 1 RSC Limited (Mubadala)",
+      "announcement_date_master": "2020-06-04",
+      "transaction_status_master": "SUBSCRIPTION_RECEIVED_SHARES_ALLOTTED_2020_07_13",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-invest-12b-usd-jio-platforms",
+      "source_independent_master": "https://www.ril.com/news-media/press-releases/mubadala-invest-rs909360-crore-jio-platforms",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-06-001-S1",
+          "url": "https://www.mubadala.com/en/news/mubadala-invest-12b-usd-jio-platforms",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-06-04"
+        },
+        {
+          "id": "GSI-2020-06-001-S2",
+          "url": "https://jep-asset.akamaized.net/jio/press-release/media_release_jio_05062020.pdf",
+          "role": "CORROBORATION_OR_FOLLOWUP",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-06-04"
+        }
+      ],
+      "metrics": {
+        "mubadala_subscription_inr_crore": 9093.6,
+        "reported_usd_m_approx": 1200,
+        "stake_pct": 1.85,
+        "issuer_equity_value_usd_bn": 65,
+        "issuer_enterprise_value_usd_bn": 68,
+        "subscriber_base_m_more_than": 388,
+        "share_subscription_status": "Master reports shares allotted July 13; confirm allotment independently"
+      },
+      "interpretation": "Issuer and fund announce individual investment and stake; company enterprise value is not cheque. Specific subscription receipts need exchange-filing reconciliation.",
+      "evidence_grade_master": "",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-AUG-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "XPeng",
+      "event_family": "SERIES_C_PREFERRED_SHARE_ISSUANCE",
+      "investing_entity_master": "Aerospace Holding Company LLC",
+      "announcement_date_master": "2020-08-06",
+      "transaction_status_master": "Shares issued 2020-08-06",
+      "source_primary_master": "https://www.sec.gov/Archives/edgar/data/1810997/000095012320012345/filename1.htm",
+      "source_independent_master": "https://ir.xiaopeng.com/static-files/001b0177-ef03-4d67-9421-de4672ba37e9",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-AUG-001-S1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1810997/000095012320012345/filename1.htm",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-08-06"
+        }
+      ],
+      "metrics": {
+        "investor_subscription_usd_m": 100,
+        "shares_issued": 23065390,
+        "share_class": "Series C preferred",
+        "legal_investing_vehicle": "Aerospace Holding Company LLC",
+        "issuer_filing_date": "2020-08-06",
+        "same_round_other_subscriber": "Taobao China Holding Limited $215m",
+        "actual_issuance_source": "SEC public pre-IPO filing"
+      },
+      "interpretation": "Issuer's SEC registration document itemises issued preferred shares and individual subscription; financial metrics at subscription require earlier filing-period extraction.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-AUG-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "PCI Pharma Services",
+      "event_family": "PE_ACQUISITION_SIGNING",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2020-08-24",
+      "transaction_status_master": "Definitive agreement announced 2020-08-24; completed 2020-12-01",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-and-kohlberg-sign-joint-agreement",
+      "source_independent_master": "https://www.kohlberg.com/pci-pharma-services-announces-the-closing-of-the-majority-stake-acquisition-by-kohlberg-and-mubadala/",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-AUG-002-S1",
+          "url": "https://www.mubadala.com/en/news/mubadala-and-kohlberg-sign-joint-agreement",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-08-24"
+        },
+        {
+          "id": "GSI-2020-AUG-002-S2",
+          "url": "https://www.kohlberg.com/pci-pharma-services-announces-the-closing-of-the-majority-stake-acquisition-by-kohlberg-and-mubadala/",
+          "role": "CORROBORATION_OR_FOLLOWUP",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-08-24"
+        }
+      ],
+      "metrics": {
+        "sponsor_majority": "Kohlberg",
+        "sponsor_minority": [
+          "Mubadala",
+          "Partners Group (clients)"
+        ],
+        "signed_on": "2020-08-24",
+        "closed_on": "2020-12-01"
+      },
+      "interpretation": "Company and Kohlberg releases distinguish majority buyer from Mubadala minority investor; price, Mubadala stake and EBITDA undisclosed in reviewed announcements.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-AUG-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Envision Pharma Group",
+      "event_family": "JOINT_CONTROL_HEALTHCARE_BUYOUT",
+      "investing_entity_master": "Mubadala Investment Company PJSC",
+      "announcement_date_master": "2020-08-10",
+      "transaction_status_master": "EU notification 2020-08-10; transaction closing November 2020",
+      "source_primary_master": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32020M9922",
+      "source_independent_master": "https://www.mubadala.com/en/news/gho-capital-and-management-acquire-ardian-majority-stake",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-AUG-003-S1",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32020M9922",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-08-10"
+        },
+        {
+          "id": "GSI-2020-AUG-003-S2",
+          "url": "https://www.mubadala.com/en/news/gho-capital-and-management-acquire-ardian-majority-stake",
+          "role": "CORROBORATION_OR_FOLLOWUP",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-08-10"
+        }
+      ],
+      "metrics": {
+        "joint_acquirers": [
+          "GHO Capital Fund II LP",
+          "Mubadala Investment Company PJSC"
+        ],
+        "ec_notification_date": "2020-08-10",
+        "ec_decision_date": "2020-09-03",
+        "seller": "Ardian",
+        "additional_consortium_investors": [
+          "HarbourVest",
+          "Northwestern Mutual"
+        ],
+        "later_issuer_announcement": "2020-11-05"
+      },
+      "interpretation": "European Commission decision documents GHO/MIC joint control; Mubadala press release establishes consortium structure. Price and individual investor contribution undisclosed.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Silver Lake",
+      "event_family": "ASSET_MANAGER_MINORITY_STAKE",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2020-09-30",
+      "transaction_status_master": "Mubadala says minority interest acquired; individual consideration undisclosed",
+      "source_primary_master": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
+      "source_independent_master": "https://www.silverlake.com/silver-lake-and-mubadala-partner-to-establish-unique-long-term-investment-strategy/",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-SEP-002-S1",
+          "url": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-09-30"
+        },
+        {
+          "id": "GSI-2020-SEP-002-S2",
+          "url": "https://www.silverlake.com/silver-lake-and-mubadala-partner-to-establish-unique-long-term-investment-strategy/",
+          "role": "CORROBORATION_OR_FOLLOWUP",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-09-30"
+        }
+      ],
+      "metrics": {
+        "minority_stake": "UNDISCLOSED_PERCENT",
+        "mubadala_parallel_strategy_commitment_usd_m": 2000,
+        "strategy_time_horizon_years": 25
+      },
+      "interpretation": "US$2bn supports separately announced long-term technology investment strategy, not disclosed purchase price for manager equity stake; do not double count as manager acquisition.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Reliance Retail Ventures",
+      "event_family": "PRIMARY_EQUITY_SUBSCRIPTION",
+      "investing_entity_master": "MIC Redwood 1 RSC Limited",
+      "announcement_date_master": "2020-10-01",
+      "transaction_status_master": "Announced Oct 1; shares allotted and cash received 15 Oct 2020",
+      "source_primary_master": "https://www.ril.com/news-media/press-releases/mubadala-invest-rs62475-crore-aed-31-billion-reliance-retail-ventures",
+      "source_independent_master": "https://www.marketscreener.com/quote/stock/RELIANCE-INDUSTRIES-LTD-9058833/news/Reliance-Industries-Further-update-on-investment-into-Reliance-Retail-Ventures-Limited-Mubadala-a-31552717/",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-OCT-001-S1",
+          "url": "https://www.mubadala.com/en/news/mubadala-invest-in-reliance-retail-ventures",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-10-01"
+        },
+        {
+          "id": "GSI-2020-OCT-001-S2",
+          "url": "https://www.ril.com/news-media/press-releases/mubadala-invest-rs62475-crore-aed-31-billion-reliance-retail-ventures",
+          "role": "CORROBORATION_OR_FOLLOWUP",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-10-01"
+        }
+      ],
+      "metrics": {
+        "mubadala_subscription_inr_crore": 6247.5,
+        "mubadala_subscription_aed_bn": 3.1,
+        "stake_pct": 1.4,
+        "pre_money_equity_valuation_inr_lakh_crore": 4.285,
+        "store_count_approx": 12000,
+        "annual_footfall_m_approx": 640,
+        "reported_cash_received_on": "2020-10-15",
+        "cash_receipt_verification": "Master cites later issuer notice, requires independent document inspection"
+      },
+      "interpretation": "Issuer and investor identify a specific cheque and 1.4% stake; store/footfall scale claimed as of announcement; do not interpret annual footfall as revenue.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Evotec SE",
+      "event_family": "PUBLIC_COMPANY_PRIVATE_PLACEMENT",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2020-10-13",
+      "transaction_status_master": "Private placement resolved and issued in 2020; exact commercial registration date to confirm",
+      "source_primary_master": "https://www.evotec.com/news/mubadala-investment-company-and-novo-holdings-as-invest-euro-250-m-in-evotec-se",
+      "source_independent_master": "https://www.mubadala.com/en/news/mubadala-investment-company-and-novo-holdings-invest",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-OCT-003-S1",
+          "url": "https://www.evotec.com/news/mubadala-investment-company-and-novo-holdings-as-invest-euro-250-m-in-evotec-se",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-10-13"
+        },
+        {
+          "id": "GSI-2020-OCT-003-S2",
+          "url": "https://www.evotec.com/de/news/mubadala-investment-company-und-novo-holdings-as-investieren-250-mio-euro-in-evotec-se",
+          "role": "CORROBORATION_OR_FOLLOWUP",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-10-13"
+        }
+      ],
+      "metrics": {
+        "mubadala_subscription_eur_m": 200,
+        "novo_subscription_eur_m": 50,
+        "round_total_eur_m": 250,
+        "stake_post_money_approx_pct": 5.6,
+        "issue_price_eur_per_share": 21.7802,
+        "mubadala_shares": 9182652,
+        "group_shares_issued": 11478315,
+        "signing_reported_on": "2020-10-13"
+      },
+      "interpretation": "Issuer separately discloses investor-specific shares, price and capital contribution; subsequent annual statements confirm completed contribution. Revenue/EBITDA from prior audited period remain to be extracted.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-006",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Borealis AG",
+      "event_family": "PARTIAL_DIVESTMENT_COMPLETION",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2020-10-29",
+      "transaction_status_master": "Completed October 29 after March 12 signed agreement",
+      "source_primary_master": "https://www.mubadala.com/en/news/omv-and-mubadala-complete-borealis-transaction",
+      "source_independent_master": "https://www.mubadala.com/en/news/39-share-purchase-mubadala-omv-acquire-majority-stake-borealis-us468-billion-largest",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-OCT-006-S1",
+          "url": "https://www.omv.com/en/media/press-releases/2020/201029-omv-and-mubadala-complete-borealis-transaction",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-10-29"
+        }
+      ],
+      "metrics": {
+        "stake_sold_pct": 39,
+        "agreed_purchase_price_usd_m": 4680,
+        "buyer_net_cash_out_eur_bn_approx": 3.8,
+        "retained_stake_pct": 25,
+        "completed_on": "2020-10-29",
+        "preceding_event_master_id": "GSI-2020-03-002"
+      },
+      "interpretation": "Closing of same 39% stake sale announced March 2020; lifecycle link prevents double counting two disposals. Buyer cash-out net of cash adjustments must not be labelled Mubadala's net proceeds.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "REEF Technology",
+      "event_family": "GROWTH_EQUITY_PARTICIPATION",
+      "investing_entity_master": "Mubadala Capital",
+      "announcement_date_master": "2020-11-03",
+      "transaction_status_master": "November 2020 funding round announced; individual paid-in capital not evidenced",
+      "source_primary_master": "https://targetglobal.medium.com/connecting-the-world-to-your-block-backing-reef-technologys-1-billion-investment-round-42ff0bce49a7",
+      "source_independent_master": "https://www.wamda.com/2020/11/mubadala-leads-700mln-funding-start-reef-technology",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-NOV-002-S1",
+          "url": "https://targetglobal.medium.com/connecting-the-world-to-your-block-backing-reef-technologys-1-billion-investment-round-42ff0bce49a7",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-11-03"
+        }
+      ],
+      "metrics": {
+        "mubadala_own_ticket_usd_m": null,
+        "round_amount_reported_usd_m": null,
+        "round_source_claim": "Master references growth investment including other partners; amounts not independently reconciled"
+      },
+      "interpretation": "Mubadala participation is described in master; primary named source needs separate reading before any amount or operating metric can be accepted.",
+      "evidence_grade_master": "B",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "G42",
+      "event_family": "ASSET_FOR_EQUITY_EXCHANGE",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2020-11-02",
+      "transaction_status_master": "Transfer/integration agreement announced; economic valuation not disclosed",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-takes-stake-group-42",
+      "source_independent_master": "https://www.wam.ae/en/article/hszrb6li-mubadala-takes-stake-g42",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-NOV-003-S1",
+          "url": "https://www.mubadala.com/en/news/mubadala-takes-stake-group-42",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-11-02"
+        }
+      ],
+      "metrics": {
+        "contributed_businesses": [
+          "Injazat",
+          "Khazna Data Centers"
+        ],
+        "received_stake_pct": null,
+        "monetary_consideration": null,
+        "primary_investment_instrument": "Contribution of operating businesses for G42 ownership"
+      },
+      "interpretation": "Mubadala described contribution of Injazat and Khazna, not a new cash-equity round. Determine implied valuation only from contemporary public documentation, not later estimates.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-005",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "TIER Mobility",
+      "event_family": "FOLLOW_ON_VENTURE_ROUND",
+      "investing_entity_master": "Mubadala Capital",
+      "announcement_date_master": "2020-11-10",
+      "transaction_status_master": "Series C round completed; existing Mubadala Capital participates",
+      "source_primary_master": "https://www.tier.app/en/press/tier-raises-250-million-series-c-funding-led-by-softbank",
+      "source_independent_master": "https://www.investing.com/news/technology-news/softbanks-vision-fund-2-leads-250million-investment-in-escooter-firm-tier-mobility-2344497",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2020-NOV-005-S1",
+          "url": "https://novator.lu/wp-content/uploads/2020/11/TIER-Series-C-Press-Release-Final-1.pdf",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2020-11-10"
+        }
+      ],
+      "metrics": {
+        "round_total_usd_m": 250,
+        "lead": "SoftBank Vision Fund 2",
+        "investing_entity": "Mubadala Capital",
+        "e_scooters_deployed": 60000,
+        "cities_operating": 80,
+        "countries_operating": 10,
+        "profitability_status": "Issuer claims profitable; accounting definition absent"
+      },
+      "interpretation": "Round announcement includes multiple existing investors; Mubadala Capital investor-specific ticket undisclosed; claimed profitability not independently audited.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-004",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Thoughtworks",
+      "event_family": "CONSORTIUM_SECONDARY_EQUITY_PLACEMENT",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2021-01-14",
+      "transaction_status_master": "ANNOUNCED_AS_INVESTED",
+      "source_primary_master": "https://www.thoughtworks.com/en-us/about-us/news/2021/private-placement",
+      "source_independent_master": "https://www.asiaasset.com/sovereign-wealth-funds/singapores-gic-uaes-mudabala-join-in-us720-million-software-firm-stake-buy/",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2021-JAN-004-S1",
+          "url": "https://www.thoughtworks.com/about-us/news/2021/private-placement",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2021-01-14"
+        }
+      ],
+      "metrics": {
+        "placement_total_usd_m": 720,
+        "reported_enterprise_value_usd_bn": 4.6,
+        "investors": [
+          "GIC",
+          "Siemens",
+          "Fidelity",
+          "Mubadala"
+        ],
+        "employees_more_than": 7000,
+        "country_count": 15,
+        "office_count": 46,
+        "use_of_proceeds": "Repurchase equity from existing investors (secondary)"
+      },
+      "interpretation": "Thoughtworks issuer says placement used to repurchase existing investors' stock, not solely growth capital on balance sheet; Mubadala allocation undisclosed.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-FEB-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "EDF Renewables eight-project US portfolio",
+      "event_family": "PROJECT_JV_PARTIAL_CLOSING",
+      "investing_entity_master": "Masdar",
+      "announcement_date_master": "2021-02-08",
+      "transaction_status_master": "FIRST_CLOSE_CONFIRMED",
+      "source_primary_master": "https://masdar.ae/en/news/newsroom/masdar-achieves-first-close-on-clean-energy-portfolio-in-united-states-from-edf-renewables",
+      "source_independent_master": "https://www.thenationalnews.com/business/energy/masdar-reaches-first-financial-close-on-acquisition-of-eight-renewables-projects-in-the-us-1.1162195",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2021-FEB-001-S1",
+          "url": "https://masdar.ae/en/news/newsroom/masdar-achieves-first-close-on-clean-energy-portfolio-in-united-states-from-edf-renewables",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2021-02-08"
+        }
+      ],
+      "metrics": {
+        "portfolio_reported_capacity_gw": 1.6,
+        "stake_pct": 50,
+        "number_of_projects": 8,
+        "wind_mw": 815,
+        "solar_mw": 689,
+        "battery_storage_mw": 75,
+        "actual_entity": "Masdar",
+        "closing_stage": "FIRST_CLOSE_2021_02_08"
+      },
+      "interpretation": "Masdar subsidiary 50% portfolio investment; original agreement in 2020; 2021 announcement is first completion milestone not new full 1.6GW independent deal. No investor-specific cash consideration.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-FEB-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "BetterUp",
+      "event_family": "SERIES_D_GROWTH_EQUITY",
+      "investing_entity_master": "Mubadala Capital",
+      "announcement_date_master": "2021-02-25",
+      "transaction_status_master": "ROUND_ANNOUNCED",
+      "source_primary_master": "https://www.betterup.com/press/betterup-raises-125-million-series-d-achieves-173-billion-valuation-and-expands-coaching-platform-with-betterup-care",
+      "source_independent_master": "https://news.bloomberglaw.com/private-equity/betterup-employee-wellness-startup-valued-at-1-73-billion",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2021-FEB-002-S1",
+          "url": "https://www.betterup.com/press/betterup-raises-125-million-series-d-achieves-173-billion-valuation-and-expands-coaching-platform-with-betterup-care",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2021-02-25"
+        }
+      ],
+      "metrics": {
+        "round_total_usd_m": 125,
+        "reported_company_valuation_usd_bn": 1.73,
+        "revenue_yoy_change_2020": "Issuer says revenue doubled, absolute value undisclosed",
+        "lead": "ICONIQ Growth",
+        "mubadala_entity": "Mubadala Capital"
+      },
+      "interpretation": "Company reported Series D and valuation; valuation basis and Mubadala individual amount unverified; revenue doubled is qualitative growth not numeric revenue.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-FEB-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Innovaccer",
+      "event_family": "SERIES_D_GROWTH_EQUITY",
+      "investing_entity_master": "Mubadala Capital",
+      "announcement_date_master": "2021-02-24",
+      "transaction_status_master": "ROUND_CLOSED_ISSUER_CONFIRMED",
+      "source_primary_master": "https://www.omersprivateequity.com/news/omers-growth-equity-announces-investment-in-innovaccer",
+      "source_independent_master": "https://innovaccer.com/blogs/innovaccer-ceo-manifesto-outline-building-a-platform-to-power-the-future-of-health",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2021-FEB-003-S1",
+          "url": "https://www.omersprivateequity.com/news/omers-growth-equity-announces-investment-in-innovaccer",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2021-02-24"
+        }
+      ],
+      "metrics": {
+        "round_total_usd_m": null,
+        "valuation_usd_bn": null,
+        "reported_participation": "Master lists Mubadala Capital as participating investor, source details require additional corroboration",
+        "funder_list_source": "OMERS Growth Equity announcement"
+      },
+      "interpretation": "Do not use unsupported third-party estimate for individual ticket; keep US$105m database round estimate unaccepted until issuer-period reconciliation.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-MAR-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Telegram",
+      "event_family": "PRE_IPO_CONVERTIBLE_DEBT",
+      "investing_entity_master": "Mubadala Disruptive Investments",
+      "announcement_date_master": "2021-03-23",
+      "transaction_status_master": "INVESTED",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-and-abu-dhabi-catalyst-partners-invest-150-million-social-media-platform-telegram",
+      "source_independent_master": null,
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2021-MAR-001-S1",
+          "url": "https://www.mubadala.com/en/news/mubadala-and-abu-dhabi-catalyst-partners-invest-150-million-social-media-platform-telegram",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2021-03-23"
+        },
+        {
+          "id": "GSI-2021-MAR-001-S2",
+          "url": "https://www.adcatalystpartners.com/news/mubadala-and-abu-dhabi-catalyst-partners-invest-150-million-in-social-media-platform-telegram",
+          "role": "CORROBORATION_OR_FOLLOWUP",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2021-03-23"
+        }
+      ],
+      "metrics": {
+        "mubadala_invested_usd_m": 75,
+        "abu_dhabi_catalyst_partners_invested_usd_m": 75,
+        "combined_total_usd_m": 150,
+        "term_years": 5,
+        "subscription_instrument": "5-year pre-IPO convertible bonds",
+        "mubadala_platform": "Disruptive Investments"
+      },
+      "interpretation": "Separate direct Mubadala $75m and Abu Dhabi Catalyst $75m; latter is separate investment even if strategic partnership. Investor release reports invested (not just proposed).",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-MAR-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Aldar Properties",
+      "event_family": "PARTIAL_STAKE_DIVESTMENT",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2021-03-31",
+      "transaction_status_master": "COMPLETED",
+      "source_primary_master": "https://www.mubadala.com/en/news/alpha-dhabi-holding-subsidiary-sublime-commercial-investment-acquires-aed-35-billion-strategic",
+      "source_independent_master": "https://www.aldar.com/en/news-and-media/alpha-dhabi-holding--subsidiary-sublime-commercial-investment-acquires-stake-in-aldar-from-mubadala",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI-2021-MAR-002-S1",
+          "url": "https://www.aldar.com/en/news-and-media/alpha-dhabi-holding--subsidiary-sublime-commercial-investment-acquires-stake-in-aldar-from-mubadala",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2021-03-31"
+        }
+      ],
+      "metrics": {
+        "stake_sold_pct": 12.21,
+        "shares_sold": 960000000,
+        "price_per_share_aed": 3.67,
+        "reported_sale_amount_aed_bn": 3.5,
+        "retained_stake_pct": 25,
+        "buyer": "Sublime Commercial Investment / Alpha Dhabi",
+        "status": "BLOCK_TRADE_COMPLETED_2021_03_31"
+      },
+      "interpretation": "Issuer and seller confirm 960m shares traded and Mubadala retains 25%; no cost basis/IRR reported, so sale value is not profit.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    },
+    {
+      "master_record_id": "GSI21M05-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Culligan International",
+      "event_family": "PE_CONTROL_BUYOUT_CO_INVESTMENT",
+      "investing_entity_master": "Mubadala Investment Company / Mubadala Capital as BDT co-investor",
+      "announcement_date_master": "2021-05-25",
+      "transaction_status_master": "ANNOUNCED_AGREEMENT_CLOSED_LATER",
+      "source_primary_master": "https://www.culligan.com/blog/culligan-international-announces-acquisition-by-bdt-capital-partners-from-advent-international-and-centerbridge-partners",
+      "source_independent_master": "https://www.mubadala.com/en/news/bdt-capital-partners-and-mubadala-strengthen-partnership-acquisition-culligan-international",
+      "source_checked_this_batch": [
+        {
+          "id": "GSI21M05-003-S1",
+          "url": "https://www.mubadala.com/en/news/bdt-capital-partners-and-mubadala-strengthen-partnership-acquisition-culligan-international",
+          "role": "PRIMARY_OR_PRIMARY_COUNTERPARTY",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2021-05-25"
+        },
+        {
+          "id": "GSI21M05-003-S2",
+          "url": "https://www.mubadala.com/en/news/Mubadala-investment-company-releases-2021-financial-results",
+          "role": "CORROBORATION_OR_FOLLOWUP",
+          "evidence_state": "PUBLIC_SOURCE_REPORTED",
+          "as_of_date": "2021-05-25"
+        }
+      ],
+      "metrics": {
+        "majority_sponsor": "BDT Capital Partners",
+        "mubadala_role": "Anchor co-investor, minority economic stake undisclosed",
+        "seller": "Advent International and Centerbridge",
+        "closed_on": "2021-08-02",
+        "global_brands_more_than": 35,
+        "countries_operating": 90,
+        "retrospective_mubadala_group_investment_aed_bn": 1.3,
+        "retrospective_source": "Mubadala 2021 financial results released 2022; not public at original May 2021 announcement"
+      },
+      "interpretation": "2021 Mubadala full-year financial results cite AED1.3bn capital invested in Culligan; closing confirmed Aug 2021. This is later fund disclosure, not contemporaneously public entry metric.",
+      "evidence_grade_master": "A",
+      "financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "net_debt": null,
+        "reported_valuation": null,
+        "reporting_period": null,
+        "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+        "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+      },
+      "status": "UNREVIEWED",
+      "evidence_gaps": [
+        "Audited financials or pre-announcement investor disclosure",
+        "Investor-specific ticket or stake if not disclosed above",
+        "Actual legal investor entity and funding settlement where not directly evidenced",
+        "Date and source state for historical strategy, macro and later outcome"
+      ],
+      "analysis_flags": [
+        "Transaction and fund-vehicle scope must be checked before cross-deal aggregation",
+        "Later events and annual results require hindsight label and must not leak into entry snapshot",
+        "Current mandate cannot be inferred from this event"
+      ]
+    }
+  ],
+  "quality": {
+    "record_count": 20,
+    "distinct_master_ids": 20,
+    "prior_overlap": 0,
+    "year_range": "2020–2021",
+    "full_financial_profiles": 0,
+    "context": "Quantitative deal terms and selected scale metrics recovered, not complete CFO-grade financials."
+  }
+}
