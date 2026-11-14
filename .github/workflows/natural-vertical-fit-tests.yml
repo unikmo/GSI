@@ -20,6 +20,8 @@ on:
       - 'tests/gsiFinal150Coverage.test.mjs'
       - 'tests/verifiedDossiersPilot.test.mjs'
       - 'tests/verifiedDossiersBatch02.test.mjs'
+      - 'tests/verifiedDossiersBatch03.test.mjs'
+      - 'research/verified_dossiers/gsi_three_lifecycle_cases_2026-11-15_batch03.json'
       - 'research/verified_dossiers/gsi_three_transaction_dossiers_2026-11-15_batch02.json'
       - 'research/verified_dossiers/gsi_four_transaction_dossiers_2026-11-15.json'
       - 'research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json'
