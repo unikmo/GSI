@@ -1,0 +1,246 @@
+{
+  "research_state": "UNREVIEWED",
+  "date_reviewed": "2026-11-14",
+  "sources": [
+    {
+      "id": "GR-EU-2026-05-13",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AC_202602659",
+      "publisher": "European Commission Official Journal",
+      "published": "2026-05-13",
+      "type": "REGULATORY_NOTIFICATION"
+    },
+    {
+      "id": "GR-MUB-2026-06-16",
+      "url": "https://www.mubadala.com/en/news/mubadala-partners-with-equitix-to-invest-in-greenlink",
+      "publisher": "Mubadala",
+      "published": "2026-06-16",
+      "type": "INVESTOR_CLAIM"
+    },
+    {
+      "id": "HS-ORSTED-2025-11-03",
+      "url": "https://orsted.com/en/media/news/2025/11/orsted-signs-agreement-to-divest-50-stake-in-horns-1465396411",
+      "publisher": "Ørsted",
+      "published": "2025-11-03",
+      "type": "COUNTERPARTY_SIGNING"
+    },
+    {
+      "id": "HS-ORSTED-2025-12-30",
+      "url": "https://orsted.com/en/media/news/2025/12/orsted-completes-divestment-of-50--stake-in-hornse-1473801111",
+      "publisher": "Ørsted",
+      "published": "2025-12-30",
+      "type": "COUNTERPARTY_CLOSING"
+    },
+    {
+      "id": "HS-MUB-2026-05-12",
+      "url": "https://www.mubadala.com/en/news/mubadala-invests-in-hornsea-3-offshore-wind-farm-alongside-consortium-led-by-apollo-funds",
+      "publisher": "Mubadala",
+      "published": "2026-05-12",
+      "type": "INVESTOR_CLAIM"
+    },
+    {
+      "id": "CF-ISSUER-2022-03-21",
+      "url": "https://cityfibre.com/news/mubadala-commits-further-300m-in-equity-to-cityfibre",
+      "publisher": "CityFibre",
+      "published": "2022-03-21",
+      "type": "INVESTEE_ANNOUNCEMENT"
+    },
+    {
+      "id": "CF-ACCOUNTS",
+      "url": "https://cityfibre.com/about-us/company-reports",
+      "publisher": "CityFibre",
+      "type": "COMPANY_FINANCIAL_ARCHIVE"
+    },
+    {
+      "id": "MB-2024-STRATEGY",
+      "url": "https://annual2024.mubadala.com/en/our-strategy/how-we-invest",
+      "publisher": "Mubadala",
+      "type": "FUND_STATED_STRATEGY"
+    }
+  ],
+  "cases": [
+    {
+      "master_record_id": "V1.6_CANDIDATES-006",
+      "legacy_id": "GSI-2026-006",
+      "investee": "Greenlink (Luxembourg) S.à.r.l.",
+      "event": "Mubadala acquisition of portion of Equitix stake",
+      "status": "INVESTOR_REPORTS_ACQUIRED_EU_PRIOR_NOTIFICATION_ONLY",
+      "amount": {
+        "value": 200,
+        "currency": "USD",
+        "unit": "millions",
+        "scope": "Mubadala stated investment / acquired stake value; cash settlement not evidenced independently"
+      },
+      "vehicle": {
+        "legal_name": "One Hundred and Twenty Seventh Investment RSC Ltd",
+        "parent": "Mubadala Investment Company PJSC",
+        "relation": "Indirectly controlled per EU official concentration notice",
+        "source_id": "GR-EU-2026-05-13"
+      },
+      "structure": {
+        "joint_control_reported": true,
+        "co_owners": [
+          "Equitix Holdings Limited",
+          "Baltic Cable AB (Statkraft-controlled)"
+        ],
+        "operating_capacity_mw": 504,
+        "interconnector": "Wales–Ireland",
+        "asset_company_revenue_model": "Congestion, balancing capacity and ancillary services per EU filing"
+      },
+      "chronology": [
+        {
+          "date": "2026-04-29",
+          "event": "Concentration notification received",
+          "status": "NOTIFIED",
+          "source_id": "GR-EU-2026-05-13"
+        },
+        {
+          "date": "2026-05-13",
+          "event": "Notice publicly issued; preliminary assessment only",
+          "status": "PRIOR_NOTIFICATION",
+          "source_id": "GR-EU-2026-05-13"
+        },
+        {
+          "date": "2026-06-16",
+          "event": "Investor release describes acquisition of US$200m of Equitix stake",
+          "status": "INVESTOR_REPORTED_ACQUIRED",
+          "source_id": "GR-MUB-2026-06-16"
+        }
+      ],
+      "quantitative_gaps": [
+        "Investee FY2025 revenue",
+        "EBITDA",
+        "FCF",
+        "regulated asset base",
+        "investor-specific funding settlement",
+        "percentage stake",
+        "debt",
+        "valuation multiple"
+      ],
+      "flags": [
+        "Master record announcement_date=2026-05-16 conflicts with release body dated June 16, 2026; do not overwrite master before review",
+        "EU prior notification does not by itself prove Commission clearance or actual cash settlement",
+        "Legal vehicle identity independently documented by EU regulator",
+        "Contemporaneous 2024 Mubadala strategy highlights real assets, infrastructure and energy security but does not prove transaction-specific motivation"
+      ],
+      "evidence_ids": [
+        "GR-EU-2026-05-13",
+        "GR-MUB-2026-06-16",
+        "MB-2024-STRATEGY"
+      ]
+    },
+    {
+      "master_record_id": "V1.6_CANDIDATES-007",
+      "legacy_id": "GSI-2026-007",
+      "investee": "Hornsea 3",
+      "event": "Mubadala investment alongside Apollo-led consortium",
+      "status": "MUBADALA_ANNOUNCED_INVESTMENT_SETTLEMENT_UNVERIFIED",
+      "amount": {
+        "value": 325,
+        "currency": "USD",
+        "unit": "millions",
+        "scope": "Mubadala-stated investment, not total project or Apollo joint venture consideration"
+      },
+      "structure": {
+        "capacity_gw": 2.9,
+        "developer": "Ørsted",
+        "ownership_context": "Apollo-managed funds bought 50% joint venture stake, Ørsted retained 50%; Mubadala subsequent consortium commitment not equivalent to 50% direct ownership"
+      },
+      "chronology": [
+        {
+          "date": "2025-11-03",
+          "event": "Ørsted agrees to transfer 50% JV stake to Apollo funds",
+          "status": "SIGNED",
+          "source_id": "HS-ORSTED-2025-11-03"
+        },
+        {
+          "date": "2025-12-30",
+          "event": "Ørsted confirms Apollo 50% stake sale completed",
+          "status": "CLOSED",
+          "source_id": "HS-ORSTED-2025-12-30"
+        },
+        {
+          "date": "2026-05-12",
+          "event": "Mubadala announces US$325m participation alongside Apollo-led consortium",
+          "status": "ANNOUNCED",
+          "source_id": "HS-MUB-2026-05-12"
+        }
+      ],
+      "wider_project": {
+        "reported_2025_transaction_value": {
+          "value": 39,
+          "currency": "DKK",
+          "unit": "billions",
+          "scope": "Apollo/Ørsted JV transaction value, NOT Mubadala commitment"
+        },
+        "project_investment_range_dkk_bn": [
+          70,
+          75
+        ]
+      },
+      "quantitative_gaps": [
+        "Mubadala's economic stake in consortium",
+        "Committed vs paid funding schedule",
+        "project level cash flow and return assumptions",
+        "construction cost allocations",
+        "project debt and expected IRR",
+        "legal vehicle"
+      ],
+      "evidence_ids": [
+        "HS-ORSTED-2025-11-03",
+        "HS-ORSTED-2025-12-30",
+        "HS-MUB-2026-05-12",
+        "MB-2024-STRATEGY"
+      ],
+      "flags": [
+        "Do not attribute the Apollo 50% JV stake or DKK39bn total consideration to Mubadala",
+        "Project financed before operation: pre-announcement EBITDA not appropriate",
+        "No statement here confirms 2026 Mubadala capital paid; treat investor release as announcement"
+      ]
+    },
+    {
+      "master_record_id": null,
+      "legacy_id": null,
+      "link_state": "CHECK_MASTER_FOR_2022_ENTRY",
+      "investee": "CityFibre",
+      "event": "Mubadala follow-on equity commitment",
+      "status": "ISSUER_ANNOUNCED_COMMITMENT",
+      "amount": {
+        "value": 300,
+        "currency": "GBP",
+        "unit": "millions",
+        "scope": "Mubadala-specific equity commitment, not independently verified cash settlement"
+      },
+      "chronology": [
+        {
+          "date": "2022-03-21",
+          "event": "CityFibre says existing shareholder Mubadala committed further £300m; total recent financing >£1.4bn",
+          "status": "COMMITTED_REPORTED",
+          "source_id": "CF-ISSUER-2022-03-21"
+        }
+      ],
+      "historical_policy_context": {
+        "issuer_claim": "UK Project Gigabit programme and Levelling Up agenda",
+        "source_id": "CF-ISSUER-2022-03-21",
+        "causal_interpretation": "Company describes policy relevance; no independent evidence this policy caused fund commitment"
+      },
+      "quantitative_gaps": [
+        "2021 investee revenue",
+        "2021 EBITDA",
+        "2021 net debt",
+        "actual paid in capital and date",
+        "pre/post commitment shareholding",
+        "precise investor vehicle",
+        "2021 ownership cap table"
+      ],
+      "flags": [
+        "Potential follow-on to existing holding; do not treat 2022 commitment as a new 2026 funding tranche",
+        "Company accounts archive can provide audited historical metrics once periods and accounts reviewed",
+        "Standalone master match unresolved, cannot invent master ID"
+      ],
+      "evidence_ids": [
+        "CF-ISSUER-2022-03-21",
+        "CF-ACCOUNTS"
+      ]
+    }
+  ]
+}
