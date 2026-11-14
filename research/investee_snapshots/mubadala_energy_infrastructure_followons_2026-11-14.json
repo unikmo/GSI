@@ -76,6 +76,34 @@
       "publisher": "CityFibre Infrastructure Holdings Limited",
       "published": null,
       "type": "AUDITED_FINANCIAL_REPORT_PUBLICATION_DATE_UNVERIFIED"
+    },
+    {
+      "id": "BOE-2022-03-17",
+      "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2022/march-2022",
+      "publisher": "Bank of England",
+      "published": "2022-03-17",
+      "type": "OFFICIAL_CENTRAL_BANK_DECISION"
+    },
+    {
+      "id": "ONS-CPI-2022-01",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/january2022",
+      "publisher": "ONS",
+      "published": "2022-02-16",
+      "type": "OFFICIAL_STATISTICS_PUBLIC_BEFORE_ANNOUNCEMENT"
+    },
+    {
+      "id": "ONS-CPI-2022-02",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/february2022",
+      "publisher": "ONS",
+      "published": "2022-03-23",
+      "type": "OFFICIAL_STATISTICS_PUBLISHED_AFTER_ANNOUNCEMENT"
+    },
+    {
+      "id": "UK-UAE-STRATEGY-2021-09-16",
+      "url": "https://www.gov.uk/government/news/uae-to-invest-10-billion-in-priority-uk-industries",
+      "publisher": "UK Government",
+      "published": "2021-09-16",
+      "type": "OFFICIAL_BILATERAL_STRATEGY_ANNOUNCEMENT"
     }
   ],
   "cases": [
@@ -274,7 +302,11 @@
         "CF-ACCOUNTS",
         "CF-2021-ACCOUNTS-2022-04-22",
         "CF-2022-ACCOUNTS-2023-05-23",
-        "CF-2020-ACCOUNTS"
+        "CF-2020-ACCOUNTS",
+        "BOE-2022-03-17",
+        "ONS-CPI-2022-01",
+        "ONS-CPI-2022-02",
+        "UK-UAE-STRATEGY-2021-09-16"
       ],
       "funding_reconciliation": {
         "announced_commitment_gbp_millions": 300,
@@ -328,7 +360,50 @@
           "source_id": "CF-2021-ACCOUNTS-2022-04-22",
           "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21"
         }
-      ]
+      ],
+      "macro_strategy_snapshot": {
+        "as_of": "2022-03-21",
+        "strategy_document": {
+          "date": "2021-09-16",
+          "source_id": "UK-UAE-STRATEGY-2021-09-16",
+          "description": "UK-UAE Sovereign Investment Partnership expanded to infrastructure, energy transition and technology; announced framework £10bn over five years, NOT confirmed invested capital",
+          "assessment": "CityFibre digital infrastructure category consistent with announced infrastructure direction; exact investment motivation not independently established"
+        },
+        "observations": [
+          {
+            "metric": "bank_rate",
+            "value": 0.75,
+            "unit": "percent",
+            "effective": "2022-03-17",
+            "known_on": "2022-03-17",
+            "source_id": "BOE-2022-03-17",
+            "temporal_state": "PUBLIC_AT_ANNOUNCEMENT",
+            "causal_inference": "UNKNOWN"
+          },
+          {
+            "metric": "UK_CPI_January_2022_YOY",
+            "value": 5.5,
+            "unit": "percent",
+            "observation_month": "2022-01",
+            "known_on": "2022-02-16",
+            "source_id": "ONS-CPI-2022-01",
+            "temporal_state": "PUBLIC_AT_ANNOUNCEMENT",
+            "causal_inference": "UNKNOWN"
+          },
+          {
+            "metric": "UK_CPI_February_2022_YOY",
+            "value": 6.2,
+            "unit": "percent",
+            "observation_month": "2022-02",
+            "known_on": "2022-03-23",
+            "source_id": "ONS-CPI-2022-02",
+            "temporal_state": "NOT_PUBLIC_AT_ANNOUNCEMENT",
+            "causal_inference": "UNKNOWN"
+          }
+        ],
+        "analytical_state": "STRATEGY_CATEGORY_CONSISTENT_TRANSACTION_CAUSALITY_UNVERIFIED",
+        "outreach_question": "What publicly confirmable elements of the UK-UAE Sovereign Investment Partnership mandate motivated the March 2022 CityFibre follow-on, and how did rising interest rates affect commitment versus the Q1 2023 cash contribution?"
+      }
     }
   ]
 }
