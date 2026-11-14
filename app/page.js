@@ -19,7 +19,7 @@ export default async function Home() {
       {rows.length > 0 && (
         <ul>{rows.map((r) => <li key={r.master_record_id}><a href={`/record/${encodeURIComponent(r.master_record_id)}`}>{r.master_record_id}</a>: {r.investor_group}, {r.target_or_event}</li>)}</ul>
       )}
-      <p><a href="/api/health">/api/health</a></p>
+      <p><a href="/coverage">Coverage register</a> | <a href="/api/health">/api/health</a></p>
     </main>
   );
 }
