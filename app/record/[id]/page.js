@@ -21,6 +21,9 @@ export default async function Record({ params }) {
       <h1>{recordId}</h1>
       <p><strong>Structure test only.</strong> Data is unreviewed and not decision-grade. Research, not investment advice.</p>
       {note && <p>{note}</p>}
+      {row && row.record_integrity_state === 'PROPOSED_UNVERIFIED' && (
+        <p><strong>Proposed and unverified.</strong> This record is not founder-approved for the master. Claims are not confirmed, and it must not be cited as a verified event.</p>
+      )}
       {row && (
         <>
           <p>{Object.keys(row).length} fields. A blank value means not recorded, not zero.</p>

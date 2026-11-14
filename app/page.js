@@ -2,13 +2,17 @@ import { getClient } from '../lib/supabase';
 
 export const dynamic = 'force-dynamic';
 
-export default async function Home() {
+export default async function Home({ searchParams }) {
+  const sp = (await searchParams) || {};
+  const proposedView = sp.view === 'proposed';
   const db = getClient();
   let status = 'Not configured: set the two Supabase variables.';
   let rows = [];
   let total = null, proposed = null;
   if (db) {
-    const { data, error } = await db.from('gsi_master_full').select('master_record_id, investor_group, target_or_event').limit(5);
+    let q = db.from('gsi_master_full').select('master_record_id, investor_group, target_or_event, record_integrity_state');
+    q = proposedView ? q.eq('record_integrity_state', 'PROPOSED_UNVERIFIED').order('master_record_id').limit(200) : q.neq('record_integrity_state', 'PROPOSED_UNVERIFIED').limit(5);
+    const { data, error } = await q;
     if (error) status = `Connected, but query failed: ${error.message}`;
     else { status = 'Connected to Supabase.'; rows = data; }
     const a = await db.from('gsi_master_full').select('master_record_id', { count: 'exact', head: true });
@@ -24,6 +28,7 @@ export default async function Home() {
       {rows.length > 0 && (
         <ul>{rows.map((r) => <li key={r.master_record_id}><a href={`/record/${encodeURIComponent(r.master_record_id)}`}>{r.master_record_id}</a>: {r.investor_group}, {r.target_or_event}</li>)}</ul>
       )}
+      <p>{proposedView ? <a href="/">Show a sample of the v9.6 records</a> : <a href="/?view=proposed">Show the proposed, unverified records</a>}</p>
       <p><a href="/coverage">Coverage register</a> | <a href="/api/health">/api/health</a></p>
     </main>
   );
