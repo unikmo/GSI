@@ -29,3 +29,16 @@ test('CI Financial distinguishes IFRS and adjusted metrics and leverage',()=>{
  assert.equal(xs.find(x=>x.field==='net_leverage_ratio').value,3.3);
  assert.ok(xs.every(x=>pilot.sources.some(s=>s.id===x.source_id)));
 });
+
+
+test('macro evidence respects what was published by the March 2022 decision date',()=>{
+ const snap=city.macro_strategy_snapshot;
+ assert.equal(snap.as_of,'2022-03-21');
+ const before=snap.observations.filter(x=>x.temporal_state==='PUBLIC_AT_ANNOUNCEMENT');
+ assert.ok(before.length>=2);
+ for(const x of before)assert.ok(x.known_on<=snap.as_of);
+ const later=snap.observations.find(x=>x.metric==='UK_CPI_February_2022_YOY');
+ assert.equal(later.known_on,'2022-03-23');
+ assert.equal(later.temporal_state,'NOT_PUBLIC_AT_ANNOUNCEMENT');
+ assert.equal(snap.analytical_state,'STRATEGY_CATEGORY_CONSISTENT_TRANSACTION_CAUSALITY_UNVERIFIED');
+});
