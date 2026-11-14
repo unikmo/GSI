@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { assessNaturalVerticalFit, rankNaturalVerticalFits } from '../lib/naturalVerticalFit.mjs';
 const opportunity = {id:'op-1',sector:'Digital infrastructure',geography:'Germany',stage:'Growth',instrument:'Equity',ticketAmount:150};
 const investor = {
- id:'fund-1',sectors:['Digital infrastructure'],geographys:['Germany'],stages:['Growth'],
+ id:'fund-1',sectors:['Digital infrastructure'],geographies:['Germany'],stages:['Growth'],
  instruments:['Equity'],ticketMin:100,ticketMax:200,
  mandate:{status:'active_verified',verifiedAt:'2026-09-01',validUntil:'2026-12-31',sourceEvidenceId:'ev1'},
  evidence:[{id:'ev1',sourceUrl:'https://example.org/source',asOfDate:'2026-09-01',grade:'verified_primary'}]
