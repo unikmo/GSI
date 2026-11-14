@@ -17,10 +17,10 @@ test('financial statements signed after March 2022 cannot be contemporaneous evi
   assert.ok(later.every(x=>x.data_state==='LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21'));
   for(const x of later) assert.equal(cityData.sources.find(s=>s.id===x.source_id).published,'2022-09-26');
 });
-test('historic revenues and operating losses use units, no invented EBITDA',()=>{
+test('historic revenues and operating losses use units, sourced EBITDA',()=>{
   assert.equal(city.historical_financials.find(x=>x.fiscal_year===2020&&x.metric==='revenue').value,63.132);
   assert.equal(city.historical_financials.find(x=>x.metric==='operating_loss').value,-113.589);
-  assert.equal(city.historical_financials.some(x=>x.metric==='ebitda'),false);
+  assert.equal(city.historical_financials.find(x=>x.metric==='ebitda').value,-60.535);
 });
 test('CI Financial distinguishes IFRS and adjusted metrics and leverage',()=>{
  const xs=ci.company_snapshot.disclosures;
