@@ -1,0 +1,767 @@
+{
+  "batch_id": "MUBADALA_BATCH_03_20_2026-11-15",
+  "prior_batches": [
+    "MUBADALA_20_2026-11-14",
+    "MUBADALA_BATCH_02_20_2026-11-14"
+  ],
+  "prepared_on": "2026-11-15",
+  "status": "UNREVIEWED_NOT_DECISION_GRADE",
+  "methodology": "20 further distinct exact-name Mubadala master rows, selected 2021–2024, researched against original investor/issuer sources with source and time qualifier. Includes two macro-strategy/fund platform records for denominator exclusions. No invented EBITDA, direct investor cash or fund strategic motive.",
+  "records": [
+    {
+      "master_record_id": "GSI21J06-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "wefox",
+      "investment_family": "VENTURE_SERIES_C",
+      "master_investing_entity": "Mubadala Capital",
+      "master_announcement_date": "2021-06-01",
+      "master_transaction_status": "ROUND_ANNOUNCED",
+      "master_inclusion_decision": "CORE_PROVISIONAL",
+      "source_master": "https://www.wefox.com/press/wefox-schliesst-series-c-finanzierung-in-hoehe-von-650-mio-usd-ab",
+      "source_secondary_master": "https://www.taylorwessing.com/en/insights-and-events/news/media-centre/press-releases/2021/06/taylor-wessing-begleitet-omers-ventures-bei-650-millionen-us-dollar-finanzierungsrunde-in-wefox",
+      "additional_source_urls": [
+        "https://www.wefox.com/press/wefox-schliesst-series-c-finanzierung-in-hoehe-von-650-mio-usd-ab"
+      ],
+      "quantitative_findings": {
+        "round_total_usd_m": 650,
+        "post_money_valuation_usd_bn": 3,
+        "fy2020_revenue_usd_m": 143,
+        "fy2020_revenue_basis": "Company reported revenue (not independently audited)",
+        "profitability_note": "Company reports first profit in its wefox Insurance unit, not group profitability"
+      },
+      "verification_caveat": "Mubadala Capital was EXISTING participant; no separately disclosed investor-specific 2021 subscription.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI21J06-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Flink",
+      "investment_family": "VENTURE_SERIES_A",
+      "master_investing_entity": "Mubadala Capital",
+      "master_announcement_date": "2021-06-04",
+      "master_transaction_status": "ROUND_ANNOUNCED",
+      "master_inclusion_decision": "CORE_PROVISIONAL",
+      "source_master": "https://www.taylorwessing.com/en/insights-and-events/news/media-centre/press-releases/2021/06/taylor-wessing-beraet-flink-se-bei-240-millionen-us-dollar-series-a-finanzierungsrunde",
+      "source_secondary_master": null,
+      "additional_source_urls": [
+        "https://www.taylorwessing.com/en/insights-and-events/news/media-centre/press-releases/2021/06/taylor-wessing-beraet-flink-se-bei-240-millionen-us-dollar-series-a-finanzierungsrunde"
+      ],
+      "quantitative_findings": {
+        "round_total_usd_m": 240,
+        "fulfilment_centres": 50,
+        "cities_operating": 18,
+        "investor_specific_amount": null
+      },
+      "verification_caveat": "Law-firm confirmation of company financing and Mubadala Capital co-lead; not individual payment, signed rounds or audited revenue.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI21J06-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Getir",
+      "investment_family": "VENTURE_SERIES_D",
+      "master_investing_entity": "Mubadala Investment Company",
+      "master_announcement_date": "2021-06-04",
+      "master_transaction_status": "ROUND_COMPLETED_AS_ANNOUNCED",
+      "master_inclusion_decision": "CORE_PROVISIONAL",
+      "source_master": "https://landing-cms-frontend.development.getirapi.com/press-releases/getir-latest-funding-round-valuing-the-company-at-over-7-5-billion/",
+      "source_secondary_master": "https://www.silverlake.com/getir-is-streets-ahead-following-latest-funding-round-valuing-the-company-at-over-7-5bn/",
+      "additional_source_urls": [
+        "https://www.invest.gov.tr/en/news/news-from-turkey/pages/turkish-rapid-delivery-startup-getir-triples-valuation-usd-7-5-billion.aspx",
+        "https://www.rothschildandco.com/en-us/newsroom/insights/2024/05/ga_growth_equity_update_edition_26/"
+      ],
+      "quantitative_findings": {
+        "round_total_usd_m": 550,
+        "reported_post_money_valuation_usd_bn": 7.5,
+        "participating_gulf_entities": [
+          "Mubadala",
+          "DisruptAD"
+        ],
+        "individual_ticket": null
+      },
+      "verification_caveat": "Mubadala and DisruptAD are distinct reported investors. Retrospective 2024 analysis cannot be substituted for publicly known June 2021 evidence.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI21J06-005",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Waymo June 2021",
+      "investment_family": "FOLLOW_ON_GROWTH_EQUITY",
+      "master_investing_entity": "Mubadala Investment Company",
+      "master_announcement_date": "2021-06-16",
+      "master_transaction_status": "ROUND_COMPLETED",
+      "master_inclusion_decision": "CORE_PROVISIONAL",
+      "source_master": "https://waymo.com/blog/2021/06/transforming-mobility-with-confidence-of-world-class-investors/",
+      "source_secondary_master": "https://abc.xyz/assets/e6/18/fda020af47f0ae9d3058381cef2d/2021-q3-alphabet-10q.pdf",
+      "additional_source_urls": [
+        "https://waymo.com/blog/2021/06/transforming-mobility-with-confidence-of-world-class-investors/"
+      ],
+      "quantitative_findings": {
+        "round_total_usd_m": 2500,
+        "company_claim_road_miles": "tens of millions",
+        "company_claim_cities": 25,
+        "investor_specific_ticket": null
+      },
+      "verification_caveat": "Second external round and different milestone from March 2020 entry; individual investment and financials undisclosed.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI21J07-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Certara Inc.",
+      "investment_family": "SECONDARY_SHARE_TRANSACTION",
+      "master_investing_entity": "Mubadala Investment Company affiliate",
+      "master_announcement_date": "2021-07-27",
+      "master_transaction_status": "SIGNED_PENDING_AUGUST_CLOSING",
+      "master_inclusion_decision": "CORE_PROVISIONAL",
+      "source_master": "https://www.sec.gov/Archives/edgar/data/1827090/000110465921096373/tm2123444d1_8k.htm",
+      "source_secondary_master": "https://ir.certara.com/node/7501/pdf",
+      "additional_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1827090/000110465921096373/tm2123444d1_8k.htm"
+      ],
+      "quantitative_findings": {
+        "stake_acquired_pct": null,
+        "amount_paid": null
+      },
+      "verification_caveat": "Public 8-K linked in master, but specific Mubadala share count and economic settlement require document-level extraction; do not infer cash commitment.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI21J07-005",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Flipkart",
+      "investment_family": "GROWTH_EQUITY_FINANCING_ATTRIBUTION_HOLD",
+      "master_investing_entity": "DisruptAD (Mubadala venture platform)",
+      "master_announcement_date": "2021-07-12",
+      "master_transaction_status": "COMPLETED_JULY_PER_WALMART_10Q",
+      "master_inclusion_decision": "CORE_PROVISIONAL",
+      "source_master": "https://corporate.walmart.com/news/2021/07/12/flipkart-raises-us-3-6-billion-in-funding-to-accelerate-the-growth-of-the-consumer-internet-ecosystem-in-india",
+      "source_secondary_master": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-21-000058/wmt-20210731.htm",
+      "additional_source_urls": [
+        "https://corporate.walmart.com/news/2021/07/12/flipkart-raises-us-3-6-billion-in-funding-to-accelerate-the-growth-of-the-consumer-internet-ecosystem-in-india"
+      ],
+      "quantitative_findings": {
+        "total_round_usd_m": 3600,
+        "company_post_money_valuation_usd_bn": 37.6,
+        "reported_investor": "DisruptAD",
+        "direct_mubadala_attribution": "NOT_VERIFIED_FROM_ISSUER_RELEASE"
+      },
+      "verification_caveat": "CRITICAL: Original GSI group Mubadala but issuer names DisruptAD; do not reassign to sovereign parent without exact legal attribution or count as proven Mubadala direct cheque.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "SOURCE_REVIEW_REQUIRED",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI21J07-009",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Yahsat IPO divestment",
+      "investment_family": "IPO_SECONDARY_DIVESTMENT",
+      "master_investing_entity": "Mamoura Diversified Global Holding PJSC",
+      "master_announcement_date": "2021-07-14",
+      "master_transaction_status": "COMPLETED_LISTED_2021_07_14",
+      "master_inclusion_decision": "DOMESTIC_GULF",
+      "source_master": "https://space42.ai/en/press-release/2021/mubadala-owned-yahsat-announces-ipo-final-offer-price/",
+      "source_secondary_master": "https://www.mediaoffice.abudhabi/en/technology/mubadala-owned-yahsat-successfully-commences-trading-on-adx/",
+      "additional_source_urls": [
+        "https://space42.ai/en/press-release/2021/mubadala-owned-yahsat-announces-ipo-final-offer-price/",
+        "https://www.mediaoffice.abudhabi/en/technology/mubadala-owned-yahsat-successfully-commences-trading-on-adx/"
+      ],
+      "quantitative_findings": {
+        "shares_sold": 975908106,
+        "stake_sold_pct": 40,
+        "offer_price_aed_per_share": 2.75,
+        "seller_reported_proceeds_aed_bn": 2.68,
+        "retained_stake_pct": 60,
+        "implied_post_offer_market_cap_aed_bn": 6.7
+      },
+      "verification_caveat": "Secondary shares sold by Mubadala; IPO is NOT cash raised by Yahsat. Cost basis and realised gains undisclosed.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI21D12-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Medallia",
+      "investment_family": "SPONSOR_COINVESTMENT",
+      "master_investing_entity": "Mubadala Investment Company",
+      "master_announcement_date": "2021-12-15",
+      "master_transaction_status": "ANNOUNCED_2021_12_15_PRIOR_TAKE_PRIVATE_CLOSED_OCT29",
+      "master_inclusion_decision": "CORE_PROVISIONAL",
+      "source_master": "https://www.mubadala.com/en/news/mubadala-invests-alongside-thoma-bravo-medallia-leading-us-based-experience-management-software",
+      "source_secondary_master": "https://www.tradearabia.com/News/257977/Mubadala-invests-alongside-Thoma-Bravo-in-Medallia",
+      "additional_source_urls": [
+        "https://www.mubadala.com/en/news/mubadala-invests-alongside-thoma-bravo-medallia-leading-us-based-experience-management-software"
+      ],
+      "quantitative_findings": {
+        "thoma_bravo_aggregate_take_private_usd_bn": 6.4,
+        "thoma_bravo_close_date": "2021-10-29",
+        "mubadala_co_investment_announcement_date": "2021-12-15"
+      },
+      "verification_caveat": "US$6.4bn aggregate Thoma Bravo deal is NOT Mubadala cheque; fund announcement post-dates acquisition close.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI22M05-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Salesloft",
+      "investment_family": "SPONSOR_MINORITY_COINVESTMENT",
+      "master_investing_entity": "Mubadala Investment Company alongside Vista Equity Partners",
+      "master_announcement_date": "2022-05-10",
+      "master_transaction_status": "ANNOUNCED_2022_05_10_PRIOR_ACQUISITION_DEC_2021",
+      "master_inclusion_decision": "CORE_VERIFIED_PARTICIPATION_DATE_HOLD",
+      "source_master": "https://www.mubadala.com/en/news/mubadala-invests-alongside-vista-equity-partners-salesloft",
+      "source_secondary_master": "https://www.thenationalnews.com/business/technology/2022/05/10/mubadala-teams-up-with-frances-engie-to-develop-ev-charging-platform-in-the-uae/",
+      "additional_source_urls": [
+        "https://www.mubadala.com/en/news/mubadala-invests-alongside-vista-equity-partners-salesloft"
+      ],
+      "quantitative_findings": {
+        "vista_majority_transaction_usd_bn": 2.3,
+        "customers_approximately": 4000,
+        "annual_recurring_revenue_usd_m_more_than": 100,
+        "arr_reference_date": "2021-mid-year",
+        "company_projected_2022_revenue_growth_pct": 50
+      },
+      "verification_caveat": "US$2.3bn Vista transaction value not Mubadala cheque; >US$100m ARR is run-rate indicator, not audited revenue; 50% is forecast.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI22O10-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Skyborn Renewables",
+      "investment_family": "OFFSHORE_WIND_COINVESTMENT",
+      "master_investing_entity": "Mubadala Investment Company with GIP",
+      "master_announcement_date": "2022-10-28",
+      "master_transaction_status": "ANNOUNCED_2022_10_28",
+      "master_inclusion_decision": "CORE_VERIFIED_CONSORTIUM_PARTICIPATION",
+      "source_master": "https://www.mediaoffice.abudhabi/en/energy/mubadala-invests-in-worlds-largest-private-offshore-wind-energy-developer/",
+      "source_secondary_master": "https://annual2022.mubadala.com/en/news/mubadala-invests-in-worlds-largest-private-offshore-wind-energy-developer",
+      "additional_source_urls": [
+        "https://www.mediaoffice.abudhabi/en/energy/mubadala-invests-in-worlds-largest-private-offshore-wind-energy-developer/",
+        "https://www.pif.gov.sa/en/news-and-insights/press-releases/2022/skyborn-renewables/"
+      ],
+      "quantitative_findings": {
+        "global_infrastructure_partners_acquired_interest_pct": 100,
+        "mubadala_individual_stake_pct": null,
+        "developer_capacity_track_record_gw_over": 7,
+        "markets_over": 15,
+        "other_sovereign_investor": "PIF acquired up to 9.5% in separate Dec 2022 transaction"
+      },
+      "verification_caveat": "100% refers to GIP + co-investors combined acquisition; PIF's December up-to-9.5% must NOT be allocated to Mubadala.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI22N11-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "AirCarbon Exchange",
+      "investment_family": "STRATEGIC_MINORITY_EQUITY",
+      "master_investing_entity": "Mubadala Investment Company",
+      "master_announcement_date": "2022-11-21",
+      "master_transaction_status": "COMPLETED_CONFIRMED_2022_11_21",
+      "master_inclusion_decision": "CORE_CONFIRMED_DOMESTIC_ACQUISITION",
+      "source_master": "https://www.mubadala.com/en/news/mubadala-acquires-stake-worlds-first-fully-regulated-carbon-exchange",
+      "source_secondary_master": "https://www.mubadala.com/en/news/acx-announces-key-trades",
+      "additional_source_urls": [
+        "https://www.mubadala.com/en/news/mubadala-acquires-stake-worlds-first-fully-regulated-carbon-exchange"
+      ],
+      "quantitative_findings": {
+        "stake_pct": null,
+        "investor_ticket": null
+      },
+      "verification_caveat": "Company stake announced; carbon marketplace strategic exposure not proof of carbon credits purchased or fund returns.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI22D12-005",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Al Maryah Tower",
+      "investment_family": "JOINT_REAL_ESTATE_ACQUISITION",
+      "master_investing_entity": "Mubadala / Aldar Properties",
+      "master_announcement_date": "2022-12-14",
+      "master_transaction_status": "ANNOUNCED_2022_12_14",
+      "master_inclusion_decision": "CORE_VERIFIED_JOINT_ACQUISITION_AMOUNT_UNSPLIT",
+      "source_master": "https://www.aldar.com/en/news-and-media/aldar-and-mubadala-partner-to-acquire-grade-a-office-to-tower-on-al-maryah-island",
+      "source_secondary_master": null,
+      "additional_source_urls": [
+        "https://www.aldar.com/en/news-and-media/aldar-and-mubadala-partner-to-acquire-grade-a-office-to-tower-on-al-maryah-island"
+      ],
+      "quantitative_findings": {
+        "mubadala_specific_value": null,
+        "partnership": "Aldar-Mubadala",
+        "property_valuation": null
+      },
+      "verification_caveat": "JV property acquisition; not full operating-company investment; joint purchase value needs verified scope.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI23J01-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Resilience biopharma UAE",
+      "investment_family": "EQUITY_AND_FACILITY_PARTNERSHIP",
+      "master_investing_entity": "Mubadala Investment Company / National Resilience",
+      "master_announcement_date": "2023-01-10",
+      "master_transaction_status": "EQUITY_INVESTMENT_AND_PARTNERSHIP_ANNOUNCED",
+      "master_inclusion_decision": "CORE_CONFIRMED_EQUITY_AMOUNT_UNDISCLOSED",
+      "source_master": "https://www.mediaoffice.abudhabi/en/health/mubadala-and-resilience-partner-to-develop-and-advance-biopharma-manufacturing-in-UAE/",
+      "source_secondary_master": "https://www.mubadala.com/en/what-we-do/uae-investment-platform",
+      "additional_source_urls": [
+        "https://www.mediaoffice.abudhabi/en/health/mubadala-and-resilience-partner-to-develop-and-advance-biopharma-manufacturing-in-UAE/"
+      ],
+      "quantitative_findings": {
+        "mubadala_direct_equity_ticket": null,
+        "facility_capex": null,
+        "company": "National Resilience"
+      },
+      "verification_caveat": "Company equity and prospective UAE biomanufacturing facility are analytically separate; do not equate partnership with completed factory or funded capex.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M04-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Diaverum",
+      "investment_family": "M42_SUBSIDIARY_ACQUISITION",
+      "master_investing_entity": "M42 (G42 Healthcare + Mubadala Health)",
+      "master_announcement_date": "2023-04-19",
+      "master_transaction_status": "ANNOUNCED_ACQUISITION_PENDING_APPROVAL",
+      "master_inclusion_decision": "CORE_M42_SUBSIDIARY_DEAL_NOT_DIRECT_MUBADALA_CHEQUE",
+      "source_master": "https://m42.ae/media-resources/news/m42-acquires-diaverum-world-s-3rd-largest-dialysis-provider/",
+      "source_secondary_master": "https://www.marketscreener.com/news/latest/Mubadala-backed-M42-buys-Bridgepoint-s-dialysis-firm-Diaverum-43537348/",
+      "additional_source_urls": [
+        "https://www.mubadala.com/en/news/m42-acquires-diaverum-worlds-3rd-largest-dialysis-provider",
+        "https://m42.ae/media-resources/news/m42-acquires-diaverum-world-s-3rd-largest-dialysis-provider/"
+      ],
+      "quantitative_findings": {
+        "acquirer": "M42",
+        "clinics_at_announcement": 440,
+        "countries_at_announcement": 23,
+        "employees_more_than": 13000,
+        "patients_approximately": 39000,
+        "reported_later_acquisition_consideration_usd_m": 1245.74,
+        "reported_later_effective_acquisition_date": "2023-04-11"
+      },
+      "verification_caveat": "M42 is the acquirer, NOT a directly identified Mubadala cash cheque. US$1.24574bn consideration is from a later audited M42 filing: publication availability at announcement unproven; do not use as contemporaneous figure.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M04-004",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "M42 formation",
+      "investment_family": "INTRAGROUP_HEALTHCARE_EQUITY_SWAP",
+      "master_investing_entity": "Mubadala Health and G42 Healthcare",
+      "master_announcement_date": "2023-04-17",
+      "master_transaction_status": "FORMATION_ANNOUNCED",
+      "master_inclusion_decision": "CORE_SUBSIDIARY_REORGANISATION_NO_NEW_EXTERNAL_CAPITAL",
+      "source_master": "https://www.mubadala.com/en/news/g42-and-mubadala-announce-the-launch-of-m42",
+      "source_secondary_master": "https://www.wam.ae/en/article/hszrgvzt-g42-and-mubadala-announce-launch-m42",
+      "additional_source_urls": [
+        "https://www.mubadala.com/en/news/g42-and-mubadala-announce-the-launch-of-m42"
+      ],
+      "quantitative_findings": {
+        "mubadala_health_ownership_in_m42_pct": 45,
+        "g42_health_ownership_in_m42_pct": 55,
+        "transaction_type": "equity contributions of existing businesses"
+      },
+      "verification_caveat": "Equity swap and platform creation not an external direct cash deployment; reported 45/55 split from retrospective M42 statutory accounts, not necessarily publicly available April 2023.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M09-004",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Getir follow-on 2023",
+      "investment_family": "FOLLOW_ON_EQUITY_FINANCING",
+      "master_investing_entity": "Mubadala Investment Company",
+      "master_announcement_date": "2023-09-08",
+      "master_transaction_status": "ROUND_REPORTED_SEPTEMBER_2023",
+      "master_inclusion_decision": "CORE_NEW_PROVISIONAL",
+      "source_master": "https://www.rothschildandco.com/en-us/newsroom/insights/2024/05/ga_growth_equity_update_edition_26/",
+      "source_secondary_master": "https://www.cbinsights.com/company/getir/financials",
+      "additional_source_urls": [
+        "https://www.rothschildandco.com/en-us/newsroom/insights/2024/05/ga_growth_equity_update_edition_26/"
+      ],
+      "quantitative_findings": {
+        "later_valuation_reduction": "Reported 2023 down round (verify exact funding and investor attribution)",
+        "mubadala_individual_ticket": null
+      },
+      "verification_caveat": "Only 2024 retrospective analytical source in master; not certified as Mubadala 2023 cash participation without contemporary company evidence. Flag heightened source risk.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M11-006",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Starz Orion pan-European special situations",
+      "investment_family": "SPECIAL_SITUATIONS_FUND_ANCHOR_COMMITMENT",
+      "master_investing_entity": "Mubadala Investment Company",
+      "master_announcement_date": "2023-11-22",
+      "master_transaction_status": "FUND_LAUNCH_ANNOUNCEMENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_master": "https://www.mubadala.com/en/news/starz-to-launch-a-new-special-situations-fund-with-investment-from-mubadala",
+      "source_secondary_master": null,
+      "additional_source_urls": [
+        "https://www.mubadala.com/en/news/starz-to-launch-a-new-special-situations-fund-with-investment-from-mubadala"
+      ],
+      "quantitative_findings": {
+        "fund_size": null,
+        "mubadala_commitment": null,
+        "target_geography": "Europe",
+        "asset_class": "special situations credit"
+      },
+      "verification_caveat": "Fund launch/investment pledge is not an investment into a named operating company; do not require investee EBITDA.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M12-005",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "European real estate credit platform Aldar/Ares",
+      "investment_family": "CREDIT_PLATFORM_JOINT_VENTURE",
+      "master_investing_entity": "Mubadala Investment Company",
+      "master_announcement_date": "2023-12-13",
+      "master_transaction_status": "ANNOUNCED_2023_12_13",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_master": "https://www.mubadala.com/en/news/mubadala--aldar-and-ares-establish-new-strategic",
+      "source_secondary_master": null,
+      "additional_source_urls": [
+        "https://www.mubadala.com/en/news/mubadala--aldar-and-ares-establish-new-strategic"
+      ],
+      "quantitative_findings": {
+        "investor_vehicle": "Mubadala / Aldar / Ares",
+        "funding_allocated": null,
+        "asset_class": "European property credit"
+      },
+      "verification_caveat": "Credit platform formed, not independently proven capital deployment into specific loans; ensure actual vehicle attribution.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI24M05-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "RelyOn Nutec",
+      "investment_family": "MUBADALA_CAPITAL_PE_ACQUISITION",
+      "master_investing_entity": "Mubadala Capital",
+      "master_announcement_date": "2024-05-24",
+      "master_transaction_status": "ACQUISITION_AGREEMENT_SIGNED",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_master": "https://www.mubadalacapital.ae/newsroom-articles/polaris-sells-relyon-nutec-to-mubadala-capital/",
+      "source_secondary_master": "https://www.mubadalacapital.ae/newsroom/",
+      "additional_source_urls": [
+        "https://www.mubadalacapital.ae/newsroom-articles/polaris-sells-relyon-nutec-to-mubadala-capital/"
+      ],
+      "quantitative_findings": {
+        "seller": "Polaris",
+        "acquirer": "Mubadala Capital",
+        "enterprise_value": null,
+        "investor_specific_ticket": null
+      },
+      "verification_caveat": "Acquisition announced by seller/Mubadala Capital; actual close and historical revenue/EBITDA require filings.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    },
+    {
+      "master_record_id": "GSI24J07-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee_or_event": "Bugaboo Group",
+      "investment_family": "PRIVATE_EQUITY_MAJORITY_ACQUISITION",
+      "master_investing_entity": "Mubadala Capital",
+      "master_announcement_date": "2024-07-22",
+      "master_transaction_status": "DEFINITIVE_AGREEMENT_SUBJECT_TO_APPROVAL",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_master": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-to-acquire-bugaboo-group-iconic-parenting-solutions-brand/",
+      "source_secondary_master": "https://www.mubadalacapital.ae/newsroom",
+      "additional_source_urls": [
+        "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-to-acquire-bugaboo-group-iconic-parenting-products-company/"
+      ],
+      "quantitative_findings": {
+        "seller": "Bain Capital",
+        "acquirer": "Mubadala Capital",
+        "stake": "Majority announced",
+        "investor_specific_ticket": null
+      },
+      "verification_caveat": "Announced acquisition, financial terms undisclosed; completion needs dated secondary confirmation.",
+      "financial_dossier": {
+        "pre_announcement_audited_revenue": null,
+        "pre_announcement_audited_ebitda": null,
+        "pre_announcement_net_debt": null,
+        "complete": false,
+        "disclosure_status": "NOT_SYSTEMATICALLY_RECOVERED"
+      },
+      "research_status": "UNREVIEWED",
+      "classification_status": "PROVISIONAL",
+      "quality_gates": [
+        "Instrument and economic owner identified before aggregation",
+        "Fund claim ≠ proof of cash settlement",
+        "No follow-on or future source used as contemporaneous data",
+        "Headline transaction vs sovereign-specific exposure separate"
+      ]
+    }
+  ],
+  "quality_summary": {
+    "count": 20,
+    "unique_ids": 20,
+    "overlap_prior": 0,
+    "full_pre_entry_financial_dossiers": 0,
+    "source_reference_count": 24,
+    "critical_attribution_hold_ids": [
+      "GSI21J07-005"
+    ],
+    "classification_policy": "Fund and platform events in research ledger, excluded from direct investee operating-company comparable sample"
+  }
+}
