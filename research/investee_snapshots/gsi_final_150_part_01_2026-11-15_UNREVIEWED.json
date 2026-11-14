@@ -1,0 +1,3283 @@
+{
+  "batch_id": "GSI_FINAL_150_PART_1_2026-11-15",
+  "status": "UNREVIEWED_MASTER_TRIAGE",
+  "master_sha": "610848672338b4f278bbe103ee13e15f37bceac1",
+  "scope": "50 distinct previously unbatched records. Not 50 independently corroborated investments or audited financial profiles.",
+  "funding_policy": "Headline deal amounts, commitments, 13F positions, third-party investments and JV totals are not assumed to be investor-specific settled capital.",
+  "records": [
+    {
+      "sequence": 1,
+      "master_record_id": "GSI24A08-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "TechMet $180m critical-minerals equity commitment",
+      "event_type_master": "STRATEGIC_EQUITY_COMMITMENT",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "ANNOUNCED_SUBJECT_TO_REGULATORY_APPROVALS",
+      "announcement_date": "2024-08-07",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Ireland",
+      "master_flow_direction": "GULF_OUTBOUND_PRIMARY_GROWTH_EQUITY",
+      "primary_evidence": {
+        "url": "https://qia.qa/en/Newsroom/Pages/QIA-to-Invest-%24180-Million-in-TechMet.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.techmet.com/wp-content/uploads/2024/08/2024.08.07-TechMet-QIA-Investment-press-release.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": "180",
+        "master_claim_currency": "USD",
+        "master_claim_unit": "USD millions",
+        "master_claim_scope": "USD180M_QIA_SPECIFIC_INITIAL_INVESTMENT_ANNOUNCED_NOT_VERIFIED_SETTLED",
+        "master_amount_basis": "USD180M_QIA_SPECIFIC_INITIAL_INVESTMENT_ANNOUNCED_NOT_VERIFIED_SETTLED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Check regulator approvals, final issuance/funding date and TechMet shareholder register."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 2,
+      "master_record_id": "GSI24D12-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "xAI Series C financing participation",
+      "event_type_master": "PRIMARY_GROWTH_FINANCING",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "COMPANY_ANNOUNCED_CLOSED_SERIES_C_2024_12_23",
+      "announcement_date": "2024-12-23",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://x.ai/news/series-c",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://x.ai/news/series-c",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "USD6000M_WHOLE_SERIES_C_NOT_QIA_SPECIFIC",
+        "master_amount_basis": "USD6000M_WHOLE_SERIES_C_NOT_QIA_SPECIFIC",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": "INVESTOR_AMOUNT_OR_SETTLEMENT_NOT_VERIFIED",
+        "next_verification": "Find QIA-specific subscription amount and documented settlement date."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 3,
+      "master_record_id": "GSI24J06-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "China Asset Management Co (ChinaAMC) 10% stake from Primavera",
+      "event_type_master": "PROPOSED_PE_SECONDARY_PURCHASE",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "REPORTED_PRELIMINARY_AGREEMENT_SUBJECT_TO_APPROVAL",
+      "announcement_date": "2024-06-04",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "China",
+      "master_flow_direction": "GULF_OUTBOUND_SECONDARY_ASSET_MANAGER_EQUITY",
+      "primary_evidence": {
+        "url": "https://www.reuters.com/world/middle-east/qatar-sovereign-fund-agrees-buy-10-stake-china-asset-manager-sources-say-2024-06-04/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.yicaiglobal.com/news/qatar-sovereign-funds-purchase-of-primaveras-share-of-chinaamc-is-pending-approval-insider-says",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "USD490M_MINIMUM_SELLER_REFERENCE_VALUE_NOT_VERIFIED_QIA_CONSIDERATION",
+        "master_amount_basis": "USD490M_MINIMUM_SELLER_REFERENCE_VALUE_NOT_VERIFIED_QIA_CONSIDERATION",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "C",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Review CITIC Securities filings and identify final 2025 buyer, regulatory outcome; avoid treating as completed."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 4,
+      "master_record_id": "GSI24J07-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Transportation Equipment Network (TEN) growth equity co-investment",
+      "event_type_master": "INFRASTRUCTURE_SPONSOR_LED_CO_INVESTMENT",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "INVESTMENT_ANNOUNCED",
+      "announcement_date": "2024-07-15",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "GULF_OUTBOUND_PRIMARY_GROWTH_EQUITY",
+      "primary_evidence": {
+        "url": "https://www.qia.qa/en/Newsroom/Pages/QIA-invests-in-Transportation-Equipment-Network-%28TEN%29%2C-the-leading-North-American-full-service-trailer-lessor.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.mubadala.com/en/news/i-squared-announces-new-shareholders-in-transportation-equipment-network",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "USD_OVER_600M_TOTAL_QIA_MUBADALA_OTHERS_NOT_QIA_ALLOCATION",
+        "master_amount_basis": "USD_OVER_600M_TOTAL_QIA_MUBADALA_OTHERS_NOT_QIA_ALLOCATION",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Obtain financing shareholder allocation and funding settlement documentation."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 5,
+      "master_record_id": "GSI24M01-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority / Ashmore Qatar Equity Fund",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Ashmore Qatar Equity Fund anchor seeding with Qatar-listed shares",
+      "event_type_master": "FUND_SEEDING_IN_KIND",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "FUND_LAUNCHED_2024_01_16",
+      "announcement_date": "2024-01-16",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Qatar",
+      "master_flow_direction": "DOMESTIC_GULF_ASSET_REALLOCATION",
+      "primary_evidence": {
+        "url": "https://www.qia.qa/en/Newsroom/Pages/QIA-announces-Active-Asset-Management-Initiative-to-enhance-investment-ecosystem-and-signs-first-partnership-with-Ashmore-G.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.ashmoregroup.com/en-row/qia-announces-active-asset-management-initiative-enhance-investment-initiative",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "FUND_AUM_USD_200M_NOT_QIA_CASH",
+        "master_amount_basis": "FUND_AUM_USD_200M_NOT_QIA_CASH",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Verify actual QIA asset-seeding size, ownership or share allocation, mandate documents and accessibility for corporate funding."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 6,
+      "master_record_id": "GSI24N11-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Cresta Series D financing",
+      "event_type_master": "PRIMARY_VC_FINANCING",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "SERIES_D_CLOSED_2024_11_19",
+      "announcement_date": "2024-11-19",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "GULF_OUTBOUND_VENTURE_EQUITY",
+      "primary_evidence": {
+        "url": "https://www.qia.qa/en/Newsroom/Pages/QIA-co-leads-Series-D-funding-round-for-Cresta%2C-the-generative-AI-platform-for-contact-centers-.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.prnewswire.com/news-releases/cresta-closes-125m-series-d-to-accelerate-adoption-of-human-centric-ai-in-the-contact-center-302309858.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "USD125M_WHOLE_SERIES_D_QIA_ALLOCATION_UNDISCLOSED",
+        "master_amount_basis": "USD125M_WHOLE_SERIES_D_QIA_ALLOCATION_UNDISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Find participant-level allotment and exact QIA subscription."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 7,
+      "master_record_id": "GSI24N11-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Sauber Holding AG (future Audi F1 team) significant minority stake",
+      "event_type_master": "STRATEGIC_MINORITY_EQUITY",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "DEFINITIVE_AGREEMENT_SIGNED",
+      "announcement_date": "2024-11-29",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Switzerland",
+      "master_flow_direction": "GULF_OUTBOUND_STRATEGIC_EQUITY",
+      "primary_evidence": {
+        "url": "https://www.qia.qa/en/Newsroom/Pages/QIA-investment-strengthens-Audi-F1-Project-.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.audi.com/en/media-releases/audi-f1-project-strengthened-by-investment-from-qia-16415",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "STAKE_UNSPECIFIED_OFFICIAL_PRICE_UNDISCLOSED",
+        "master_amount_basis": "STAKE_UNSPECIFIED_OFFICIAL_PRICE_UNDISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Confirm date of share issue/settlement and capital paid, actual legal stake."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 8,
+      "master_record_id": "GSI24N11-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Trustar Capital McDonalds China continuation vehicle",
+      "event_type_master": "CONTINUATION_FUND_LP_COMMITMENT",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "REPORTED_FUNDRAISE_NOV2024",
+      "announcement_date": "2024-11-21",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "China",
+      "master_flow_direction": "GULF_OUTBOUND_PE_SECONDARIES_FUND",
+      "primary_evidence": {
+        "url": "https://www.reuters.com/business/chinas-trustar-raises-1-bln-vehicle-that-holds-mcdonalds-china-stake-sources-say-2024-11-21/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://oxfordbusinessgroup.com/reports/qatar/2025-report/trade-investment/gaining-influence-increased-financing-in-emerging-markets-aligns-with-national-sustainability-targets-and-development-strategies-analysis/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "USD1000M_WHOLE_CONTINUATION_VEHICLE_QIA_TICKET_UNKNOWN",
+        "master_amount_basis": "USD1000M_WHOLE_CONTINUATION_VEHICLE_QIA_TICKET_UNKNOWN",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Locate fund LP disclosure, QIA anchor commitment and vehicle close; no presumption of cash called."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 9,
+      "master_record_id": "GSI24O10-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Investco Holding Company (wholly owned by QIA)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Qatar District Cooling Company (Qatar Cool) 40% interest from UDC",
+      "event_type_master": "SECONDARY_SHARE_PURCHASE",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "CONDITIONAL_SPA_SIGNED_2024_10_15",
+      "announcement_date": "2024-10-15",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Qatar",
+      "master_flow_direction": "GULF_DOMESTIC",
+      "primary_evidence": {
+        "url": "https://qna.org.qa/en/news/news-details?date=15%2F10%2F2024&id=0059-udc-signs-agreement-to-sell-40-stake-in-qatar-cool-to-qia",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://qnbgroup.qa/sites/qnb/qnbfs/document/en/arDMR21November2024",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "QAR",
+        "master_claim_unit": "million",
+        "master_claim_scope": "QAR793_4_MILLION_CONTRACT_PRICE_NOT_OCTOBER_CASH_PROVEN",
+        "master_amount_basis": "QAR793_4_MILLION_CONTRACT_PRICE_NOT_OCTOBER_CASH_PROVEN",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_INVESTMENT",
+        "master_hold_reason": null,
+        "next_verification": "Retrieve Qatar Stock Exchange original filing and final closing statement dated November 2024."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 10,
+      "master_record_id": "GSI24O10-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "BETA Technologies Series C equity financing",
+      "event_type_master": "PRIMARY_VENTURE_EQUITY_FINANCING",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "ROUND_ANNOUNCED",
+      "announcement_date": "2024-10-31",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "GULF_OUTBOUND",
+      "primary_evidence": {
+        "url": "https://www.qia.qa/en/Newsroom/Pages/QIA-leads-series-C-funding-for-electric-aerospace-company%2C-BETA-Technologies%2C-to-fund-growth-and-commercialization.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "USD318M_TOTAL_SERIES_C_NOT_QIA_AMOUNT",
+        "master_amount_basis": "USD318M_TOTAL_SERIES_C_NOT_QIA_AMOUNT",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_INVESTMENT",
+        "master_hold_reason": null,
+        "next_verification": "Confirm subscription amount, round closing and any follow-on tranches."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 11,
+      "master_record_id": "GSI25F02-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Rasmal Innovation Fund I LP investment",
+      "event_type_master": "VENTURE_FUND_LP_COMMITMENT",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "FUNDING_ANNOUNCED_2025_02_05",
+      "announcement_date": "2025-02-05",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Qatar",
+      "master_flow_direction": "GULF_DOMESTIC_FUND_COMMITMENT",
+      "primary_evidence": {
+        "url": "https://www.wamda.com/index.php/2025/02/qia-1-billion-fund-funds-kicks-investment-rasmal-ventures",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.qia.qa/en/Newsroom/Pages/Qatar%E2%80%99s-Prime-Minister-and-Minister-of-Foreign-Affairs-marks-one-year-of-QIA%E2%80%99s-Fund-of-Funds-program-at-Web-Summit-Qatar.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "USD100M_RASMAL_FUND_TARGET_NOT_QIA_LP_AMOUNT",
+        "master_amount_basis": "USD100M_RASMAL_FUND_TARGET_NOT_QIA_LP_AMOUNT",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Verify signed commitment and calls; distinguish country of portfolio companies."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 12,
+      "master_record_id": "GSI25F02-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "B Capital inclusion in QIA Fund of Funds",
+      "event_type_master": "VENTURE_FUND_MANAGER_ALLOCATION",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "QIA_INVESTMENT_ANNOUNCED_2025_02_23",
+      "announcement_date": "2025-02-23",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "GULF_OUTBOUND_FUND_COMMITMENT",
+      "primary_evidence": {
+        "url": "https://www.qia.qa/en/Newsroom/Pages/Qatar%E2%80%99s-Prime-Minister-and-Minister-of-Foreign-Affairs-marks-one-year-of-QIA%E2%80%99s-Fund-of-Funds-program-at-Web-Summit-Qatar.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "USD1000M_QIA_PROGRAMME_TOTAL_NOT_B_CAPITAL_TICKET",
+        "master_amount_basis": "USD1000M_QIA_PROGRAMME_TOTAL_NOT_B_CAPITAL_TICKET",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Find individual allocation and capital-call evidence."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 13,
+      "master_record_id": "GSI25F02-008",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA",
+      "master_investing_entity": "Qatar Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Deerfield Management inclusion in QIA Fund of Funds",
+      "event_type_master": "HEALTHCARE_FUND_MANAGER_ALLOCATION",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "QIA_INVESTMENT_ANNOUNCED_2025_02_23",
+      "announcement_date": "2025-02-23",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "GULF_OUTBOUND_FUND_COMMITMENT",
+      "primary_evidence": {
+        "url": "https://www.qia.qa/en/Newsroom/Pages/Qatar%E2%80%99s-Prime-Minister-and-Minister-of-Foreign-Affairs-marks-one-year-of-QIA%E2%80%99s-Fund-of-Funds-program-at-Web-Summit-Qatar.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "USD1000M_QIA_PROGRAMME_TOTAL_NOT_DEERFIELD_TICKET",
+        "master_amount_basis": "USD1000M_QIA_PROGRAMME_TOTAL_NOT_DEERFIELD_TICKET",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.qia.qa/en/About/Pages/History.aspx",
+          "title": "QIA History",
+          "use": "Retrospective historical milestones, publication date unspecified"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Locate fund vehicle, ticket and capital-call evidence."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 14,
+      "master_record_id": "GSI-2020-008",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Abu Dhabi Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Reported proposed $2bn PE fund stake sale",
+      "event_type_master": "POTENTIAL_EXIT",
+      "event_category_provisional": "UNCONFIRMED_OR_RUMOURED",
+      "event_status_master": "RUMOURED_PROPOSAL",
+      "announcement_date": "2020-01-15",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": null,
+      "master_flow_direction": "OTHER",
+      "primary_evidence": {
+        "url": "https://gulfnews.com/business/adia-plans-private-equity-fund-stake-sale-1.69014159",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://gulfbusiness.com/en/2020/abu-dhabi/abu-dhabi-plans-sell-2bn-slice-private-equity-book/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": "USD_millions",
+        "master_claim_scope": "REPORTED_POTENTIAL_SALE_NOT_PROCEEDS",
+        "master_amount_basis": "REPORTED_POTENTIAL_SALE_NOT_PROCEEDS",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "C_SECONDARY_REPORTED",
+        "master_inclusion_decision": "MONITORING",
+        "master_hold_reason": "Both articles syndicate Bloomberg, so not independent confirmation; no ADIA official filing or executed exit.",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 15,
+      "master_record_id": "GSI-2020-04-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Abu Dhabi Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "ADIA private equity fund stakes proposed secondary sale deferred",
+      "event_type_master": "POTENTIAL_EXIT",
+      "event_category_provisional": "UNCONFIRMED_OR_RUMOURED",
+      "event_status_master": "SALE_POSTPONED_UNCONFIRMED",
+      "announcement_date": "2020-04-29",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Multi-regional / Global",
+      "master_flow_direction": "OTHER",
+      "primary_evidence": {
+        "url": "https://www.aljazeera.com/economy/2020/4/29/abu-dhabi-delays-sale-of-2bn-private-equity-book-due-to-virus",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://gulfnews.com/business/adia-plans-private-equity-fund-stake-sale-1.69014159",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "POTENTIAL_EXIT_2000_USD_MILLIONS",
+        "master_amount_basis": "POTENTIAL_EXIT_2000_USD_MILLIONS",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "C",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "April secondary reporting of delay to proposed ~$2bn sale first reported January; amount target estimate, no sale or actual proceeds evidenced. Link to January origin, never count as April investment.",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 16,
+      "master_record_id": "GSI-2020-06-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Platinum Owl C 2018 RSC Limited, trustee of Platinum Jasmine A 2018 Trust (ADIA)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Jio Platforms — 1.16% proposed stake",
+      "event_type_master": "EQUITY_TRANSACTION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "SUBSCRIPTION_RECEIVED_SHARES_ALLOTTED_2020_07_13",
+      "announcement_date": "2020-06-07",
+      "filing_date": null,
+      "completion_date_master": "2020-07-13",
+      "master_geography": "India",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.ril.com/news-media/press-releases/adia-invest-rs568350-crore-jio-platforms",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": "5683.5",
+        "master_claim_currency": "INR",
+        "master_claim_unit": "crore",
+        "master_claim_scope": "INVESTOR_SPECIFIC_ANNOUNCED_NOT_SETTLED",
+        "master_amount_basis": "INVESTOR_SPECIFIC_SUBSCRIPTION_INR_CRORE",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": null,
+        "master_inclusion_decision": null,
+        "master_hold_reason": "Issuer identifies ADIA ticket INR 5,683.50 crore; settlement unverified.",
+        "next_verification": "Verify original filing and closing, vehicle and stake attribution"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 17,
+      "master_record_id": "GSI-2020-NOV-008",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Abu Dhabi Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "ADIA 2020 private equity review — 24 direct deals",
+      "event_type_master": "PORTFOLIO_MONITORING",
+      "event_category_provisional": "STRATEGY_OR_SOURCE_EVENT",
+      "event_status_master": "2020 aggregate retrospective; not a November-specific deal",
+      "announcement_date": "2020-11-30",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Multiple",
+      "master_flow_direction": "MONITORING_ONLY",
+      "primary_evidence": {
+        "url": "https://www.adia.ae/en/pr/2020/private-equity.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "ANNUAL_ACTIVITY_AGGREGATE",
+        "master_amount_basis": "ANNUAL_ACTIVITY_AGGREGATE",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "MONITORING",
+        "master_hold_reason": null,
+        "next_verification": "Cross-reference underlying issuer/merger filings for November dated deals"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 18,
+      "master_record_id": "GSI-2020-OCT-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Platinum Owl C 2018 RSC Limited trustee Platinum Jasmine A 2018 Trust",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Reliance Retail Ventures Limited — 1.20% announced / subscription allotted",
+      "event_type_master": "NEW_INVESTMENT",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "Announced Oct 6; shares allotted and cash received 15 Oct 2020",
+      "announcement_date": "2020-10-06",
+      "filing_date": null,
+      "completion_date_master": "2020-10-15",
+      "master_geography": "India",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.ril.com/sites/default/files/2023-01/Media-Release-RRVL-06102020.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.marketscreener.com/quote/stock/RELIANCE-INDUSTRIES-LTD-9058833/news/Reliance-Industries-Further-update-on-investment-into-Reliance-Retail-Ventures-Limited-Mubadala-a-31552717/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": "5512.5",
+        "master_claim_currency": "INR crore",
+        "master_claim_unit": null,
+        "master_claim_scope": "INVESTOR_SPECIFIC",
+        "master_amount_basis": "INVESTOR_SPECIFIC",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Obtain direct original exchange PDF, independently verify legal trust structure"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 19,
+      "master_record_id": "GSI21J07-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Abu Dhabi Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "EdgePoint Infrastructure Southeast Asia",
+      "event_type_master": "MINORITY_EQUITY_AND_GROWTH_COMMITMENT",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "ANNOUNCED_STAKE_ACQUIRED",
+      "announcement_date": "2021-07-08",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Singapore",
+      "master_flow_direction": "OUTBOUND",
+      "primary_evidence": {
+        "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/abu-dhabi-wealth-fund-buys-edgepoint-stake-commits-500-million",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.globalprivatecapital.org/app/uploads/2024/02/2022-MENA-Data-Insight.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "UP_TO_500M_COMMITMENT_NOT_ALL_DEPLOYED",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Find DigitalBridge/EdgePoint original release and actual initial cash subscription"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 20,
+      "master_record_id": "GSI21M05-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "ADIA wholly-owned subsidiary; Private Equities Department",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Dedalus Holding S.p.A. minority equity acquired from Ardian",
+      "event_type_master": "SECONDARY_EQUITY_ACQUISITION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "COMPLETED_ACQUISITION",
+      "announcement_date": "2021-05-25",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Italy",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.ardian.com/news-insights/press-releases/adia-acquires-significant-minority-shareholding-healthcare-it-provider",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "Individual ticket and shareholding percentage undisclosed",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": "Ardian explicitly says subsidiary acquired minority interest; Italy domicile, healthcare IT strategy.",
+        "next_verification": "Seek ADIA entity name, purchased shares and cash consideration; regulatory filing or corporate registry."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 21,
+      "master_record_id": "GSI22D12-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "ADIA wholly owned subsidiary / Thoma Bravo",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Coupa Software buyout agreement",
+      "event_type_master": "MINORITY_CO_INVESTMENT_AGREEMENT",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "SIGNED_2022_12_12_CLOSED_2023_02_28",
+      "announcement_date": "2022-12-12",
+      "filing_date": null,
+      "completion_date_master": "2023-02-28",
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.thomabravo.com/press-releases/coupa-software-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo-for-8-billion",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.thomabravo.com/press-releases/thoma-bravo-completes-acquisition-of-coupa-software",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "USD8BN_WHOLE_DEAL_ENTERPRISE_VALUE_NOT_ADIA_CAPITAL",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": null,
+        "master_inclusion_decision": "CORE_VERIFIED_AGREEMENT_NOT_DECEMBER_CLOSING",
+        "master_hold_reason": null,
+        "next_verification": "Identify named ADIA subsidiary and amount; verify financing funding on closing."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 22,
+      "master_record_id": "GSI22N11-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Platinum Falcon B 2018 RSC Limited / ADIA",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Zendesk acquisition consortium completion",
+      "event_type_master": "PRIVATE_EQUITY_CO_INVESTMENT_CLOSING",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "CLOSED_2022_11_22",
+      "announcement_date": "2022-11-22",
+      "filing_date": null,
+      "completion_date_master": "2022-11-22",
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1463172/000114036122042170/brhc10044341_8k.htm",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1463172/000114036122042681/brhc10044488_8k.htm",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_NOT_ZERO",
+        "master_amount_basis": "UNDISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": null,
+        "master_inclusion_decision": "CORE_CONFIRMED_CLOSING_INVESTOR_LINK_FURTHER_REVIEW",
+        "master_hold_reason": null,
+        "next_verification": "Confirm contemporaneous 2022 ADIA ultimate ownership of PF and investor-specific capital. Link June 24 announcement if backfilling."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 23,
+      "master_record_id": "GSI22O10-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Wholly owned subsidiary of Abu Dhabi Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Emerson Climate Technologies / Copeland investment alongside Blackstone and GIC",
+      "event_type_master": "BUYOUT_CO_INVESTMENT",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "AGREEMENT_ANNOUNCED_2022_10_31",
+      "announcement_date": "2022-10-31",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.emerson.com/en/corporate/news/2022/emerson-climate-technologies-announcement",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.blackstone.com/news/press/emerson-to-sell-majority-stake-in-climate-technologies-to-blackstone-in-transaction-valuing-the-business-at-14-0-billion/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "USD14000M_ENTERPRISE_VALUE_NOT_ADIA_CASH_USD4400M_BLACKSTONE_EQUITY_FUNDING_NOT_ADIA_TICKET",
+        "master_amount_basis": "USD14000M_ENTERPRISE_VALUE_NOT_ADIA_CASH_USD4400M_BLACKSTONE_EQUITY_FUNDING_NOT_ADIA_TICKET",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_VERIFIED_CO_INVESTOR",
+        "master_hold_reason": null,
+        "next_verification": "Identify ADIA vehicle, equity ticket, closing date."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 24,
+      "master_record_id": "GSI23M03-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Wholly owned subsidiary of Abu Dhabi Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Univar Solutions minority co-investment with Apollo",
+      "event_type_master": "PRIVATE_EQUITY_CONSORTIUM_ACQUISITION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "DEFINITIVE_AGREEMENT_SIGNED_NOT_MARCH_CLOSING",
+      "announcement_date": "2023-03-14",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.apollo.com/insights-news/pressreleases/2023/03/univar-solutions-to-be-acquired-by-apollo-funds-for-8-1-billion-120400720",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://mergers.whitecase.com/explorer/charticle/print/3648721",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "USD8100M_ENTERPRISE_VALUE_NOT_ADIA_EQUITY_TICKET",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": null,
+        "master_inclusion_decision": "CORE_AGREEMENT_MINOR_PARTICIPATION_CONFIRMED",
+        "master_hold_reason": null,
+        "next_verification": "Find final closing filing, ADIA vehicle, actual cheque amount and closing date."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 25,
+      "master_record_id": "GSI24J06-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Wholly owned ADIA subsidiary",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Fisher Investments minority interest",
+      "event_type_master": "PRIVATE_EQUITY_CO_INVESTMENT_IN_ASSET_MANAGER",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "AGREEMENT_SIGNED_NOT_CLOSED",
+      "announcement_date": "2024-06-16",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "GULF_OUTBOUND_SECONDARY_ACQUISITION",
+      "primary_evidence": {
+        "url": "https://www.prnewswire.com/news-releases/fisher-investments-selects-advent-international-and-adia-as-strategic-partners-in-minority-common-stock-investment-302173676.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.adventinternational.com/news/fisher-investments-selects-advent-international-and-adia-as-strategic-partners-in-minority-common-stock-investment/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "USD2500M_TO_3000M_TOTAL_ADVENT_PLUS_ADIA_NOT_ADIA_SPECIFIC;_USD12750M_FIRM_VALUATION",
+        "master_amount_basis": "USD2500M_TO_3000M_TOTAL_ADVENT_PLUS_ADIA_NOT_ADIA_SPECIFIC;_USD12750M_FIRM_VALUATION",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Verify ADIA vehicle, individual ticket, 2025 completion source and governance."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 26,
+      "master_record_id": "GSI24M03-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Wholly owned ADIA subsidiary",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Cheyne Real Estate Credit Holdings IX / Capital Solutions",
+      "event_type_master": "PRIVATE_REAL_ESTATE_CREDIT_FUND_COMMITMENT",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "ADDITIONAL_COMMITMENT_CONFIRMED",
+      "announcement_date": "2024-03-12",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Kingdom",
+      "master_flow_direction": "GULF_TO_EXTERNAL_FUND",
+      "primary_evidence": {
+        "url": "https://www.cheynecapital.com/news-and-insights/press-releases/cheyne-capital-secures-adia-commitment-for-its-real-estate-credit-capital-solutions-strategy/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.reuters.com/business/finance/cheyne-capital-wins-investment-abu-dhabis-adia-real-estate-debt-fund-2024-03-12/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "GBP",
+        "master_claim_unit": null,
+        "master_claim_scope": "ADIA_CUMULATIVE_COMMITMENTS_GBP650M_INCLUDING_EARLIER_VINTAGES; MARCH_TRANCHE_UNDISCLOSED",
+        "master_amount_basis": "ADIA_CUMULATIVE_COMMITMENTS_GBP650M_INCLUDING_EARLIER_VINTAGES; MARCH_TRANCHE_UNDISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Determine exact incremental 2024 commitment, drawdowns and manager discretionary lending; do not sum £650m as March deployment."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 27,
+      "master_record_id": "GSI24N11-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Abu Dhabi Investment Authority wholly owned subsidiary",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Qlik minority recapitalization with Thoma Bravo",
+      "event_type_master": "SECONDARY_PE_MINORITY_BUY_AND_RECAP",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "SIGNED_CLOSED_2025_05_08",
+      "announcement_date": "2024-11-11",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "GULF_OUTBOUND_SECONDARY",
+      "primary_evidence": {
+        "url": "https://www.thomabravo.com/press-releases/qliks-accelerating-growth-attracts-significant-investment-from-thoma-bravo-and-adia",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.thomabravo.com/press-releases/qlik-announces-close-of-significant-investment-led-by-adia-and-thoma-bravo",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "ADIA_SPECIFIC_AMOUNT_NOT_DISCLOSED",
+        "master_amount_basis": "ADIA_SPECIFIC_AMOUNT_NOT_DISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Find purchase consideration and investor allocation from any formal filings."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 28,
+      "master_record_id": "GSI25A04-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "ADIA subsidiary",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "IFS industrial AI software minority stake",
+      "event_type_master": "SECONDARY_PRIVATE_EQUITY_CO_INVESTMENT",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "AGREED_2025_04_11_PENDING_CLOSING",
+      "announcement_date": "2025-04-11",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Sweden",
+      "master_flow_direction": "GULF_OUTBOUND_SECONDARY",
+      "primary_evidence": {
+        "url": "https://www.adia.ae/media/azure/adia/media/2023/01/press-release-adia-agrees-to-invest-in-ifs.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.adia.ae/en/publications/news/adia-agrees-to-invest-in-eqt,-hg-and-ta-owned-ifs",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "EUR",
+        "master_claim_unit": null,
+        "master_claim_scope": "IFS_ENTERPRISE_VALUATION_OVER_EUR15000M_NOT_ADIA_INVESTMENT",
+        "master_amount_basis": "IFS_ENTERPRISE_VALUATION_OVER_EUR15000M_NOT_ADIA_INVESTMENT",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Identify ADIA ticket, share percentage and actual closing."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 29,
+      "master_record_id": "GSI25A04-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Platinum Invictus B 2025 RSC Ltd",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "IDFC FIRST Bank preferential convertible-share issue",
+      "event_type_master": "PRIMARY_CCPS_EQUITY_SUBSCRIPTION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "BOARD_APPROVED_2025_04_17_PENDING_APPROVALS",
+      "announcement_date": "2025-04-17",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "India",
+      "master_flow_direction": "GULF_OUTBOUND_PRIMARY",
+      "primary_evidence": {
+        "url": "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/pdf/announcements/IDFCFIRST-PressRelease.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.business-standard.com/companies/news/warburg-pincus-aida-units-to-invest-rs-7-500-crore-in-idfc-first-bank-125041700455_1.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": "26240",
+        "master_claim_currency": "INR",
+        "master_claim_unit": null,
+        "master_claim_scope": "ADIA_SPECIFIC_INR2624_CRORE_APPROX_26_24_BILLION_NOT_APRIL_SETTLEMENT",
+        "master_amount_basis": "ADIA_SPECIFIC_INR2624_CRORE_APPROX_26_24_BILLION_NOT_APRIL_SETTLEMENT",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Verify share issuance/closing and CCPS cash settlement."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 30,
+      "master_record_id": "GSI25J01-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Platinum Lily B 2024 RSC Limited (wholly owned ADIA subsidiary)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Yinson Production Offshore USD 1bn RCPS + 10% warrants (closing reported June 2025)",
+      "event_type_master": "PRIVATE_FUNDING_ROUND_PREFERRED_SHARES_AND_WARRANTS",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "COMPLETED_CLOSING_REPORTED_2025_06_17_FIRST_TRANCHE_USD300M_FUNDED",
+      "announcement_date": "2025-01-14",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Kingdom",
+      "master_flow_direction": "GULF_OUTBOUND_PRIMARY_GROWTH_EQUITY",
+      "primary_evidence": {
+        "url": "https://www.yinson-production.com/news/yinson-production-secures-usd-1-billion-investment-from-consortium-of-international-investment-firms-to-drive-further-growth/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.oedigital.com/news/526947-yinson-production-closes-1b-investment-to-drive-further-growth",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "ADIA_AMOUNT_NOT_DISCLOSED_USD1BN_IS_ROUND_HEADLINE",
+        "master_amount_basis": "ADIA_AMOUNT_NOT_DISCLOSED_USD1BN_IS_ROUND_HEADLINE",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Find the exact closing date and ADIA ticket; confirm no Jan 2025 row under another name."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 31,
+      "master_record_id": "GSI26B03-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Unidentified wholly owned ADIA subsidiary",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Constellation Aviation JV launch and proposed aircraft seed portfolio",
+      "event_type_master": "JOINT_VENTURE",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "SIGNED_NOT_CLOSED",
+      "announcement_date": "2026-11-02",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Multi-regional / Global",
+      "master_flow_direction": "OTHER",
+      "primary_evidence": {
+        "url": "https://www.avolon.aero/news/avolon-constellation-aviation-launch",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://isquaredcapital.com/news/avolon-isq-aida-launch-constellation-aviation/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "PROJECT_PORTFOLIO_VALUE_NOT_INVESTOR_TICKET",
+        "master_amount_basis": "PROJECT_PORTFOLIO_VALUE_NOT_INVESTOR_TICKET",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "Avolon says proposed $1.4bn portfolio of 22 aircraft, leases in 15 countries, subject to approval. No allocated ADIA ticket or completed purchase.",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 32,
+      "master_record_id": "GSI26B03-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Unidentified wholly owned ADIA subsidiary",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Ardian real estate secondaries platform",
+      "event_type_master": "PLATFORM_FORMATION",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "SIGNED_PLATFORM_AGREEMENT",
+      "announcement_date": "2026-03-10",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Multi-regional / Global",
+      "master_flow_direction": "OTHER",
+      "primary_evidence": {
+        "url": "https://www.ardian.com/news-insights/press-releases/ardian-and-adia-launch-new-real-estate-secondaries-platform",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "NO_SPECIFIC_DEPLOYMENT",
+        "master_amount_basis": "NO_SPECIFIC_DEPLOYMENT",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "Ardian confirms agreement to launch platform, but no specific acquired asset or allocated deployed capital.",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 33,
+      "master_record_id": "GSI26B03-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Unidentified ADIA subsidiary",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Dignari private credit manager / strategy investment",
+      "event_type_master": "FUND_COMMITMENT",
+      "event_category_provisional": "STRATEGY_OR_SOURCE_EVENT",
+      "event_status_master": "ANNOUNCED",
+      "announcement_date": "2026-03-13",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Hong Kong",
+      "master_flow_direction": "OTHER",
+      "primary_evidence": {
+        "url": "https://www.tradingview.com/news/reuters.com%2C2026-03-13%3Anewsml_Zaw55RmVY%3A0-zawya-abu-dhabi-s-adia-invests-in-private-credit-firm-dignari/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "FUND_COMMITMENT_AMOUNT_UNKNOWN",
+        "master_amount_basis": "FUND_COMMITMENT_AMOUNT_UNKNOWN",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "C",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "Secondary report cites Dignari announcement; original ADIA/Dignari statement not obtained; ownership participation vs strategy commitment requires primary-source review.",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 34,
+      "master_record_id": "GSI26JF-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "ADIA",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "ADIA subsidiary / CDH continuation vehicle",
+      "event_type_master": "CONTINUATION_VEHICLE",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "SOURCE_ANNOUNCEMENT_ONLY",
+      "announcement_date": "2026-01-05",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "China",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.adia.ae/media/azure/adia/media/2023/01/press-release-adia-invests-in-continuation-vehicle-managed-by-cdh-investments.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "NOT_DISCLOSED_OR_NON_ATTRIBUTABLE",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A_ANNOUNCEMENT_ONLY",
+        "master_inclusion_decision": null,
+        "master_hold_reason": null,
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 35,
+      "master_record_id": "V1.4_HOLDS-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "ADIA or related funds (exact vehicle not traced)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Recordati S.p.A. / Respighi BidCo tender offer",
+      "event_type_master": "EQUITY",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "TENDER_OFFER_FILED_NOT_ASSUMED_CLOSED",
+      "announcement_date": "2026-05-22",
+      "filing_date": "2026-06-11",
+      "completion_date_master": null,
+      "master_geography": "Italy",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://recordati.com/investors-public-tender-offers/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.reuters.com/business/cvc-gbl-launch-107-bln-euro-full-takeover-offer-italys-recordati-2026-05-22/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "€10.7bn bid value is NOT ADIA contribution",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B-reported_investor",
+        "master_inclusion_decision": "HOLD_ATTRIBUTION",
+        "master_hold_reason": "Recordati tender-offer document filed with CONSOB 11 June; ADIA affiliation reported by Reuters, not independently attributed in reviewed filing excerpt; conditional candidate, flag ownership substantiation.",
+        "next_verification": "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 36,
+      "master_record_id": "V1.6_CANDIDATES-013",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Wholly owned subsidiary of Abu Dhabi Investment Authority (unnamed)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Sapiens International Corporation N.V.",
+      "event_type_master": "EQUITY",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "ADIA_MINORITY_INVESTMENT_COMPLETED_2026",
+      "announcement_date": "2026-06-01",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Netherlands",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.prnewswire.com/il/news-releases/sapiens-welcomes-adia-as-an-investor-302786846.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.adventinternational.com/news/sapiens-welcomes-adia-as-an-investor/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "Undisclosed investor-specific ticket",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A-announcement",
+        "master_inclusion_decision": "ADMIT_CANDIDATE",
+        "master_hold_reason": "Issuer and majority owner report significant minority ownership; subsidiary legal name undisclosed; Dutch N.V. structure and London presence require domicile-specific documentation.",
+        "next_verification": "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 37,
+      "master_record_id": "V1.6_CANDIDATES-015",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Unidentified wholly owned ADIA subsidiary",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Vermeg",
+      "event_type_master": "ACQUISITION_SIGNED",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "SIGNED_NOT_CLOSED",
+      "announcement_date": "2026-11-02",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": null,
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.adventinternational.com/news/advent-to-acquire-vermeg-a-global-provider-of-capital-markets-and-life-insurance-technology/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "Undisclosed ADIA ticket",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A-announcement / B-independent counterparty",
+        "master_inclusion_decision": "PROVISIONAL_ADMIT",
+        "master_hold_reason": "Advent is lead buyer; an ADIA wholly-owned subsidiary is named as minority participant. Specific target legal domicile, ADIA vehicle, and completion remain unresolved.",
+        "next_verification": "Obtain Vermeg legal-entity domicile, competition/registry closing notice; identify ADIA SPV."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 38,
+      "master_record_id": "V1.6_CANDIDATES-017",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA",
+      "master_investing_entity": "Luxinva S.A. (wholly owned ADIA subsidiary)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "QIAGEN N.V.",
+      "event_type_master": "Public tender-offer agreement",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "SIGNED; proposed offer; closing expected mid-2027",
+      "announcement_date": "2026-10-21",
+      "filing_date": "2026-10-21",
+      "completion_date_master": null,
+      "master_geography": "Netherlands;Germany",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1015820/000095010326015981/dp255365_ex9902.htm",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "€10.8bn whole-deal EV, not ADIA ticket",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.adia.ae/en/pr/2024/index.html",
+          "title": "ADIA 2024 Review",
+          "use": "Retrospective strategy context, not at-deal published document"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A for reported event; not for unspecified settlement",
+        "master_inclusion_decision": "PROVISIONAL_ADMIT",
+        "master_hold_reason": "Issuer identifies Luxinva S.A. and ADIA relationship; tender has not commenced, completion pending",
+        "next_verification": "Resolve investor-specific payment, closing and entity chain where relevant"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 39,
+      "master_record_id": "GSI-2020-03-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "Abu Dhabi Developmental Holding Company / ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Senaat and other state asset transfers into ADQ",
+      "event_type_master": "DOMESTIC_GOVERNMENT_ASSET_TRANSFER",
+      "event_category_provisional": "INTERNAL_TRANSFER_OR_MERGER",
+      "event_status_master": "OWNERSHIP_TRANSFER_ANNOUNCED",
+      "announcement_date": "2020-03-24",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "INTRA_GULF",
+      "primary_evidence": {
+        "url": "https://www.senaat.co/news/adq-assumes-ownership-senaat",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.wam.ae/en/article/hszra43f-abu-dhabi-developmental-holding-company-announces",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "NON_CASH_GOVERNMENT_TRANSFER",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": null,
+        "master_hold_reason": "Transfer of existing government-owned assets; not external capital deployment. Rebrand ADDH to ADQ and acquisition of 14 entities reported.",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 40,
+      "master_record_id": "GSI-2020-04-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ / National Petroleum Construction Company",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "ADQ buys remaining 30% of NPCC from CCC",
+      "event_type_master": "DOMESTIC_EQUITY_ACQUISITION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "ACQUIRED_REPORTED",
+      "announcement_date": "2020-04-29",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "INTRA_GULF",
+      "primary_evidence": {
+        "url": "https://www.wam.ae/en/article/hszra9fr-adq-fully-acquires-national-petroleum-construction",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.thenationalnews.com/business/abu-dhabi-s-adq-buys-out-minority-partner-in-contractor-npcc-1.1012659",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "PERCENT_30_AMOUNT_UNDISCLOSED",
+        "master_amount_basis": "PERCENT_30_AMOUNT_UNDISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "Senaat ownership transferred in March; April purchase represents incremental 30% transaction from third-party shareholder. Price not disclosed. Do not double count existing 70% holding.",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 41,
+      "master_record_id": "GSI-2020-05-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "Abu Dhabi Developmental Holding Company (ADQ)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "ADQ signs agreement to acquire 50% of Al Dahra Holding",
+      "event_type_master": "DOMESTIC_ACQUISITION_AGREEMENT",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "SIGNED_NOT_CLOSED_IN_MAY",
+      "announcement_date": "2020-05-13",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "INTRA_GULF",
+      "primary_evidence": {
+        "url": "https://www.wam.ae/en/article/hszrabr8-adq-acquire-percent-stake-dahra-holding-company",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://aldahra.com/adq-to-expand-its-food-and-agri-business-sector-portfolio-with-strategic-investment-in-al-dahra-holding-company/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "No price disclosed in 2020 announcement; 2023 audited ADQ accounts place acquisition in 2021 for AED 2,579m",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "DOMESTIC_GULF",
+        "master_hold_reason": "2021 acquisition belongs as later status change. Do not count May 2020 as closed, or attribute Al Dahra foreign operating assets as separate May deployments.",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 42,
+      "master_record_id": "GSI-2020-05-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ / Falcon Edge Capital (manager)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Alpha Wave Incubation Fund launch targeting India and Southeast Asia",
+      "event_type_master": "FUND_LAUNCH",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "FUND_LAUNCHED_DEPLOYMENT_NOT_VERIFIED",
+      "announcement_date": "2020-05-20",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": null,
+      "master_flow_direction": "BILATERAL_FUND_VEHICLE",
+      "primary_evidence": {
+        "url": "https://www.thenationalnews.com/business/economy/abu-dhabi-s-adq-launches-dh1-1bn-fund-to-invest-in-asian-start-ups-1.1022217",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "AED",
+        "master_claim_unit": null,
+        "master_claim_scope": "AED 1.1bn announced fund size, not investor-specific portfolio capital deployed",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "Identify formal ADQ/fund manager release and actual underlying investment dates before portfolio allocation.",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 43,
+      "master_record_id": "GSI-2020-06-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ / Abu Dhabi Ports",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "ZonesCorp transfer to Abu Dhabi Ports",
+      "event_type_master": "INTRA_GROUP_TRANSFER",
+      "event_category_provisional": "INTERNAL_TRANSFER_OR_MERGER",
+      "event_status_master": "LEGAL_TRANSFER",
+      "announcement_date": "2020-06-01",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "INTRA_GULF",
+      "primary_evidence": {
+        "url": "https://www.adports.ae/pdf/Prospectus%20Euro%20Medium%20Term%20Note%20Programme%20May%202021.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.adports.ae/adq-announces-zonescorp-to-join-abu-dhabi-ports-further-strengthening-its-logistics-and-industrial-portfolios/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_OR_NOT_APPLICABLE",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": null,
+        "master_inclusion_decision": null,
+        "master_hold_reason": "June 1 legal decree; public announcement July 16. No fresh outside equity deployment.",
+        "next_verification": "Review precise event classification and source availability"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 44,
+      "master_record_id": "GSI-2020-07-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADPower → TAQA (ADQ group)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "TAQA / ADPower utilities restructuring completed 1 July 2020",
+      "event_type_master": "INTERNAL_ASSET_TRANSFER",
+      "event_category_provisional": "INTERNAL_TRANSFER_OR_MERGER",
+      "event_status_master": "CLOSED_RESTRUCTURING",
+      "announcement_date": "2020-07-01",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "INTRA_GULF",
+      "primary_evidence": {
+        "url": "https://english.mubasher.info/news/3661902/TAQA-completes-merger-deal-with-ADPower/%7B%7BrelatedArticle.infoMainTagUrl%7D%7D",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.enerdata.net/publications/daily-energy-news/abu-dhabi-uae-power-utilities-taqa-and-adpower-complete-merger.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "106.37bn NEW SHARES not cash deployment",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": null,
+        "master_hold_reason": "Domestic restructuring; no new outbound capital",
+        "next_verification": "Locate original TAQA ADX announcement; ADPower 98.6% post-merger"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 45,
+      "master_record_id": "GSI-2020-07-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ / ADNOC",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "ADNOC–ADQ agreement for Ruwais chemicals JV (later TA’ZIZ)",
+      "event_type_master": "DOMESTIC_JV_FORMATION",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "PROSPECTIVE_JV_ANNOUNCED",
+      "announcement_date": "2020-07-22",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "INTRA_GULF",
+      "primary_evidence": {
+        "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/072220-uaes-adnoc-to-invest-in-local-chemicals-projects-amid-45-billion-downstream-push",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://adnoc.ae/en/news-and-media/press-releases/2020/adnoc-and-adq-launch-taziz-joint-venture--to-drive-growth-in-uae-chemicals-sector",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "NO JULY DISBURSEMENT VERIFIED",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": null,
+        "master_hold_reason": "JV intended but July deployment/capital formation not verified",
+        "next_verification": "Link Nov 2020 TA’ZIZ formation to this event; ADQ 40%, ADNOC 60% planned"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 46,
+      "master_record_id": "GSI-2020-07-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ZonesCorp / Abu Dhabi Ports",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "ZonesCorp merger July 16 press release; June transfer already logged",
+      "event_type_master": "DISCLOSURE_OF_EXISTING_EVENT",
+      "event_category_provisional": "DUPLICATE_OR_CHRONOLOGY_REVIEW",
+      "event_status_master": "DUPLICATE_JUNE_EVENT",
+      "announcement_date": "2020-07-16",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "INTRA_GULF",
+      "primary_evidence": {
+        "url": "https://www.adports.ae/adq-announces-zonescorp-to-join-abu-dhabi-ports-further-strengthening-its-logistics-and-industrial-portfolios/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "NO INVESTOR CAPITAL",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": null,
+        "master_hold_reason": "Duplicate of GSI-2020-06-005",
+        "next_verification": "Reconcile June decree date with July official public release"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 47,
+      "master_record_id": "GSI-2020-NOV-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Louis Dreyfus Company — indirect 45% stake agreement",
+      "event_type_master": "SIGNED_ACQUISITION",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "Signed November 2020; completed 10 September 2021",
+      "announcement_date": "2020-11-11",
+      "filing_date": null,
+      "completion_date_master": "2021-09-10",
+      "master_geography": "Netherlands",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.ldc.com/us/en/press-releases/louis-dreyfus-company-to-enter-into-strategic-partnership-with-adq/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.ldc.com/in/en/press-releases/louis-dreyfus-company-completes-strategic-partnership-agreement-with-adq/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "TRANSACTION_VALUE_CONFIDENTIAL",
+        "master_amount_basis": "TRANSACTION_VALUE_CONFIDENTIAL",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Recover regulatory approvals and corporate purchaser details; deal consideration explicitly confidential"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 48,
+      "master_record_id": "GSI-2020-OCT-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ and Abu Dhabi Pension Fund jointly",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "ADNOC Gas Pipelines HoldCo LLC — combined 20% stake",
+      "event_type_master": "JOINT_INVESTMENT",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "Agreement announced for combined US$2.1bn investment; ADQ split undisclosed",
+      "announcement_date": "2020-10-15",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.adnoc.ae/media-center/news/2020/10/abu-dhabi-pension-fund-and-adq-invest-dollar-2-billion-in-adnoc-energy-infrastructure-deal",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.globalprivatecapital.org/newsroom/adpf-and-adq-to-invest-usd2-1b-in-adnoc-gas-pipeline-assets/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "CONSORTIUM_TOTAL_2.1_BILLION_USD_NOT_ADQ_AMOUNT",
+        "master_amount_basis": "CONSORTIUM_TOTAL_2.1_BILLION_USD_NOT_ADQ_AMOUNT",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "DOMESTIC_GULF",
+        "master_hold_reason": null,
+        "next_verification": "Verify completion and ADQ-specific contribution from financial statements"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 49,
+      "master_record_id": "GSI-2020-OCT-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ / Aldar Properties",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Government development and management projects AED 30bn memorandum",
+      "event_type_master": "MOU",
+      "event_category_provisional": "NONBINDING_OR_EXPLORATORY",
+      "event_status_master": "Government projects management MOU not sovereign capital deployment",
+      "announcement_date": "2020-10-25",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-and-aldar-sign-mou-to-develop-and-manage/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "PROJECT_PIPELINE_AED_30BN_NOT_EQUITY",
+        "master_amount_basis": "PROJECT_PIPELINE_AED_30BN_NOT_EQUITY",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "DOMESTIC_GULF",
+        "master_hold_reason": null,
+        "next_verification": "Track any later actual investments separately"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 50,
+      "master_record_id": "GSI-2020-SEP-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "Alpha Oryx Limited (ADQ subsidiary)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Aramex 22.25% public-equity acquisition",
+      "event_type_master": "EQUITY_ACQUISITION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "Reported acquisition Sept 17; equity percentage reported 22.25%; subsequent issuer accounts round to 22.5%",
+      "announcement_date": "2020-09-17",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://gulfnews.com/business/markets/abu-dhabis-adq-acquires-a-near-22-stake-in-logistics-company-aramex-1.1600344571511",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.thenationalnews.com/business/markets/adq-buys-22-25-of-middle-east-s-largest-courier-company-1.1079233/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "COMPLETE_ACQUISITION_AMOUNT_UNDISCLOSED",
+        "master_amount_basis": "NOT_DISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "DOMESTIC_GULF",
+        "master_hold_reason": null,
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    }
+  ],
+  "quality": {
+    "count": 50,
+    "independently_reverified_in_batch": 0,
+    "audited_financial_profiles": 0,
+    "distinct_ids": 50,
+    "master_group_distribution": {
+      "QIA": 13,
+      "ADIA": 25,
+      "ADQ": 12
+    }
+  }
+}
