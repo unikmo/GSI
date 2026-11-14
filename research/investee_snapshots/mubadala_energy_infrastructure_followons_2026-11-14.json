@@ -55,6 +55,27 @@
       "url": "https://annual2024.mubadala.com/en/our-strategy/how-we-invest",
       "publisher": "Mubadala",
       "type": "FUND_STATED_STRATEGY"
+    },
+    {
+      "id": "CF-2021-ACCOUNTS-2022-04-22",
+      "url": "https://financialfilings.com/filings/cityfibre-infrastructure-hldgs-plc/annual-report/2022/56278927/",
+      "publisher": "CityFibre Infrastructure Holdings Limited (reproduced filing)",
+      "published": "2022-04-22",
+      "type": "AUDITED_COMPANY_FINANCIAL_REPORT_POST_COMMITMENT"
+    },
+    {
+      "id": "CF-2022-ACCOUNTS-2023-05-23",
+      "url": "https://cdn.cityfibre.com/reports/CityFibre-Infrastructure-Holdings-Limited-31.12.2022-vFINAL-docusign-removed.pdf",
+      "publisher": "CityFibre Infrastructure Holdings Limited",
+      "published": "2023-05-23",
+      "type": "AUDITED_FINANCIAL_REPORT_POST_ANNOUNCEMENT"
+    },
+    {
+      "id": "CF-2020-ACCOUNTS",
+      "url": "https://cdn.cityfibre.com/Explore/Company-Reports/CityFibre-2020-Annual-Report.pdf",
+      "publisher": "CityFibre Infrastructure Holdings Limited",
+      "published": null,
+      "type": "AUDITED_FINANCIAL_REPORT_PUBLICATION_DATE_UNVERIFIED"
     }
   ],
   "cases": [
@@ -216,6 +237,13 @@
           "event": "CityFibre says existing shareholder Mubadala committed further £300m; total recent financing >£1.4bn",
           "status": "COMMITTED_REPORTED",
           "source_id": "CF-ISSUER-2022-03-21"
+        },
+        {
+          "date": "2023-01-01",
+          "event": "2022 annual report says a further GBP300m of Mubadala equity was received during Q1 2023; the day within the quarter is NOT specified",
+          "status": "CASH_RECEIVED_Q1_2023_DAY_UNKNOWN",
+          "source_id": "CF-2022-ACCOUNTS-2023-05-23",
+          "data_temporality": "LATER_DISCLOSURE"
         }
       ],
       "historical_policy_context": {
@@ -224,22 +252,82 @@
         "causal_interpretation": "Company describes policy relevance; no independent evidence this policy caused fund commitment"
       },
       "quantitative_gaps": [
-        "2021 investee revenue",
         "2021 EBITDA",
         "2021 net debt",
-        "actual paid in capital and date",
         "pre/post commitment shareholding",
         "precise investor vehicle",
-        "2021 ownership cap table"
+        "2021 ownership cap table",
+        "Exact Q1 2023 bank receipt date is not disclosed",
+        "Whether 2020 audited accounts were publicly available before March 2022 must be established",
+        "2021 EBITDA figure still unverified and not substitutable with operating loss"
       ],
       "flags": [
         "Potential follow-on to existing holding; do not treat 2022 commitment as a new 2026 funding tranche",
         "Company accounts archive can provide audited historical metrics once periods and accounts reviewed",
-        "Standalone master match unresolved, cannot invent master ID"
+        "Standalone master match unresolved, cannot invent master ID",
+        "2021 accounts were signed 22 April 2022 after 21 March financing announcement: hindsight-only for point-in-time publicly available inputs.",
+        "2022 accounts signed 23 May 2023 confirm Q1 2023 receipt retrospectively, not capital deployed during March 2022.",
+        "2020 audited revenue period is before announcement, but publication date not verified and must not be labelled proven public-at-commitment."
       ],
       "evidence_ids": [
         "CF-ISSUER-2022-03-21",
-        "CF-ACCOUNTS"
+        "CF-ACCOUNTS",
+        "CF-2021-ACCOUNTS-2022-04-22",
+        "CF-2022-ACCOUNTS-2023-05-23",
+        "CF-2020-ACCOUNTS"
+      ],
+      "funding_reconciliation": {
+        "announced_commitment_gbp_millions": 300,
+        "announced_on": "2022-03-21",
+        "receipt_disclosure": {
+          "amount_gbp_millions": 300,
+          "period": "2023-Q1",
+          "disclosed_in_report_signed": "2023-05-23",
+          "source_id": "CF-2022-ACCOUNTS-2023-05-23",
+          "received_at": "Connect Infrastructure Topco Limited",
+          "attribution": "Parent's audited accounts describe receipt from Mubadala; exact banking date and owning vehicle still unknown"
+        },
+        "state": "RECEIPT_REPORTED_IN_AUDITED_GROUP_ACCOUNTS",
+        "warning": "Never equate March 2022 announcement date with funds settled in March 2022."
+      },
+      "historical_financials": [
+        {
+          "fiscal_year": 2020,
+          "metric": "revenue",
+          "value": 63.132,
+          "currency": "GBP",
+          "unit": "millions",
+          "source_id": "CF-2020-ACCOUNTS",
+          "data_state": "AUDITED_PERIOD_PRE_ANNOUNCEMENT",
+          "publication_at_funding_date": "UNKNOWN_VERIFY"
+        },
+        {
+          "fiscal_year": 2021,
+          "metric": "revenue",
+          "value": 64.304,
+          "currency": "GBP",
+          "unit": "millions",
+          "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21"
+        },
+        {
+          "fiscal_year": 2021,
+          "metric": "operating_loss",
+          "value": -113.589,
+          "currency": "GBP",
+          "unit": "millions",
+          "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21"
+        },
+        {
+          "fiscal_year": 2021,
+          "metric": "net_loss",
+          "value": -133.392,
+          "currency": "GBP",
+          "unit": "millions",
+          "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21"
+        }
       ]
     }
   ]
