@@ -1,0 +1,8 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+Q01,Mumtalakat,"McLaren Group additional 8% to 50% in 2013, USD 13m (lead R09)",2013,USD 13m,Founder note; search found no 2013 purchase,Searches show 42% (2012) and 50% in later reports; the 8% and the date are not confirmed,UNVERIFIED_LEAD_NOT_FOUND
+Q02,OIA / SGRF (Oman),"Oman India Joint Investment Fund buys under 1% of ING Vysya Bank, late July 2013 (lead R04)",2013-07,Not stated,SWF Institute listing,Belongs to Jul to Dec 2013 package; fund-level,UNVERIFIED_LEAD_OUT_OF_WINDOW_2013H2
+Q03,QIA,Qatar Exchange sole ownership (Oct 2013); Bank of America and Samsung small stakes (Oct 2013),2013-10,Not stated,Gulf Business listing,Later package; exchange stake is domestic,UNVERIFIED_LEAD_OUT_OF_WINDOW_2013H2
+Q04,QIA,Citic Capital 22% (Gulf Business listing),2013,Not stated,Listing only,Date and target unseen; to search,UNVERIFIED_LEAD_MONTH_UNKNOWN
+Q05,ADIA,Kemble Water (Thames Water parent) 9.9%: result snippet undated,2011-12,Not stated,The National listing,Already in Part 2 July to December 2011 package,LINKED_TO_GSI11M12-001
+Q06,KIA,"Associated British Ports 10%, 8 Jul 2015",2015-07-08,Not stated,MergerLinks listing,Not 2013; check Part 1 May to August 2015,UNVERIFIED_LEAD_OUT_OF_WINDOW_2015
+Q07,Mumtalakat / SGRF / OIF / PIF,"Founder leads R05, R10, R11, R13 dated 2014",2014,Various,Founder notes; not searched,"2014 packages; R08, R12 and R14 are not records",UNVERIFIED_LEAD_OUT_OF_WINDOW

@@ -1,0 +1,7 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+J01,"PIF (Scopely, owned by Savvy)",Loom Games majority stake (Istanbul),2026-02,"About USD 1bn, milestone-contingent","Search only; several outlets, not opened","Founder note listed no month. Reports date it February 2026 and name Scopely as buyer, not PIF. February item, not January",UNVERIFIED_LEAD_FEB_2026_PACKAGE
+J02,PIF / Savvy,Take-Two stake (about USD 3bn) transferred to Savvy,2026-02,About USD 3bn,Search only,Follow-on to the January transfer (ledger row 004),UNVERIFIED_LEAD_LEDGER_ONLY_FEB_2026
+J03,PIF,Nintendo 6% and EA public stakes,2026 (no date),Not stated,Founder note; no source found for a January disclosure,Needs disclosure dates,UNVERIFIED_LEAD
+J04,QIA,Fund of Funds expansion to USD 3bn; Shorooq USD 200m fund,2026-02-02,USD 2bn added,Search only,February; master row GSI26JF-009 exists. Shorooq USD 200m QIA backing is a possible new row,UNVERIFIED_LEAD_FEB_2026_PACKAGE
+J05,Mubadala Capital,Debut co-investment fund USD 554m,2026-01 (per one profile),USD 554m,Single research profile; master row GSI26B04-008 says USD 550m,"Fund close, not a deal. Already in master",NOT_A_RECORD_ALREADY_IN_MASTER
+J06,ADQ / L'imad,Consolidation of ADQ under L'imad (M04),2026-01-30,USD 263bn,Confirmed by several outlets; WAM not opened,Entity change; ledger row 006,LINKED_TO_LEDGER_006

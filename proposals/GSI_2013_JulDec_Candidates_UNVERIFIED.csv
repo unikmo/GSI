@@ -1,0 +1,8 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+R01,QIA,"Qatar Holding buys NYSE Euronext 12% of Qatar Exchange, becoming sole owner, 1 Oct 2013",2013-10-01,Not stated,"Peninsula, TradeArabia, NYSE Euronext release listings","Domestic exchange: ledger-only, as for the 88% step in December 2012",LEDGER_ONLY_CANDIDATE
+R02,Mubadala,"Porto Sudeste closing, one source dates 14 Oct 2013",2013-10-14,USD 955m combined,Mergr listing,Later step of the February signing: link to GSI13M02-002,LINKED_TO_GSI13M02-002
+R03,Mubadala,Mubadala and partners sell 50% of Abu Dhabi Terminals to Abu Dhabi Ports (date unseen),Not seen,Not stated,The National listing,Divestment and intra-Gulf: ledger-only,LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+R04,QIA,CITIC Capital 22.22% is August 2012 and EBX is March 2012 (Mubadala),2012,Not stated,"AVCJ, Gulf Business listings",Added late to the 2012 packages: GSI12M08-002 and GSI12M03-003,LINKED_TO_GSI12M08-002
+R05,Mumtalakat,"McLaren additional 8% to 50%, USD 13m (lead R09): no 2013 purchase found",2013,USD 13m,Founder note,Carried from January to June 2013 package; still unconfirmed,UNVERIFIED_LEAD_NOT_FOUND
+R06,KIA,"Associated British Ports 10%, 8 Jul 2015",2015-07-08,Not stated,MergerLinks listing,Not 2013; check Part 1 May to August 2015,UNVERIFIED_LEAD_OUT_OF_WINDOW_2015
+R07,Mumtalakat / SGRF / OIF / PIF,"Founder leads R05, R10, R11, R13 dated 2014",2014,Various,Founder notes; not searched,"2014 packages; R08, R12 and R14 are not records",UNVERIFIED_LEAD_OUT_OF_WINDOW

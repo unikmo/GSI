@@ -1,0 +1,7 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+D01,QIA,"d-Matrix Series C (QIA new investor; Temasek, Bullhound, Triatomic co-leads)",2025-11-12,USD 275m round; QIA amount undisclosed,PR Newswire and QIA newsroom both dated 12 Nov (search; not opened),"Missed in the November package. Filed under November, so a backfill candidate",UNVERIFIED_LEAD_BACKFILL_CANDIDATE_NOV_2025
+D02,Mumtalakat,BlueFive Capital GP stake (Abu Dhabi PE firm),2025-08-04,Stake and price undisclosed,Business Wire and Reuters via Private Equity Wire (search),Named in the July audit as a later item but absent from the August package. Intra-Gulf: scope to rule,UNVERIFIED_LEAD_BACKFILL_CANDIDATE_AUG_2025
+D03,ADIA,Ardian real estate secondaries platform,Undated,Not known,Khaleej Times (search; date not seen),Platform launch; fund-commitment question; date needed to file,UNVERIFIED_LEAD_DATE_NEEDED
+D04,OIA,xAI stake,2024-12-18,Undisclosed,"Verdict, DealStreetAsia (search)",Outside the window (Dec 2024); check master for Dec 2024,UNVERIFIED_LEAD_CHECK_MASTER_DEC_2024
+D05,PIF,Aramco 49% stake in HUMAIN closing,2026-11-01,Reported USD 2.6bn,Unite.ai and Argaam (search),Domestic Saudi transaction; for the 2026 package and the intra-Saudi scope ruling,NOT_A_RECORD_PENDING_SCOPE_RULING
+D06,MGX,Lunate commitment to MGX (talks),2025-11,Not known,Earlier note,Talks only,NOT_A_RECORD_TALKS_ONLY

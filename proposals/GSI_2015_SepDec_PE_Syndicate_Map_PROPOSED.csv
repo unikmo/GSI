@@ -1,0 +1,4 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI15M09-001,2015-09,OIA (Oman),Oman Investment Fund,Al Anwar Ceramic Tiles,Al Jazeira Services (seller),SOLE_BUYER,DOMESTIC_LISTED_STAKE_PURCHASE,SELLER_BOARD_APPROVAL,41.09,OMR,37% stake,Muscat Stock Exchange (not opened),MEED,Completion unconfirmed
+GSI15M11-001,2015-11,ADIA,Abu Dhabi Investment Authority,The London NYC hotel,Blackstone (seller),SOLE_BUYER,REAL_ESTATE_ACQUISITION,CLOSED,382,USD,Includes USD 154m mortgage assumed,Real Deal,Commercial Observer,Not all cash
+GSI15M12-001,2015-12,SGRF (Oman),State General Reserve Fund,Kenmare Resources,Kenmare lenders and shareholders,CORNERSTONE_INVESTOR,MINORITY_EQUITY_CORNERSTONE,APPROVED_IN_PRINCIPLE,100,USD,Conditional,Kenmare RNS (not opened),RTE,Signed Jun 2016

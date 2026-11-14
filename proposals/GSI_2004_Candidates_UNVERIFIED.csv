@@ -1,0 +1,6 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+M01,Other Gulf (IPIC),"Gulf Energy Maritime (GEM): UAE shipping joint venture formed June 2004, about USD 430m, owned by ENOC 35%, IPIC 30%, Oman Oil 30%, Thales 5%",2004-06,"USD 430m (venture, total)",MarineLink listing,Intra-Gulf joint venture with UAE and Omani partners: ledger-only. Earlier lead J04 (IPIC 30%) is now dated,LEDGER_ONLY_CANDIDATE
+M02,Mubadala,"Mubadala 2003 memorandum with Volkswagen (earlier lead L02) resolved: the deal is LeasePlan, April 2004",2004-04,See GSI04M04-001,"Mubadala, Fleet News",LINKED_TO_GSI04M04-001,LINKED_TO_GSI04M04-001
+M03,Other Gulf (private),Kuwait Finance House Bahrain 75% of Liberty Aerospace (2004),2004,Not stated,Al Bawaba listing,Not a sovereign fund: out of scope,NOT_A_RECORD_ENTITY_OUT_OF_SCOPE
+M04,KIA,"KIA cuts BP to 2.56% (185m shares sold, Dec 2005)",2005-12,Not stated,Arab News listing,"Divestment, other year: ledger-only",LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+M05,ADIA,ADIA 7.6% of Suez Cement (2007) and other later stakes,2007,Not stated,CemNet listing,Not 2004: check the 2007 package,UNVERIFIED_LEAD_OUT_OF_WINDOW_2007

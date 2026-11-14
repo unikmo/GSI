@@ -1,0 +1,3 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI17M10-001,2017-10,PIF,Public Investment Fund,"Virgin Galactic, Spaceship Company, Virgin Orbit",Virgin Group; Aabar (existing),ANCHOR_INVESTOR,MINORITY_EQUITY_COMMITMENT,NON_BINDING_MOU,1000,USD,About; option USD 480m more,Not found,Space.com,"Commitment, not deployed"
+GSI17M11-001,2017-11,Mubadala,Mubadala Investment Company,Verno Capital PE advisory unit,Verno Capital,SOLE_BUYER,ADVISORY_UNIT_ACQUISITION,ANNOUNCED,,,Undisclosed,GlobeNewswire release (not opened),FinancialIT,Entity type to rule

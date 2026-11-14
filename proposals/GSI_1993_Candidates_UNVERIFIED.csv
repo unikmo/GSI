@@ -1,0 +1,6 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+Z01,KIA,KIO built its Royal Bank of Scotland stake by buying 14.06m shares from Lloyds Bank for about GBP 40m (undated MEES item),Not seen,About GBP 40m,MEES listing,Date unseen; may be 1990 to 1993. Needs the MEES date before it can be filed,UNVERIFIED_LEAD_MONTH_UNKNOWN
+Z02,KIA,"Other KIO share moves in UK firms (Investors Capital Trust, Prince of Wales hotel group, John Mowlem): undated",Not seen,Not stated,MEES listings,Small listed stakes with no dates; to find,UNVERIFIED_LEAD_MONTH_UNKNOWN
+Z03,KIA,"KIO disposes of 3% of British Petroleum (170m shares), MEES 1997",1997,Not stated,MEES listing,"Divestment and out of window: ledger-only, belongs in 1997",LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+Z04,OIA / SGRF (Oman),Oman and UAE form a joint investment company (May 1993); Sultan Decree No. 57 on Gulf investment (10 Oct 1993),1993-05,Not stated,Gulf migration site listing,Intra-Gulf vehicle and a law: not a record,NOT_A_RECORD_NO_TARGET
+Z05,IPIC,ADNOC contributes PARCO and SUMED shareholdings to IPIC (1995); Borealis 25% (1998),1995-1998,Not stated,IPIC history listing,Out of window; intra-group transfer 1995 is ledger-only,UNVERIFIED_LEAD_OUT_OF_WINDOW_1995_1998

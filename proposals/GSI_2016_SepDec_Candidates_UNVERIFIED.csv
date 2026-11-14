@@ -1,0 +1,7 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+V01,SGRF (Oman),"Escribano Mechanical and Engineering 32.2%, EUR 18m (founder lead P09)",2016-10,EUR 18m,Founder note; my search found nothing,Outbound equity. Not confirmed; month and value unchecked,UNVERIFIED_LEAD_NOT_FOUND
+V02,SGRF (Oman),Bharat Mumbai Container Terminals 20.4% with PSA (founder lead P10),2016 (month not given),Not stated,Founder note; not searched,Month unknown,UNVERIFIED_LEAD_MONTH_UNKNOWN
+V03,OIA (Oman),Kunooz Oman Holding 20% (founder lead P14),2016-11-02,Not stated,Founder note; not searched,Domestic Oman: ledger-only if confirmed,UNVERIFIED_LEAD_DOMESTIC
+V04,OIA (Oman),Oman Cement 51% and Omantel 51% transfers from Government (founder lead P15),2016-12,OMR 81.7m (about USD 212m),Founder note,Internal government transfers: ledger-only,LEDGER_ONLY_CANDIDATE_NOT_ADDED
+V05,SGRF (Oman),Kenmare cornerstone subscription agreement signed 20 Jun 2016,2016-06-20,USD 100m,Kenmare update via search listing,Later step of GSI15M12-001 (announced Dec 2015); not a new record,LINKED_TO_SEP_DEC_2015_ROW_GSI15M12-001
+V06,Mubadala,"Mubadala and IPIC merger announced late June 2016, completed 20 Jan 2017",2016-06 and 2017-01,Not applicable,Search listings,"Intra-group state restructuring, like the Aramco transfer. Ledger-only",LEDGER_ONLY_CANDIDATE_NOT_ADDED

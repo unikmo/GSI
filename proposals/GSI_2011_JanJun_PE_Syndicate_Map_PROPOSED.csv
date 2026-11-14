@@ -1,0 +1,5 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI11M03-001,2011-03,KIA,Kuwait Investment Authority,TPG,GIC,CO_INVESTOR,GP_STAKE_MINORITY,COMPLETED,,USD,About 4.5% passive; price undisclosed,Not found,TradeArabia,Buyer from a Reuters source
+GSI11M04-001,2011-04,QIA,Qatar Holding,Songbird Estates,Other shareholders,SHAREHOLDER,PUBLIC_MARKET_STAKE_INCREASE,REPORTED,,GBP,28.5m shares; stake to 27.7%,Not found,TradeArabia,Cost not seen
+GSI11M02-001,2011-02,Other Gulf (IPIC),International Petroleum Investment Company,Cepsa,Total (seller),CONTROL_BUYER,CONTROL_ACQUISITION,SIGNED_COMPLETED_JUL_2011,3700,EUR,48.83% from Total; bid EUR 28 a share,Total release (not opened),Domain-b,Headline EUR 3.97bn vs EUR 3.7bn paid
+GSI11M03-002,2011-03,QIA,Qatar Holding,Iberdrola,"Iberdrola (issuer); ACS (20.2% holder, context)",SUBSCRIBER,MINORITY_EQUITY_ACQUISITION,MOU,,EUR,"6.16%; about EUR 2,015m reported",Not found,TradeArabia,MoU to signing to completion

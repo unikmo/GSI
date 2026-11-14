@@ -1,0 +1,6 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+D01,IPIC,"IPIC consortium agreement with OIAG of 19 May 1994 to buy a stake in OMV (13% by one source, 19.6% by another)",1994-05-19,Not stated,OMV and MEES listings,Belongs to 1994: added late to the 1994 package as GSI94M05-001,LINKED_TO_GSI94M05-001
+D02,IPIC,IPIC and OMV letter of intent for Neste 50% of Borealis (Sep 1997); 25% each in 1998,1997-09,Not stated,Search listings,Out of window: 1997 and 1998 packages,UNVERIFIED_LEAD_OUT_OF_WINDOW_1997
+D03,Other Gulf (private),"KIPCO buys a stake in Burgan Bank (MEES, 21 Oct 1996)",1996-10-21,Not stated,MEES listing,"Kuwaiti company buying a Kuwaiti bank: domestic, and KIPCO is not the KIO or KIA",NOT_A_RECORD_ENTITY_OUT_OF_SCOPE
+D04,KIA,"KIO stakes in Prince of Wales hotel group (2.4m shares), Exco 21%, Kenning: undated or mid-1980s",Not seen,Not stated,MEES listings,Dates unseen or earlier than 1990; small UK stakes,UNVERIFIED_LEAD_MONTH_UNKNOWN
+D05,KIA,"KIO disposed of 3% of BP (170m shares), MEES 1997",1997,Not stated,MEES listing,"Divestment, 1997 package: ledger-only",LEDGER_ONLY_DIVESTMENT_NOT_ADDED

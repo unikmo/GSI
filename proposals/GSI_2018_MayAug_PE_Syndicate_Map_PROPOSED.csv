@@ -1,0 +1,6 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI18M05-001,2018-05,QIA,Qatar Investment Authority,Rosneft,Glencore (0.57% retained),CONSOLIDATING_HOLDER,STAKE_CONSOLIDATION_FROM_CONSORTIUM,COMPLETED_SEP_2018,,EUR,14.16% moved; QIA 18.93% in total,QIA release (not opened),Caixin,QIA amount unconfirmed
+GSI18M06-001,2018-06,ADIA,Abu Dhabi Investment Authority,Pension Insurance Corporation,JC Flowers (seller),SOLE_BUYER,MINORITY_EQUITY_ACQUISITION,ANNOUNCED,,,21.4%,Not found,Portfolio Institutional,Price undisclosed
+GSI18M06-002,2018-06,Mubadala,Mubadala Petroleum,Shorouk Concession (Zohr),Eni (seller),SOLE_BUYER,MINORITY_ASSET_ACQUISITION,COMPLETED,,,10% interest,Not found,Albawaba release copy,Price not stated
+GSI18M07-001,2018-07,ADIA,Abu Dhabi Investment Authority,UPL Corporation (Arysta),TPG Capital Asia,CO_INVESTOR,CO_INVESTMENT_MINORITY,ANNOUNCED,600,USD,USD 1.2bn combined; about 22% of UPL Corp,Not found,TPG release,Round headline separate
+GSI18M08-001,2018-08,PIF,Public Investment Fund,Tesla,Public shareholders,PUBLIC_MARKET_HOLDER,PUBLIC_MARKET_STAKE,REPORTED,,USD,3 to 5%; USD 1.7bn to 2.9bn,Not found,"Euronews (FT, Reuters)",Not confirmed by PIF

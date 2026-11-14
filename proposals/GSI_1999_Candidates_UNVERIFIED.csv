@@ -1,0 +1,6 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+G01,IPIC,IPIC later raises its Hyundai Oilbank stake from 50% to 70% (2003 or February 2006 by source); 2008 dispute and 2010 to 2011 sale,2003-2011,USD 2.2bn (2011 sale),"National, Gulf News listings",Later steps: link to GSI99M10-001; the sale is a divestment,LINKED_TO_GSI99M10-001
+G02,IPIC,IPIC 17.6% of Oil Search (Papua New Guinea) for just over USD 1bn: date unseen,Not seen,Just over USD 1bn,Search listing,Not 1999; check the 2000s packages,UNVERIFIED_LEAD_OUT_OF_WINDOW_2000S
+G03,QIA,"Qatar Holding 20% of a UK airport operator (BAA, Heathrow) for USD 1.4bn: date unseen",Not seen,USD 1.4bn,MEED listing,Not 1999. Not found in the July to December 2012 package: date to find and check Part 2,UNVERIFIED_LEAD_MONTH_UNKNOWN
+G04,KIA,KIA sells Arab Bank (Jordan) shares for about USD 96.7m (2001); KIA stepping down and leadership news 1998-1999,2001,About USD 96.7m,Search listings,"Divestment, 2001: ledger-only; leadership news not a record",LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+G05,KIA,"KIO stakes in Stylo, Prince of Wales hotel group and other UK companies: undated",Not seen,Not stated,MEES listings,Dates unseen,UNVERIFIED_LEAD_MONTH_UNKNOWN

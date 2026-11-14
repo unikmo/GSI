@@ -1,0 +1,9 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+R01,MGX,OpenAI USD 122bn round (USD 852bn post-money),2026-03-31,MGX amount undisclosed; round USD 122bn,Many outlets; MGX named as participant; QIA not named; not opened. Not in master,Lead M07 said May; sources say the round closed 31 March. Missed in the March package: backfill candidate for March,UNVERIFIED_LEAD_BACKFILL_CANDIDATE_MAR_2026
+R02,PIF (SALIC),Olam Agri stake raised to 80.01% (about USD 1.88bn),2026-04-27 or 2026-05-14,USD 1.88bn,PIF newswire dated 14 May; Arab News updated 27 Apr; master holds GSI26B03-001 with completion 2026-04-27,Already in master (announced Feb 2025). Completion date conflict between 27 Apr and 14 May,UNVERIFIED_LEAD_COMPLETION_DATE_QUESTION
+R03,Mubadala,Greenlink USD 200m stake,2026-05-16 (master) or 2026-06-17 (press),USD 200m,Press dated 17 to 18 Jun; master candidate row dated 16 May,Date conflict. Likely June,UNVERIFIED_LEAD_DATE_QUESTION
+R04,QIA; COFIDES,"Ispania Growth Fund (EUR 300m, Portobello-managed)",2026-05-20,EUR 300m fund,Master candidate row; search confirmed a QIA-COFIDES EUR 300m fund but not the name,Fund commitment; ruling needed,UNVERIFIED_LEAD
+R05,ADQ / AD Ports,MBS Logistics core business,2026-05-18,Not stated,Master candidate row only; not searched,Domestic acquirer buying abroad: classification to settle,UNVERIFIED_LEAD
+R06,PIF,Anchor stake of about USD 5bn in SpaceX IPO,2026-04-05 (talks),USD 5bn,One report: talks only,"Talks, not a record",NOT_A_RECORD_TALKS
+R07,PIF,30% of Tamimi Markets by share subscription,Undated,Not stated,One listing,Domestic. Needs date,UNVERIFIED_LEAD_DATE_NEEDED
+R08,MGX,Raise of near USD 50bn,2026-06-26 close,USD 49bn to 50bn,Secondary,"Fund raise, not a record. Same as lead M06",NOT_A_RECORD_FUND_RAISE

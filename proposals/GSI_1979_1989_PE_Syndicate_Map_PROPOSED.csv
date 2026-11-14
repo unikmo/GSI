@@ -1,0 +1,4 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI87M11-001,1987-11,KIA,Kuwait Investment Office,BP plc,Not stated,MINORITY_SHAREHOLDER,MINORITY_EQUITY_ACQUISITION,DISCLOSED,,,10.06%; price not seen,Not found,MEES,Entity to rule
+GSI88M01-001,1988-01,KIA,Kuwait Investment Office,BP plc,"UK government (regulator, context)",MINORITY_SHAREHOLDER,MINORITY_STAKE_INCREASE,REPORTED,,,About 21.6% (22.068% in one source),Hansard (not opened),MEES,Percentage to confirm
+GSI88M01-002,1988-01,Other Gulf (IPIC),International Petroleum Investment Company,Cepsa,Not stated,MINORITY_SHAREHOLDER,MINORITY_EQUITY_ACQUISITION,ACQUIRED,,,About 10%; price not seen,Not found,MEES,Share signing date to confirm

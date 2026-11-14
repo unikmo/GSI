@@ -1,0 +1,4 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI19M04-001,2019-04,QIA,Qatar Investment Authority,Vornado NY retail portfolio,Crown Acquisitions; Vornado (seller),CO_INVESTOR,CO_INVESTMENT_REAL_ESTATE,ANNOUNCED,,USD,Portfolio USD 5.6bn; about 24% each reported,QIA release (not opened),SWF Institute,QIA share to confirm
+GSI19M04-002,2019-04,QIA,Qatar Investment Authority,Sirius Minerals,Placing investors,PLACING_INVESTOR,PUBLIC_MARKET_PLACING,DISCLOSED,,USD,3.3% of enlarged company; placing USD 425m,Not found,SWF Institute,Month to confirm
+GSI19M04-003,2019-04,ADIA,Abu Dhabi Investment Authority,GVK airport businesses,NIIF,CO_INVESTOR,CO_INVESTMENT_MINORITY,AGREED,,,49% between ADIA and NIIF,Not found,The National,ADIA share unclear

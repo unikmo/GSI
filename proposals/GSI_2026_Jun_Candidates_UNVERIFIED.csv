@@ -1,0 +1,6 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+R01,Mubadala,"GlobalFoundries block sale of about 22m shares (USD 1.8bn to 2bn proceeds), still about 73% held",2026-05-26 (settles 2026-05-28),USD 1.8bn to 2bn,"Cleary Gottlieb note, Enterprise AM, SEC filing per one outlet; not opened. Not in master as far as the names grep shows","Divestment: ledger-only. May item, missed in the May package. Backfill for May",UNVERIFIED_LEAD_LEDGER_ONLY_BACKFILL_MAY_2026
+R02,Mubadala,Greenlink USD 200m stake from Equitix,2026-06-17 (press) or 2026-05-16 (master),USD 200m,Press dated 17 to 18 Jun; master candidate row says 16 May,"If the press is right this belongs in June. Date to settle, then promote",UNVERIFIED_LEAD_DATE_QUESTION_MAY_OR_JUN
+R03,MGX,Close of near USD 50bn raise,2026-06-26,USD 49bn to 50bn,Bloomberg via secondary,"Fund raise, not a record",NOT_A_RECORD_FUND_RAISE
+R04,PIF,"HUMAIN USD 3bn into xAI, said to be completed",Undated,USD 3bn,One article; February package has the announcement (GSI26M02-003),Completion date only; no new record,LINKED_TO_LEDGER_GSI26M02-003
+R05,Mubadala; ADIA,Intertek price and stakes conflict,2026-06-18,GBP 9.3bn to 10.9bn,Sources conflict on headline value and ADIA 16% or 18%,Check firm offer before use,UNVERIFIED_LEAD_VALUE_CONFLICT

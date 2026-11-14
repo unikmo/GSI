@@ -1,0 +1,6 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+T01,KIA,"Gulf Bank (Kuwait): KIA took the unsubscribed part of the rights issue, ending at 16%; offering completed 26 Jan 2009",2009-01-26,KD 376m raised in total (KIA share not stated),"Gulf Bank release, Arabian Business listings",Domestic bank rescue: ledger-only,LEDGER_ONLY_CANDIDATE
+T02,Mubadala,ATIC (Mubadala) and AMD: GlobalFoundries announced 4 Mar 2009; ATIC bought Chartered Semiconductor in 2009. Earlier lead R02 (2008),2008 or 2009,Not reconciled,Mubadala award page; mirror sites,"Under the signing rule the AMD foundry deal belongs to the signing date (autumn 2008, unseen). Chartered date unseen: lead",UNVERIFIED_LEAD_MONTH_UNKNOWN
+T03,Mubadala,About 5% of Ferrari (undated in the result),Not seen,Not stated,The National listing,Do not file until dated,UNVERIFIED_LEAD_MONTH_UNKNOWN
+T04,ADIA,ADIA 15% of Gatwick Airport for about GBP 125m (Feb 2010); 19% of Port of Brisbane via Tawreed (Nov 2010),2010,About GBP 125m,"Domain-b, TradeArabia listings",Not 2009: check the 2010 packages,UNVERIFIED_LEAD_OUT_OF_WINDOW_2010
+T05,QIA,Harrods (2010) and the Xstrata and Glencore merger (2012),2010 or 2012,Not stated,Search listings,Not 2009: check later packages,UNVERIFIED_LEAD_OUT_OF_WINDOW_2010

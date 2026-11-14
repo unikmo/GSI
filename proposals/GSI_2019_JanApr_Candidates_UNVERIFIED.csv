@@ -1,0 +1,8 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+D01,PIF,"SABIC 70% sale to Saudi Aramco, signed 27 Mar 2019 (founder lead Q01)",2019-03-27,USD 69.1bn,Founder note; not searched,Domestic divestment: ledger-only by your ruling,LEDGER_ONLY_CANDIDATE
+D02,PIF,OYO non-binding MoU (founder lead Q04),2019-02,No amount,Founder note; not searched,MoU only; ledger-only,LEDGER_ONLY_CANDIDATE
+D03,PIF,"Stated intention to raise ACWA Power from 25% to 40%, about 13 Feb 2019",2019-02-13,Not stated,Gulf Business and SWF Institute via listing,"Intention, not a transaction; domestic. Not a record",NOT_A_RECORD_INTENTION_ONLY
+D04,Mubadala,"Sale of a further 39% of Borealis to OMV (announced March 2019, completed later for USD 4.68bn)",2019-03,USD 4.68bn,Gulf News and The National via listing,Divestment: ledger-only,LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+D05,Mubadala,"Carlyle to buy 30 to 40% of Cepsa from Mubadala, announced 8 Apr 2019",2019-04-08,Not stated,Reuters and Bloomberg via listing,Divestment: ledger-only,LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+D06,ADIA,Landmark Dividend 40% and Pension Insurance Corporation 21.4%: dates not seen,Not seen,Not stated,Search listing,PIC is June 2018 (GSI18M06-001); Landmark Dividend date unconfirmed,UNVERIFIED_LEAD_MONTH_UNKNOWN
+D07,Mumtalakat / SGRF / OIA,"Q06 to Q12 founder leads dated later in 2019 or unknown (Premo June, ELM September, Radio Bahrain May, FAI Aviation 2017, Rakiza)",2019 or 2017,Not stated,Founder notes; not searched,Later months of 2019 or a 2017 month missing from the 2017 packages,UNVERIFIED_LEAD_OUT_OF_WINDOW

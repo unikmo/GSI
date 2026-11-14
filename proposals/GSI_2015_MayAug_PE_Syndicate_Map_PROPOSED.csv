@@ -1,0 +1,3 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI15M06-001,2015-06,PIF,Public Investment Fund,POSCO E&C,POSCO (seller and 52.8% holder after),SOLE_NEW_INVESTOR,MINORITY_EQUITY_ACQUISITION,COMPLETED_OCT_2015,1100,USD,About KRW 1.24tn,PIF release (not opened),Bloomberg,Date conflict
+GSI15M08-001,2015-08,SGRF (Oman),State General Reserve Fund,Marriott Ambassador Paris,Westmont Hospitality Group (10%),CONTROLLING_BUYER,REAL_ESTATE_ACQUISITION,ANNOUNCED,,,Price not stated,Zawya,SWF Institute,Price missing

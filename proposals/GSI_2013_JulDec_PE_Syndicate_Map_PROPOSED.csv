@@ -1,0 +1,4 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI13M07-001,2013-07,OIA / SGRF (Oman),Oman India Joint Investment Fund I,ING Vysya Bank,State Bank of India (50% partner in the fund),FUND_PARTNER,FUND_LEVEL_MINORITY_INVESTMENT,REPORTED,,INR,Under 1%; amount unseen,Not found,SWF Institute,SGRF share to confirm
+GSI13M10-001,2013-10,QIA,Qatar Holding,Bank of America,,SHAREHOLDER,PUBLIC_MARKET_STAKE,REPORTED,,USD,About USD 1bn per unnamed source,Not found,Peninsula (Reuters),Unconfirmed
+GSI13M10-002,2013-10,QIA,Qatar Holding,Samsung Electronics,,SHAREHOLDER,PUBLIC_MARKET_STAKE,REPORTED,,USD,USD 200m to 300m per unnamed source,Not found,Business Standard (Reuters),Unconfirmed

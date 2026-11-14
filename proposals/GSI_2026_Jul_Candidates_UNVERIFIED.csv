@@ -1,0 +1,12 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+R01,MGX,MGX Fund I closes at USD 49bn (target 45bn); 14 companies invested to date,2026-07-01,USD 49bn,"The National, Bloomberg via aggregators; not opened","Fund raise by MGX itself, not an investment into a target. Not a record. Context for MGX deployment",NOT_A_RECORD_FUND_RAISE
+R02,"PIF, QIA, L'imad",Backers of Paramount Skydance takeover of Warner Bros. Discovery; court ruling pauses deal,2026-07-20,USD 110bn total deal,Enterprise AM; not opened,Bid-stage co-investment; ruling open. Backer amounts not stated. Check whether the master or earlier packages hold it,UNVERIFIED_LEAD_BID_STAGE_RULING
+R03,PIF (Tawal),"Tawal in talks for more than 10,000 Mobily tower sites",2026-07-20,Multibillion per Semafor,Enterprise AM citing Semafor; not opened,Talks only. Domestic. Not a record,NOT_A_RECORD_TALKS
+R04,PIF,MoUs: up to USD 9.5bn with IFC and MIGA; up to USD 15bn export credit with US EXIM,2026-07-24,USD 9.5bn; USD 15bn,Search result; not opened,Financing MoUs where PIF is the recipient. Not an outward investment. Not a record,NOT_A_RECORD_FINANCING_MOU
+R05,PIF,PIF holds USD 26.3bn SpaceX stake as of end June,2026-07 (as-of 30 Jun),USD 26.3bn,Sharikat Mubasher; not opened,"Holding disclosure, not a transaction. Valuation-based amount. Not a record",NOT_A_RECORD_HOLDING
+R06,OIA,Future Fund Oman unveils 105 projects worth USD 1.744bn,2026-07-15,USD 1.744bn,Search result; not opened,Domestic programme. Not a record,NOT_A_RECORD_DOMESTIC
+R07,"ADQ, OIA",AED 10bn UAE-Oman partnership for joint investments,Undated (page banner 10 Jul),AED 10bn,Oman Observer; date unclear,"Framework, not a deal; date may be older. Check date",UNVERIFIED_LEAD_DATE_UNCLEAR
+R08,Mubadala Capital,Tokenised access to a private-market strategy,2026-07-26,Not stated,Headline only,"Product launch, not an investment. Not a record",NOT_A_RECORD_PRODUCT
+R09,Mubadala,USD 400m investment in European technology companies,Undated,USD 400m,Asharq Al-Awsat; date ambiguous,Check date and whether it is a fund programme,UNVERIFIED_LEAD_DATE_UNCLEAR
+R10,PIF (Sela),Sela international headquarters in London,2026-07-06,Not stated,Master V1.5_HOLDS-004; not searched,"Hold in master; operating HQ, likely not an investment. Not screened this month",UNVERIFIED_LEAD_HOLD_NOT_SCREENED
+R11,Mubadala,Zenobe investment (search listed it under July pages),2023 deal,GBP 270m,Search result,Old deal (Dec 2023); only the page banner is July 2026. No July record,NOT_A_RECORD_OLD_DEAL

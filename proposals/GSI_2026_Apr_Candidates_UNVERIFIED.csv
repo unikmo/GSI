@@ -1,0 +1,8 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+R01,MGX,Raise of near USD 50bn from third parties,2026-04-18 (testing); close reported 2026-06-26,USD 49bn to 50bn,Several outlets; Bloomberg via secondary; not opened,"Fund raising by a Gulf vehicle, not an investment by a Gulf fund. Matches lead M06",NOT_A_RECORD_FUND_RAISE
+R02,PIF,"MoUs with PGIM and Man Numeric (Miami, about 8 Apr)",2026-04-08,None,Secondary,"Market-development MoUs, no investment",NOT_A_RECORD_MOU
+R03,OIA,Heads of Terms with Samruk-Kazyna on investment cooperation,2026-04-24,None,Samruk-Kazyna release in search; not opened,Non-binding framework,NOT_A_RECORD_FRAMEWORK
+R04,ADQ,Monetisation of 8.6% of Abu Dhabi National Energy,Undated,Not stated,One listing page,"Divestment, domestic: ledger-only if dated to a month",UNVERIFIED_LEAD_DATE_NEEDED
+R05,ADIA,Hologic take-private participation,Undated,Not stated,One search line,Needs date and ADIA amount,UNVERIFIED_LEAD
+R06,OIA,Escribano 32.2% stake repurchase,March 2026 page date (doubtful),None,"Oman Observer article id is lower than a December 2024 article, so it is probably older than 2026",CORRECTION to March ledger row GSI26M03-006. The master already holds GSI22F02-004 (2022). Likely not a 2026 event,CORRECTION_TO_MARCH_PACKAGE
+R07,OIA,xAI stake,2024-12-18,Undisclosed,Oman Observer date banner showed 3 Apr 2026 but the article is December 2024,Already in master as GSI24D12-005. Not an April record,NOT_A_RECORD_DUPLICATE_OF_MASTER

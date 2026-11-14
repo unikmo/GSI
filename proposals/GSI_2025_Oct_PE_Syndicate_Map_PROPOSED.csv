@@ -1,0 +1,6 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI25M10-001,2025-10,MGX,MGX,Aligned Data Centers,AIP; BlackRock GIP; seller Macquarie Asset Management,CONSORTIUM_PARTNERS,CONSORTIUM,AGREED_CLOSED_2026_07_21,,,Whole deal USD 40bn EV,Pulse2,WAM (closing),Find MGX share
+GSI25M10-002,2025-10,ADIA,ADIA subsidiary,Froneri,PAI Partners; Goldman Sachs; new continuation vehicle,LEAD_SPONSOR,CO_INVESTOR_IN_CONTINUATION_VEHICLE,ANNOUNCED,,,Split unclear,The National,Enterprise AM,Open ADIA release
+GSI25M10-003,2025-10,ADIA,ADIA,Hologic,Blackstone; TPG (leads); GIC,LEAD_SPONSORS,MINORITY_CO_INVESTOR,AGREED,,,Undisclosed,Enterprise AM,Reuters (cited),Read Hologic release
+GSI25M10-004,2025-10,MGX,MGX,OpenAI (secondary),Thrive; SoftBank; Dragoneer; T. Rowe Price,CO_BUYERS,SECONDARY_BUYER,REPORTED,,,Undisclosed,Wamda,Reuters (cited),Find Reuters
+GSI25M10-006,2025-10,QIA,QIA,BASF Coatings (Surventis),Carlyle (lead); seller BASF keeps 40%,LEAD_SPONSOR,CO_INVESTOR_WITH_SPONSOR,CLOSED_2026_06_30_PER_MASTER,,,Not stated,BASF release,Pulse2,Link to master row

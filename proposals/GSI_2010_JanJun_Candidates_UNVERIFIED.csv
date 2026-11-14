@@ -1,0 +1,9 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+H01,SGRF (Oman),"Oman India Joint Investment Fund with SBI: joint venture agreement signed in New Delhi 14 Jul 2010, USD 100m corpus shared equally (lead R01)",2010-07-14,USD 100m (USD 50m each),domain-b and LSE RNS via listings,"July: next package. Bilateral platform, admissibility to rule",UNVERIFIED_LEAD_OUT_OF_WINDOW_JUL_2010
+H02,SGRF (Oman),"Uzbek-Oman Investment Company, founded 2010 with initial USD 100m (lead R06); one profile says 2009",2010 (month not found),USD 100m,Private equity profiles; no signing report found,Platform; month unknown; FRDU share not confirmed,UNVERIFIED_LEAD_MONTH_UNKNOWN
+H03,Mubadala,"Mubadala takes full control of John Buck International (US real estate), date not seen",2010 (month not found),Not stated,MEED and TradeArabia listings,Month to confirm; may fall in H1 or H2 2010,UNVERIFIED_LEAD_MONTH_UNKNOWN
+H04,Mubadala,"Mubadala Infrastructure Partners 25% of Abu Dhabi Terminals, said to be 2010",2010 (month not found),Not stated,Global Private Capital listing,Intra-Abu Dhabi target: classification to rule; month unknown,UNVERIFIED_LEAD_MONTH_UNKNOWN
+H05,Mubadala,"ATIC and Chartered integrated into GlobalFoundries, Jan 2010",2010-01,Not applicable,Search listing,Intra-group restructuring: ledger-only,LEDGER_ONLY_CANDIDATE_NOT_ADDED
+H06,Mubadala,"Further USD 500m into Carlyle, December 2010",2010-12,USD 500m,AVCJ listing,December: later package,UNVERIFIED_LEAD_OUT_OF_WINDOW_DEC_2010
+H07,QIA,"Porsche 10% and Volkswagen options, 2009",2009,Not stated,"Carnegie, The National listings",Pre-2010 is parked,PARKED_PRE_2010
+H08,Mumtalakat / PIF / OIF,Remaining 2010 to 2014 founder leads R02 to R14,2011-2014,Various,Founder notes; not searched,"Later packages; R08, R12 and R14 are not records",UNVERIFIED_LEAD_OUT_OF_WINDOW

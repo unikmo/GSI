@@ -1,0 +1,8 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+K01,Mubadala,"Full control of John Buck International (Sowwah Island, Abu Dhabi): remaining 49% or 51% by source, announced about 7 Mar 2011",2011-03-07,Not stated,"The National, MEED, Dubaibeat listings","Abu Dhabi target: intra-Gulf, ledger-only candidate; stake given as 49% or 51%",LEDGER_ONLY_CANDIDATE
+K02,Mubadala,"ATIC to raise its GlobalFoundries stake, The National, 14 Jun 2011 (title only)",2011-06-14,Not stated,Citation title only,Intra-group: ledger-only,LEDGER_ONLY_CANDIDATE_NOT_ADDED
+K03,IPIC,"IPIC raises OMV stake from 20.4% to 24.9%, date not seen",Not seen,Not stated,Search listing,Month unknown; IPIC and Aabar are covered under Mubadala from 2017,UNVERIFIED_LEAD_MONTH_UNKNOWN
+K04,IPIC (Aabar),"Aabar buys ADCB 25% of RHB Capital (Malaysia), date not seen",Not seen,Not stated,IPIC results listing,Month unknown; Abu Dhabi seller,UNVERIFIED_LEAD_MONTH_UNKNOWN
+K05,QIA,"Tiffany & Co 5.2% stake from an SEC filing report, built about 2011",2011 or 2012,Not stated,Press report listing,Date of filing not seen,UNVERIFIED_LEAD_MONTH_UNKNOWN
+K06,QIA,"Xstrata stake built from Feb 2012 (3.08%, then about 6.3% by Apr 2012)",2012,About GBP 1bn reported,"Euromoney, The National listings",2012 package,UNVERIFIED_LEAD_OUT_OF_WINDOW_2012
+K07,Mubadala,"Cleveland Clinic Abu Dhabi, said to be 2011",Not found,Not stated,Search listing,"Partnership in Abu Dhabi, no equity deal found: not a record",NOT_A_RECORD_NO_TARGET

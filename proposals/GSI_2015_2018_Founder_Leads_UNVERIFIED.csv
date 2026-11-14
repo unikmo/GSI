@@ -1,0 +1,37 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+P01,PIF,POSCO Engineering & Construction 38% stake,2015-07-22,USD 1.1bn,Founder note 2026-11-13; no URL,Outbound equity,UNVERIFIED_LEAD_2015_19_PHASE
+P02,PIF,RDIF co-investment platform,2015-07,Up to USD 10bn commitment,Founder note 2026-11-13; no URL,"Platform commitment, not deployed; admissibility to rule",UNVERIFIED_LEAD_2015_19_PHASE_COMMITMENT
+P03,PIF,Uber Series G,2016-06-01 or 2016-07-01 (two dates given),"USD 3.5bn, about 5%",Founder note 2026-11-13; no URL,Date to resolve from primary source,UNVERIFIED_LEAD_2015_19_PHASE_DATE_QUESTION
+P04,PIF,SoftBank Vision Fund anchor MoU,2016-10-14,Up to USD 45bn over five years,Founder note 2026-11-13; no URL,MoU commitment; later funded in tranches,UNVERIFIED_LEAD_2015_19_PHASE_COMMITMENT
+P05,PIF,Adeptio (Americana) 50%,2016-11-27,Not stated,Founder note 2026-11-13; no URL,Check vehicle and Gulf-to-Gulf scope,UNVERIFIED_LEAD_2015_19_PHASE
+P06,PIF,Aramco ownership transfer plan,2016-03,n/a,Founder note 2026-11-13; no URL,"State restructuring, not M&A; ledger-only",LEDGER_ONLY_CANDIDATE
+P07,SGRF (Oman),Paris Marriott Ambassador Hotel 90%,2015-08-18,Not stated,Founder note 2026-11-13; no URL,Outbound real estate,UNVERIFIED_LEAD_2015_19_PHASE
+P08,SGRF (Oman),Kenmare Resources cornerstone,2015-12 announced; 2016-06-20 signed,"USD 100m, about 29.2%",Founder note 2026-11-13; no URL,One record; use announcement date,UNVERIFIED_LEAD_2015_19_PHASE
+P09,SGRF (Oman),Escribano M&E 32.2%,2016-10,EUR 18m,Founder note 2026-11-13; no URL,Outbound equity,UNVERIFIED_LEAD_2015_19_PHASE
+P10,SGRF (Oman),Bharat Mumbai Container Terminals 20.4%,2016,Not stated,Founder note 2026-11-13; no URL,Outbound; with PSA,UNVERIFIED_LEAD_2015_19_PHASE
+P11,OIF (Oman),Seven European Hilton hotels,2015,EUR 380m,Founder note 2026-11-13; no URL,Outbound real estate,UNVERIFIED_LEAD_2015_19_PHASE
+P12,OIF (Oman),Al Anwar Ceramic Tiles 17.4%,2015-09,Not stated,Founder note 2026-11-13; no URL,Domestic Oman; listed company,UNVERIFIED_LEAD_DOMESTIC
+P13,OIF (Oman),Ubhar Capital / OAB Investment Management,2016-03 to 2016-12,Not stated,Founder note 2026-11-13; no URL,Domestic platform; check Gulf outbound scope,UNVERIFIED_LEAD_DOMESTIC
+P14,OIF (Oman),Kunooz Oman Holding 20%,2016-11-02,Not stated,Founder note 2026-11-13; no URL,Domestic Oman,UNVERIFIED_LEAD_DOMESTIC
+P15,OIF (Oman),Oman Cement 51% from Government; Omantel 51% transfer,2016-12,OMR 81.7m (about USD 212m),Founder note 2026-11-13; no URL,Internal government transfers; ledger-only,LEDGER_ONLY_CANDIDATE
+P16,Mumtalakat,Nobel Learning Communities with Investcorp,2015,Not stated,Founder note 2026-11-13; no URL,Outbound co-investment,UNVERIFIED_LEAD_2015_19_PHASE
+P17,Mumtalakat,"GEMS Education consortium with Blackstone, Fajr",2015-10,Not stated,Founder note 2026-11-13; no URL,Gulf target; PE consortium,UNVERIFIED_LEAD_2015_19_PHASE
+P18,Mumtalakat,Gulf Cryo 10%,2016-03-08,Not stated,Founder note 2026-11-13; no URL,Gulf target,UNVERIFIED_LEAD_2015_19_PHASE
+P19,Mumtalakat,Aleastur 49%,2016-03-08,Not stated,Founder note 2026-11-13; no URL,Outbound equity,UNVERIFIED_LEAD_2015_19_PHASE
+P20,Mumtalakat,US Grade-A office portfolio JV with Regent,2016-05,USD 250m portfolio,Founder note 2026-11-13; no URL,"Portfolio value, not Mumtalakat share",UNVERIFIED_LEAD_2015_19_PHASE
+P21,Mumtalakat,KOS Group via F2i Healthcare,2016-08-01,Not stated,Founder note 2026-11-13; no URL,Indirect stake,UNVERIFIED_LEAD_2015_19_PHASE
+P22,Mumtalakat,Envirogen Group,2016,Not stated,Founder note 2026-11-13; no URL,Outbound equity,UNVERIFIED_LEAD_2015_19_PHASE
+P23,PIF,Blackstone US infrastructure vehicle anchor,2017-05-20,Up to USD 20bn,Founder note 2026-11-13; no URL,Commitment; vehicle USD 40bn headline,UNVERIFIED_LEAD_2015_19_PHASE_COMMITMENT
+P24,PIF,"Virgin Galactic, Spaceship Co, Virgin Orbit",2017-10-26,About USD 1bn plus USD 480m option,Founder note 2026-11-13; no URL,Not completed per note (paused 2018); status to resolve,UNVERIFIED_LEAD_STATUS_QUESTION
+P25,PIF,Magic Leap Series D,2018-03-07,USD 400m,Founder note 2026-11-13; no URL,Round headline vs PIF amount to check,UNVERIFIED_LEAD_2015_19_PHASE
+P26,PIF,AccorInvest 55% consortium,2018-03 signed; 2018-05 closed,USD 5.4bn valuation,Founder note 2026-11-13; no URL,PIF share not stated,UNVERIFIED_LEAD_2015_19_PHASE
+P27,PIF,ACWA Power 15.2% direct (24.98% with Sanabil),2018-06-04,Not stated,Founder note 2026-11-13; no URL,Domestic; ledger-only candidate,LEDGER_ONLY_CANDIDATE
+P28,PIF,Lucid Motors via Ayar Third Investment,2018-09-17,USD 1bn+,Founder note 2026-11-13; no URL,Outbound equity,UNVERIFIED_LEAD_2015_19_PHASE
+P29,SGRF (Oman),"Compass and Riviera malls, Tashkent, via UOI 25%",2018,Not stated,Founder note 2026-11-13; no URL,Outbound real estate,UNVERIFIED_LEAD_2015_19_PHASE
+P30,SGRF (Oman),Divgi TorqTransfer via OIJIF II,2018,Fund USD 230m; stake size not stated,Founder note 2026-11-13; no URL,"Fund-level, not SGRF amount",UNVERIFIED_LEAD_2015_19_PHASE
+P31,SGRF (Oman),"LP commitments to Patria, EQT, CITIC PE funds",2018,Not stated,Founder note 2026-11-13; no URL,Fund commitments; admissibility to rule,UNVERIFIED_LEAD_FUND_COMMITMENT
+P32,Mumtalakat,"McLaren Group consolidation, about 56.4%",2017-06-30,Not stated,Founder note 2026-11-13; no URL,Check stake accounting,UNVERIFIED_LEAD_2015_19_PHASE
+P33,Mumtalakat,PRO Unlimited stake,2017,Not stated,Founder note 2026-11-13; no URL,Outbound equity,UNVERIFIED_LEAD_2015_19_PHASE
+P34,Mumtalakat,H Al Dhaen Boats controlling stake,2018,Not stated,Founder note 2026-11-13; no URL,Domestic Bahrain,UNVERIFIED_LEAD_DOMESTIC
+P35,Mumtalakat,"Khairat Al Bahrain, Sudan agricultural land",2018,Not stated,Founder note 2026-11-13; no URL,Greenfield subsidiary; check inclusion,UNVERIFIED_LEAD_2015_19_PHASE
+P36,OIF (Oman),Domestic aquaculture and fisheries funding,2017-2018,Not stated,Founder note 2026-11-13; no URL,Domestic greenfield; not outbound,UNVERIFIED_LEAD_DOMESTIC

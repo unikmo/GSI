@@ -1,0 +1,8 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+X01,PIF,SoftBank Vision Fund first close: PIF commitment of up to USD 45bn confirmed at first close (about 21 May 2017),2017-05-21,Up to USD 45bn,Search listings,Later step of GSI16M10-001; not a new record,LINKED_TO_SEP_DEC_2016_ROW_GSI16M10-001
+X02,PIF,Blackstone final documents for initial contribution reported signed 25 Oct 2017,2017-10-25,Not stated,PIF page via search listing; not opened,Later step of GSI17M05-001; October falls in the Sep to Dec 2017 package,LINKED_TO_ROW_GSI17M05-001
+X03,Mubadala,Tabreed stake sale to ENGIE (founder lead),2017-06,Not stated,Founder note; not searched,"Mubadala selling a holding: divestment, ledger-only by your ruling",LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+X04,Other Gulf,PRO Unlimited (founder lead P33),2017 (month not given),Not stated,Founder note; not searched,Month unknown,UNVERIFIED_LEAD_MONTH_UNKNOWN
+X05,QIA,"Transfer of over USD 30bn of domestic equity holdings to the finance ministry, reported 21 Jun 2017",2017-06-21,Over USD 30bn,Reuters via listing,"Internal state transfer, not M&A. Ledger-only",LEDGER_ONLY_CANDIDATE_NOT_ADDED
+X06,QIA,Rosneft stake later sold on in October 2017,2017-10,Not stated,Search listings,Later step for GSI16M12-002; October falls in the next package,LINKED_TO_ROW_GSI16M12-002
+X07,QIA,"Hongkong Electric stake, MEED listing of a 9 June acquisition (year unclear)",Unclear,Not stated,MEED listing; not opened,Year not confirmed; may be earlier than 2017,UNVERIFIED_LEAD_MONTH_UNKNOWN

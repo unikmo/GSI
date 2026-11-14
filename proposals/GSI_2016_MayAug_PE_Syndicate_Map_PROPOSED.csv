@@ -1,0 +1,7 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI16M05-001,2016-05,Mumtalakat,Mumtalakat Holding Company,Regent US office portfolio,Regent Properties (51%); BlackRock; CAM Capital,JV_PARTNER,REAL_ESTATE_JV_STAKE,ANNOUNCED,,USD,Portfolio USD 250m; share 49%,Mumtalakat release (not opened),GlobeSt,Amount not disclosed
+GSI16M06-001,2016-06,PIF,Public Investment Fund,Uber,Other round investors,LARGEST_ROUND_INVESTOR,MINORITY_EQUITY_PRIMARY_INVESTMENT,ANNOUNCED,3500,USD,Round about USD 5bn,Not found,MEED,Board seat
+GSI16M06-002,2016-06,QIA,Qatar Investment Authority,Asia Square Tower 1,BlackRock (seller),SOLE_BUYER,REAL_ESTATE_ACQUISITION,AGREED,2450,USD,S$3.4bn,BlackRock release (not opened),Mingtiandi,Closing date missing
+GSI16M06-003,2016-06,ADIA,HIP Company Limited,"Taipa mall, Macau",Shun Tak (50%),JV_PARTNER,REAL_ESTATE_JV_STAKE,AGREED,,HKD,"Seller consideration HK$3,150m",HKEX filing (not opened),SWF Institute,ADIA amount unconfirmed
+GSI16M07-001,2016-07,Mubadala,Mubadala Development Company,Investcorp,Existing shareholders,MINORITY_INVESTOR,MINORITY_EQUITY_ACQUISITION,AGREED,,,20% stake,Investcorp release (not opened),MEED,Price missing
+GSI16M08-001,2016-08,QIA,Qatar Holding,Empire State Realty Trust,None named,SOLE_PLACEMENT_INVESTOR,MINORITY_EQUITY_PRIVATE_PLACEMENT,ANNOUNCED,622,USD,29.6m shares at USD 21,Not found,Commercial Observer,Single source type

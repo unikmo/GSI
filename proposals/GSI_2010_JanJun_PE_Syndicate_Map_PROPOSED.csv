@@ -1,0 +1,4 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI10M03-001,2010-03,Mubadala,Mubadala Development Company,The Raine Group,WME; Ted Forstmann,CO_INVESTOR,MINORITY_EQUITY_INVESTMENT,AGREED,,,9% stake; amount undisclosed,Mubadala release (not opened),Zawya,Closing not checked
+GSI10M05-001,2010-05,QIA,Qatar Holding,Harrods,Mohamed Al-Fayed (seller),SOLE_BUYER,CONTROL_ACQUISITION,AGREED,,GBP,Reported about GBP 1.5bn; not announced,Not found,City AM,Buyer entity to confirm
+GSI10M02-001,2010-02,ADIA,Abu Dhabi Investment Authority,London Gatwick Airport,Global Infrastructure Partners (seller side),MINORITY_BUYER,MINORITY_EQUITY_ACQUISITION,REPORTED,125,GBP,About 15%; GBP 125m reported,Not found,SWF Institute,Press figure

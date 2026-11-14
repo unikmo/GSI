@@ -1,0 +1,6 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+T01,Mubadala,"Vivalto Sante stake, listed by CB Insights as Mubadala's latest deal on 13 Jan 2016",2016-01-13,Not stated,CB Insights aggregator only; not opened,Single aggregator source. Could be a record if confirmed by a deal release,UNVERIFIED_LEAD_SINGLE_SOURCE
+T02,PIF,Aramco ownership transfer plan (founder lead P06),2016-03,n/a,Founder note,"State restructuring, not M&A. Ledger-only",LEDGER_ONLY_CANDIDATE_NOT_ADDED
+T03,OIA (Oman),Ubhar Capital / OAB Investment Management (founder lead P13),2016-03 to 2016-12,Not stated,Founder note; not found by my search,Domestic platform; check Gulf outbound scope. Date spans the year,UNVERIFIED_LEAD_DOMESTIC
+T04,ADIA,"50:50 joint venture with Shun Tak for a Taipa, Macau mall",2016-06,Not stated,SWF Institute listing; not opened,June 2016: belongs to the May to Aug 2016 package,UNVERIFIED_LEAD_OUT_OF_WINDOW_JUN_2016
+T05,QIA,"Empire State Realty Trust 9.9%, USD 622m",2016-08-23,USD 622m,Several outlets,August 2016: belongs to the May to Aug 2016 package,UNVERIFIED_LEAD_OUT_OF_WINDOW_AUG_2016

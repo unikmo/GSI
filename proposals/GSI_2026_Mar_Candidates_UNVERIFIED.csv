@@ -1,0 +1,7 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+R01,ADIA (entity unclear: ADIA or HarbourVest),"Waabi Series C (USD 750m, plus USD 250m milestone capital from Uber)",2026-01-28,USD 750m Series C; ADIA amount undisclosed,Several outlets; CB Insights lists ADIA; others name an ADIA subsidiary; none opened,Missed in the January package. Backfill candidate for January. Entity to settle,UNVERIFIED_LEAD_BACKFILL_CANDIDATE_JAN_2026
+R02,QIA,Skyryse Series C (over USD 300m at USD 1.15bn; Autopilot Ventures and Fidelity lead),2026-02-03,QIA amount undisclosed,"Reuters via search, Latham note; not opened",Missed in the February package. Backfill candidate for February,UNVERIFIED_LEAD_BACKFILL_CANDIDATE_FEB_2026
+R03,QIA,Increased stake in Monumental Sports,Undated,Not stated,One search listing,Needs date and size,UNVERIFIED_LEAD
+R04,PIF / Savvy,Take-Two stake transfer (about USD 3bn),About 2026-03-07,USD 3bn,A news site dated 7 Mar; February ledger row 006 has the day unconfirmed,Month question: February or March. Needs the filing date,UNVERIFIED_LEAD_MONTH_QUESTION
+R05,QIA,Emir decree changes QIA board composition,2026-03,None,Search snippet,Governance event; not an investment record,NOT_A_RECORD_GOVERNANCE
+R06,OIA,Crusoe partial exit,2026-05-23,Not stated,Search snippet,May divestment; ledger-only for May,UNVERIFIED_LEAD_LEDGER_ONLY_MAY_2026

@@ -1,0 +1,13 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+Q01,PIF,SABIC 70% sale to Saudi Aramco,2019-03-27 (signed),USD 69.1bn,Founder note 2026-11-13 (third note); no URL,"Divestment, domestic; ledger-only under founder ruling",LEDGER_ONLY_CANDIDATE
+Q02,PIF,Jada (Fund of Funds) launch,2019-12,USD 1.07bn (SAR 4bn),Founder note 2026-11-13 (third note); no URL,"Domestic fund-of-funds capitalisation; commitment, not deployed; admissibility to rule",UNVERIFIED_LEAD_FUND_COMMITMENT
+Q03,PIF,Saudi-Russian and Saudi-Jordanian platform deployments,2019,Not stated,Founder note 2026-11-13 (third note); no URL,No target named; cannot be a record,NOT_A_RECORD_NO_TARGET
+Q04,PIF,OYO non-binding MoU,2019-02,No amount,Founder note 2026-11-13 (third note); no URL,"MoU only; the 2020 Jio and Reliance Retail deals belong to 2020, already complete",LEDGER_ONLY_CANDIDATE
+Q05,ADDH (later ADQ),"Transfer of 11 Abu Dhabi state enterprises (AD Ports, ADPC, SEHA, Daman, Etihad Rail and others)",2019,Not stated,Founder note 2026-11-13 (third note); no URL,"Internal sovereign transfer, not external M&A; note says ADQ operated as ADDH",NOT_A_RECORD_ENTITY_CHANGE
+Q06,SGRF (Oman),Oman Brunei Investment Company capital doubled from USD 100m to USD 200m,2019,USD 100m added; SGRF share not stated,Founder note 2026-11-13 (third note); no URL,Bilateral platform capital; SGRF share to confirm; domestic Oman target,UNVERIFIED_LEAD_2015_19_PHASE
+Q07,SGRF (Oman),Rakiza Infrastructure Fund initial deployment (with OIM and Equitix),2019,Not stated,Founder note 2026-11-13 (third note); no URL,Domestic Oman infrastructure; fund-level; no amount,UNVERIFIED_LEAD_DOMESTIC
+Q08,SGRF (Oman),"Co-investments in European and Asian logistics, real estate and healthcare",2019,Not stated,Founder note 2026-11-13 (third note); no URL,No target named; cannot be a record,NOT_A_RECORD_NO_TARGET
+Q09,Mumtalakat,Grupo Premo strategic stake (Spain),2019-06-27,Not stated,Founder note 2026-11-13 (third note); no URL,Outbound equity; stake size to find,UNVERIFIED_LEAD_2015_19_PHASE
+Q10,Mumtalakat,ELM Education Fund and American University of Bahrain,2019-09,Not stated,Founder note 2026-11-13 (third note); no URL,Domestic Bahrain greenfield; inclusion to rule,UNVERIFIED_LEAD_DOMESTIC
+Q11,Mumtalakat,Radio Bahrain 96.5 FM transferred into Mumtalakat Group,2019-05,Not stated,Founder note 2026-11-13 (third note); no URL,Domestic state transfer; ledger-only,LEDGER_ONLY_CANDIDATE
+Q12,Mumtalakat,FAI Aviation Group stake (Germany),2017-05,Not stated,Founder note 2026-11-13 (third note); no URL,Belongs to the 2015-2018 phase; not in the earlier 2015-2018 note,UNVERIFIED_LEAD_2015_19_PHASE

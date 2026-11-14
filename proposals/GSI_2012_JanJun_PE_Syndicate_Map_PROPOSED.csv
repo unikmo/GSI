@@ -1,0 +1,6 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI12M03-001,2012-03,QIA,Qatar Holding,Vivendi,Other shareholders,SHAREHOLDER,PUBLIC_MARKET_STAKE_INCREASE,REPORTED,,EUR,2% from 1.55%,Not found,Bloomberg,Cost not seen
+GSI12M03-002,2012-03,QIA,Qatar Holding,Lagardere,Other shareholders,SHAREHOLDER,PUBLIC_MARKET_STAKE_INCREASE,REPORTED,,EUR,Voting stake above 10%,Not found,FashionNetwork,Day not seen
+GSI12M04-001,2012-04,QIA,Qatar Holding,Xstrata,"Glencore (bidder, 33.7%)",SHAREHOLDER,PUBLIC_MARKET_STAKE_BUILD,STAKE_BUILT,,GBP,3.08% to about 12%,Not found,The National,Amount conflicts by source
+GSI12M04-002,2012-04,QIA,Qatar Holding,Tiffany & Co,Other shareholders,SHAREHOLDER,PUBLIC_MARKET_STAKE,DISCLOSED,,USD,5.2% on disclosure,Not found,SWF Institute,Filing date to find
+GSI12M03-003,2012-03,Mubadala,Mubadala Development Company,EBX Group,Other EBX shareholders,MINORITY_BUYER,MINORITY_EQUITY_ACQUISITION,ANNOUNCED,,USD,5.6%; about USD 2bn reported,Not found,Gulf Business,Day to confirm

@@ -1,0 +1,7 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+U01,Mumtalakat,KOS Group via F2i Healthcare (founder lead P21),2016-08-01,Not stated,Founder note; my search found nothing,Indirect stake via an Italian infrastructure fund. Unconfirmed,UNVERIFIED_LEAD_NOT_FOUND
+U02,Mumtalakat,Envirogen Group (founder lead P22),2016 (month not given),Not stated,Founder note; not found by my search,Month unknown,UNVERIFIED_LEAD_MONTH_UNKNOWN
+U03,Mubadala,"Sale of 80% of SR Technics to HNA Aviation, Mubadala keeps 20%",2016-07,Not stated,Search listing; not opened,Divestment: ledger-only by your ruling,LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+U04,Mumtalakat,Sentinel Real Estate: Raleigh-Durham office campus housing Lenovo US headquarters,2016 (month not given),Not stated,Arabian Business listing; not opened,Outbound real estate; date needed to place it,UNVERIFIED_LEAD_MONTH_UNKNOWN
+U05,PIF,Uber: founder lead gave 1 Jun or 1 Jul,2016-06-01,USD 3.5bn,Several outlets,Resolved to 1 Jun 2016; linked to GSI16M06-001,LINKED_TO_LEDGER_GSI16M06-001
+U06,PIF,"SoftBank Vision Fund anchor MoU, up to USD 45bn",2016-10-14,Up to USD 45bn,Founder note,"October 2016: belongs to the Sep to Dec 2016 package. Commitment, admissibility to rule",UNVERIFIED_LEAD_OUT_OF_WINDOW_OCT_2016

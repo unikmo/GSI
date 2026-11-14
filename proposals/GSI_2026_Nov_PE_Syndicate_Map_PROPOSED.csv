@@ -1,0 +1,4 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI26M11-001,2026-11,ADIA,Unidentified ADIA subsidiary,Vermeg,Advent International (acquirer),CO_INVESTOR,BUYOUT_CO_INVESTMENT,SIGNED,,,ADIA ticket undisclosed,Advent (not opened),None found,Uncorroborated
+GSI26M11-002,2026-11,ADIA,Unidentified ADIA subsidiary,Constellation Aviation,Avolon (JV partner),JV_PARTNER,JV_LAUNCH_AIRCRAFT,SIGNED,,,Portfolio value only,Avolon (not opened),None found,Aircraft: ledger-only
+GSI26M11-003,2026-11,QIA,Qai via Brookfield-Qai JV,Drax data centre,Brookfield; Radiant; Drax,JV_PARTNER,JV_PARTNERSHIP_DATA_CENTRE,FID_PENDING,,GBP,Qai share not stated,Drax (not opened),QNA,Headline is potential

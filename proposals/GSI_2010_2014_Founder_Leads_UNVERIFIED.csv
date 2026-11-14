@@ -1,0 +1,15 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+R01,SGRF (Oman),Oman India Joint Investment Fund I with State Bank of India,2010-2011,USD 100m fund (USD 50m SGRF),Founder note 2026-11-13 (third note); no URL,Bilateral platform; same event as 2010 date in pre-2010 note; date to resolve,UNVERIFIED_LEAD_PLATFORM
+R02,SGRF (Oman),Indus Teqsite about 20% via OIJIF I,2012,USD 9.8m (INR 55 crore),Founder note 2026-11-13 (third note); no URL,Fund-level deal; SGRF share is half of the fund,UNVERIFIED_LEAD
+R03,SGRF (Oman),Solar Industries India via OIJIF I,2012-07,USD 13m,Founder note 2026-11-13 (third note); no URL,Fund-level deal,UNVERIFIED_LEAD
+R04,SGRF (Oman),ING Vysya Bank minority public stake via OIJIF I,2012-2013,Not stated,Founder note 2026-11-13 (third note); no URL,Public-market stake; disclosure date to find,UNVERIFIED_LEAD
+R05,SGRF (Oman),GSP Crop Science via OIJIF I,2014-12,USD 15m (INR 95 crore),Founder note 2026-11-13 (third note); no URL,Fund-level deal,UNVERIFIED_LEAD
+R06,SGRF (Oman),Uzbek-Oman Investment Company with FRDU,2010,USD 100m,Founder note 2026-11-13 (third note); no URL,Bilateral platform; appears in both 2010-2014 and 2000-2010 notes; one record only,UNVERIFIED_LEAD_PLATFORM
+R07,OIF (Oman),ONIC Holding 41.13% from Dubai Insurance Group,2013-03-04,"71,323,988 shares; value not stated",Founder note 2026-11-13 (third note); no URL,"Target Omani, seller Gulf; classification to rule",UNVERIFIED_LEAD
+R08,OIF (Oman),Indian and regional growth co-investments,2013-2014,Not stated,Founder note 2026-11-13 (third note); no URL,No target named; cannot be a record,NOT_A_RECORD_NO_TARGET
+R09,Mumtalakat,"McLaren Group additional 8%, total 50%",2013,USD 13m,Founder note 2026-11-13 (third note); no URL,Stake increase; earlier note gives a 56.4% consolidation in 2017,UNVERIFIED_LEAD
+R10,Mumtalakat,GEMS Education consortium with Blackstone and Fajr,2014-10,Not stated,Founder note 2026-11-13 (third note); no URL,CONFLICT: the 2015-2018 note gives 2015-10 (lead P17); one record; date to resolve,UNVERIFIED_LEAD_DATE_CONFLICT
+R11,Mumtalakat,PRO Unlimited with Investcorp,2014-10-30,Not stated,Founder note 2026-11-13 (third note); no URL,CONFLICT: the 2015-2018 note gives 2017 (lead P33); one record; date to resolve,UNVERIFIED_LEAD_DATE_CONFLICT
+R12,PIF (Sanabil),Sanabil direct and private equity programme,2011-2014,USD 5.3bn (SAR 20bn) vehicle,Founder note 2026-11-13 (third note); no URL,"Subsidiary capitalisation, not a deal; same entity as pre-2010 S06",NOT_A_RECORD_ENTITY_CAPITALISATION
+R13,PIF,Dussur with Aramco and SABIC,2014,Not stated,Founder note 2026-11-13 (third note); no URL,Domestic JV vehicle; ledger-only candidate,LEDGER_ONLY_CANDIDATE
+R14,PIF,Mandate expansion by Council of Ministers,2014-07,n/a,Founder note 2026-11-13 (third note); no URL,"Regulatory change, not a transaction",NOT_A_RECORD_MANDATE_CHANGE

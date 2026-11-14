@@ -1,0 +1,7 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+F01,Mubadala,"KKR buys majority of Hyperoptic from Newlight and Mubadala, 14 Oct 2019",2019-10-14,"About GBP 500m headline, unconfirmed","ISPreview, SWF Institute via listings",Divestment of GSI18M11-001: ledger-only,LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+F02,PIF,"Jada Fund of Funds launched, SAR 4bn (about USD 1.07bn), 17 Dec 2019 (lead Q02)",2019-12-17,SAR 4bn,SWF Institute via listing,Domestic fund-of-funds vehicle: ledger-only; admissibility to rule,LEDGER_ONLY_CANDIDATE
+F03,Mumtalakat,"ELM education platform and American University of Bahrain, opened Sep 2019 (lead Q10)",2019-09,Not stated,Mumtalakat release listing; not opened,Domestic: ledger-only. Release date not seen,LEDGER_ONLY_CANDIDATE
+F04,ADIA,"Possible joint bid with Cinven for LGC Group, reported 2 Oct 2019",2019-10-02,Not stated,Search listing,"Possible bid, no deal: not a record",NOT_A_RECORD_TALKS
+F05,ADIA,Landmark Dividend 40%: date still not seen,Not seen,Not stated,DealStreetAsia listing,Date unconfirmed,UNVERIFIED_LEAD_MONTH_UNKNOWN
+F06,SGRF / Mumtalakat,"Rakiza and other Oman or Bahrain 2019 leads, months not given",2019,Not stated,Founder notes; not searched,Months unknown,UNVERIFIED_LEAD_MONTH_UNKNOWN

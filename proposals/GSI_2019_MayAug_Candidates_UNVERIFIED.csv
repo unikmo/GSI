@@ -1,0 +1,10 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+E01,Mubadala,"Investcorp 20% stake: sources date it 28 Jul 2016, not 2019",2016-07-28,Not disclosed,"Reuters, The National, Gulf News via listings","Belongs to the Jul 2016 package, which does not list it; check and add there",CORRECTION_LEAD_DATE_2016_NOT_2019
+E02,PIF,"30% of Jasara (Aramco-Jacobs JV) bought from Aramco, 10% from Jacobs, reported 17 Jul 2019",2019-07-17,Not stated,The Star and Argaam via listings,Domestic JV: ledger-only,LEDGER_ONLY_CANDIDATE
+E03,Mubadala,Carlyle completes purchase of 37% of Cepsa,2019 (completion date not seen),Not stated,Mubadala release listing,"Divestment, later step of D05 in the Jan-Apr package: ledger-only",LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+E04,KIA,Sale of 16.1% of Gulf Bank to Alghanim Trading for USD 503m (date not seen),2019 (month not seen),USD 503m,Fund report listing,"Divestment, domestic: ledger-only",LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+E05,Mumtalakat,"Radio Bahrain, May 2019 (founder lead Q11)",2019-05,Not stated,Founder note; not searched,Domestic: ledger-only,LEDGER_ONLY_CANDIDATE
+E06,ADIA,Landmark Dividend 40%: date still not seen,Not seen,Not stated,Search listing,Date unconfirmed,UNVERIFIED_LEAD_MONTH_UNKNOWN
+E07,QIA,Sirius Minerals 3.3% placing: month still open (end April or 25 May),2019-04 or 2019-05,Not stated,See GSI19M04-002,Linked to the Jan-Apr 2019 row; resolve with the RNS notice,LINKED_TO_JAN_APR_2019_ROW_GSI19M04-002
+E08,QIA,"Byju's investment, possibly July 2019 (not searched)",2019-07,Not stated,Earlier note; not searched,Not seen in results; unverified,UNVERIFIED_LEAD_NOT_FOUND
+E09,Oman / Bahrain,"ELM and American University of Bahrain (Sep 2019), Jada fund of funds (Dec 2019), Rakiza",2019 Sep to Dec,Not stated,Founder notes; not searched,Next package; Jada is a fund-of-funds admissibility question,UNVERIFIED_LEAD_OUT_OF_WINDOW_SEP_DEC_2019

@@ -1,0 +1,3 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI16M03-001,2016-03,Mumtalakat,Mumtalakat Holding Company,Aleastur,Existing shareholders (sellers),LEAD_INVESTOR,MINORITY_EQUITY_ACQUISITION,ANNOUNCED,,,49% stake,Mumtalakat (not opened),Alcircle,Price missing
+GSI16M03-002,2016-03,Mumtalakat,Mumtalakat Holding Company,Gulf Cryo,Existing shareholders,MINORITY_INVESTOR,MINORITY_EQUITY_ACQUISITION,ANNOUNCED,,,10% per OBG; release says minority,Zawya release,Arab News,Stake size and date to check

@@ -1,0 +1,3 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI18M09-001,2018-09,PIF,Public Investment Fund (SPV),Lucid Motors,Existing Lucid investors,LEAD_INVESTOR,MINORITY_EQUITY_INVESTMENT,AGREEMENT_EXECUTED,1000,USD,More than USD 1bn (floor),PIF release (not opened),Arab News,Vehicle name unconfirmed
+GSI18M11-001,2018-11,Mubadala,Mubadala Investment Company,Hyperoptic,Existing investors (incl. Soros-linked); banks (separate debt),MINORITY_INVESTOR,MINORITY_EQUITY_INVESTMENT,ANNOUNCED,,GBP,Undisclosed,Hyperoptic release (not opened),ISPreview,Amount undisclosed

@@ -1,0 +1,6 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+P01,KIA,"Kuwaiti company to invest USD 720m in a Chinese bank IPO (headline, 25 Sep 2006); only titles seen",2006-09-25,USD 720m (headline),Reference list titles only,Investor may not be KIA; no text seen. Do not file until the investor and bank are named,UNVERIFIED_LEAD_INVESTOR_UNCLEAR
+P02,Other Gulf (IPIC),"Aabar completes purchase of Pearl Energy (Singapore) for USD 550m, 2006 per one source; Mubadala later bought 90% in 2008",2006,USD 550m (reported),Search listing; Zawya and Gulf News 2008,Aabar was the buyer in 2006 and its ownership by IPIC needs confirming; date unseen,UNVERIFIED_LEAD_MONTH_UNKNOWN
+P03,QIA,QIA first Sainsbury stake and the London Stock Exchange stake (Sep 2007),2007,Not stated,"Retail Week, Al Jazeera, CNBC listings",Not 2006: check the 2007 package,UNVERIFIED_LEAD_OUT_OF_WINDOW_2007
+P04,KIA,KIA to increase its stakes in local investment funds after market falls (Mar 2006),2006-03,Not stated,Dawn listing,Domestic fund top-up: ledger-only,LEDGER_ONLY_CANDIDATE
+P05,Mubadala,"Masdar founded 2006 (company start, not a purchase)",2006,Not stated,Search listing,Not a record,NOT_A_RECORD_NO_TARGET

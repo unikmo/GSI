@@ -1,0 +1,10 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+R01,OIA,Oman-Hong Kong co-investment agreement (founder lead M11),2026-09-11,No amount,Founder note; not found by my search,Agreement without a capital commitment: likely ledger-only. Not confirmed,UNVERIFIED_LEAD_LEDGER_ONLY_CANDIDATE
+R02,QIA,"Doha Investment launch: domestic assets (45 state-owned enterprises, about a third of QIA assets) move to a separate unit",2026-09-20,Not stated,"Semafor, New Arab; master GSI26B03-009","Reorganisation, not an investment. Not a record",NOT_A_RECORD_PLATFORM_LAUNCH
+R03,PIF,Tawrid supply-chain financing platform launch,2026-09-20,Not stated,Master GSI26B04-009,Domestic operating launch. Not a record,NOT_A_RECORD_DOMESTIC_PLATFORM
+R04,Wren House (KIA),Reported potential acquisition of GIC European xScale stake,2026-09-02,Not stated,Master GSI26B03-005; one outlet,"Rumour, unconfirmed. Not a record",UNVERIFIED_LEAD_RUMOUR
+R05,ADQ / L'imad,Azerbaijan cooperation to pursue joint investments,2026-09-15,Not stated,Master V1.3_EXCLUSIONS-003,"Agreement to pursue investments, no investment. Not a record",NOT_A_RECORD_COOPERATION_AGREEMENT
+R06,Mubadala,TARAF and Mubadala MoU to explore Al Reem waterfront development,2026-09-30,Not disclosed,Master GSI26B04-006,"Non-binding MoU, domestic. Not a record",NOT_A_RECORD_NON_BINDING_MOU
+R07,Multiple,"Global SWF nine-month deployment: Mubadala USD 26.2bn, PIF USD 14bn, ADIA USD 12.2bn, L'imad USD 10.8bn, QIA about USD 10.3bn",2026-09-30,Aggregates,"Arabian Post, Khaleej Times via Global SWF; not opened","Aggregate, not deal-level. Useful as a cross-check of coverage later. Not a record",NOT_A_RECORD_AGGREGATE
+R08,QIA,Positron AI date question raised in the August package,2026-09-10,Round USD 875m,QNA address,Settled to 10 Sep by the QNA address; covered by ledger row GSI26M09-002,LINKED_TO_LEDGER_GSI26M09-002
+R09,PIF,Al Hilal 70% transfer to Kingdom Holding (founder lead M03),2026-09-01,SAR 840m,Founder note; MEED,"Covered by ledger row GSI26M09-011 (domestic divestment, ledger-only)",LINKED_TO_LEDGER_GSI26M09-011

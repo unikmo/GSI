@@ -1,0 +1,5 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+F01,KIA,"KIO 7.2% of Trafalgar House (MEES, undated); KIO stakes in Investors Capital Trust, Scottish American Investments, Prince of Wales hotel group",Not seen,Not stated,MEES listings,Dates unseen; small UK listed stakes; to find,UNVERIFIED_LEAD_MONTH_UNKNOWN
+F02,KIA,KIA head steps down (announced 24 Dec 1998),1998-12-24,Not applicable,MEES listing,Leadership change: not a record,NOT_A_RECORD_NO_TARGET
+F03,Other Gulf,"Qatar Telecom USD 3.7bn for 51% of Kuwait National Mobile Telecommunications (Wataniya) and a Gulf buyer of 7.5% of Carlyle for USD 1.35bn: years unseen, both 2000s deals",2000s,USD 3.7bn; USD 1.35bn,Search listings,"Not 1998; dates to confirm from other sources (the Carlyle stake is understood to be 2007) and check the 2007 package",UNVERIFIED_LEAD_OUT_OF_WINDOW_2000S
+F04,IPIC,"Statoil sells its 50% of Borealis to IPIC and OMV (2005, EUR 980m)",2005,EUR 980m,"Equinor, Borealis listings",Separate 2005 record: check the 2005 package,UNVERIFIED_LEAD_OUT_OF_WINDOW_2005

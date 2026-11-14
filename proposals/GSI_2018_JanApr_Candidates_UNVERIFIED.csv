@@ -1,0 +1,9 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+Z01,PIF,AccorInvest closing in May 2018 at 57.8%,2018-05,See GSI18M02-001,Search listings,Later step of GSI18M02-001; May falls in the next package as a link only,LINKED_TO_ROW_GSI18M02-001
+Z02,Mubadala,"Mubadala takes over the Abu Dhabi Investment Council (about USD 123bn assets), planned March 2018",2018-03,Not applicable,MEES listing; not opened,Intra-group state restructuring: ledger-only,LEDGER_ONLY_CANDIDATE_NOT_ADDED
+Z03,PIF,"Tesla stake of 3 to 5%, reported by the FT",2018-08-07,Reported about USD 2bn range,FT and Reuters via listings,Public-market stake below disclosure threshold; August: next package,UNVERIFIED_LEAD_OUT_OF_WINDOW_AUG_2018
+Z04,QIA,"Rosneft 14.16% taken from Glencore after the CEFC sale collapsed (announced May, completed Sep 2018); QIA total 18.93%",2018-05 and 2018-09,About USD 4.2bn (EUR 3.7bn),Search listings,May to Sep 2018: next packages. Links to GSI16M12-002,UNVERIFIED_LEAD_OUT_OF_WINDOW_MAY_SEP_2018
+Z05,PIF,ACWA Power 15.2% direct (founder lead P27),2018-06-04,Not stated,Founder note,Domestic: ledger-only candidate; June is the next package,LEDGER_ONLY_CANDIDATE
+Z06,PIF,Lucid Motors via Ayar Third Investment (founder lead P28),2018-09-17,USD 1bn+,Founder note,September: next-but-one package,UNVERIFIED_LEAD_OUT_OF_WINDOW_SEP_2018
+Z07,SGRF (Oman),"Compass and Riviera malls in Tashkent via UOI 25% (P29); Divgi TorqTransfer via OIJIF II (P30); LP commitments to Patria, EQT, CITIC PE (P31)",2018 (months not given),Not stated,Founder notes; not searched,Months unknown; fund-level and LP commitments admissibility to rule,UNVERIFIED_LEAD_MONTH_UNKNOWN
+Z08,Mumtalakat,"H Al Dhaen Boats (P34, domestic) and Khairat Al Bahrain in Sudan (P35)",2018 (months not given),Not stated,Founder notes; not searched,"P34 domestic ledger-only; P35 greenfield subsidiary, inclusion to rule",UNVERIFIED_LEAD_MONTH_UNKNOWN

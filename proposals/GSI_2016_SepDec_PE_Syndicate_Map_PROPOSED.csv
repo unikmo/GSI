@@ -1,0 +1,4 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI16M10-001,2016-10,PIF,Public Investment Fund,SoftBank Vision Fund,SoftBank Group (at least USD 25bn),ANCHOR_INVESTOR,FUND_ANCHOR_COMMITMENT,NON_BINDING_MOU,45000,USD,Up to; over five years,SoftBank release (not opened),Fortune,"Commitment, not deployed"
+GSI16M11-001,2016-11,PIF,Saudi Company for Gulf Food Investments,Adeptio AD Holdings (Americana),Mohamed Alabbar (50%),JV_PARTNER,MINORITY_EQUITY_ACQUISITION,ANNOUNCED,,,50% of Adeptio,PIF release (not opened),Arab News,Value undisclosed
+GSI16M12-001,2016-12,QIA,Qatar Investment Authority,Banvit,BRF (60% of JV),JV_PARTNER_40_PERCENT,CO_CONTROL_JV_ACQUISITION,SPA_SIGNED,,USD,EV about USD 470m for 100%,Not found,MarketScreener,Split and date to check

@@ -1,0 +1,5 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI07M04-001,2007-04,QIA,Delta Two,J Sainsbury plc,Not stated,MINORITY_SHAREHOLDER,MINORITY_EQUITY_ACQUISITION,DISCLOSED,,,17.4% initial; price not seen,Not found,Retail Week,Entity to rule
+GSI07M09-001,2007-09,Mubadala,Mubadala Development Company,The Carlyle Group,Carlyle (seller of new non-voting stake),MINORITY_SHAREHOLDER,MINORITY_EQUITY_ACQUISITION,AGREED,1350,USD,7.5%; USD 500m fund commitment separate,Not found,Unquote,Day and closing to confirm
+GSI07M11-001,2007-11,Mubadala,Mubadala Development Company,Advanced Micro Devices,AMD (issuer),MINORITY_SHAREHOLDER,MINORITY_EQUITY_ACQUISITION,AGREED,622,USD,8.1%; 49m shares at USD 12.70,Not found,Taipei Times,Closing to confirm
+GSI07M11-002,2007-11,ADIA,Abu Dhabi Investment Authority,Citigroup,Citigroup (issuer),CONVERTIBLE_HOLDER,CONVERTIBLE_INVESTMENT,CLOSED,7500,USD,Up to 4.9% on conversion,Citigroup release (not opened),SEC 8-K (not opened),Convertible: stake is a ceiling

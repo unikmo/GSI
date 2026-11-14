@@ -1,0 +1,6 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+N01,Other Gulf (IPIC),"Earlier leads K03 (Borealis and AMI, 2005) now filed as GSI05M06-001 and GSI05M04-001",2005,See rows,"Equinor, Borealis, MEES",Linked to filed rows,LINKED_TO_GSI05M06-001
+N02,Other Gulf (IPIC),Eurotecnica (Italy) bought by AMI: EU opened a detailed investigation 18 Oct 2005,2005-10-18,Not stated,European Commission via search summary,"Acquirer is AMI, an operating company, not IPIC directly; outcome unseen: not a record",NOT_A_RECORD_ENTITY_OUT_OF_SCOPE
+N03,QIA,"QIA legal basis Emiri decision of June 2005, operations from early 2006; early approach domestic, regional and external managers",2005-06,Not stated,IFSWF document listing,"Fund establishment, not a deal. No dated 2005 purchase",NOT_A_RECORD_NO_TARGET
+N04,Mubadala,"Mubadala 7.5% of Carlyle, USD 1.35bn: date not seen in the result (believed 2007)",Not seen,USD 1.35bn,Private equity wire listing,Do not file until dated; check the 2007 package,UNVERIFIED_LEAD_MONTH_UNKNOWN
+N05,KIA,"KIA sells 185m BP shares to a bank syndicate, cutting its holding to 2.56% (Dec 2005)",2005-12,Not stated,Arab News listing,Divestment: ledger-only,LEDGER_ONLY_DIVESTMENT_NOT_ADDED

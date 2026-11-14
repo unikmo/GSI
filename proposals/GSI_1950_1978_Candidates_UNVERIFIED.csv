@@ -1,0 +1,7 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+Y01,KIA,"Kuwait Investment Board founded Feb 1953 in London, initial funds placed 23 Feb 1953; reorganised as the Kuwait Investment Office in 1965",1953-02,Not stated,KIA and Kuwait Times listings,"Fund establishment, not a deal",NOT_A_RECORD_NO_TARGET
+Y02,KIA,"Kuwait takes the remaining 40% of Kuwait Oil Company from BP and Gulf Oil, 1975",1975,Not stated,Encyclopedia and yearbook listings,Domestic oil asset nationalisation: ledger-only,LEDGER_ONLY_CANDIDATE
+Y03,ADIA,ADIA founded by Law No. 5 of 1976; predecessors the Financial Investments Board (1967) and Abu Dhabi Investment Administration (1971),1976,Not stated,ADIA review and IFSWF listings,"Fund establishment, not a deal",NOT_A_RECORD_NO_TARGET
+Y04,PIF,Saudi reserves held mostly as US Treasuries (about 20% of foreign-held Treasuries by 1977) and a SAMA equity portfolio,1977,Not stated,Search listings,"Portfolio holdings, not a dated stake: not a record",NOT_A_RECORD_NO_TARGET
+Y05,KIA,Daimler-Benz purchase placed in 1972 for USD 440m by one blog,1972,USD 440m,Blog listing,Conflicts with the 1974 sources; likely an error. Treated as noise,NOT_A_RECORD_CONFLICTS_WITH_SOURCES
+Y06,KIA,"Kuwait Investment Company and KFTCIC (private Kuwaiti houses) merge, 1997",1997,Not stated,MEES listing,Not a sovereign fund and not 1950 to 1978,NOT_A_RECORD_ENTITY_OUT_OF_SCOPE

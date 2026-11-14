@@ -1,0 +1,9 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+R01,PIF with Silver Lake,"Unity Software: take-private talks at about USD 25bn (Reuters, 5 Nov)",2026-11-05,About USD 25bn valuation,"Reuters via Enterprise AM, Dealroom; not opened","Talks only, no agreement; Unity has not responded. Not a record (founder lead M19)",NOT_A_RECORD_TALKS_ONLY
+R02,OIA,Nucleus Oman JV with Oryx Isotopes (founder lead M12),2026-11-07,No amount,Founder note; not found by my search,Domestic JV with a Saudi partner; classification to rule,UNVERIFIED_LEAD
+R03,OIA,"IDG Capital, Templewater and EW Partners platforms, USD 735m (founder lead M15)",2026-11-12 per lead,USD 735m,Founder note; not found by my search,Amount may be total not OIA share. Possibly part of the 2 Nov Beijing package,UNVERIFIED_LEAD_FUND_COMMITMENT
+R04,OIA,"Space Silk Road JV, seven satellites (founder lead M16)",2026-11-12 per lead,No amount,Founder note; not found by my search,Amount missing,UNVERIFIED_LEAD
+R05,OIA,"Oman-China package: 23 agreements, MoUs and partnerships worth several billion dollars",2026-11-02,Several billion (aggregate),Oman Observer,Package of mostly frameworks; individual items are in ledger rows 006 and 007 or leads R02 to R04. Not a record,NOT_A_RECORD_PACKAGE
+R06,Mumtalakat,Arab Invest memorandum of collaboration (founder lead M17),2026-11-01,No amount,Founder note; nothing found by search,MoU without capital: ledger-only if confirmed,UNVERIFIED_LEAD_LEDGER_ONLY
+R07,Mumtalakat,DOO strategic equity investment (founder lead M18),2026-11-03,Not stated,Founder note; nothing found by search,Domestic Bahrain; classification to rule,UNVERIFIED_LEAD
+R08,PIF,PIF raises USD 3bn-equivalent financing (Italy-linked credit facility),2026-11-03,USD 3bn equivalent,Master V1.3_EXCLUSIONS-001,"PIF borrowing, not an investment. Not a record",NOT_A_RECORD_FUNDING_RAISE

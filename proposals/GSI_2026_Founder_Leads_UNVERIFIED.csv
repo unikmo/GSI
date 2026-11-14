@@ -1,0 +1,20 @@
+lead_id,fund,target_or_event,month_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+M01,PIF (Savvy),Loom Games majority stake; Nintendo 6% and EA public stakes,2026,Not stated,Founder note; no URL,Possible outbound; public-stake increases need disclosure dates,UNVERIFIED_LEAD
+M02,PIF,Humain 49% sale to Saudi Aramco for USD 2.6bn capital injection,2026-11,USD 2.6bn,Founder note; no URL,Divestment and domestic; ledger-only under founder ruling,UNVERIFIED_LEAD_LEDGER_ONLY
+M03,PIF,Al Hilal 70% transfer to Kingdom Holding,2026,Not stated,Founder note; no URL,Domestic divestment; ledger-only,UNVERIFIED_LEAD_LEDGER_ONLY
+M04,ADQ / L'imad,Consolidation of ADQ under L'imad Holding Company (about USD 263bn),2026-01-30,USD 263bn portfolio,Founder note; no URL,Internal restructuring; not an investment flow; entity change to record,UNVERIFIED_LEAD_ENTITY_CHANGE_NOT_A_RECORD
+M05,ADQ,AD Ports Group take-private offer AED 6.25 per share (USD 8.6bn valuation; 75.42% to 98.93%),2026-08-18 to 2026-10,USD 8.6bn valuation,Founder note; no URL,Domestic consolidation; links to Aramex and 2020 AD Ports records,UNVERIFIED_LEAD
+M06,MGX,MGX Fund I final close USD 49bn,2026-07,USD 49bn commitments,Founder note; no URL,Fund close; not a deal record,UNVERIFIED_LEAD_NOT_A_DEAL
+M07,MGX,OpenAI USD 122bn round co-lead,2026-05,Round headline,Founder note; "reviewed" date not announcement date,Need announcement date and MGX amount,UNVERIFIED_LEAD_DATE_QUESTION
+M08,MGX,Isomorphic Labs USD 2.1bn Series B,2026-05,Round headline,Founder note; no URL,Need announcement date,UNVERIFIED_LEAD_DATE_QUESTION
+M09,MGX with AIP and GIP,Aligned Data Centers USD 40bn buyout close,2026-07-21,Deal headline,Founder note; announced Oct 2025 (lead L10),Same record as L10: announcement and completion are one,UNVERIFIED_LEAD_LINKED_TO_L10
+M10,MGX,Databricks USD 5bn round at USD 190bn valuation,2026-08-13,Round headline,Founder note; no URL,Separate from Sep 2025 Series K (L06),UNVERIFIED_LEAD
+M11,OIA,Oman-Hong Kong co-investment agreement,2026-09-11,No amount,Founder note; no URL,Agreement without capital commitment; likely ledger-only,UNVERIFIED_LEAD_LEDGER_ONLY_CANDIDATE
+M12,OIA,Nucleus Oman JV with Oryx Isotopes,2026-11-07,No amount,Founder note; no URL,Domestic JV with Saudi partner; classification to rule,UNVERIFIED_LEAD
+M13,OIA,Silk Road Fund joint fund USD 800m,2026-11-12,USD 800m,Founder note; no URL,Fund commitment; admissibility for founder to rule (see FFO Templewater),UNVERIFIED_LEAD_FUND_COMMITMENT
+M14,OIA,China Merchants Bank joint fund USD 300m,2026-11-12,USD 300m,Founder note; no URL,Fund commitment; admissibility for founder to rule,UNVERIFIED_LEAD_FUND_COMMITMENT
+M15,OIA,IDG Capital / Templewater / EW Partners platforms USD 735m,2026-11-12,USD 735m,Founder note; no URL,Fund commitment; amount may be total not OIA share,UNVERIFIED_LEAD_FUND_COMMITMENT
+M16,OIA,Space Silk Road JV (seven satellites),2026-11-12,No amount,Founder note; no URL,Amount missing,UNVERIFIED_LEAD
+M17,Mumtalakat,Arab Invest Memorandum of Collaboration,2026-11-01,No amount,Founder note; no URL,MoU without capital commitment; ledger-only,UNVERIFIED_LEAD_LEDGER_ONLY
+M18,Mumtalakat,DOO strategic equity investment,2026-11-03,Not stated,Founder note; no URL,Domestic Bahrain; classification to rule,UNVERIFIED_LEAD
+M19,PIF with Silver Lake,Unity acquisition talks about USD 25bn,2026-11,USD 25bn,Founder note; talks only,No binding agreement; not a record,NOT_A_RECORD_TALKS_ONLY

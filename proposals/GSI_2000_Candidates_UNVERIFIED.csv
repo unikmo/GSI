@@ -1,0 +1,6 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+H01,QIA,"Qatar Holding 20% of Heathrow parent FGP Topco (Ferrovial 10.62% on 17 Aug 2012, GBP 478m)",2012-08-17,GBP 478m (tranche),"Ferrovial, Skift listings",Found while screening 2000; added late to the July to December 2012 package,LINKED_TO_GSI12M08-003
+H02,QIA,"Qatar Holding 6.16% of Iberdrola, MoU 14 Mar 2011, about EUR 2.0bn",2011-03-14,"About EUR 2,015m","TradeArabia, Gulf Times listings",Found while screening 2000; added late to the January to June 2011 package,LINKED_TO_GSI11M03-002
+H03,KIA,KIA sold shares worth over USD 100m in Kuwait International Company (MEES 1999); local share sales from early 2001; KPC started a share sale in 2000,1999-2001,Over USD 100m,MEES and Al Bawaba listings,Domestic divestments: ledger-only,LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+H04,KIA,KIO sold its 18.4% of Stylo (3.61m shares) after a takeover battle (undated),Not seen,Not stated,MEES listing,Divestment: ledger-only; date to find,LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+H05,IPIC,IPIC first major acquisition said to be Cepsa (year not given); the 2011 purchase is in the 2011 package,Not seen,Not stated,USUAE report listing,Earlier Cepsa stake date to find,UNVERIFIED_LEAD_MONTH_UNKNOWN

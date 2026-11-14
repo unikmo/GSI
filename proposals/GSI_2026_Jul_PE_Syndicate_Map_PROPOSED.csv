@@ -1,0 +1,4 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI26M07-003,2026-07,Mubadala,MC Pomona Bidco,Pierre & Vacances-Center Parcs,Mubadala Capital (bidder),BIDDER,TAKE_PRIVATE,TENDER_AGREEMENT_SIGNED,,EUR,Not stated,Enterprise AM,Single source,Settle value
+GSI26M07-006,2026-07,Mubadala,Mubadala Investment Company,CityFibre,"Existing shareholders (Infracapital, KKR, others)",EXISTING_SHAREHOLDER,FOLLOW_ON_EQUITY,PROPOSED,,GBP,Group total GBP 900m,ISPreview (Bloomberg origin),Company spokesperson,Signed commitment
+GSI26M07-004,2026-07,MGX,MGX,Aligned Data Centers,"BlackRock GIP; AIP (Microsoft, NVIDIA); seller Macquarie Asset Management",CONSORTIUM_MEMBER,ACQUISITION_COMPLETION,COMPLETED,,USD,EV USD 40bn,Abu Dhabi Media Office (not opened),DCD,MGX cheque

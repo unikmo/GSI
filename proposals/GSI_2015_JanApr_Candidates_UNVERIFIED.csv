@@ -1,0 +1,7 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+R01,OIF (Oman),"Seven European Hilton hotels, EUR 380m (founder lead P11)",2015 (month not given),EUR 380m,Founder note; not found by my search,Outbound real estate. Month unknown: could fall in Jan to Apr or later,UNVERIFIED_LEAD_MONTH_UNKNOWN
+R02,Mumtalakat,Nobel Learning Communities with Investcorp (founder lead P16),2015 (month not given),Not stated,Founder note; not found by my search,Outbound co-investment. Month unknown,UNVERIFIED_LEAD_MONTH_UNKNOWN
+R03,PIF (Sanabil),Sanabil buys 20% of Almana General Hospitals,Date not seen,Not stated,Gulf News listing; not opened,Domestic Saudi minority equity; year not confirmed as 2015. Ledger-only if confirmed,UNVERIFIED_LEAD_DOMESTIC_DATE_UNKNOWN
+R04,QIA,Hochtief stake exit,2015 (month not given),Not stated,"SWP table lists ""Exited 2015""",Divestment: ledger-only by your ruling. Month unknown,UNVERIFIED_LEAD_DIVESTMENT_MONTH_UNKNOWN
+R05,Mubadala,"GlobalFoundries continued capital support, 2015 to 2019 (overview lead V10)",2015 to 2019,Not stated,Founder overview note,No discrete event named. Not a record until dated funding events are found,UNVERIFIED_LEAD_NO_DISCRETE_EVENT
+R06,Mubadala,Mubadala received no new government capital in 2015,2015 (reported 31 Mar 2016),Not applicable,Reuters via Arab Times and GDN,"Funding fact, not a deal. Not a record",NOT_A_RECORD_FUNDING_FACT

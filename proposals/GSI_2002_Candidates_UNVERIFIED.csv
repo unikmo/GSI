@@ -1,0 +1,4 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+K01,KIA,"Bank of Kuwait and the Middle East: KIA 54% stake floated by IPO in summer 2002, limited to Kuwaiti subscribers; Ahli United Bank later built up about 47% by early 2003",2002-07,Not stated,MEED listing,Divestment of a domestic bank: ledger-only,LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+K02,Mubadala,"Dolphin Energy (Qatar gas to UAE) with Occidental and Total, described as Mubadala first project",2002,Not stated,Search listings,Intra-Gulf: ledger-only. Date of Mubadala entry unseen,LEDGER_ONLY_CANDIDATE
+K03,Other Gulf,IPIC: Borealis (2005) and AMI Agrolinz (2005) are later years,2005,Not stated,Search listings,Not 2002; check the 2005 package,UNVERIFIED_LEAD_OUT_OF_WINDOW_2005

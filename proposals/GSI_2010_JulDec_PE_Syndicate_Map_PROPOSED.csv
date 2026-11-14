@@ -1,0 +1,4 @@
+linked_master_id,month,gulf_investor,investing_entity,target,private_equity_counterparty,pe_role,gulf_entry_route,process_stage,investor_specific_amount_millions,currency,amount_scope,source_of_link,corroboration,next_verification
+GSI10M07-001,2010-07,SGRF (Oman),State General Reserve Fund,Oman India Joint Investment Fund,State Bank of India,PLATFORM_PARTNER,BILATERAL_FUND_PLATFORM,JV_SIGNED,50,USD,"USD 100m corpus, equal shares",SBI RNS (not opened),domain-b,Admissibility to rule
+GSI10M11-001,2010-11,ADIA,Abu Dhabi Investment Authority (Tawreed),Port of Brisbane,Other consortium members,CONSORTIUM_MEMBER,CO_INVESTMENT_MINORITY,REPORTED,,AUD,19%; AUD 2.1bn deal headline,Not found,TradeArabia,ADIA amount not stated
+GSI10M12-001,2010-12,Mubadala,Mubadala Development Company,The Carlyle Group,Carlyle,STRATEGIC_INVESTOR,MINORITY_EQUITY_INVESTMENT,ANNOUNCED,500,USD,Notes and equity; stake to 9.35%,Mubadala release (not opened),TradeArabia,Notes plus equity mix

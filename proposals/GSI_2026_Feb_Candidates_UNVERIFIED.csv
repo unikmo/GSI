@@ -1,0 +1,7 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+F01,"KIA with MGX, BlackRock, GIP","AI infrastructure partnership (tripartite, during an Abu Dhabi visit to Kuwait)",Undated,Not stated,One search snippet; not opened,Partnership; needs date and commitment,UNVERIFIED_LEAD
+F02,OIA,Neuralink investment,Undated,Not stated,One search snippet,Needs date and amount,UNVERIFIED_LEAD
+F03,OIA,xAI stake,Undated (CB Insights shows 2026-02-02 as exit),Not stated,One search snippet,Conflict: stake held (Dec 2024 row exists) or exit; to check,UNVERIFIED_LEAD_STATUS_QUESTION
+F04,PIF and OIA,MoU to expand investment in Oman,Undated,Not stated,Search snippet,MoU without capital; ledger-only if dated,UNVERIFIED_LEAD_LEDGER_ONLY_CANDIDATE
+F05,Mubadala,Clear Channel Outdoor USD 6.2bn with TWG,2026-02-11,USD 6.2bn,In master (GSI26B03-002),Already in master,NOT_A_RECORD_ALREADY_IN_MASTER
+F06,QIA,SambaNova February financing,2026-02,Not stated,In master (GSI26JF2-002),Already in master,NOT_A_RECORD_ALREADY_IN_MASTER

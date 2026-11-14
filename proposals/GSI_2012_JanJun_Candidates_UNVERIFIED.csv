@@ -1,0 +1,8 @@
+lead_id,fund,target_or_event,date_claimed,claimed_value,claimed_source_status,gsi_classification_note,status
+N01,QIA,"Credit Suisse London headquarters bought by a Qatari buyer and leased back, February 2012 (one-line source)",2012-02,Not stated,Gulf Business listing,Buyer entity and price unseen; real estate purchase to confirm,UNVERIFIED_LEAD_SINGLE_SOURCE
+N02,QIA,"Total about 3% by April 2012, LVMH minority stake (Reuters, April 2012); Total about 2% since summer 2011",2012-04,Not stated,AFP and Reuters listings,Public-market holdings; filing dates unseen,UNVERIFIED_LEAD_MONTH_UNKNOWN
+N03,QIA,Veolia about 5%,2012,Not stated,Press listing,Date unseen,UNVERIFIED_LEAD_MONTH_UNKNOWN
+N04,SGRF (Oman),Indus Teqsite about 20% via OIJIF I (lead R02): USD 9.8m for 19.64% in one source; date and INR 55 crore conflicts across sources,2012 (date unseen),USD 9.8m (SGRF half of the fund),Law.asia and Venture Intelligence listings,Fund-level deal; date to find,UNVERIFIED_LEAD
+N05,SGRF (Oman),"Solar Industries India via OIJIF I (lead R03, 2012-07)",2012-07,USD 13m,AVCJ listing,July: next package,UNVERIFIED_LEAD_OUT_OF_WINDOW_JUL_2012
+N06,QIA,"Barclays warrants sold, November 2012; Qatar kept 6.65%",2012-11,USD 1.24bn proceeds,"SWF Institute, Domain-b listings","Divestment, November: ledger-only",LEDGER_ONLY_DIVESTMENT_NOT_ADDED
+N07,Mumtalakat / SGRF / OIF / PIF,Founder leads R04 to R14 dated 2012 to 2014 (R04 ING Vysya 2012-2013; R07 ONIC 4 Mar 2013; R09 McLaren 2013),2012-2014,Various,Founder notes; not searched,"Later packages; R08, R12, R14 are not records",UNVERIFIED_LEAD_OUT_OF_WINDOW
