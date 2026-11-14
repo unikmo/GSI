@@ -10,6 +10,8 @@ on:
       - 'tests/capitalIntelligenceIntake.test.mjs'
       - 'tests/capitalIntelligenceSchema.test.mjs'
       - 'tests/mubadalaResearchPilot.test.mjs'
+      - 'tests/mubadalaInfrastructureResearch.test.mjs'
+      - 'research/investee_snapshots/mubadala_energy_infrastructure_followons_2026-11-14.json'
       - 'tests/strategyLifecycleSchema.test.mjs'
       - 'research/divestments/mubadala_coolit_2026-03-26_UNREVIEWED.json'
       - 'research/fund_evolution/mubadala_2022_2025_official_performance_UNREVIEWED.json'
