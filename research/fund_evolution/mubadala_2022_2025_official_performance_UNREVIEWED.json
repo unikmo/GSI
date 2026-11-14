@@ -1,0 +1,116 @@
+{
+  "research_state": "UNREVIEWED",
+  "analytical_scope": "Mubadala group-wide; official reported performance, NOT attributable to individual investing vehicles",
+  "sources": [
+    {
+      "id": "MB-2022",
+      "url": "https://www.mubadala.com/en/news/mubadala-investment-company-reports-2022-financial-results",
+      "published_on": "2023-05-19",
+      "source_class": "fund_self_report"
+    },
+    {
+      "id": "MB-2023",
+      "url": "https://www.mubadala.com/en/news/mubadala-investment-company-reports-2023-financial-results",
+      "published_on": "2024-05-17",
+      "source_class": "fund_self_report"
+    },
+    {
+      "id": "MB-2024",
+      "url": "https://www.mubadala.com/en/news/mubadala-investment-company-reports-2024-financial-results",
+      "published_on": "2025-05-08",
+      "source_class": "fund_self_report"
+    },
+    {
+      "id": "MB-2025",
+      "url": "https://www.mubadala.com/en/news/strong-performance-by-uae-portfolio-drives-mubadalas-growth-in-2025",
+      "published_on": "2026-04-09",
+      "source_class": "fund_self_report"
+    },
+    {
+      "id": "MB-STR-2022",
+      "url": "https://annual2022.mubadala.com/en/about-mubadala/our-strategy",
+      "source_class": "published_strategy"
+    },
+    {
+      "id": "MB-STR-2024",
+      "url": "https://annual2024.mubadala.com/en/our-strategy/how-we-invest",
+      "source_class": "published_strategy"
+    }
+  ],
+  "annual_group_performance": [
+    {
+      "fiscal_year": 2022,
+      "deployed_aed_bn": 107,
+      "proceeds_aed_bn": 106,
+      "aum_aed_bn": 1015,
+      "rolling_five_year_return_percent": 8.5,
+      "source_id": "MB-2022",
+      "proceeds_definition": "Aggregated proceeds include sale monetisations, dividends and fund distributions; not all realised divestment returns",
+      "macro_characterisation": "Fund describes macro uncertainty and volatile markets, not separately established causal effects"
+    },
+    {
+      "fiscal_year": 2023,
+      "deployed_aed_bn": 89,
+      "proceeds_aed_bn": 99,
+      "aum_aed_bn": 1111,
+      "rolling_five_year_return_percent": 10.3,
+      "source_id": "MB-2023",
+      "proceeds_definition": "Includes monetisations and other proceeds; not just divestment exit proceeds",
+      "macro_characterisation": "Fund cites rising rates, inflation, geopolitical tensions and supply-chain disruptions"
+    },
+    {
+      "fiscal_year": 2024,
+      "deployed_aed_bn": 119,
+      "proceeds_aed_bn": 109,
+      "aum_aed_bn": 1212,
+      "rolling_five_year_return_percent": 10.1,
+      "source_id": "MB-2024",
+      "proceeds_definition": "Includes monetisations; not individual sale-proceeds figure",
+      "macro_characterisation": "Fund attributes outlook to long-run themes; no causal inference drawn"
+    },
+    {
+      "fiscal_year": 2025,
+      "deployed_aed_bn": 143,
+      "proceeds_aed_bn": 138,
+      "aum_aed_bn": 1400,
+      "rolling_five_year_return_percent": 10.7,
+      "rolling_ten_year_return_percent": 10.3,
+      "source_id": "MB-2025",
+      "proceeds_definition": "Aggregate group-wide proceeds, no disaggregation into realised exits here",
+      "macro_characterisation": "Fund says long-run investments and UAE diversification programme"
+    }
+  ],
+  "strategy_snapshots": [
+    {
+      "strategy_year": 2022,
+      "source_id": "MB-STR-2022",
+      "observed_self_description": [
+        "long-term sustainable returns",
+        "resilient diversified portfolio",
+        "megatrends including technology adoption, climate transition and smart infrastructure",
+        "monetise when appropriate"
+      ],
+      "certainty": "self-reported strategy, publication after fiscal year"
+    },
+    {
+      "strategy_year": 2024,
+      "source_id": "MB-STR-2024",
+      "observed_self_description": [
+        "focus on private asset classes",
+        "direct-investment arm typically meaningful minority co-investments",
+        "Mubadala Capital manages third-party funds",
+        "MGX established alongside G42 for AI",
+        "Mubadala direct vs Abu Dhabi Investment Council vs third-party capital vehicles distinguished"
+      ],
+      "certainty": "self-reported strategy, not evidence that each named deal fits"
+    }
+  ],
+  "scope_notes": [
+    "Deployment and proceeds are group-wide measures; differences must not be labelled net inflow or profit.",
+    "2024 AUM reported AED 1.2 trillion; AED 1212bn is separately stated in official 2024 release as portfolio amount.",
+    "2025 AUM AED 1.4 trillion is rounded.",
+    "Publication of each annual report is after the fiscal-year events; its strategy commentary cannot serve as proof of what was publicly stated at an earlier 2022, 2023, 2024 or 2025 deal date without older evidence.",
+    "These fund-supplied sources establish what Mubadala claims and reports, not independent verification of underlying deals."
+  ],
+  "research_next": "Find historical annual-report publication dates, fund vehicle mandates and independently published public statistical macro series for dated transaction windows. Profile only eligible divestment events for actual investor-specific exit proceeds."
+}
