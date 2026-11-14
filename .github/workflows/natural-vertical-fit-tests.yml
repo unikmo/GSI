@@ -11,6 +11,8 @@ on:
       - 'tests/capitalIntelligenceSchema.test.mjs'
       - 'tests/mubadalaResearchPilot.test.mjs'
       - 'tests/mubadalaInfrastructureResearch.test.mjs'
+      - 'tests/mubadalaBatch20.test.mjs'
+      - 'research/investee_snapshots/mubadala_batch_20_2026-11-14_UNREVIEWED.json'
       - 'tests/financialTemporalResearch.test.mjs'
       - 'research/investee_snapshots/mubadala_energy_infrastructure_followons_2026-11-14.json'
       - 'tests/strategyLifecycleSchema.test.mjs'
