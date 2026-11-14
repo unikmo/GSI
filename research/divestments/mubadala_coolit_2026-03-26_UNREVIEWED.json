@@ -26,15 +26,52 @@
   "causal_explanation_status": "FUND_SELF_REPORT_ONLY",
   "open_questions": [
     "Find 2023 entry financial and ownership baseline",
-    "Verify eventual completion and actual cash settlement",
     "Identify holding vehicle and exact stake",
     "Determine investor-specific proceeds and cost basis",
     "Check dated strategy sources and contemporaneous macro series",
-    "Do not infer political motive without direct documentary proof"
+    "Do not infer political motive without direct documentary proof",
+    "Confirm individual Mubadala investment vehicle, percentage stake sold and allocation of transaction proceeds despite established overall close"
   ],
   "primary_source": {
     "publisher": "Mubadala",
     "published_on": "2026-03-26",
     "url": "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction"
-  }
+  },
+  "current_verified_status": "COMPLETED_ACQUISITION_2026-07-02",
+  "lifecycle_events": [
+    {
+      "type": "SALE_AGREEMENT_SIGNED",
+      "date": "2026-03-20",
+      "evidence_source": "https://www.sec.gov/Archives/edgar/data/31462/000110465926056737/ecl-20260331x10q.htm",
+      "description": "Ecolab filed signed acquisition agreement, subject to conditions"
+    },
+    {
+      "type": "SALE_ANNOUNCED_BY_MUBADALA",
+      "date": "2026-03-26",
+      "evidence_source": "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction"
+    },
+    {
+      "type": "ACQUISITION_CLOSED",
+      "date": "2026-07-02",
+      "evidence_source": "https://www.ecolab.com/en-us/media-center/news/ecolab-closes-coolit-acquisition-and-expands-ai-cooling-platform",
+      "description": "Buyer confirmed closing"
+    },
+    {
+      "type": "PURCHASE_PRICE_DISCLOSED_IN_SEC",
+      "date": "2026-09-30",
+      "evidence_source": "https://www.sec.gov/Archives/edgar/data/31462/000162828026068208/ecl-20260930.htm",
+      "description": "Quarterly SEC filing reports cash paid net of acquired cash and adjustments; NOT investor-specific proceeds"
+    }
+  ],
+  "acquirer_cash_paid_usd_millions": 4627,
+  "acquirer_cash_paid_scope": "Ecolab cash acquisition consideration net of acquired cash and adjustments reported in 2026-09-30 Form 10-Q; not Mubadala proceeds",
+  "research_corrections": [
+    {
+      "date": "2026-11-14",
+      "field": "completion_status",
+      "previous": "SIGNED_AGREEMENT_NOT_CLOSED",
+      "new": "COMPLETED_ACQUISITION_2026-07-02",
+      "basis": "Buyer's dated closing statement and SEC filings"
+    }
+  ]
 }
