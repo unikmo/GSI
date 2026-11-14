@@ -660,9 +660,9 @@
         "enterprise_value_cad_bn": 12.1,
         "price_per_share_cad": 32,
         "ifrs_q3_2024_net_revenue_cad_m": 785.4,
-        "ifrs_q3_2024_ebitda_cad_m": 124.8
+        "q3_2024_reported_ebitda_cad_m": 124.8
       },
-      "interpretation": "Deal signed 25 Nov 2024 and completed Aug 2025; EBITDA quarterly vs EV headline, no derived multiple",
+      "interpretation": "Deal signed 25 Nov 2024 and completed Aug 2025; reported EBITDA is a quarterly company metric, not classified as IFRS EBITDA; no derived valuation multiple.",
       "financial_snapshot": {
         "revenue": null,
         "ebitda": null,
