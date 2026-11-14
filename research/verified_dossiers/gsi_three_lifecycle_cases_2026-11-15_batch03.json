@@ -1,0 +1,407 @@
+{
+  "dataset": "GSI_DEEP_VERIFICATION_2026_11_15_BATCH_03",
+  "reviewed_on": "2026-11-15",
+  "verification_status": "PRIMARY_ISSUER_CLAIMS_REVIEWED_PARTIAL_DOSSIERS",
+  "methods": [
+    "Separate event date, source publication date, and metric reporting period",
+    "Prioritise contemporaneous issuer statements and financial releases over retrospective fund summaries",
+    "Do not allocate consortium acquisition value or buyer purchase consideration to minority owner",
+    "Flag conflicting original and retrospective currency, even if currency conversion was the intended reporting method",
+    "Keep future revenue/EBITDA projection, management KPI and audited historic earnings distinct"
+  ],
+  "cross_record_findings": [
+    {
+      "id": "CI_CURRENCY_CONFLICT",
+      "severity": "HIGH",
+      "master_id": "GSI24N11-005",
+      "claim_issuer": "C$4.7bn equity; C$12.1bn enterprise",
+      "claim_mubadala_2024_review": "US$4.7bn equity; US$12.1bn enterprise",
+      "resolution": "CANADIAN_DOLLARS_AS_CONTRACT_CURRENCY_RETROSPECTIVE_REVIEW_FLAGGED",
+      "source_ids": [
+        "CI-DEAL-2024-11-25",
+        "MUB-AR-2024"
+      ]
+    },
+    {
+      "id": "CITYFIBRE_2022_CASH_TIMING",
+      "severity": "HIGH",
+      "claim": "£300m committed March 2022 but received Q1 2023",
+      "resolution": "SEPARATE_COMMITMENT_FROM_RECEIVED_CAPITAL",
+      "source_ids": [
+        "CF-ANN-2022-03-21",
+        "CF-FY2022-SIGNED-2023"
+      ]
+    }
+  ],
+  "dossiers": [
+    {
+      "master_record_id": "GSI24N11-005",
+      "fund": "Mubadala Capital (affiliate)",
+      "investee": "CI Financial Corp",
+      "sector": "Wealth and asset management",
+      "transaction_type": "PUBLIC_TO_PRIVATE",
+      "transaction_events": [
+        {
+          "date": "2024-11-14",
+          "event": "PRE_DEAL_Q3_FINANCIAL_RESULTS_RELEASED",
+          "source_id": "CI-Q3-2024-11-14"
+        },
+        {
+          "date": "2024-11-25",
+          "event": "SIGNED_DEFINITIVE_TAKE_PRIVATE_AGREEMENT",
+          "source_id": "CI-DEAL-2024-11-25"
+        },
+        {
+          "date": "2025-08-12",
+          "event": "COMPLETED_TAKE_PRIVATE",
+          "source_id": "CI-CLOSE-2025-08-13",
+          "as_known_at_signing": false
+        }
+      ],
+      "economics": [
+        {
+          "metric": "equity_transaction_value",
+          "value": 4.7,
+          "unit": "CAD billion",
+          "basis": "Approximate headline equity value; not Mubadala funded equity cheque",
+          "source_id": "CI-DEAL-2024-11-25"
+        },
+        {
+          "metric": "enterprise_transaction_value",
+          "value": 12.1,
+          "unit": "CAD billion",
+          "basis": "Approximate enterprise value, includes debt; not cash paid by fund",
+          "source_id": "CI-DEAL-2024-11-25"
+        },
+        {
+          "metric": "offer_price",
+          "value": 32,
+          "unit": "CAD/share",
+          "source_id": "CI-DEAL-2024-11-25"
+        },
+        {
+          "metric": "shares_held_after_closing",
+          "value": 144228914,
+          "unit": "CI common shares",
+          "scope": "Indirectly through Accelerate Holdings Corp; 100% issued shares at closing following reorganisations",
+          "source_id": "CI-CLOSE-2025-08-13"
+        }
+      ],
+      "financials": [
+        {
+          "period": "Q3 2024",
+          "published": "2024-11-14",
+          "metric": "ifrs_total_net_revenues",
+          "value": 785.4,
+          "unit": "CAD million",
+          "source_id": "CI-Q3-2024-11-14",
+          "available_at_signing": true
+        },
+        {
+          "period": "Q3 2024",
+          "published": "2024-11-14",
+          "metric": "adjusted_net_revenues",
+          "value": 754.9,
+          "unit": "CAD million",
+          "source_id": "CI-Q3-2024-11-14",
+          "non_ifrs": true,
+          "available_at_signing": true
+        },
+        {
+          "period": "Q3 2024",
+          "published": "2024-11-14",
+          "metric": "reported_ebitda",
+          "value": 124.8,
+          "unit": "CAD million",
+          "source_id": "CI-Q3-2024-11-14",
+          "available_at_signing": true
+        },
+        {
+          "period": "Q3 2024",
+          "published": "2024-11-14",
+          "metric": "adjusted_ebitda_attributable_to_shareholders",
+          "value": 270.5,
+          "unit": "CAD million",
+          "non_ifrs": true,
+          "source_id": "CI-Q3-2024-11-14",
+          "available_at_signing": true
+        },
+        {
+          "period": "2024-09-30",
+          "published": "2024-11-14",
+          "metric": "company_defined_net_debt",
+          "value": 3602.4,
+          "unit": "CAD million",
+          "source_id": "CI-Q3-2024-11-14",
+          "available_at_signing": true
+        }
+      ],
+      "ownership": {
+        "after_close": "100% indirectly acquired through Accelerate Holdings Corp",
+        "ultimate_investor": "UK limited partnership manager Mubadala Capital Management UK LLP",
+        "legal_fund_equity_commitment": null,
+        "source_id": "CI-CLOSE-2025-08-13"
+      },
+      "disclosed_strategy": {
+        "at_transaction": "Long-term investment in wealth/asset management, independent operating structure",
+        "source_id": "CI-DEAL-2024-11-25",
+        "analyst_fit": "COMPATIBLE_WITH_ISSUER_STATEMENT_ONLY",
+        "causality": "UNPROVEN"
+      },
+      "unresolved": [
+        "Actual Mubadala investment-specific equity cheque, syndicate financing and management rollover amounts",
+        "Company FY2023 audited financials not independently extracted in this dossier",
+        "Annualising Q3 reported or adjusted EBITDA for a purchase multiple would require consistent basis",
+        "2024 Mubadala review US-dollar currency error must be reconciled with fund IR"
+      ]
+    },
+    {
+      "master_record_id": "GSI26B02-010",
+      "related_entry_id": "GSI23M05-002",
+      "fund": "Mubadala Investment Company minority co-investor alongside KKR",
+      "investee": "CoolIT Systems",
+      "sector": "Direct-to-chip liquid cooling",
+      "transaction_type": "PE_MINORITY_EXIT",
+      "transaction_events": [
+        {
+          "date": "2023",
+          "event": "MINORITY_ENTRY_WITH_KKR",
+          "source_id": "MUB-COOLIT-EXIT-2026",
+          "as_known_at_2026_exit": true
+        },
+        {
+          "date": "2026-03-26",
+          "event": "MINORITY_EXIT_SIGNED",
+          "source_id": "MUB-COOLIT-EXIT-2026"
+        },
+        {
+          "date": "2026-07-02",
+          "event": "WHOLE_COMPANY_SALE_COMPLETED_BY_ECOLAB",
+          "source_id": "ECL-CLOSE-2026-07-02"
+        }
+      ],
+      "economics": [
+        {
+          "metric": "headline_transaction_value",
+          "value": 4750,
+          "unit": "USD million",
+          "basis": "All-owner buyer headline value, not Mubadala equity proceeds",
+          "source_id": "MUB-COOLIT-EXIT-2026"
+        },
+        {
+          "metric": "consideration_transferred_to_sellers_net_acquired_cash",
+          "value": 4627.2,
+          "unit": "USD million",
+          "basis": "Ecolab preliminary acquisition accounting entire CoolIT acquisition",
+          "source_id": "ECL-SEC-2026-09-30"
+        },
+        {
+          "metric": "purchase_accounting_goodwill",
+          "value": 3251.1,
+          "unit": "USD million",
+          "basis": "Buyer preliminary balance-sheet accounting; not sovereign gain",
+          "source_id": "ECL-SEC-2026-09-30"
+        },
+        {
+          "metric": "buyer_recognised_customer_relationships",
+          "value": 881.4,
+          "unit": "USD million",
+          "source_id": "ECL-SEC-2026-09-30"
+        },
+        {
+          "metric": "buyer_recognised_technology",
+          "value": 641.6,
+          "unit": "USD million",
+          "source_id": "ECL-SEC-2026-09-30"
+        },
+        {
+          "metric": "buyer_recognised_trademarks",
+          "value": 232.7,
+          "unit": "USD million",
+          "source_id": "ECL-SEC-2026-09-30"
+        }
+      ],
+      "performance": [
+        {
+          "metric": "growth_in_sales_ytd_2026",
+          "value": 100,
+          "qualifier": "greater_than",
+          "unit": "percent",
+          "basis": "Ecolab buyer commentary July 2026, period definition unclear, not audited profit",
+          "source_id": "ECL-CLOSE-2026-07-02"
+        },
+        {
+          "metric": "projected_2026_revenue_relative_to_2023",
+          "value": 4,
+          "unit": "x",
+          "basis": "Mubadala management projection, not achieved audited earnings",
+          "source_id": "MUB-COOLIT-EXIT-2026"
+        },
+        {
+          "metric": "projected_2026_ebitda_relative_to_2023",
+          "value": 10,
+          "unit": "x",
+          "basis": "Mubadala management projection, not audited EBITDA/IRR",
+          "source_id": "MUB-COOLIT-EXIT-2026"
+        }
+      ],
+      "investor_specific_proceeds": null,
+      "investor_specific_original_cost": null,
+      "investor_specific_irr": null,
+      "investor_specific_moic": null,
+      "strategy": {
+        "fund_claim": "Energy-efficient computing cooling and sustainable digital infrastructure",
+        "source_id": "MUB-COOLIT-EXIT-2026",
+        "fit": "PUBLIC_POST_HOC_RATIONALE",
+        "causal_proof": "No independent investment committee evidence"
+      },
+      "unresolved": [
+        "Mubadala percentage sold, gross/net proceeds, transaction carry/taxes",
+        "Mubadala cost basis and cash flows for MOIC/IRR",
+        "Audited CoolIT 2022/2023/2025 revenue and EBITDA",
+        "Potential seller rollover and purchase price adjustment"
+      ]
+    },
+    {
+      "master_record_id": null,
+      "master_link_state": "CHECK_MASTER_FOR_2022_CITYFIBRE_ENTRY",
+      "fund": "Mubadala Investment Company",
+      "investee": "CityFibre Infrastructure Holdings Limited (via Connect Infrastructure Topco Limited)",
+      "sector": "UK wholesale full-fibre infrastructure",
+      "transaction_type": "FOLLOW_ON_EQUITY_COMMITMENT_AND_RECEIPT",
+      "transaction_events": [
+        {
+          "date": "2021-09-16",
+          "event": "INITIAL_MUBADALA_INVESTMENT_£500M_REFERENCED_IN_MARCH_2022_RELEASE",
+          "source_id": "CF-ANN-2022-03-21"
+        },
+        {
+          "date": "2022-03-21",
+          "event": "FURTHER_EQUITY_COMMITTED_£300M",
+          "source_id": "CF-ANN-2022-03-21"
+        },
+        {
+          "date": "2023-Q1",
+          "event": "£300M_RECEIVED_BY_ULTIMATE_PARENT",
+          "source_id": "CF-FY2022-SIGNED-2023",
+          "as_known_at_commitment": false
+        }
+      ],
+      "economics": [
+        {
+          "metric": "additional_mubadala_commitment",
+          "value": 300,
+          "unit": "GBP million",
+          "state": "ANNOUNCED_MARCH_2022",
+          "source_id": "CF-ANN-2022-03-21"
+        },
+        {
+          "metric": "mubadala_cash_received_by_parent_Q1_2023",
+          "value": 300,
+          "unit": "GBP million",
+          "state": "COMPANY_STATEMENTS_CONFIRMED_LATER",
+          "source_id": "CF-FY2022-SIGNED-2023"
+        },
+        {
+          "metric": "initial_mubadala_2021_investment_reported",
+          "value": 500,
+          "unit": "GBP million",
+          "scope": "Company March 2022 statement about September 2021 capital",
+          "source_id": "CF-ANN-2022-03-21"
+        }
+      ],
+      "historical_financials": [],
+      "financial_reference": "Existing research/investee_snapshots/mubadala_energy_infrastructure_followons_2026-11-14.json has 2021 financials from signed 2022 accounts. Not promoted as publicly known by March 2022 until publication date independently demonstrated.",
+      "contemporaneous_company_scale": [
+        {
+          "metric": "premises_passed",
+          "value": 1.5,
+          "unit": "million homes",
+          "source_id": "CF-ANN-2022-03-21"
+        },
+        {
+          "metric": "premises_ready_for_service",
+          "value": 1.3,
+          "unit": "million homes",
+          "source_id": "CF-ANN-2022-03-21"
+        },
+        {
+          "metric": "rollout_aspiration",
+          "value": 8,
+          "unit": "million homes",
+          "scope": "Future target, not delivered",
+          "source_id": "CF-ANN-2022-03-21"
+        }
+      ],
+      "strategy": {
+        "at_commitment": "UAE–UK Sovereign Investment Partnership infrastructure vertical and UK government Project Gigabit",
+        "source_id": "CF-ANN-2022-03-21",
+        "fit": "OFFICIALLY_STATED_POLICY_ALIGNMENT",
+        "causality": "NOT_INFERRED"
+      },
+      "unresolved": [
+        "Precise 2023 Q1 cash receipt date unknown",
+        "FY2021 audited report signed April 2022; cannot be a public source on 21 March 2022 absent earlier publication evidence",
+        "Original investment's legal vehicle and exact post-investment stake undisclosed",
+        "Later £500m joint 2025 shareholder financing not Mubadala-only equity"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "CI-Q3-2024-11-14",
+      "url": "https://www.cifinancial.com/ci-financial/ca/en/newsroom/CI-Financial-Reports-Record-Financial-Results-for-the-Third-Quarter-2024.html",
+      "published": "2024-11-14",
+      "type": "PRE_DEAL_ISSUER_QUARTERLY_FINANCIALS"
+    },
+    {
+      "id": "CI-DEAL-2024-11-25",
+      "url": "https://www.cifinancial.com/ci-financial/ca/en/newsroom/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer.html",
+      "published": "2024-11-25",
+      "type": "ISSUER_DEFINITIVE_SIGNING"
+    },
+    {
+      "id": "CI-CLOSE-2025-08-13",
+      "url": "https://www.cifinancial.com/ci-financial/ca/en/newsroom/ci-financial-and-mubadala-capital-announce-completion-of-take--private-transaction-by-mubadala-capital.html",
+      "published": "2025-08-13",
+      "type": "ISSUER_CLOSING"
+    },
+    {
+      "id": "MUB-AR-2024",
+      "url": "https://annual2024.mubadala.com/en/key-investment-highlights",
+      "published": "2025",
+      "type": "FUND_RETROSPECTIVE_CURRENCY_CONFLICT"
+    },
+    {
+      "id": "MUB-COOLIT-EXIT-2026",
+      "url": "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction",
+      "published": "2026-03-26",
+      "type": "MINORITY_SELLER_SIGNING_AND_HISTORICAL_ENTRY"
+    },
+    {
+      "id": "ECL-CLOSE-2026-07-02",
+      "url": "https://investor.ecolab.com/news/news-details/2026/Ecolab-Closes-CoolIT-Acquisition-and-Expands-AI-Cooling-Platform-as-Global-High-Tech-Business-Targets-4-Billion-by-2030/default.aspx",
+      "published": "2026-07-02",
+      "type": "BUYER_CLOSING"
+    },
+    {
+      "id": "ECL-SEC-2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/31462/000162828026068208/ecl-20260930.htm",
+      "published": "2026-11",
+      "type": "BUYER_FILED_PURCHASE_ACCOUNTING"
+    },
+    {
+      "id": "CF-ANN-2022-03-21",
+      "url": "https://cityfibre.com/news/mubadala-commits-further-300m-in-equity-to-cityfibre",
+      "published": "2022-03-21",
+      "type": "ISSUER_FOLLOW_ON_COMMITMENT"
+    },
+    {
+      "id": "CF-FY2022-SIGNED-2023",
+      "url": "https://cdn.cityfibre.com/reports/CityFibre-Infrastructure-Holdings-Limited-31.12.2022-vFINAL-docusign-removed.pdf",
+      "published": "2023",
+      "type": "LATER_COMPANY_SIGNED_FINANCIAL_STATEMENTS",
+      "pdf_screenshot_check": "ATTEMPTED_WEB_PDF_SCREENSHOT_CACHE_MISS_TEXT_VIEW_AVAILABLE"
+    }
+  ]
+}
