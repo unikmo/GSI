@@ -1,0 +1,361 @@
+{
+  "dataset": "GSI_VERIFIED_DOSSIERS_PILOT_2026_11_15",
+  "status": "SOURCE_VERIFIED_SELECTED_CLAIMS_WITH_OPEN_GAPS",
+  "last_reviewed": "2026-11-15",
+  "scope": "Four transaction dossiers, cross-checked against dated fund, issuer, exchange and published historical financial sources. Verified means specific cited claims, not total independent certification of every fact.",
+  "rules": [
+    "Every numeric metric linked to source and publication date",
+    "Pre-decision public financials distinguished from subsequent retrospective disclosures",
+    "Investor-specific funded cash distinguished from consortium enterprise valuation and pledge",
+    "Strategy self-description distinct from independently proven investment motivation",
+    "No realised P&L where cost basis missing"
+  ],
+  "dossiers": [
+    {
+      "master_record_id": "GSI-2020-OCT-003",
+      "investor": "Mubadala Investment Company",
+      "investee": "Evotec SE",
+      "asset_class": "Listed-biotech strategic primary share subscription",
+      "event": {
+        "announced": "2020-10-13",
+        "state": "COMPLETED_CAPITAL_RAISE_CONFIRMED_BY_2020_ANNUAL_ACCOUNTS",
+        "financial_closing_date": "UNKNOWN_EXACT_DAY"
+      },
+      "investor_specific_economics": [
+        {
+          "metric": "subscribed_equity",
+          "value": 200,
+          "unit": "EUR million",
+          "state": "SUBSCRIPTION_REPORTED_AND_2020_ISSUER_ACCOUNTS_CONFIRM_CASH_RAISE",
+          "source_id": "EVT-2020-10-13"
+        },
+        {
+          "metric": "stake_post_placement",
+          "value": 5.6,
+          "unit": "percent",
+          "scope": "approximately",
+          "source_id": "EVT-2020-10-13"
+        },
+        {
+          "metric": "total_placement",
+          "value": 250,
+          "unit": "EUR million",
+          "scope": "Mubadala 200m + Novo 50m, not all sovereign",
+          "source_id": "EVT-2020-10-13"
+        }
+      ],
+      "historical_financials": [
+        {
+          "period": "FY2019",
+          "published": "2020-03-26",
+          "known_before_announcement": true,
+          "metric": "IFRS_group_revenue",
+          "value": 446.4,
+          "unit": "EUR million",
+          "source_id": "EVT-FY2019-2020-03-26"
+        },
+        {
+          "period": "FY2019",
+          "published": "2020-03-26",
+          "known_before_announcement": true,
+          "metric": "adjusted_group_ebitda",
+          "value": 123.1,
+          "unit": "EUR million",
+          "source_id": "EVT-FY2019-2020-03-26",
+          "non_ifrs": true
+        },
+        {
+          "period": "FY2020",
+          "published": "2021-03-25",
+          "known_before_announcement": false,
+          "metric": "group_revenue",
+          "value": 500.9,
+          "unit": "EUR million",
+          "source_id": "EVT-FY2020-2021-03-25"
+        },
+        {
+          "period": "FY2020",
+          "published": "2021-03-25",
+          "known_before_announcement": false,
+          "metric": "adjusted_group_ebitda",
+          "value": 106.6,
+          "unit": "EUR million",
+          "source_id": "EVT-FY2020-2021-03-25",
+          "non_ifrs": true
+        },
+        {
+          "period": "FY2020",
+          "published": "2021-03-25",
+          "known_before_announcement": false,
+          "metric": "net_debt",
+          "value": 10,
+          "unit": "EUR million",
+          "source_id": "EVT-FY2020-2021-03-25",
+          "caution": "Company indicates capital placement helped reduce net debt; this is AFTER investment and cannot be entry leverage"
+        }
+      ],
+      "strategy_context": {
+        "fund_claim": "Healthcare, data-driven precision medicine and biologics scale-up",
+        "sources": [
+          "EVT-2020-10-13"
+        ],
+        "fit": "SECTOR_AND_INTENDED_USE_CONSISTENT",
+        "causal_proof": "NOT_ESTABLISHED",
+        "macro": "COVID-19 uncertainty documented contemporaneously in 2019 results release; no quantified transaction-specific causal effect"
+      },
+      "review_flags": [
+        "The Abu Dhabi media office release says 11,478,298 group shares whereas Evotec issuer and annual accounts show 11,478,315. Prefer issuer accounting record; flag independent reconciliation.",
+        "FY2020 net debt reflects the capital raise and must never serve as a pre-deal comparator.",
+        "Company revenue is not EBITDA and adjusted EBITDA is not an IFRS-defined measure."
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-06-003",
+      "investor": "Public Investment Fund (PIF)",
+      "investee": "Jio Platforms Limited",
+      "asset_class": "Primary strategic equity subscription",
+      "event": {
+        "signed": "2020-06-18",
+        "cash_and_share_allotment_confirmed_on": "2020-07-10",
+        "state": "FUNDED_AND_SHARES_ALLOTTED_BY_ISSUER_EXCHANGE_NOTICE"
+      },
+      "investor_specific_economics": [
+        {
+          "metric": "funded_subscription",
+          "value": 11367,
+          "unit": "INR crore",
+          "source_id": "JIO-RIL-2020-07-10",
+          "state": "ISSUER_CONFIRMS_RECEIPT"
+        },
+        {
+          "metric": "post_subscription_fully_diluted_stake",
+          "value": 2.32,
+          "unit": "percent",
+          "source_id": "JIO-RIL-2020-07-10"
+        },
+        {
+          "metric": "announced_equity_valuation",
+          "value": 4.91,
+          "unit": "INR lakh crore",
+          "source_id": "JIO-ISSUER-2020-06-18",
+          "scope": "Total company equity valuation, not amount paid"
+        }
+      ],
+      "historical_financials": [],
+      "financial_status": "PIF investment receipt is independently evidenced by listed-parent exchange notice; Jio historical segment IFRS results still to extract from Reliance FY2020 annual report, including basis of combined telecom/digital operations.",
+      "strategy_context": {
+        "source_id": "JIO-PIF-2020-06-18",
+        "fund_claim": "International investments intended to safeguard and grow sovereign wealth in transformative growth markets",
+        "fit": "PIF_DESCRIBES_STRATEGIC_FIT",
+        "causal_proof": "Company and fund public statement only; not proof of internal committee rationale"
+      },
+      "review_flags": [
+        "Actual share receipt in July 2020 must not be backdated to 18 June announcement.",
+        "2.32% is Jio Platforms fully diluted equity, not 2.32% of Reliance Industries.",
+        "Related Mubadala and ADIA subscriptions are separate investors, not included in PIF capital."
+      ]
+    },
+    {
+      "master_record_id": "GSI21D12-003",
+      "investor": "Public Investment Fund (PIF)",
+      "investee": "Saudi Telecom Company (stc)",
+      "asset_class": "Listed secondary partial divestment",
+      "event": {
+        "exploratory_sale_announced": "2021-09-30",
+        "completed": "2021-12-13",
+        "state": "COMPLETED_SECONDARY_PUBLIC_OFFERING"
+      },
+      "investor_specific_economics": [
+        {
+          "metric": "shares_sold",
+          "value": 120000000,
+          "unit": "shares",
+          "source_id": "STC-PIF-2021-12-13"
+        },
+        {
+          "metric": "stake_sold",
+          "value": 6,
+          "unit": "percent of share capital",
+          "source_id": "STC-PIF-2021-12-13"
+        },
+        {
+          "metric": "reported_gross_offering_size",
+          "value": 12,
+          "unit": "SAR billion",
+          "source_id": "STC-PIF-2021-12-13",
+          "scope": "PIF secondary offering, not investee primary capital or net investment profit"
+        },
+        {
+          "metric": "remaining_pif_stake",
+          "value": 64,
+          "unit": "percent",
+          "source_id": "STC-PIF-2021-12-13"
+        }
+      ],
+      "historical_financials": [
+        {
+          "period": "FY2020",
+          "published": "2021",
+          "known_before_announcement": "LIKELY_BUT_EXACT_DATE_TO_VALIDATE",
+          "metric": "group_revenue",
+          "value": 58953.318,
+          "unit": "SAR million",
+          "source_id": "STC-2020-ANNUAL",
+          "basis": "Published annual IFRS consolidation, SAR thousands converted to millions"
+        },
+        {
+          "period": "FY2020",
+          "published": "2021",
+          "known_before_announcement": "LIKELY_BUT_EXACT_DATE_TO_VALIDATE",
+          "metric": "operating_profit",
+          "value": 12731.125,
+          "unit": "SAR million",
+          "source_id": "STC-2020-ANNUAL"
+        },
+        {
+          "period": "FY2020",
+          "published": "2021",
+          "known_before_announcement": "LIKELY_BUT_EXACT_DATE_TO_VALIDATE",
+          "metric": "net_profit_attributable",
+          "value": 10994.875,
+          "unit": "SAR million",
+          "source_id": "STC-2020-ANNUAL"
+        },
+        {
+          "period": "FY2021",
+          "published": "2022",
+          "known_before_announcement": false,
+          "metric": "revenue",
+          "value": 63416.977,
+          "unit": "SAR million",
+          "source_id": "STC-2021-ANNUAL",
+          "basis": "Original FY2021 annual report; subsequent restatements differ"
+        }
+      ],
+      "strategy_context": {
+        "source_id": "STC-PIF-2021-09-30",
+        "fund_claim": "Capital recycling to support new investments; shareholder-base diversification and financial market development",
+        "fit": "SPECIFIC_EXPLICIT_PUBLIC_DIVESTMENT_RATIONALE",
+        "causal_proof": "Fund-stated purpose; additional motivations not inferred"
+      },
+      "review_flags": [
+        "Cost basis, net proceeds, realised multiple and IRR unavailable: do not portray SAR12bn gross proceeds as profit.",
+        "Company's later 2024 review restates FY2021 revenue to SAR63,007.986m, differing from original FY2021 report SAR63,416.977m; retain the vintage of each statement.",
+        "Pre-2021 financial publication date requires precise confirmation before classifying as available at fund decision date."
+      ]
+    },
+    {
+      "master_record_id": "GSI21D12-001",
+      "investor": "Qatar Investment Authority (QIA)",
+      "investee": "Rolls-Royce SMR Limited",
+      "asset_class": "Minority equity technology company",
+      "event": {
+        "agreed": "2021-12-20",
+        "state": "SIGNED_EQUITY_INVESTMENT_AGREEMENT_CASH_SETTLEMENT_NOT_INDEPENDENTLY_CONFIRMED"
+      },
+      "investor_specific_economics": [
+        {
+          "metric": "agreed_subscription",
+          "value": 85,
+          "unit": "GBP million",
+          "source_id": "RR-SMR-2021-12-20",
+          "state": "AGREEMENT_NOT_CASH_RECEIPT"
+        },
+        {
+          "metric": "agreed_ownership",
+          "value": 10,
+          "unit": "percent",
+          "source_id": "RR-SMR-2021-12-20",
+          "state": "EXPECTED_POST_AGREEMENT_STAKE"
+        }
+      ],
+      "historical_financials": [],
+      "financial_status": "Early-stage technology developer; no audited pre-entry operating-revenue or EBITDA values verified. Parent Rolls-Royce group financials must not be substituted for SMR subsidiary.",
+      "strategy_context": {
+        "source_id": "RR-SMR-2021-12-20",
+        "fund_claim": "QIA public energy transition and low-carbon electricity financing motivation",
+        "fit": "PUBLICLY_STATED_SECTOR_ALIGNMENT",
+        "causal_proof": "Public executive attribution, not internal IC record"
+      },
+      "review_flags": [
+        "QIA £85m funds cannot be assumed paid at signing.",
+        "Valuation and stake do not alone establish cash-flow profitability.",
+        "Technology/project potential metrics (homes powered) are not current operation or revenue."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "EVT-2020-10-13",
+      "url": "https://www.evotec.com/news/mubadala-investment-company-and-novo-holdings-as-invest-euro-250-m-in-evotec-se",
+      "published": "2020-10-13",
+      "class": "ISSUER_RELEASE"
+    },
+    {
+      "id": "EVT-FY2019-2020-03-26",
+      "url": "https://www.evotec.com/news/evotec-se-fiscal-year-2019-results-excellent-2019-performance-very-good-outlook-for-continued-growth-2020",
+      "published": "2020-03-26",
+      "class": "ISSUER_FINANCIAL_RESULTS"
+    },
+    {
+      "id": "EVT-FY2020-2021-03-25",
+      "url": "https://www.evotec.com/news/evotec-se-fiscal-year-2020-results-gaining-speed-on-the-data-driven-rd-autobahn-to-cures",
+      "published": "2021-03-25",
+      "class": "ISSUER_FINANCIAL_RESULTS"
+    },
+    {
+      "id": "EVT-FY2020-ANNUAL",
+      "url": "https://www.evotec.com/uploads/download-files/IR-ESG/Financial_Publications/EvotecAnnualReport2020-Report.pdf",
+      "published": "2021",
+      "class": "AUDITED_ISSUER_ACCOUNTS"
+    },
+    {
+      "id": "JIO-PIF-2020-06-18",
+      "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2020/jio-platforms/",
+      "published": "2020-06-18",
+      "class": "FUND_CLAIM"
+    },
+    {
+      "id": "JIO-ISSUER-2020-06-18",
+      "url": "https://jep-asset.akamaized.net/jio/press-release/media_release_jio_pif_18062020.pdf",
+      "published": "2020-06-18",
+      "class": "INVESTEE_ISSUER_RELEASE"
+    },
+    {
+      "id": "JIO-RIL-2020-07-10",
+      "url": "https://www.ril.com/sites/default/files/2023-01/Regulation%2030%20disclosure%20-%20financial%20investors-further%20update.pdf",
+      "published": "2020-07-10",
+      "class": "LISTED_PARENT_EXCHANGE_NOTICE"
+    },
+    {
+      "id": "STC-PIF-2021-09-30",
+      "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2021/stc/",
+      "published": "2021-09-30",
+      "class": "FUND_CLAIM_PRE_DISPOSAL"
+    },
+    {
+      "id": "STC-PIF-2021-12-13",
+      "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2021/pif-and-stc/",
+      "published": "2021-12-13",
+      "class": "FUND_AND_ISSUER_CLOSING_NOTICE"
+    },
+    {
+      "id": "STC-2020-ANNUAL",
+      "url": "https://www.stc.com.sa/content/dam/groupsites/en/pdf/annualreport2020-new-en.pdf",
+      "published": "2021",
+      "class": "AUDITED_ISSUER_ANNUAL_ACCOUNTS"
+    },
+    {
+      "id": "STC-2021-ANNUAL",
+      "url": "https://www.stc.com.sa/content/dam/groupsites/en/pdf/AnnualReport2021-En-new.pdf",
+      "published": "2022",
+      "class": "AUDITED_ISSUER_ANNUAL_ACCOUNTS"
+    },
+    {
+      "id": "RR-SMR-2021-12-20",
+      "url": "https://www.rolls-royce.com/media/press-releases/2021/20-12-2021-rr-plc-qatar-investment-authority-announce-agreement.aspx",
+      "published": "2021-12-20",
+      "class": "INVESTEE_PARENT_RELEASE"
+    }
+  ]
+}
