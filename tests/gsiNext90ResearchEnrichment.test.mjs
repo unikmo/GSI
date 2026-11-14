@@ -46,6 +46,6 @@ test('independent checking scope is limited and all source references are HTTPS'
  assert.equal(data.summary.not_individually_source_checked,85);
  for(const r of data.records){
   assert.ok(r.source_register.every(x=>x.url.startsWith('https://')));
-  if(!r.independent_source_check)assert.equal(r.data_quality.stage,'PRIORITIZED_FOR_DEEP_VERIFICATION');
+  if(!r.independent_source_check){ assert.ok(['PRIORITIZED_FOR_DEEP_VERIFICATION','SOURCE_LINK_REPAIR_REQUIRED'].includes(r.data_quality.stage)); if(r.data_quality.stage==='SOURCE_LINK_REPAIR_REQUIRED'){assert.equal(r.source_register.length,0);assert.ok(r.data_quality.source_gap.includes('MISSING'));}}
  }
 });
