@@ -1,0 +1,2905 @@
+{
+  "batch_id": "MUBADALA_BATCH_04_50_2026-11-15",
+  "created_on": "2026-11-15",
+  "review_state": "UNREVIEWED",
+  "research_type": "Fifty source-linked master claim triages, with direct checks for selected official sources; NOT fifty independently verified or complete financial dossiers.",
+  "master_baseline": "445 research master rows, 135 exact Mubadala rows",
+  "prior_batch_ids": [
+    "MUBADALA_20_2026-11-14",
+    "MUBADALA_BATCH_02_20_2026-11-14",
+    "MUBADALA_BATCH_03_20_2026-11-15"
+  ],
+  "source_policy": "All un-reverified master-derived facts are explicitly labelled. Source and disclosure/settlement gaps left unresolved. Report actual cash only with supporting proof.",
+  "records": [
+    {
+      "master_record_id": "V1.6_CANDIDATES-006",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Greenlink electricity interconnector",
+      "master_event_type": "EQUITY_TRANSACTION",
+      "master_status": "Acquisition announced as completed",
+      "master_announcement_date": "2026-05-16",
+      "target_country_master": "United Kingdom;Ireland",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-partners-with-equitix-to-invest-in-greenlink",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": "200",
+      "amount_scope_master": "Mubadala-specific stake acquisition amount",
+      "master_currency": "USD",
+      "master_amount_basis": "USD200m from Mubadala transaction announcement",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [
+        {
+          "metric": "interconnector_capacity",
+          "value": 504,
+          "unit": "MW",
+          "basis": "Operating capacity, not investee revenue",
+          "source": "mubadala.com"
+        }
+      ],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Mubadala reports US$200m purchase of stake in existing 504MW interconnector; independent cash settlement unconfirmed",
+      "event_reconciliation": null,
+      "prior_research_file": "mubadala_energy_infrastructure_followons_2026-11-14.json",
+      "linked_event_master_id": null,
+      "source_issue": "Master May 16 article metadata versus June 16 release body; event date requires reconciliation",
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Resolve webpage date inconsistency and extract legal SPV",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "V1.6_CANDIDATES-007",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Hornsea 3 offshore wind",
+      "master_event_type": "EQUITY_TRANSACTION",
+      "master_status": "Investment announced",
+      "master_announcement_date": "2026-05-12",
+      "target_country_master": "United Kingdom",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-invests-in-hornsea-3-offshore-wind-farm-alongside-consortium-led-by-apollo-funds",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://orsted.com/en/media/news/2025/12/orsted-completes-divestment-of-50--stake-in-hornse-1473801111",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": "325",
+      "amount_scope_master": "Mubadala-specific announced investment; funding/settlement unconfirmed",
+      "master_currency": "USD",
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [
+        {
+          "metric": "wind_farm_capacity",
+          "value": 2.9,
+          "unit": "GW",
+          "basis": "Planned project capacity"
+        }
+      ],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Mubadala reported US$325m commitment, not Apollo's 50% project stake",
+      "event_reconciliation": null,
+      "prior_research_file": "mubadala_energy_infrastructure_followons_2026-11-14.json",
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify completed investment and vehicle",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "V1.6_CANDIDATES-008",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "MC Pomona Bidco controlled by Mubadala Capital",
+      "investee_or_event": "Pierre & Vacances-Center Parcs",
+      "master_event_type": "SIGNED_ACQUISITION_AGREEMENT",
+      "master_status": "SIGNED_BUSINESS_COMBINATION_AGREEMENT; TENDER_OFFER_NOT_YET_FILED_AS_OF_2026-07-20",
+      "master_announcement_date": "2026-06-22",
+      "target_country_master": "France",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital/",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://bdif.amf-france.org/fr/details/226C1514",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "Offer price €1.90/share cum distribution; total cash consideration not treated as invested",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Monitor AMF, FSR and FDI clearances; do not show closed",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "V1.4_HOLDS-003",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company (existing shareholder; new allocation unknown)",
+      "investee_or_event": "CityFibre £900m proposed equity financing",
+      "master_event_type": "PROPOSED_EQUITY_FINANCING",
+      "master_status": "PROPOSED_NOT_CLOSED",
+      "master_announcement_date": "2026-07-30",
+      "target_country_master": "United Kingdom",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "HOLD_NOT_DEPLOYED",
+      "source_register": [
+        {
+          "url": "https://cityfibre.com/news",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://ebs.publicnow.com/view/8053F20FAFB569703BD2E7A9450E09366C0373AF",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "£900m total proposed shareholder funding, not sovereign allocation",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "V1.5_HOLDS-003",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Power Factors",
+      "master_event_type": "MINORITY_EQUITY_INVESTMENT",
+      "master_status": "INVESTMENT_ANNOUNCED_NOT_SETTLEMENT_CONFIRMED",
+      "master_announcement_date": "2026-05-06",
+      "target_country_master": "United States",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "ADMIT_CANDIDATE",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-announces-acquisition-of-minority-stake-in-power-factors",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": true,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.powerfactors.com/news/power-factors-welcomes-mubadala-as-strategic-investor-to-support-next-phase-of-growth",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": "https://www.mubadala.com/en/news/mubadala-announces-acquisition-of-minority-stake-in-power-factors",
+      "master_claimed_amount": null,
+      "amount_scope_master": "Investor-specific ticket undisclosed",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "OFFICIAL_SOURCE_DIRECTLY_CHECKED_THIS_BATCH",
+      "quantitative_claims": [
+        {
+          "metric": "reported_customers",
+          "value": 600,
+          "comparison": "over",
+          "unit": "customers"
+        },
+        {
+          "metric": "reported_sites",
+          "value": 18000,
+          "unit": "sites"
+        },
+        {
+          "metric": "asset_capacity_supported",
+          "value": 310,
+          "unit": "GW"
+        },
+        {
+          "metric": "reported_country_footprint",
+          "value": 70,
+          "comparison": "over",
+          "unit": "countries"
+        }
+      ],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Minority investment alongside Vista, individual ticket and percentage undisclosed",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "If legal domicile/geography differs, reassess with registry evidence.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "V1.5_HOLDS-007",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Textainer / Seaco container leasing platform",
+      "master_event_type": "GLOBAL_PLATFORM_INVESTMENT",
+      "master_status": "INVESTMENT_ANNOUNCED",
+      "master_announcement_date": "2026-05-05",
+      "target_country_master": null,
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "HOLD_GEOGRAPHY",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-partners-with-stonepeak-to-invest-in-container-leasing-platforms-supporting-global-trade",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "Mubadala stated co-investment, NOT European allocated capital",
+      "master_currency": "USD",
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Resolve domicile of invested entity and ownership before any Europe attribution.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "V1.6_HOLDS-006",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Paymob pre-Series C",
+      "master_event_type": "FINANCING_ROUND_PARTICIPATION",
+      "master_status": "ANNOUNCED",
+      "master_announcement_date": "2026-09-21",
+      "target_country_master": "Egypt",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "ADMIT_CANDIDATE",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-invests-in-the-35-million-pre-series-c-round-in-paymob",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "USD35M_ROUND_TOTAL_NOT_MUBADALA_TICKET",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Resolve investor-specific payment, closing and entity chain where relevant",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "V1.6_HOLDS-007",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Capital",
+      "investee_or_event": "LSV Advisors LLC",
+      "master_event_type": "Definitive agreement for minority stake",
+      "master_status": "SIGNED_NOT_CLOSED",
+      "master_announcement_date": "2026-11-10",
+      "target_country_master": "United States",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "ADMIT_CANDIDATE",
+      "source_register": [
+        {
+          "url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-to-make-strategic-minority-investment-in-lsv-advisors/",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://hl.com/about-us/transactions/lsv-advisors-mubadala-capital/",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "Undisclosed",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Mubadala Capital agreed minority interest in LSV; no evidence of closing as of Nov 15 2026",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Resolve investor-specific payment, closing and entity chain where relevant",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "V1.3_EXCLUSIONS-006",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": null,
+      "investee_or_event": "Luckin Coffee",
+      "master_event_type": "MINORITY_EQUITY_AGREEMENT",
+      "master_status": "AGREED_NOT_CONFIRMED_CLOSED",
+      "master_announcement_date": "2026-09-10",
+      "target_country_master": "China",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "ADMIT_CANDIDATE",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-announces-significant-minority-investment-in-luckin-coffee",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "US$1BN_AGGREGATE_NOT_MUBADALA_TICKET",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "V2.0_2026-010",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Aldar–Mubadala joint venture",
+      "investee_or_event": "The Link at Masdar City acquisition",
+      "master_event_type": "REAL_ESTATE_ACQUISITION",
+      "master_status": "COMPLETED_ACQUISITION",
+      "master_announcement_date": "2026-04-21",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "ADMIT_CANDIDATE_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.aldar.com/en/news-and-media/aldar-mubadala-jv-acquires-the-link-at-masdar-city",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": true,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": "https://www.aldar.com/en/news-and-media/aldar-mubadala-jv-acquires-the-link-at-masdar-city",
+      "master_claimed_amount": null,
+      "amount_scope_master": "AED 654m whole joint-venture purchase price; Mubadala share undisclosed",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "OFFICIAL_SOURCE_DIRECTLY_CHECKED_THIS_BATCH",
+      "quantitative_claims": [
+        {
+          "metric": "property_acquisition_price",
+          "value": 654,
+          "unit": "AED million",
+          "scope": "100% joint venture acquisition price, not Mubadala cheque"
+        },
+        {
+          "metric": "net_leasable_area",
+          "value": 32000,
+          "unit": "square metres"
+        },
+        {
+          "metric": "reported_occupancy",
+          "value": 100,
+          "unit": "%",
+          "basis": "Issuer-reported 100% leased at acquisition"
+        }
+      ],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Locate formal closing/regulatory record and investor-level allocation; validate legal investing vehicle",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26B02-005",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Moove — Series C funding",
+      "master_event_type": "EQUITY_FINANCING",
+      "master_status": "ROUND_ANNOUNCED",
+      "master_announcement_date": "2026-08-05",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "DOMESTIC_GULF",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/moove-raises-250-million-at-2-1-billion-valuation-to-scale-the-global-infrastructure-layer-for-autonomous-mobility",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "USD 250m is full Series C; Mubadala lead amount not disclosed. UAE-headquartered multinational with operations in multiple countries.",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [
+        {
+          "metric": "series_c_total",
+          "value": 250,
+          "unit": "USD million",
+          "scope": "whole financing round"
+        },
+        {
+          "metric": "reported_valuation",
+          "value": 2100,
+          "unit": "USD million",
+          "scope": "issuer-reported valuation; basis unconfirmed"
+        },
+        {
+          "metric": "annual_recurring_revenue",
+          "value": 420,
+          "unit": "USD million",
+          "basis": "claim; not audited revenue"
+        }
+      ],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": "mubadala_pilot_2026-11-14.json",
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Check Moove legal domicile and allocation; multi-country operational assets are not destination of equity raise",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26B02-007",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company (MENA VC fund)",
+      "investee_or_event": "CredibleX — Series A",
+      "master_event_type": "EQUITY_FINANCING",
+      "master_status": "ROUND_ANNOUNCED",
+      "master_announcement_date": "2026-05-06",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "DOMESTIC_GULF",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/crediblex-announces-series-a-round-with-mubadala-as-ead-investor-to-accelerate-sme-financing-uae",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "USD 15m is broader equity raise; Mubadala lead ticket not separately stated.",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Confirm allotments and whether USD 15m entire raise subscribed at announcement",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26B02-008",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Aldar–Mubadala 2024 JV",
+      "investee_or_event": "Masdar City Square — real estate acquisition",
+      "master_event_type": "REAL_ESTATE_ACQUISITION",
+      "master_status": "ACQUISITION_ANNOUNCED",
+      "master_announcement_date": "2026-09-16",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "DOMESTIC_GULF",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/aldar-and-mubadala-jv-expands-investment-in-masdar-city-with-acquisition-of-masdar-city-square",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "AED 918m whole property purchase price attributable to JV; not Mubadala individual capital. Do not confuse asset construction completion Q1 2026 with acquisition completion date.",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Confirm acquisition transfer date via Aldar financial filing; JV ownership contributions.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26B02-010",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "CoolIT Systems — exit to Ecolab",
+      "master_event_type": "DIVESTMENT",
+      "master_status": "SALE_AGREEMENT_SIGNED",
+      "master_announcement_date": "2026-03-26",
+      "target_country_master": "Canada",
+      "economic_event_category": "EXIT_OR_DIVESTMENT",
+      "master_inclusion_decision": "INBOUND_MONITORING",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "USD 4.75bn is KKR-led transaction enterprise figure; not Mubadala sale proceeds or 2026 outbound investment.",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [
+        {
+          "metric": "buyer_acquisition_cash_price",
+          "value": 4627.2,
+          "unit": "USD million",
+          "scope": "Ecolab group cash price net of cash acquired, NOT Mubadala sale proceeds"
+        }
+      ],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": "2026-07-02 buyer-confirmed completion; master says only signed at March announcement",
+      "prior_research_file": "mubadala_coolit_2026-03-26_UNREVIEWED.json",
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify deal close and Mubadala proceeds; do not aggregate in investment deployment",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26B03-002",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Capital (investment funds/affiliates)",
+      "investee_or_event": "Clear Channel Outdoor acquisition",
+      "master_event_type": "ACQUISITION",
+      "master_status": "CLOSED",
+      "master_announcement_date": "2026-02-09",
+      "target_country_master": "United States",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "PROVISIONAL_ADMIT",
+      "source_register": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1334978/000121390026109385/ea0308422-8k_clear.htm",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1334978/000119312526043066/d939743dex991.htm",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "ENTERPRISE_VALUE_NOT_INVESTOR_TICKET",
+      "master_currency": "USD",
+      "master_amount_basis": "ENTERPRISE_VALUE_NOT_INVESTOR_TICKET",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26B04-001",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Capital",
+      "investee_or_event": "Arrive Logistics — majority acquisition",
+      "master_event_type": "EQUITY_ACQUISITION",
+      "master_status": "SIGNED_AGREEMENT",
+      "master_announcement_date": "2026-08-27",
+      "target_country_master": "United States",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "PROVISIONAL_ADMIT",
+      "source_register": [
+        {
+          "url": "https://www.arrivelogistics.com/announcement/",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "NOT_DISCLOSED",
+      "master_currency": null,
+      "master_amount_basis": "NOT_DISCLOSED",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Obtain counterparty confirmation, vehicle identity and settlement documents",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26B04-002",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Together AI — Series C investment",
+      "master_event_type": "EQUITY_FINANCING",
+      "master_status": "PARTICIPATION_ANNOUNCED",
+      "master_announcement_date": "2026-07-01",
+      "target_country_master": "United States",
+      "economic_event_category": "ATTRIBUTION_CONFLICT_HOLD",
+      "master_inclusion_decision": "PROVISIONAL_ADMIT",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-and-together-ai-partner-to-explore-ai-infrastructure-opportunities-in-the-uae",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": "100",
+      "amount_scope_master": "INVESTOR_REPORTED_PARTICIPATION_NOT_SETTLEMENT",
+      "master_currency": "USD",
+      "master_amount_basis": "INVESTOR_REPORTED_PARTICIPATION_NOT_SETTLEMENT",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": "Master claims Series C investment but cited primary release describes UAE infrastructure exploration. Source does not prove a Series C equity cheque; hold for attribution verification.",
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Obtain counterparty confirmation, vehicle identity and settlement documents",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26JF-002",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala",
+      "investee_or_event": "AppliedAI Pre-Series B",
+      "master_event_type": "EQUITY_ROUND",
+      "master_status": "SOURCE_ANNOUNCEMENT_ONLY",
+      "master_announcement_date": "2026-01-22",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": null,
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/accelerating-ai-transformation-appliedai-secures-investment-from-mubadala-and-arbor-ventures",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "NOT_DISCLOSED_OR_NON_ATTRIBUTABLE",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26JF-003",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala",
+      "investee_or_event": "Property Finder $170m financing",
+      "master_event_type": "EQUITY_ROUND",
+      "master_status": "SOURCE_ANNOUNCEMENT_ONLY",
+      "master_announcement_date": "2026-01-27",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": null,
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/property-finder-announces-170m-investment-led-by-mubadala-with-uae-sovereign-fund-and-beco-capital",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "NOT_DISCLOSED_OR_NON_ATTRIBUTABLE",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26JF-004",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala",
+      "investee_or_event": "Arcadia Consumer Healthcare stake disposal",
+      "master_event_type": "EXIT",
+      "master_status": "SOURCE_ANNOUNCEMENT_ONLY",
+      "master_announcement_date": "2026-01-26",
+      "target_country_master": "United States",
+      "economic_event_category": "EXIT_OR_DIVESTMENT",
+      "master_inclusion_decision": null,
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-sells-minority-stake-in-arcadia-consumer-healthcare",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "NOT_DISCLOSED_OR_NON_ATTRIBUTABLE",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26JF-006",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala",
+      "investee_or_event": "Aldar–Mubadala Abu Dhabi retail JV",
+      "master_event_type": "JOINT_VENTURE",
+      "master_status": "SOURCE_ANNOUNCEMENT_ONLY",
+      "master_announcement_date": "2026-02-03",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "JV_CONTRACT_OR_PARTNERSHIP",
+      "master_inclusion_decision": null,
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/aldar-and-mubadala-complete-joint-venture-to-establish-aed-10-billion-retail-champion-in-abu-dhabi",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "NOT_DISCLOSED_OR_NON_ATTRIBUTABLE",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26JF-008",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala",
+      "investee_or_event": "Stake $31m Series B",
+      "master_event_type": "EQUITY_ROUND",
+      "master_status": "SOURCE_ANNOUNCEMENT_ONLY",
+      "master_announcement_date": "2026-02-17",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": null,
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/stake-raises-31-million-in-oversubscribed-series-b-to-scale-regulated-global-real-estate-investing",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "NOT_DISCLOSED_OR_NON_ATTRIBUTABLE",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI26JF-011",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala",
+      "investee_or_event": "H&H Eden House Abu Dhabi development partnership",
+      "master_event_type": "PARTNERSHIP",
+      "master_status": "SOURCE_ANNOUNCEMENT_ONLY",
+      "master_announcement_date": "2026-02-12",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "JV_CONTRACT_OR_PARTNERSHIP",
+      "master_inclusion_decision": null,
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/hh-and-mubadala-partner-to-launch-eden-house-on-al-maryah-island-abu-dhabi",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "NOT_DISCLOSED_OR_NON_ATTRIBUTABLE",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-002",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Masdar via Masdar Tribe Energy Holdings Limited",
+      "investee_or_event": "East Rockingham waste-to-energy 40% stake",
+      "master_event_type": "PROJECT_EQUITY_ACQUISITION",
+      "master_status": "ACQUISITION_ANNOUNCED",
+      "master_announcement_date": "2020-01-14",
+      "target_country_master": "Australia",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "CORE_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://masdar.ae/en/news/newsroom/masdar-acquires-stake-in-australian-waste-to-energy-facility",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "TOTAL_PROJECT_COST_NOT_SOVEREIGN_TICKET",
+      "master_currency": "AUD",
+      "master_amount_basis": "TOTAL_PROJECT_COST_NOT_SOVEREIGN_TICKET",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-003",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Masdar",
+      "investee_or_event": "Cirata floating solar Indonesia PPA",
+      "master_event_type": "POWER_PURCHASE_AGREEMENT",
+      "master_status": "PPA_SIGNED",
+      "master_announcement_date": "2020-01-15",
+      "target_country_master": "Indonesia",
+      "economic_event_category": "NON_EQUITY_CONTRACT_PPA",
+      "master_inclusion_decision": "HOLD",
+      "source_register": [
+        {
+          "url": "https://masdar.ae/en/news/newsroom/masdar-and-pln-enter-partnership-to-develop-first-floating-solar-power-plant-in-indonesia",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "NO_INVESTOR_TICKET",
+      "master_currency": null,
+      "master_amount_basis": "NO_INVESTOR_TICKET",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Power purchase agreement; not an equity acquisition or paid capital",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-004",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Masdar",
+      "investee_or_event": "Infinity Power Egypt/Africa JV",
+      "master_event_type": "JOINT_VENTURE_FORMATION",
+      "master_status": "JV_AGREEMENT_SIGNED",
+      "master_announcement_date": "2020-01-15",
+      "target_country_master": "Egypt",
+      "economic_event_category": "JV_CONTRACT_OR_PARTNERSHIP",
+      "master_inclusion_decision": "HOLD",
+      "source_register": [
+        {
+          "url": "https://masdar.ae/en/news/newsroom/masdar-and-infinity-energy-establish-joint-venture-infinity-power",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "NO_DEPLOYMENT_DISCLOSED",
+      "master_currency": null,
+      "master_amount_basis": "NO_DEPLOYMENT_DISCLOSED",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-005",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Masdar and Cepsa",
+      "investee_or_event": "Cepsa Masdar Renovables Spain Portugal JV",
+      "master_event_type": "JOINT_VENTURE_FORMATION",
+      "master_status": "JV_AGREEMENT_SIGNED",
+      "master_announcement_date": "2020-01-15",
+      "target_country_master": null,
+      "economic_event_category": "JV_CONTRACT_OR_PARTNERSHIP",
+      "master_inclusion_decision": "HOLD",
+      "source_register": [
+        {
+          "url": "https://masdar.ae/en/news/newsroom/masdar-and-cepsa-to-establish-joint-venture-to-develop-renewable-energy-projects",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "NO_DEPLOYMENT_DISCLOSED",
+      "master_currency": null,
+      "master_amount_basis": "NO_DEPLOYMENT_DISCLOSED",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-006",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Masdar and EDF",
+      "investee_or_event": "Masdar EDF energy-services JV",
+      "master_event_type": "JOINT_VENTURE_FORMATION",
+      "master_status": "JV_AGREEMENT_SIGNED",
+      "master_announcement_date": "2020-01-15",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "JV_CONTRACT_OR_PARTNERSHIP",
+      "master_inclusion_decision": "DOMESTIC_GULF",
+      "source_register": [
+        {
+          "url": "https://masdar.ae/en/news/newsroom/masdar-and-edf-group-conclude-shareholder-agreement-to-establish-energy-services-company",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "NO_INVESTOR_TICKET",
+      "master_currency": null,
+      "master_amount_basis": "NO_INVESTOR_TICKET",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-02-001",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Bpifrance LAC I fund participation memorandum",
+      "master_event_type": "FUND_COMMITMENT_MOU",
+      "master_status": "MOU_SIGNED_FUND_SUBSCRIPTION_NOT_YET_SETTLED",
+      "master_announcement_date": "2020-02-24",
+      "target_country_master": "France",
+      "economic_event_category": "NONBINDING_FUND_MOU",
+      "master_inclusion_decision": "PERIOD_RESEARCH",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-commit-bpifrances-lac-i-fund",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://presse.bpifrance.fr/mubadal-to-commit-to-bpifrances-lac-i-fundnbsp/?lang=fra",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "FUND_TARGET_NOT_INVESTOR_TICKET",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Fund participation MoU, amount not proof of paid fund subscription",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "The €10bn figure is target fundraise for the whole fund, NOT Mubadala ticket. May 2020 first closing names Mubadala as participant; must create separate later milestone under SAME deal identifier.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-07-002",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Capital",
+      "investee_or_event": "Owkin — $18m Series A extension jointly with Bpifrance",
+      "master_event_type": "FINANCING_DISCLOSURE",
+      "master_status": "CLOSED_ROUND_ANNOUNCED_JUNE_30",
+      "master_announcement_date": "2020-06-30",
+      "target_country_master": "France",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": null,
+      "source_register": [
+        {
+          "url": "https://www.atlanpolebiotherapies.eu/news/owkin-closes-series-a-round-to-deploy-federated-learning-for-research-at-scale-with-a-total-of-70m-raised/",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.wamda.com/index.php/2020/07/mubadala-capital-invests-frances-owkin",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "$18m JOINT EXTENSION — NOT MUBADALA TICKET",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Reassign into June announcement cohort; clarify domicile New York versus France operations",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-001",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Silver Lake 25-year technology investment strategy",
+      "master_event_type": "FUND_COMMITMENT",
+      "master_status": "Announced strategy backed by Mubadala USD 2bn; deployment and drawdowns not established",
+      "master_announcement_date": "2020-09-30",
+      "target_country_master": "United States",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "CORE_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.silverlake.com/silver-lake-and-mubadala-partner-to-establish-unique-long-term-investment-strategy/",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": "2000",
+      "amount_scope_master": "MUBADALA_COMMITMENT",
+      "master_currency": "USD",
+      "master_amount_basis": "INVESTOR_SPECIFIC_COMMITMENT",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [
+        {
+          "metric": "investment_strategy_commitment",
+          "value": 2000,
+          "unit": "USD million",
+          "scope": "25-year strategy commitment, not immediate deployment"
+        }
+      ],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": "GSI-2020-SEP-002",
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-003",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company / Barings Mubadala Enterprise",
+      "investee_or_event": "Barings Mubadala Enterprise European direct lending platform",
+      "master_event_type": "CREDIT_PLATFORM",
+      "master_status": "Evergreen origination platform launched; USD 3.5bn financing target across platform and partners",
+      "master_announcement_date": "2020-09-22",
+      "target_country_master": "Multiple European countries",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "MONITORING",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/barings-and-mubadala-form-strategic-partnership",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.barings.com/guest/contact/media/news/barings-and-mubadala-form-strategic-partnership-focused-on-financing-solutions-for-european-middle-market-businesses/externalContentView/08e067d3-fc3d-47c0-bda2-7371bc814e28?preview_generated=True",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "PLATFORM_TARGET_NOT_TICKET",
+      "master_currency": null,
+      "master_amount_basis": "FINANCING_TARGET_EXCLUDED",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify company filing, ownership vehicle, capital settlement and year-specific financial statements",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-004",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company (GHO-led consortium)",
+      "investee_or_event": "Envision Pharma Group — acquisition of Ardian majority stake",
+      "master_event_type": "ACQUISITION_MILESTONE",
+      "master_status": "Acquisition announced via GHO-led investor consortium; Mubadala individual size not disclosed",
+      "master_announcement_date": "2020-11-05",
+      "target_country_master": "United Kingdom",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "CORE_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/gho-capital-and-management-acquire-ardian-majority-stake",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.fundsglobalmena.com/mubadala-announces-november-investments/",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "CONSORTIUM_UNDISCLOSED",
+      "master_currency": null,
+      "master_amount_basis": "CONSORTIUM_UNDISCLOSED",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Same Envision transaction lifecycle; do not count as separate acquisition",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": "GSI-2020-AUG-003",
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Link to existing August Envision entry; identify merger control clearance and date",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-DEC-002",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Asper Dorothea district heating investment vehicle",
+      "master_event_type": "Fund/vehicle stake",
+      "master_status": "Investment announced 2020-12-15; specific cash subscription and closing undisclosed",
+      "master_announcement_date": "2020-12-15",
+      "target_country_master": "Netherlands",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "CORE_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-invest-aspers-aed-21-billion",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://ifswf.org/sites/default/files/annual-reports/2020%20Mubadala%20Annual%20Review.pdf",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "AED2.1bn/€500m is Dorothea planned total deployment, NOT Mubadala investment",
+      "master_currency": null,
+      "master_amount_basis": "AED2.1bn/€500m is Dorothea planned total deployment, NOT Mubadala investment",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Obtain subscription vehicle/closing records; do not attribute Dorothea target to Mubadala.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-MAR-003",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "UAE-UK Sovereign Investment Partnership life sciences",
+      "master_event_type": "Multi-year capital commitment framework",
+      "master_status": "SIGNED_COMMITMENT",
+      "master_announcement_date": "2021-03-24",
+      "target_country_master": "United Kingdom",
+      "economic_event_category": "PARTNERSHIP_FRAMEWORK",
+      "master_inclusion_decision": "MONITORING",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/uae-and-uk-launch-sovereign-investment-partnership",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.gov.uk/government/news/uae-to-invest-10-billion-in-priority-uk-industries",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": "800",
+      "amount_scope_master": "Mubadala GBP 800m stated future commitment; UK public partner GBP 200m; not evidence GBP 800m deployed in March. September expansion must link here.",
+      "master_currency": "GBP",
+      "master_amount_basis": "Mubadala GBP 800m stated future commitment; UK public partner GBP 200m; not evidence GBP 800m deployed in March. September expansion must link here.",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [
+        {
+          "metric": "sovereign_partnership_pledge",
+          "value": 800,
+          "unit": "GBP million",
+          "scope": "Mubadala pledged, not evidenced paid capital"
+        }
+      ],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Trace actual UK underlying company investments and dates.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-APR-001",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Petroleum",
+      "investee_or_event": "Tamar / Dalit offshore natural gas stake 22%",
+      "master_event_type": "Non-binding acquisition MoU",
+      "master_status": "NON_BINDING_MOU",
+      "master_announcement_date": "2021-04-26",
+      "target_country_master": "Israel",
+      "economic_event_category": "NONBINDING_OR_EXPLORATORY",
+      "master_inclusion_decision": "HOLD",
+      "source_register": [
+        {
+          "url": "https://newmedenergy.com/wp-content/uploads/2021/12/IR_26-4-2021.pdf",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/042621-israels-delek-drilling-signs-mou-for-sale-of-tamar-gas-field-stake-to-uaes-mubadala",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "USD 1bn fixed plus up to USD 100m contingent aggregate proposed transaction; Mubadala-only funding not evidenced",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Check 2021-09-02 signed contract and 2021-12-09 completion and exact consideration; check financing vehicle",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-APR-002",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala/Mamoura/other affiliates",
+      "investee_or_event": "Recursion Pharmaceuticals IPO ownership conversion",
+      "master_event_type": "IPO conversion / beneficial ownership",
+      "master_status": "IPO_CONVERSION",
+      "master_announcement_date": "2021-04-16",
+      "target_country_master": "United States",
+      "economic_event_category": "OTHER_RESEARCH_EVENT",
+      "master_inclusion_decision": "MONITORING",
+      "source_register": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1601830/000138713121004924/mubadala-sc13d_042621.htm",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "Post-IPO shares and stake not cash deployment",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Reconcile initial preferred investments in original years; verify IPO primary subscription if any",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI21J06-006",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Bpifrance African PE co-investment MoU up to EUR350m",
+      "master_event_type": "INVESTMENT_PARTNERSHIP_MOU",
+      "master_status": "MOU_SIGNED",
+      "master_announcement_date": "2021-06-30",
+      "target_country_master": "Africa (multi-country)",
+      "economic_event_category": "NONBINDING_OR_EXPLORATORY",
+      "master_inclusion_decision": "HOLD",
+      "source_register": [
+        {
+          "url": "https://presse.bpifrance.fr/bpifrance-et-mubadala-signent-un-protocole-daccord-pour-lancer-un-nouveau-partenariat-de-co-investissement-ciblant-le-marche-africain/?lang=fra",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.wam.ae/en/article/hszrclmn-mubadala-bpifrance-sign-mou-launch-new",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "Up to EUR350m combined prospective deployment, not Mubadala contribution or June spending",
+      "master_currency": null,
+      "master_amount_basis": null,
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Trace subsequent fund commitments or direct deals, by portfolio and closing date",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24M01-003",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "One Hundred and Five Investment Company (Mubadala-controlled)",
+      "investee_or_event": "Kiinteistö Oy Viinikankaski 1 (MassMutual co-control)",
+      "master_event_type": "PROPOSED_JOINT_CONTROL_ACQUISITION",
+      "master_status": "EU_NOTIFICATION_2024_01_16",
+      "master_announcement_date": "2024-01-16",
+      "target_country_master": "Finland",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52024M11403",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "UNDISCLOSED_MUBADALA_CONTRIBUTION",
+      "master_currency": null,
+      "master_amount_basis": "UNDISCLOSED_MUBADALA_CONTRIBUTION",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Find merger approval and closing documents; identify exact underlying property and investment amounts; verify DWS role.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24F02-004",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Truist Insurance Holdings remaining stake consortium acquisition",
+      "master_event_type": "PE_SPONSOR_LED_FOLLOW_ON_ACQUISITION",
+      "master_status": "AGREED_2024_02_20_CLOSED_2024_05_07",
+      "master_announcement_date": "2024-02-20",
+      "target_country_master": "United States",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-stone-point-capital-and-cdr-announce-agreement",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.stonepoint.com/news/truist-completes-previously-announced-sale-of-truist-insurance-holdings-to-investor-group-led-by-stone-point-capital-and-cdr/",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "USD_15_5BN_ENTERPRISE_VALUE_NOT_MUBADALA_EQUITY; USD_10_1BN_EXPECTED_TRUIST_PROCEEDS",
+      "master_currency": "USD",
+      "master_amount_basis": "USD_15_5BN_ENTERPRISE_VALUE_NOT_MUBADALA_EQUITY; USD_10_1BN_EXPECTED_TRUIST_PROCEEDS",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Follow-on insurance buyout; 2023 tranche separate, 2024 enterprise value not direct Mubadala stake",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": "GSI23F02-006",
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Resolve Mubadala follow-on ticket, governance, primary/secondary equity and link 2023 GSI23F02-006.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24M03-002",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Partech Africa II venture capital fund",
+      "master_event_type": "VC_FUND_COMMITMENT",
+      "master_status": "JOINT_INVESTMENT_ANNOUNCED",
+      "master_announcement_date": "2024-03-06",
+      "target_country_master": "Africa - multiple countries",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-and-bpifrance-invest-in-partech-africa-ii",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://presse.bpifrance.fr/mubadala-et-bpifrance-investissent-conjointement-dans-partech-africa-ii-le-plus-grand-fonds-de-capital-risque-tech-en-afrique/?lang=fra",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "EUR280M_ENTIRE_PARTECH_AFRICA_II_HARD_CAP; MUBADALA_AND_BPIFRANCE_TICKETS_UNDISCLOSED",
+      "master_currency": "EUR",
+      "master_amount_basis": "EUR280M_ENTIRE_PARTECH_AFRICA_II_HARD_CAP; MUBADALA_AND_BPIFRANCE_TICKETS_UNDISCLOSED",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Identify individual LP commitments, first cash call, geographical portfolio exposure and Partech investment discretion.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24M03-003",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Blue Opal Capital Ventures Fund II",
+      "master_event_type": "VENTURE_FUND_OF_FUNDS_ANCHOR_COMMITMENT",
+      "master_status": "ANCHOR_INVESTOR_ANNOUNCED",
+      "master_announcement_date": "2024-03-13",
+      "target_country_master": "United States",
+      "economic_event_category": "OTHER_RESEARCH_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-to-anchor-blue-opal",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.wam.ae/en/article/13t8u6v-mubadala-anchor-blue-opal-capital%E2%80%99s-ventures-fund",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "MUBADALA_ANCHOR_TICKET_UNDISCLOSED",
+      "master_currency": null,
+      "master_amount_basis": "MUBADALA_ANCHOR_TICKET_UNDISCLOSED",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Obtain fund legal entity, investor commitment amount, close/draw date and downstream venture managers.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24M05-001",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Perdaman Western Australia Urea Project",
+      "master_event_type": "PROJECT_INFRASTRUCTURE_CO_INVESTMENT",
+      "master_status": "INVESTMENT_ANNOUNCED",
+      "master_announcement_date": "2024-05-07",
+      "target_country_master": "Australia",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-invests-in-perdamans-western-australia",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.mubadala.com/en/what-we-do/real-assets",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "AUD6400M_TOTAL_PROJECT_COST_NOT_MUBADALA_TICKET",
+      "master_currency": null,
+      "master_amount_basis": "AUD6400M_TOTAL_PROJECT_COST_NOT_MUBADALA_TICKET",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Find project finance documents and individual equity allocation.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24M05-002",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "PAG REN I Asia Pacific renewables platform",
+      "master_event_type": "INFRASTRUCTURE_PLATFORM_CORNERSTONE_INVESTMENT",
+      "master_status": "INVESTMENT_ANNOUNCED",
+      "master_announcement_date": "2024-05-20",
+      "target_country_master": "Japan",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-makes-first-renewable-energy-investment-in-japan",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.mubadala.com/en/what-we-do/real-assets",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "MUBADALA_COMMITMENT_UNDISCLOSED",
+      "master_currency": null,
+      "master_amount_basis": "MUBADALA_COMMITMENT_UNDISCLOSED",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Identify investing vehicle, committed vs drawn amount.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24J07-002",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Transportation Equipment Network (TEN) growth equity co-investment",
+      "master_event_type": "INFRASTRUCTURE_SPONSOR_LED_CO_INVESTMENT",
+      "master_status": "INVESTMENT_ANNOUNCED",
+      "master_announcement_date": "2024-07-15",
+      "target_country_master": "United States",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/i-squared-announces-new-shareholders-in-transportation-equipment-network",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.qia.qa/en/Newsroom/Pages/QIA-invests-in-Transportation-Equipment-Network-%28TEN%29%2C-the-leading-North-American-full-service-trailer-lessor.aspx",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "USD_OVER_600M_TOTAL_QIA_MUBADALA_OTHERS_NOT_MUBADALA_ALLOCATION",
+      "master_currency": "USD",
+      "master_amount_basis": "USD_OVER_600M_TOTAL_QIA_MUBADALA_OTHERS_NOT_MUBADALA_ALLOCATION",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Verify Mubadala-owned investing vehicle and actual invested amount; link to QIA co-investment same round.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24A08-004",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "UCB China mature pharma business carve-out alongside CBC Group",
+      "master_event_type": "HEALTHCARE_MANAGER_LED_CARVE_OUT",
+      "master_status": "DEFINITIVE_AGREEMENT_PENDING_APPROVAL",
+      "master_announcement_date": "2024-08-26",
+      "target_country_master": "China",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-co-invests-in-ucbs-mature-business-in-china-to-reinforce-its-long-term-commitment",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.mubadala.com/en/what-we-do/private-equity",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "100_PERCENT_CONSORTIUM_CARVEOUT_MUBADALA_TICKET_UNDISCLOSED",
+      "master_currency": null,
+      "master_amount_basis": "100_PERCENT_CONSORTIUM_CARVEOUT_MUBADALA_TICKET_UNDISCLOSED",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Obtain UCB closing announcement, regulatory approval and equity allocations.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24S09-002",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Aldar/Mubadala Abu Dhabi property joint ventures across retail commercial residential and logistics",
+      "master_event_type": "DOMESTIC_ASSET_CONTRIBUTION_AND_JOINT_VENTURES",
+      "master_status": "JV_PARTNERSHIPS_ANNOUNCED",
+      "master_announcement_date": "2024-09-18",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "JV_CONTRACT_OR_PARTNERSHIP",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL_PLATFORM_ONLY_NOT_DEPLOYED",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/khaled-inaugurates-aldar-and-mubadala-partnership-for-real-estate",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.mediaoffice.abudhabi/en/economy/khaled-bin-mohamed-bin-zayed-inaugurates-strategic-partnership-between-mubadala-and-aldar-with-combined-value-of-aed30bn/",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "AED30BN_PLUS_COMBINED_GROSS_ASSET_VALUE_NOT_NEW_MUBADALA_CASH",
+      "master_currency": null,
+      "master_amount_basis": "AED30BN_PLUS_COMBINED_GROSS_ASSET_VALUE_NOT_NEW_MUBADALA_CASH",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Confirm asset-transfer deeds, joint-venture stake percentages, any separately paid capital and closing dates.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24O10-004",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Capital",
+      "investee_or_event": "Babel digital transformation consultancy majority stake",
+      "master_event_type": "PRIVATE_EQUITY_CONTROL_BUYOUT",
+      "master_status": "AGREEMENT_REACHED_NOT_CLOSING_PROVEN",
+      "master_announcement_date": "2024-10-03",
+      "target_country_master": "Spain",
+      "economic_event_category": "POTENTIAL_CAPITAL_EVENT",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL_INVESTMENT",
+      "source_register": [
+        {
+          "url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-acquires-majority-stake-in-babel-in-partnership-with-the-executive-team-and-founders",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "MAJORITY_CONTROL_CONSIDERATION_UNDISCLOSED",
+      "master_currency": null,
+      "master_amount_basis": "MAJORITY_CONTROL_CONSIDERATION_UNDISCLOSED",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": false,
+      "reason_for_exclusion": null,
+      "source_next_action": "Confirm seller share register, completion and purchase consideration.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24O10-006",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Capital",
+      "investee_or_event": "MIC Capital Partners IV private equity fund final close",
+      "master_event_type": "THIRD_PARTY_CAPITAL_RAISED_NOT_DIRECT_SOVEREIGN_INVESTMENT",
+      "master_status": "FUND_FINAL_CLOSE",
+      "master_announcement_date": "2024-10-22",
+      "target_country_master": "United States",
+      "economic_event_category": "THIRD_PARTY_ASSET_MANAGER_FUNDRAISE",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL_NONDEPLOYMENT",
+      "source_register": [
+        {
+          "url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-closes-private-equity-fund-iv-with-total-commitments-of-dollar31-billion-surpassing-initial-target-by-over-dollar1-billion/",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "USD3_1BN_TOTAL_FUND_LP_COMMITMENTS_NOT_MUBADALA_OWN_CAPITAL",
+      "master_currency": "USD",
+      "master_amount_basis": "USD3_1BN_TOTAL_FUND_LP_COMMITMENTS_NOT_MUBADALA_OWN_CAPITAL",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "US$3.1bn third-party fund commitments; not a sovereign investment cheque",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Clarify GP/parent commitment and first fund investments before reporting Gulf cash flow.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    },
+    {
+      "master_record_id": "GSI24N11-006",
+      "master_version": "v9.6_WORKING",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "investee_or_event": "Tubacex OCTG industrial business 49% partnership",
+      "master_event_type": "JOINT_VENTURE_STAKE_PURCHASE",
+      "master_status": "CLOSED_2024_11_01",
+      "master_announcement_date": "2024-11-04",
+      "target_country_master": "United Arab Emirates",
+      "economic_event_category": "JV_CONTRACT_OR_PARTNERSHIP",
+      "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+      "source_register": [
+        {
+          "url": "https://www.mubadala.com/en/news/tubacex-announces-mubadala-as-strategic-partner-in-octg-business-through-200-million-agreement",
+          "role": "MASTER_PRIMARY_SOURCE",
+          "verified_in_this_batch": false,
+          "claimed_scope": "source identifies assertion, not automatically cash settlement"
+        },
+        {
+          "url": "https://www.mubadala.com/en/news/tubacex-announces-mubadala-as-strategic-partner-in-octg-business-through-200-million-agreement",
+          "role": "MASTER_SECONDARY_SOURCE",
+          "verified_in_this_batch": false
+        }
+      ],
+      "official_source_verified_this_batch": null,
+      "master_claimed_amount": null,
+      "amount_scope_master": "USD200M_PARTNERSHIP_TRANSACTION_VALUE_ALLOCATION_TO_EQUITY_NOT_VERIFIED",
+      "master_currency": "USD",
+      "master_amount_basis": "USD200M_PARTNERSHIP_TRANSACTION_VALUE_ALLOCATION_TO_EQUITY_NOT_VERIFIED",
+      "claim_evidence_status": "CARRIED_FROM_UNREVIEWED_MASTER_NOT_REVERIFIED_THIS_BATCH",
+      "quantitative_claims": [],
+      "individual_investor_paid_cash": null,
+      "individual_investor_stake_pct": null,
+      "investee_financials": {
+        "annual_revenue": null,
+        "annual_ebitda": null,
+        "annual_fcf": null,
+        "net_debt": null,
+        "statement_as_of": null,
+        "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+      },
+      "reporting_limits": "Financial and capital figures must remain unverified until primary statement-level extraction; headline event amount not automatically investor-specific",
+      "event_reconciliation": null,
+      "prior_research_file": null,
+      "linked_event_master_id": null,
+      "source_issue": null,
+      "exclusion_from_direct_investee_financial_cohort": true,
+      "reason_for_exclusion": "Platform/fund/JV/contract/non-binding event has different economic denominator than direct investee equity.",
+      "source_next_action": "Find closing purchase vs injected equity breakdown, asset domicile, and source of $200m capital.",
+      "research_state": "UNREVIEWED",
+      "qa_level": "SOURCE_TRIAGE_NOT_FINANCIAL_CERTIFICATION",
+      "validation_flags": [
+        "Keep event distinct from capital deployment",
+        "Keep parent sovereign, subsidiary, GP, co-investors and fund LP capital separate",
+        "Preserve as-of date for any later financial or exit disclosure"
+      ]
+    }
+  ],
+  "qa_summary": {
+    "batch_size": 50,
+    "prior_unique_count": 60,
+    "after_unique_count": 110,
+    "remaining_unbatched": 25,
+    "classification_counts": {
+      "POTENTIAL_CAPITAL_EVENT": 32,
+      "EXIT_OR_DIVESTMENT": 2,
+      "ATTRIBUTION_CONFLICT_HOLD": 1,
+      "JV_CONTRACT_OR_PARTNERSHIP": 7,
+      "NON_EQUITY_CONTRACT_PPA": 1,
+      "NONBINDING_FUND_MOU": 1,
+      "PARTNERSHIP_FRAMEWORK": 1,
+      "NONBINDING_OR_EXPLORATORY": 2,
+      "OTHER_RESEARCH_EVENT": 2,
+      "THIRD_PARTY_ASSET_MANAGER_FUNDRAISE": 1
+    },
+    "complete_investee_financial_dossiers": 0
+  }
+}
