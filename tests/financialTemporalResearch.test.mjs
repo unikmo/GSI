@@ -15,7 +15,7 @@ test('financial statements signed after March 2022 cannot be contemporaneous evi
   const later=city.historical_financials.filter(x=>x.fiscal_year===2021);
   assert.ok(later.length>=3);
   assert.ok(later.every(x=>x.data_state==='LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21'));
-  for(const x of later) assert.equal(cityData.sources.find(s=>s.id===x.source_id).published,'2022-04-22');
+  for(const x of later) assert.equal(cityData.sources.find(s=>s.id===x.source_id).published,'2022-09-26');
 });
 test('historic revenues and operating losses use units, no invented EBITDA',()=>{
   assert.equal(city.historical_financials.find(x=>x.fiscal_year===2020&&x.metric==='revenue').value,63.132);
@@ -41,4 +41,17 @@ test('macro evidence respects what was published by the March 2022 decision date
  assert.equal(later.known_on,'2022-03-23');
  assert.equal(later.temporal_state,'NOT_PUBLIC_AT_ANNOUNCEMENT');
  assert.equal(snap.analytical_state,'STRATEGY_CATEGORY_CONSISTENT_TRANSACTION_CAUSALITY_UNVERIFIED');
+});
+
+test('CityFibre 2021 EBITDA and leverage inputs retain precise accounting bases and dates',()=>{
+ const metrics=city.historical_financials.filter(x=>x.fiscal_year===2021);
+ const by=k=>metrics.find(x=>x.metric===k);
+ assert.equal(by('ebitda').value,-60.535);
+ assert.equal(by('adjusted_ebitda').value,-49.494);
+ assert.equal(by('gross_debt').value,812.9);
+ assert.equal(by('cash_balance').value,47);
+ assert.equal(by('operating_cash_flow').value,-81.7);
+ assert.equal(by('ppe_additions').value,787.1);
+ assert.ok(metrics.every(x=>x.data_state==='LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21'));
+ assert.equal(city.ownership_at_2021_end.percentages,'UNDISCLOSED_IN_CHECKED_TEXT');
 });
