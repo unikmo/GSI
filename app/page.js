@@ -7,7 +7,7 @@ export default async function Home() {
   let status = 'Not configured: set the two Supabase variables.';
   let rows = [];
   if (db) {
-    const { data, error } = await db.from('gsi_master_test').select('master_record_id, investor_group, target_or_event').limit(5);
+    const { data, error } = await db.from('gsi_master_full').select('master_record_id, investor_group, target_or_event').limit(5);
     if (error) status = `Connected, but query failed: ${error.message}`;
     else { status = 'Connected to Supabase.'; rows = data; }
   }
