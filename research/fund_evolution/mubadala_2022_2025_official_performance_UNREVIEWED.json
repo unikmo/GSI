@@ -35,6 +35,11 @@
       "id": "MB-STR-2024",
       "url": "https://annual2024.mubadala.com/en/our-strategy/how-we-invest",
       "source_class": "published_strategy"
+    },
+    {
+      "id": "MB-2025-ANNUAL",
+      "url": "https://annual2025.mubadala.com/en/performance-overview",
+      "source_class": "official_annual_review"
     }
   ],
   "annual_group_performance": [
@@ -72,12 +77,13 @@
       "fiscal_year": 2025,
       "deployed_aed_bn": 143,
       "proceeds_aed_bn": 138,
-      "aum_aed_bn": 1400,
+      "aum_aed_bn": 1414,
       "rolling_five_year_return_percent": 10.7,
       "rolling_ten_year_return_percent": 10.3,
       "source_id": "MB-2025",
       "proceeds_definition": "Aggregate group-wide proceeds, no disaggregation into realised exits here",
-      "macro_characterisation": "Fund says long-run investments and UAE diversification programme"
+      "macro_characterisation": "Fund says long-run investments and UAE diversification programme",
+      "aum_precision": "Annual Review 2025 reported AED 1,414bn; investor press release rounded to AED 1.4 trillion"
     }
   ],
   "strategy_snapshots": [
@@ -108,9 +114,9 @@
   "scope_notes": [
     "Deployment and proceeds are group-wide measures; differences must not be labelled net inflow or profit.",
     "2024 AUM reported AED 1.2 trillion; AED 1212bn is separately stated in official 2024 release as portfolio amount.",
-    "2025 AUM AED 1.4 trillion is rounded.",
     "Publication of each annual report is after the fiscal-year events; its strategy commentary cannot serve as proof of what was publicly stated at an earlier 2022, 2023, 2024 or 2025 deal date without older evidence.",
-    "These fund-supplied sources establish what Mubadala claims and reports, not independent verification of underlying deals."
+    "These fund-supplied sources establish what Mubadala claims and reports, not independent verification of underlying deals.",
+    "2025 AUM AED 1414bn is reported in the official 2025 Annual Review; earlier media release rounded it to AED 1.4 trillion."
   ],
   "research_next": "Find historical annual-report publication dates, fund vehicle mandates and independently published public statistical macro series for dated transaction windows. Profile only eligible divestment events for actual investor-specific exit proceeds."
 }
