@@ -60,8 +60,10 @@
       "id": "CF-2021-ACCOUNTS-2022-04-22",
       "url": "https://financialfilings.com/filings/cityfibre-infrastructure-hldgs-plc/annual-report/2022/56278927/",
       "publisher": "CityFibre Infrastructure Holdings Limited (reproduced filing)",
-      "published": "2022-04-22",
-      "type": "AUDITED_COMPANY_FINANCIAL_REPORT_POST_COMMITMENT"
+      "published": "2022-09-26",
+      "type": "AUDITED_COMPANY_FINANCIAL_REPORT_POST_COMMITMENT",
+      "signed_on": "2022-04-22",
+      "publication_basis": "FinancialFilings listing identifies 2022-09-26; company accounts dated signed 2022-04-22. Public availability earlier is not evidenced."
     },
     {
       "id": "CF-2022-ACCOUNTS-2023-05-23",
@@ -286,8 +288,7 @@
         "precise investor vehicle",
         "2021 ownership cap table",
         "Exact Q1 2023 bank receipt date is not disclosed",
-        "Whether 2020 audited accounts were publicly available before March 2022 must be established",
-        "2021 EBITDA figure still unverified and not substitutable with operating loss"
+        "Whether 2020 audited accounts were publicly available before March 2022 must be established"
       ],
       "flags": [
         "Potential follow-on to existing holding; do not treat 2022 commitment as a new 2026 funding tranche",
@@ -295,7 +296,8 @@
         "Standalone master match unresolved, cannot invent master ID",
         "2021 accounts were signed 22 April 2022 after 21 March financing announcement: hindsight-only for point-in-time publicly available inputs.",
         "2022 accounts signed 23 May 2023 confirm Q1 2023 receipt retrospectively, not capital deployed during March 2022.",
-        "2020 audited revenue period is before announcement, but publication date not verified and must not be labelled proven public-at-commitment."
+        "2020 audited revenue period is before announcement, but publication date not verified and must not be labelled proven public-at-commitment.",
+        "2021 accounts signed 22 April 2022 but FinancialFilings lists publication 26 September 2022; signature date is not proven public release date."
       ],
       "evidence_ids": [
         "CF-ISSUER-2022-03-21",
@@ -331,7 +333,9 @@
           "unit": "millions",
           "source_id": "CF-2020-ACCOUNTS",
           "data_state": "AUDITED_PERIOD_PRE_ANNOUNCEMENT",
-          "publication_at_funding_date": "UNKNOWN_VERIFY"
+          "publication_at_funding_date": "UNKNOWN_VERIFY",
+          "financial_period_end": "2020-12-31",
+          "published_by_source_at": null
         },
         {
           "fiscal_year": 2021,
@@ -340,7 +344,9 @@
           "currency": "GBP",
           "unit": "millions",
           "source_id": "CF-2021-ACCOUNTS-2022-04-22",
-          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21"
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+          "financial_period_end": "2021-12-31",
+          "published_by_source_at": "2022-09-26"
         },
         {
           "fiscal_year": 2021,
@@ -349,7 +355,9 @@
           "currency": "GBP",
           "unit": "millions",
           "source_id": "CF-2021-ACCOUNTS-2022-04-22",
-          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21"
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+          "financial_period_end": "2021-12-31",
+          "published_by_source_at": "2022-09-26"
         },
         {
           "fiscal_year": 2021,
@@ -358,7 +366,105 @@
           "currency": "GBP",
           "unit": "millions",
           "source_id": "CF-2021-ACCOUNTS-2022-04-22",
-          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21"
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+          "financial_period_end": "2021-12-31",
+          "published_by_source_at": "2022-09-26"
+        },
+        {
+          "fiscal_year": 2021,
+          "metric": "ebitda",
+          "value": -60.535,
+          "currency": "GBP",
+          "unit": "millions",
+          "basis": "company EBITDA derived as operating loss plus depreciation and amortisation (not adjusted)",
+          "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+          "financial_period_end": "2021-12-31",
+          "published_by_source_at": "2022-09-26"
+        },
+        {
+          "fiscal_year": 2021,
+          "metric": "adjusted_ebitda",
+          "value": -49.494,
+          "currency": "GBP",
+          "unit": "millions",
+          "basis": "company adjusted EBITDA reconciled with one-off fees",
+          "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+          "financial_period_end": "2021-12-31",
+          "published_by_source_at": "2022-09-26"
+        },
+        {
+          "fiscal_year": 2021,
+          "metric": "gross_debt",
+          "value": 812.9,
+          "currency": "GBP",
+          "unit": "millions",
+          "basis": "gross debt at 31 December 2021; distinguish net carrying value of loans",
+          "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+          "financial_period_end": "2021-12-31",
+          "published_by_source_at": "2022-09-26"
+        },
+        {
+          "fiscal_year": 2021,
+          "metric": "cash_balance",
+          "value": 47,
+          "currency": "GBP",
+          "unit": "millions",
+          "basis": "cash on balance sheet at 31 December 2021",
+          "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+          "financial_period_end": "2021-12-31",
+          "published_by_source_at": "2022-09-26"
+        },
+        {
+          "fiscal_year": 2021,
+          "metric": "operating_cash_flow",
+          "value": -81.7,
+          "currency": "GBP",
+          "unit": "millions",
+          "basis": "net operating cash outflow for FY2021",
+          "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+          "financial_period_end": "2021-12-31",
+          "published_by_source_at": "2022-09-26"
+        },
+        {
+          "fiscal_year": 2021,
+          "metric": "ppe_additions",
+          "value": 787.1,
+          "currency": "GBP",
+          "unit": "millions",
+          "basis": "PPE additions, not all immediate cash capital expenditure",
+          "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+          "financial_period_end": "2021-12-31",
+          "published_by_source_at": "2022-09-26"
+        },
+        {
+          "fiscal_year": 2021,
+          "metric": "depreciation",
+          "value": 46.398,
+          "currency": "GBP",
+          "unit": "millions",
+          "basis": "FY2021 depreciation",
+          "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+          "financial_period_end": "2021-12-31",
+          "published_by_source_at": "2022-09-26"
+        },
+        {
+          "fiscal_year": 2021,
+          "metric": "amortisation",
+          "value": 6.656,
+          "currency": "GBP",
+          "unit": "millions",
+          "basis": "FY2021 amortisation",
+          "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+          "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+          "financial_period_end": "2021-12-31",
+          "published_by_source_at": "2022-09-26"
         }
       ],
       "macro_strategy_snapshot": {
@@ -403,7 +509,15 @@
         ],
         "analytical_state": "STRATEGY_CATEGORY_CONSISTENT_TRANSACTION_CAUSALITY_UNVERIFIED",
         "outreach_question": "What publicly confirmable elements of the UK-UAE Sovereign Investment Partnership mandate motivated the March 2022 CityFibre follow-on, and how did rising interest rates affect commitment versus the Q1 2023 cash contribution?"
-      }
+      },
+      "ownership_at_2021_end": {
+        "parent": "Connect Infrastructure Topco Limited",
+        "investor_entry": "Mubadala and Interogo joined Antin / Goldman Sachs West Street consortium as minority shareholders in August 2021",
+        "source_id": "CF-2021-ACCOUNTS-2022-04-22",
+        "data_state": "LATER_DISCLOSED_NOT_PUBLIC_AT_2022_03_21",
+        "percentages": "UNDISCLOSED_IN_CHECKED_TEXT"
+      },
+      "analytical_caution": "2021 post-dated filing shows capital-intensive loss-making network operator; cannot assert financials were in public domain on March 21, 2022 or that Mubadala's IC used these specific accounts."
     }
   ]
 }
