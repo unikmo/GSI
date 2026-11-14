@@ -12,6 +12,7 @@ on:
       - 'tests/mubadalaResearchPilot.test.mjs'
       - 'tests/strategyLifecycleSchema.test.mjs'
       - 'research/divestments/mubadala_coolit_2026-03-26_UNREVIEWED.json'
+      - 'research/fund_evolution/mubadala_2022_2025_official_performance_UNREVIEWED.json'
       - 'supabase/capital_intelligence_strategy_lifecycle_private.sql'
       - 'research/investee_snapshots/mubadala_pilot_2026-11-14.json'
       - 'supabase/capital_intelligence_snapshots_private.sql'
