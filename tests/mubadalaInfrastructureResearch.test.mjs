@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+const d=JSON.parse(readFileSync(new URL('../research/investee_snapshots/mubadala_energy_infrastructure_followons_2026-11-14.json',import.meta.url),'utf8'));
+test('research contains three distinct source-backed cases',()=>{assert.equal(d.research_state,'UNREVIEWED');assert.equal(d.cases.length,3);assert.equal(new Set(d.cases.map(x=>x.investee)).size,3)});
+test('chronology and evidence IDs are attributable',()=>{for(const x of d.cases){assert.ok(x.chronology.length);assert.ok(x.flags.length);assert.ok(x.quantitative_gaps.length);for(const e of x.chronology){assert.ok(/^\d{4}-\d{2}-\d{2}$/.test(e.date));assert.ok(d.sources.some(s=>s.id===e.source_id));}for(const id of x.evidence_ids)assert.ok(d.sources.some(s=>s.id===id));}});
+test('no sovereign cheque inferred from total Apollo transaction',()=>{const h=d.cases.find(x=>x.investee==='Hornsea 3');assert.equal(h.amount.value,325);assert.match(h.wider_project.reported_2025_transaction_value.scope,/NOT Mubadala/);});
+test('source date inconsistency must remain flagged',()=>{const g=d.cases.find(x=>x.investee.startsWith('Greenlink'));assert.ok(g.vehicle.legal_name.includes('One Hundred'));assert.ok(g.flags.some(s=>s.includes('conflicts')));});
+test('CityFibre historic record link remains explicitly unresolved',()=>{const c=d.cases.find(x=>x.investee==='CityFibre');assert.equal(c.master_record_id,null);assert.match(c.link_state,/CHECK_MASTER/);});
