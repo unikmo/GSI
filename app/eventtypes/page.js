@@ -7,7 +7,7 @@ async function loadAll(db) {
   const out = [];
   for (let from = 0; from < 5000; from += 1000) {
     const { data, error } = await db.from('gsi_master_full')
-      .select('master_record_id, investor_group, event_type, record_integrity_state')
+      .select('master_record_id, investor_group, event_type, target_or_event, record_integrity_state')
       .order('master_record_id').range(from, from + 999);
     if (error) return { error: error.message, rows: out };
     out.push(...data);
@@ -36,6 +36,11 @@ export default async function EventTypes() {
     return Object.entries(m).sort((a, b) => b[1] - a[1]);
   };
   const distinct = new Set(rows.map((r) => r.event_type)).size;
+  // Review flags: wording suggests a record may sit in the wrong family. Nothing is moved.
+  const text = (r) => `${r.event_type} ${r.target_or_event}`;
+  const platformInFund = (fams.FUND_COMMITMENT_OR_LP || []).filter((r) => /co-?invest|platform|joint venture|JV|joint vehicle/i.test(text(r)));
+  const growthInMinority = (fams.MINORITY_OR_LISTED_STAKE || []).filter((r) => /growth|series [a-f]|primary|follow-on|convertible/i.test(text(r)));
+  const flagList = (list) => <ul>{list.map((r) => <li key={r.master_record_id}><a href={`/record/${encodeURIComponent(r.master_record_id)}`}>{r.master_record_id}</a>: {r.investor_group}, {r.event_type}, {(r.target_or_event || '').slice(0, 80)}</li>)}</ul>;
   return (
     <main>
       <p><a href="/">Home</a></p>
@@ -56,6 +61,13 @@ export default async function EventTypes() {
               {f !== 'UNMAPPED' && <p>{variants(l).map(([k, n]) => `${k} (${n})`).join('; ')}</p>}
             </section>
           ))}
+          <h2>Review flags</h2>
+          <p>These flags are wording matches only. Nothing has been moved, and each needs a human look.</p>
+          <h3>In FUND_COMMITMENT_OR_LP but the wording suggests a co-investment or platform vehicle ({platformInFund.length})</h3>
+          {platformInFund.length ? flagList(platformInFund) : <p>None.</p>}
+          <h3>In MINORITY_OR_LISTED_STAKE but the wording suggests growth or primary financing ({growthInMinority.length})</h3>
+          {growthInMinority.length ? flagList(growthInMinority) : <p>None.</p>}
+          <p>Open for later: a sub-split of the minority family (secondary or public-market, primary minority, growth-equity minority), and whether project and infrastructure items should stay separate from joint ventures and control deals.</p>
         </>
       )}
     </main>
