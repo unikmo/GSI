@@ -15,6 +15,8 @@ on:
       - 'tests/mubadalaBatch02_20.test.mjs'
       - 'tests/mubadalaBatch03_20.test.mjs'
       - 'tests/mubadalaBatch04_50.test.mjs'
+      - 'tests/mubadalaFinal25PifFirst25.test.mjs'
+      - 'research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json'
       - 'research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json'
       - 'research/investee_snapshots/mubadala_batch_03_20_2026-11-15_UNREVIEWED.json'
       - 'research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json'
