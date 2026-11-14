@@ -1,0 +1,3153 @@
+{
+  "batch_id": "GSI_FINAL_150_PART_3_2026-11-15",
+  "status": "UNREVIEWED_MASTER_TRIAGE",
+  "master_sha": "610848672338b4f278bbe103ee13e15f37bceac1",
+  "scope": "50 distinct previously unbatched records. Not 50 independently corroborated investments or audited financial profiles.",
+  "funding_policy": "Headline deal amounts, commitments, 13F positions, third-party investments and JV totals are not assumed to be investor-specific settled capital.",
+  "records": [
+    {
+      "sequence": 101,
+      "master_record_id": "GSI25M05-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "OIA",
+      "master_investing_entity": "Oman Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Oman-Algeria joint investment fund",
+      "event_type_master": "SOVEREIGN_BILATERAL_FUND_FORMATION",
+      "event_category_provisional": "NONBINDING_OR_EXPLORATORY",
+      "event_status_master": "MOU_SIGNED_2025_05_05_NO_FUNDED_CALLS_PROVEN",
+      "announcement_date": "2025-05-05",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Algeria",
+      "master_flow_direction": "GULF_OUTBOUND_FUND_COMMITMENT",
+      "primary_evidence": {
+        "url": "https://www.fm.gov.om/en/24529/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://timesofoman.com/article/157703-hm-algerian-president-grace-signing-mous-executive-programmes",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": "150",
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "USD300M_TOTAL_FUND_150M_EACH_PROPOSED_NOT_DISBURSED",
+        "master_amount_basis": "USD300M_TOTAL_FUND_150M_EACH_PROPOSED_NOT_DISBURSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://oia.gov.om/uploads/OIA_Annual_report_English_2024_e000139fb0.pdf",
+          "title": "OIA 2024 report",
+          "use": "Retrospective asset allocation and Oman macro context, no transaction causality"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Confirm definitive fund establishment and OIA disbursement."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 102,
+      "master_record_id": "V1.6_CANDIDATES-012",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADIA; Mubadala; QIA",
+      "master_investing_entity": "Luxinva S.A.; ATIC Second International Investment Company LLC; QIA indirect co-investment (vehicle unnamed)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Intertek Group plc / Isotope Bidco",
+      "event_type_master": "EQUITY",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "OFFER_PROPOSED_NOT_CLOSED",
+      "announcement_date": "2026-06-18",
+      "filing_date": "2026-06-18",
+      "completion_date_master": null,
+      "master_geography": "United Kingdom",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/update-on-equity-co-investors-2-september-2026-/9752644",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "76% EQT, 16% Luxinva, 8% Mubadala proposed; QIA later expected 4.2% indirect economic interest; these are not simply additive without cap-table review",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A-announcement",
+        "master_inclusion_decision": "ADMIT_CANDIDATE",
+        "master_hold_reason": "Issuer RNS offer agreement and September co-investor update; QIA indirect 4.2% proposed and no governance rights. Exact as-of-date capital structure and closing still require checking. Intertek issuer microsite identifies exact ATIC Second International Investment Company LLC and Luxinva S.A.; ownership chains require separate confirmation.",
+        "next_verification": "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 103,
+      "master_record_id": "V1.3_EXCLUSIONS-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ / L’IMAD",
+      "master_investing_entity": null,
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Abu Dhabi ownership consolidation",
+      "event_type_master": "ENTITY_RESTRUCTURING",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "Internal sovereign fund reorganization; not a capital deployment into Europe",
+      "announcement_date": "2026-01-30",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": null,
+      "master_flow_direction": "OTHER_OR_UNRESOLVED",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/supreme-council-for-financial-and-economic-affairs-issues-resolution-to-consolidate-the-assets-and-investments-of-limad-holding-and-abu-dhabi-developmental-holding-group/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": null,
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "INITIAL_SOURCE_ONLY",
+        "master_inclusion_decision": "EXCLUSION",
+        "master_hold_reason": "Ownership reorganization without European cross-border deployment",
+        "next_verification": "Record in entity history as ownership announcement, not completed deployment; verify legal effectiveness."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 104,
+      "master_record_id": "GSI24M04-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ / OIA",
+      "master_investing_entity": "ADQ and Oman Investment Authority through ITHCA Group",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Jasoor Fund, Oman and MENA",
+      "event_type_master": "JOINT_VENTURE_CAPITAL_FUND",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "FUND_LAUNCHED",
+      "announcement_date": "2024-04-23",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Oman",
+      "master_flow_direction": "GULF_JOINT_FUND_FORMATION",
+      "primary_evidence": {
+        "url": "https://www.wam.ae/en/article/b2sv5xg-adq-oman-investment-authority-launch-180-million",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.thenationalnews.com/future/technology/2024/04/23/adq-and-oman-investment-authority-launch-180m-fund-to-boost-mena-tech-momentum/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "USD180M_TOTAL_JASOOR_FUND_SIZE_NOT_ADQ_OR_OIA_INDIVIDUAL_PAID_IN_CAPITAL",
+        "master_amount_basis": "USD180M_TOTAL_JASOOR_FUND_SIZE_NOT_ADQ_OR_OIA_INDIVIDUAL_PAID_IN_CAPITAL",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Obtain Jasoor legal fund vehicle, manager/GP, commitment split, initial drawdowns, investment mandate and initial portfolio; cross-link 2022 ADQ/OIA MoU."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 105,
+      "master_record_id": "GSI21J06-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "DisruptAD",
+      "master_investing_entity": "DisruptAD (Abu Dhabi investment platform)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Getir Series D participation through DisruptAD",
+      "event_type_master": "VENTURE_FUNDING_PARTICIPATION",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "ROUND_COMPLETED_AS_ANNOUNCED",
+      "announcement_date": "2021-06-04",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Türkiye",
+      "master_flow_direction": "OUTBOUND",
+      "primary_evidence": {
+        "url": "https://landing-cms-frontend.development.getirapi.com/press-releases/getir-latest-funding-round-valuing-the-company-at-over-7-5-billion/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.invest.gov.tr/en/news/news-from-turkey/pages/turkish-rapid-delivery-startup-getir-triples-valuation-usd-7-5-billion.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "Same $550m Getir financing round as GSI21J06-003; no DisruptAD-specific ticket disclosed",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "Entity/parent attribution requires proof; distinct investor name but SAME financing round. Do not sum total twice.",
+        "next_verification": "Verify DisruptAD ultimate owner and legal vehicle; reconcile with Mubadala group to avoid double count."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 106,
+      "master_record_id": "GSI21J07-010",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "EIA",
+      "master_investing_entity": "Emirates Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Yahsat IPO preferential subscription",
+      "event_type_master": "EQUITY_IPO_SUBSCRIPTION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "ALLOTTED_JULY",
+      "announcement_date": "2021-07-09",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://space42.ai/en/press-release/2021/mubadala-owned-yahsat-announces-ipo-final-offer-price/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/technology/mubadala-owned-yahsat-successfully-commences-trading-on-adx/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "AED",
+        "master_claim_unit": null,
+        "master_claim_scope": "5_PERCENT_OF_FINAL_OFFER_NOT_ISSUER_TOTAL",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "DOMESTIC_GULF",
+        "master_hold_reason": null,
+        "next_verification": "Verify EIA final settlement amount and beneficial owner"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 107,
+      "master_record_id": "V1.5_HOLDS-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "EIIC / National Holding (private UAE investor)",
+      "master_investing_entity": "Emirates International Investment Company",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Joe & The Juice",
+      "event_type_master": "PRIVATE_GULF_INVESTMENT",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "ACQUIRED_ANNOUNCED",
+      "announcement_date": "2026-04-16",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Denmark",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.eiic.ae/eiic-buys-stake-in-joe-the-juice/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.nh.ae/joe-the-juice-welcomes-emirates-international-investment-company-as-a-strategic-investor/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "USD 1.8bn company valuation, NOT EIIC ticket",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A-investor announcement",
+        "master_inclusion_decision": "EXCLUDE_NON_SOVEREIGN",
+        "master_hold_reason": "EIIC describes itself as private strategic investment arm of National Holding. Not proven sovereign ownership; exclude from sovereign-core tracker.",
+        "next_verification": "Only reconsider if sovereign beneficial ownership proven; consider future adjacent private-Gulf dataset."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 108,
+      "master_record_id": "V1.6_CANDIDATES-016",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "L'IMAD / ADQ via AD Ports Group",
+      "master_investing_entity": "AD Ports Group PJSC; acquired business to sit in Noatum Logistics",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "MBS Logistics core business",
+      "event_type_master": "ACQUISITION_SIGNED",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "SIGNED_NOT_CLOSED_AS_OF_DOCUMENTED_2026_SOURCES",
+      "announcement_date": "2026-05-18",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Germany",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.adportsgroup.com/en/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.mbslogistics.com/en/news/mbs-logistics-to-be-acquired-by-ad-ports-group/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "EUR 70m enterprise value; NOT equity cheque / paid capital",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A-agreement / B-independent counterparty",
+        "master_inclusion_decision": "PROVISIONAL_ADMIT",
+        "master_hold_reason": "MBS corroborates binding agreement. AD Ports' 11 Nov Q3 report says deal 'progressing well'; NOT completed. Sovereign attribution indirect via L'IMAD/ADQ.",
+        "next_verification": "Trace German commercial registry, competition approvals, and definitive completion filing."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 109,
+      "master_record_id": "V1.3_EXCLUSIONS-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "L’IMAD / Azerbaijan Investment Holding",
+      "master_investing_entity": null,
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Azerbaijan cooperation",
+      "event_type_master": "PARTNERSHIP_AGREEMENT",
+      "event_category_provisional": "JOINT_VENTURE_OR_PARTNERSHIP",
+      "event_status_master": "Agreement to pursue joint investments, not actual investment; geography differs from initial EU/UK scope",
+      "announcement_date": "2026-09-15",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Azerbaijan",
+      "master_flow_direction": "PROSPECTIVE_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/in-the-presence-of-azerbaijan-president-and-tahnoon-bin-zayed-limad-and-azerbaijan-investment-holding-partner-to-pursue-strategic-investments-across-azerbaijan/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": null,
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "INITIAL_SOURCE_ONLY",
+        "master_inclusion_decision": "HOLD_MOU_NOT_DEPLOYED",
+        "master_hold_reason": "Official cooperation agreement 2026-09-15, no named investee, amount or completed deployment",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 110,
+      "master_record_id": "GSI-2020-NOV-009",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar",
+      "master_investing_entity": "Abu Dhabi Future Energy Company (Masdar)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Nur Navoi Solar Uzbekistan — chronology correction",
+      "event_type_master": "CHRONOLOGY_EXCEPTION",
+      "event_category_provisional": "DUPLICATE_OR_CHRONOLOGY_REVIEW",
+      "event_status_master": "PPA executed November 2019; project financial close announced December 23 2020",
+      "announcement_date": "2020-11-30",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Uzbekistan",
+      "master_flow_direction": "MONITORING_ONLY",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-achieves-financial-close-on-landmark-100-mw-nur-navoi-solar-project-in-uzbekistan",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://masdar.ae/en/renewables/our-projects/100-mw-nur-navoi-solar-project",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "PROJECT_FINANCING_NOT_INVESTOR_TICKET",
+        "master_amount_basis": "PROJECT_FINANCING_NOT_INVESTOR_TICKET",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "EXCLUDE_FROM_2020_NOV",
+        "master_hold_reason": null,
+        "next_verification": "Link to November 2019 origination, December 2020 financial-close milestone"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 111,
+      "master_record_id": "GSI21J06-009",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar",
+      "master_investing_entity": "Masdar / Uzbekistan Sherabad solar",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Sherabad solar 457 MW winning-bid milestone",
+      "event_type_master": "PROJECT_TENDER_AWARD",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "AWARDED_JUNE_EXACT_DATE_UNVERIFIED",
+      "announcement_date": "2021-06-01",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Uzbekistan",
+      "master_flow_direction": "OUTBOUND",
+      "primary_evidence": {
+        "url": "https://www.synergyconsultingifa.com/wp-content/uploads/2022/07/139-Synergy_Synergizer-Newsletter-2022_Uzbekistan_Covers_v16.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "457 MW project size and 1.80 US cents/kWh tariff; no investor cash amount confirmed",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "Retrospective transaction advisor refers to June award but no original dated official award identified.",
+        "next_verification": "Locate dated Uzbekistan government/ADB award, PPA signing and eventual financing and project capital"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 112,
+      "master_record_id": "GSI21J07-011",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar",
+      "master_investing_entity": "Masdar",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Iraq 2 GW solar development strategic agreement",
+      "event_type_master": "DEVELOPMENT_MOU",
+      "event_category_provisional": "NONBINDING_OR_EXPLORATORY",
+      "event_status_master": "STRATEGIC_AGREEMENT_ONLY",
+      "announcement_date": "2021-07-06",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Iraq",
+      "master_flow_direction": "OUTBOUND",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/search?page=19&search=view+official+PROBLEMGO.com+Paying+money+to+get+my+daughter+out+of+county+jail+quickly+Lucerne",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "2_GW_CAPACITY_NOT_FINANCIAL_AMOUNT",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": null,
+        "next_verification": "Locate standalone Masdar signed agreement press release and later financial close"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 113,
+      "master_record_id": "GSI21J07-014",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar",
+      "master_investing_entity": "Masdar / PT PJBI",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Cirata floating solar financial close date correction",
+      "event_type_master": "CHRONOLOGY_EXCEPTION",
+      "event_category_provisional": "DUPLICATE_OR_CHRONOLOGY_REVIEW",
+      "event_status_master": "AUGUST_2021_ANNOUNCEMENT",
+      "announcement_date": "2021-08-03",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Indonesia",
+      "master_flow_direction": "OUTBOUND",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-joint-venture-reaches-financial-close-and-starts-construction",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://masdar.ae/-/media/corporate-revamp/downloads/masdar-annual-sustainability-reports/2021-masdar-sustainability-report.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "DO_NOT_COUNT_JULY",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": null,
+        "next_verification": "Review loan signed date to determine actual July vs August close"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 114,
+      "master_record_id": "GSI21M05-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar",
+      "master_investing_entity": "Masdar–Taaleri Generation (MTG)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "65 MW solar photovoltaic development agreement, Viotia, Greece",
+      "event_type_master": "PROJECT_DEVELOPMENT_AGREEMENT",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "SIGNED_DEVELOPMENT_AGREEMENT",
+      "announcement_date": "2021-05-06",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Greece",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-makes-first-investment-in-greece-by-developing-solar-plant-with-taaleri-energia",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.mfa.gr/missionsabroad/en/uae-en/news/masdar-makes-first-investment-in-greece-by-developing-solar-plant-with-taaleri-energia.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "Project capacity 65MW; no verified Masdar cash ticket",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": "Signed May 5; published May 6. No demonstrated settled investment or completed facility.",
+        "next_verification": "Verify project financial close, investor vehicle, shareholding, and project outcome."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 115,
+      "master_record_id": "V1.6_HOLDS-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar",
+      "master_investing_entity": "Masdar and RWE",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Germany BESS exploration MoU",
+      "event_type_master": "Memorandum of understanding",
+      "event_category_provisional": "NONBINDING_OR_EXPLORATORY",
+      "event_status_master": "NON-BINDING EXPLORATION",
+      "announcement_date": "2026-02-06",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Germany",
+      "master_flow_direction": "OTHER_OR_UNRESOLVED",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-and-rwe-sign-agreement-to-support-energy-transformation-in-germany-and-europe",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "Potential up to 1GW existing + 1GW new projects; no deployed sum",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A for reported event; not for unspecified settlement",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "MoU not a funded project; distinct from September RWE €3bn framework and prior pending events",
+        "next_verification": "Resolve investor-specific payment, closing and entity chain where relevant"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 116,
+      "master_record_id": "V1.6_CANDIDATES-018",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar (TAQA/Mubadala/ADNOC ownership)",
+      "master_investing_entity": "Masdar with Endesa",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Ardila and La Vega I/II battery storage projects",
+      "event_type_master": "Project capital expenditure",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "CONSTRUCTION STARTED",
+      "announcement_date": "2026-11-05",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Spain",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-and-endesa-begin-construction-25m-battery-storage-portfolio-in-spain",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.wam.ae/en/article/c33pmjd-masdar-endesa-begin-construction-%25E2%2582%25AC252-million",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "€25.2m total three-project investment; Masdar's share unknown",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A for reported event; not for unspecified settlement",
+        "master_inclusion_decision": "PROVISIONAL_ADMIT",
+        "master_hold_reason": "Project-level investment event, not new equity acquisition; no Masdar-specific cash amount proven",
+        "next_verification": "Resolve investor-specific payment, closing and entity chain where relevant"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 117,
+      "master_record_id": "GSI-2020-AUG-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar / Mubadala",
+      "master_investing_entity": "Masdar / PT PJBI JV",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Cirata floating solar project financing — August 2020 chronology lead",
+      "event_type_master": "PROJECT_FINANCE",
+      "event_category_provisional": "DUPLICATE_OR_CHRONOLOGY_REVIEW",
+      "event_status_master": "Reported milestones are August 2021 not 2020",
+      "announcement_date": "2020-08-01",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Indonesia",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-joint-venture-reaches-financial-close-and-starts-construction",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://chambers.com/articles/masdar-floating-solar-photovoltaic-power-project-in-indonesia",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "DATE_MISMATCH",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "EXCLUDE_FROM_2020",
+        "master_hold_reason": null,
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 118,
+      "master_record_id": "V1.4_HOLDS-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar / UAE",
+      "master_investing_entity": "Abu Dhabi Future Energy Company (Masdar)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "RWE offshore-wind partnership (indicative >€3bn)",
+      "event_type_master": "MOU_PARTNERSHIP",
+      "event_category_provisional": "NONBINDING_OR_EXPLORATORY",
+      "event_status_master": "MOU_FUTURE_INVESTMENT",
+      "announcement_date": "2026-09-11",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Germany",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-advances-uae-europe-energy-partnership-with-agreements-signed-during-germany",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "Indicative >€3bn investment opportunity, NOT commitment nor deployment",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A-announcement",
+        "master_inclusion_decision": "HOLD_NOT_DEPLOYED",
+        "master_hold_reason": "Agreement describes future partnerships; specific underlying project, investing vehicle and actual transaction absent. Masdar is jointly held by TAQA 43%, Mubadala 33%, ADNOC 24% (2025 accounts); do not attribute 100% to Mubadala.",
+        "next_verification": "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 119,
+      "master_record_id": "V1.5_HOLDS-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar / UAE",
+      "master_investing_entity": "Masdar",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Luxcara German battery/offshore wind proposed partnership",
+      "event_type_master": "MOU_PARTNERSHIP",
+      "event_category_provisional": "NONBINDING_OR_EXPLORATORY",
+      "event_status_master": "MOU_NOT_DEPLOYED",
+      "announcement_date": "2026-09-11",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Germany",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.mynewsdesk.com/de/luxcara/pressreleases/masdar-and-luxcara-explore-joint-investment-of-more-than-euros-5bn-in-germanys-battery-storage-and-offshore-wind-sectors-3466560",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://masdar.ae/news/newsroom",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "More than EUR 5bn potential opportunity, NOT deployed",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A-dual counterparty announcements",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "Different event from existing Masdar/RWE MoU; MoU is not an investable project or committed cheque.",
+        "next_verification": "Trace signed SPVs, construction asset acquisitions and funding drawdowns."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 120,
+      "master_record_id": "V1.6_CANDIDATES-010",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar / UAE",
+      "master_investing_entity": "Abu Dhabi Future Energy Company (Masdar)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Repsol 705MW Spanish renewable portfolio (49.99%)",
+      "event_type_master": "EQUITY",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "SIGNED_EXPECTED_CLOSE_2026_NOT_VERIFIED",
+      "announcement_date": "2026-06-11",
+      "filing_date": "2026-06-11",
+      "completion_date_master": null,
+      "master_geography": "Spain",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.repsol.com/en/press-room/press-releases/2026/repsol-masdar-partner-849-million-renewables-portfolio-spain/index.cshtml",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.repsol.com/content/dam/repsol-corporate/en_gb/accionistas-e-inversores/cnmv/2026/ii11062026-information-agreement-sale-masdar-renewable-energy-portfolio-705-mw-spain.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": "150",
+        "master_claim_currency": "EUR",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "Estimated purchase price €150m; portfolio EV €849m is NOT equity cheque",
+        "master_amount_basis": "Estimated EUR150m agreed purchase price, NOT EUR849m portfolio valuation",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A-announcement",
+        "master_inclusion_decision": "ADMIT_CANDIDATE",
+        "master_hold_reason": "Issuer CNMV inside-information notice states estimated purchase price €150m; portfolio valuation €849m; closing expected end-2026; DO NOT mark closed. Masdar is jointly held by TAQA 43%, Mubadala 33%, ADNOC 24% (2025 accounts); do not attribute 100% to Mubadala.",
+        "next_verification": "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 121,
+      "master_record_id": "V1.6_CANDIDATES-011",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Masdar / UAE",
+      "master_investing_entity": "Masdar via TERNA ENERGY",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Lightsource bp 550+ MW Greek photovoltaic project",
+      "event_type_master": "ASSET_ACQUISITION",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "SIGNED_NOT_CLOSED",
+      "announcement_date": "2026-10-24",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Greece",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/energy/masdar-expands-portfolio-in-greece-with-major-solar-project-acquisition/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "No purchase price disclosed",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A-announcement",
+        "master_inclusion_decision": "ADMIT_CANDIDATE",
+        "master_hold_reason": "Official UAE announcement says signed agreement, regulatory approval and customary closing conditions outstanding; asset identity not independently confirmed by seller. Masdar is jointly held by TAQA 43%, Mubadala 33%, ADNOC 24% (2025 accounts); do not attribute 100% to Mubadala.",
+        "next_verification": "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 122,
+      "master_record_id": "GSI24D12-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "MGX",
+      "master_investing_entity": "MGX (Mubadala/G42-backed vehicle)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "xAI Series C financing participation",
+      "event_type_master": "PRIMARY_GROWTH_FINANCING",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "COMPANY_ANNOUNCED_CLOSED_SERIES_C_2024_12_23",
+      "announcement_date": "2024-12-23",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://x.ai/news/series-c",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://x.ai/news/series-c",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "USD6000M_WHOLE_SERIES_C_NOT_MGX_SPECIFIC",
+        "master_amount_basis": "USD6000M_WHOLE_SERIES_C_NOT_MGX_SPECIFIC",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": "INVESTOR_AMOUNT_OR_SETTLEMENT_NOT_VERIFIED",
+        "next_verification": "Confirm beneficial owner contributions and subscription value without double attribution."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 123,
+      "master_record_id": "GSI25M03-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "MGX",
+      "master_investing_entity": "MGX",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Binance $2bn minority equity investment",
+      "event_type_master": "PRIMARY_MINORITY_EQUITY_STABLECOIN",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "INVESTED_CONFIRMED_2025_03_12_STABLECOIN",
+      "announcement_date": "2025-03-12",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Undetermined",
+      "master_flow_direction": "GULF_DOMESTIC_OR_CROSS_BORDER_UNRESOLVED",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/mgx-invests-in-binance-cryptocurrency-exchange-in-landmark-us2bn-deal/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.prnewswire.com/news-releases/mgx-backs-binance-in-landmark-investment-302400050.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": "2000",
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "MGX_INVESTOR_SPECIFIC_USD2000M_VALUE_STABLECOIN_NOT_FIAT_WIRE",
+        "master_amount_basis": "MGX_INVESTOR_SPECIFIC_USD2000M_VALUE_STABLECOIN_NOT_FIAT_WIRE",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Establish precise Binance issuer legal domicile, token, settlement chain and shares issued."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 124,
+      "master_record_id": "GSI24S09-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "MGX / Mubadala-linked",
+      "master_investing_entity": "MGX (Abu Dhabi AI investment platform; trace Mubadala/G42 control)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Global AI Infrastructure Investment Partnership with BlackRock GIP and Microsoft",
+      "event_type_master": "CAPITAL_MANAGER_STRATEGIC_PARTNERSHIP",
+      "event_category_provisional": "JOINT_VENTURE_OR_PARTNERSHIP",
+      "event_status_master": "PARTNERSHIP_ANNOUNCED_NO_DISBURSEMENT_VERIFIED",
+      "announcement_date": "2024-09-17",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "GULF_OUTBOUND_PROSPECTIVE_AI_INFRASTRUCTURE_PLATFORM",
+      "primary_evidence": {
+        "url": "https://www.blackrock.com/corporate/newsroom/media/press-releases/blackrock-global-infrastructure-partners-microsoft-and-mgx-launch-new-ai",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://news.microsoft.com/source/2024/09/17/blackrock-global-infrastructure-partners-microsoft-and-mgx-launch-new-ai-partnership-to-invest-in-data-centers-and-supporting-power-infrastructure/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "USD30BN_INITIAL_EQUITY_FUNDRAISING_TARGET_USD100BN_LEVERAGED_POTENTIAL_NOT_MGX_SPECIFIC",
+        "master_amount_basis": "USD30BN_INITIAL_EQUITY_FUNDRAISING_TARGET_USD100BN_LEVERAGED_POTENTIAL_NOT_MGX_SPECIFIC",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_PLATFORM_ONLY_NOT_DEPLOYED",
+        "master_hold_reason": null,
+        "next_verification": "Verify MGX legal ownership, actual fund structure, first close, asset purchases and MGX commitment."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 125,
+      "master_record_id": "GSI-2021-JAN-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mubadala / ADQ",
+      "master_investing_entity": "Mubadala; ADQ; ADNOC",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Abu Dhabi Hydrogen Alliance formation",
+      "event_type_master": "Exploratory memorandum",
+      "event_category_provisional": "NONBINDING_OR_EXPLORATORY",
+      "event_status_master": "MOU",
+      "announcement_date": "2021-01-17",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://www.mubadala.com/en/news/mubadala-adnoc-and-adq-form-alliance-accelerate-abu-dhabi-hydrogen-leadership",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "No investment or amount specified",
+        "master_amount_basis": "No investment or amount specified",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": null,
+        "next_verification": "Monitor for later funded vehicles and executed investments"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 126,
+      "master_record_id": "GSI22J07-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mubadala / Aldar",
+      "master_investing_entity": "Mubadala (seller) / Aldar Investment Properties (buyer; partly Mubadala-held)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Four Abu Dhabi Global Market commercial office towers",
+      "event_type_master": "PROPERTY_DISPOSAL_AGREEMENT",
+      "event_category_provisional": "EXIT_OR_DIVESTMENT_CANDIDATE",
+      "event_status_master": "SIGNED_2022_07_28_CLOSING_NOT_ESTABLISHED",
+      "announcement_date": "2022-07-28",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF_ASSET_TRANSFER_EXIT",
+      "primary_evidence": {
+        "url": "https://www.aldar.com/en/news-and-media/aldar-properties-to-acquire-four-commercial-towers-in-adgm",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.wam.ae/en/article/hszrf76v-aldar-properties-acquire-four-commercial-towers",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "AED",
+        "master_claim_unit": null,
+        "master_claim_scope": "AED4300M_TOTAL_PROPERTY_TRANSACTION_NOT_NET_SOVEREIGN_PROCEEDS",
+        "master_amount_basis": "AED4300M_TOTAL_PROPERTY_TRANSACTION_NOT_NET_SOVEREIGN_PROCEEDS",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_DOMESTIC_EXIT_NOT_OUTBOUND",
+        "master_hold_reason": null,
+        "next_verification": "Verify closing, seller net receipts and Mubadala indirect buyer interest."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 127,
+      "master_record_id": "GSI-2020-06-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mubadala / Masdar",
+      "master_investing_entity": "Abu Dhabi Future Energy Company (Masdar)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Zarafshan 500MW Uzbekistan wind — investment/PPA agreement",
+      "event_type_master": "PROJECT_AGREEMENT",
+      "event_category_provisional": "JOINT_VENTURE_OR_PARTNERSHIP",
+      "event_status_master": "SIGNED_PROJECT_AGREEMENTS",
+      "announcement_date": "2020-06-09",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Uzbekistan",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-and-uzbekistan-government-to-develop-landmark-500mw-wind-project",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.nortonrosefulbright.com/en/news/9badd58e/energy-projects-team-advises-masdar-on-uzbekistan-wind-project",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_OR_NOT_APPLICABLE",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": null,
+        "master_inclusion_decision": null,
+        "master_hold_reason": "Project PPA and investment agreement signed, not evidence of funding drawdown, equity ticket or financial close.",
+        "next_verification": "Review precise event classification and source availability"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 128,
+      "master_record_id": "GSI-2020-OCT-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mubadala / Masdar",
+      "master_investing_entity": "Masdar",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Maryvale Energy from Waste project — equity partnership",
+      "event_type_master": "NEW_INVESTMENT",
+      "event_category_provisional": "NONBINDING_OR_EXPLORATORY",
+      "event_status_master": "Masdar joined project as equity partner; amount and project close not corroborated",
+      "announcement_date": "2020-10-21",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Australia",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/maryvale-energy-from-waste-project-moving-forward",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_EQUITY",
+        "master_amount_basis": "UNDISCLOSED_EQUITY",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Find project company filings, equity stake percentage, funding close, project realization"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 129,
+      "master_record_id": "GSI-2020-SEP-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mubadala / Masdar",
+      "master_investing_entity": "Masdar / Infinity Power",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Infinity 50 solar project equity acquisition from ib vogt",
+      "event_type_master": "EQUITY_ACQUISITION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "Masdar explicitly states it acquired ib vogt shareholding in the 64.1 MWp project",
+      "announcement_date": "2020-09-21",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Egypt",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-acquires-solar-power-plant-in-egypt",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "CLOSED_ACQUISITION_AMOUNT_UNDISCLOSED",
+        "master_amount_basis": "NOT_DISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 130,
+      "master_record_id": "GSI-2020-SEP-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mubadala / Masdar",
+      "master_investing_entity": "Masdar / Infinity Power",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Benban three additional solar parks 166.5 MWp intentions",
+      "event_type_master": "LETTER_OF_INTENT",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "Letters of intent, no closing established",
+      "announcement_date": "2020-09-21",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Egypt",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-acquires-solar-power-plant-in-egypt",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "NONBINDING_INTENT",
+        "master_amount_basis": "NONE",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": null,
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 131,
+      "master_record_id": "GSI-2020-SEP-014",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mubadala / Masdar",
+      "master_investing_entity": "Masdar / Nur Navoi Solar FE LLC",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Nur Navoi solar project September financial-close claim",
+      "event_type_master": "CHRONOLOGY_EXCEPTION",
+      "event_category_provisional": "DUPLICATE_OR_CHRONOLOGY_REVIEW",
+      "event_status_master": "Later primary notice places financing close 23 Dec 2020, not September",
+      "announcement_date": "2020-09-01",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Uzbekistan",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-achieves-financial-close-on-landmark-100-mw-nur-navoi-solar-project-in-uzbekistan",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.ebrd.com/home/work-with-us/projects/psd/51454.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "DATE_MISMATCH",
+        "master_amount_basis": "NONE",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "EXCLUDE_FROM_2020_SEPTEMBER",
+        "master_hold_reason": null,
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 132,
+      "master_record_id": "V1.5_HOLDS-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mubadala Capital",
+      "master_investing_entity": "Apollo Global Management investing INTO Mubadala Capital",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Mubadala Capital equity and future strategies",
+      "event_type_master": "INBOUND_EQUITY_AND_FUND_COMMITMENT",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "STRATEGIC_INVESTMENT_ANNOUNCED",
+      "announcement_date": "2026-10-26",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "INBOUND_EXTERNAL_TO_GULF",
+      "primary_evidence": {
+        "url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-announces-strategic-investment-from-apollo/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://ir.apollo.com/news-events/press-releases/detail/656/mubadala-capital-announces-strategic-investment-from-apollo",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "Up to USD 5bn combined commitments to strategies; NOT Gulf-to-Europe deployed amount",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A-dual counterparty announcement",
+        "master_inclusion_decision": "HOLD_INBOUND_NONCORE",
+        "master_hold_reason": "Not an outbound Gulf investment; close expected Q4 2026; reported $5bn is aggregate future strategy commitments, not invested equity",
+        "next_verification": "Move to inbound capital monitoring if future scope expands."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 133,
+      "master_record_id": "GSI-2020-DEC-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mubadala/Masdar",
+      "master_investing_entity": "Nur Navoi Solar FE LLC / Masdar",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Nur Navoi 100MW Uzbekistan solar — financial close",
+      "event_type_master": "Project finance milestone",
+      "event_category_provisional": "JOINT_VENTURE_OR_PARTNERSHIP",
+      "event_status_master": "Financial close 2020-12-23; PPA originated 2019-11",
+      "announcement_date": "2020-12-23",
+      "filing_date": null,
+      "completion_date_master": "2020-12-23",
+      "master_geography": "Uzbekistan",
+      "master_flow_direction": "CROSS_BORDER_OUTBOUND",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/masdar-achieves-financial-close-on-landmark-100-mw-nur-navoi-solar-project-in-uzbekistan",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.energyconnects.com/news/renewables/2020/december/masdar-achieves-financial-close-on-solar-project-in-uzbekistan/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "Project finance amount and Masdar sponsor equity not individually verified",
+        "master_amount_basis": "Project finance amount and Masdar sponsor equity not individually verified",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "MONITORING",
+        "master_hold_reason": null,
+        "next_verification": "Link to 2019 PPA event and track equity vs bank debt; do not create new 2020 investment."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 134,
+      "master_record_id": "GSI-2020-DEC-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mubadala/Masdar",
+      "master_investing_entity": "Masdar and PT PJB",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Cirata floating PV Indonesia — JV formation",
+      "event_type_master": "JV formation",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "2020 annual sustainability report says JV established Dec 2020; later project financial close 2021",
+      "announcement_date": "2020-12-31",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Indonesia",
+      "master_flow_direction": "CROSS_BORDER_OUTBOUND",
+      "primary_evidence": {
+        "url": "https://masdar.ae/-/media/corporate-revamp/downloads/masdar-annual-sustainability-reports/masdar-2020-annual-sustainability-report.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "No Masdar-specific deployed amount verified for Dec 2020",
+        "master_amount_basis": "No Masdar-specific deployed amount verified for Dec 2020",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": null,
+        "next_verification": "Identify exact December formation date and commercial filings; link 2020 PPA and 2021 financial close."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 135,
+      "master_record_id": "GSI-2020-DEC-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mubadala/Masdar/TAQA",
+      "master_investing_entity": "Masdar / TAQA / EDF / JinkoPower",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Al Dhafra 2GW solar PV — financial close",
+      "event_type_master": "Project finance milestone",
+      "event_category_provisional": "JOINT_VENTURE_OR_PARTNERSHIP",
+      "event_status_master": "Financial close 2020-12-22; PPA July 2020",
+      "announcement_date": "2020-12-22",
+      "filing_date": null,
+      "completion_date_master": "2020-12-22",
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://masdar.ae/en/news/newsroom/taqa-and-masdarled-consortium-announce-financial-closing-for-the-worlds-largest-solar-power-plant",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://masdar.ae/-/media/corporate-revamp/downloads/masdar-annual-sustainability-reports/masdar-2020-annual-sustainability-report.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "TAQA + Masdar collectively 60%; individual equity allocations and cash amount unverified",
+        "master_amount_basis": "TAQA + Masdar collectively 60%; individual equity allocations and cash amount unverified",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "DOMESTIC_GULF",
+        "master_hold_reason": null,
+        "next_verification": "Link underlying project tender and PPA to financial-close milestone; avoid 60% as individual stake."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 136,
+      "master_record_id": "GSI21J07-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mumtalakat",
+      "master_investing_entity": "Bahrain Mumtalakat Holding Company",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "McLaren Group existing shareholder reinvestment",
+      "event_type_master": "FOLLOW_ON_EQUITY_COMMITMENT",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "ANNOUNCED_SUBJECT_TO_CLOSING",
+      "announcement_date": "2021-07-16",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Kingdom",
+      "master_flow_direction": "OUTBOUND",
+      "primary_evidence": {
+        "url": "https://www.tiseprivatemarkets.com/umbraco/surface/proxyapi/newspdf?id=301491&name=McLaren+Finance+plc",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.thenationalnews.com/business/markets/2021/07/17/saudi-arabias-pif-invests-in-mclaren/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "GBP",
+        "master_claim_unit": null,
+        "master_claim_scope": "PART_OF_150M_EXISTING_AND_NEW_INVESTORS",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Verify actual Mumtalakat subscription, not attributable entire GBP150m"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 137,
+      "master_record_id": "GSI23M06-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "Mumtalakat",
+      "master_investing_entity": "Bahrain Mumtalakat Holding Company",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "McLaren Group preference shares purchased from PIF and Ares",
+      "event_type_master": "SOVEREIGN_SECONDARY_BUYOUT_FROM_PE_AND_SOVEREIGN",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "ANNOUNCED_AND_REPORTED_ACQUIRED",
+      "announcement_date": "2023-06-22",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Kingdom",
+      "master_flow_direction": "INBOUND_GULF_TO_GULF_OWNER_AND_PE_SELLER",
+      "primary_evidence": {
+        "url": "https://www.rns-pdf.londonstockexchange.com/rns/4990D_1-2024-2-16.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.reuters.com/markets/deals/saudi-pif-bahrains-mumtalakat-boost-cooperation-investment-2024-03-05/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "GBP",
+        "master_claim_unit": null,
+        "master_claim_scope": "GBP400M_REPORTED_COMBINED_INTERESTS_FROM_PIF_AND_ARES_NOT_SEPARATE_CHEQUES",
+        "master_amount_basis": "GBP400M_REPORTED_COMBINED_INTERESTS_FROM_PIF_AND_ARES_NOT_SEPARATE_CHEQUES",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "PRIMARY_AND_SUPPORTING_SOURCE_VERIFIED",
+        "master_inclusion_decision": "CORE_NEW",
+        "master_hold_reason": null,
+        "next_verification": "Verify final purchase consideration split and seller proceeds; link original July 2021 McLaren positions."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 138,
+      "master_record_id": "V1.3_EXCLUSIONS-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "PIF / SACE",
+      "master_investing_entity": null,
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Italy-linked credit facility",
+      "event_type_master": "FINANCING",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "PIF raised $3bn-equivalent SACE-guaranteed financing; not Gulf investment into Europe",
+      "announcement_date": "2026-11-03",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Italy;Saudi Arabia",
+      "master_flow_direction": "INBOUND_TO_GULF_FINANCING",
+      "primary_evidence": {
+        "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2026/pif-raises-us3-billion-in-sace-backed-credit-facilities-to-strengthen-cooperation-with-italian-businesses/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": null,
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "INITIAL_SOURCE_ONLY",
+        "master_inclusion_decision": "EXCLUSION",
+        "master_hold_reason": "Financing to PIF, not Gulf-to-Europe asset investment",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 139,
+      "master_record_id": "GSI22A04-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "PIF / Sanabil",
+      "master_investing_entity": "Sanabil Investments (PIF wholly owned)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Foodics Series C financing",
+      "event_type_master": "VENTURE_FINANCING_ROUND",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "ANNOUNCED_2022_04_20",
+      "announcement_date": "2022-04-20",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Saudi Arabia",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://www.pif.gov.sa/en/news-and-insights/newswire/2022/pifs-sanabil-investments-co-leads-170m-funding-of-foodics/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.sanabil.com/en/news/details/9",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "USD170M_TOTAL_ROUND_NOT_SANABIL_ALLOCATION",
+        "master_amount_basis": "USD170M_TOTAL_ROUND_NOT_SANABIL_ALLOCATION",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_PARTICIPATION",
+        "master_hold_reason": null,
+        "next_verification": "Verify legal entity, holding percentage, regulatory filings, consideration and exact settlement date."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 140,
+      "master_record_id": "GSI23M11-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "PIF / Sanabil",
+      "master_investing_entity": "Sanabil Investments",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Databricks Series I financing (Sanabil participation)",
+      "event_type_master": "GROWTH_EQUITY_ROUND",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "INVESTOR_IDENTIFIED_NOV_2023_ROUND_DATE_OPEN",
+      "announcement_date": "2023-11-10",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.qia.qa/en/Newsroom/Pages/QIA-joins-Series-I-funding-round-into-generative-AI-platform%2C-Databricks.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "SANABIL_SPECIFIC_AMOUNT_UNDISCLOSED",
+        "master_amount_basis": "SANABIL_SPECIFIC_AMOUNT_UNDISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Find Sanabil primary release, verify investment date, fund vehicle and amount."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 141,
+      "master_record_id": "GSI22J06-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "PIF / Savvy",
+      "master_investing_entity": "Savvy Gaming Group (PIF-owned)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Embracer Group directed B-share subscription",
+      "event_type_master": "PRIMARY_LISTED_EQUITY_ISSUANCE",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "ANNOUNCED_2022_06_08_STAGED_SETTLEMENT_JUNE_JULY",
+      "announcement_date": "2022-06-08",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Sweden",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.embracer.com/releases/embracer-group-to-carry-out-a-directed-share-issue-of-b-shares-raising-proceeds-of-approximately-sek-10-3-billion/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.embracer.com/wp-content/uploads/2022/09/Embracer-Group-publishes-Interim-Report-Q1-April-June-2022-NET-SALES-INCREASED-BY-107-TO-SEK-7118-MILLION-220818-1.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "SEK",
+        "master_claim_unit": null,
+        "master_claim_scope": "SEK10300M_TOTAL_SAVVY_SUBSCRIPTION_TWO_TRANCHES_NOT_JUNE_ONLY",
+        "master_amount_basis": "SEK10300M_TOTAL_SAVVY_SUBSCRIPTION_TWO_TRANCHES_NOT_JUNE_ONLY",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_AGREEMENT_JUNE_TRANCHE_ONLY",
+        "master_hold_reason": null,
+        "next_verification": "Confirm first-tranche exact settlement date, first-tranche cash and July final share issue; do not double count July."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 142,
+      "master_record_id": "GSI26JF-012",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "PIF / Soudah Development",
+      "master_investing_entity": "PIF / Soudah Development",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Soudah Peaks electricity network contract",
+      "event_type_master": "OPERATING_CONTRACT",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "SOURCE_ANNOUNCEMENT_ONLY",
+      "announcement_date": "2026-01-04",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Saudi Arabia",
+      "master_flow_direction": "OTHER",
+      "primary_evidence": {
+        "url": "https://www.pif.gov.sa/en/news-and-insights/newswire/2026/soudah-development-and-national-grid-sign-one-point-three-billion-sar-agreement-to-power-soudah-peaks/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "NOT_DISCLOSED_OR_NON_ATTRIBUTABLE",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A_ANNOUNCEMENT_ONLY",
+        "master_inclusion_decision": null,
+        "master_hold_reason": null,
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 143,
+      "master_record_id": "V1.3_EXCLUSIONS-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA / Goldman Sachs",
+      "master_investing_entity": null,
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "USD 25bn partnership target",
+      "event_type_master": "MOU_PARTNERSHIP",
+      "event_category_provisional": "NONBINDING_OR_EXPLORATORY",
+      "event_status_master": "MoU with future investment target; not a Europe-specific completed transaction",
+      "announcement_date": "2026-01-20",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": null,
+      "master_flow_direction": "BILATERAL_OR_FUND_FORMATION",
+      "primary_evidence": {
+        "url": "https://www.qia.qa/en/Newsroom/Pages/Qatar-Investment-Authority-and-Goldman-Sachs-Sign-MoU-to-Expand-Strategic-Partnership-with-%2425bn-Investment-Target.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": null,
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "INITIAL_SOURCE_ONLY",
+        "master_inclusion_decision": "EXCLUSION",
+        "master_hold_reason": "Global partnership target not Europe-specific transaction",
+        "next_verification": "BILATERAL_FUND_VEHICLE is provisional direction only; no legally established vehicle evidenced."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 144,
+      "master_record_id": "GSI23M09-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA / OIA",
+      "master_investing_entity": "Qatar Investment Authority and Oman Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Asaal International Investment SAOC",
+      "event_type_master": "PROPOSED_JOINT_CONTROL_SHARE_ACQUISITION",
+      "event_category_provisional": "INTERNAL_TRANSFER_OR_MERGER",
+      "event_status_master": "EU_MERGER_NOTIFICATION_PENDING",
+      "announcement_date": "2023-09-06",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Oman",
+      "master_flow_direction": "GULF_TO_GULF_CO_INVESTMENT",
+      "primary_evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52023M11191",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023M11191",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "SHARE_ACQUISITION_TO_JOINT_CONTROL_CONSIDERATION_UNDISCLOSED",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "PRIMARY",
+        "master_inclusion_decision": "CORE_NEW_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Locate clearance decision, purchase completion, respective ownership and institutional legal vehicles."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 145,
+      "master_record_id": "V1.4_HOLDS-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA / Qai",
+      "master_investing_entity": "Qai via Brookfield-Qai AI infrastructure venture",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Drax Power Station AI data centre initial phase",
+      "event_type_master": "STRATEGIC_PARTNERSHIP",
+      "event_category_provisional": "JOINT_VENTURE_OR_PARTNERSHIP",
+      "event_status_master": "PARTNERSHIP_AGREED_FID_PENDING",
+      "announcement_date": "2026-11-03",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Kingdom",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.drax.com/news/strategic-partnership-for-gw-scale-data-centre/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "Up to £2.5bn phase-one potential; full project >£20bn speculative, NOT deployed",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A-announcement",
+        "master_inclusion_decision": "HOLD_NOT_DEPLOYED",
+        "master_hold_reason": "Issuer RNS explicitly requires planning approvals, tenant and final investment decision. Track in watchlist only.",
+        "next_verification": "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 146,
+      "master_record_id": "V1.5_HOLDS-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA with Brookfield",
+      "master_investing_entity": "Unidentified affiliates of QIA and Brookfield",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "1–5 Bank Street, London",
+      "event_type_master": "RELATED_PARTY_ASSET_TRANSFER",
+      "event_category_provisional": "INTERNAL_TRANSFER_OR_MERGER",
+      "event_status_master": "REPORTED_AS_ACQUIRED",
+      "announcement_date": "2026-08-13",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Kingdom",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.savills.com/research_articles/255800/396465-0",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.ft.com/content/382b1d01-8bfe-4933-a460-819bbc32eb59",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "GBP 625m total property purchase price; QIA allocation unknown",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B-professional corroboration; issuer filing not retrieved",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "Savills independently describes acquisition; seller and buyers are within common shareholder ecosystem. Cannot count GBP625m as new external Gulf capital.",
+        "next_verification": "Retrieve Canary Wharf Group asset disposal/related-party disclosure and legal property register."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 147,
+      "master_record_id": "V1.5_HOLDS-008",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA; Mubadala",
+      "master_investing_entity": "LP investors to Speedinvest MEA-focused fund; specific commitment vehicle not given",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "Speedinvest Middle East & Africa fund",
+      "event_type_master": "FUND_COMMITMENT",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "FUND_LAUNCH",
+      "announcement_date": "2026-04-20",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": null,
+      "master_flow_direction": "BILATERAL_OR_FUND_FORMATION",
+      "primary_evidence": {
+        "url": "https://www.wamda.com/2026/04/speedinvest-launches-mea-fund-backed-mubadala-qia-eib-global",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.tradingview.com/news/reuters.com%2C2026-04-20%3Anewsml_Zaw5VcylJ%3A0-zawya-speedinvest-launches-flagship-middle-east-and-africa-fund-backed-by-mubadala-qia-and-eib-global/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "Fund target/size is not Europe deployment; Gulf ticket unknown",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B-company-announcement reproduced by outlets",
+        "master_inclusion_decision": "HOLD_GEOGRAPHY",
+        "master_hold_reason": "Austrian manager does not make fund capital Europe-bound; primary issuer press release not independently retrieved.",
+        "next_verification": "Obtain Speedinvest original release and fund domicile/LP commitment documentation."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 148,
+      "master_record_id": "V2.0_2026-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "QIA; Mubadala",
+      "master_investing_entity": "QIA; Mubadala",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": true,
+      "event_name": "WHOOP Series G",
+      "event_type_master": "EQUITY_FINANCING",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "ROUND_RAISED",
+      "announcement_date": "2026-03-31",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://qia.qa/en/Newsroom/Pages/QIA-Participates-in-WHOOP-Series-G-Funding-Round-to-Support-Global-Expansion-of-Personalized-Health-Platform.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.whoop.com/es/en/press-center/whoop-announces-series-g-funding/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "USD 575m total round; QIA and Mubadala allocations undisclosed",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B_CLAIM_SPECIFIC",
+        "master_inclusion_decision": "ADMIT_CANDIDATE_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Locate formal closing/regulatory record and investor-level allocation; validate legal investing vehicle"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 149,
+      "master_record_id": "V1.3_EXCLUSIONS-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "UAE government",
+      "master_investing_entity": null,
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Greece €15bn intention",
+      "event_type_master": "POLICY_INVESTMENT_INTENTION",
+      "event_category_provisional": "STRATEGY_OR_SOURCE_EVENT",
+      "event_status_master": "Sovereign government announced investment intention; no traced investing vehicle or deployed transactions",
+      "announcement_date": "2026-10-22",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Greece",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/on-sidelines-of-crown-prince-of-abu-dhabis-visit-uae-announces-intention-to-invest-additional-15-billion-in-greece-to-strengthen-economic-and-strategic-partnership/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": null,
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "INITIAL_SOURCE_ONLY",
+        "master_inclusion_decision": "EXCLUSION",
+        "master_hold_reason": "Intention only; no deployable, traced vehicle",
+        "next_verification": "Commitments watchlist; no named deploying vehicle or cash flow."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 150,
+      "master_record_id": "V1.6_HOLDS-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "UAE-linked corporate (sovereign status unverified)",
+      "master_investing_entity": "NMDC Infra",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Lantania Aguas",
+      "event_type_master": "51% equity acquisition",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "CLOSED 2026-06-11",
+      "announcement_date": "2026-01-19",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Spain",
+      "master_flow_direction": "OTHER_OR_UNRESOLVED",
+      "primary_evidence": {
+        "url": "https://www.lantania.com/en/lantania-and-nmdc-infra-sign-a-strategic-agreement-to-create-a-global-leader-in-the-water-sector/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.lantania.com/en/lantania-aguas-changes-its-name-to-nmdc-lantania-water/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "Provisional consideration reported in consolidated financial statements",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A for reported event; not for unspecified settlement",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "Gulf-to-Europe acquisition proven, but qualifying sovereign ownership/control chain not established; not admit",
+        "next_verification": "Resolve investor-specific payment, closing and entity chain where relevant"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    }
+  ],
+  "quality": {
+    "count": 50,
+    "independently_reverified_in_batch": 0,
+    "audited_financial_profiles": 0,
+    "distinct_ids": 50,
+    "master_group_distribution": {
+      "OIA": 1,
+      "ADIA; Mubadala; QIA": 1,
+      "ADQ / L’IMAD": 1,
+      "ADQ / OIA": 1,
+      "DisruptAD": 1,
+      "EIA": 1,
+      "EIIC / National Holding (private UAE investor)": 1,
+      "L'IMAD / ADQ via AD Ports Group": 1,
+      "L’IMAD / Azerbaijan Investment Holding": 1,
+      "Masdar": 6,
+      "Masdar (TAQA/Mubadala/ADNOC ownership)": 1,
+      "Masdar / Mubadala": 1,
+      "Masdar / UAE": 4,
+      "MGX": 2,
+      "MGX / Mubadala-linked": 1,
+      "Mubadala / ADQ": 1,
+      "Mubadala / Aldar": 1,
+      "Mubadala / Masdar": 5,
+      "Mubadala Capital": 1,
+      "Mubadala/Masdar": 2,
+      "Mubadala/Masdar/TAQA": 1,
+      "Mumtalakat": 2,
+      "PIF / SACE": 1,
+      "PIF / Sanabil": 2,
+      "PIF / Savvy": 1,
+      "PIF / Soudah Development": 1,
+      "QIA / Goldman Sachs": 1,
+      "QIA / OIA": 1,
+      "QIA / Qai": 1,
+      "QIA with Brookfield": 1,
+      "QIA; Mubadala": 2,
+      "UAE government": 1,
+      "UAE-linked corporate (sovereign status unverified)": 1
+    }
+  }
+}
