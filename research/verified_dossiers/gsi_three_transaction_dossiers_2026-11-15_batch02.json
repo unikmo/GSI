@@ -1,0 +1,387 @@
+{
+  "dataset": "GSI_DEEP_DOSSIERS_2026_11_15_BATCH_02",
+  "prepared_date": "2026-11-15",
+  "review_status": "SELECTED_PRIMARY_CLAIMS_CHECKED_NOT_FULLY_CERTIFIED",
+  "purpose": "Replace master-ledger level transaction claims with issuer-verified capital settlement and pre-announcement historical financial metrics, preserving exact issuer metric basis.",
+  "count": 3,
+  "dossiers": [
+    {
+      "master_record_id": "GSI23M08-002",
+      "fund": "QIA",
+      "investee": "Reliance Retail Ventures Limited",
+      "target_country": "India",
+      "investment_vehicle": "Qatar Holding LLC",
+      "parent_vehicle_attribution": "QIA through wholly owned subsidiary",
+      "instrument": "PRIMARY_SHARE_SUBSCRIPTION",
+      "event_timeline": [
+        {
+          "date": "2023-08-23",
+          "status": "SIGNED_OR_ANNOUNCED",
+          "source_id": "RRVL-ANN-2023-08-23",
+          "claim": "Proposed subscription, 0.99% fully diluted, ₹8278 crore"
+        },
+        {
+          "date": "2023-09-06",
+          "status": "ISSUER_CONFIRMED_RECEIPT_AND_ALLOTMENT",
+          "source_id": "RRVL-CLOSE-2023-09-06",
+          "claim": "Company received ₹8278 crore and allotted 68,635,010 ordinary shares to Qatar Holding LLC"
+        }
+      ],
+      "economics": [
+        {
+          "metric": "investor_cash_received",
+          "value": 8278,
+          "unit": "INR crore",
+          "state": "ISSUER_CONFIRMED_FUNDS_RECEIVED",
+          "source_id": "RRVL-CLOSE-2023-09-06"
+        },
+        {
+          "metric": "new_shares_allotted",
+          "value": 68635010,
+          "unit": "shares",
+          "source_id": "RRVL-CLOSE-2023-09-06"
+        },
+        {
+          "metric": "fully_diluted_stake_announcement",
+          "value": 0.99,
+          "unit": "percent",
+          "scope": "Announcement indication, not independent post-closing cap table recalculation",
+          "source_id": "RRVL-ANN-2023-08-23"
+        },
+        {
+          "metric": "pre_money_equity_value",
+          "value": 8.278,
+          "unit": "INR lakh crore",
+          "scope": "Entire company valuation, not QIA ticket",
+          "source_id": "RRVL-ANN-2023-08-23"
+        }
+      ],
+      "historical_company_financials": [
+        {
+          "period": "FY2022-23",
+          "period_end": "2023-03-31",
+          "metric": "retail_segment_gross_revenue",
+          "value": 260394,
+          "unit": "INR crore",
+          "company_scope": "Reliance Industries consolidated retail segment, not legal entity standalone RRVL",
+          "basis": "Gross revenue/value of sales and services",
+          "publication": "2023",
+          "pre_announcement_period": true,
+          "publication_date_exact": "UNVERIFIED",
+          "source_id": "RIL-AR-2023"
+        },
+        {
+          "period": "FY2022-23",
+          "period_end": "2023-03-31",
+          "metric": "retail_segment_ebitda",
+          "value": 17974,
+          "unit": "INR crore",
+          "company_scope": "Reliance Industries consolidated retail segment, not legal entity standalone RRVL",
+          "basis": "Group annual report segment EBITDA; later investor deck uses alternative EBITDA vintage",
+          "publication": "2023",
+          "pre_announcement_period": true,
+          "publication_date_exact": "UNVERIFIED",
+          "source_id": "RIL-AR-2023"
+        }
+      ],
+      "strategy_assessment": {
+        "public_issuer_statement": "QIA seeks long-term innovative Indian high-growth consumer businesses",
+        "source_id": "RRVL-ANN-2023-08-23",
+        "analyst_fit": "SECTOR_STRATEGY_CONSISTENT_SELF_REPORTED",
+        "proven_internal_motivation": false
+      },
+      "uncertainties": [
+        "Exact posting date of RIL FY2023 annual report not independently verified before 23 August 2023",
+        "FY2023 financial metrics belong to retail segment; cannot equate to standalone RRVL audited statements",
+        "Fully diluted 0.99% per announcement not verified against post-closing complete cap table",
+        "No public investor IRR, later exits or investor-specific subsequent investment confirmed"
+      ],
+      "source_state": "PRIMARY_ISSUER_EXCHANGE_NOTICE_VERIFIED"
+    },
+    {
+      "master_record_id": "GSI22J06-001",
+      "fund": "PIF",
+      "investee": "Capital Bank of Jordan (Capital Bank Group)",
+      "target_country": "Jordan",
+      "investment_vehicle": "Wholly owned PIF subsidiary unnamed in contemporaneous announcement",
+      "instrument": "PRIMARY_BANK_EQUITY_SUBSCRIPTION",
+      "event_timeline": [
+        {
+          "date": "2022-06-05",
+          "status": "CONDITIONAL_AGREEMENT_SIGNED",
+          "source_id": "CBJ-AGREEMENT-2022-06-05",
+          "claim": "63,037,122 new shares for JOD131.2m, 23.97% expected stake; regulatory conditions open"
+        },
+        {
+          "date": null,
+          "status": "COMPLETION_CONFIRMED_EXACT_DATE_NOT_FOUND",
+          "source_id": "CBJ-COMPLETE",
+          "claim": "Bank later confirms completion and regulatory approvals, issuance of ~63m shares"
+        },
+        {
+          "date": "2022-10-31",
+          "status": "SUBSEQUENT_Q3_PRESENTATION",
+          "source_id": "CBJ-Q3-2022",
+          "claim": "Later issuer presentation gives 23.79% in one slide, conflicting with 23.97% in signed/completion disclosures"
+        }
+      ],
+      "economics": [
+        {
+          "metric": "confirmed_primary_subscription",
+          "value": 131.2,
+          "unit": "JOD million",
+          "state": "COMPLETION_CONFIRMED_BY_BANK",
+          "source_id": "CBJ-COMPLETE"
+        },
+        {
+          "metric": "new_shares_planned",
+          "value": 63037122,
+          "unit": "shares",
+          "source_id": "CBJ-SIGNING-REGULATORY"
+        },
+        {
+          "metric": "ownership_at_signing_anticipated",
+          "value": 23.97,
+          "unit": "percent",
+          "source_id": "CBJ-AGREEMENT-2022-06-05"
+        },
+        {
+          "metric": "alternate_stake_claim",
+          "value": 23.79,
+          "unit": "percent",
+          "source_id": "CBJ-Q3-2022",
+          "scope": "Contradiction from later bank presentation: do not silently choose a percentage"
+        }
+      ],
+      "historical_company_financials": [
+        {
+          "period": "FY2021",
+          "period_end": "2021-12-31",
+          "metric": "total_assets",
+          "value": 4311.305415,
+          "unit": "JOD million",
+          "source_id": "CBJ-SDC-REGULATORY",
+          "publication_exact_date": "NOT_VERIFIED_AS_PUBLIC_BY_SIGNING",
+          "period_pre_announcement": true
+        },
+        {
+          "period": "FY2021",
+          "period_end": "2021-12-31",
+          "metric": "net_income_attributable_to_shareholders",
+          "value": 78.813333,
+          "unit": "JOD million",
+          "source_id": "CBJ-SDC-REGULATORY",
+          "publication_exact_date": "NOT_VERIFIED_AS_PUBLIC_BY_SIGNING",
+          "period_pre_announcement": true
+        },
+        {
+          "period": "FY2020",
+          "period_end": "2020-12-31",
+          "metric": "total_assets",
+          "value": 2748.805317,
+          "unit": "JOD million",
+          "source_id": "CBJ-SDC-REGULATORY",
+          "publication_exact_date": "NOT_VERIFIED_AS_PUBLIC_BY_SIGNING",
+          "period_pre_announcement": true
+        }
+      ],
+      "strategy_assessment": {
+        "public_fund_statement": "MENA regional expansion and bank digital transformation",
+        "source_id": "PIF-CBJ-2022-06-05",
+        "analyst_fit": "OFFICIAL_TRANSACTION_RATIONALE_NOT_INDEPENDENT_CAUSAL_TEST",
+        "proven_internal_motivation": false
+      },
+      "uncertainties": [
+        "Actual completion date vs date of later issuer announcement not located",
+        "Bank presentation says 23.79% while multiple legal/completion disclosures say 23.97%",
+        "2021 bank regulatory series published today not proof publicly disclosed by deal signing",
+        "Bank profitability should use net interest income or operating profit; EBITDA not a suitable banking denominator"
+      ],
+      "source_state": "ISSUER_REGULATORY_AND_COMPLETION_RECORDS_CHECKED"
+    },
+    {
+      "master_record_id": "GSI23M05-004",
+      "fund": "PIF",
+      "investee": "Lucid Group, Inc.",
+      "target_country": "United States",
+      "investment_vehicle": "Ayar Third Investment Company (PIF affiliate)",
+      "instrument": "COMMON_STOCK_PRIVATE_PLACEMENT",
+      "event_timeline": [
+        {
+          "date": "2023-05-31",
+          "status": "SUBSCRIPTION_AGREEMENT_SIGNED",
+          "source_id": "LCID-2023-10K",
+          "claim": "Ayar agreed purchase of 265,693,703 common shares at $6.83/share"
+        },
+        {
+          "date": "2023-06",
+          "status": "ISSUED_PAID",
+          "source_id": "LCID-2023-10K",
+          "claim": "Shares issued; company received $1.8bn net proceeds, after $2.0m issuance costs. Exact day unspecified"
+        }
+      ],
+      "economics": [
+        {
+          "metric": "issued_common_shares",
+          "value": 265693703,
+          "unit": "shares",
+          "source_id": "LCID-2023-10K"
+        },
+        {
+          "metric": "price_per_share",
+          "value": 6.83,
+          "unit": "USD/share",
+          "source_id": "LCID-2023-10K"
+        },
+        {
+          "metric": "company_issuance_net_proceeds",
+          "value": 1800,
+          "unit": "USD million",
+          "state": "FUNDED_JUNE_2023",
+          "scope": "Issuer approximates to $1.8bn net; fees $2m, investor gross slightly greater",
+          "source_id": "LCID-2023-10K"
+        },
+        {
+          "metric": "net_proceeds_issuance_costs",
+          "value": 2,
+          "unit": "USD million",
+          "source_id": "LCID-2023-10K"
+        }
+      ],
+      "historical_company_financials": [
+        {
+          "period": "FY2022",
+          "period_end": "2022-12-31",
+          "metric": "GAAP_revenue",
+          "value": 608.181,
+          "unit": "USD million",
+          "publication_date": "2023-02-22",
+          "pre_announcement_public": true,
+          "source_id": "LCID-FY2022"
+        },
+        {
+          "period": "FY2022",
+          "period_end": "2022-12-31",
+          "metric": "GAAP_operating_loss",
+          "value": -2593.991,
+          "unit": "USD million",
+          "publication_date": "2023-02-22",
+          "pre_announcement_public": true,
+          "source_id": "LCID-FY2022"
+        },
+        {
+          "period": "FY2022",
+          "period_end": "2022-12-31",
+          "metric": "vehicle_production",
+          "value": 7180,
+          "unit": "vehicles",
+          "publication_date": "2023-02-22",
+          "pre_announcement_public": true,
+          "source_id": "LCID-FY2022"
+        },
+        {
+          "period": "FY2022",
+          "period_end": "2022-12-31",
+          "metric": "vehicle_deliveries",
+          "value": 4369,
+          "unit": "vehicles",
+          "publication_date": "2023-02-22",
+          "pre_announcement_public": true,
+          "source_id": "LCID-FY2022"
+        }
+      ],
+      "strategy_assessment": {
+        "public_rationale": "Existing controlling shareholder/PIF-backed long-term EV scale-up",
+        "source_id": "LCID-2023-10K",
+        "analyst_fit": "FOLLOW_ON_CAPITAL_SUPPORT_EXISTING_HOLDING",
+        "proven_internal_motivation": false
+      },
+      "uncertainties": [
+        "Lucid 2023 10-K published 2024: June 2023 cash settlement confirmation is retrospective, not contemporaneous",
+        "FY2022 operating loss is not EBITDA and must not be used interchangeably",
+        "Investor-specific gross subscription proceeds versus issuer net proceeds differ by issuance costs",
+        "No investor-level future IRR or economic value at mark-to-market automatically derived"
+      ],
+      "source_state": "SEC_10K_WITH_FY2022_PRE_ENTRY_DISCLOSURE"
+    }
+  ],
+  "sources": [
+    {
+      "id": "RRVL-ANN-2023-08-23",
+      "url": "https://www.ril.com/news-media/press-releases/qia-invest-rs-8278-crore-reliance-retail-ventures-limited",
+      "publisher": "Reliance Industries",
+      "published": "2023-08-23",
+      "kind": "ISSUER_RELEASE"
+    },
+    {
+      "id": "RRVL-CLOSE-2023-09-06",
+      "url": "https://www.ril.com/sites/default/files/2023-09/RIL-UpdateonQIA_signed.pdf",
+      "publisher": "Reliance Industries",
+      "published": "2023-09-06",
+      "kind": "EXCHANGE_DISCLOSURE"
+    },
+    {
+      "id": "RIL-AR-2023",
+      "url": "https://www.ril.com/ar2022-23/reliance-at-a-glance.html",
+      "publisher": "Reliance Industries",
+      "published": "2023",
+      "kind": "HISTORICAL_ISSUER_ANNUAL_REPORT"
+    },
+    {
+      "id": "CBJ-AGREEMENT-2022-06-05",
+      "url": "https://www.capitalbank.jo/en/personal/about-us/media-centre/pif-and-capital-bank-group-announce-signing-of-subscription",
+      "publisher": "Capital Bank of Jordan",
+      "published": "2022-06-05",
+      "kind": "ISSUER_AGREEMENT"
+    },
+    {
+      "id": "PIF-CBJ-2022-06-05",
+      "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2022/pif-and-capital-bank-group/",
+      "publisher": "PIF",
+      "published": "2022-06-05",
+      "kind": "FUND_RELEASE"
+    },
+    {
+      "id": "CBJ-SIGNING-REGULATORY",
+      "url": "https://web.jsc.gov.jo/xbrl_api/xbrl_files/10009/10009-DIMI-305-05-06-2022-09-17-38.pdf",
+      "publisher": "Jordan Securities Commission",
+      "published": "2022-06-05",
+      "kind": "REGULATORY_FILING"
+    },
+    {
+      "id": "CBJ-COMPLETE",
+      "url": "https://www.capitalbank.jo/en/personal/about-us/media-centre/capital-bank-group-completion-of-deal-pif",
+      "publisher": "Capital Bank of Jordan",
+      "published": null,
+      "kind": "ISSUER_COMPLETION_NOTICE"
+    },
+    {
+      "id": "CBJ-Q3-2022",
+      "url": "https://www.capitalbank.jo/-/media/pdfs/investor-relations/capital-bank-investors-relations-presentation-q3---20221.ashx",
+      "publisher": "Capital Bank of Jordan",
+      "published": "2022-10",
+      "kind": "INVESTOR_PRESENTATION"
+    },
+    {
+      "id": "CBJ-SDC-REGULATORY",
+      "url": "https://sdc.com.jo/en/companyInfo?member_info=111017",
+      "publisher": "Securities Depository Center Jordan",
+      "published": null,
+      "kind": "REGULATOR_HISTORICAL_SERIES"
+    },
+    {
+      "id": "LCID-2023-10K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024007209/lcid-20231231.htm",
+      "publisher": "Lucid Group / SEC",
+      "published": "2024-02-27",
+      "kind": "AUDITED_SEC_REPORT"
+    },
+    {
+      "id": "LCID-FY2022",
+      "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-announces-fourth-quarter-and-full-year-2022-financial/",
+      "publisher": "Lucid Group",
+      "published": "2023-02-22",
+      "kind": "HISTORICAL_ISSUER_FINANCIAL_RESULTS"
+    }
+  ]
+}
