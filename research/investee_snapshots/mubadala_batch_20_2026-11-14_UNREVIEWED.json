@@ -1,0 +1,813 @@
+{
+  "batch_id": "MUBADALA_20_2026-11-14",
+  "created_on": "2026-11-14",
+  "status": "UNREVIEWED_NOT_DECISION_GRADE",
+  "scope": "20 distinct existing master records, source-linked quantitative transaction/operational enrichment. NOT 20 full audited financial statements.",
+  "data_policy": "No investor-specific ticket inferred from aggregate value; no EBITDA or valuation imputed; no retrospective source promoted to public-at-deal; exit proceeds separated.",
+  "records": [
+    {
+      "master_record_id": "GSI22F02-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Princeton Digital Group",
+      "investment_family": "DATA_CENTRE_GROWTH_EQUITY",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2022-02-22",
+      "transaction_status_master": "ANNOUNCED_AGREEMENT_2022_02_22",
+      "destination_country_master": "Singapore",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-invest-350m-princeton-digital-group-asias-leading-data-center-company",
+      "source_independent_master": "https://www.mubadala.com/en/what-we-do/real-assets",
+      "supplementary_source": "https://princetondg.com/newsroom/pdg-raises-500m-plus-latest-equity-round/",
+      "observations": {
+        "investor_specific_usd_m": 350,
+        "round_total_usd_m": 505,
+        "existing_investors": [
+          "Warburg Pincus",
+          "Ontario Teachers'"
+        ],
+        "data_centres": 20,
+        "secured_capacity_mw": 600,
+        "countries_operating": 5
+      },
+      "interpretation": "Issuer reported closed equity investment; investment round headline exceeds US$500m",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI22A04-006",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Tata Power Renewable Energy",
+      "investment_family": "CONVERTIBLE_AND_EQUITY_CONSORTIUM",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala with BlackRock Real Assets-led consortium",
+      "announcement_date_master": "2022-04-14",
+      "transaction_status_master": "SIGNED_2022_04_14_CLOSING_PENDING",
+      "destination_country_master": "India",
+      "source_primary_master": "https://www.mubadala.com/en/news/tata-power-create-indias-most-comprehensive-renewable-energy-platform",
+      "source_independent_master": "https://www.tatapower.com/content/dam/tatapoweraemsitesprogram/tatapower/pdf-root/stock-exchange-compliance/stock-exchange-intimation/2022/april/Reg%2030%20-%20Consolidation%20of%20Renewables%20Business%20and%20execution%20of%20binding%20agreements%20to%20raise%20Rs.%204000%20Cr%20in%20TPREL%20-%2014.04.2022.pdf",
+      "supplementary_source": null,
+      "observations": {
+        "consortium_commitment_usd_m": 525,
+        "combined_equity_stake_pct": 10.53,
+        "base_equity_valuation_usd_bn": 4.46,
+        "renewable_asset_capacity_gw": 4.9,
+        "existing_investors": [
+          "Tata Power"
+        ],
+        "co_investors": [
+          "BlackRock Real Assets"
+        ]
+      },
+      "interpretation": "Signed binding consortium agreement; Mubadala share of consortium capital not disclosed",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI22J06-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Envirotainer",
+      "investment_family": "CONTROL_OR_SIGNIFICANT_MINORITY_PE",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala alongside EQT X",
+      "announcement_date_master": "2022-06-07",
+      "transaction_status_master": "SIGNED_2022_06_01_ANNOUNCED_2022_06_07",
+      "destination_country_master": "Sweden",
+      "source_primary_master": "https://news.cision.com/eqt/r/eqt-private-equity-and-mubadala-to-acquire-envirotainer--the-leading-global-provider-of-mission-crit%2Cc3580034",
+      "source_independent_master": "https://www.clearygottlieb.com/news-and-insights/news-listing/mubadala-invests-in-envirotainer",
+      "supplementary_source": "https://annual2022.mubadala.com/en/news/envirotainer-and-dca-ageing-populations-and-access-to-care",
+      "observations": {
+        "mubadala_reported_ownership_pct": 30,
+        "investment_eur_m": 600,
+        "shipments_medicine_doses_per_day_approx": 2000000
+      },
+      "interpretation": "Mubadala retrospective 2022 report; 30% ownership, EUR600m reported investment; 2022 annual report published later",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI22D12-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Dental Care Alliance",
+      "investment_family": "HEALTHCARE_RECAPITALISATION",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala / Harvest Partners",
+      "announcement_date_master": "2022-12",
+      "transaction_status_master": "CLOSED_DECEMBER_2022_REPORTED_2023_01_16",
+      "destination_country_master": "United States",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-acquires-dental-care-alliance",
+      "source_independent_master": null,
+      "supplementary_source": "https://www.mubadala.com/en/news/mubadala-acquires-dental-care-alliance",
+      "observations": {
+        "mubadala_reported_stake_pct": 47,
+        "allied_dental_practices_approx": 390,
+        "dentists_more_than": 885,
+        "patient_visits_annual_m": 3.5,
+        "employees_approx": 5400
+      },
+      "interpretation": "Recapitalisation closed Dec 2022; issuer announcement Jan 2023, ownership stake from Mubadala retrospective annual review",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI22D12-004",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "OMV",
+      "investment_family": "STAKE_DIVESTMENT",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Petroleum and Petrochemicals Holding / ADNOC",
+      "announcement_date_master": "2022-12-20",
+      "transaction_status_master": "SIGNED_2022_12_20_CLOSED_2024_02_28",
+      "destination_country_master": "Austria",
+      "source_primary_master": "https://www.adnoc.ae/media-center/news/2022/12/adnoc-acquires-stake-in-omv",
+      "source_independent_master": "https://www.omv.com/en/investors/news-and-events/news/2024/mubadala-transferred-its-shares-in-omv-ag-to-adnoc",
+      "supplementary_source": "https://www.omv.com/en/investors/news-and-events/news/2024/mubadala-transferred-its-shares-in-omv-ag-to-adnoc",
+      "observations": {
+        "stake_divested_pct": 24.9,
+        "book_value_in_2022_aed_m": 16315,
+        "reported_sale_proceeds": null,
+        "reported_exit_irr": null
+      },
+      "interpretation": "Signed Dec 2022; actual transfer 28 Feb 2024 as confirmed by OMV issuer; book value is NOT sale consideration",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M05-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Brightspeed",
+      "investment_family": "FIBRE_INFRA_GROWTH_EQUITY",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2023-05-02",
+      "transaction_status_master": "ANNOUNCED_SUBJECT_TO_CLOSING_VERIFICATION",
+      "destination_country_master": "United States",
+      "source_primary_master": "https://www.brightspeed.com/brightspeed-news/mubadala-to-invest-500-million-in-us-broadband-company-brightspeed-alongside-apollo-funds/",
+      "source_independent_master": "https://www.thenationalnews.com/business/economy/2023/05/02/mubadala-to-invest-500m-in-us-broadband-company-brightspeed/",
+      "supplementary_source": null,
+      "observations": {
+        "mubadala_reported_commitment_usd_m": 500,
+        "potential_homes_and_businesses_m": 6.5,
+        "co_investors": [
+          "Apollo-managed funds"
+        ]
+      },
+      "interpretation": "Company announcement of intended Mubadala minority equity investment; settlement and operating EBITDA not verified",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M05-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "CoolIT Systems",
+      "investment_family": "PE_COINVESTMENT_ENTRY",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala wholly owned subsidiary alongside KKR funds",
+      "announcement_date_master": "2023-05-01",
+      "transaction_status_master": "SIGNED_MAY_1_CLOSED_JUNE_30",
+      "destination_country_master": "Canada",
+      "source_primary_master": "https://www.clearygottlieb.com/news-and-insights/news-listing/mubadala-co-invests-with-kkr-to-acquire-coolit",
+      "source_independent_master": "https://www.mubadala.com/en/news/mubadala-invests-in-coolit-systems-alongside-kkr",
+      "supplementary_source": "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction",
+      "observations": {
+        "investing_partners": [
+          "KKR"
+        ],
+        "exit_announced_year": 2026,
+        "exit_acquirer": "Ecolab",
+        "headline_exit_transaction_usd_bn": 4.75
+      },
+      "interpretation": "Original 2023 acquisition; 2026 exit headline is later hindsight, NOT Mubadala proceeds",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M05-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Fortress Investment Group",
+      "investment_family": "ASSET_MANAGER_TAKEOVER",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Capital and Fortress management",
+      "announcement_date_master": "2023-05-22",
+      "transaction_status_master": "SIGNED_MAY_2023_CLOSED_MAY_15_2024",
+      "destination_country_master": "United States",
+      "source_primary_master": "https://www.mubadala.com/en/news/fortress-management-and-mubadala-to-acquire-fortress-investment-group",
+      "source_independent_master": "https://www.fortress.com/news/2024-05-15-fortress-management-and-mubadala-complete-acquisition-of-fortress-investment-group",
+      "supplementary_source": "https://www.mubadala.com/en/news/fortress-management-and-mubadala-complete-acquisition-of-fortress-investment-group",
+      "observations": {
+        "softbank_holding_acquired_pct": 90.01,
+        "management_stake_at_close_pct": 32,
+        "consortium_stake_at_close_pct": 68
+      },
+      "interpretation": "Signed May 2023, subsequently completed 15 May 2024; stake percentages are ownership of FORTRESS, not Mubadala exclusive percentage",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M07-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Rio Grande LNG Phase 1",
+      "investment_family": "PROJECT_FINANCE_JOINT_VENTURE",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "MIC TI Holding Company 2 RSC Limited / Mubadala",
+      "announcement_date_master": "2023-07-12",
+      "transaction_status_master": "JV_AGREEMENT_CLOSED_COMMITMENT_NOT_FULLY_DISBURSED",
+      "destination_country_master": "United States",
+      "source_primary_master": "https://www.mubadala.com/en/news/nextdecade-announces-positive-final-investment-decision-on-rio-grande-lng-phase-1",
+      "source_independent_master": "https://www.sec.gov/Archives/edgar/data/1612720/000162828024010236/next-20231231.htm",
+      "supplementary_source": null,
+      "observations": {
+        "phase1_financing_usd_bn": 18.4,
+        "aggregate_jv_equity_commitments_usd_bn": 5.9,
+        "bank_facilities_usd_bn": 11.6,
+        "private_notes_usd_bn": 0.7,
+        "phase1_capacity_mtpa": 17.6,
+        "contracted_lng_mtpa": 16.2
+      },
+      "interpretation": "FID, equity JV and senior financing reported closed; no individual Mubadala equity allocation published",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M08-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Aligned Data Centers",
+      "investment_family": "DIGITAL_INFRASTRUCTURE_MINORITY",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2023-08-02",
+      "transaction_status_master": "INVESTED_ANNOUNCED_AUGUST_2",
+      "destination_country_master": "United States",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-invests-in-aligned-data-centers-a-pan-american-data-center-company",
+      "source_independent_master": "https://www.datacenterdynamics.com/en/news/mubadala-invests-in-aligned-data-centers-takes-minority-stake/",
+      "supplementary_source": null,
+      "observations": {
+        "full_buildout_capacity_gw_more_than": 2.5,
+        "full_buildout_data_centres_more_than": 40,
+        "co_investor": [
+          "Macquarie Asset Management"
+        ],
+        "operating_region": "Americas"
+      },
+      "interpretation": "Mubadala investment announced; capacity is full-buildout forward-looking, not operational at entry",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M09-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Blue Owl Capital technology lending",
+      "investment_family": "PRIVATE_CREDIT_STRATEGY_COMMITMENT",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2023-09-11",
+      "transaction_status_master": "COMMITTED_NOT_FULLY_DRAWN",
+      "destination_country_master": "United States",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-commits-1-billion-to-blue-owl",
+      "source_independent_master": "https://www.thenationalnews.com/business/economy/2023/09/11/mubadala-commits-1bn-to-asset-manager-blue-owls-credit-platform/",
+      "supplementary_source": null,
+      "observations": {
+        "mubadala_commitment_usd_bn": 1,
+        "asset_class": "technology and software lending"
+      },
+      "interpretation": "Capital committed to Blue Owl Credit platform, not acquisition of operating-company equity",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M10-001",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Osstem Implant",
+      "investment_family": "DENTAL_TECHNOLOGY_COINVESTMENT",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2023-10-04",
+      "transaction_status_master": "ANNOUNCED_2023_10_04_CLOSING_NOT_ESTABLISHED",
+      "destination_country_master": "South Korea",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-invests-in-leading-korean-dental-implant-manufacturer-osstem-implant",
+      "source_independent_master": "https://www.mubadala.com/en/what-we-do/private-equity",
+      "supplementary_source": null,
+      "observations": {
+        "markets_more_than": 30,
+        "dentists_trained_annually_more_than": 110000,
+        "training_centres": 120,
+        "co_investors": [
+          "MBK Partners",
+          "Unison Capital"
+        ]
+      },
+      "interpretation": "Mubadala investment announced; investee earnings pending pre-deal filings",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI23M12-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Zenobē Energy",
+      "investment_family": "ENERGY_STORAGE_COINVESTMENT",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2023-12-05",
+      "transaction_status_master": "INVESTMENT_ANNOUNCED_2023_12_05",
+      "destination_country_master": "United Kingdom",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-invests-in-zenobe-reinforcing-commitment-to-sustainable-infrastructure",
+      "source_independent_master": "https://annual2023.mubadala.com/en/case-studies/sustainable-transport-with-zenobe",
+      "supplementary_source": "https://annual2023.mubadala.com/en/case-studies/sustainable-transport-with-zenobe",
+      "observations": {
+        "supported_electric_vehicles_more_than": 1000,
+        "battery_storage_operation_or_construction_mw": 430,
+        "infracapital_expansion_investment_gbp_m": 270,
+        "co_investor": [
+          "Infracapital"
+        ]
+      },
+      "interpretation": "Infracapital £270m is NOT proven Mubadala-specific investment; vehicle fleet/megawatts cited in retrospective 2023 review",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI24F02-002",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Manipal Health Enterprises",
+      "investment_family": "SECONDARY_HEALTHCARE_EQUITY",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2024-02-05",
+      "transaction_status_master": "ANNOUNCED_2024_02_05",
+      "destination_country_master": "India",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-invests-in-india-manipal-health-enterprises",
+      "source_independent_master": null,
+      "supplementary_source": "https://www.manipalhospitals.com/uploads/press_releases/press_pdf/6__Press_Release_MHE_welcomes_new_investors_02_February_2024_%281%29.pdf",
+      "observations": {
+        "annual_patient_visits_approx_m": 6,
+        "hospitals_more_than": 30,
+        "doctors_more_than": 5000,
+        "majority_shareholder": "Temasek",
+        "other_investors": [
+          "Novo Holdings",
+          "CalPERS"
+        ]
+      },
+      "interpretation": "Company reports new minority investors and continued Temasek majority; Mubadala stake/cheque undisclosed",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI24A08-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Yondr Group",
+      "investment_family": "HYPERSCALE_DATA_CENTRE_GROWTH",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2024-08-21",
+      "transaction_status_master": "INVESTMENT_ANNOUNCED",
+      "destination_country_master": "United Kingdom",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-invests-in-leading-global-hyperscale-data-center-developer-yondr-group",
+      "source_independent_master": "https://www.mubadala.com/en/what-we-do/private-equity",
+      "supplementary_source": null,
+      "observations": {
+        "contracted_and_reserved_capacity_mw": 878,
+        "operational_capacity_mw": 58,
+        "co_investor": [
+          "Apollo-managed funds"
+        ]
+      },
+      "interpretation": "Operating and pipeline capacity from investor release, not EBITDA or completed facility revenues",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI24N11-008",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Zelis",
+      "investment_family": "HEALTHCARE_PAYMENTS_MINORITY",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2024-11-26",
+      "transaction_status_master": "CLOSED_2024_11_26_REPORTED_2024_12_05",
+      "destination_country_master": "United States",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-announces-strategic-investment-in-zelis",
+      "source_independent_master": "https://www.mubadala.com/en/news/mubadala-announces-strategic-investment-in-zelis",
+      "supplementary_source": null,
+      "observations": {
+        "majority_shareholders": [
+          "Parthenon",
+          "Bain Capital"
+        ],
+        "coinvestors": [
+          "Norwest",
+          "HarbourVest"
+        ]
+      },
+      "interpretation": "Mubadala signed minority stake purchase; check master date against investor release dated Dec 5, 2024",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI24N11-005",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "CI Financial",
+      "investment_family": "PUBLIC_TO_PRIVATE_ACQUISITION",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Capital affiliate",
+      "announcement_date_master": "2024-11-25",
+      "transaction_status_master": "DEFINITIVE_AGREEMENT_SIGNED",
+      "destination_country_master": "Canada",
+      "source_primary_master": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+      "source_independent_master": "https://www.mubadalacapital.ae/newsroom",
+      "supplementary_source": null,
+      "observations": {
+        "equity_valuation_cad_bn": 4.7,
+        "enterprise_value_cad_bn": 12.1,
+        "price_per_share_cad": 32,
+        "ifrs_q3_2024_net_revenue_cad_m": 785.4,
+        "ifrs_q3_2024_ebitda_cad_m": 124.8
+      },
+      "interpretation": "Deal signed 25 Nov 2024 and completed Aug 2025; EBITDA quarterly vs EV headline, no derived multiple",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI25F02-004",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Apleona",
+      "investment_family": "FACILITIES_MANAGEMENT_COINVESTMENT",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2025-02-17",
+      "transaction_status_master": "AGREED_2025_02_17_SUBJECT_TO_REGULATORY_APPROVAL",
+      "destination_country_master": "Germany",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-announces-investment-in-apleona-alongside-bain-capital",
+      "source_independent_master": "https://www.mubadala.com/en/what-we-do/apleona",
+      "supplementary_source": null,
+      "observations": {
+        "coinvestor": [
+          "Bain Capital"
+        ],
+        "ownership_stake": "minority",
+        "prior_acquisitions_mentioned": 14
+      },
+      "interpretation": "Announced minority equity agreement; acquisitions count in company profile may be later than event date, keep as context not at-entry KPI",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI25A04-003",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Nord Anglia Education",
+      "investment_family": "K12_EDUCATION_MINORITY",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company",
+      "announcement_date_master": "2025-04-17",
+      "transaction_status_master": "AGREED_2025_04_17_CLOSING_UNVERIFIED",
+      "destination_country_master": "United Kingdom",
+      "source_primary_master": "https://www.mubadala.com/en/news/mubadala-announces-600-million-dollar-investment-in-nord-anglia-education-led-by-eqt",
+      "source_independent_master": null,
+      "supplementary_source": null,
+      "observations": {
+        "mubadala_announced_investment_usd_m": 600,
+        "schools_2025": 89,
+        "countries_2025": 37,
+        "students_more_than": 100000,
+        "coinvestors": [
+          "EQT",
+          "Neuberger Berman",
+          "CPP Investments",
+          "Corporación Financiera Alba",
+          "Dubai Holding"
+        ]
+      },
+      "interpretation": "US$600m Mubadala-specific stated commitment; check completion vs announcement",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    },
+    {
+      "master_record_id": "GSI23F02-006",
+      "master_source_version": "v9.6_WORKING",
+      "investee": "Truist Insurance Holdings / CRC Group",
+      "investment_family": "INSURANCE_BROKERAGE_COINVESTMENT",
+      "investor_group": "Mubadala",
+      "investing_entity_master": "Mubadala Investment Company (wholly owned subsidiary)",
+      "announcement_date_master": "2023-02-16",
+      "transaction_status_master": "PURCHASE_AGREEMENT_SIGNED_NOT_CLOSED",
+      "destination_country_master": "United States",
+      "source_primary_master": "https://www.stonepoint.com/news/truist-announces-agreement-to-sell-minority-stake-in-truist-insurance-holdings-to-stone-point-capital-valuing-the-business-at-14-75-billion/",
+      "source_independent_master": "https://www.clearygottlieb.com/news-and-insights/news-listing/mubadala-in-a-co-investment-alongside-stone-point-capital-for-the-acquisition-of-a-minority-stake-in-truist-insurance",
+      "supplementary_source": "https://annual2024.mubadala.com/en/global-champions-and-value-chains/the-transformational-journey-of-truist-insurance-holdings-to-crc-group",
+      "observations": {
+        "initial_consortium_stake_pct": 20,
+        "initial_consortium_transaction_usd_bn": 1.95,
+        "company_value_reported_usd_bn": 14.75,
+        "mubadala_reported_total_two_tranches_usd_bn": 1.2
+      },
+      "interpretation": "2023 initial aggregate minority acquisition; Mubadala 2024 annual retrospective states US$1.2bn invested across BOTH 2023/2024 tranches, not 2023 cheque",
+      "financial_snapshot": {
+        "revenue": null,
+        "ebitda": null,
+        "ebitda_margin": null,
+        "net_debt": null,
+        "valuation": null,
+        "period_basis": "UNKNOWN_UNLESS_EXPLICITLY_NAMED_IN_OBSERVATIONS",
+        "disclosure_state": "PARTIAL_ONLY_NO_COMPLETE_FINANCIALS"
+      },
+      "research_state": "UNREVIEWED",
+      "evidence_status": "SOURCE_LINKED_RESEARCH_TRIAGE",
+      "reportability": "NO_C_SUITE_FIT_UNTIL_FINANCIAL_AND_SOURCE_QA",
+      "qa_flags": [
+        "Master row is unreviewed; statements are not confirmed as settled cash unless independently established",
+        "Press release is proof of announcement, not automatic verification of underlying transaction economics",
+        "Metric fields retain their stated scopes and dates; retrospective metrics are not pre-announcement public facts"
+      ]
+    }
+  ],
+  "summary": {
+    "count": 20,
+    "complete_financial_profiles": 0,
+    "financial_data_structured_followup_required": 20,
+    "distinct_master_ids": 20
+  }
+}
