@@ -63,8 +63,8 @@
       "description": "Quarterly SEC filing reports cash paid net of acquired cash and adjustments; NOT investor-specific proceeds"
     }
   ],
-  "acquirer_cash_paid_usd_millions": 4627,
-  "acquirer_cash_paid_scope": "Ecolab cash acquisition consideration net of acquired cash and adjustments reported in 2026-09-30 Form 10-Q; not Mubadala proceeds",
+  "acquirer_cash_paid_usd_millions": 4627.2,
+  "acquirer_cash_paid_scope": "Ecolab's preliminary total consideration transferred to sellers net of cash acquired; USD million per 2026-09-30 Form 10-Q (not Mubadala's investor-specific proceeds).",
   "research_corrections": [
     {
       "date": "2026-11-14",
@@ -72,6 +72,25 @@
       "previous": "SIGNED_AGREEMENT_NOT_CLOSED",
       "new": "COMPLETED_ACQUISITION_2026-07-02",
       "basis": "Buyer's dated closing statement and SEC filings"
+    },
+    {
+      "date": "2026-11-14",
+      "field": "acquirer_cash_paid_usd_millions",
+      "previous": 4627,
+      "new": 4627.2,
+      "basis": "Exact preliminary amount in Ecolab 2026 Q3 10-Q"
     }
-  ]
+  ],
+  "sec_acquisition_allocation": {
+    "as_of": "2026-07-02",
+    "filing_period_end": "2026-09-30",
+    "status": "PRELIMINARY_PURCHASE_ACCOUNTING",
+    "goodwill_usd_millions": 3251.1,
+    "customer_relationships_usd_millions": 881.4,
+    "technology_usd_millions": 641.6,
+    "trademarks_usd_millions": 232.7,
+    "net_tangible_liabilities_usd_millions": -379.6,
+    "source": "https://www.sec.gov/Archives/edgar/data/31462/000162828026068208/ecl-20260930.htm",
+    "accounting_caution": "Acquisition accounting is preliminary and not a substitute for the target's standalone historical EBITDA or the minority shareholder's realised gain."
+  }
 }
