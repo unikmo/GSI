@@ -1,0 +1,40 @@
+{
+  "research_state": "UNREVIEWED",
+  "master_record_id": "GSI26B02-010",
+  "investee": "CoolIT Systems",
+  "investor_group": "Mubadala",
+  "investing_vehicle": "Unverified exact legal vehicle",
+  "original_entry_year": 2023,
+  "original_entry_announcement": "Investor self-reports 2023 co-investment alongside KKR",
+  "divestment_announcement_date": "2026-03-26",
+  "divestment_status_at_announcement": "SIGNED_AGREEMENT_NOT_CLOSED",
+  "buyer": "Ecolab",
+  "total_transaction_value_usd_millions": 4750,
+  "total_value_scope": "Entire KKR-led transaction, not proceeds attributable to Mubadala",
+  "mubadala_cash_proceeds": null,
+  "mubadala_cost_basis": null,
+  "realised_irr": null,
+  "realised_moic": null,
+  "issuer_operating_claims": {
+    "manufacturing_footprint_sqft": "More than 300000 after expansion since 2023",
+    "cooling_distribution_unit_capacity_growth": "25x since 2023",
+    "projected_revenue_growth_to_2026": "Approximately 4x, projected, not audited actual",
+    "projected_ebitda_growth_to_2026": "Approximately 10x, projected, not audited actual"
+  },
+  "macro_and_political_context_status": "NOT_YET_VERIFIED",
+  "strategy_alignment_status": "NOT_ASSESSABLE_UNTIL_DATED_STRATEGY_EVIDENCE",
+  "causal_explanation_status": "FUND_SELF_REPORT_ONLY",
+  "open_questions": [
+    "Find 2023 entry financial and ownership baseline",
+    "Verify eventual completion and actual cash settlement",
+    "Identify holding vehicle and exact stake",
+    "Determine investor-specific proceeds and cost basis",
+    "Check dated strategy sources and contemporaneous macro series",
+    "Do not infer political motive without direct documentary proof"
+  ],
+  "primary_source": {
+    "publisher": "Mubadala",
+    "published_on": "2026-03-26",
+    "url": "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction"
+  }
+}
