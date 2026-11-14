@@ -1,0 +1,3193 @@
+{
+  "batch_id": "GSI_FINAL_150_PART_2_2026-11-15",
+  "status": "UNREVIEWED_MASTER_TRIAGE",
+  "master_sha": "610848672338b4f278bbe103ee13e15f37bceac1",
+  "scope": "50 distinct previously unbatched records. Not 50 independently corroborated investments or audited financial profiles.",
+  "funding_policy": "Headline deal amounts, commitments, 13F positions, third-party investments and JV totals are not assumed to be investor-specific settled capital.",
+  "records": [
+    {
+      "sequence": 51,
+      "master_record_id": "GSI-2020-SEP-013",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "Abu Dhabi Developmental Holding",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Emirates Nuclear Energy Corporation transfer to ADQ",
+      "event_type_master": "OWNERSHIP_TRANSFER",
+      "event_category_provisional": "INTERNAL_TRANSFER_OR_MERGER",
+      "event_status_master": "Retrospective bond documentation says ENEC transferred to ADQ September 2020",
+      "announcement_date": "2020-09-01",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://www.rns-pdf.londonstockexchange.com/rns/4581M_1-2024-4-29.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "ENTITY_HISTORY_ONLY",
+        "master_amount_basis": "NONE",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "DOMESTIC_GULF",
+        "master_hold_reason": null,
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 52,
+      "master_record_id": "GSI-2021-JAN-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Biocon Biologics 1.80% minority primary-equity stake India",
+      "event_type_master": "Proposed primary equity investment",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "BOARD_APPROVED_PENDING_CONDITIONS",
+      "announcement_date": "2021-01-07",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "India",
+      "master_flow_direction": "CROSS_BORDER_OUTBOUND",
+      "primary_evidence": {
+        "url": "https://www.biocon.com/biocon-biologics-receives-rs-555-cr-usd-75-million-capital-injection-from-adq/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.biocon.com/biocon-q3fy21-results/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": "75000000",
+        "master_claim_currency": "USD",
+        "master_claim_unit": "absolute",
+        "master_claim_scope": "USD 75m investor-specific proposed investment (Rs 555 crore); not confirmed settled in announcement",
+        "master_amount_basis": "USD 75m investor-specific proposed investment (Rs 555 crore); not confirmed settled in announcement",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Find filing showing satisfaction of conditions and allotment/payment date"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 53,
+      "master_record_id": "GSI21A08-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Trendyol $1.5bn financing round participation",
+      "event_type_master": "FUNDING_ROUND",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "AGREEMENTS_ANNOUNCED_2021_08_09",
+      "announcement_date": "2021-08-09",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Türkiye",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.invest.gov.tr/en/news/news-from-turkey/pages/trendyol-becomes-turkeys-first-decacorn.aspx",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://finance.yahoo.com/news/1-turkeys-trendyol-raises-1-071411548.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "ROUND_TOTAL_1500_NOT_ADQ_TICKET",
+        "master_amount_basis": "ROUND_TOTAL_1500_NOT_ADQ_TICKET",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Confirm closing, investing subsidiary and ticket with original issuer or ADQ release."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 54,
+      "master_record_id": "GSI21J06-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ / Abu Dhabi National Exhibitions Company",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "ADQ offer to combine ADNEC with Abu Dhabi National Hotels",
+      "event_type_master": "PROPOSED_DOMESTIC_RESTRUCTURING",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "PROPOSAL_SUBMITTED",
+      "announcement_date": "2021-06-09",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://www.wam.ae/en/article/hszrcgo3-adq-offers-combine-abu-dhabi-national-hotels-and",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "AED20bn estimated combined assets are NOT consideration/deployment",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "DOMESTIC_GULF",
+        "master_hold_reason": "Unconsummated proposal in June; combination of locally held assets.",
+        "next_verification": "Check ADNH regulatory filings for board response and eventual outcome"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 55,
+      "master_record_id": "GSI21J06-008",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "ADQ inaugural Aa2 / AA credit ratings",
+      "event_type_master": "CREDIT_RATING_EVENT",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "RATINGS_PUBLISHED",
+      "announcement_date": "2021-06-22",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/moodys-and-fitch-assign-very-strong-investment-grade-credit-ratings-of-aa2-and-aa-to-adq/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "Credit ratings; no acquisition or deployment",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "MONITORING",
+        "master_hold_reason": "Useful funding/credit and entity profile context but not a transaction.",
+        "next_verification": "Link rating mandate to financing profile without inferring deal-level activity"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 56,
+      "master_record_id": "GSI21M05-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ consolidated group",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "44.5% stake in National Marine Dredging Company (NMDC) disposed",
+      "event_type_master": "EQUITY_DIVESTMENT",
+      "event_category_provisional": "EXIT_OR_DIVESTMENT_CANDIDATE",
+      "event_status_master": "COMPLETED_DIVESTMENT",
+      "announcement_date": "2021-05-18",
+      "filing_date": null,
+      "completion_date_master": "2021-05-18",
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://www.adq.ae/cdn-assets/documents/662ec48a163f23fdaf370442-adq-group-consolidated-financial-statements-ye-2022-.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": "1450",
+        "master_claim_currency": "AED",
+        "master_claim_unit": null,
+        "master_claim_scope": "ADQ consideration for 44.5% disposal in AED millions; NOT capital deployed",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "DOMESTIC_GULF",
+        "master_hold_reason": "Audited 2022 statements note 37.3: 44.5% of 58.48% disposed 18 May 2021 for AED1,450m, retained stake recorded at fair value.",
+        "next_verification": "Determine counterparty/shareholder deemed distribution mechanics; avoid treating as third-party cash proceeds without independent verification."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 57,
+      "master_record_id": "GSI21N11-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ (jointly with Alpha Dhabi Holding)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "OCI Methanol Group 15% minority stake proposed placement",
+      "event_type_master": "MINORITY_STAKE_PROPOSED",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "ANNOUNCED_NON_BINDING_2021_11_22",
+      "announcement_date": "2021-11-22",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Netherlands",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://oci-global.com/news-stories/press-releases/oci-n-v-enters-into-strategic-alliance-with-adq-and-alpha-dhabi-holding-through-placement-of-15-of-methanol-group/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2276302-oci-partners-with-investors-on-hydrogen-methanol",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "USD375M_JOINT_ADQ_AND_ALPHA_DHABI_CONSIDERATION_NOT_ADQ_SPECIFIC",
+        "master_amount_basis": "USD375M_JOINT_ADQ_AND_ALPHA_DHABI_CONSIDERATION_NOT_ADQ_SPECIFIC",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": "Investor-specific capital not disclosed",
+        "next_verification": "Check completion and investor-specific split; do not assign full USD375m to ADQ"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 58,
+      "master_record_id": "GSI21S09-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Acino Pharma acquisition agreement",
+      "event_type_master": "ACQUISITION_AGREEMENT",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "DEFINITIVE_AGREEMENT_ANNOUNCED_NOT_CLOSED",
+      "announcement_date": "2021-09-16",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Switzerland",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://acino.swiss/news/article/adq-further-strengthens-its-healthcare-pharma-portfolio-with-agreement-to-acquire-pharmaceutical-company-acino/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/abu-dhabi-fund-adq-makes-biggest-pharma-deal-yet-by-buying-acino",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "CONSIDERATION_UNDISCLOSED",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": "Closing and investor-specific capital not proven",
+        "next_verification": "Verify closing date and ownership chain via regulatory filings."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 59,
+      "master_record_id": "GSI21S09-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "Aldar Properties / ADQ consortium (70% / 30%)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "SODIC mandatory tender offer submission",
+      "event_type_master": "MANDATORY_TENDER_OFFER",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "OFFER_SUBMITTED_NOT_CLOSED",
+      "announcement_date": "2021-09-14",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Egypt",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.aldar.com/en/news-and-media/aldar-adq-consortium-submits-mandatory-tender-offer",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.aldar.com/en/news-and-media/aldar-secures-egyptian-real-estate-platform",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "EGP",
+        "master_claim_unit": null,
+        "master_claim_scope": "EGP7.1bn TARGET_VALUATION_NOT_ADQ_TICKET; ADQ_30_PERCENT_CONSORTIUM",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": "Closing and investor-specific capital not proven",
+        "next_verification": "Track offer approval and December completion separately."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 60,
+      "master_record_id": "GSI22A04-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Equity stake in Commercial International Bank (CIB)",
+      "event_type_master": "LISTED_EQUITY_BANKING",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "TRANSACTION_REPORTED_COMPLETED_BY_2022_04_13",
+      "announcement_date": "2022-04-13",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Egypt",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-invests-in-several-transactions-in-egypt/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/ar/economy/adq-invests-in-several-transactions-in-egypt/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_INDIVIDUAL_STAKE_CONSIDERATION_USD20BN_REFERS_TO_BROADER_STRATEGIC_PLATFORM",
+        "master_amount_basis": "UNDISCLOSED_INDIVIDUAL_STAKE_CONSIDERATION_USD20BN_REFERS_TO_BROADER_STRATEGIC_PLATFORM",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_STAKE_ACQUISITION",
+        "master_hold_reason": null,
+        "next_verification": "Verify legal entity, holding percentage, regulatory filings, consideration and exact settlement date."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 61,
+      "master_record_id": "GSI22A04-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Equity stake in Fawry for Banking Technology and Electronic Payments",
+      "event_type_master": "LISTED_EQUITY_FINTECH",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "TRANSACTION_REPORTED_COMPLETED_BY_2022_04_13",
+      "announcement_date": "2022-04-13",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Egypt",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-invests-in-several-transactions-in-egypt/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/ar/economy/adq-invests-in-several-transactions-in-egypt/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_INDIVIDUAL_STAKE_CONSIDERATION_USD20BN_REFERS_TO_BROADER_STRATEGIC_PLATFORM",
+        "master_amount_basis": "UNDISCLOSED_INDIVIDUAL_STAKE_CONSIDERATION_USD20BN_REFERS_TO_BROADER_STRATEGIC_PLATFORM",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_STAKE_ACQUISITION",
+        "master_hold_reason": null,
+        "next_verification": "Verify legal entity, holding percentage, regulatory filings, consideration and exact settlement date."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 62,
+      "master_record_id": "GSI22A04-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Equity stake in Alexandria Container and Cargo Handling Company",
+      "event_type_master": "LISTED_EQUITY_LOGISTICS",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "TRANSACTION_REPORTED_COMPLETED_BY_2022_04_13",
+      "announcement_date": "2022-04-13",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Egypt",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-invests-in-several-transactions-in-egypt/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/ar/economy/adq-invests-in-several-transactions-in-egypt/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_INDIVIDUAL_STAKE_CONSIDERATION_USD20BN_REFERS_TO_BROADER_STRATEGIC_PLATFORM",
+        "master_amount_basis": "UNDISCLOSED_INDIVIDUAL_STAKE_CONSIDERATION_USD20BN_REFERS_TO_BROADER_STRATEGIC_PLATFORM",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_STAKE_ACQUISITION",
+        "master_hold_reason": null,
+        "next_verification": "Verify legal entity, holding percentage, regulatory filings, consideration and exact settlement date."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 63,
+      "master_record_id": "GSI22A04-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Equity stake in Misr Fertilizers Production Company (MOPCO)",
+      "event_type_master": "LISTED_EQUITY_FERTILIZERS",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "TRANSACTION_REPORTED_COMPLETED_BY_2022_04_13",
+      "announcement_date": "2022-04-13",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Egypt",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-invests-in-several-transactions-in-egypt/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/ar/economy/adq-invests-in-several-transactions-in-egypt/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_INDIVIDUAL_STAKE_CONSIDERATION_USD20BN_REFERS_TO_BROADER_STRATEGIC_PLATFORM",
+        "master_amount_basis": "UNDISCLOSED_INDIVIDUAL_STAKE_CONSIDERATION_USD20BN_REFERS_TO_BROADER_STRATEGIC_PLATFORM",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_STAKE_ACQUISITION",
+        "master_hold_reason": null,
+        "next_verification": "Verify legal entity, holding percentage, regulatory filings, consideration and exact settlement date."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 64,
+      "master_record_id": "GSI22A04-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Equity stake in Abu Qir Fertilizers and Chemical Industries",
+      "event_type_master": "LISTED_EQUITY_FERTILIZERS",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "TRANSACTION_REPORTED_COMPLETED_BY_2022_04_13",
+      "announcement_date": "2022-04-13",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Egypt",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-invests-in-several-transactions-in-egypt/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/ar/economy/adq-invests-in-several-transactions-in-egypt/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_INDIVIDUAL_STAKE_CONSIDERATION_USD20BN_REFERS_TO_BROADER_STRATEGIC_PLATFORM",
+        "master_amount_basis": "UNDISCLOSED_INDIVIDUAL_STAKE_CONSIDERATION_USD20BN_REFERS_TO_BROADER_STRATEGIC_PLATFORM",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_STAKE_ACQUISITION",
+        "master_hold_reason": null,
+        "next_verification": "Verify legal entity, holding percentage, regulatory filings, consideration and exact settlement date."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 65,
+      "master_record_id": "GSI22A04-008",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ and E20 Investment",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Abu Dhabi animal health platform joint venture agreement",
+      "event_type_master": "JOINT_VENTURE_AGREEMENT",
+      "event_category_provisional": "JOINT_VENTURE_OR_PARTNERSHIP",
+      "event_status_master": "AGREEMENT_2022_04_04_OPERATIONS_FUTURE",
+      "announcement_date": "2022-04-04",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-and-e20-investment-limited-to-establish-an-innovative-animal-health-platform-in-Abu-Dhabi/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_JV_CAPITAL",
+        "master_amount_basis": "UNDISCLOSED_JV_CAPITAL",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_AGREEMENT_NO_CAPITAL_AMOUNT",
+        "master_hold_reason": null,
+        "next_verification": "Verify legal incorporation, initial equity paid in, joint ownership and regulatory approvals."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 66,
+      "master_record_id": "GSI22J07-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ via pharmaceutical group Acino",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Mefar International Ilac San. A.S. / BMG 100% acquisition",
+      "event_type_master": "FULL_EQUITY_ACQUISITION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "COMPLETED_2022_07_27",
+      "announcement_date": "2022-07-27",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Turkey",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.adq.ae/cdn-assets/documents/662ec46fc91cc7a39fc93ff7-adq-group-consolidated-financial-statements-ye-2023-.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.adq.ae/cdn-assets/documents/662ec48a163f23fdaf370442-adq-group-consolidated-financial-statements-ye-2022-.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "CONSIDERATION_UNDISCLOSED",
+        "master_amount_basis": "CONSIDERATION_UNDISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_AUDITED_FINANCIALS_VERIFIED",
+        "master_hold_reason": null,
+        "next_verification": "Locate acquisition-date press announcement and purchase price disclosure in notes."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 67,
+      "master_record_id": "GSI22M03-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ with e& E-Vision consortium",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "STARZPLAY ARABIA majority equity acquisition agreement",
+      "event_type_master": "CONSORTIUM_MAJORITY_ACQUISITION_AGREEMENT",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "BINDING_AGREEMENT_2022_03_17_PENDING_APPROVAL",
+      "announcement_date": "2022-03-17",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates / MENA",
+      "master_flow_direction": "DOMESTIC_GULF_AND_REGIONAL",
+      "primary_evidence": {
+        "url": "https://www.eand.com/en/news/17-mar-2022-consortium-comprising-eands-e-vision-and-adg.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.omm.com/news/press-releases/o-melveny-advises-starz-in-starzplay-arabia-acquisition-by-abu-dhabi-consortium/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "USD420M_POST_MONEY_COMPANY_VALUATION_NOT_TRANSACTION_COST_OR_ADQ_TICKET",
+        "master_amount_basis": "USD420M_POST_MONEY_COMPANY_VALUATION_NOT_TRANSACTION_COST_OR_ADQ_TICKET",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_AGREEMENT",
+        "master_hold_reason": null,
+        "next_verification": "Confirm completion from e& Aug 2022 filing; split ADQ and E-Vision stakes, issuer domicile."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 68,
+      "master_record_id": "GSI22M03-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Unifrutti Group majority stake acquisition agreement",
+      "event_type_master": "MAJORITY_ACQUISITION_AGREEMENT",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "AGREEMENT_2022_03_31_PENDING_REGULATORY_APPROVAL",
+      "announcement_date": "2022-03-31",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "MULTI_COUNTRY_PENDING_DOMICILE",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL_PENDING_GEO_RESOLUTION",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-to-expand-its-food-agriculture-portfolio-by-acquiring-significant-stake-in-global-fresh-fruit-leader-unifrutti/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.cbinsights.com/investor/adq-1",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_ACQUISITION_CONSIDERATION",
+        "master_amount_basis": "UNDISCLOSED_ACQUISITION_CONSIDERATION",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_AGREEMENT_GEO_PENDING",
+        "master_hold_reason": null,
+        "next_verification": "Verify legal acquisition vehicle, domicile, asset-level country split, purchase price and closing date."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 69,
+      "master_record_id": "GSI22N11-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ alongside Hunter Point Capital",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Vistria Group minority investment",
+      "event_type_master": "PRIVATE_EQUITY_MANAGER_MINORITY_STAKE",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "ANNOUNCED_2022_11_15_CLOSING_NOT_VERIFIED",
+      "announcement_date": "2022-11-15",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.prnewswire.com/news-releases/the-vistria-group-announces-strategic-partnership-with-hunter-point-capital-and-adq-301678639.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://globalswf.com/news?page=13&tag_id=19&view=list",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_NOT_ZERO",
+        "master_amount_basis": "UNDISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": null,
+        "master_inclusion_decision": "CORE_VERIFIED_ANNOUNCEMENT_CLOSING_PENDING",
+        "master_hold_reason": null,
+        "next_verification": "Find completion announcement, direct ADQ filing, ownership percentages and consideration."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 70,
+      "master_record_id": "GSI22O10-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ Abu Dhabi holding company",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Etihad Aviation Group ownership transfer",
+      "event_type_master": "STATE_OWNERSHIP_TRANSFER",
+      "event_category_provisional": "INTERNAL_TRANSFER_OR_MERGER",
+      "event_status_master": "TRANSFER_CONFIRMED_2022_10_18",
+      "announcement_date": "2022-10-18",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_STATE_TO_SOVEREIGN",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/abu-dhabi-supreme-council-for-financial-and-economic-affairs-issues-a-decision-to-transfer-etihad-aviation-group-to-adq/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "TRANSFER_100_PERCENT_EAG_NO_PURCHASE_PRICE_DISCLOSED",
+        "master_amount_basis": "TRANSFER_100_PERCENT_EAG_NO_PURCHASE_PRICE_DISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B_PRIMARY_OR_OFFICIAL_REPORT",
+        "master_inclusion_decision": "CORE_NONCASH_STATE_TRANSFER",
+        "master_hold_reason": null,
+        "next_verification": "Locate legal transfer instrument and valuation; distinguish prior ancillary business changes."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 71,
+      "master_record_id": "GSI22S09-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ / Abu Dhabi Power Corporation",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "TAQA 8.6% minority stake monetization",
+      "event_type_master": "SECONDARY_EQUITY_DIVESTMENT",
+      "event_category_provisional": "EXIT_OR_DIVESTMENT_CANDIDATE",
+      "event_status_master": "SALE_AGREEMENT_2022_09_13",
+      "announcement_date": "2022-09-13",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_SOVEREIGN_DIVESTMENT",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-monetizes-a-minority-stake-in-taqa/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.thenationalnews.com/business/economy/2022/09/13/abu-dhabis-adq-monetises-minority-stake-in-taqa/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "AED",
+        "master_claim_unit": null,
+        "master_claim_scope": "8_6_PERCENT_ADQ_SOLD_7_3_PERCENT_MULTIPLY_AED10000M_BUYER_SUBSET",
+        "master_amount_basis": "8_6_PERCENT_ADQ_SOLD_7_3_PERCENT_MULTIPLY_AED10000M_BUYER_SUBSET",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_VERIFIED_DIVESTMENT_NOT_NEW_INVESTMENT",
+        "master_hold_reason": null,
+        "next_verification": "Find ADX announcements, closing date and complete seller proceeds."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 72,
+      "master_record_id": "GSI23J01-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "Abu Dhabi Developmental Holding Company PJSC",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Al Eskan Al Jamae LLC 100% acquisition",
+      "event_type_master": "CORPORATE_HOUSING_FULL_ACQUISITION",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "REPORTED_RETROSPECTIVELY_AS_JANUARY_CLOSING",
+      "announcement_date": null,
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_SOVEREIGN_ACQUISITION",
+      "primary_evidence": {
+        "url": "https://www.adq.ae/cdn-assets/documents/662ec46fc91cc7a39fc93ff7-adq-group-consolidated-financial-statements-ye-2023-.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNSPECIFIED_CONSIDERATION",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": null,
+        "master_inclusion_decision": "CORE_RETROSPECTIVE_FINANCIAL_REPORT_UNDATED_DAY",
+        "master_hold_reason": null,
+        "next_verification": "Identify contemporaneous filing and amount; corroborate closing day."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 73,
+      "master_record_id": "GSI23M06-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ Financing RSC Ltd / CYVN Holdings",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "NIO financing facility for CYVN primary and secondary share purchases",
+      "event_type_master": "SOVEREIGN_AFFILIATE_FINANCING_AGREEMENT",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "SIGNED_JUNE_PURCHASE_CLOSED_JULY",
+      "announcement_date": "2023-06-20",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "China",
+      "master_flow_direction": "GULF_FINANCING_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1736541/000101143823000444/form_sc13d-cyvn.htm",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://ir.nio.com/news-events/news-releases/news-release-details/nio-inc-announces-strategic-equity-investment-cyvn",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "CYVN_PRIMARY_USD738_5M_PLUS_SECONDARY_USD350M_NOT_ADQ_DIRECT_EQUITY_DEPLOYMENT",
+        "master_amount_basis": "CYVN_PRIMARY_USD738_5M_PLUS_SECONDARY_USD350M_NOT_ADQ_DIRECT_EQUITY_DEPLOYMENT",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "PRIMARY_AND_SUPPORTING_SOURCE_VERIFIED",
+        "master_inclusion_decision": "CORE_NEW",
+        "master_hold_reason": null,
+        "next_verification": "Trace funding draws and reimbursements; distinguish CYVN ultimate ownership from ADQ funding arrangement."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 74,
+      "master_record_id": "GSI23M06-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "AD Ports Group (ADQ controlled)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Noatum 100% acquisition effective June 30",
+      "event_type_master": "CONTROLLED_PORTFOLIO_COMPANY_ACQUISITION",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "COMPLETED_JUNE_30",
+      "announcement_date": "2023-06-30",
+      "filing_date": null,
+      "completion_date_master": "2023-06-30",
+      "master_geography": "Spain",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.rns-pdf.londonstockexchange.com/rns/4581M_1-2024-4-29.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.noatumlogistics.com/us/ad-ports-group-completes-landmark-noatum-acquisition/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "EUR",
+        "master_claim_unit": null,
+        "master_claim_scope": "EUR541M_PURCHASE_CONSIDERATION_PER_ADQ_REPORT_VS_EUR660M_ENTERPRISE_VALUE_NOT_ADQ_DIRECT_CHEQUE",
+        "master_amount_basis": "EUR541M_PURCHASE_CONSIDERATION_PER_ADQ_REPORT_VS_EUR660M_ENTERPRISE_VALUE_NOT_ADQ_DIRECT_CHEQUE",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "PRIMARY_AND_SUPPORTING_SOURCE_VERIFIED",
+        "master_inclusion_decision": "CORE_NEW",
+        "master_hold_reason": null,
+        "next_verification": "Find original November 2022 signing and financing sources, assess existing master duplicates."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 75,
+      "master_record_id": "GSI23M07-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "Abu Dhabi Developmental Holding Company PJSC",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Modon Properties PJSC 100% ownership transfer",
+      "event_type_master": "STATE_TO_SOVEREIGN_COMMON_CONTROL_TRANSFER",
+      "event_category_provisional": "INTERNAL_TRANSFER_OR_MERGER",
+      "event_status_master": "TRANSFERRED_JULY_NO_CASH_CONSIDERATION",
+      "announcement_date": "2023-07",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://www.adq.ae/cdn-assets/documents/67fea14a69e031c1e317712a-adq-group-consolidated-ye-2024-signed.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.adq.ae/cdn-assets/documents/662ec46fc91cc7a39fc93ff7-adq-group-consolidated-financial-statements-ye-2023-.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "AED",
+        "master_claim_unit": null,
+        "master_claim_scope": "100_PERCENT_TRANSFER_CONSIDERATION_ZERO_IN_AUDITED_STATEMENTS",
+        "master_amount_basis": "100_PERCENT_TRANSFER_CONSIDERATION_ZERO_IN_AUDITED_STATEMENTS",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "PRIMARY_SOURCE_CLAIM_VERIFIED",
+        "master_inclusion_decision": "CORE_NEW_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Determine exact effective day and ultimate asset ownership lineage."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 76,
+      "master_record_id": "GSI23M10-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "AD Ports Group / Noatum",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Sesé Auto Logistics (Grupo Logístico Sesé finished vehicle business)",
+      "event_type_master": "CONTROLLED_SUBSIDIARY_M_AND_A",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "AGREED_2023_10_03_CLOSED_2024_01_31",
+      "announcement_date": "2023-10-03",
+      "filing_date": null,
+      "completion_date_master": "2024-01-31",
+      "master_geography": "Spain",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.adportsgroup.com/en/news-and-media/2023/10/03/noatum-announces-the-acquisition-agreement-of-seses-fvl",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.adportsgroup.com/en/news-and-media/2024/01/31/noatum-successfully-completes-the-acquisition-of-sese-auto-logistics",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "EUR",
+        "master_claim_unit": null,
+        "master_claim_scope": "EUR_81M_ENTERPRISE_VALUE_SUBSIDIARY_TRANSACTION_NOT_ADQ_CHEQUE",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "PRIMARY",
+        "master_inclusion_decision": "CORE_NEW_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Trace ADQ indirect ownership and financing source, debt/net-cash bridge and paid equity consideration."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 77,
+      "master_record_id": "GSI23M11-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ group / pharma subsidiary",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Moksha8 / M8 acquisition",
+      "event_type_master": "FULL_EQUITY_ACQUISITION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "COMPLETED_2023_11_30",
+      "announcement_date": "2023-11-30",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Brazil",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.adq.ae/cdn-assets/documents/662ec46fc91cc7a39fc93ff7-adq-group-consolidated-financial-statements-ye-2023-.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.adq.ae/cdn-assets/documents/67fea14a69e031c1e317712a-adq-group-consolidated-ye-2024-signed.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": null,
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Confirm legal acquirer, target domicile and total consideration."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 78,
+      "master_record_id": "GSI23M12-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ / PureHealth",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "PureHealth ADX IPO and newly issued shares",
+      "event_type_master": "PRIMARY_EQUITY_SUBSCRIPTION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "DECEMBER_2023_LISTING",
+      "announcement_date": "2023-12",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_GULF",
+      "primary_evidence": {
+        "url": "https://www.adq.ae/cdn-assets/documents/662ec46fc91cc7a39fc93ff7-adq-group-consolidated-financial-statements-ye-2023-.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": "1240",
+        "master_claim_currency": "AED",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "ADQ_SPECIFIC_NEW_SHARE_INVESTMENT",
+        "master_amount_basis": "ADQ_SPECIFIC_NEW_SHARE_INVESTMENT",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Confirm period date and economic effect of ADQ subscription vs group consolidation."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 79,
+      "master_record_id": "GSI24A08-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "Abu Dhabi Developmental Holding Company (ADQ)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Sotheby’s newly issued minority shares alongside Bidfair",
+      "event_type_master": "MINORITY_PRIMARY_SHARE_SUBSCRIPTION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "DEFINITIVE_AGREEMENT_SUBJECT_TO_APPROVALS",
+      "announcement_date": "2024-08-09",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "GULF_OUTBOUND_PRIMARY_EQUITY",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-signs-agreement-to-acquire-strategic-minority-investment-in-sothebys/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.wam.ae/en/article/b4l5zl5-adq-acquire-minority-stake-sotheby%E2%80%99s",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": "USD millions",
+        "master_claim_scope": "USD1BN_COMBINED_ADQ_PLUS_BIDFAIR_NOT_ADQ_ONLY",
+        "master_amount_basis": "USD1BN_COMBINED_ADQ_PLUS_BIDFAIR_NOT_ADQ_ONLY",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Confirm closing, allocation of $1bn between ADQ and Bidfair, target legal domicile and shareholder rights."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 80,
+      "master_record_id": "GSI24F02-001",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ-led consortium",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Ras El-Hekma development rights agreement",
+      "event_type_master": "DEVELOPMENT_RIGHTS_AGREEMENT",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "SIGNED_2024_02_23",
+      "announcement_date": "2024-02-23",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Egypt",
+      "master_flow_direction": "OUTBOUND_GULF",
+      "primary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-led-consortium-to-invest-usd35bn-in-egypt/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.wam.ae/en/article/b1t56f7-uae-ministry-investment-witnesses-signing",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": null,
+        "master_claim_scope": "USD_35BN_TOTAL_INCLUDES_24BN_NEW_FINANCING_AND_11BN_CONVERSION; NO_FEB_CASH_SETTLEMENT_VERIFIED",
+        "master_amount_basis": "USD_35BN_TOTAL_INCLUDES_24BN_NEW_FINANCING_AND_11BN_CONVERSION; NO_FEB_CASH_SETTLEMENT_VERIFIED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Confirm first and second payment dates, ADQ vs consortium ownership and subsequent project transfer."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 81,
+      "master_record_id": "GSI24M04-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "Abu Dhabi Developmental Holding Company (ADQ)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Plenary Group 49.9% stake",
+      "event_type_master": "INFRASTRUCTURE_ASSET_MANAGER_MINOR_STAKE",
+      "event_category_provisional": "ACQUISITION_OR_STAKE_CANDIDATE",
+      "event_status_master": "ACQUISITION_AGREEMENT_SIGNED",
+      "announcement_date": "2024-04-24",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Australia",
+      "master_flow_direction": "OUTBOUND_GULF_SECONDARY_AND_GROWTH",
+      "primary_evidence": {
+        "url": "https://www.reuters.com/markets/deals/abu-dhabis-adq-buy-49-stake-infrastructure-investor-plenary-2024-04-24/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.adq.ae/cdn-assets/documents/66f4e0520bc877d414694944-supplementary-prospectus-september-2024.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "AUD",
+        "master_claim_unit": null,
+        "master_claim_scope": "REPORTED_APPROX_AUD1000M_TOTAL_TRANSACTION_NOT_CONFIRMED_ADQ_OUTLAY",
+        "master_amount_basis": "REPORTED_APPROX_AUD1000M_TOTAL_TRANSACTION_NOT_CONFIRMED_ADQ_OUTLAY",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Find official Plenary transaction release, confirm closing, ADQ net cheque and CDPQ exit terms; PDF primary filing requires page screenshot validation before audited-grade reliance."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 82,
+      "master_record_id": "GSI24M05-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ Aviation and Aerospace Services LLC",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Abu Dhabi Aviation 59.45% reverse acquisition consolidation",
+      "event_type_master": "EQUITY_FOR_ASSETS_REVERSE_ACQUISITION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "EFFECTIVE_2024_05_01",
+      "announcement_date": "2024-05-01",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Arab Emirates",
+      "master_flow_direction": "DOMESTIC_NONCASH_PORTFOLIO_REORGANISATION",
+      "primary_evidence": {
+        "url": "https://www.adq.ae/cdn-assets/documents/66f39567748e9d2481e861fb-h1-2024-financial-statement.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://ada.ae/adq-aviation-and-ada-forge-a-new-era-in-aviation-positioning-abu-dhabi-as-a-world-leading-mro-hub/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "AED",
+        "master_claim_unit": null,
+        "master_claim_scope": "AED1695M_GROUP_ACCOUNTING_PURCHASE_CONSIDERATION_NOT_CASH;_AED7030M_COMBINED_FAIR_VALUE",
+        "master_amount_basis": "AED1695M_GROUP_ACCOUNTING_PURCHASE_CONSIDERATION_NOT_CASH;_AED7030M_COMBINED_FAIR_VALUE",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Reconcile IFRS purchase consideration to the legal noncash reverse acquisition."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 83,
+      "master_record_id": "GSI25M03-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "ADQ",
+      "master_investing_entity": "ADQ Financial Services and subsidiaries",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Odeabank 96% equity acquisition closing",
+      "event_type_master": "SECONDARY_BANK_EQUITY_ACQUISITION",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "SIGNED_2024_10_14_CLOSED_2025_03_26",
+      "announcement_date": "2025-03-26",
+      "filing_date": null,
+      "completion_date_master": "2025-03-26",
+      "master_geography": "Türkiye",
+      "master_flow_direction": "GULF_OUTBOUND_SECONDARY",
+      "primary_evidence": {
+        "url": "https://www.odeabank.com.tr/medium/document-file-1362.vsf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-enters-definitive-agreement-with-bank-audi-led-consortium-to-acquire-96-percent-share-capital-of-turkiye-based-odeabank/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "PURCHASE_PRICE_NOT_VERIFIED_IN_PRIMARY_CLOSING_DOCUMENT",
+        "master_amount_basis": "PURCHASE_PRICE_NOT_VERIFIED_IN_PRIMARY_CLOSING_DOCUMENT",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": null
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Obtain settlement sum, October 2024 backfill and shareholder-level proceeds."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 84,
+      "master_record_id": "GSI-2020-03-003",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "Wren House Infrastructure",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Viesgo 40% sale agreement to Macquarie",
+      "event_type_master": "EXIT_SECONDARY_SALE",
+      "event_category_provisional": "EXIT_OR_DIVESTMENT_CANDIDATE",
+      "event_status_master": "SIGNED_SELLER_EXIT",
+      "announcement_date": "2020-03-27",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Spain",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.macquarie.com/au/en/about/news/2020/macquarie-infrastructure-and-real-assets-agrees-to-acquire-additional-stake-in-viesgo-from-wren-house-infrastructure.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://cincodias.elpais.com/cincodias/2020/03/24/companias/1585075042_573678.html?outputType=amp",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": null,
+        "master_hold_reason": "Macquarie pre-emption exercise; seller Wren House; amount undisclosed. First media report March 25, formal counterparty release March 27. No completed-sale confirmation in these sources.",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 85,
+      "master_record_id": "GSI-2020-06-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "Al Ajial Holding (reported KIA-affiliated)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "CMKD Croissance fund closed (liquidation)",
+      "event_type_master": "FUND_EXIT_MONITORING",
+      "event_category_provisional": "EXIT_OR_DIVESTMENT_CANDIDATE",
+      "event_status_master": "REPORTED_CLOSED",
+      "announcement_date": "2020-06-18",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Morocco",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.africaintelligence.com/north-africa/2020/06/18/moroccan-kuwaiti-al-ajial-holding-closes-its-cmkd-croissance-fund,109238494-bre",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://fr.le360.ma/economie/le-groupe-marocco-koweitien-al-ajial-tourne-la-page-de-son-fonds-cmkd-croissance-217451/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED_OR_NOT_APPLICABLE",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": null,
+        "master_inclusion_decision": null,
+        "master_hold_reason": "June 10 fund closure reported June 18; independent registry or manager source missing; not new investment or $1.236bn deployment.",
+        "next_verification": "Review precise event classification and source availability"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 86,
+      "master_record_id": "GSI-2020-07-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "Wren House Infrastructure",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "i3 Broadband investment — 2020 vintage, September agreement and December closing",
+      "event_type_master": "HISTORICAL_LATER_EVENT",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "NOT_JULY_INVESTMENT",
+      "announcement_date": "2020-09-08",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.whinfra.com/our-portfolio/i3-broadband/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://fcc.report/IBFS/SES-T-C-INTR2021-00044/3374948.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "UNDISCLOSED",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": null,
+        "master_hold_reason": "No evidence of July agreement or closing; investment year 2020 only in Wren House profile",
+        "next_verification": "Move to September agreement, December close; verify investor entity and equity size"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 87,
+      "master_record_id": "GSI-2020-AUG-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "Kuwait Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Kuwait sovereign fund fiscal transfer / future generations law",
+      "event_type_master": "POLICY",
+      "event_category_provisional": "STRATEGY_OR_SOURCE_EVENT",
+      "event_status_master": "State finance / legal change; not investment",
+      "announcement_date": "2020-08-20",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Kuwait",
+      "master_flow_direction": "INTRA_GULF",
+      "primary_evidence": {
+        "url": "https://dev.swfinstitute.org/news?s=Kuwait+Investment+Authority&type=tag",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "NON_INVESTMENT",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "C",
+        "master_inclusion_decision": "MONITORING",
+        "master_hold_reason": null,
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 88,
+      "master_record_id": "GSI-2020-NOV-011",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "Kuwait Investment Authority / Wren House",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Wren House 2020 statutory report — transaction discovery lead",
+      "event_type_master": "SOURCE_COVERAGE",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "2020 statutory accounts identify portfolio assets, not dated November entries",
+      "announcement_date": "2020-11-30",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Multiple",
+      "master_flow_direction": "MONITORING_ONLY",
+      "primary_evidence": {
+        "url": "https://find-and-update.company-information.service.gov.uk/company/11825515/persons-with-significant-control",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "ENTITY_MAPPING_NOT_INVESTMENT",
+        "master_amount_basis": "ENTITY_MAPPING_NOT_INVESTMENT",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "C",
+        "master_inclusion_decision": "MONITORING",
+        "master_hold_reason": null,
+        "next_verification": "Review Companies House 2020 accounts and UK merger approval filings for KIA/Wren November activity"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 89,
+      "master_record_id": "GSI-2020-SEP-009",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "Global Power Generation (Naturgy 75% / KIA 25%)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Ryan Corner 218 MW wind farm contract",
+      "event_type_master": "PROJECT_AWARD",
+      "event_category_provisional": "JOINT_VENTURE_OR_PARTNERSHIP",
+      "event_status_master": "Joint venture project PPA/build agreement; AUD 359m project budget forecast",
+      "announcement_date": "2020-09-04",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Australia",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.naturgy.com/en/press-release/naturgy-signs-with-snowy-hydro-its-first-energy-sales-contract-with-a-retailer-in-australia-to-build-a-218-mw-wind-farm-in-victoria-contributing-to-increase-its-installed-capacity-in-the-country-over/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "TOTAL_PROJECT_BUDGET_NOT_KIA",
+        "master_amount_basis": "PROJECT_BUDGET_EXCLUDED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "MONITORING",
+        "master_hold_reason": null,
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 90,
+      "master_record_id": "GSI-2020-SEP-010",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "Global Power Generation (Naturgy 75% / KIA 25%)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Berrybank 2 107 MW wind and battery award",
+      "event_type_master": "PROJECT_AWARD",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "Public project award to JV; planned AUD 215m project investment",
+      "announcement_date": "2020-09-08",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Australia",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.naturgy.com/en/press-release/naturgy-increases-its-presence-in-australia-with-the-award-by-the-australian-capital-territory-act-of-107-mw-wind-farm-and-a-battery-energy-storage-system-of-20-mwh/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "TOTAL_PROJECT_BUDGET_NOT_KIA",
+        "master_amount_basis": "PROJECT_BUDGET_EXCLUDED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "MONITORING",
+        "master_hold_reason": null,
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 91,
+      "master_record_id": "GSI21J07-007",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "Wren House Infrastructure",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Almaviva Santé minority/majority ownership reorganisation",
+      "event_type_master": "EXCLUSIVE_NEGOTIATIONS_ACQUISITION",
+      "event_category_provisional": "INTERNAL_TRANSFER_OR_MERGER",
+      "event_status_master": "EXCLUSIVE_NEGOTIATIONS_NOT_CLOSED",
+      "announcement_date": "2021-07-27",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "France",
+      "master_flow_direction": "OUTBOUND",
+      "primary_evidence": {
+        "url": "https://www.almaviva-sante.fr/upload/presse/CP/Almaviva-Sante-reorganise-son-capital-pour-poursuivre-son-developpement-.pdf",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.whinfra.com/our-portfolio/almaviva-sante/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "EUR",
+        "master_claim_unit": null,
+        "master_claim_scope": "NO_VERIFIED_TICKET",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "CORE_PROVISIONAL",
+        "master_hold_reason": null,
+        "next_verification": "Locate definitive agreement and closing milestone, quantify Wren House position"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 92,
+      "master_record_id": "GSI21M05-006",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "Wren House Infrastructure LP",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Formation/registration of Wren House Infrastructure LP",
+      "event_type_master": "LEGAL_ENTITY_REGISTRATION",
+      "event_category_provisional": "OTHER_EVENT_NEEDS_CLASSIFICATION",
+      "event_status_master": "ENTITY_REGISTERED",
+      "announcement_date": "2021-05-12",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United Kingdom",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://find-and-update.company-information.service.gov.uk/company/LP021754/filing-history",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "No acquisition / capital deployment established",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "MONITORING",
+        "master_hold_reason": "Companies House filing confirms registration 12 May 2021; a legal entity creation, not evidence of an invested ticket.",
+        "next_verification": "Resolve relationship with KIA and underlying assets; no investment count."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 93,
+      "master_record_id": "GSI23M03-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "Kuwait Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Mercedes-Benz Group AG 20 million share secondary disposal",
+      "event_type_master": "PUBLIC_LISTED_EQUITY_SECONDARY_SALE",
+      "event_category_provisional": "EXIT_OR_DIVESTMENT_CANDIDATE",
+      "event_status_master": "SECONDARY_BLOCK_SALE_COMPLETED_REPORTED",
+      "announcement_date": "2023-03-29",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Germany",
+      "master_flow_direction": "OUTBOUND_PORTFOLIO_DIVESTMENT_PROCEEDS_INBOUND",
+      "primary_evidence": {
+        "url": "https://www.marketscreener.com/quote/stock/MERCEDES-BENZ-GROUP-AG-436541/news/Kuwait-s-sovereign-wealth-fund-sells-Mercedes-shares-for-1-4-billion-43365390/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://kuwaittimes.com/kia-sells-e1-4bn-mercedes-stake/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "EUR1385M_APPROX_PROCEEDS_20M_SHARES_AT_EUR69_27",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": null,
+        "master_inclusion_decision": "CORE_DIVESTMENT_NOT_NEW_DEPLOYMENT",
+        "master_hold_reason": null,
+        "next_verification": "Seek original exchange disclosure/block-placing confirmation and exact gross vs net proceeds."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 94,
+      "master_record_id": "GSI26B03-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "Wren House Infrastructure Management",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Reported potential acquisition of GIC European xScale stake",
+      "event_type_master": "RUMORED_ACQUISITION",
+      "event_category_provisional": "UNCONFIRMED_OR_RUMOURED",
+      "event_status_master": "UNCONFIRMED",
+      "announcement_date": "2026-09-02",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Multi-regional / Global",
+      "master_flow_direction": "OTHER",
+      "primary_evidence": {
+        "url": "https://theedgemalaysia.com/node/816636",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://find-and-update.company-information.service.gov.uk/company/08478909/persons-with-significant-control",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "EUR",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "RUMORED_TRANSACTION_VALUE",
+        "master_amount_basis": "RUMORED_TRANSACTION_VALUE",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "C",
+        "master_inclusion_decision": "HOLD",
+        "master_hold_reason": "Bloomberg reports possible €700m transaction. Parties declined comment; no signed definitive agreement or regulatory issuer confirmation found.",
+        "next_verification": null
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 95,
+      "master_record_id": "V1.6_HOLDS-002",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "KIA",
+      "master_investing_entity": "KIA and Wren House Infrastructure LP",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Electrip Global Limited stake",
+      "event_type_master": "SECONDARY_STAKE_TRANSFER",
+      "event_category_provisional": "INTERNAL_TRANSFER_OR_MERGER",
+      "event_status_master": "CLOSED_2026-10-22",
+      "announcement_date": "2026-10-22",
+      "filing_date": "2026-10-22",
+      "completion_date_master": null,
+      "master_geography": null,
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://kapbildirim.com/kap/zoren/finansal-duran-varlik-satisi-3832264",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.kap.org.tr/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": "millions",
+        "master_claim_scope": "TOTAL_CONSIDERATION_INCLUDES_DEBT_SETTLEMENT_AND_THIRD_PARTY_CASH",
+        "master_amount_basis": null,
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://www.kia.gov.kw/about-kia/",
+          "title": "KIA historical chronology",
+          "use": "GRF and FGF mandates must not be conflated"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A for reported event; not for unspecified settlement",
+        "master_inclusion_decision": "ADMIT_CANDIDATE",
+        "master_hold_reason": "Seller filing says 41.28% shares transferred to KIA and Wren House, closing 2026-10-22; $147,619,178.97 is total consideration, including $82,619,178.97 loan settlement and $65m cash paid by Wren House; do not count as KIA new cash",
+        "next_verification": "Resolve investor-specific payment, closing and entity chain where relevant"
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 96,
+      "master_record_id": "GSI22F02-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "OIA",
+      "master_investing_entity": "Oman Investment Authority (former SGRF holding)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Escribano Mechanical & Engineering 32.2% stake repurchase by founders",
+      "event_type_master": "SOVEREIGN_PORTFOLIO_EXIT",
+      "event_category_provisional": "EXIT_OR_DIVESTMENT_CANDIDATE",
+      "event_status_master": "COMPANY_CONFIRMED_BY_2022_02_02",
+      "announcement_date": "2022-02-02",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Spain",
+      "master_flow_direction": "INBOUND_TO_GULF_FROM_GLOBAL_ASSET_DIVESTMENT",
+      "primary_evidence": {
+        "url": "https://www.janes.com/defence-intelligence-insights/defence-news/industry/escribano-buys-back-omani-stake-in-the-company",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://www.omanobserver.om/article/1113750/business/economy/oman-investment-authority-sells-stake-in-spanish-tech-firm",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "EUR",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "REPORTED_EUR34M_PRICE_UNCONFIRMED_BY_COMPANY",
+        "master_amount_basis": "REPORTED_EUR34M_PRICE_UNCONFIRMED_BY_COMPANY",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://oia.gov.om/uploads/OIA_Annual_report_English_2024_e000139fb0.pdf",
+          "title": "OIA 2024 report",
+          "use": "Retrospective asset allocation and Oman macro context, no transaction causality"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B",
+        "master_inclusion_decision": "CORE_VERIFIED_EXIT",
+        "master_hold_reason": null,
+        "next_verification": "Find company accounts / OIA filings and actual sale consideration and completion date."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 97,
+      "master_record_id": "GSI22O10-004",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "OIA",
+      "master_investing_entity": "Oman Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Group14 Technologies battery materials stake",
+      "event_type_master": "PRIVATE_EQUITY_INVESTMENT",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "DISCLOSED_2022_10_05",
+      "announcement_date": "2022-10-05",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://timesofoman.com/article/122066-oia-invests-in-leading-us-battery-materials-company",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "STAKE_AMOUNT_AND_ORIGINAL_SUBSCRIPTION_DATE_NOT_DISCLOSED",
+        "master_amount_basis": "STAKE_AMOUNT_AND_ORIGINAL_SUBSCRIPTION_DATE_NOT_DISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://oia.gov.om/uploads/OIA_Annual_report_English_2024_e000139fb0.pdf",
+          "title": "OIA 2024 report",
+          "use": "Retrospective asset allocation and Oman macro context, no transaction causality"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B_PRIMARY_OR_OFFICIAL_REPORT",
+        "master_inclusion_decision": "CORE_CONFIRMED_HOLDING_NOT_NEW_OCTOBER_CASH_PROOF",
+        "master_hold_reason": null,
+        "next_verification": "Identify original investment date, equity class and OIA amount."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 98,
+      "master_record_id": "GSI22O10-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "OIA",
+      "master_investing_entity": "Oman Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Ascend Elements battery recycling stake",
+      "event_type_master": "PRIVATE_EQUITY_INVESTMENT",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "DISCLOSED_2022_10_27",
+      "announcement_date": "2022-10-27",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://timesofoman.com/article/122820-oia-invests-in-us-firm-for-lithium-ion-batteries-recycling",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": null,
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "STAKE_AMOUNT_AND_ORIGINAL_SUBSCRIPTION_DATE_NOT_DISCLOSED",
+        "master_amount_basis": "STAKE_AMOUNT_AND_ORIGINAL_SUBSCRIPTION_DATE_NOT_DISCLOSED",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://oia.gov.om/uploads/OIA_Annual_report_English_2024_e000139fb0.pdf",
+          "title": "OIA 2024 report",
+          "use": "Retrospective asset allocation and Oman macro context, no transaction causality"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "B_PRIMARY_OR_OFFICIAL_REPORT",
+        "master_inclusion_decision": "CORE_CONFIRMED_HOLDING_NOT_NEW_OCTOBER_CASH_PROOF",
+        "master_hold_reason": null,
+        "next_verification": "Find original financing round and OIA cheque; verify contemporaneous stake."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 99,
+      "master_record_id": "GSI24D12-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "OIA",
+      "master_investing_entity": "Oman Investment Authority",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "xAI Series C financing / OIA shareholding",
+      "event_type_master": "PRIMARY_GROWTH_FINANCING",
+      "event_category_provisional": "EQUITY_OR_FINANCING_CANDIDATE",
+      "event_status_master": "OIA_CONFIRMS_STAKE_2024_12_18_XAI_SERIES_C_2024_12_23",
+      "announcement_date": "2024-12-18",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "United States",
+      "master_flow_direction": "OUTBOUND_GULF_TO_GLOBAL",
+      "primary_evidence": {
+        "url": "https://www.prnewswire.com/news-releases/oman-investment-authority-invests-in-elon-musks-xai-302336204.html",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://x.ai/news/series-c",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": "USD",
+        "master_claim_unit": "millions",
+        "master_claim_scope": "USD6000M_WHOLE_SERIES_C_NOT_OIA_SPECIFIC",
+        "master_amount_basis": "USD6000M_WHOLE_SERIES_C_NOT_OIA_SPECIFIC",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://oia.gov.om/uploads/OIA_Annual_report_English_2024_e000139fb0.pdf",
+          "title": "OIA 2024 report",
+          "use": "Retrospective asset allocation and Oman macro context, no transaction causality"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": "INVESTOR_AMOUNT_OR_SETTLEMENT_NOT_VERIFIED",
+        "next_verification": "Reconcile OIA announcement and issuer funding schedule; determine investor amount."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    },
+    {
+      "sequence": 100,
+      "master_record_id": "GSI25F02-005",
+      "master_version": "v9.6_WORKING",
+      "master_investor_group": "OIA",
+      "master_investing_entity": "Innovation Development Oman (OIA)",
+      "investor_attribution_status": "MASTER_LABEL_ONLY_UNVERIFIED",
+      "mixed_or_affiliate_label": false,
+      "event_name": "Golden Gate Ventures new MENA venture fund commitment",
+      "event_type_master": "VENTURE_FUND_LP_COMMITMENT",
+      "event_category_provisional": "FUND_OR_ASSET_MANAGER_EVENT",
+      "event_status_master": "INVESTMENT_ANNOUNCED_2025_02_22_CASH_CALLS_UNVERIFIED",
+      "announcement_date": "2025-02-22",
+      "filing_date": null,
+      "completion_date_master": null,
+      "master_geography": "Singapore",
+      "master_flow_direction": "GULF_OUTBOUND_FUND_COMMITMENT",
+      "primary_evidence": {
+        "url": "https://oia.gov.om/en/media-center/news-details/d02y2r4gprozf1p5o1278qpe",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "secondary_evidence": {
+        "url": "https://entarabi.com/en/2025/02/strategic-partnership-between-golden-gate-ventures-and-oman-investment-authority/",
+        "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+      },
+      "capital": {
+        "master_claimed_amount": null,
+        "master_claim_currency": null,
+        "master_claim_unit": null,
+        "master_claim_scope": "USD100M_WHOLE_GGV_MENA_FUND_TARGET_NOT_OIA_ALLOCATION",
+        "master_amount_basis": "USD100M_WHOLE_GGV_MENA_FUND_TARGET_NOT_OIA_ALLOCATION",
+        "investor_paid_capital_verified": null,
+        "settlement_date_verified": null,
+        "actual_stake_percent_verified": null,
+        "aggregation_eligible": false
+      },
+      "investee_financials": {
+        "revenue": null,
+        "ebitda": null,
+        "operating_cash_flow": null,
+        "net_debt": null,
+        "ownership": null,
+        "period_end": null,
+        "statement_source": null,
+        "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+      },
+      "historical_context": {
+        "strategy_as_of": null,
+        "macro_as_of": null,
+        "policy_as_of": null,
+        "causality": "NOT_ESTABLISHED",
+        "official_retrospective_reference": {
+          "url": "https://oia.gov.om/uploads/OIA_Annual_report_English_2024_e000139fb0.pdf",
+          "title": "OIA 2024 report",
+          "use": "Retrospective asset allocation and Oman macro context, no transaction causality"
+        }
+      },
+      "original_research": {
+        "master_evidence_grade": "A",
+        "master_inclusion_decision": "RETAIN_PROVISIONAL_TRANSACTION",
+        "master_hold_reason": null,
+        "next_verification": "Find LP subscription commitment, first capital call and regional portfolio."
+      },
+      "research_status": "UNREVIEWED_MASTER_TRIAGE",
+      "certified_investment": false,
+      "certified_financial_dossier": false
+    }
+  ],
+  "quality": {
+    "count": 50,
+    "independently_reverified_in_batch": 0,
+    "audited_financial_profiles": 0,
+    "distinct_ids": 50,
+    "master_group_distribution": {
+      "ADQ": 33,
+      "KIA": 12,
+      "OIA": 5
+    }
+  }
+}
