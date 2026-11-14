@@ -5,7 +5,9 @@ on:
       - feature/natural-vertical-fit-foundation
     paths:
       - 'lib/naturalVerticalFit.mjs'
+      - 'lib/capitalIntelligenceIntake.mjs'
       - 'tests/naturalVerticalFit.test.mjs'
+      - 'tests/capitalIntelligenceIntake.test.mjs'
       - '.github/workflows/natural-vertical-fit-tests.yml'
   workflow_dispatch:
 permissions:
@@ -20,4 +22,4 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '22'
-      - run: node --test tests/naturalVerticalFit.test.mjs
+      - run: node --test tests/*.test.mjs
