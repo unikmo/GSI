@@ -24,3 +24,10 @@ test('unreviewed research cannot auto-certify, and overlaps and holds remain vis
  assert.equal(r.integrity.syndicate_orphans.length,0);
  assert.equal(r.admissibility,'NO_AUTO_PROMOTION_TO_VERIFIED_OR_FUNDED');
 });
+
+test('legacy case and id formats are linked without text-only guessing',()=>{
+ const r=reconcileEnrichment({masterCsv:'master_record_id\nA\n',ledgerCsv:'record_id\nL\n',crosswalkCsv:'master_record_id\nA\n',syndicateCsv:'linked_master_id\nL\n',heldCasesCsv:'resolution_case_id,resolution_outcome\nH,SOURCE_VERIFICATION_PENDING\n',researchFiles:[{path:'legacy.json',data:{cases:[{id:'A'},{investee:'Unlinked'}]}}]});
+ assert.equal(r.research.linked_occurrences,1);
+ assert.equal(r.research.unmatched.length,1);
+ assert.equal(r.research.unmatched[0].issue,'NO_MASTER_ID');
+});
