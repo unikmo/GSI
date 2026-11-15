@@ -89,3 +89,19 @@ These are classifications inherited from proposal statuses, NOT an independent c
 - Read and inspected representative registers: pre-1979, 2019 and November 2026.
 - The 1950–1978 source register has 3,480 month-by-source-group rows, many `NOT_SCREENED`; a coverage row is not a verified transaction nor a completed exhaustive search.
 - Coverage register aggregation and 66-file exception audit remain outstanding. Preserve `NOT_SCREENED`, `PARTIAL_TARGETED_SCREEN` and unknown statuses; do not infer empty months.
+
+## Full source-table checks completed in this execution
+
+**Ledger:** All 66 proposal ledger CSVs have been read. The 47 historical source packages' 103 entries are reproduced in the 103-row merged historical file. The 18 newer monthly packages contain 149 entries (56 in 2025; 93 in 2026). After eliminating the historical repeated source copy, **252 existing proposal-ledger rows** were compared with the canonical v9.8 ledger by record ID. Field-level comparison of all 103 merged historical and all 149 recent proposal rows found **zero differing values in common fields**. The historical 47 period files were checked for ID presence, not independently for every field against the merged copy.
+
+**Syndicate map:** All 66 proposal maps were screened. The merged 1950–2019 102 rows match v9.8 by composite key and **by all common field values**. All 55 recent rows (28 from 2025 and 27 from 2026) also match the existing v9.8 map by composite key and all common field values. The 47 historical source-period map files have 102 rows and match by composite key; their common field values against the merged source file have not been separately rechecked.
+
+**Candidate leads:** All 63 candidate files screened; see the separate 389-row initial disposition CSV. The source packages' original 281 historical candidate rows are duplicated by the merged historical candidate file, so count them once. The 108 additional 2025–2026 leads give a total of **389 non-duplicated source-lead rows**, of which 200 remain held as unverified.
+
+**Coverage:** All 65 individual period/monthly coverage-register files read: **8,580 month-by-source-group rows** (8,198 NOT_SCREENED, 377 PARTIAL_TARGETED_SCREEN, 5 NOT_SYSTEMATICALLY_SCREENED). The separate merged 1950–2019 coverage file is 1.89 MB and its content reader returned empty; the merged audit says it contains 8,400 rows, consistent with the individual historical packages. See `database/RECONCILIATION_COVERAGE_STATUS_v9.8.md` for the limitations and status guardrails. **Do not mark historical periods as fully screened.**
+
+**Auxiliary proposals:** Identified 66 proposed audit Markdown files, 8 founder/overview leads files, 3 special backfill proposals, the founder rulings and the verification log. Sampled audit files; all observed are uncertified and not decision-grade. Founder-ruling-approved Yinson/Kimmeridge backfills already appear in the v9.8 master and ledger; the Aramex domestic 2025 backfill is ledger-only under the founder ruling and should NOT be auto-inserted as a completed outbound-equity deal. Additional founder/overview leads still require economic-event reconciliation to the 389 candidate lead rows and master.
+
+**Other research:** The previously generated 2021/2022 incremental research workbook is outside the repository's 340-item proposal folder and still requires explicit case-by-case comparison against canonical v9.8. Do not treat its records as merged merely because they exist as a local research workbook.
+
+**QA gate is NOT met:** Evidence for 200 held leads, 72 ledger-only leads, 8 correction rows, 66 audit conclusions, founder lead overlap, and the remaining source/economic-transaction checks is unresolved. No new master rows were added from these source packages; this is an accounting/reconciliation pass, not a claim of comprehensive evidence sign-off.
