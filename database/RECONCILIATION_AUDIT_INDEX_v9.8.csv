@@ -65,3 +65,72 @@
 - Loans and loss events ledger-only.
 - Whether pre-2010 rows follow the same v4.9 admission rules.
 ","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2000_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2001_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2002_Audit_PROPOSED.md","UNCERTIFIED","0","0","3","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Government-owned operating companies versus sovereign funds.
+- Intra-Gulf joint ventures ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2003_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Government-owned operating companies versus sovereign funds.
+- Intra-Gulf joint ventures ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2004_Audit_PROPOSED.md","UNCERTIFIED","1","1","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Government-owned operating companies versus sovereign funds.
+- Intra-Gulf joint ventures ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2005_Audit_PROPOSED.md","UNCERTIFIED","2","2","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Derived investor amount (Borealis EUR 736m from two reported figures).
+- AMI price including net debt versus equity price.
+- IPIC fund group before the 2017 Mubadala merger.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2006_Audit_PROPOSED.md","UNCERTIFIED","2","2","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Hyundai Oilbank date conflict (2003 agreement versus Feb 2006).
+- Threshold filings as records (Lagardere).
+- QIA establishment date (decision June 2005, operations early 2006).
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2007_Audit_PROPOSED.md","UNCERTIFIED","4","4","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Delta Two as a QIA vehicle (entity classification).
+- Convertible equity units (Citigroup): record type and stake ceiling.
+- Fund commitments alongside equity (Carlyle USD 500m): excluded.
+- Borse Dubai and other Dubai government holdings: scope.
+- Whether pre-2010 rows follow the same v4.9 ad","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2008_Audit_PROPOSED.md","UNCERTIFIED","6","6","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Qatar Holding versus Challenger (Sheikh Hamad vehicle) in the Barclays rows.
+- Convertible and preferred instruments (KIA, ADIA).
+- Abu Dhabi Investment Council (later Mubadala) as an investor group.
+- Intra-Abu Dhabi transfers (Pearl Energy) ledger-only.
+- Whether pre-2010 rows follow the sam","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2009_Audit_PROPOSED.md","UNCERTIFIED","5","5","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Aabar (listed IPIC subsidiary) as investing entity.
+- Options and planned conversion (Porsche and Volkswagen): ceiling, not held stake.
+- Month placeholders where signing day is unseen.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2010_JanJun_Audit_PROPOSED.md","UNCERTIFIED","2","2","8","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Bilateral platforms (OIJIF, Uzbek-Oman).
+- Intra-group restructuring (ATIC) ledger-only.
+- Intra-Abu Dhabi target (Abu Dhabi Terminals).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+
+## Late addition
+GSI10M02-001 (ADIA, about 15% of Gatwick, February 2010, GBP 125m reported)","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2010_JulDec_Audit_PROPOSED.md","UNCERTIFIED","3","3","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Bilateral platform (Oman India fund).
+- Co-investment where ADIA's own amount is not stated (Port of Brisbane).
+- Notes and equity mix (Carlyle).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
