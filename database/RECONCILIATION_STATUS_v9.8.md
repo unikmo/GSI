@@ -32,3 +32,35 @@ Exact-normalised target-title equality found zero matches between these 281 lead
 ## Completion gate
 
 Backlog consolidation is complete only when all 340 proposal assets have a documented disposition or relationship to a superseding source; all accepted additions are in the existing tables; there are no unexplained duplicate economic deals or orphan syndicate/crosswalk references. New research may resume only thereafter. Data remains **unreviewed and not decision-grade** until evidence QA sign-off.
+
+## Reconciliation execution — 2026-11-15 (confirmed GitHub readbacks)
+
+### Research-ledger ID reconciliation — all 66 proposal ledger files screened
+
+| Source group | Files | Proposed row occurrences | IDs absent from v9.8 ledger |
+|---|---:|---:|---:|
+| Individual historical packages, 1950–2019 | 47 | 103 | 0 |
+| Merged 1950–2019 historical proposal (overlaps the 47 files) | 1 | 103 | 0 |
+| Monthly packages, June–December 2025 | 7 | 56 | 0 |
+| Monthly packages, January–November 2026 | 11 | 93 | 0 |
+| **Total** | **66** | **355 (includes 103 overlapping)** | **0** |
+
+This establishes that **all proposed research-ledger IDs in 66 source files already occur in the 322-row v9.8 ledger**. It does NOT establish that their fields are identical or that the economic transactions are verified. No new ledger rows were imported in this pass.
+
+### PE syndicate proposal reconciliation — partially screened
+
+- Merged 1950–2019 syndicate map: **102/102** rows match existing v9.8 map by linked ID + Gulf investor + partner + role.
+- June–December 2025 syndicate proposals: **28/28** rows match by the same composite key.
+- January–November 2026 syndicate proposals: **27/27** rows match by the same composite key.
+- Remaining **47 period-specific historical syndicate files**: not yet individually checked against v9.8; may duplicate the merged map.
+- Status: 157 proposed map-row references checked; **0 unmatched in this subset**. These are not necessarily 157 distinct relationships.
+
+### Still required before completion
+
+- Compare **field values**, status changes, provenance, amount and stage caveats for already matched ledger and syndicate IDs.
+- Classify all **63 candidate lead files**, including the merged 1950–2019 file with 281 rows, using economic-event matching rather than exact narrative strings; check supersession/overlap.
+- Reconcile **66 coverage registers**, supporting audits and founder ruling logs, without copying coverage assertions or equating a research attempt with a proven zero-deal result.
+- Complete checks for 47 period-specific historical syndicate maps.
+- Record defensible additions/corrections only after evidence/ruling checks; preserve canonical four files and avoid duplicate economic transactions.
+
+**No further external research, no Supabase writes, no merge or release.**
