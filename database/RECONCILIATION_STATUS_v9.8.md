@@ -64,3 +64,28 @@ This establishes that **all proposed research-ledger IDs in 66 source files alre
 - Record defensible additions/corrections only after evidence/ruling checks; preserve canonical four files and avoid duplicate economic transactions.
 
 **No further external research, no Supabase writes, no merge or release.**
+
+## Candidate screening — all 63 candidate files now inventoried
+
+- 47 historical period-specific candidate files (1950–2019): **281 lead rows**; they overlap the separate merged 1950–2019 file, also **281 rows**. Count historical leads once, not twice.
+- 15 candidate files (September–December 2025 and January–November 2026): **108 additional lead rows**.
+- Together: **389 source leads** needing dispositions. All **63 candidate files** have been read for record/status inventory, including the merged file.
+- A 389-row, source-linked screening matrix was committed to `database/RECONCILIATION_CANDIDATE_DISPOSITION_v9.8.csv` (not a transaction master or accepted-deal ledger).
+
+| Initial classification from source status | Count |
+|---|---:|
+| Linked to an existing record (link still needs independent verification) | 32 |
+| Ledger-only candidate (not yet automatically admitted) | 72 |
+| Not a record / out of transaction-master scope | 76 |
+| Unverified lead; held pending evidence | 200 |
+| Correction requiring review | 8 |
+| Parked/other | 1 |
+| **Total** | **389** |
+
+These are classifications inherited from proposal statuses, NOT an independent check of all 389 economic events. None of the 200 held leads should be imported as a verified deal without supporting evidence. The 72 ledger-only candidates require admissibility/evidence review before any new ledger row.
+
+## Coverage-register work started
+
+- Read and inspected representative registers: pre-1979, 2019 and November 2026.
+- The 1950–1978 source register has 3,480 month-by-source-group rows, many `NOT_SCREENED`; a coverage row is not a verified transaction nor a completed exhaustive search.
+- Coverage register aggregation and 66-file exception audit remain outstanding. Preserve `NOT_SCREENED`, `PARTIAL_TARGETED_SCREEN` and unknown statuses; do not infer empty months.
