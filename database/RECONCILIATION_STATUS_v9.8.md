@@ -105,3 +105,15 @@ These are classifications inherited from proposal statuses, NOT an independent c
 **Other research:** The previously generated 2021/2022 incremental research workbook is outside the repository's 340-item proposal folder and still requires explicit case-by-case comparison against canonical v9.8. Do not treat its records as merged merely because they exist as a local research workbook.
 
 **QA gate is NOT met:** Evidence for 200 held leads, 72 ledger-only leads, 8 correction rows, 66 audit conclusions, founder lead overlap, and the remaining source/economic-transaction checks is unresolved. No new master rows were added from these source packages; this is an accounting/reconciliation pass, not a claim of comprehensive evidence sign-off.
+
+## Founder and correction reconciliation, current execution
+
+- Read all eight founder/overview lead files: **147 source lead rows**. A new canonical-linking review matrix is committed in `database/RECONCILIATION_FOUNDER_LEADS_v9.8.csv`. It contains 18 explicitly examined links to existing v9.8 master/ledger record IDs (PIF Uber, POSCO, SoftBank Vision Fund and Virgin proposals; PIF/Lucid; 2025 EA, Databricks, TikTok, Aligned, McLaren and Templewater; 2026 HUMAIN, Isomorphic Labs, Aligned closing stage, Databricks, OIA fund term sheets). Linked does not imply primary-source verification.
+- 147 founder leads remain individually traceable. The remaining **129** have not been independently linked or admitted; automatic text similarity was not treated as proof of a deal.
+- All eight source correction flags were compared with canonical v9.8 and recorded in `database/RECONCILIATION_CORRECTIONS_v9.8.csv`. GEMS (2014), Hyperoptic (2018) and Investcorp (2016) already have correct-year records. POSCO and Banvit have existing records but unresolved announcement/SPA dating; ACWA Power domestic timing remains unverified; Escribano 2022 exit and possible misdated 2026 ledger note must not become two completed disposals.
+- The three special backfill proposals were inspected. Yinson (`GSI25J01-005`) and Kimmeridge (`GSI25A04-006`) already appear in the v9.8 master; Aramex 2025 domestic tender offer remains a separate ledger-only/hold decision, not an outbound master transaction.
+- All corrections and candidate links are staged in review-only auxiliary files; **the four original v9.8 tables remain unchanged in this execution**, since unresolved source evidence is insufficient to modify transaction dates/amounts or admit new master deals.
+
+### Unresolved completion gate
+
+The remaining 129 founder leads require substantive comparison to existing target/vehicle histories and source packages. The 200 candidate holds and 72 ledger-only candidates also require case-level evidence and eligibility review. The 1.89 MB merged coverage CSV and 2021/2022 incremental workbook remain outside full verified reconciliation. No claims of complete 1950–2026 coverage, deployed cash totals, or published/merged data are justified yet.
