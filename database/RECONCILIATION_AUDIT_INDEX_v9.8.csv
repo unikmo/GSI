@@ -1,0 +1,67 @@
+"source_file","source_report_status","ledger_rows_claimed","pe_map_rows_claimed","candidate_rows_claimed","coverage_rows_claimed","primary_source_caveat","historical_notes","reconciliation_disposition"
+"GSI_1950_1978_Audit_PROPOSED.md","UNCERTIFIED","1","1","6","3480","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- The KIA before 1982: Kuwait Investment Board, Office or state as the investing entity.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+- Treasury and portfolio holdings are not records.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1979_1989_Audit_PROPOSED.md","UNCERTIFIED","3","3","6","1320","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- KIO versus KIA as investing entity before 1982 and in 1987 to 1989.
+- State oil companies (Kuwait Petroleum Corporation) versus funds.
+- Placeholder months where the purchase day is unseen.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1990_Audit_PROPOSED.md","UNCERTIFIED","1","1","6","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Whether the KIO (London arm) is the investing entity under the KIA group.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+- Private royals (Alwaleed) out of scope.
+- Increases of existing control holdings.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1991_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Loans to an investee (Torras) versus equity.
+- Existing holdings with no entry date.
+- Private royals out of scope.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1992_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Domestic bank rescue (UNB): ledger-only, or admit as a record.
+- Loss events (Torras) are ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1993_Audit_PROPOSED.md","UNCERTIFIED","1","1","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Planned purchases with no confirmed completion.
+- Buyer named as state institutions, not as the KIO or KIA.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1994_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+
+## Late addition (2026-11-13)
+- May: IPIC and OIAG consortium stake in OMV (GSI94M05-001), found while screening 1996","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1995_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1996_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1997_Audit_PROPOSED.md","UNCERTIFIED","0","0","4","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1998_Audit_PROPOSED.md","UNCERTIFIED","1","1","4","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1999_Audit_PROPOSED.md","UNCERTIFIED","1","1","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
