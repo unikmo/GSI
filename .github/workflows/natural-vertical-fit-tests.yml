@@ -23,6 +23,8 @@ on:
       - 'tests/verifiedDossiersBatch03.test.mjs'
       - 'tests/gsiNext90ResearchEnrichment.test.mjs'
       - 'tests/gsiPrivateImport.test.mjs'
+      - 'tests/gsiPriorityDeepReviews.test.mjs'
+      - 'research/verified_dossiers/gsi_three_priority_deep_reviews_2026-11-15_batch04.json'
       - 'scripts/build-gsi-private-import.mjs'
       - 'supabase/gsi_research_private_import.sql'
       - 'research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json'
