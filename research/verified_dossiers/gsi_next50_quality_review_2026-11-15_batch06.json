@@ -8,8 +8,8 @@
     "records": 50,
     "from_priority_queue": 37,
     "from_master_outside_queue": 13,
-    "independently_checked_transaction_claims": 11,
-    "source_only_awaiting_verification": 39,
+    "independently_checked_transaction_claims": 18,
+    "source_only_awaiting_verification": 32,
     "completed_pre_entry_audited_financial_dossiers": 0,
     "certified_public_records": 0
   },
@@ -669,11 +669,11 @@
       "source_layer": "PRIORITY_QUEUE",
       "position": 19,
       "check": {
-        "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
-        "source_url": "https://www.mediaoffice.abudhabi/en/economy/adq-signs-agreement-to-acquire-strategic-minority-investment-in-sothebys/",
-        "claim": "Master source and transaction description only; issuer verification outstanding",
-        "state": "UNVERIFIED",
-        "cash_scope": "UNVERIFIED"
+        "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+        "url": "https://www.mediaoffice.abudhabi/en/economy/adq-signs-agreement-to-acquire-strategic-minority-investment-in-sothebys/",
+        "finding": "ADQ and Bidfair jointly announced approximately USD1bn equity capital into Sotheby's; ADQ share not specified, announcement not payment evidence.",
+        "state": "PRIMARY_EQUITY_AGREEMENT",
+        "cash_scope": "COMBINED_PRIMARY_EQUITY_NOT_ADQ_TICKET"
       },
       "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
       "cash_flow_schedule": null,
@@ -906,11 +906,11 @@
       "source_layer": "PRIORITY_QUEUE",
       "position": 26,
       "check": {
-        "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
-        "source_url": "https://www.thomabravo.com/press-releases/coupa-software-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo-for-8-billion",
-        "claim": "Master source and transaction description only; issuer verification outstanding",
-        "state": "UNVERIFIED",
-        "cash_scope": "UNVERIFIED"
+        "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+        "url": "https://www.thomabravo.com/press-releases/coupa-software-enters-into-definitive-agreement-to-be-acquired-by-thoma-bravo-for-8-billion",
+        "finding": "Coupa agreed to be acquired for USD8bn whole-business EV in Dec 2022; ADIA minority co-investor participation named, but ADIA cheque not reported.",
+        "state": "CONSORTIUM_BUYOUT_AGREEMENT",
+        "cash_scope": "ENTERPRISE_VALUE_NOT_ADIA_TICKET"
       },
       "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
       "cash_flow_schedule": null,
@@ -1310,11 +1310,17 @@
       "source_layer": "MASTER_445",
       "position": 38,
       "check": {
-        "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
-        "source_url": "https://www.mediaoffice.abudhabi/en/economy/mgx-invests-in-binance-cryptocurrency-exchange-in-landmark-us2bn-deal/",
-        "claim": "Master source and transaction description only; issuer verification outstanding",
-        "state": "UNVERIFIED",
-        "cash_scope": "UNVERIFIED"
+        "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+        "url": "https://www.prnewswire.com/news-releases/mgx-backs-binance-in-landmark-investment-302400050.html",
+        "finding": "MGX and Binance announced USD2bn minority investment March 12 2025, settlement denominated in stablecoins, not USD fiat wire; investor-specific headline is USD2bn.",
+        "state": "MINORITY_INVESTMENT_ANNOUNCED_STABLECOIN",
+        "cash_scope": "MGX_USD2BN_STABLECOIN_NOT_FIAT",
+        "verified_amount": {
+          "value": 2000,
+          "currency": "USD",
+          "unit": "million equivalent",
+          "payment_asset": "stablecoin"
+        }
       },
       "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
       "cash_flow_schedule": null,
@@ -1419,11 +1425,12 @@
       "source_layer": "MASTER_445",
       "position": 41,
       "check": {
-        "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
-        "source_url": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
-        "claim": "Master source and transaction description only; issuer verification outstanding",
-        "state": "UNVERIFIED",
-        "cash_scope": "UNVERIFIED"
+        "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+        "url": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
+        "finding": "Mubadala partnership allocates USD2bn commitment to long-term Silver Lake strategy, not evidence of USD2bn paid in September 2020.",
+        "state": "STRATEGY_COMMITMENT",
+        "cash_scope": "UNDRAWN_COMMITMENT_NOT_DEPLOYMENT",
+        "linked_economic_event": "MUBADALA_SILVERLAKE_2020_STRATEGY"
       },
       "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
       "cash_flow_schedule": null,
@@ -1453,11 +1460,12 @@
       "source_layer": "MASTER_445",
       "position": 42,
       "check": {
-        "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
-        "source_url": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
-        "claim": "Master source and transaction description only; issuer verification outstanding",
-        "state": "UNVERIFIED",
-        "cash_scope": "UNVERIFIED"
+        "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+        "url": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
+        "finding": "Same September 2020 announcement also includes minority Silver Lake manager stake, price undisclosed; distinct asset exposure but not additive to whole USD2bn strategy commitment without allocation.",
+        "state": "MANAGER_STAKE_ANNOUNCED",
+        "cash_scope": "PRICE_UNDISCLOSED",
+        "linked_economic_event": "MUBADALA_SILVERLAKE_2020_STRATEGY"
       },
       "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
       "cash_flow_schedule": null,
@@ -1521,11 +1529,16 @@
       "source_layer": "MASTER_445",
       "position": 44,
       "check": {
-        "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
-        "source_url": "https://www.biocon.com/biocon-biologics-receives-rs-555-cr-usd-75-million-capital-injection-from-adq/",
-        "claim": "Master source and transaction description only; issuer verification outstanding",
-        "state": "UNVERIFIED",
-        "cash_scope": "UNVERIFIED"
+        "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+        "url": "https://www.biocon.com/biocon-biologics-receives-rs-555-cr-usd-75-million-capital-injection-from-adq/",
+        "finding": "Biocon Biologics issuer confirms USD75m/INR555 crore investment by ADQ for 1.8% primary stake; record classification investor-specific, not round-wide.",
+        "state": "PRIMARY_EQUITY_CAPITAL_INJECTION",
+        "cash_scope": "ADQ_INVESTOR_SPECIFIC_75M",
+        "verified_amount": {
+          "value": 75,
+          "currency": "USD",
+          "unit": "million"
+        }
       },
       "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
       "cash_flow_schedule": null,
@@ -1623,11 +1636,11 @@
       "source_layer": "MASTER_445",
       "position": 47,
       "check": {
-        "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
-        "source_url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2021/salic/",
-        "claim": "Master source and transaction description only; issuer verification outstanding",
-        "state": "UNVERIFIED",
-        "cash_scope": "UNVERIFIED"
+        "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+        "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2021/salic/",
+        "finding": "PIF transfers Almarai, NADEC and Saudi Fisheries holdings to group subsidiary SALIC. Intragroup holding reallocation, not third-party new paid sovereign deployment.",
+        "state": "INTRAGROUP_SHARE_TRANSFER",
+        "cash_scope": "NO_EXTERNAL_NEW_CASH"
       },
       "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
       "cash_flow_schedule": null,
