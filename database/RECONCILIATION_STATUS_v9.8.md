@@ -52,15 +52,15 @@ This establishes that **all proposed research-ledger IDs in 66 source files alre
 - Merged 1950–2019 syndicate map: **102/102** rows match existing v9.8 map by linked ID + Gulf investor + partner + role.
 - June–December 2025 syndicate proposals: **28/28** rows match by the same composite key.
 - January–November 2026 syndicate proposals: **27/27** rows match by the same composite key.
-- Remaining **47 period-specific historical syndicate files**: not yet individually checked against v9.8; may duplicate the merged map.
-- Status: 157 proposed map-row references checked; **0 unmatched in this subset**. These are not necessarily 157 distinct relationships.
+- All **47 period-specific historical syndicate files** individually checked: 102/102 proposed links match v9.8 by composite key. These 102 overlap the merged 1950–2019 map.
+- Status: **all 66 syndicate proposal files screened**: 259 proposed map-row occurrences (102 historical + 102 overlapping merged + 55 recent), **0 unmatched composite keys**. These are 157 source-package references after excluding the duplicated merged 102; they are not necessarily 157 distinct canonical map rows.
 
 ### Still required before completion
 
 - Compare **field values**, status changes, provenance, amount and stage caveats for already matched ledger and syndicate IDs.
 - Classify all **63 candidate lead files**, including the merged 1950–2019 file with 281 rows, using economic-event matching rather than exact narrative strings; check supersession/overlap.
 - Reconcile **66 coverage registers**, supporting audits and founder ruling logs, without copying coverage assertions or equating a research attempt with a proven zero-deal result.
-- Complete checks for 47 period-specific historical syndicate maps.
+- Completed composite-key presence checks for all 47 period-specific historical syndicate maps; full field-level and economic-role QA remains.
 - Record defensible additions/corrections only after evidence/ruling checks; preserve canonical four files and avoid duplicate economic transactions.
 
 **No further external research, no Supabase writes, no merge or release.**
