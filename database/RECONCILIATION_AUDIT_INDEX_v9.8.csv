@@ -203,3 +203,71 @@ GSI11M02-001 (IPIC buys Total's 48.83% of Cepsa; si","AUDIT_METADATA_INDEXED_NOT
 - Intra-Gulf targets (Gulf Cryo).
 - Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
 ","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2016_MayAug_Audit_PROPOSED.md","UNCERTIFIED","6","6","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Intra-Gulf targets and Gulf managers (Investcorp).
+- Divestments ledger-only (SR Technics).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2016_SepDec_Audit_PROPOSED.md","UNCERTIFIED","3","3","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Non-binding fund commitments (Vision Fund): ledger-only until funded.
+- Intra-Gulf targets (Adeptio).
+- Month rule when the SPA precedes the public announcement (Banvit).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2017_JanApr_Audit_PROPOSED.md","UNCERTIFIED","1","1","7","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Backfill approval (Rosneft).
+- Divestments ledger-only (Ardian).
+- Intra-group restructurings ledger-only (Mubadala and IPIC).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2017_MayAug_Audit_PROPOSED.md","UNCERTIFIED","3","3","7","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- MoU and fund commitments (Blackstone, Vision Fund): ledger-only until funded.
+- Divestments ledger-only (Tabreed).
+- Internal state transfers ledger-only (QIA domestic holdings).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2017_SepDec_Audit_PROPOSED.md","UNCERTIFIED","2","2","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Non-binding MoUs (Virgin): ledger-only until funded.
+- Advisory-unit acquisitions (Verno).
+- Divestments ledger-only (Rosneft resale, Tabreed, AMD).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2018_JanApr_Audit_PROPOSED.md","UNCERTIFIED","2","2","8","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Multi-investor consortium where the investor's own amount is not stated (AccorInvest).
+- Round headline separate from the investor amount (Magic Leap).
+- Intra-group restructuring (Mubadala and ADIC): ledger-only.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2018_MayAug_Audit_PROPOSED.md","UNCERTIFIED","5","5","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Consolidation of an existing consortium holding (Rosneft).
+- Press-reported public-market stakes (Tesla).
+- Co-investment amount vs round headline (UPL).
+- Domestic stakes ledger-only (ACWA Power).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2018_SepDec_Audit_PROPOSED.md","UNCERTIFIED","2","2","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Floor amounts (""more than"").
+- Subsidiary hotel unit of a fund (Katara).
+- Domestic listed stakes ledger-only (ACWA Power, Kingdom Holding).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2019_JanApr_Audit_PROPOSED.md","UNCERTIFIED","3","3","7","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Real-estate co-investment where QIA's own amount is not stated.
+- Placing participation (Sirius).
+- Divestments ledger-only (Borealis, Cepsa, SABIC).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2019_MayAug_Audit_PROPOSED.md","UNCERTIFIED","3","3","9","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Round headline vs the investor amount (SoFi).
+- Divestments and domestic JV purchases ledger-only (Cepsa, Gulf Bank, Jasara).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2019_SepDec_Audit_PROPOSED.md","UNCERTIFIED","2","2","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Co-investment where the investor's own amount is not stated (Mumbai airport).
+- Domestic fund-of-funds vehicle (Jada) and domestic education platform (ELM): ledger-only.
+- Divestment (Hyperoptic) ledger-only.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+
+## Phase note
+This c","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2025_Aug_Audit_PROPOSED.md","UNCERTIFIED","3","2","","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
