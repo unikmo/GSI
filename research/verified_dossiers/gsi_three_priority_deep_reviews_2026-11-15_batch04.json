@@ -1,0 +1,350 @@
+{
+  "dataset_id": "GSI_PRIORITY_DEEPENING_2026_11_15_BATCH04",
+  "created_on": "2026-11-15",
+  "scope": "Three evidence-checked economic transactions from next90 queue. Private research; not certified investment-grade.",
+  "method": "Only primary issuer/fund/regulatory claims; pre-decision metrics separated from same-day or later disclosure. All subsequent returns unverified.",
+  "cases": [
+    {
+      "master_record_id": "GSI24A08-002",
+      "investor_group": "PIF",
+      "investing_vehicle": "Ayar Third Investment Company",
+      "investee": "Lucid Group Inc.",
+      "economic_event_id": "PIF_AYAR_LUCID_SERIES_B_AUG2024",
+      "deal_classification": "FUNDED_PRIMARY_CONVERTIBLE_PREFERRED_EQUITY_SEPARATE_UNDRAWN_CREDIT_COMMITMENT",
+      "timeline": [
+        {
+          "date": "2024-08-04",
+          "event": "definitive_subscription_signed",
+          "evidence": "LUCID-8K-20240804"
+        },
+        {
+          "date": "2024-08-05",
+          "event": "public_transaction_and_Q2_earnings_disclosure",
+          "evidence": "LUCID-Q2-20240805"
+        },
+        {
+          "date": "2024-08-16",
+          "event": "subscription_closed_and_shares_purchased",
+          "evidence": "LUCID-8K-20240816"
+        }
+      ],
+      "transaction_terms": {
+        "paid_preferred_equity_usd_m": 750,
+        "preferred_shares": 75000,
+        "initial_common_equivalent_shares_m_approx": 171.24,
+        "initial_conversion_price_usd": 4.3799,
+        "loan_facility_commitment_usd_m": 750,
+        "loan_drawn_on_announcement_usd_m": 0,
+        "net_issuer_proceeds_usd_m": 749.4,
+        "net_proceeds_disclosed_after_entry": true,
+        "cash_verified_by_issuer": true,
+        "warning": "$1.5bn headline is equity $750m plus separate loan capacity $750m, not $1.5bn of cash invested."
+      },
+      "pre_decision_financials": [
+        {
+          "metric": "FY2023_US_GAAP_revenue",
+          "value": 595.271,
+          "unit": "USD million",
+          "period_end": "2023-12-31",
+          "available_before_signing": true,
+          "source": "LUCID-FY2023-10K"
+        },
+        {
+          "metric": "FY2023_US_GAAP_operating_loss",
+          "value": -3099.588,
+          "unit": "USD million",
+          "period_end": "2023-12-31",
+          "available_before_signing": true,
+          "source": "LUCID-FY2023-10K"
+        },
+        {
+          "metric": "FY2023_cash_used_operations",
+          "value": -2489.8,
+          "unit": "USD million",
+          "period_end": "2023-12-31",
+          "available_before_signing": true,
+          "source": "LUCID-FY2023-RESULTS",
+          "precision": "one decimal million"
+        }
+      ],
+      "non_predecision_financials": [
+        {
+          "metric": "Q2_2024_US_GAAP_revenue",
+          "value": 200.581,
+          "unit": "USD million",
+          "period_end": "2024-06-30",
+          "disclosed": "2024-08-05",
+          "available_before_signing": false,
+          "source": "LUCID-Q2-20240805"
+        },
+        {
+          "metric": "Q2_2024_US_GAAP_net_loss",
+          "value": -643.39,
+          "unit": "USD million",
+          "period_end": "2024-06-30",
+          "disclosed": "2024-08-05",
+          "available_before_signing": false,
+          "source": "LUCID-Q2-20240805"
+        }
+      ],
+      "fund_strategy": {
+        "state": "TRANSACTION_RATIONALE_SOURCE_PENDING",
+        "note": "PIF affiliation and existing majority shareholding explicitly verified; internal committee mandate/decision basis not evidenced."
+      },
+      "risk_factors": [
+        "Persistent large operating losses and capital intensity in pre-decision FY2023 accounts",
+        "2024 Q2 release after Aug 4 agreement; prohibit retrospective point-in-time characterization",
+        "Loan undrawn at Aug 5; separate equity, facility, and future cash movements"
+      ],
+      "returns": {
+        "moic": null,
+        "irr": null,
+        "realized_proceeds": null,
+        "reason": "No verified Ayar-specific realized proceeds and cash-flow schedule"
+      },
+      "review": {
+        "issuer_terms": "SOURCE_CHECKED",
+        "historical_financials": "PARTIAL_PRE_DECISION_EXTRACTED",
+        "lifecycle": "CLOSING_VERIFIED",
+        "decision_grade": false,
+        "ready_for_public_display": false,
+        "aggregation_eligible": false
+      }
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-001",
+      "investor_group": "PIF",
+      "investee": "Reliance Retail Ventures Limited",
+      "economic_event_id": "PIF_RRVL_SUBSCRIPTION_NOV2020",
+      "deal_classification": "FUNDED_PRIMARY_EQUITY_SUBSCRIPTION",
+      "timeline": [
+        {
+          "date": "2020-11-04",
+          "event": "PIF_agreement_announced",
+          "evidence": "PIF-RRVL-ANNOUNCEMENT"
+        },
+        {
+          "date": "2020-11-05",
+          "event": "Reliance_issuer_release",
+          "evidence": "RIL-RRVL-20201105"
+        },
+        {
+          "date": "2020-11-09",
+          "event": "PIF_subscription_received_and_shares_allotted",
+          "evidence": "RIL-RRVL-ALLOTMENT-20201119"
+        }
+      ],
+      "transaction_terms": {
+        "investor_specific_funded_inr_crore": 9555,
+        "fully_diluted_stake_pct": 2.04,
+        "all_investors_total_round_inr_crore": 47265,
+        "round_total_stake_pct": 10.09,
+        "warning": "₹47,265 crore is the total 2020 cohort; only ₹9,555 crore belongs to PIF. PIF’s 2020 Jio Platforms stake is a separate investee."
+      },
+      "pre_decision_financials": [
+        {
+          "metric": "FY2020_Reliance_Retail_business_segment_revenue",
+          "value": 162936,
+          "unit": "INR crore",
+          "period_end": "2020-03-31",
+          "disclosed": "2020-04-30",
+          "available_before_signing": true,
+          "basis": "parent RIL retail business segment, gross value-of-sales metric, NOT RRVL statutory consolidated net revenue",
+          "source": "RIL-FY2020-APR30"
+        },
+        {
+          "metric": "FY2020_Reliance_Retail_business_segment_EBITDA",
+          "value": 9654,
+          "unit": "INR crore",
+          "period_end": "2020-03-31",
+          "disclosed": "2020-04-30",
+          "available_before_signing": true,
+          "basis": "parent RIL segment management EBITDA; non-GAAP / not RRVL standalone EBITDA",
+          "source": "RIL-FY2020-APR30"
+        },
+        {
+          "metric": "FY2020_RRVL_consolidated_gross_revenue",
+          "value": 162936,
+          "unit": "INR crore",
+          "period_end": "2020-03-31",
+          "disclosed": "2020-09-08",
+          "available_before_signing": true,
+          "basis": "CRISIL corporate-rating financial indicators for RRVL consolidated",
+          "source": "CRISIL-RRVL-20200908"
+        },
+        {
+          "metric": "FY2020_RRVL_consolidated_net_revenue",
+          "value": 146272,
+          "unit": "INR crore",
+          "period_end": "2020-03-31",
+          "disclosed": "2020-09-08",
+          "available_before_signing": true,
+          "basis": "CRISIL RRVL consolidated; different revenue basis from business segment headline",
+          "source": "CRISIL-RRVL-20200908"
+        },
+        {
+          "metric": "FY2020_RRVL_consolidated_PAT",
+          "value": 5448,
+          "unit": "INR crore",
+          "period_end": "2020-03-31",
+          "disclosed": "2020-09-08",
+          "available_before_signing": true,
+          "basis": "CRISIL credit opinion's financial indicators; do not substitute for EBITDA",
+          "source": "CRISIL-RRVL-20200908"
+        }
+      ],
+      "fund_strategy": {
+        "evidence": "PIF-RRVL-ANNOUNCEMENT",
+        "description": "Fund stated international exposure to innovative/transformative businesses, India and retail; attributed public rationale, not proof of IC decision."
+      },
+      "risks": [
+        "Retail cashflows and Covid-era restrictions; no unsupported quantitative impact assigned",
+        "Business segment sales, RRVL consolidated gross sales and statutory net revenue have different scopes",
+        "Latest subsequent equity value, exits and fund-level realized return not verified"
+      ],
+      "returns": {
+        "moic": null,
+        "irr": null,
+        "realized_proceeds": null,
+        "reason": "No PIF-specific exit cash flow or valuation realization verified"
+      },
+      "review": {
+        "issuer_terms": "SOURCE_CHECKED",
+        "historical_financials": "PARTIAL_PRE_DECISION_EXTRACTED",
+        "lifecycle": "ISSUER_CONFIRMED_ALLOTMENT",
+        "decision_grade": false,
+        "ready_for_public_display": false,
+        "aggregation_eligible": false
+      }
+    },
+    {
+      "master_record_id": "GSI21J07-008",
+      "investor_group": "PIF",
+      "investee": "Red Sea Gateway Terminal Limited",
+      "economic_event_id": "RSGT_PIF_COSCO_SECONDARY_JUL2021",
+      "deal_classification": "COMPLETED_SECONDARY_EQUITY_ACQUISITION",
+      "timeline": [
+        {
+          "date": "2021-07-15",
+          "event": "issuer_announces_completed_share_sale",
+          "evidence": "RSGT-20210715"
+        }
+      ],
+      "transaction_terms": {
+        "PIF_pct": 20,
+        "COSCO_pct": 20,
+        "combined_stake_pct": 40,
+        "combined_gross_equity_sale_usd_m": 280,
+        "reported_enterprise_value_usd_m": 880,
+        "PIF_specific_consideration_usd_m": null,
+        "why_null": "Issuer reports $280m aggregate for combined 40%; individual consideration not independently disclosed. Do not allocate half without evidence.",
+        "new_cash_into_investee": false,
+        "why": "Sale of existing shareholders’ equity, not an issuer primary funding round."
+      },
+      "pre_decision_financials": [],
+      "financial_status": "NO_ISSUER_COMPANY_FINANCIAL_STATEMENTS_VERIFIED_AT_TRANSACTION_DATE",
+      "fund_strategy": {
+        "evidence": "RSGT-20210715",
+        "description": "Transaction release explicitly links investment to PIF 2021–2025 Transport & Logistics sector strategy; stated rationale only."
+      },
+      "risks": [
+        "Port cargo throughput, logistics cyclicality and economic exposure require period-specific statements",
+        "$880m is enterprise value, not transaction proceeds or PIF capital",
+        "2021-07-14 master date differs from issuer publication 2021-07-15; verify underlying completion date separately"
+      ],
+      "returns": {
+        "moic": null,
+        "irr": null,
+        "realized_proceeds": null,
+        "reason": "No historical basis/realized disposal proceeds"
+      },
+      "review": {
+        "issuer_terms": "SOURCE_CHECKED_COMBINED_ONLY",
+        "historical_financials": "NOT_AVAILABLE_VERIFIED",
+        "lifecycle": "SALE_COMPLETION_ISSUER_CONFIRMED",
+        "decision_grade": false,
+        "ready_for_public_display": false,
+        "aggregation_eligible": false
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "LUCID-8K-20240804",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024034724/lcid-20240804.htm",
+      "publisher": "Lucid / SEC",
+      "publication_date": "2024-08-05",
+      "type": "primary_regulatory"
+    },
+    {
+      "id": "LUCID-Q2-20240805",
+      "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-announces-second-quarter-2024-financial-results",
+      "publisher": "Lucid",
+      "publication_date": "2024-08-05",
+      "type": "primary_unaudited_earnings"
+    },
+    {
+      "id": "LUCID-8K-20240816",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024037638/lcid-20240816.htm",
+      "publisher": "Lucid / SEC",
+      "publication_date": "2024-08-19",
+      "type": "primary_regulatory"
+    },
+    {
+      "id": "LUCID-FY2023-10K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024007209/lcid-20231231.htm",
+      "publisher": "Lucid / SEC",
+      "publication_date": "2024-02-21",
+      "type": "primary_audited_annual"
+    },
+    {
+      "id": "LUCID-FY2023-RESULTS",
+      "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-announces-fourth-quarter-and-full-year-2023-financial",
+      "publisher": "Lucid",
+      "publication_date": "2024-02-21",
+      "type": "primary_earnings"
+    },
+    {
+      "id": "PIF-RRVL-ANNOUNCEMENT",
+      "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2020/reliance-retail-ventures/",
+      "publisher": "PIF",
+      "publication_date": "2020-11-04",
+      "type": "fund_primary"
+    },
+    {
+      "id": "RIL-RRVL-20201105",
+      "url": "https://www.ril.com/news-media/press-releases/public-investment-fund-pif-invests-rs9555-crore-approx-us13-billion",
+      "publisher": "Reliance Industries",
+      "publication_date": "2020-11-05",
+      "type": "issuer_primary"
+    },
+    {
+      "id": "RIL-RRVL-ALLOTMENT-20201119",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2023-01/Media-Release-RRVL-19112020.pdf",
+      "publisher": "Reliance Industries",
+      "publication_date": "2020-11-19",
+      "type": "issuer_confirmation"
+    },
+    {
+      "id": "RIL-FY2020-APR30",
+      "url": "https://rilstaticasset.akamaized.net/sites/default/files/2022-12/RIL-Media-Release-4Q-FY-19-20.pdf",
+      "publisher": "Reliance Industries",
+      "publication_date": "2020-04-30",
+      "type": "issuer_earnings"
+    },
+    {
+      "id": "CRISIL-RRVL-20200908",
+      "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Reliance_Retail_Limited_September_08_2020_RR.html",
+      "publisher": "CRISIL",
+      "publication_date": "2020-09-08",
+      "type": "credit_ratings_primary"
+    },
+    {
+      "id": "RSGT-20210715",
+      "url": "https://rsgt.com.sa/news/rsgt-announces-completion-of-usd-280-million-equity-sale-to-pif-cosco-shipping-ports-limited/",
+      "publisher": "RSGT",
+      "publication_date": "2021-07-15",
+      "type": "issuer_primary"
+    }
+  ]
+}
