@@ -30,8 +30,9 @@ test('investor-specific XPeng records distinguish sovereign and subscription dat
  assert.equal(a.check.verified_amount.value,100);
  assert.equal(a.check.cross_investor_related,'GSI-2020-AUG-004');
 });
-test('no capital inflation from convertible securities, manager commitments, or consortiums',()=>{
- assert.equal(byId('GSI22O10-001').check.verified_amount.value,2427.6);
+test('no capital inflation from stablecoin investments, manager commitments, or consortiums',()=>{
+ assert.equal(byId('GSI25M03-001').check.verified_amount.value,2000);
+ assert.equal(byId('GSI25M03-001').check.verified_amount.payment_asset,'stablecoin');
  assert.match(byId('GSI-2020-SEP-001').check.cash_scope,/COMMITMENT/);
  assert.match(byId('GSI24J06-001').check.cash_scope,/COMBINED/);
  assert.match(byId('GSI-2021-MAR-004').check.cash_scope,/NO_EXTERNAL_NEW_CASH/);
