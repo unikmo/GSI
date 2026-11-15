@@ -137,3 +137,30 @@ The founder-lead reconciliation matrix now has **18 explicit existing-event link
 **Master economic duplication screen:** Reparsed all **616** master records; no pairs shared an **exact normalised target description together with the same investor group**. This is only a narrow duplicate indicator, **not proof of zero duplicate economic deals**; announcement and closing rows can have different descriptions. Stage-level checks remain required.
 
 **Current release gate:** Historical v9.8 baselines remain intact; four canonical tables have not been changed by this checkpoint. The PR stays a draft; no Supabase use, new external research, publication or merge. Open evidence work includes institution-specific source checks, amount attribution, 97 founder-lead exceptions and 200 held candidate leads; the 1950–2026 period remains incompletely screened. The unreadable 1.89 MB merged historical coverage CSV is not treated as an additional independent row set, because 65 individual coverage registers were parsed and historical merger would double-count them.
+
+## Focused primary-source verification of the original 117 pending leads — checkpoint, 2026-11-15
+
+**Executed in GitHub review PR #1, branch only.** No general new-deal search, Supabase writes or main merge. The original set of **117 candidate cases requiring source checks** has been worked through in successive passes; **68 cases remain tagged SOURCE_VERIFICATION_PENDING** (after some existing-record links and primary-source resolutions). That does **not** mean the other 49 are fully certified as investor-specific capital. Each case retains its original source and disposition, primary evidence URLs where opened, and open caveats in `database/RECONCILIATION_CANDIDATE_DISPOSITION_v9.8.csv`.
+
+**Current authoritative file row counts (heterogeneous research rows, NOT 639 verified deals):**
+
+| Working table | Data rows |
+|---|---:|
+| Global master (including holds and noncounted economic duplicates) | **639** |
+| Research ledger | **353** |
+| Label crosswalk | **639** |
+| PE syndicate/partner map | **204** |
+
+**Source-backed GSI records added in this review:**
+- 1987 KIO Torras Hostench 24%→37% rights issue (`GSI87M08-001`); Feb 1988 KIO additional BP shares (`GSI88M02-001`); 1990 Torras takeover 39.7%→72.9% (`GSI90M02-099`). Separate June 1990 remaining 2.27% bid is only a ledger proposal, not proof of acquisition.
+- 2005 Mubadala Ferrari 5% for €114m (`GSI05M07-099`); 2006 Aabar Singapore Pearl Energy takeover (`GSI06M05-099`) and KIA $720m ICBC IPO stake (`GSI06M09-099`); 2007 Qatar Holding 20% LSE (`GSI07M09-099`); Dec 2008 Mubadala 24.9% US John Buck Company (`GSI08M12-001`); 2009 ATIC $2.1bn GlobalFoundries financing (`GSI09M03-099`) distinct from public AMD shares; 2010 Mubadala additional $500m Carlyle convertible/GP-equity **agreement** (`GSI10M12-099`).
+- 2011 IPIC takeover of Cepsa 48.83% from Total €3.7bn (`GSI11M02-099`); 2011 IPIC OMV 20.4%→24.9% stake increase (`GSI11M10-099`); 2012 Qatar Holding 22.22% Citic Capital (`GSI12M08-099`); 2014 QIA Lifestyle International 19.9% agreed for $616m (`GSI14M10-099`); 2014 Mumtalakat PRO Unlimited with Investcorp (`GSI14M10-098`); 2015 Mumtalakat Nobel Learning with Investcorp (`GSI15M03-099`); 2015 Mubadala MATSA Trafigura JV (`GSI15M06-002`); 2015 ADIA Fenix Power 36% in consortium (`GSI15M12-002`); Jan 2016 Mubadala Vivalto Santé (`GSI16M01-001`).
+- QIA d-Matrix 2025 Series C (`GSI25M11-005`), MGX/Silver Lake Altera 2025 (`GSI25M09-008`), QIA Skyryse 2026 financing (`GSI26M02-099`), MGX/OpenAI March 2026 $122bn whole round co-lead (`GSI26M03-099`). None has its investor amount imputed from the round or deal valuation.
+
+**Ledger-only additions:** 1989 ADIA Trafalgar House existing-stake disclosure, 2011 ADIA Kemble Water holding with unknown purchase month, May 2008 Mubadala intra-Gulf Pearl transfer, June 1990 KIO Torras follow-on bid (not closed), ADQ/Energy Capital Partners $25bn prospective platform, QIA/Blue Owl digital infrastructure prospective platform, Mumtalakat/BlueFive intra-Gulf ownership, and others entered in-source with noncounted stage notes.
+
+**Duplicates and corrections:** PIF/SALIC Olam Agri 44.58% signed Feb 2025 and completed Apr 2026 is ONE economic acquisition. `GSI25F02-001` now counted once at seller-reported $1.88bn completion consideration; `GSI26B03-001` is retained as explicit **duplicate closing-stage / NONCOUNTED**. Greenlink direct investor release body dateline June 16 2026 corrects May/June discrepancy. Hologic issuer confirmed Apr 7 2026 closing and ADIA minority participation. New records in ledger/crosswalk/syndicate maps were cross-linked to canonical source IDs.
+
+**Important open exceptions** (do not auto-admit): historical KIO Royal Bank of Scotland and Hoechst operator exposure, ATIC 2009 Chartered acquisition separate from GlobalFoundries, OIA/SGRF Indus Teqsite date and amount, unnamed fund targets or mixed leads, private or corporate ownership ambiguity, pre-2020 unverified exact dates, and 2025/26 sovereign investor-specific round contributions where undisclosed. The remaining **68 pending source cases** are not certified; also leave previously linked-but-provisional cases explicitly provisional.
+
+**Release QA:** Transaction stage, geography and amount caveats were retained. Separate source-case labels do not mean every historical year/month is comprehensively researched. Do not assert 1950–2026 completeness, do not merge draft PR yet. Final case-level source QA remains open.
