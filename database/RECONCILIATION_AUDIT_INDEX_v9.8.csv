@@ -134,3 +134,72 @@ GSI10M02-001 (ADIA, about 15% of Gatwick, February 2010, GBP 125m reported)","AU
 - Notes and equity mix (Carlyle).
 - Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
 ","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2011_JanJun_Audit_PROPOSED.md","UNCERTIFIED","2","2","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Press-reported buyer with no filing (TPG).
+- Consolidating an existing holding (Songbird).
+- Intra-Gulf targets (John Buck) and intra-group (ATIC): ledger-only.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+
+## Late addition
+GSI11M02-001 (IPIC buys Total's 48.83% of Cepsa; si","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2011_JulDec_Audit_PROPOSED.md","UNCERTIFIED","1","1","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Fund group for IPIC and Aabar before the 2017 merger into Mubadala.
+- Public-market holdings with unseen filing dates (EDP, Total, Vivendi, Tiffany).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2012_JanJun_Audit_PROPOSED.md","UNCERTIFIED","4","4","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Public-market stake builds and increases of existing holdings (Xstrata, Vivendi, Lagardere, Tiffany): records or holdings notes.
+- Multi-month stake builds: one record or one per threshold.
+- IPIC fund group before the 2017 merger.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2012_JulDec_Audit_PROPOSED.md","UNCERTIFIED","1","1","8","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Bilateral 50-50 funds (Oman India) and how to show the sovereign share.
+- Domestic exchange stakes (Qatar Exchange): ledger-only.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+
+## Late addition (2026-11-13)
+- Aug: Qatar Holding 22.22% of CITIC Capital Holdings (GSI12M08-002),","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2013_JanJun_Audit_PROPOSED.md","UNCERTIFIED","3","3","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Domestic targets (ONIC) and whether Oman Investment Fund sits under the Oman group.
+- Press range for investor amount (VTB).
+- Signing versus completion (Porto Sudeste).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2013_JulDec_Audit_PROPOSED.md","UNCERTIFIED","3","3","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Bilateral 50-50 funds (Oman India).
+- Press-reported holdings with no filing (BofA, Samsung).
+- Domestic exchange stakes (Qatar Exchange): ledger-only.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2014_JanJun_Audit_PROPOSED.md","UNCERTIFIED","1","1","9","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Consortium rows with no investor amount (Queensland Motorways).
+- Divestments and intra-Gulf sales: ledger-only (ADAT).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2014_JulDec_Audit_PROPOSED.md","UNCERTIFIED","5","5","9","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Stakes taken in a debt restructuring (MMX, Prumo).
+- Bilateral 50-50 funds (Oman India).
+- Consortium rows with no investor amount (GEMS).
+- Intra-Gulf target (GEMS is UAE-based).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2015_JanApr_Audit_PROPOSED.md","UNCERTIFIED","3","3","6","40","NOT_DETERMINED_FROM_AUDIT","## Open rulings touched
+- Whether a maximum commitment in a rights offering is an investor amount (QIA and Dufry).
+- Month-of-announcement rule when press lags the filing (KIA).
+- Real estate JV: ADIA share unconfirmed.
+- Whether v9.5 equals the locked v4.9 schema, for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2015_MayAug_Audit_PROPOSED.md","UNCERTIFIED","3","2","5","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Platform and MoU commitments (RDIF): ledger-only until deployed.
+- Announcement-month rule when preliminary and signed dates differ (POSCO).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2015_SepDec_Audit_PROPOSED.md","UNCERTIFIED","3","3","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Domestic listed-stake purchases: ledger-only recommended.
+- In-principle approvals and conditional cornerstone commitments (Kenmare).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2016_JanApr_Audit_PROPOSED.md","UNCERTIFIED","2","2","5","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Intra-Gulf targets (Gulf Cryo).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
