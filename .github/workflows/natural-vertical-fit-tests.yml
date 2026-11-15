@@ -24,6 +24,8 @@ on:
       - 'tests/gsiNext90ResearchEnrichment.test.mjs'
       - 'tests/gsiPrivateImport.test.mjs'
       - 'tests/gsiNext50QualityReview.test.mjs'
+      - 'tests/gsiNext50QualityBatch06.test.mjs'
+      - 'research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json'
       - 'research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json'
       - 'tests/gsiPriorityDeepReviews.test.mjs'
       - 'research/verified_dossiers/gsi_three_priority_deep_reviews_2026-11-15_batch04.json'
