@@ -117,3 +117,9 @@ These are classifications inherited from proposal statuses, NOT an independent c
 ### Unresolved completion gate
 
 The remaining 129 founder leads require substantive comparison to existing target/vehicle histories and source packages. The 200 candidate holds and 72 ledger-only candidates also require case-level evidence and eligibility review. The 1.89 MB merged coverage CSV and 2021/2022 incremental workbook remain outside full verified reconciliation. No claims of complete 1950–2026 coverage, deployed cash totals, or published/merged data are justified yet.
+
+## Separate September 2021 – June 2022 research workbook checked
+
+The attached `GSI_Research_Expanded_2021Sep_2022Jun_2026-11-15.xlsx` was opened directly (New Research Ledger sheet): **41 distinct GSI-RESEARCH record IDs**, all **41 already present** in the canonical v9.8 research ledger. No additional rows should be imported from this workbook by ID alone. The separate `GSI_2021_September_Incremental_Review_2026-11-15.xlsx` contains **6 targeted September 2021 research candidates** and partial source-coverage/audit context; these are not six independently verified new equity deals. Do not treat its older 257/443 running totals as canonical over the 616-record v9.8 master.
+
+The founder-lead reconciliation matrix now has **18 explicit existing-event links**, preserving 129 still to be reconciled. The chronology-correction audit contains eight source flags, several mapping to correct-year entries already present (GEMS, Hyperoptic, Investcorp).
