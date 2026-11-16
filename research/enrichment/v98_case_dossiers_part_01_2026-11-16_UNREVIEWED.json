@@ -590,7 +590,7 @@
       "original_event_classification": "EQUITY_TRANSACTION",
       "source_inclusion_decision": "RETAIN_PROVISIONAL",
       "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -689,9 +689,91 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "QIA_ALLOCATION_AND_SETTLED_CASH",
+          "QIA_LEGAL_SUBSCRIBER",
+          "QIA_POST_ISSUE_SHAREHOLDING",
+          "PPC_AUDITED_PRE_DECISION_FINANCIALS",
+          "PPC_TRANSACTION_ADVISERS_AND_CLIENT_ROLES",
+          "INVESTOR_SPECIFIC_PROCEEDS_AND_RETURNS"
         ],
         "requires_further_primary_research": true
+      },
+      "primary_source_review_2026_11_16": {
+        "review_status": "PRIMARY_INVESTOR_PRESS_RELEASE_DIRECTLY_REOPENED_TRANSACTION_FACTS_ONLY",
+        "source_url": "https://qia.qa/en/Newsroom/Pages/QIA-Anchors-Public-Power-Corporations-Share-Capital-Increase.aspx",
+        "source_publication_date": "2026-05-25",
+        "reviewed_on": "2026-11-16",
+        "economic_event_classification_reviewed": "LISTED_ISSUER_EQUITY_PRIMARY_OFFERING_WITH_SECONDARY_TREASURY_SHARE_COMPONENT",
+        "claims": [
+          {
+            "field": "issuer",
+            "value": "Public Power Corporation S.A., listed Athens Stock Exchange",
+            "scope": "ISSUER_LEGAL_NAME",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "offering_primary",
+            "value": 4250000000,
+            "currency": "EUR",
+            "scope": "ALL_INVESTORS_PRIMARY_NEW_SHARES_NOT_QIA_TICKET",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "offering_secondary",
+            "value": 250000000,
+            "currency": "EUR",
+            "scope": "TREASURY_SHARES_SECONDARY_PLACEMENT_NOT_QIA_TICKET",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "offer_price",
+            "value": 18.63,
+            "currency": "EUR",
+            "unit": "per_share",
+            "scope": "OFFER_PRICE",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "greek_state_cornerstone",
+            "value": 1300000000,
+            "currency": "EUR",
+            "approximate": true,
+            "scope": "GREEK_STATE_SUBSCRIPTION_NOT_QIA",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "aeolus_cornerstone",
+            "value": 1200000000,
+            "currency": "EUR",
+            "approximate": true,
+            "scope": "AEOLUS_HOLDINGS_SUBSCRIPTION_NOT_QIA",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "aeolus_investor_structure",
+            "value": "Aeolus Holdings S.à r.l.; funds advised by CVC Advisers Greece S.M.S.A. and/or affiliates",
+            "scope": "CORNERSTONE_ENTITY_AND_ADVISER_NOT_QIA_VEHICLE",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "k_group_relationship",
+            "value": "K Group Capital Partners is controlled by Kyriakou family; QIA described as strategic partner. Announcement does not establish K Group as QIA's subscription vehicle.",
+            "scope": "RELATIONSHIP_NOT_OWNERSHIP_ATTRIBUTION",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          }
+        ],
+        "unverified_claims": [
+          "QIA_ALLOCATION_AND_SETTLED_CASH",
+          "QIA_LEGAL_SUBSCRIBER",
+          "QIA_POST_ISSUE_SHAREHOLDING",
+          "PPC_AUDITED_PRE_DECISION_FINANCIALS",
+          "PPC_TRANSACTION_ADVISERS_AND_CLIENT_ROLES",
+          "INVESTOR_SPECIFIC_PROCEEDS_AND_RETURNS"
+        ],
+        "pre_decision_audited_financials_review_status": "NOT_YET_VERIFIED",
+        "returns_review_status": "NO_PROVEN_INVESTOR_SPECIFIC_CASH_FLOW_SCHEDULE",
+        "advisers_review_status": "NO_TRANSACTION_SPECIFIC_ENGAGEMENT_VERIFIED"
       }
     },
     {
@@ -858,7 +940,7 @@
       "original_event_classification": "EQUITY_TRANSACTION",
       "source_inclusion_decision": "RETAIN_DIRECT_INVESTOR_SOURCE_CONFIRMED",
       "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "Mubadala",
@@ -962,9 +1044,69 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "LEGAL_SHARE_PURCHASING_VEHICLE",
+          "EXACT_PERCENT_STAKE_AND_EQUITIX_REMAINING_HOLDING",
+          "PURCHASE_SETTLEMENT_DATE",
+          "GREENLINK_PRE_DECISION_AUDITED_FINANCIALS",
+          "DEAL_ADVISERS_WITH_CLIENT_ROLES",
+          "INVESTOR_SPECIFIC_REALIZED_RETURNS"
         ],
         "requires_further_primary_research": true
+      },
+      "primary_source_review_2026_11_16": {
+        "review_status": "PRIMARY_INVESTOR_PRESS_RELEASE_DIRECTLY_REOPENED_TRANSACTION_FACTS_ONLY",
+        "source_url": "https://www.mubadala.com/en/news/mubadala-partners-with-equitix-to-invest-in-greenlink",
+        "source_publication_date": "2026-06-16",
+        "reviewed_on": "2026-11-16",
+        "economic_event_classification_reviewed": "SECONDARY_INFRASTRUCTURE_EQUITY_STAKE_PURCHASE",
+        "claims": [
+          {
+            "field": "investor_specific_announced_acquisition_value",
+            "value": 200000000,
+            "currency": "USD",
+            "scope": "MUBADALA_ACQUISITION_OF_PART_OF_EQUITIX_STAKE_NOT_WHOLE_ASSET_VALUATION",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "asset_capacity",
+            "value": 504,
+            "unit": "MW",
+            "scope": "GREENLINK_INTERCONNECTOR",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "asset_length",
+            "value": 190,
+            "unit": "km",
+            "approximate": true,
+            "scope": "IRELAND_GREAT_BRITAIN_SUBSEA_CABLE",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "ownership_relationship",
+            "value": "Greenlink described as a joint venture between Equitix and Baltic Cable; Mubadala acquired $200m of Equitix's stake. Exact resulting stakes not disclosed.",
+            "scope": "JV_OWNERSHIP_WITH_UNDISCLOSED_PERCENTAGES",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "investment_timing",
+            "value": "Press-release header states 16 May 2026 while dateline says 16 June 2026; date inconsistency unresolved.",
+            "scope": "ISSUER_INTERNAL_DATE_CONFLICT",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          }
+        ],
+        "unverified_claims": [
+          "LEGAL_SHARE_PURCHASING_VEHICLE",
+          "EXACT_PERCENT_STAKE_AND_EQUITIX_REMAINING_HOLDING",
+          "PURCHASE_SETTLEMENT_DATE",
+          "GREENLINK_PRE_DECISION_AUDITED_FINANCIALS",
+          "DEAL_ADVISERS_WITH_CLIENT_ROLES",
+          "INVESTOR_SPECIFIC_REALIZED_RETURNS"
+        ],
+        "pre_decision_audited_financials_review_status": "NOT_YET_VERIFIED",
+        "returns_review_status": "NO_PROVEN_INVESTOR_SPECIFIC_CASH_FLOW_SCHEDULE",
+        "advisers_review_status": "NO_TRANSACTION_SPECIFIC_ENGAGEMENT_VERIFIED"
       }
     },
     {
@@ -973,7 +1115,7 @@
       "original_event_classification": "EQUITY_TRANSACTION",
       "source_inclusion_decision": "RETAIN_PROVISIONAL",
       "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "Mubadala",
@@ -1078,9 +1220,82 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "MUBADALA_ULTIMATE_LEGAL_INVESTMENT_VEHICLE",
+          "MUBADALA_INDIRECT_PERCENTAGE_OF_PROJECT",
+          "ACTUAL_CASH_SETTLEMENT",
+          "PRE_DECISION_AUDITED_PROJECT_ACCOUNTS",
+          "TRANSACTION_LEGAL_AND_FINANCIAL_ADVISERS",
+          "REALIZED_INVESTOR_CASH_FLOWS"
         ],
         "requires_further_primary_research": true
+      },
+      "primary_source_review_2026_11_16": {
+        "review_status": "PRIMARY_INVESTOR_PRESS_RELEASE_DIRECTLY_REOPENED_TRANSACTION_FACTS_ONLY",
+        "source_url": "https://www.mubadala.com/en/news/mubadala-invests-in-hornsea-3-offshore-wind-farm-alongside-consortium-led-by-apollo-funds",
+        "source_publication_date": "2026-05-12",
+        "reviewed_on": "2026-11-16",
+        "economic_event_classification_reviewed": "INFRASTRUCTURE_CONSORTIUM_EQUITY_INVESTMENT",
+        "claims": [
+          {
+            "field": "mubadala_announced_investment",
+            "value": 325000000,
+            "currency": "USD",
+            "scope": "MUBADALA_SPECIFIC_ANNOUNCED_INVESTMENT_NOT_CONFIRMED_SETTLED",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "consortium_lead",
+            "value": "Apollo-managed funds",
+            "scope": "CONSORTIUM_LEAD_NOT_MUBADALA_LEGAL_VEHICLE",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "consortium_members",
+            "value": [
+              "Mubadala Investment Company",
+              "Apollo-managed funds",
+              "Universities Superannuation Scheme (USS)",
+              "La Caisse"
+            ],
+            "scope": "NAMED_PARTICIPANTS_NOT_INDIVIDUAL_TICKETS",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "project_jv_equity",
+            "value": {
+              "apollo_led_consortium": 50,
+              "orsted": 50
+            },
+            "unit": "percent",
+            "scope": "PROJECT_JV_TOTAL_NOT_MUBADALA_OWNERSHIP_PERCENT",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "project_capacity",
+            "value": 2.9,
+            "unit": "GW",
+            "scope": "EXPECTED_ON_COMPLETION_NOT_HISTORICAL_OPERATING_OUTPUT",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          },
+          {
+            "field": "project_operator",
+            "value": "Ørsted retains development, construction and operating lead",
+            "scope": "OPERATING_ROLE_NOT_FINANCIAL_ADVISER",
+            "evidence_classification": "DIRECT_INVESTOR_ISSUER_PRESS_RELEASE"
+          }
+        ],
+        "unverified_claims": [
+          "MUBADALA_ULTIMATE_LEGAL_INVESTMENT_VEHICLE",
+          "MUBADALA_INDIRECT_PERCENTAGE_OF_PROJECT",
+          "ACTUAL_CASH_SETTLEMENT",
+          "PRE_DECISION_AUDITED_PROJECT_ACCOUNTS",
+          "TRANSACTION_LEGAL_AND_FINANCIAL_ADVISERS",
+          "REALIZED_INVESTOR_CASH_FLOWS"
+        ],
+        "pre_decision_audited_financials_review_status": "NOT_YET_VERIFIED",
+        "returns_review_status": "NO_PROVEN_INVESTOR_SPECIFIC_CASH_FLOW_SCHEDULE",
+        "advisers_review_status": "NO_TRANSACTION_SPECIFIC_ENGAGEMENT_VERIFIED"
       }
     },
     {
