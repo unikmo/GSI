@@ -808,7 +808,7 @@
       "amount_evidence_state": "MONTHLY_TARGETED_PRIMARY_SOURCE",
       "primary_source": "https://www.ril.com/sites/default/files/2023-09/23082023-MR-QIA-TO-INVEST-%E2%82%B9-8%2C278-CRORE-IN-RRVL-AT-AN-EQUITY-VALUE-OF-%E2%82%B9-8-278-LAKH-CRORE%20%281%29.pdf",
       "independent_source": "https://www.ril.com/sites/default/files/2023-09/RIL-UpdateonQIA_signed.pdf",
-      "investor_vehicle_legal_identity": null,
+      "investor_vehicle_legal_identity": "Qatar Holding LLC",
       "investee_legal_identity": "Reliance Retail Ventures Limited",
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
@@ -924,7 +924,16 @@
           "kind": "HISTORICAL_ISSUER_ANNUAL_REPORT"
         }
       ],
-      "independently_checked_primary_claims": [],
+      "independently_checked_primary_claims": [
+        {
+          "verified_vehicle": "Qatar Holding LLC",
+          "source_url": "https://www.ril.com/sites/default/files/2023-09/RIL-UpdateonQIA_signed.pdf",
+          "source_published_on": "2023-09-06",
+          "verified_fields": [
+            "investing_vehicle_legal_entity"
+          ]
+        }
+      ],
       "verified_by_issuer_adviser_engagements": [],
       "verified_by_issuer_coinvestors": [],
       "unresolved_dossier_gaps": [
@@ -932,7 +941,14 @@
         "FY2023 financial metrics belong to retail segment; cannot equate to standalone RRVL audited statements",
         "Fully diluted 0.99% per announcement not verified against post-closing complete cap table",
         "No public investor IRR, later exits or investor-specific subsequent investment confirmed"
-      ]
+      ],
+      "legal_identity_verification": {
+        "source": "issuer filing or exchange announcement",
+        "state": "SOURCE_REVIEWED_ISSUER_NAME"
+      },
+      "legal_vehicle_primary_source": "https://www.ril.com/sites/default/files/2023-09/RIL-UpdateonQIA_signed.pdf",
+      "legal_vehicle_verified_by_issuer": true,
+      "independently_rechecked_pre_entry_financials": []
     },
     {
       "master_record_id": "GSI23M09-001",
@@ -2743,11 +2759,18 @@
       "primary_source": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024037638/lcid-20240816.htm",
       "independent_source": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-group-inc-announces-public-investment-fund-commitment-15",
       "investor_vehicle_legal_identity": "Ayar Third Investment Company",
-      "investee_legal_identity": "Lucid Group Inc.",
+      "investee_legal_identity": "Lucid Group, Inc.",
       "investment_ownership_percent": null,
-      "pre_entry_revenue": null,
+      "pre_entry_revenue": {
+        "value": 595.271,
+        "currency": "USD",
+        "unit": "million",
+        "period_end": "2023-12-31",
+        "basis": "US_GAAP_AUDITED_CONSOLIDATED",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024007209/lcid-20231231.htm"
+      },
       "pre_entry_ebitda": null,
-      "pre_entry_financial_period": null,
+      "pre_entry_financial_period": "2023-12-31",
       "pre_entry_cap_table": null,
       "verified_divestment_proceeds": null,
       "realised_moic": null,
@@ -2902,6 +2925,38 @@
         "Persistent large operating losses and capital intensity in pre-decision FY2023 accounts",
         "2024 Q2 release after Aug 4 agreement; prohibit retrospective point-in-time characterization",
         "Loan undrawn at Aug 5; separate equity, facility, and future cash movements"
+      ],
+      "legal_identity_verification": {
+        "source": "issuer filing or exchange announcement",
+        "state": "SOURCE_REVIEWED_ISSUER_NAME"
+      },
+      "legal_vehicle_primary_source": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024037638/lcid-20240816.htm",
+      "legal_vehicle_verified_by_issuer": true,
+      "independently_rechecked_pre_entry_financials": [
+        {
+          "metric": "FY2023_US_GAAP_revenue",
+          "value": 595.271,
+          "currency": "USD",
+          "unit": "million",
+          "period_end": "2023-12-31",
+          "accounting_basis": "US_GAAP_AUDITED_CONSOLIDATED",
+          "publication": "2024-02-21",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024007209/lcid-20231231.htm",
+          "source_type": "SEC_10K",
+          "pre_announcement": true
+        },
+        {
+          "metric": "FY2023_US_GAAP_operating_loss",
+          "value": -3099.588,
+          "currency": "USD",
+          "unit": "million",
+          "period_end": "2023-12-31",
+          "accounting_basis": "US_GAAP_AUDITED_CONSOLIDATED",
+          "publication": "2024-02-21",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024007209/lcid-20231231.htm",
+          "source_type": "SEC_10K",
+          "pre_announcement": true
+        }
       ]
     },
     {
@@ -3480,11 +3535,25 @@
       "primary_source": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
       "independent_source": "https://www.mubadalacapital.ae/newsroom",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": "CI Financial Corp",
+      "investee_legal_identity": "CI Financial Corp.",
       "investment_ownership_percent": null,
-      "pre_entry_revenue": null,
-      "pre_entry_ebitda": null,
-      "pre_entry_financial_period": null,
+      "pre_entry_revenue": {
+        "value": 785.4,
+        "currency": "CAD",
+        "unit": "million",
+        "period_end": "2024-09-30",
+        "basis": "IFRS_INTERIM_ISSUER_RESULTS",
+        "source_url": "https://www.cifinancial.com/ci-financial/ca/en/newsroom/CI-Financial-Reports-Record-Financial-Results-for-the-Third-Quarter-2024.html"
+      },
+      "pre_entry_ebitda": {
+        "value": 124.8,
+        "currency": "CAD",
+        "unit": "million",
+        "period_end": "2024-09-30",
+        "basis": "ISSUER_REPORTED_QUARTERLY_EBITDA_NOT_AUDITED_ANNUAL",
+        "source_url": "https://www.cifinancial.com/ci-financial/ca/en/newsroom/CI-Financial-Reports-Record-Financial-Results-for-the-Third-Quarter-2024.html"
+      },
+      "pre_entry_financial_period": "2024-09-30",
       "pre_entry_cap_table": null,
       "verified_divestment_proceeds": null,
       "realised_moic": null,
@@ -3745,6 +3814,36 @@
         "Company FY2023 audited financials not independently extracted in this dossier",
         "Annualising Q3 reported or adjusted EBITDA for a purchase multiple would require consistent basis",
         "2024 Mubadala review US-dollar currency error must be reconciled with fund IR"
+      ],
+      "legal_identity_verification": {
+        "source": "issuer filing or exchange announcement",
+        "state": "SOURCE_REVIEWED_ISSUER_NAME"
+      },
+      "independently_rechecked_pre_entry_financials": [
+        {
+          "metric": "Q3_2024_total_net_revenues",
+          "value": 785.4,
+          "currency": "CAD",
+          "unit": "million",
+          "period_end": "2024-09-30",
+          "accounting_basis": "IFRS_INTERIM_ISSUER_RESULTS",
+          "publication": "2024-11-14",
+          "source_url": "https://www.cifinancial.com/ci-financial/ca/en/newsroom/CI-Financial-Reports-Record-Financial-Results-for-the-Third-Quarter-2024.html",
+          "source_type": "COMPANY_QUARTERLY_RELEASE",
+          "pre_announcement": true
+        },
+        {
+          "metric": "Q3_2024_EBITDA_reported",
+          "value": 124.8,
+          "currency": "CAD",
+          "unit": "million",
+          "period_end": "2024-09-30",
+          "accounting_basis": "ISSUER_REPORTED_QUARTERLY_EBITDA_NOT_AUDITED_ANNUAL",
+          "publication": "2024-11-14",
+          "source_url": "https://www.cifinancial.com/ci-financial/ca/en/newsroom/CI-Financial-Reports-Record-Financial-Results-for-the-Third-Quarter-2024.html",
+          "source_type": "COMPANY_QUARTERLY_RELEASE",
+          "pre_announcement": true
+        }
       ]
     },
     {
