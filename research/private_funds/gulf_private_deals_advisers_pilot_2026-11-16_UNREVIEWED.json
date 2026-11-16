@@ -1,0 +1,386 @@
+{
+  "dataset": "GSI_PRIVATE_FUND_INVESTEE_PARTICIPATION_ADVISER_PILOT_2026_11_16",
+  "status": "SOURCE_CLAIMS_EXTRACTED_NOT_FULLY_REVIEWED_NOT_IMPORTED",
+  "policy": "Events are unique by pilot_event_id, not automatically additions to sovereign v9.8 master. Listed advisers are not investors. Company financial claims without accounting/period basis are not certified EBITDA/revenue.",
+  "events": [
+    {
+      "id": "PRIV-INV-EPIPOLI-2025",
+      "investee": "Epipoli",
+      "investee_country": "Italy",
+      "sector": "Payments technology",
+      "event_type": "ACQUISITION",
+      "announcement_date": "2025-01-16",
+      "stage_at_announcement": "DEFINITIVE_AGREEMENT_SIGNED_SUBJECT_TO_CONDITIONS",
+      "later_stage": "MAJORITY_INVESTMENT_REPORTED_MARCH_2025",
+      "later_stage_source": "SRC-EPI-REVIEW",
+      "investor": "Investcorp",
+      "manager_id": "GM-INVESTCORP",
+      "investing_vehicle": "NOT_DISCLOSED_IN_SOURCE",
+      "parties": [
+        {
+          "name": "Investcorp",
+          "role": "BUYER_MANAGER",
+          "amount": null,
+          "stake_pct": null
+        },
+        {
+          "name": "Bregal Milestone",
+          "role": "SELLER",
+          "amount": null,
+          "stake_pct": null
+        },
+        {
+          "name": "Gaetano Giannetto",
+          "role": "SELLER_AND_ROLLOVER_SHAREHOLDER",
+          "amount": null,
+          "stake_pct": null
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "ADVANT Nctm",
+          "role": "BUYER_LEGAL",
+          "client": "Investcorp",
+          "source": "SRC-EPI"
+        },
+        {
+          "firm": "Clearwater",
+          "role": "BUYER_FINANCIAL",
+          "client": "Investcorp",
+          "source": "SRC-EPI"
+        },
+        {
+          "firm": "PedersoliGattai",
+          "role": "SELLER_LEGAL",
+          "client": "Epipoli and Bregal Milestone",
+          "source": "SRC-EPI"
+        },
+        {
+          "firm": "Alma LED",
+          "role": "SELLER_LEGAL",
+          "client": "Epipoli and Bregal Milestone",
+          "source": "SRC-EPI"
+        },
+        {
+          "firm": "UBS",
+          "role": "SELLER_FINANCIAL",
+          "client": "Epipoli and Bregal Milestone",
+          "source": "SRC-EPI"
+        },
+        {
+          "firm": "Hogan Lovells",
+          "role": "REGULATORY_LEGAL",
+          "client": "Investcorp",
+          "source": "SRC-EPI-HL"
+        }
+      ],
+      "financial_observations": [
+        {
+          "metric": "turnover",
+          "value": 400,
+          "unit": "EUR_million_approx",
+          "period_end": null,
+          "accounting_basis": "NOT_DISCLOSED",
+          "disclosure_state": "ISSUER_ANNOUNCEMENT_OPERATING_CLAIM_NOT_AUDITED_FINANCIAL_STATEMENT",
+          "source": "SRC-EPI"
+        }
+      ],
+      "economics": {
+        "investor_specific_paid_amount": null,
+        "consortium_value": null,
+        "stake_pct": null,
+        "realised_return": null
+      },
+      "sources": [
+        "SRC-EPI",
+        "SRC-EPI-HL",
+        "SRC-EPI-REVIEW"
+      ],
+      "review_state": "CLAIM_SOURCE_LINKED_NOT_FULL_DILIGENCE"
+    },
+    {
+      "id": "PRIV-INV-PKFOD-2024",
+      "investee": "PKF O'Connor Davies Advisory LLC",
+      "investee_country": "United States",
+      "sector": "Accounting and advisory services",
+      "event_type": "STRATEGIC_GROWTH_INVESTMENT",
+      "announcement_date": "2024-11-18",
+      "stage_at_announcement": "REGULATORY_APPROVED_SUBJECT_TO_CLOSING_CONDITIONS",
+      "investor": "Investcorp",
+      "manager_id": "GM-INVESTCORP",
+      "investing_vehicle": "Investcorp North American Private Equity Fund I GP, L.P. (EC regulatory notification; GP capacity, actual payer not proven)",
+      "parties": [
+        {
+          "name": "Investcorp",
+          "role": "CO_INVESTOR",
+          "amount": null,
+          "stake_pct": null
+        },
+        {
+          "name": "Public Sector Pension Investment Board (PSP Investments)",
+          "role": "CO_INVESTOR_NON_GULF_PENSION",
+          "amount": null,
+          "stake_pct": null
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Gibson Dunn",
+          "role": "INVESTOR_LEGAL",
+          "client": "Investcorp",
+          "source": "SRC-PKF-ISSUER"
+        },
+        {
+          "firm": "Weil, Gotshal & Manges",
+          "role": "INVESTOR_LEGAL",
+          "client": "PSP Investments",
+          "source": "SRC-PKF-ISSUER"
+        },
+        {
+          "firm": "McDermott Will & Emery",
+          "role": "REGULATORY_LEGAL",
+          "client": "PSP Investments",
+          "source": "SRC-PKF-ISSUER"
+        },
+        {
+          "firm": "Levenfeld Pearlstein",
+          "role": "INVESTEE_LEGAL",
+          "client": "PKF O'Connor Davies",
+          "source": "SRC-PKF-ISSUER"
+        },
+        {
+          "firm": "Capstone Partners",
+          "role": "SELLER_FINANCIAL",
+          "client": "PKF O'Connor Davies",
+          "source": "SRC-PKF-ISSUER"
+        }
+      ],
+      "economics": {
+        "investor_specific_paid_amount": null,
+        "whole_round_amount": null,
+        "stake_pct": null,
+        "realised_return": null
+      },
+      "sources": [
+        "SRC-PKF-INV",
+        "SRC-PKF-ISSUER",
+        "SRC-PKF-REG"
+      ],
+      "review_state": "CLAIM_SOURCE_LINKED_NOT_FULL_DILIGENCE"
+    },
+    {
+      "id": "PRIV-INV-STOWE-2024",
+      "investee": "Stowe Family Law",
+      "investee_country": "United Kingdom",
+      "sector": "Legal services",
+      "event_type": "ACQUISITION",
+      "announcement_date": "2024-09-25",
+      "stage_at_announcement": "ACQUISITION_ANNOUNCED",
+      "investor": "Investcorp",
+      "manager_id": "GM-INVESTCORP",
+      "investing_vehicle": "NOT_DISCLOSED_IN_SOURCE",
+      "parties": [
+        {
+          "name": "Investcorp",
+          "role": "BUYER_MANAGER",
+          "amount": null,
+          "stake_pct": null
+        },
+        {
+          "name": "Livingbridge",
+          "role": "SELLER",
+          "amount": null,
+          "stake_pct": null
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Cohen & Gresser",
+          "role": "BUYER_LEGAL",
+          "client": "Investcorp",
+          "source": "SRC-STOWE-CG"
+        }
+      ],
+      "financial_observations": [
+        {
+          "metric": "reported_annual_turnover",
+          "value": 37,
+          "comparison": ">",
+          "unit": "GBP_million",
+          "period_end": "2024-03-31",
+          "accounting_basis": "COMPANY_REPORTED_TURNOVER_UNSPECIFIED_ACCOUNTING_BASIS",
+          "source": "SRC-STOWE-INV"
+        }
+      ],
+      "economics": {
+        "investor_specific_paid_amount": null,
+        "stake_pct": null
+      },
+      "sources": [
+        "SRC-STOWE-INV",
+        "SRC-STOWE-CG"
+      ],
+      "review_state": "CLAIM_SOURCE_LINKED_NOT_FULL_DILIGENCE"
+    },
+    {
+      "id": "PRIV-JAD-GEMS-EXIT-2019",
+      "investee": "GEMS (industrial waste management)",
+      "investee_country": "Saudi Arabia",
+      "sector": "Industrial waste",
+      "event_type": "FULL_EXIT",
+      "announcement_date": null,
+      "observed_year": 2019,
+      "stage_at_announcement": "HISTORIC_EXIT_REPORTED_ON_CURRENT_PORTFOLIO_PAGE",
+      "investor": "Jadwa Investment Company",
+      "manager_id": "GM-JADWA",
+      "named_fund": "Jadwa Waste Management Opportunities Fund",
+      "prior_entry_year": 2014,
+      "prior_stake_pct_reported": 100,
+      "exit_route": "TRADE_SALE",
+      "buyer": "NOT_NAMED",
+      "advisers": [],
+      "parties": [],
+      "economics": {
+        "investor_specific_proceeds": null,
+        "cost_basis": null,
+        "irr": null,
+        "moic": null
+      },
+      "sources": [
+        "SRC-JAD-PE"
+      ],
+      "review_state": "RETROSPECTIVE_HISTORIC_EXIT_NEEDS_EVENT_DATE"
+    },
+    {
+      "id": "PRIV-JAD-UEMEDICAL-EXIT-2021",
+      "investee": "UEMedical",
+      "investee_country": "United Arab Emirates",
+      "sector": "Healthcare",
+      "event_type": "FULL_EXIT",
+      "announcement_date": null,
+      "observed_year": 2021,
+      "stage_at_announcement": "HISTORIC_EXIT_REPORTED_ON_CURRENT_PORTFOLIO_PAGE",
+      "investor": "Jadwa Investment Company",
+      "manager_id": "GM-JADWA",
+      "named_fund": "Jadwa Healthcare Opportunity Fund 2",
+      "prior_entry_year": 2016,
+      "prior_stake_pct_reported": 42,
+      "exit_route": "TRADE_SALE",
+      "buyer": "STRATEGIC_INVESTOR_NOT_NAMED",
+      "advisers": [],
+      "parties": [],
+      "economics": {
+        "investor_specific_proceeds": null,
+        "cost_basis": null,
+        "irr": null,
+        "moic": null
+      },
+      "sources": [
+        "SRC-JAD-PE"
+      ],
+      "review_state": "RETROSPECTIVE_HISTORIC_EXIT_NEEDS_EVENT_DATE"
+    },
+    {
+      "id": "PRIV-GC-ART-2020",
+      "investee": "ART Fertility Clinics",
+      "investee_country": "United Arab Emirates",
+      "sector": "Fertility healthcare",
+      "event_type": "INVESTMENT_PORTFOLIO_LISTING",
+      "announcement_date": "2020-01-20",
+      "stage_at_announcement": "DATE_REPORTED_ON_CURRENT_MANAGER_PORTFOLIO_PAGE_NOT_ORIGINAL_ANNOUNCEMENT",
+      "investor": "Gulf Capital",
+      "manager_id": "GM-GULF-CAPITAL",
+      "parties": [],
+      "advisers": [],
+      "economics": {
+        "investor_specific_paid_amount": null,
+        "stake_pct": null
+      },
+      "sources": [
+        "SRC-GC-PORT"
+      ],
+      "review_state": "RETROSPECTIVE_MANAGER_SELF_REPORT"
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-EPI",
+      "publisher": "Investcorp",
+      "published_on": "2025-01-16",
+      "url": "https://www.investcorp.com/investcorp-acquires-leading-italian-alternative-payments-enabler-epipoli/",
+      "type": "BUYER_ISSUER_ANNOUNCEMENT"
+    },
+    {
+      "id": "SRC-EPI-HL",
+      "publisher": "Hogan Lovells",
+      "published_on": "2025-01-22",
+      "url": "https://www.hlc.com/en/news/hogan-lovells-advises-investcorp-in-the-acquisition-of-epipoli",
+      "type": "LAW_FIRM_OWN_ENGAGEMENT"
+    },
+    {
+      "id": "SRC-EPI-REVIEW",
+      "publisher": "Investcorp",
+      "published_on": "2025-09-01",
+      "url": "https://www.investcorp.com/wp-content/uploads/2025/09/EPE-Year-in-Review-2025-v12.pdf",
+      "type": "RETROSPECTIVE_FUND_REVIEW",
+      "publication_date_precision": "MONTH"
+    },
+    {
+      "id": "SRC-PKF-INV",
+      "publisher": "Investcorp",
+      "published_on": "2024-11-18",
+      "url": "https://www.investcorp.com/investcorp-in-partnership-with-psp-investments-makes-strategic-growth-investment-in-pkf-oconnor-davies/",
+      "type": "INVESTOR_ANNOUNCEMENT"
+    },
+    {
+      "id": "SRC-PKF-ISSUER",
+      "publisher": "PKF O'Connor Davies",
+      "published_on": "2024-11-18",
+      "url": "https://www.pkfod.com/insights/pkf-oconnor-davies-announces-strategic-growth-investment-from-investcorp-and-psp-investments/",
+      "type": "INVESTEE_ADVISER_DISCLOSURE"
+    },
+    {
+      "id": "SRC-PKF-REG",
+      "publisher": "European Commission",
+      "published_on": "2024-11-13",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32024M11739",
+      "type": "REGULATORY_MERGER_CLEARANCE"
+    },
+    {
+      "id": "SRC-STOWE-INV",
+      "publisher": "Investcorp",
+      "published_on": "2024-09-25",
+      "url": "https://www.investcorp.com/investcorp-acquires-stowe-family-law/",
+      "type": "BUYER_ANNOUNCEMENT"
+    },
+    {
+      "id": "SRC-STOWE-CG",
+      "publisher": "Cohen & Gresser",
+      "published_on": "2024-09-25",
+      "url": "https://www.cohengresser.com/news_item/cohen-gresser-advises-investcorp-a-leading-global-alternative-investment-firm-on-a-secondary-buyout-in-the-uk/",
+      "type": "LAW_FIRM_OWN_ENGAGEMENT"
+    },
+    {
+      "id": "SRC-JAD-PE",
+      "publisher": "Jadwa",
+      "published_on": null,
+      "url": "https://www.jadwa.com/en/private-equity",
+      "type": "CURRENT_PORTFOLIO_RETROSPECTIVE"
+    },
+    {
+      "id": "SRC-GC-PORT",
+      "publisher": "Gulf Capital",
+      "published_on": null,
+      "url": "https://www.gulfcapital.com/portfolio",
+      "type": "CURRENT_PORTFOLIO_RETROSPECTIVE"
+    }
+  ],
+  "limits": [
+    "Pilot 6 events, not exhaustive list",
+    "PSP is co-investor but is Canadian pension, not Gulf private fund",
+    "Epipoli seller/founder rollover is not evidence of consortium funded capital",
+    "Legal-service investee Stowe must never be conflated with advising law firm Cohen & Gresser",
+    "Missing historical exact dates and amounts remain null",
+    "No existing v9.8 master row is added or assumed linked from name alone"
+  ]
+}
