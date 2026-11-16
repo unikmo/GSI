@@ -9,7 +9,7 @@ on:
       - 'tests/gsiPrivateFundStaging.test.mjs'
       - 'tests/gsiV98FullSeed.test.mjs'
       - 'tests/gsiV98FullEnrichmentSeed.test.mjs'
-      - 'research/enrichment/v98_all_651_minimum_profiles_UNREVIEWED.json'
+      - 'research/enrichment/v98_all_651_minimum_profiles_part_*_UNREVIEWED.json'
       - 'scripts/build-gsi-v98-private-staging.mjs'
       - 'supabase/gsi_v98_versioned_source_staging_private.sql'
       - 'database/GSI_Global_Research_Master_v9.8_WORKING.csv'
