@@ -102,7 +102,7 @@
       "primary_source": "https://www.sec.gov/Archives/edgar/data/1811210/000110465923068017/tm2317789d1_8k.htm",
       "independent_source": "https://www.sec.gov/Archives/edgar/data/1811210/000162828023027785/R21.htm",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": "Lucid Group, Inc.",
+      "investee_legal_identity": null,
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -231,7 +231,8 @@
         "FY2022 operating loss is not EBITDA and must not be used interchangeably",
         "Investor-specific gross subscription proceeds versus issuer net proceeds differ by issuance costs",
         "No investor-level future IRR or economic value at mark-to-market automatically derived"
-      ]
+      ],
+      "dossier_investee_name": "Lucid Group, Inc."
     },
     {
       "master_record_id": "GSI23M05-005",
@@ -2940,10 +2941,11 @@
           "unit": "million",
           "period_end": "2023-12-31",
           "accounting_basis": "US_GAAP_AUDITED_CONSOLIDATED",
-          "publication": "2024-02-21",
+          "publication": "2024-02",
           "source_url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024007209/lcid-20231231.htm",
           "source_type": "SEC_10K",
-          "pre_announcement": true
+          "pre_announcement": true,
+          "publication_date_precision": "MONTH_ONLY_FROM_PREDEAL_2024_FILING"
         },
         {
           "metric": "FY2023_US_GAAP_operating_loss",
@@ -2952,10 +2954,11 @@
           "unit": "million",
           "period_end": "2023-12-31",
           "accounting_basis": "US_GAAP_AUDITED_CONSOLIDATED",
-          "publication": "2024-02-21",
+          "publication": "2024-02",
           "source_url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024007209/lcid-20231231.htm",
           "source_type": "SEC_10K",
-          "pre_announcement": true
+          "pre_announcement": true,
+          "publication_date_precision": "MONTH_ONLY_FROM_PREDEAL_2024_FILING"
         }
       ]
     },
