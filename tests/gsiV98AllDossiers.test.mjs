@@ -44,7 +44,7 @@ test('no records accidentally promoted to decision grade or assigned fabricated 
  const old=new Map(profiles.map(p=>[p.master_record_id,p]));
  for(const d of dossiers){
   assert.equal(d.dossier_certification,'NOT_CERTIFIED_NOT_DECISION_GRADE');
-  assert.equal(d.analyst_classification_status,'PROVISIONAL_RULE_BASED');
+  assert.ok(['PROVISIONAL_RULE_BASED','SOURCE_REVIEWED_ELIGIBLE_PUBLIC_EQUITY_PLACEMENT','SOURCE_REVIEWED_ELIGIBLE_TRANSACTION','SOURCE_REVIEWED_FUND_FORMATION','SOURCE_REVIEWED_INELIGIBLE'].includes(d.analyst_classification_status));
   assert.equal(d.coverage.requires_further_primary_research,true);
   assert.ok(d.coverage.completeness_gaps.length>0);
   const profile=old.get(d.record_id);
@@ -52,8 +52,15 @@ test('no records accidentally promoted to decision grade or assigned fabricated 
   assert.equal(d.returns.moic,profile.realised_moic);
   assert.equal(d.returns.investor_specific_proceeds,profile.verified_divestment_proceeds);
   assert.equal(d.investor.legal_vehicle_verified,profile.investor_vehicle_legal_identity);
-  assert.deepEqual(d.investee.previous_financials.revenue,profile.pre_entry_revenue);
-  assert.deepEqual(d.investee.previous_financials.ebitda,profile.pre_entry_ebitda);
+  for(const [field,baseline] of [['revenue',profile.pre_entry_revenue],['ebitda',profile.pre_entry_ebitda]]) {
+   const current=d.investee.previous_financials[field];
+   if(JSON.stringify(current)!==JSON.stringify(baseline)){
+    assert.ok(d.evidence.reopened_primary_claims.some(c=>c.classification==='AUDITED_PRE_ENTRY_ISSUER_ANNUAL_REPORT'));
+    assert.ok(current?.source_url?.startsWith('https://'));
+    assert.ok(current?.period_end);
+    assert.ok(current?.audit_status);
+   }
+  }
   assert.equal(d.service_providers.verified_issuer_disclosed_adviser_engagements.length,(profile.verified_by_issuer_adviser_engagements||[]).length);
  }
 });
