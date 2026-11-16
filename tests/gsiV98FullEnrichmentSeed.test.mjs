@@ -29,8 +29,16 @@ test('exactly 651 canonical master entries have individual source-linked enrichm
   assert.equal(p.primary_source,row.primary_source||null);
   assert.equal(p.inclusion_decision,row.inclusion_decision||null);
   assert.equal(p.research_state,'UNREVIEWED_SOURCE_CLAIM_ONLY');
-  assert.equal(p.pre_entry_revenue,null);
-  assert.equal(p.pre_entry_ebitda,null);
+  for(const key of ['pre_entry_revenue','pre_entry_ebitda']){
+   const metric=p[key];
+   if(metric!==null){
+    assert.ok(p.independently_rechecked_pre_entry_financials?.length);
+    assert.ok(metric.source_url.startsWith('https://'));
+    assert.ok(metric.period_end < p.announcement_date);
+    assert.ok(metric.basis);
+    assert.ok(metric.currency);
+   }
+  }
   if(p.investor_vehicle_legal_identity!==null){
    assert.ok(p.independently_checked_primary_claims?.some(s=>s.verified_vehicle===p.investor_vehicle_legal_identity));
   }
