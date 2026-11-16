@@ -121,7 +121,7 @@
       "original_event_classification": "EQUITY_TRANSACTION",
       "source_inclusion_decision": "RETAIN_PROVISIONAL",
       "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -220,9 +220,77 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "QIA_INDIVIDUAL_TICKET",
+          "QIA_ULTIMATE_INVESTING_VEHICLE",
+          "CLOSING_SETTLEMENT",
+          "QIA_STAKE",
+          "AUDITED_PRE_DECISION_FINANCIAL_STATEMENTS",
+          "TRANSACTION_ADVISERS",
+          "REALIZED_RETURNS"
         ],
-        "requires_further_primary_research": true
+        "requires_further_primary_research": true,
+        "economic_event_disposition": "EQUITY_ROUND_ANNOUNCEMENT_CONFIRMED_INVESTOR_SPECIFIC_CAPITAL_NOT_CONFIRMED"
+      },
+      "primary_source_review": {
+        "status": "DIRECT_PRIMARY_ISSUER_INVESTOR_ANNOUNCEMENT_READ",
+        "reviewed_on": "2026-11-16",
+        "published_on": "2026-06-09",
+        "url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx",
+        "classification": "EQUITY_FINANCING_ROUND_CONFIRMED",
+        "claim_evidence": [
+          {
+            "field": "QIA_participation",
+            "value": true
+          },
+          {
+            "field": "round_total_eur",
+            "value": 1000000000,
+            "scope": "primary_plus_secondary_not_QIA_ticket"
+          },
+          {
+            "field": "primary_placement_eur",
+            "value": 450000000
+          },
+          {
+            "field": "lead_investor",
+            "value": "General Atlantic"
+          },
+          {
+            "field": "additional_named_investors",
+            "value": [
+              "Solidium",
+              "Tesi",
+              "Varma",
+              "Ilmarinen",
+              "Lifeline Ventures",
+              "Nokia",
+              "TCV"
+            ]
+          },
+          {
+            "field": "issuer_2025_revenue_eur",
+            "value": "over 250 million",
+            "audit_status": "NOT_STATED",
+            "source_type": "INVESTOR_PRESS_RELEASE_NOT_AUDITED_STATEMENTS"
+          },
+          {
+            "field": "issuer_contract_backlog_eur",
+            "value": 1500000000,
+            "audit_status": "NOT_STATED"
+          }
+        ],
+        "unverified_fields": [
+          "QIA_INDIVIDUAL_TICKET",
+          "QIA_ULTIMATE_INVESTING_VEHICLE",
+          "CLOSING_SETTLEMENT",
+          "QIA_STAKE",
+          "AUDITED_PRE_DECISION_FINANCIAL_STATEMENTS",
+          "TRANSACTION_ADVISERS",
+          "REALIZED_RETURNS"
+        ],
+        "financial_statement_review": "PRESS_RELEASE_ONLY_NOT_AUDITED_ACCOUNTS",
+        "investor_ticket_verified": false
       }
     },
     {
@@ -231,7 +299,7 @@
       "original_event_classification": "EQUITY_TRANSACTION",
       "source_inclusion_decision": "RETAIN_PROVISIONAL",
       "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -330,9 +398,72 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "QIA_INDIVIDUAL_TICKET",
+          "ULTIMATE_INVESTING_VEHICLE",
+          "INVESTOR_OWNERSHIP",
+          "AUDITED_PRE_ENTRY_FINANCIALS",
+          "CLOSING_EVIDENCE",
+          "LEGAL_AND_FINANCIAL_ADVISERS",
+          "REALIZED_RETURNS"
         ],
-        "requires_further_primary_research": true
+        "requires_further_primary_research": true,
+        "economic_event_disposition": "EQUITY_ROUND_ANNOUNCEMENT_CONFIRMED_INVESTOR_SPECIFIC_CAPITAL_NOT_CONFIRMED"
+      },
+      "primary_source_review": {
+        "status": "DIRECT_PRIMARY_ISSUER_INVESTOR_ANNOUNCEMENT_READ",
+        "reviewed_on": "2026-11-16",
+        "published_on": "2026-06-22",
+        "url": "https://qia.qa/en/Newsroom/Pages/QIA-Participates-in-Nearfield-Instruments%27-%24380-Million-Series-D-Funding-Round.aspx",
+        "classification": "EQUITY_FINANCING_ROUND_CONFIRMED",
+        "claim_evidence": [
+          {
+            "field": "QIA_participation",
+            "value": true
+          },
+          {
+            "field": "round_total_usd",
+            "value": 380000000,
+            "scope": "entire_series_D_not_QIA_ticket"
+          },
+          {
+            "field": "company_valuation_usd",
+            "value": 1600000000,
+            "valuation_basis": "NOT_SPECIFIED_IN_PRESS_RELEASE"
+          },
+          {
+            "field": "round_lead",
+            "value": "Fidelity Management & Research Company"
+          },
+          {
+            "field": "other_named_round_participants",
+            "value": [
+              "Temasek",
+              "Walden Catalyst Ventures",
+              "Innovation Industries",
+              "M&G Investments",
+              "Invest-NL",
+              "TNO Ventures",
+              "ING"
+            ]
+          },
+          {
+            "field": "headquarters",
+            "value": "Rotterdam, Netherlands",
+            "legal_domicile": "NOT_ESTABLISHED"
+          }
+        ],
+        "unverified_fields": [
+          "QIA_INDIVIDUAL_TICKET",
+          "ULTIMATE_INVESTING_VEHICLE",
+          "INVESTOR_OWNERSHIP",
+          "AUDITED_PRE_ENTRY_FINANCIALS",
+          "CLOSING_EVIDENCE",
+          "LEGAL_AND_FINANCIAL_ADVISERS",
+          "REALIZED_RETURNS"
+        ],
+        "financial_statement_review": "PRESS_RELEASE_ONLY_NOT_AUDITED_ACCOUNTS",
+        "investor_ticket_verified": false
       }
     },
     {
@@ -447,11 +578,11 @@
     },
     {
       "record_id": "V1.6_CANDIDATES-005",
-      "dossier_type": "HOLD_OR_NONTRANSACTION_SCREEN",
+      "dossier_type": "FUND_PLATFORM_FORMATION_REVIEWED",
       "original_event_classification": "FUND_FORMATION_AGREEMENT",
       "source_inclusion_decision": "HOLD_FUND_VEHICLE",
       "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -546,9 +677,61 @@
           "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "QIA_COMMITMENT_SHARE",
+          "ACTUAL_PAID_IN_CAPITAL",
+          "FUND_REGISTRY_LEGAL_ENTITY",
+          "FUND_CLOSING_DATE",
+          "UNDERLYING_PORTFOLIO_INVESTEES",
+          "INVESTMENT_ADVISERS",
+          "REALIZED_RETURNS"
         ],
-        "requires_further_primary_research": true
+        "requires_further_primary_research": true,
+        "economic_event_disposition": "FUND_FORMATION_ELIGIBLE_FOR_FUND_COVERAGE_NOT_OPERATING_COMPANY_INVESTMENT"
+      },
+      "primary_source_review": {
+        "status": "DIRECT_PRIMARY_ISSUER_INVESTOR_ANNOUNCEMENT_READ",
+        "reviewed_on": "2026-11-16",
+        "published_on": "2026-05-20",
+        "url": "https://www.qia.qa/en/Newsroom/Pages/QIA-and-COFIDES-launch-a-joint-investment-fund-to-support-Spain%E2%80%99s-green-and-digital-transition.aspx",
+        "classification": "FUND_FORMATION_AGREEMENT_NOT_OPERATING_INVESTEE",
+        "claim_evidence": [
+          {
+            "field": "fund_name",
+            "value": "Ispania Growth Fund"
+          },
+          {
+            "field": "announced_joint_fund_size_eur",
+            "value": 300000000,
+            "scope": "joint_vehicle_total_not_QIA_paid_in_capital"
+          },
+          {
+            "field": "announced_partners",
+            "value": [
+              "Qatar Investment Authority",
+              "COFIDES"
+            ]
+          },
+          {
+            "field": "fund_manager",
+            "value": "Portobello Capital"
+          },
+          {
+            "field": "COFIDES_participation_channel",
+            "value": "FOCO co-investment fund"
+          }
+        ],
+        "unverified_fields": [
+          "QIA_COMMITMENT_SHARE",
+          "ACTUAL_PAID_IN_CAPITAL",
+          "FUND_REGISTRY_LEGAL_ENTITY",
+          "FUND_CLOSING_DATE",
+          "UNDERLYING_PORTFOLIO_INVESTEES",
+          "INVESTMENT_ADVISERS",
+          "REALIZED_RETURNS"
+        ],
+        "financial_statement_review": "PRESS_RELEASE_ONLY_NOT_AUDITED_ACCOUNTS",
+        "investor_ticket_verified": false
       }
     },
     {
