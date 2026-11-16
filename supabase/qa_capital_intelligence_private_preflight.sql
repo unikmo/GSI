@@ -42,7 +42,7 @@ BEGIN
   IF EXISTS (
     SELECT 1 FROM pg_namespace n
     WHERE n.nspname='gsi_cap_private'
-      AND (has_schema_privilege('public','gsi_cap_private','USAGE')
+      AND (EXISTS (SELECT 1 FROM aclexplode(COALESCE(n.nspacl,acldefault('n',n.nspowner))) a WHERE a.grantee=0 AND a.privilege_type='USAGE')
         OR (EXISTS (SELECT 1 FROM pg_roles WHERE rolname='anon') AND has_schema_privilege('anon','gsi_cap_private','USAGE'))
         OR (EXISTS (SELECT 1 FROM pg_roles WHERE rolname='authenticated') AND has_schema_privilege('authenticated','gsi_cap_private','USAGE')))
   ) THEN
