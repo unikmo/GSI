@@ -6115,9 +6115,23 @@
       "investor_vehicle_legal_identity": null,
       "investee_legal_identity": "Evotec SE",
       "investment_ownership_percent": null,
-      "pre_entry_revenue": null,
-      "pre_entry_ebitda": null,
-      "pre_entry_financial_period": null,
+      "pre_entry_revenue": {
+        "value": 446.4,
+        "currency": "EUR",
+        "unit": "million",
+        "period_end": "2019-12-31",
+        "basis": "GROUP_REVENUE_REPORTED_BY_ISSUER",
+        "source_url": "https://www.evotec.com/news/evotec-se-fiscal-year-2019-results-excellent-2019-performance-very-good-outlook-for-continued-growth-2020"
+      },
+      "pre_entry_ebitda": {
+        "value": 123.1,
+        "currency": "EUR",
+        "unit": "million",
+        "period_end": "2019-12-31",
+        "basis": "NON_IFRS_ADJUSTED_GROUP_EBITDA",
+        "source_url": "https://www.evotec.com/news/evotec-se-fiscal-year-2019-results-excellent-2019-performance-very-good-outlook-for-continued-growth-2020"
+      },
+      "pre_entry_financial_period": "2019-12-31",
       "pre_entry_cap_table": null,
       "verified_divestment_proceeds": null,
       "realised_moic": null,
@@ -6267,6 +6281,36 @@
         "The Abu Dhabi media office release says 11,478,298 group shares whereas Evotec issuer and annual accounts show 11,478,315. Prefer issuer accounting record; flag independent reconciliation.",
         "FY2020 net debt reflects the capital raise and must never serve as a pre-deal comparator.",
         "Company revenue is not EBITDA and adjusted EBITDA is not an IFRS-defined measure."
+      ],
+      "legal_identity_verification": {
+        "source": "issuer filing or exchange announcement",
+        "state": "SOURCE_REVIEWED_ISSUER_NAME"
+      },
+      "independently_rechecked_pre_entry_financials": [
+        {
+          "metric": "FY2019_IFRS_revenue",
+          "value": 446.4,
+          "currency": "EUR",
+          "unit": "million",
+          "period_end": "2019-12-31",
+          "accounting_basis": "GROUP_REVENUE_REPORTED_BY_ISSUER",
+          "publication": "2020-03-26",
+          "source_url": "https://www.evotec.com/news/evotec-se-fiscal-year-2019-results-excellent-2019-performance-very-good-outlook-for-continued-growth-2020",
+          "source_type": "COMPANY_ANNUAL_RESULTS",
+          "pre_announcement": true
+        },
+        {
+          "metric": "FY2019_adjusted_group_EBITDA",
+          "value": 123.1,
+          "currency": "EUR",
+          "unit": "million",
+          "period_end": "2019-12-31",
+          "accounting_basis": "NON_IFRS_ADJUSTED_GROUP_EBITDA",
+          "publication": "2020-03-26",
+          "source_url": "https://www.evotec.com/news/evotec-se-fiscal-year-2019-results-excellent-2019-performance-very-good-outlook-for-continued-growth-2020",
+          "source_type": "COMPANY_ANNUAL_RESULTS",
+          "pre_announcement": true
+        }
       ]
     },
     {
