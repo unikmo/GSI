@@ -2408,7 +2408,7 @@
       "primary_source": "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction",
       "independent_source": null,
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": null,
+      "investee_legal_identity": "CoolIT Systems",
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -2422,7 +2422,102 @@
       "related_syndicate_links": [],
       "research_state": "UNREVIEWED_SOURCE_CLAIM_ONLY",
       "enrichment_required": true,
-      "evidence_gap": "Verify deal close and Mubadala proceeds; do not aggregate in investment deployment"
+      "evidence_gap": "Verify deal close and Mubadala proceeds; do not aggregate in investment deployment",
+      "enrichment_dossier_source": "research/verified_dossiers/gsi_three_lifecycle_cases_2026-11-15_batch03.json",
+      "enrichment_state": "SOURCE_LINKED_SELECTIVE_PRIMARY_SOURCE_CHECK",
+      "source_linked_financial_observations": [],
+      "source_linked_transaction_economics": [
+        {
+          "metric": "headline_transaction_value",
+          "value": 4750,
+          "unit": "USD million",
+          "basis": "All-owner buyer headline value, not Mubadala equity proceeds",
+          "source_id": "MUB-COOLIT-EXIT-2026"
+        },
+        {
+          "metric": "consideration_transferred_to_sellers_net_acquired_cash",
+          "value": 4627.2,
+          "unit": "USD million",
+          "basis": "Ecolab preliminary acquisition accounting entire CoolIT acquisition",
+          "source_id": "ECL-SEC-2026-09-30"
+        },
+        {
+          "metric": "purchase_accounting_goodwill",
+          "value": 3251.1,
+          "unit": "USD million",
+          "basis": "Buyer preliminary balance-sheet accounting; not sovereign gain",
+          "source_id": "ECL-SEC-2026-09-30"
+        },
+        {
+          "metric": "buyer_recognised_customer_relationships",
+          "value": 881.4,
+          "unit": "USD million",
+          "source_id": "ECL-SEC-2026-09-30"
+        },
+        {
+          "metric": "buyer_recognised_technology",
+          "value": 641.6,
+          "unit": "USD million",
+          "source_id": "ECL-SEC-2026-09-30"
+        },
+        {
+          "metric": "buyer_recognised_trademarks",
+          "value": 232.7,
+          "unit": "USD million",
+          "source_id": "ECL-SEC-2026-09-30"
+        }
+      ],
+      "source_linked_transaction_terms": null,
+      "deal_lifecycle_events": [
+        {
+          "date": "2023",
+          "event": "MINORITY_ENTRY_WITH_KKR",
+          "source_id": "MUB-COOLIT-EXIT-2026",
+          "as_known_at_2026_exit": true
+        },
+        {
+          "date": "2026-03-26",
+          "event": "MINORITY_EXIT_SIGNED",
+          "source_id": "MUB-COOLIT-EXIT-2026"
+        },
+        {
+          "date": "2026-07-02",
+          "event": "WHOLE_COMPANY_SALE_COMPLETED_BY_ECOLAB",
+          "source_id": "ECL-CLOSE-2026-07-02"
+        }
+      ],
+      "source_linked_ownership_claims": null,
+      "legal_vehicle_claim": null,
+      "legal_vehicle_evidence_status": "NOT_DISCLOSED",
+      "source_linked_research_evidence": [
+        {
+          "id": "MUB-COOLIT-EXIT-2026",
+          "url": "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction",
+          "published": "2026-03-26",
+          "type": "MINORITY_SELLER_SIGNING_AND_HISTORICAL_ENTRY"
+        },
+        {
+          "id": "ECL-CLOSE-2026-07-02",
+          "url": "https://investor.ecolab.com/news/news-details/2026/Ecolab-Closes-CoolIT-Acquisition-and-Expands-AI-Cooling-Platform-as-Global-High-Tech-Business-Targets-4-Billion-by-2030/default.aspx",
+          "published": "2026-07-02",
+          "type": "BUYER_CLOSING"
+        },
+        {
+          "id": "ECL-SEC-2026-09-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/31462/000162828026068208/ecl-20260930.htm",
+          "published": "2026-11",
+          "type": "BUYER_FILED_PURCHASE_ACCOUNTING"
+        }
+      ],
+      "independently_checked_primary_claims": [],
+      "verified_by_issuer_adviser_engagements": [],
+      "verified_by_issuer_coinvestors": [],
+      "unresolved_dossier_gaps": [
+        "Mubadala percentage sold, gross/net proceeds, transaction carry/taxes",
+        "Mubadala cost basis and cash flows for MOIC/IRR",
+        "Audited CoolIT 2022/2023/2025 revenue and EBITDA",
+        "Potential seller rollover and purchase price adjustment"
+      ]
     },
     {
       "master_record_id": "GSI26B03-001",
@@ -4702,7 +4797,7 @@
       "primary_source": "https://www.ril.com/sites/default/files/2023-01/Media-Release-JIO-PIF-18062020.pdf",
       "independent_source": "https://www.ril.com/news-media/press-releases/public-investment-fund-pif-invest-rs11367-crore-jio-platforms",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": null,
+      "investee_legal_identity": "Jio Platforms Limited",
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -4716,7 +4811,65 @@
       "related_syndicate_links": [],
       "research_state": "UNREVIEWED_SOURCE_CLAIM_ONLY",
       "enrichment_required": true,
-      "evidence_gap": "Closing, settlement, ownership vehicle"
+      "evidence_gap": "Closing, settlement, ownership vehicle",
+      "enrichment_dossier_source": "research/verified_dossiers/gsi_four_transaction_dossiers_2026-11-15.json",
+      "enrichment_state": "SOURCE_LINKED_SELECTIVE_PRIMARY_SOURCE_CHECK",
+      "source_linked_financial_observations": [],
+      "source_linked_transaction_economics": [
+        {
+          "metric": "funded_subscription",
+          "value": 11367,
+          "unit": "INR crore",
+          "source_id": "JIO-RIL-2020-07-10",
+          "state": "ISSUER_CONFIRMS_RECEIPT"
+        },
+        {
+          "metric": "post_subscription_fully_diluted_stake",
+          "value": 2.32,
+          "unit": "percent",
+          "source_id": "JIO-RIL-2020-07-10"
+        },
+        {
+          "metric": "announced_equity_valuation",
+          "value": 4.91,
+          "unit": "INR lakh crore",
+          "source_id": "JIO-ISSUER-2020-06-18",
+          "scope": "Total company equity valuation, not amount paid"
+        }
+      ],
+      "source_linked_transaction_terms": null,
+      "deal_lifecycle_events": [],
+      "source_linked_ownership_claims": null,
+      "legal_vehicle_claim": null,
+      "legal_vehicle_evidence_status": "NOT_DISCLOSED",
+      "source_linked_research_evidence": [
+        {
+          "id": "JIO-PIF-2020-06-18",
+          "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2020/jio-platforms/",
+          "published": "2020-06-18",
+          "class": "FUND_CLAIM"
+        },
+        {
+          "id": "JIO-ISSUER-2020-06-18",
+          "url": "https://jep-asset.akamaized.net/jio/press-release/media_release_jio_pif_18062020.pdf",
+          "published": "2020-06-18",
+          "class": "INVESTEE_ISSUER_RELEASE"
+        },
+        {
+          "id": "JIO-RIL-2020-07-10",
+          "url": "https://www.ril.com/sites/default/files/2023-01/Regulation%2030%20disclosure%20-%20financial%20investors-further%20update.pdf",
+          "published": "2020-07-10",
+          "class": "LISTED_PARENT_EXCHANGE_NOTICE"
+        }
+      ],
+      "independently_checked_primary_claims": [],
+      "verified_by_issuer_adviser_engagements": [],
+      "verified_by_issuer_coinvestors": [],
+      "unresolved_dossier_gaps": [
+        "Actual share receipt in July 2020 must not be backdated to 18 June announcement.",
+        "2.32% is Jio Platforms fully diluted equity, not 2.32% of Reliance Industries.",
+        "Related Mubadala and ADIA subscriptions are separate investors, not included in PIF capital."
+      ]
     },
     {
       "master_record_id": "GSI-2020-06-004",
@@ -5960,7 +6113,7 @@
       "primary_source": "https://www.evotec.com/news/mubadala-investment-company-and-novo-holdings-as-invest-euro-250-m-in-evotec-se",
       "independent_source": "https://www.mubadala.com/en/news/mubadala-investment-company-and-novo-holdings-invest",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": null,
+      "investee_legal_identity": "Evotec SE",
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -5974,7 +6127,147 @@
       "related_syndicate_links": [],
       "research_state": "UNREVIEWED_SOURCE_CLAIM_ONLY",
       "enrichment_required": true,
-      "evidence_gap": "Verify actual cash settlement / commercial register date from Evotec annual report; issuer press release differs in share-count versions"
+      "evidence_gap": "Verify actual cash settlement / commercial register date from Evotec annual report; issuer press release differs in share-count versions",
+      "enrichment_dossier_source": "research/verified_dossiers/gsi_four_transaction_dossiers_2026-11-15.json",
+      "enrichment_state": "SOURCE_LINKED_SELECTIVE_PRIMARY_SOURCE_CHECK",
+      "source_linked_financial_observations": [
+        {
+          "period": "FY2019",
+          "published": "2020-03-26",
+          "known_before_announcement": true,
+          "metric": "IFRS_group_revenue",
+          "value": 446.4,
+          "unit": "EUR million",
+          "source_id": "EVT-FY2019-2020-03-26"
+        },
+        {
+          "period": "FY2019",
+          "published": "2020-03-26",
+          "known_before_announcement": true,
+          "metric": "adjusted_group_ebitda",
+          "value": 123.1,
+          "unit": "EUR million",
+          "source_id": "EVT-FY2019-2020-03-26",
+          "non_ifrs": true
+        },
+        {
+          "period": "FY2020",
+          "published": "2021-03-25",
+          "known_before_announcement": false,
+          "metric": "group_revenue",
+          "value": 500.9,
+          "unit": "EUR million",
+          "source_id": "EVT-FY2020-2021-03-25"
+        },
+        {
+          "period": "FY2020",
+          "published": "2021-03-25",
+          "known_before_announcement": false,
+          "metric": "adjusted_group_ebitda",
+          "value": 106.6,
+          "unit": "EUR million",
+          "source_id": "EVT-FY2020-2021-03-25",
+          "non_ifrs": true
+        },
+        {
+          "period": "FY2020",
+          "published": "2021-03-25",
+          "known_before_announcement": false,
+          "metric": "net_debt",
+          "value": 10,
+          "unit": "EUR million",
+          "source_id": "EVT-FY2020-2021-03-25",
+          "caution": "Company indicates capital placement helped reduce net debt; this is AFTER investment and cannot be entry leverage"
+        }
+      ],
+      "source_linked_transaction_economics": [
+        {
+          "metric": "subscribed_equity",
+          "value": 200,
+          "unit": "EUR million",
+          "state": "SUBSCRIPTION_REPORTED_AND_2020_ISSUER_ACCOUNTS_CONFIRM_CASH_RAISE",
+          "source_id": "EVT-2020-10-13"
+        },
+        {
+          "metric": "stake_post_placement",
+          "value": 5.6,
+          "unit": "percent",
+          "scope": "approximately",
+          "source_id": "EVT-2020-10-13"
+        },
+        {
+          "metric": "total_placement",
+          "value": 250,
+          "unit": "EUR million",
+          "scope": "Mubadala 200m + Novo 50m, not all sovereign",
+          "source_id": "EVT-2020-10-13"
+        }
+      ],
+      "source_linked_transaction_terms": null,
+      "deal_lifecycle_events": [],
+      "source_linked_ownership_claims": null,
+      "legal_vehicle_claim": null,
+      "legal_vehicle_evidence_status": "NOT_DISCLOSED",
+      "source_linked_research_evidence": [
+        {
+          "id": "EVT-2020-10-13",
+          "url": "https://www.evotec.com/news/mubadala-investment-company-and-novo-holdings-as-invest-euro-250-m-in-evotec-se",
+          "published": "2020-10-13",
+          "class": "ISSUER_RELEASE"
+        },
+        {
+          "id": "EVT-FY2019-2020-03-26",
+          "url": "https://www.evotec.com/news/evotec-se-fiscal-year-2019-results-excellent-2019-performance-very-good-outlook-for-continued-growth-2020",
+          "published": "2020-03-26",
+          "class": "ISSUER_FINANCIAL_RESULTS"
+        },
+        {
+          "id": "EVT-FY2020-2021-03-25",
+          "url": "https://www.evotec.com/news/evotec-se-fiscal-year-2020-results-gaining-speed-on-the-data-driven-rd-autobahn-to-cures",
+          "published": "2021-03-25",
+          "class": "ISSUER_FINANCIAL_RESULTS"
+        }
+      ],
+      "independently_checked_primary_claims": [
+        {
+          "master_record_id": "GSI-2020-OCT-003",
+          "source_url": "https://www.evotec.com/news/mubadala-investment-company-and-novo-holdings-as-invest-euro-250-m-in-evotec-se",
+          "source_published_on": "2020-10-13",
+          "claim": "Evotec announced Mubadala EUR 200m and Novo Holdings EUR 50m; Mubadala approximate post-placement stake 5.6%",
+          "verified_fields": [
+            "investor_announced_subscription",
+            "co_investor_announced_subscription",
+            "post_placement_stake"
+          ]
+        },
+        {
+          "master_record_id": "GSI-2020-OCT-003",
+          "source_url": "https://www.evotec.com/uploads/download-files/912e283e9f1fa7762d7ebd17feec5a5a.pdf",
+          "source_published_on": "2021",
+          "claim": "Evotec 2020 annual report shareholder table showed Mubadala 5.6% and Novo 10.8% as of 2020-12-31, later than signing",
+          "verified_fields": [
+            "post_entry_ownership_snapshot"
+          ]
+        }
+      ],
+      "verified_by_issuer_adviser_engagements": [],
+      "verified_by_issuer_coinvestors": [
+        {
+          "name": "Novo Holdings A/S",
+          "role": "CO_SUBSCRIBER",
+          "announced_amount": {
+            "value": 50,
+            "unit": "EUR million"
+          },
+          "source_url": "https://www.evotec.com/news/mubadala-investment-company-and-novo-holdings-as-invest-euro-250-m-in-evotec-se",
+          "as_of": "2020-10-13"
+        }
+      ],
+      "unresolved_dossier_gaps": [
+        "The Abu Dhabi media office release says 11,478,298 group shares whereas Evotec issuer and annual accounts show 11,478,315. Prefer issuer accounting record; flag independent reconciliation.",
+        "FY2020 net debt reflects the capital raise and must never serve as a pre-deal comparator.",
+        "Company revenue is not EBITDA and adjusted EBITDA is not an IFRS-defined measure."
+      ]
     },
     {
       "master_record_id": "GSI-2020-OCT-004",
