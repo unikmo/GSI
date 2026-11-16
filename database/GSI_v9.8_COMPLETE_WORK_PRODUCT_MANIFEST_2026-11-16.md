@@ -3,7 +3,11 @@
 **Repository:** `unikmo/GSI`
 **Branch:** `research/v9-8-historical-and-consortium-2026-11-15`
 **Verified branch head before this manifest:** `388b86c5540ac7ca953a5b124d778c1df7769edd`
-**Scope:** All 31 files in current draft PR #1, inspected against GitHub's complete untruncated recursive tree. This manifest indexes files already committed in this review branch, rather than duplicating their contents.
+**Scope:** Baseline manifest of 31 files verified in draft PR #1 when the manifest was created; subsequent scope summary is cross-linked above. Existing file counts are historic to that snapshot. This manifest indexes files already committed in this review branch, rather than duplicating their contents.
+
+## Agreed research agenda and planned build
+
+See [**GSI agreed research and build scope**](GSI_AGREED_RESEARCH_AND_BUILD_SCOPE_2026-11-16.md) for the research chronology, global Gulf sovereign investment scope, exact unique-transaction counting requirement, source and investor-capital standards, co-investor/PE mapping, fund profiles, six-part intelligence dossier structure, Next.js/Supabase test status, conditional Decision Intelligence / Capital Intelligence product direction, journalist access concept, and release gates. **This is a scope summary, not proof those products are built or approved for release.**
 
 ## Core table snapshot
 
