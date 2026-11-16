@@ -300,6 +300,89 @@
         "SRC-GC-PORT"
       ],
       "review_state": "RETROSPECTIVE_MANAGER_SELF_REPORT"
+    },
+    {
+      "id": "PRIV-SHOROOQ-FMSI-2026",
+      "investee": "Fleet Management Systems International (FMSi)",
+      "investee_country": "United Arab Emirates (specific legal domicile not verified)",
+      "sector": "Fleet management technology",
+      "event_type": "GROWTH_EQUITY_CONSORTIUM",
+      "announcement_date": "2026-09-14",
+      "stage_at_announcement": "STRATEGIC_GROWTH_INVESTMENT_ANNOUNCED",
+      "investor": "Shorooq Partners",
+      "manager_id": "GM-SHOROOQ",
+      "investing_vehicle": "SHOROOQ_MANAGED_FUNDS_UNNAMED",
+      "parties": [
+        {
+          "name": "Shorooq (lead/arranger)",
+          "role": "LEAD_AND_ARRANGER",
+          "amount": null,
+          "stake_pct": null
+        },
+        {
+          "name": "Emirates Growth Fund",
+          "role": "CO_INVESTOR",
+          "amount": null,
+          "stake_pct": null
+        },
+        {
+          "name": "Other Shorooq-arranged co-investors",
+          "role": "CONSORTIUM_MEMBERS_UNDISCLOSED",
+          "amount": null,
+          "stake_pct": null
+        }
+      ],
+      "advisers": [],
+      "economics": {
+        "investor_specific_paid_amount": null,
+        "consortium_total": null,
+        "stake_pct": null
+      },
+      "sources": [
+        "SRC-SH-FMSI"
+      ],
+      "review_state": "SOURCE_LINKED_CONSORTIUM_MEMBER_LIST_INCOMPLETE"
+    },
+    {
+      "id": "PRIV-STV-AIF-SAB-2026",
+      "investee": "STV Emerging Tech & AI Fund (fund subscription, not operating investee)",
+      "investee_country": "Saudi Arabia (fund vehicle domicile unverified)",
+      "sector": "Venture capital fund",
+      "event_type": "FUND_COMMITMENT",
+      "announcement_date": "2026-05-21",
+      "stage_at_announcement": "INSTITUTIONAL_COMMITMENT_ANNOUNCED_AMOUNT_UNDISCLOSED",
+      "investor": "STV",
+      "manager_id": "GM-STV",
+      "named_fund": "STV Emerging Tech & AI Fund",
+      "parties": [
+        {
+          "name": "STV",
+          "role": "FUND_MANAGER",
+          "amount": null,
+          "stake_pct": null
+        },
+        {
+          "name": "Saudi Awwal Bank / SAB Invest",
+          "role": "LIMITED_PARTNER_REPORTED",
+          "amount": null,
+          "stake_pct": null
+        },
+        {
+          "name": "Google",
+          "role": "PREVIOUSLY_REPORTED_FUND_BACKER_NOT_NEW_MAY_COMMITMENT",
+          "amount": null,
+          "stake_pct": null
+        }
+      ],
+      "advisers": [],
+      "economics": {
+        "fund_size_not_individual_commitment": null,
+        "investor_specific_paid_amount": null
+      },
+      "sources": [
+        "SRC-STV-AIF"
+      ],
+      "review_state": "SOURCE_LINKED_FUND_SUBSCRIPTION_NOT_PORTFOLIO_INVESTMENT"
     }
   ],
   "sources": [
@@ -373,6 +456,20 @@
       "published_on": null,
       "url": "https://www.gulfcapital.com/portfolio",
       "type": "CURRENT_PORTFOLIO_RETROSPECTIVE"
+    },
+    {
+      "id": "SRC-SH-FMSI",
+      "publisher": "Shorooq Partners",
+      "published_on": "2026-09-14",
+      "url": "https://www.shorooq.com/perspectives/shorooq-and-emirates-growth-fund-partner-with-fmsi-to-build-a-regional-champion-in-fleet-management-solutions",
+      "type": "MANAGER_ISSUER_CONSORTIUM_ANNOUNCEMENT"
+    },
+    {
+      "id": "SRC-STV-AIF",
+      "publisher": "STV",
+      "published_on": "2026-05-21",
+      "url": "https://stv.vc/blog/en/2026/5/18/stv-secures-strategic-commitment-from-sab-invest-for-its-emerging-tech-amp-ai-fund",
+      "type": "FUND_MANAGER_COMMITMENT_ANNOUNCEMENT"
     }
   ],
   "limits": [
@@ -381,6 +478,7 @@
     "Epipoli seller/founder rollover is not evidence of consortium funded capital",
     "Legal-service investee Stowe must never be conflated with advising law firm Cohen & Gresser",
     "Missing historical exact dates and amounts remain null",
-    "No existing v9.8 master row is added or assumed linked from name alone"
+    "No existing v9.8 master row is added or assumed linked from name alone",
+    "Fund commitments are not operating-company investments, and Google prior backing is not treated as a new SAB-equivalent commitment."
   ]
 }
