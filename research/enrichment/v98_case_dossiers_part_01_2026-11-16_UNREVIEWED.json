@@ -1303,50 +1303,204 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "SIGNED_ACQUISITION_AGREEMENT",
       "source_inclusion_decision": "RETAIN_PROVISIONAL",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "ANALYST_REVIEWED_ELIGIBLE_PENDING_TENDER_CLOSE",
+      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_AND_ADVISERS_CHECKED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "Mubadala",
         "reported_investing_entity": "MC Pomona Bidco controlled by Mubadala Capital",
-        "legal_vehicle_verified": null,
-        "vehicle_source": null,
+        "legal_vehicle_verified": "MC Pomona Bidco, French société par actions simplifiée, RCS Paris 105 324 255; controlled by Mubadala Capital",
+        "vehicle_source": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
         "vehicle_claim_from_unreviewed_dossier": null,
         "investor_origin_country": "United Arab Emirates"
       },
       "investee": {
         "reported_name": "Pierre & Vacances-Center Parcs",
-        "legal_name_verified": null,
+        "legal_name_verified": "Pierre et Vacances S.A.",
         "country": "France",
         "previous_financials": {
           "revenue": null,
           "ebitda": null,
           "financial_period": null,
           "verified_period_statements": [],
-          "other_historical_claims": []
+          "other_historical_claims": [
+            {
+              "metric": "FY2024/25 revenue",
+              "value": 1946,
+              "unit": "EUR million",
+              "period": "FY2024/25",
+              "audit_status": "NOT_CONFIRMED_BY_AUDITOR_REPORT",
+              "scope": "PVCP consolidated group as reported in transaction announcement; NOT standalone audited target statements",
+              "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+              "source_publication_date": "2026-07-20"
+            }
+          ]
         }
       },
       "transaction": {
         "announced_on": "2026-06-22",
         "completed_on": null,
-        "reported_event_status": "SIGNED_BUSINESS_COMBINATION_AGREEMENT; TENDER_OFFER_NOT_YET_FILED_AS_OF_2026-07-20",
+        "reported_event_status": "TENDER_OFFER_AGREEMENT_SIGNED_2026_07_20; OFFER_FILING_EXPECTED_BY_Q1_2027; NOT_CLOSED_AS_OF_SOURCE",
         "original_amount": null,
         "currency": null,
         "amount_scope": "Offer price €1.90/share cum distribution; total cash consideration not treated as invested",
         "amount_evidence_state": null,
-        "economic_term_claims": [],
+        "economic_term_claims": [
+          {
+            "claim": "Ordinary share offer cum extraordinary distribution",
+            "value": "EUR 1.90 per share (EUR 1.79 ex EUR 0.11 proposed distribution)",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_publication_date": "2026-07-20",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "OFFER_PRICE_NOT_PAID_INVESTOR_CAPITAL"
+          },
+          {
+            "claim": "Conditional squeeze-out premium",
+            "value": "EUR 0.10 per ordinary share subject to threshold",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_publication_date": "2026-07-20",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "CONDITIONAL_OFFER_TERM"
+          },
+          {
+            "claim": "Tender undertakings",
+            "value": "80.13% of outstanding share capital committed to tender; NOT acquired",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_publication_date": "2026-07-20",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "SELLER_UNDERTAKINGS_NOT_ACQUIRED_OWNERSHIP"
+          }
+        ],
         "transaction_terms": null,
-        "lifecycle_events": []
+        "lifecycle_events": [
+          {
+            "date": "2026-07-20",
+            "event": "Tender offer agreement signed; filing anticipated by Q1 2027 and closing H1 2027 conditional",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "settlement_confirmed": false
+          }
+        ]
       },
       "counterparties": {
         "master_syndicate_relationships": [],
         "verified_co_investor_announcements": [],
-        "source_ownership_claims": null,
+        "source_ownership_claims": {
+          "as_of": "2026-07-20",
+          "type": "EXISTING_SHAREHOLDERS_WITH_TENDER_UNDERTAKINGS_NOT_COINVESTORS",
+          "members": [
+            {
+              "name": "Fidera Limited",
+              "percent": 26.72
+            },
+            {
+              "name": "Benefit Street Partners",
+              "percent": 24.96
+            },
+            {
+              "name": "Pastel Holding",
+              "percent": 8.6
+            },
+            {
+              "name": "Pristine (trustee for PGE lenders and French State)",
+              "percent": 11.49
+            }
+          ],
+          "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital"
+        },
         "investor_ownership_stake_percent": null
       },
       "service_providers": {
-        "verified_issuer_disclosed_adviser_engagements": [],
-        "legal_adviser_research_status": "INCOMPLETE_UNLESS_LISTED"
+        "verified_issuer_disclosed_adviser_engagements": [
+          {
+            "name": "Morgan Stanley",
+            "client": "Pierre et Vacances",
+            "role": "Lead financial adviser",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_date": "2026-07-20",
+            "evidence_class": "PARTY_OR_ADVISER_ANNOUNCEMENT"
+          },
+          {
+            "name": "BNP Paribas",
+            "client": "Pierre et Vacances",
+            "role": "Co-financial adviser",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_date": "2026-07-20",
+            "evidence_class": "PARTY_OR_ADVISER_ANNOUNCEMENT"
+          },
+          {
+            "name": "De Pardieu Brocas Maffei",
+            "client": "Pierre et Vacances",
+            "role": "Legal adviser",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_date": "2026-07-20",
+            "evidence_class": "PARTY_OR_ADVISER_ANNOUNCEMENT"
+          },
+          {
+            "name": "Baker McKenzie",
+            "client": "Pierre & Vacances-Center Parcs Group",
+            "role": "Tax adviser",
+            "source_url": "https://www.bakermckenzie.com/fr/newsroom/2026/06/pierre-vacances-center-parcs-mubadala-capital-tender-offer",
+            "source_date": "2026-06-25",
+            "evidence_class": "PARTY_OR_ADVISER_ANNOUNCEMENT"
+          },
+          {
+            "name": "PJT Partners",
+            "client": "Mubadala Capital",
+            "role": "Sole financial adviser",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_date": "2026-07-20",
+            "evidence_class": "PARTY_OR_ADVISER_ANNOUNCEMENT"
+          },
+          {
+            "name": "Cleary Gottlieb Steen & Hamilton LLP",
+            "client": "Mubadala Capital",
+            "role": "Legal adviser",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_date": "2026-07-20",
+            "evidence_class": "PARTY_OR_ADVISER_ANNOUNCEMENT"
+          },
+          {
+            "name": "Freshfields LLP",
+            "client": "Mubadala Capital",
+            "role": "Legal adviser",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_date": "2026-07-20",
+            "evidence_class": "PARTY_OR_ADVISER_ANNOUNCEMENT"
+          },
+          {
+            "name": "Finexsi",
+            "client": "Pierre et Vacances independent board committee",
+            "role": "Independent fairness expert",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_date": "2026-07-20",
+            "evidence_class": "PARTY_OR_ADVISER_ANNOUNCEMENT"
+          },
+          {
+            "name": "Crédit Agricole Corporate and Investment Bank",
+            "client": "Tender offer",
+            "role": "Presenting bank",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_date": "2026-07-20",
+            "evidence_class": "PARTY_OR_ADVISER_ANNOUNCEMENT"
+          },
+          {
+            "name": "Natixis",
+            "client": "Tender offer",
+            "role": "Presenting bank",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_date": "2026-07-20",
+            "evidence_class": "PARTY_OR_ADVISER_ANNOUNCEMENT"
+          },
+          {
+            "name": "Société Générale",
+            "client": "Tender offer",
+            "role": "Presenting bank",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_date": "2026-07-20",
+            "evidence_class": "PARTY_OR_ADVISER_ANNOUNCEMENT"
+          }
+        ],
+        "legal_adviser_research_status": "NAMED_PARTIES_VERIFIED_NOT_EXHAUSTIVE"
       },
       "returns": {
         "investor_specific_proceeds": null,
@@ -1357,10 +1511,36 @@
       "evidence": {
         "primary_source": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital/",
         "independent_source": "https://bdif.amf-france.org/fr/details/226C1514",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "claim": "Ordinary share offer cum extraordinary distribution",
+            "value": "EUR 1.90 per share (EUR 1.79 ex EUR 0.11 proposed distribution)",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_publication_date": "2026-07-20",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "OFFER_PRICE_NOT_PAID_INVESTOR_CAPITAL"
+          },
+          {
+            "claim": "Conditional squeeze-out premium",
+            "value": "EUR 0.10 per ordinary share subject to threshold",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_publication_date": "2026-07-20",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "CONDITIONAL_OFFER_TERM"
+          },
+          {
+            "claim": "Tender undertakings",
+            "value": "80.13% of outstanding share capital committed to tender; NOT acquired",
+            "source_url": "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital",
+            "source_publication_date": "2026-07-20",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "SELLER_UNDERTAKINGS_NOT_ACQUIRED_OWNERSHIP"
+          }
+        ],
         "source_urls": [
           "https://www.mubadalacapital.ae/newsroom-articles/mubadala-capital-and-pierre-et-vacances-sign-tender-offer-agreement-tender-commitments-secured-from-shareholders-representing-80-of-the-outstanding-share-capital/",
-          "https://bdif.amf-france.org/fr/details/226C1514"
+          "https://bdif.amf-france.org/fr/details/226C1514",
+          "https://www.bakermckenzie.com/fr/newsroom/2026/06/pierre-vacances-center-parcs-mubadala-capital-tender-offer"
         ],
         "source_claim_blocks": [
           {
@@ -1392,15 +1572,14 @@
         "record_type_review_needed": "FINANCIAL_VEHICLE_OWNERSHIP_ADVISER_EVIDENCE",
         "existing_source_research_count": 1,
         "completeness_gaps": [
-          "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
-          "INVESTEE_LEGAL_IDENTITY_NOT_VERIFIED",
           "PRE_ENTRY_AUDITED_REVENUE_NOT_EXTRACTED",
           "PRE_ENTRY_AUDITED_EBITDA_NOT_VERIFIED_OR_NOT_APPLICABLE",
-          "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "OFFER_NOT_CLOSED; DO_NOT_TREAT_80_13_PERCENT_TENDER_UNDERTAKINGS_AS_OWNERSHIP",
+          "AUDITED_FY2024_25_GROUP_FINANCIAL_STATEMENTS_NOT_REVIEWED",
+          "ULTIMATE_FUND_LP_ECONOMIC_ALLOCATION_NOT_VERIFIED"
         ],
         "requires_further_primary_research": true
       }
@@ -1410,8 +1589,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "EQUITY",
       "source_inclusion_decision": "ADMIT_CANDIDATE",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "ANALYST_REVIEWED_ELIGIBLE_CLOSED_CARVEOUT",
+      "dossier_evidence_level": "PRIMARY_SOURCE_CLOSED_TRANSACTION_AND_ADVISERS_CHECKED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -1423,37 +1602,117 @@
       },
       "investee": {
         "reported_name": "Surventis / formerly BASF Coatings",
-        "legal_name_verified": null,
+        "legal_name_verified": "Surventis (formerly BASF Coatings; legal registration identifier not yet verified)",
         "country": "Germany",
         "previous_financials": {
           "revenue": null,
           "ebitda": null,
           "financial_period": null,
           "verified_period_statements": [],
-          "other_historical_claims": []
+          "other_historical_claims": [
+            {
+              "metric": "FY2024 sales",
+              "value": 3800,
+              "unit": "EUR million",
+              "period": "2024-01-01/2024-12-31",
+              "audit_status": "BUSINESS_SEGMENT_DISCLOSURE_NOT_STANDALONE_AUDITED_STATEMENTS",
+              "scope": "Automotive OEM, refinish and surface treatment carveout, not entire BASF consolidated group",
+              "source_url": "https://www.basf.com/global/en/media/news-releases/2025/10/p-25-203",
+              "source_publication_date": "2025-10-10"
+            }
+          ]
         }
       },
       "transaction": {
         "announced_on": "2025-10-10",
-        "completed_on": null,
+        "completed_on": "2026-06-30",
         "reported_event_status": "CLOSED 2026-06-30",
         "original_amount": null,
         "currency": null,
         "amount_scope": "€7.7bn total enterprise value; NOT QIA commitment",
         "amount_evidence_state": null,
-        "economic_term_claims": [],
+        "economic_term_claims": [
+          {
+            "claim": "Transaction enterprise value",
+            "value": "EUR 7.7 billion",
+            "source_url": "https://www.basf.com/global/en/media/news-releases/2025/10/p-25-203",
+            "source_publication_date": "2025-10-10",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "TOTAL_ENTERPRISE_VALUE_NOT_QIA_TICKET"
+          },
+          {
+            "claim": "Seller proceeds at closing",
+            "value": "Approx EUR 5.8 billion pre-tax cash received by BASF on 2026-06-30",
+            "source_url": "https://www.basf.com/cn/en/media/news-releases/asia-pacific/2026/07/apac-26-74",
+            "source_publication_date": "2026-07-01",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "BASF_SELLER_PROCEEDS_NOT_QIA_RETURN"
+          },
+          {
+            "claim": "Seller retained equity",
+            "value": "BASF holds 40% of Surventis after closing",
+            "source_url": "https://www.basf.com/cn/en/media/news-releases/asia-pacific/2026/07/apac-26-74",
+            "source_publication_date": "2026-07-01",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "BASF_OWNERSHIP_NOT_QIA_OWNERSHIP"
+          }
+        ],
         "transaction_terms": null,
-        "lifecycle_events": []
+        "lifecycle_events": [
+          {
+            "date": "2025-10-10",
+            "event": "Binding agreement signed by BASF and Carlyle-managed funds in partnership with QIA",
+            "source_url": "https://www.basf.com/global/en/media/news-releases/2025/10/p-25-203",
+            "settlement_confirmed": false
+          },
+          {
+            "date": "2026-06-30",
+            "event": "Transaction closed after regulatory approvals; BASF retained 40% stake and received ~EUR 5.8bn pretax cash",
+            "source_url": "https://www.basf.com/cn/en/media/news-releases/asia-pacific/2026/07/apac-26-74",
+            "settlement_confirmed": true
+          }
+        ]
       },
       "counterparties": {
         "master_syndicate_relationships": [],
-        "verified_co_investor_announcements": [],
-        "source_ownership_claims": null,
+        "verified_co_investor_announcements": [
+          {
+            "name": "Funds managed by Carlyle",
+            "role": "Acquisition consortium manager/lead partner",
+            "source_url": "https://www.basf.com/global/en/media/news-releases/2025/10/p-25-203"
+          },
+          {
+            "name": "Qatar Investment Authority",
+            "role": "Partner investor; individual allocation not disclosed",
+            "source_url": "https://www.basf.com/global/en/media/news-releases/2025/10/p-25-203"
+          }
+        ],
+        "source_ownership_claims": {
+          "as_of": "2026-06-30",
+          "seller_retained_percent": 40,
+          "source_url": "https://www.basf.com/cn/en/media/news-releases/asia-pacific/2026/07/apac-26-74",
+          "investor_individual_stakes": "NOT_DISCLOSED"
+        },
         "investor_ownership_stake_percent": null
       },
       "service_providers": {
-        "verified_issuer_disclosed_adviser_engagements": [],
-        "legal_adviser_research_status": "INCOMPLETE_UNLESS_LISTED"
+        "verified_issuer_disclosed_adviser_engagements": [
+          {
+            "name": "Milbank LLP",
+            "client": "Carlyle",
+            "role": "Acquisition, BASF reinvestment and QIA partnership legal counsel",
+            "source_url": "https://www.milbank.com/en/news/milbank-advises-carlyle-on-the-acquisition-of-basfs-coatings-business.html",
+            "source_date": "2025-10-10"
+          },
+          {
+            "name": "Latham & Watkins LLP",
+            "client": "Carlyle",
+            "role": "Carveout, debt financing, antitrust and regulatory legal counsel",
+            "source_url": "https://www.lw.com/en/news/latham-advises-carlyle-7-7-billion-cross-border-acquisition-basf-coatings-business",
+            "source_date": "2025-10-10"
+          }
+        ],
+        "legal_adviser_research_status": "CARLYLE_ADVISERS_VERIFIED; BASF_AND_QIA_SEPARATE_COUNSEL_NOT_FULLY_RESEARCHED"
       },
       "returns": {
         "investor_specific_proceeds": null,
@@ -1464,10 +1723,39 @@
       "evidence": {
         "primary_source": "https://www.qia.qa/en/Newsroom/Pages/BASF-and-Carlyle-reach-binding-transaction-agreement-on-coatings-business-to-create-a-leading-standalone-company.aspx",
         "independent_source": "https://www.basf.com/global/en/media/news-releases/2026/07/p-26-113",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "claim": "Transaction enterprise value",
+            "value": "EUR 7.7 billion",
+            "source_url": "https://www.basf.com/global/en/media/news-releases/2025/10/p-25-203",
+            "source_publication_date": "2025-10-10",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "TOTAL_ENTERPRISE_VALUE_NOT_QIA_TICKET"
+          },
+          {
+            "claim": "Seller proceeds at closing",
+            "value": "Approx EUR 5.8 billion pre-tax cash received by BASF on 2026-06-30",
+            "source_url": "https://www.basf.com/cn/en/media/news-releases/asia-pacific/2026/07/apac-26-74",
+            "source_publication_date": "2026-07-01",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "BASF_SELLER_PROCEEDS_NOT_QIA_RETURN"
+          },
+          {
+            "claim": "Seller retained equity",
+            "value": "BASF holds 40% of Surventis after closing",
+            "source_url": "https://www.basf.com/cn/en/media/news-releases/asia-pacific/2026/07/apac-26-74",
+            "source_publication_date": "2026-07-01",
+            "evidence_class": "PRIMARY_ISSUER_OR_PARTICIPANT_ANNOUNCEMENT",
+            "scope": "BASF_OWNERSHIP_NOT_QIA_OWNERSHIP"
+          }
+        ],
         "source_urls": [
           "https://www.qia.qa/en/Newsroom/Pages/BASF-and-Carlyle-reach-binding-transaction-agreement-on-coatings-business-to-create-a-leading-standalone-company.aspx",
-          "https://www.basf.com/global/en/media/news-releases/2026/07/p-26-113"
+          "https://www.basf.com/global/en/media/news-releases/2026/07/p-26-113",
+          "https://www.basf.com/global/en/media/news-releases/2025/10/p-25-203",
+          "https://www.basf.com/cn/en/media/news-releases/asia-pacific/2026/07/apac-26-74",
+          "https://www.milbank.com/en/news/milbank-advises-carlyle-on-the-acquisition-of-basfs-coatings-business.html",
+          "https://www.lw.com/en/news/latham-advises-carlyle-7-7-billion-cross-border-acquisition-basf-coatings-business"
         ],
         "source_claim_blocks": [
           {
@@ -1591,14 +1879,15 @@
         "existing_source_research_count": 3,
         "completeness_gaps": [
           "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
-          "INVESTEE_LEGAL_IDENTITY_NOT_VERIFIED",
           "PRE_ENTRY_AUDITED_REVENUE_NOT_EXTRACTED",
           "PRE_ENTRY_AUDITED_EBITDA_NOT_VERIFIED_OR_NOT_APPLICABLE",
-          "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
-          "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "QIA_ULTIMATE_VEHICLE_AND_ALLOCATION_UNDISCLOSED",
+          "NO_STANDALONE_PRE_ENTRY_AUDITED_TARGET_FINANCIALS_REVIEWED",
+          "QIA_SPECIFIC_POST_CLOSE_STAKE_AND_CASHFLOWS_UNVERIFIED",
+          "SURVENTIS_COMPANY_REGISTER_NUMBER_NOT_VERIFIED",
+          "SELLER_BASF_PROCEEDS_NOT_INVESTOR_RETURN"
         ],
         "requires_further_primary_research": true
       }
