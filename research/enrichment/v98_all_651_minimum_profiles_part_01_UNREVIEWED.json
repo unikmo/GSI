@@ -2408,7 +2408,7 @@
       "primary_source": "https://www.mubadala.com/en/news/mubadala-agrees-to-sell-minority-stake-in-coolit-to-ecolab-in-kkr-led-4-75-billion-transaction",
       "independent_source": null,
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": "CoolIT Systems",
+      "investee_legal_identity": null,
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -2517,7 +2517,8 @@
         "Mubadala cost basis and cash flows for MOIC/IRR",
         "Audited CoolIT 2022/2023/2025 revenue and EBITDA",
         "Potential seller rollover and purchase price adjustment"
-      ]
+      ],
+      "dossier_investee_name": "CoolIT Systems"
     },
     {
       "master_record_id": "GSI26B03-001",
@@ -4797,7 +4798,7 @@
       "primary_source": "https://www.ril.com/sites/default/files/2023-01/Media-Release-JIO-PIF-18062020.pdf",
       "independent_source": "https://www.ril.com/news-media/press-releases/public-investment-fund-pif-invest-rs11367-crore-jio-platforms",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": "Jio Platforms Limited",
+      "investee_legal_identity": null,
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -4869,7 +4870,8 @@
         "Actual share receipt in July 2020 must not be backdated to 18 June announcement.",
         "2.32% is Jio Platforms fully diluted equity, not 2.32% of Reliance Industries.",
         "Related Mubadala and ADIA subscriptions are separate investors, not included in PIF capital."
-      ]
+      ],
+      "dossier_investee_name": "Jio Platforms Limited"
     },
     {
       "master_record_id": "GSI-2020-06-004",
