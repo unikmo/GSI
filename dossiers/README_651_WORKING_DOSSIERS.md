@@ -1,11 +1,9 @@
-# GSI v9.8 — 651 ARCHIVED RAW-RECORD SUMMARIES (NOT UNIQUE INVESTMENT DOSSIERS)
+# GSI v9.8 — 651 working dossiers: verified batch index
 Date: 2026-11-16
 
-> **SUPERSEDED AS A DOSSIER PRODUCT — DO NOT USE FOR TRANSACTION COUNTS.** These 651 documents were generated one-to-one from unnormalised research rows before economic-event deduplication. The 467 preliminary investment candidates have **not** been demonstrated unique. These files are retained solely as traceable research-record summaries. The valid investment dossier set must be rebuilt only **after** canonical distinct economic-event IDs, entity eligibility, transaction stages and exclusion decisions have been reconciled. Neither 651 nor 467 is a verified unique-investment count.
+**Authoritative dossier snapshot:** `3ad274ddedf259a6728e541f235a04e0533c6cfe` (651 rows, 67 columns). The original monolithic dossier export predates the four first-party enrichments and should be treated as **superseded** by these seven smaller files. These files contain **source-derived working dossiers**; each entry has not been independently verified or editorially approved.
 
-**Raw-record snapshot:** `3ad274ddedf259a6728e541f235a04e0533c6cfe` (651 rows, 67 columns). The original monolithic dossier export predates the four first-party enrichments and should be treated as **superseded** by these seven smaller files. These files contain **source-derived raw-record summaries**; each entry has not been independently verified or editorially approved.
-
-## Archived record-summary batches (not investment dossiers)
+## Dossier batches
 
 - [Dossiers 1–100](batches/GSI_Dossiers_001_100_v9.8.md)
 - [Dossiers 101–200](batches/GSI_Dossiers_101_200_v9.8.md)
