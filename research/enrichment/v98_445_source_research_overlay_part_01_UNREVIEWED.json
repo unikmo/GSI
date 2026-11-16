@@ -1,0 +1,3938 @@
+{
+  "dataset": "GSI_V98_PREEXISTING_SOURCE_RESEARCH_CROSSWALK",
+  "part": 1,
+  "total_parts": 4,
+  "review_state": "SOURCE_RESEARCH_UNREVIEWED_NO_NEW_INDEPENDENT_CERTIFICATION",
+  "records": [
+    {
+      "master_record_id": "GSI-2020-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 27,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 27,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 30,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Qatar Investment Authority",
+          "target_or_event": "Califia Farms Series D"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 24,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Masdar via Masdar Tribe Energy Holdings Limited",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 25,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Masdar",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 26,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Masdar",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 27,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Masdar and Cepsa",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-006",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 28,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Masdar and EDF",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-007",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 28,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-008",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 14,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Abu Dhabi Investment Authority",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": "USD",
+            "master_claim_unit": "USD_millions",
+            "master_claim_scope": "REPORTED_POTENTIAL_SALE_NOT_PROCEEDS",
+            "master_amount_basis": "REPORTED_POTENTIAL_SALE_NOT_PROCEEDS",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://gulfnews.com/business/adia-plans-private-equity-fund-stake-sale-1.69014159",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://gulfbusiness.com/en/2020/abu-dhabi/abu-dhabi-plans-sell-2bn-slice-private-equity-book/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-009",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 29,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority / Brookfield Property Partners",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-02-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 29,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-03-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 1,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee": "Waymo",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.mubadala.com/en/news/mubadala-invests-autonomous-self-driving-technology",
+          "source_independent_master": "https://ifswf.org/sites/default/files/annual-reports/2020%20Mubadala%20Annual%20Review.pdf"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-03-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 2,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee": "Borealis AG",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.mubadala.com/en/news/39-share-purchase-mubadala-omv-acquire-majority-stake-borealis-us468-billion-largest",
+          "source_independent_master": "https://www.omv.com/en/media/press-releases/2020/201029-omv-and-mubadala-complete-borealis-transaction"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 41,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 44,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Mubadala Investment Company",
+          "target_or_event": "Borealis AG 39% stake sale to OMV"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-03-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_02_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 34,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Wren House Infrastructure",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "UNDISCLOSED",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.macquarie.com/au/en/about/news/2020/macquarie-infrastructure-and-real-assets-agrees-to-acquire-additional-stake-in-viesgo-from-wren-house-infrastructure.html",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://cincodias.elpais.com/cincodias/2020/03/24/companias/1585075042_573678.html?outputType=amp",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 35,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.macquarie.com/au/en/about/news/2020/macquarie-infrastructure-and-real-assets-agrees-to-acquire-additional-stake-in-viesgo-from-wren-house-infrastructure.html",
+          "source_independent": "https://cincodias.elpais.com/cincodias/2020/03/24/companias/1585075042_573678.html?outputType=amp",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "UNDISCLOSED",
+            "basis": null,
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://www.macquarie.com/au/en/about/news/2020/macquarie-infrastructure-and-real-assets-agrees-to-acquire-additional-stake-in-viesgo-from-wren-house-infrastructure.html",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 88,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Wren House Infrastructure",
+          "target_or_event": "Viesgo 40% sale agreement to Macquarie"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-03-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 39,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Abu Dhabi Developmental Holding Company / ADQ",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "NON_CASH_GOVERNMENT_TRANSFER",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.senaat.co/news/adq-assumes-ownership-senaat",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.wam.ae/en/article/hszra43f-abu-dhabi-developmental-holding-company-announces",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-03-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 26,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-04-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 27,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-04-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 40,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "ADQ / National Petroleum Construction Company",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "PERCENT_30_AMOUNT_UNDISCLOSED",
+            "master_amount_basis": "PERCENT_30_AMOUNT_UNDISCLOSED",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.wam.ae/en/article/hszra9fr-adq-fully-acquires-national-petroleum-construction",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.thenationalnews.com/business/abu-dhabi-s-adq-buys-out-minority-partner-in-contractor-npcc-1.1012659",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-04-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 15,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Abu Dhabi Investment Authority",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "POTENTIAL_EXIT_2000_USD_MILLIONS",
+            "master_amount_basis": "POTENTIAL_EXIT_2000_USD_MILLIONS",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.aljazeera.com/economy/2020/4/29/abu-dhabi-delays-sale-of-2bn-private-equity-book-due-to-virus",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://gulfnews.com/business/adia-plans-private-equity-fund-stake-sale-1.69014159",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-04-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 30,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-04-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 28,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-05-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 41,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Abu Dhabi Developmental Holding Company (ADQ)",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "No price disclosed in 2020 announcement; 2023 audited ADQ accounts place acquisition in 2021 for AED 2,579m",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.wam.ae/en/article/hszrabr8-adq-acquire-percent-stake-dahra-holding-company",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://aldahra.com/adq-to-expand-its-food-and-agri-business-sector-portfolio-with-strategic-investment-in-al-dahra-holding-company/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 8,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.wam.ae/en/article/hszrabr8-adq-acquire-percent-stake-dahra-holding-company",
+          "source_independent": "https://aldahra.com/adq-to-expand-its-food-and-agri-business-sector-portfolio-with-strategic-investment-in-al-dahra-holding-company/",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "No price disclosed in 2020 announcement; 2023 audited ADQ accounts place acquisition in 2021 for AED 2,579m",
+            "basis": null,
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://www.wam.ae/en/article/hszrabr8-adq-acquire-percent-stake-dahra-holding-company",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 61,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Abu Dhabi Developmental Holding Company (ADQ)",
+          "target_or_event": "ADQ signs agreement to acquire 50% of Al Dahra Holding"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-05-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 42,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "ADQ / Falcon Edge Capital (manager)",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": "AED",
+            "master_claim_unit": null,
+            "master_claim_scope": "AED 1.1bn announced fund size, not investor-specific portfolio capital deployed",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.thenationalnews.com/business/economy/abu-dhabi-s-adq-launches-dh1-1bn-fund-to-invest-in-asian-start-ups-1.1022217",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-05-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 29,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-05-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 31,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-05-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 30,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-06-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 3,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "MIC Redwood 1 RSC Limited (Mubadala)",
+          "investee": "Jio Platforms",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.mubadala.com/en/news/mubadala-invest-12b-usd-jio-platforms",
+          "source_independent_master": "https://www.ril.com/news-media/press-releases/mubadala-invest-rs909360-crore-jio-platforms"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 38,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 41,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "MIC Redwood 1 RSC Limited (Mubadala)",
+          "target_or_event": "Jio Platforms — 1.85% proposed stake"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-06-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 16,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Platinum Owl C 2018 RSC Limited, trustee of Platinum Jasmine A 2018 Trust (ADIA)",
+          "capital": {
+            "master_claimed_amount": "5683.5",
+            "master_claim_currency": "INR",
+            "master_claim_unit": "crore",
+            "master_claim_scope": "INVESTOR_SPECIFIC_ANNOUNCED_NOT_SETTLED",
+            "master_amount_basis": "INVESTOR_SPECIFIC_SUBSCRIPTION_INR_CRORE",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.ril.com/news-media/press-releases/adia-invest-rs568350-crore-jio-platforms",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 23,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.ril.com/news-media/press-releases/adia-invest-rs568350-crore-jio-platforms",
+          "original_amount": {
+            "raw": "5683.5",
+            "currency": "INR",
+            "unit": "crore",
+            "scope": "INVESTOR_SPECIFIC_ANNOUNCED_NOT_SETTLED",
+            "basis": "INVESTOR_SPECIFIC_SUBSCRIPTION_INR_CRORE",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+            "url": "https://www.ril.com/sites/default/files/2023-01/Media-Release-JIO-07062020.pdf",
+            "finding": "Reliance announced ADIA unit INR5683.50 crore primary subscription for fully diluted 1.16% Jio Platforms on 7 June 2020; issuer announcement not cash receipt.",
+            "state": "PRIMARY_SUBSCRIPTION_ANNOUNCED",
+            "cash_scope": "ADIA_INDIVIDUAL_ANNOUNCED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 76,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Platinum Owl C 2018 RSC Limited, trustee of Platinum Jasmine A 2018 Trust (ADIA)",
+          "target_or_event": "Jio Platforms — 1.16% proposed stake"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-06-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 31,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_four_transaction_dossiers_2026-11-15.json",
+          "source_record_position": 2,
+          "source_dataset_state": "SOURCE_VERIFIED_SELECTED_CLAIMS_WITH_OPEN_GAPS",
+          "source_record_state": "UNREVIEWED",
+          "investee": "Jio Platforms Limited"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-06-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_03_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 27,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Abu Dhabi Future Energy Company (Masdar)",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "UNDISCLOSED_OR_NOT_APPLICABLE",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://masdar.ae/en/news/newsroom/masdar-and-uzbekistan-government-to-develop-landmark-500mw-wind-project",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.nortonrosefulbright.com/en/news/9badd58e/energy-projects-team-advises-masdar-on-uzbekistan-wind-project",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-06-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 43,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "ADQ / Abu Dhabi Ports",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "UNDISCLOSED_OR_NOT_APPLICABLE",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.adports.ae/pdf/Prospectus%20Euro%20Medium%20Term%20Note%20Programme%20May%202021.pdf",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.adports.ae/adq-announces-zonescorp-to-join-abu-dhabi-ports-further-strengthening-its-logistics-and-industrial-portfolios/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-06-006",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_02_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 35,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Al Ajial Holding (reported KIA-affiliated)",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "UNDISCLOSED_OR_NOT_APPLICABLE",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.africaintelligence.com/north-africa/2020/06/18/moroccan-kuwaiti-al-ajial-holding-closes-its-cmkd-croissance-fund,109238494-bre",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://fr.le360.ma/economie/le-groupe-marocco-koweitien-al-ajial-tourne-la-page-de-son-fonds-cmkd-croissance-217451/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-06-007",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 9,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-07-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 32,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 31,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 34,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Qatar Investment Authority",
+          "target_or_event": "Zuoyebang — Series E $750m round, QIA participation"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-07-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 30,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Capital",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 39,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.atlanpolebiotherapies.eu/news/owkin-closes-series-a-round-to-deploy-federated-learning-for-research-at-scale-with-a-total-of-70m-raised/",
+          "source_independent": "https://www.wamda.com/index.php/2020/07/mubadala-capital-invests-frances-owkin",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "$18m JOINT EXTENSION — NOT MUBADALA TICKET",
+            "basis": "",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://www.atlanpolebiotherapies.eu/news/owkin-closes-series-a-round-to-deploy-federated-learning-for-research-at-scale-with-a-total-of-70m-raised/",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-07-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 44,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "ADPower → TAQA (ADQ group)",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "106.37bn NEW SHARES not cash deployment",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://english.mubasher.info/news/3661902/TAQA-completes-merger-deal-with-ADPower/%7B%7BrelatedArticle.infoMainTagUrl%7D%7D",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.enerdata.net/publications/daily-energy-news/abu-dhabi-uae-power-utilities-taqa-and-adpower-complete-merger.html",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-07-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 45,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "ADQ / ADNOC",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "NO JULY DISBURSEMENT VERIFIED",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/072220-uaes-adnoc-to-invest-in-local-chemicals-projects-amid-45-billion-downstream-push",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://adnoc.ae/en/news-and-media/press-releases/2020/adnoc-and-adq-launch-taziz-joint-venture--to-drive-growth-in-uae-chemicals-sector",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-07-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 46,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "ZonesCorp / Abu Dhabi Ports",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "NO INVESTOR CAPITAL",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.adports.ae/adq-announces-zonescorp-to-join-abu-dhabi-ports-further-strengthening-its-logistics-and-industrial-portfolios/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-07-006",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_02_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 36,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Wren House Infrastructure",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "UNDISCLOSED",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.whinfra.com/our-portfolio/i3-broadband/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://fcc.report/IBFS/SES-T-C-INTR2021-00044/3374948.pdf",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-07-007",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 10,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-AUG-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 4,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Aerospace Holding Company LLC",
+          "investee": "XPeng",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.sec.gov/Archives/edgar/data/1810997/000095012320012345/filename1.htm",
+          "source_independent_master": "https://ir.xiaopeng.com/static-files/001b0177-ef03-4d67-9421-de4672ba37e9"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 40,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.sec.gov/Archives/edgar/data/1810997/000095012320012345/filename1.htm",
+          "source_independent": "https://ir.xiaopeng.com/static-files/001b0177-ef03-4d67-9421-de4672ba37e9",
+          "original_amount": {
+            "raw": "100",
+            "currency": "USD",
+            "unit": "million",
+            "scope": "INVESTOR_SPECIFIC_ISSUANCE",
+            "basis": "",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+            "url": "https://www.sec.gov/Archives/edgar/data/1810997/000095012320012345/filename1.htm",
+            "finding": "XPeng prospectus discloses Aug 6 2020 23,065,390 Series C preferred shares issued to Mubadala via Aerospace Holding Company LLC for USD100m. DIFFERENT from QIA July 29 2020 USD100m subscription.",
+            "state": "FUNDED_PREFERRED_SUBSCRIPTION_2020_08_06",
+            "cash_scope": "MUBADALA_INDIVIDUAL_CASH_100M",
+            "legal_vehicle": "Aerospace Holding Company LLC",
+            "verified_amount": {
+              "value": 100,
+              "currency": "USD",
+              "unit": "million"
+            },
+            "cross_investor_related": "GSI-2020-AUG-004"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-AUG-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 5,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee": "PCI Pharma Services",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.mubadala.com/en/news/mubadala-and-kohlberg-sign-joint-agreement",
+          "source_independent_master": "https://www.kohlberg.com/pci-pharma-services-announces-the-closing-of-the-majority-stake-acquisition-by-kohlberg-and-mubadala/"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 6,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.mubadala.com/en/news/mubadala-and-kohlberg-sign-joint-agreement",
+          "source_independent": "https://www.kohlberg.com/pci-pharma-services-announces-the-closing-of-the-majority-stake-acquisition-by-kohlberg-and-mubadala/",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "UNDISCLOSED_TICKET",
+            "basis": null,
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://www.mubadala.com/en/news/mubadala-and-kohlberg-sign-joint-agreement",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 59,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Mubadala Investment Company",
+          "target_or_event": "PCI Pharma Services acquisition consortium with Kohlberg"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-AUG-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 6,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company PJSC",
+          "investee": "Envision Pharma Group",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32020M9922",
+          "source_independent_master": "https://www.mubadala.com/en/news/gho-capital-and-management-acquire-ardian-majority-stake"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-AUG-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 33,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Al-Rayyan Holding LLC",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 18,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 21,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Al-Rayyan Holding LLC",
+          "target_or_event": "XPeng Inc. Series C preferred shares — July transaction disclosed August"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-AUG-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_02_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 37,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Kuwait Investment Authority",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "NON_INVESTMENT",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://dev.swfinstitute.org/news?s=Kuwait+Investment+Authority&type=tag",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-AUG-006",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_03_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 17,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Masdar / PT PJBI JV",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "DATE_MISMATCH",
+            "master_amount_basis": null,
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://masdar.ae/en/news/newsroom/masdar-joint-venture-reaches-financial-close-and-starts-construction",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://chambers.com/articles/masdar-floating-solar-photovoltaic-power-project-in-indonesia",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-DEC-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 37,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "QIA Florence Holdings LLC",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 32,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 35,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "QIA Florence Holdings LLC",
+          "target_or_event": "Fluence Energy LLC $125m private placement agreement"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-DEC-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 34,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 42,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 45,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Mubadala Investment Company",
+          "target_or_event": "Asper Dorothea district heating investment vehicle"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-DEC-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_03_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 33,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Nur Navoi Solar FE LLC / Masdar",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "Project finance amount and Masdar sponsor equity not individually verified",
+            "master_amount_basis": "Project finance amount and Masdar sponsor equity not individually verified",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://masdar.ae/en/news/newsroom/masdar-achieves-financial-close-on-landmark-100-mw-nur-navoi-solar-project-in-uzbekistan",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.energyconnects.com/news/renewables/2020/december/masdar-achieves-financial-close-on-solar-project-in-uzbekistan/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-DEC-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_03_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 35,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Masdar / TAQA / EDF / JinkoPower",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "TAQA + Masdar collectively 60%; individual equity allocations and cash amount unverified",
+            "master_amount_basis": "TAQA + Masdar collectively 60%; individual equity allocations and cash amount unverified",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://masdar.ae/en/news/newsroom/taqa-and-masdarled-consortium-announce-financial-closing-for-the-worlds-largest-solar-power-plant",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://masdar.ae/-/media/corporate-revamp/downloads/masdar-annual-sustainability-reports/masdar-2020-annual-sustainability-report.pdf",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-DEC-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_03_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 34,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Masdar and PT PJB",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "No Masdar-specific deployed amount verified for Dec 2020",
+            "master_amount_basis": "No Masdar-specific deployed amount verified for Dec 2020",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://masdar.ae/-/media/corporate-revamp/downloads/masdar-annual-sustainability-reports/masdar-2020-annual-sustainability-report.pdf",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 35,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 5,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Public Investment Fund",
+          "target_or_event": "Reliance Retail Ventures — 2.04% equity stake"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_three_priority_deep_reviews_2026-11-15_batch04.json",
+          "source_record_position": 2,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investee": "Reliance Retail Ventures Limited",
+          "transaction_terms": {
+            "investor_specific_funded_inr_crore": 9555,
+            "fully_diluted_stake_pct": 2.04,
+            "all_investors_total_round_inr_crore": 47265,
+            "round_total_stake_pct": 10.09,
+            "warning": "₹47,265 crore is the total 2020 cohort; only ₹9,555 crore belongs to PIF. PIF’s 2020 Jio Platforms stake is a separate investee."
+          },
+          "pre_decision_financials": [
+            {
+              "metric": "FY2020_Reliance_Retail_business_segment_revenue",
+              "value": 162936,
+              "unit": "INR crore",
+              "period_end": "2020-03-31",
+              "disclosed": "2020-04-30",
+              "available_before_signing": true,
+              "basis": "parent RIL retail business segment, gross value-of-sales metric, NOT RRVL statutory consolidated net revenue",
+              "source": "RIL-FY2020-APR30"
+            },
+            {
+              "metric": "FY2020_Reliance_Retail_business_segment_EBITDA",
+              "value": 9654,
+              "unit": "INR crore",
+              "period_end": "2020-03-31",
+              "disclosed": "2020-04-30",
+              "available_before_signing": true,
+              "basis": "parent RIL segment management EBITDA; non-GAAP / not RRVL standalone EBITDA",
+              "source": "RIL-FY2020-APR30"
+            },
+            {
+              "metric": "FY2020_RRVL_consolidated_gross_revenue",
+              "value": 162936,
+              "unit": "INR crore",
+              "period_end": "2020-03-31",
+              "disclosed": "2020-09-08",
+              "available_before_signing": true,
+              "basis": "CRISIL corporate-rating financial indicators for RRVL consolidated",
+              "source": "CRISIL-RRVL-20200908"
+            },
+            {
+              "metric": "FY2020_RRVL_consolidated_net_revenue",
+              "value": 146272,
+              "unit": "INR crore",
+              "period_end": "2020-03-31",
+              "disclosed": "2020-09-08",
+              "available_before_signing": true,
+              "basis": "CRISIL RRVL consolidated; different revenue basis from business segment headline",
+              "source": "CRISIL-RRVL-20200908"
+            },
+            {
+              "metric": "FY2020_RRVL_consolidated_PAT",
+              "value": 5448,
+              "unit": "INR crore",
+              "period_end": "2020-03-31",
+              "disclosed": "2020-09-08",
+              "available_before_signing": true,
+              "basis": "CRISIL credit opinion's financial indicators; do not substitute for EBITDA",
+              "source": "CRISIL-RRVL-20200908"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 11,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Capital",
+          "investee": "REEF Technology",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://targetglobal.medium.com/connecting-the-world-to-your-block-backing-reef-technologys-1-billion-investment-round-42ff0bce49a7",
+          "source_independent_master": "https://www.wamda.com/2020/11/mubadala-leads-700mln-funding-start-reef-technology"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 7,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://targetglobal.medium.com/connecting-the-world-to-your-block-backing-reef-technologys-1-billion-investment-round-42ff0bce49a7",
+          "source_independent": "https://www.wamda.com/2020/11/mubadala-leads-700mln-funding-start-reef-technology",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "TOTAL_ROUND_NOT_INVESTOR_SPECIFIC",
+            "basis": "TOTAL_ROUND_NOT_INVESTOR_SPECIFIC",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://targetglobal.medium.com/connecting-the-world-to-your-block-backing-reef-technologys-1-billion-investment-round-42ff0bce49a7",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 60,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Mubadala Capital",
+          "target_or_event": "REEF Technology — growth equity financing"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 12,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee": "G42",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.mubadala.com/en/news/mubadala-takes-stake-group-42",
+          "source_independent_master": "https://www.wam.ae/en/article/hszrb6li-mubadala-takes-stake-g42"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 43,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 46,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Mubadala Investment Company",
+          "target_or_event": "G42 stake via Injazat and Khazna contribution"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 33,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company (GHO-led consortium)",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 13,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Capital",
+          "investee": "TIER Mobility",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.tier.app/en/press/tier-raises-250-million-series-c-funding-led-by-softbank",
+          "source_independent_master": "https://www.investing.com/news/technology-news/softbanks-vision-fund-2-leads-250million-investment-in-escooter-firm-tier-mobility-2344497"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 43,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.tier.app/en/press/tier-raises-250-million-series-c-funding-led-by-softbank",
+          "source_independent": "https://www.investing.com/news/technology-news/softbanks-vision-fund-2-leads-250million-investment-in-escooter-firm-tier-mobility-2344497",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "TOTAL_ROUND_NOT_INVESTOR_SPECIFIC",
+            "basis": "TOTAL_ROUND_NOT_INVESTOR_SPECIFIC",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://www.tier.app/en/press/tier-raises-250-million-series-c-funding-led-by-softbank",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-006",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 47,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "ADQ",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "TRANSACTION_VALUE_CONFIDENTIAL",
+            "master_amount_basis": "TRANSACTION_VALUE_CONFIDENTIAL",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.ldc.com/us/en/press-releases/louis-dreyfus-company-to-enter-into-strategic-partnership-with-adq/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.ldc.com/in/en/press-releases/louis-dreyfus-company-completes-strategic-partnership-agreement-with-adq/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 9,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.ldc.com/us/en/press-releases/louis-dreyfus-company-to-enter-into-strategic-partnership-with-adq/",
+          "source_independent": "https://www.ldc.com/in/en/press-releases/louis-dreyfus-company-completes-strategic-partnership-agreement-with-adq/",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "TRANSACTION_VALUE_CONFIDENTIAL",
+            "basis": "TRANSACTION_VALUE_CONFIDENTIAL",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+            "url": "https://www.ldc.com/cn/en/press-releases/louis-dreyfus-company-completes-strategic-partnership-agreement-with-adq/",
+            "finding": "LDC signed sale of indirect 45% stake to ADQ on 11 Nov 2020; issuer confirms close 10 Sep 2021; price confidential. USD1.051bn was intragroup loan repayment by parent, NOT ADQ cheque.",
+            "state": "SECONDARY_45PC_CLOSED_2021_09_10",
+            "cash_scope": "PRICE_CONFIDENTIAL"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 62,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "ADQ",
+          "target_or_event": "Louis Dreyfus Company — indirect 45% stake agreement"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-007",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 36,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-008",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 17,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Abu Dhabi Investment Authority",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "ANNUAL_ACTIVITY_AGGREGATE",
+            "master_amount_basis": "ANNUAL_ACTIVITY_AGGREGATE",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.adia.ae/en/pr/2020/private-equity.html",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-009",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_03_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 10,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Abu Dhabi Future Energy Company (Masdar)",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "PROJECT_FINANCING_NOT_INVESTOR_TICKET",
+            "master_amount_basis": "PROJECT_FINANCING_NOT_INVESTOR_TICKET",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://masdar.ae/en/news/newsroom/masdar-achieves-financial-close-on-landmark-100-mw-nur-navoi-solar-project-in-uzbekistan",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://masdar.ae/en/renewables/our-projects/100-mw-nur-navoi-solar-project",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-010",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 36,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-NOV-011",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_02_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 38,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Kuwait Investment Authority / Wren House",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "ENTITY_MAPPING_NOT_INVESTMENT",
+            "master_amount_basis": "ENTITY_MAPPING_NOT_INVESTMENT",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/11825515/persons-with-significant-control",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 8,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "MIC Redwood 1 RSC Limited",
+          "investee": "Reliance Retail Ventures",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.ril.com/news-media/press-releases/mubadala-invest-rs62475-crore-aed-31-billion-reliance-retail-ventures",
+          "source_independent_master": "https://www.marketscreener.com/quote/stock/RELIANCE-INDUSTRIES-LTD-9058833/news/Reliance-Industries-Further-update-on-investment-into-Reliance-Retail-Ventures-Limited-Mubadala-a-31552717/"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 39,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 42,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "MIC Redwood 1 RSC Limited",
+          "target_or_event": "Reliance Retail Ventures Limited — 1.40% announced / subscription allotted"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 18,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Platinum Owl C 2018 RSC Limited trustee Platinum Jasmine A 2018 Trust",
+          "capital": {
+            "master_claimed_amount": "5512.5",
+            "master_claim_currency": "INR crore",
+            "master_claim_unit": null,
+            "master_claim_scope": "INVESTOR_SPECIFIC",
+            "master_amount_basis": "INVESTOR_SPECIFIC",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.ril.com/sites/default/files/2023-01/Media-Release-RRVL-06102020.pdf",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.marketscreener.com/quote/stock/RELIANCE-INDUSTRIES-LTD-9058833/news/Reliance-Industries-Further-update-on-investment-into-Reliance-Retail-Ventures-Limited-Mubadala-a-31552717/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 24,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.ril.com/sites/default/files/2023-01/Media-Release-RRVL-06102020.pdf",
+          "source_independent": "https://www.marketscreener.com/quote/stock/RELIANCE-INDUSTRIES-LTD-9058833/news/Reliance-Industries-Further-update-on-investment-into-Reliance-Retail-Ventures-Limited-Mubadala-a-31552717/",
+          "original_amount": {
+            "raw": "5512.5",
+            "currency": "INR crore",
+            "unit": null,
+            "scope": "INVESTOR_SPECIFIC",
+            "basis": "INVESTOR_SPECIFIC",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://www.ril.com/sites/default/files/2023-01/Media-Release-RRVL-06102020.pdf",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 77,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Platinum Owl C 2018 RSC Limited trustee Platinum Jasmine A 2018 Trust",
+          "target_or_event": "Reliance Retail Ventures Limited — 1.20% announced / subscription allotted"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 9,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee": "Evotec SE",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.evotec.com/news/mubadala-investment-company-and-novo-holdings-as-invest-euro-250-m-in-evotec-se",
+          "source_independent_master": "https://www.mubadala.com/en/news/mubadala-investment-company-and-novo-holdings-invest"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_four_transaction_dossiers_2026-11-15.json",
+          "source_record_position": 1,
+          "source_dataset_state": "SOURCE_VERIFIED_SELECTED_CLAIMS_WITH_OPEN_GAPS",
+          "source_record_state": "UNREVIEWED",
+          "investee": "Evotec SE",
+          "historical_financials": [
+            {
+              "period": "FY2019",
+              "published": "2020-03-26",
+              "known_before_announcement": true,
+              "metric": "IFRS_group_revenue",
+              "value": 446.4,
+              "unit": "EUR million",
+              "source_id": "EVT-FY2019-2020-03-26"
+            },
+            {
+              "period": "FY2019",
+              "published": "2020-03-26",
+              "known_before_announcement": true,
+              "metric": "adjusted_group_ebitda",
+              "value": 123.1,
+              "unit": "EUR million",
+              "source_id": "EVT-FY2019-2020-03-26",
+              "non_ifrs": true
+            },
+            {
+              "period": "FY2020",
+              "published": "2021-03-25",
+              "known_before_announcement": false,
+              "metric": "group_revenue",
+              "value": 500.9,
+              "unit": "EUR million",
+              "source_id": "EVT-FY2020-2021-03-25"
+            },
+            {
+              "period": "FY2020",
+              "published": "2021-03-25",
+              "known_before_announcement": false,
+              "metric": "adjusted_group_ebitda",
+              "value": 106.6,
+              "unit": "EUR million",
+              "source_id": "EVT-FY2020-2021-03-25",
+              "non_ifrs": true
+            },
+            {
+              "period": "FY2020",
+              "published": "2021-03-25",
+              "known_before_announcement": false,
+              "metric": "net_debt",
+              "value": 10,
+              "unit": "EUR million",
+              "source_id": "EVT-FY2020-2021-03-25",
+              "caution": "Company indicates capital placement helped reduce net debt; this is AFTER investment and cannot be entry leverage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 48,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "ADQ and Abu Dhabi Pension Fund jointly",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "CONSORTIUM_TOTAL_2.1_BILLION_USD_NOT_ADQ_AMOUNT",
+            "master_amount_basis": "CONSORTIUM_TOTAL_2.1_BILLION_USD_NOT_ADQ_AMOUNT",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.adnoc.ae/media-center/news/2020/10/abu-dhabi-pension-fund-and-adq-invest-dollar-2-billion-in-adnoc-energy-infrastructure-deal",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.globalprivatecapital.org/newsroom/adpf-and-adq-to-invest-usd2-1b-in-adnoc-gas-pipeline-assets/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 10,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.adnoc.ae/media-center/news/2020/10/abu-dhabi-pension-fund-and-adq-invest-dollar-2-billion-in-adnoc-energy-infrastructure-deal",
+          "source_independent": "https://www.globalprivatecapital.org/newsroom/adpf-and-adq-to-invest-usd2-1b-in-adnoc-gas-pipeline-assets/",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "CONSORTIUM_TOTAL_2.1_BILLION_USD_NOT_ADQ_AMOUNT",
+            "basis": "CONSORTIUM_TOTAL_2.1_BILLION_USD_NOT_ADQ_AMOUNT",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://www.adnoc.ae/media-center/news/2020/10/abu-dhabi-pension-fund-and-adq-invest-dollar-2-billion-in-adnoc-energy-infrastructure-deal",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 63,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "ADQ and Abu Dhabi Pension Fund jointly",
+          "target_or_event": "ADNOC Gas Pipelines HoldCo LLC — combined 20% stake"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_03_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 28,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Masdar",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "UNDISCLOSED_EQUITY",
+            "master_amount_basis": "UNDISCLOSED_EQUITY",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://masdar.ae/en/news/newsroom/maryvale-energy-from-waste-project-moving-forward",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-006",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 10,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee": "Borealis AG",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.mubadala.com/en/news/omv-and-mubadala-complete-borealis-transaction",
+          "source_independent_master": "https://www.mubadala.com/en/news/39-share-purchase-mubadala-omv-acquire-majority-stake-borealis-us468-billion-largest"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 44,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 47,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Mubadala Investment Company",
+          "target_or_event": "Borealis 39% sale to OMV — closing of March-announced transaction"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-007",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 49,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "ADQ / Aldar Properties",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "PROJECT_PIPELINE_AED_30BN_NOT_EQUITY",
+            "master_amount_basis": "PROJECT_PIPELINE_AED_30BN_NOT_EQUITY",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.mediaoffice.abudhabi/en/economy/adq-and-aldar-sign-mou-to-develop-and-manage/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-008",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 35,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-009",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 34,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 31,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 41,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
+          "source_independent": "https://www.silverlake.com/silver-lake-and-mubadala-partner-to-establish-unique-long-term-investment-strategy/",
+          "original_amount": {
+            "raw": "2000",
+            "currency": "USD",
+            "unit": null,
+            "scope": "MUBADALA_COMMITMENT",
+            "basis": "INVESTOR_SPECIFIC_COMMITMENT",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+            "url": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
+            "finding": "Mubadala partnership allocates USD2bn commitment to long-term Silver Lake strategy, not evidence of USD2bn paid in September 2020.",
+            "state": "STRATEGY_COMMITMENT",
+            "cash_scope": "UNDRAWN_COMMITMENT_NOT_DEPLOYMENT",
+            "linked_economic_event": "MUBADALA_SILVERLAKE_2020_STRATEGY"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 7,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee": "Silver Lake",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
+          "source_independent_master": "https://www.silverlake.com/silver-lake-and-mubadala-partner-to-establish-unique-long-term-investment-strategy/"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 42,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
+          "source_independent": "https://www.silverlake.com/silver-lake-and-mubadala-partner-to-establish-unique-long-term-investment-strategy/",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "INVESTMENT_AMOUNT_UNDISCLOSED",
+            "basis": "NOT_DISCLOSED",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+            "url": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
+            "finding": "Same September 2020 announcement also includes minority Silver Lake manager stake, price undisclosed; distinct asset exposure but not additive to whole USD2bn strategy commitment without allocation.",
+            "state": "MANAGER_STAKE_ANNOUNCED",
+            "cash_scope": "PRICE_UNDISCLOSED",
+            "linked_economic_event": "MUBADALA_SILVERLAKE_2020_STRATEGY"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 32,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company / Barings Mubadala Enterprise",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 11,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_03_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 29,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Masdar / Infinity Power",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "CLOSED_ACQUISITION_AMOUNT_UNDISCLOSED",
+            "master_amount_basis": "NOT_DISCLOSED",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://masdar.ae/en/news/newsroom/masdar-acquires-solar-power-plant-in-egypt",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-006",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_03_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 30,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Masdar / Infinity Power",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "NONBINDING_INTENT",
+            "master_amount_basis": "NONE",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://masdar.ae/en/news/newsroom/masdar-acquires-solar-power-plant-in-egypt",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-007",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_01_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 50,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Alpha Oryx Limited (ADQ subsidiary)",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "COMPLETE_ACQUISITION_AMOUNT_UNDISCLOSED",
+            "master_amount_basis": "NOT_DISCLOSED",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://gulfnews.com/business/markets/abu-dhabis-adq-acquires-a-near-22-stake-in-logistics-company-aramex-1.1600344571511",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.thenationalnews.com/business/markets/adq-buys-22-25-of-middle-east-s-largest-courier-company-1.1079233/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-008",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 34,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority / Credit Suisse Asset Management",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-009",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_02_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 39,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Global Power Generation (Naturgy 75% / KIA 25%)",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "TOTAL_PROJECT_BUDGET_NOT_KIA",
+            "master_amount_basis": "PROJECT_BUDGET_EXCLUDED",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.naturgy.com/en/press-release/naturgy-signs-with-snowy-hydro-its-first-energy-sales-contract-with-a-retailer-in-australia-to-build-a-218-mw-wind-farm-in-victoria-contributing-to-increase-its-installed-capacity-in-the-country-over/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-010",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_02_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 40,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Global Power Generation (Naturgy 75% / KIA 25%)",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "TOTAL_PROJECT_BUDGET_NOT_KIA",
+            "master_amount_basis": "PROJECT_BUDGET_EXCLUDED",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.naturgy.com/en/press-release/naturgy-increases-its-presence-in-australia-with-the-award-by-the-australian-capital-territory-act-of-107-mw-wind-farm-and-a-battery-energy-storage-system-of-20-mwh/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-011",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 32,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-012",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 33,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-013",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_02_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 1,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Abu Dhabi Developmental Holding",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "ENTITY_HISTORY_ONLY",
+            "master_amount_basis": "NONE",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.rns-pdf.londonstockexchange.com/rns/4581M_1-2024-4-29.pdf",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-014",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_03_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 31,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Masdar / Nur Navoi Solar FE LLC",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "DATE_MISMATCH",
+            "master_amount_basis": "NONE",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://masdar.ae/en/news/newsroom/masdar-achieves-financial-close-on-landmark-100-mw-nur-navoi-solar-project-in-uzbekistan",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.ebrd.com/home/work-with-us/projects/psd/51454.html",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-APR-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 36,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Petroleum",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-APR-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 37,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala/Mamoura/other affiliates",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-APR-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 42,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-APR-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 43,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-APR-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 44,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-APR-006",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 40,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 48,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.whitecase.com/news/press-release/white-case-advises-qia-entrada-therapeutics-financing",
+          "source_independent": "https://ir.entradatx.com/news-releases/news-release-details/entrada-therapeutics-announces-closing-116-million-series-b",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "USD116m company round total not QIA ticket",
+            "basis": "",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://www.whitecase.com/news/press-release/white-case-advises-qia-entrada-therapeutics-financing",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-APR-007",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 41,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 49,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.charlesbank.com/news/eat-just-closes-200-million-in-new-funding-to-accelerate-growth/",
+          "source_independent": "https://www.pillsburylaw.com/en/news-and-insights/pillsbury-represents-eat-just-200-million-dollar-funding.html",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "USD200m company financing total not QIA contribution",
+            "basis": "",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://www.charlesbank.com/news/eat-just-closes-200-million-in-new-funding-to-accelerate-growth/",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-APR-008",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 18,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-FEB-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 15,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Masdar",
+          "investee": "EDF Renewables eight-project US portfolio",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://masdar.ae/en/news/newsroom/masdar-achieves-first-close-on-clean-energy-portfolio-in-united-states-from-edf-renewables",
+          "source_independent_master": "https://www.thenationalnews.com/business/energy/masdar-reaches-first-financial-close-on-acquisition-of-eight-renewables-projects-in-the-us-1.1162195"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 45,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://masdar.ae/en/news/newsroom/masdar-achieves-first-close-on-clean-energy-portfolio-in-united-states-from-edf-renewables",
+          "source_independent": "https://www.thenationalnews.com/business/energy/masdar-reaches-first-financial-close-on-acquisition-of-eight-renewables-projects-in-the-us-1.1162195",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "50% stake portfolio agreement announced in 2020; February first close only, not a separate new equity deal. Cash price undisclosed.",
+            "basis": "50% stake portfolio agreement announced in 2020; February first close only, not a separate new equity deal. Cash price undisclosed.",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://masdar.ae/en/news/newsroom/masdar-achieves-first-close-on-clean-energy-portfolio-in-united-states-from-edf-renewables",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-FEB-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 16,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Capital",
+          "investee": "BetterUp",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.betterup.com/press/betterup-raises-125-million-series-d-achieves-173-billion-valuation-and-expands-coaching-platform-with-betterup-care",
+          "source_independent_master": "https://news.bloomberglaw.com/private-equity/betterup-employee-wellness-startup-valued-at-1-73-billion"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-FEB-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 17,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Capital",
+          "investee": "Innovaccer",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.omersprivateequity.com/news/omers-growth-equity-announces-investment-in-innovaccer",
+          "source_independent_master": "https://innovaccer.com/blogs/innovaccer-ceo-manifesto-outline-building-a-platform-to-power-the-future-of-health"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 45,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 48,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Mubadala Capital",
+          "target_or_event": "Innovaccer Series D growth financing"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-FEB-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 39,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-FEB-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 15,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 38,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Investment Authority",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 39,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Unidentified QIA subsidiary",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 33,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 36,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Unidentified QIA subsidiary",
+          "target_or_event": "Enel Green Power Africa JV; acquire 50% of EGP stake in approximately 800MW renewable portfolio"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_02_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 2,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "ADQ",
+          "capital": {
+            "master_claimed_amount": "75000000",
+            "master_claim_currency": "USD",
+            "master_claim_unit": "absolute",
+            "master_claim_scope": "USD 75m investor-specific proposed investment (Rs 555 crore); not confirmed settled in announcement",
+            "master_amount_basis": "USD 75m investor-specific proposed investment (Rs 555 crore); not confirmed settled in announcement",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.biocon.com/biocon-biologics-receives-rs-555-cr-usd-75-million-capital-injection-from-adq/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          },
+          "secondary_evidence": {
+            "url": "https://www.biocon.com/biocon-q3fy21-results/",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 44,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.biocon.com/biocon-biologics-receives-rs-555-cr-usd-75-million-capital-injection-from-adq/",
+          "source_independent": "https://www.biocon.com/biocon-q3fy21-results/",
+          "original_amount": {
+            "raw": "75000000",
+            "currency": "USD",
+            "unit": "absolute",
+            "scope": "USD 75m investor-specific proposed investment (Rs 555 crore); not confirmed settled in announcement",
+            "basis": "USD 75m investor-specific proposed investment (Rs 555 crore); not confirmed settled in announcement",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+            "url": "https://www.biocon.com/biocon-biologics-receives-rs-555-cr-usd-75-million-capital-injection-from-adq/",
+            "finding": "Biocon Biologics issuer confirms USD75m/INR555 crore investment by ADQ for 1.8% primary stake; record classification investor-specific, not round-wide.",
+            "state": "PRIMARY_EQUITY_CAPITAL_INJECTION",
+            "cash_scope": "ADQ_INVESTOR_SPECIFIC_75M",
+            "verified_amount": {
+              "value": 75,
+              "currency": "USD",
+              "unit": "million"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 14,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee": "Thoughtworks",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.thoughtworks.com/en-us/about-us/news/2021/private-placement",
+          "source_independent_master": "https://www.asiaasset.com/sovereign-wealth-funds/singapores-gic-uaes-mudabala-join-in-us720-million-software-firm-stake-buy/"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 12,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-006",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/gsi_final_150_part_03_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 25,
+          "source_dataset_state": "UNREVIEWED_MASTER_TRIAGE",
+          "source_record_state": "UNREVIEWED_MASTER_TRIAGE",
+          "master_investing_entity": "Mubadala; ADQ; ADNOC",
+          "capital": {
+            "master_claimed_amount": null,
+            "master_claim_currency": null,
+            "master_claim_unit": null,
+            "master_claim_scope": "No investment or amount specified",
+            "master_amount_basis": "No investment or amount specified",
+            "investor_paid_capital_verified": null,
+            "settlement_date_verified": null,
+            "actual_stake_percent_verified": null,
+            "aggregation_eligible": false
+          },
+          "investee_financials": {
+            "revenue": null,
+            "ebitda": null,
+            "operating_cash_flow": null,
+            "net_debt": null,
+            "ownership": null,
+            "period_end": null,
+            "statement_source": null,
+            "disclosure_state": "NOT_RESEARCHED_OR_NOT_APPLICABLE"
+          },
+          "primary_evidence": {
+            "url": "https://www.mubadala.com/en/news/mubadala-adnoc-and-adq-form-alliance-accelerate-abu-dhabi-hydrogen-leadership",
+            "status": "MASTER_SOURCE_NOT_REOPENED_FOR_THIS_BATCH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-007",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 13,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-008",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 14,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-009",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 37,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-010",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 38,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-MAR-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 18,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Disruptive Investments",
+          "investee": "Telegram",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.mubadala.com/en/news/mubadala-and-abu-dhabi-catalyst-partners-invest-150-million-social-media-platform-telegram"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-MAR-002",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_02_20_2026-11-14_UNREVIEWED.json",
+          "source_record_position": 19,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee": "Aldar Properties",
+          "financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "net_debt": null,
+            "reported_valuation": null,
+            "reporting_period": null,
+            "status": "NOT_SYSTEMATICALLY_EXTRACTED",
+            "exclusion_reason": "Transaction values and selected operational metrics are not a substituted financial statement"
+          },
+          "source_primary_master": "https://www.mubadala.com/en/news/alpha-dhabi-holding-subsidiary-sublime-commercial-investment-acquires-aed-35-billion-strategic",
+          "source_independent_master": "https://www.aldar.com/en/news-and-media/alpha-dhabi-holding--subsidiary-sublime-commercial-investment-acquires-stake-in-aldar-from-mubadala"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 46,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 49,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Mubadala Investment Company",
+          "target_or_event": "Aldar Properties 12.21% block sale to Sublime Commercial Investment"
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-MAR-003",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_batch_04_50_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 35,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Mubadala Investment Company",
+          "investee_financials": {
+            "annual_revenue": null,
+            "annual_ebitda": null,
+            "annual_fcf": null,
+            "net_debt": null,
+            "statement_as_of": null,
+            "disclosure_state": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 46,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.mubadala.com/en/news/uae-and-uk-launch-sovereign-investment-partnership",
+          "source_independent": "https://www.gov.uk/government/news/uae-to-invest-10-billion-in-priority-uk-industries",
+          "original_amount": {
+            "raw": "800",
+            "currency": "GBP",
+            "unit": "million",
+            "scope": "Mubadala GBP 800m stated future commitment; UK public partner GBP 200m; not evidence GBP 800m deployed in March. September expansion must link here.",
+            "basis": "Mubadala GBP 800m stated future commitment; UK public partner GBP 200m; not evidence GBP 800m deployed in March. September expansion must link here.",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "SOURCE_REFERENCED_IN_MASTER_NOT_OPENED_IN_BATCH",
+            "source_url": "https://www.mubadala.com/en/news/uae-and-uk-launch-sovereign-investment-partnership",
+            "claim": "Master source and transaction description only; issuer verification outstanding",
+            "state": "UNVERIFIED",
+            "cash_scope": "UNVERIFIED"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-MAR-004",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 40,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch06.json",
+          "source_record_position": 47,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "financials_pre_decision": "NOT_AUDITED_IN_THIS_BATCH",
+          "source_primary": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2021/salic/",
+          "source_independent": "https://www.spa.gov.sa/w1530798?lang=en&newsid=2207803",
+          "original_amount": {
+            "raw": null,
+            "currency": null,
+            "unit": null,
+            "scope": "16.32% Almarai, 20.00% NADEC, 39.99% Saudi Fisheries transferred within PIF group; no third-party purchase evidenced.",
+            "basis": "16.32% Almarai, 20.00% NADEC, 39.99% Saudi Fisheries transferred within PIF group; no third-party purchase evidenced.",
+            "verified": false
+          },
+          "check": {
+            "evidence_grade": "PRIMARY_SOURCE_DIRECTLY_CHECKED",
+            "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2021/salic/",
+            "finding": "PIF transfers Almarai, NADEC and Saudi Fisheries holdings to group subsidiary SALIC. Intragroup holding reallocation, not third-party new paid sovereign deployment.",
+            "state": "INTRAGROUP_SHARE_TRANSFER",
+            "cash_scope": "NO_EXTERNAL_NEW_CASH"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-MAR-005",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 41,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-MAR-006",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 16,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI-2021-MAR-007",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/mubadala_final25_pif_first25_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 17,
+          "source_dataset_state": "UNREVIEWED_NOT_DECISION_GRADE",
+          "source_record_state": "UNREVIEWED",
+          "financials": {
+            "audited_revenue": null,
+            "audited_ebitda": null,
+            "free_cash_flow": null,
+            "net_debt": null,
+            "financial_as_of": null,
+            "status": "NOT_EXTRACTED_OR_NOT_APPLICABLE"
+          }
+        }
+      ]
+    },
+    {
+      "master_record_id": "GSI21A08-001",
+      "source_research": [
+        {
+          "source_file": "research/investee_snapshots/qia_first_67_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 45,
+          "source_dataset_state": "UNREVIEWED_SOURCE_TRIAGE",
+          "source_record_state": "UNREVIEWED",
+          "investing_entity_master": "Qatar Holding LLC (QIA affiliate)",
+          "investee_financials": {
+            "ifrs_revenue": null,
+            "ebitda": null,
+            "net_debt": null,
+            "operating_cash_flow": null,
+            "period_end": null,
+            "state": "NOT_EXTRACTED_OR_UNDISCLOSED"
+          }
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next50_quality_review_2026-11-15_batch05.json",
+          "source_record_position": 29,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED"
+        },
+        {
+          "source_file": "research/verified_dossiers/gsi_next90_priority_enrichment_2026-11-15_UNREVIEWED.json",
+          "source_record_position": 32,
+          "source_dataset_state": "SOURCE_RESEARCH_UNREVIEWED",
+          "source_record_state": "UNREVIEWED",
+          "master_investing_entity": "Qatar Holding LLC (QIA affiliate)",
+          "target_or_event": "Airtel Money Commerce BV first closing"
+        }
+      ]
+    }
+  ]
+}
