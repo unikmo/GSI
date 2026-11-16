@@ -52,8 +52,8 @@ test('no records accidentally promoted to decision grade or assigned fabricated 
   assert.equal(d.returns.moic,profile.realised_moic);
   assert.equal(d.returns.investor_specific_proceeds,profile.verified_divestment_proceeds);
   assert.equal(d.investor.legal_vehicle_verified,profile.investor_vehicle_legal_identity);
-  assert.equal(d.investee.previous_financials.revenue,profile.pre_entry_revenue);
-  assert.equal(d.investee.previous_financials.ebitda,profile.pre_entry_ebitda);
+  assert.deepEqual(d.investee.previous_financials.revenue,profile.pre_entry_revenue);
+  assert.deepEqual(d.investee.previous_financials.ebitda,profile.pre_entry_ebitda);
   assert.equal(d.service_providers.verified_issuer_disclosed_adviser_engagements.length,(profile.verified_by_issuer_adviser_engagements||[]).length);
  }
 });
