@@ -10,13 +10,15 @@ Source master SHA: `3ad274ddedf259a6728e541f235a04e0533c6cfe`
 | CANDIDATE_DISTINCTNESS_PENDING_ECONOMIC_REVIEW | 265 | Needs case-level disposition before a distinct verified equity-deal count |
 | CANDIDATE_PENDING_EVENT_VERIFICATION | 202 | Needs case-level disposition before a distinct verified equity-deal count |
 | NON_CORE_OR_NON_TRANSACTION_REVIEW | 52 | Needs case-level disposition before a distinct verified equity-deal count |
-| EXPLICIT_DUPLICATE_LINKED | 2 | Two explicitly linked duplicates, not separate economic acquisitions |
+| EXPLICIT_DUPLICATE_LINKED | 4 | Four linked duplicate or disclosure stages, not separate counted acquisitions |
 | DOMESTIC_OR_INTRA_GULF_SCOPE_REVIEW | 116 | Needs case-level disposition before a distinct verified equity-deal count |
-| DUPLICATE_STAGE_REVIEW | 2 | Needs case-level disposition before a distinct verified equity-deal count |
+| DUPLICATE_STAGE_REVIEW | 0 | No currently unlinked explicitly marked duplicate stage |
 | NON_EQUITY_DEVELOPMENT_LOAN | 12 | Needs case-level disposition before a distinct verified equity-deal count |
 | **Total** | **651** | Every original ID preserved |
 
 ## Deduplication decisions that are already defensible
+- `GSI-2020-07-005` July ZonesCorp disclosure is linked to `GSI-2020-06-005` June transfer; **one underlying corporate event**, excluded from outbound equity counting.
+- `GSI-2020-AUG-004` July XPeng Series C disclosure stage is linked to `GSI-2020-AUG-001` August Series C record. **One underlying financing round** unless independently evidenced separate cash tranches.
 - `GSI26B03-001` PIF/SALIC Olam Agri closing-stage is a known duplicate of `GSI25F02-001` signed-stage. **One economic acquisition**, not two. The database retains both stages for provenance.
 - `V1.6_HOLDS-008` Apollo/Mubadala Capital is described as duplicate of `V1.5_HOLDS-006`. This is a **duplicate hold** pair, not a new sovereign outbound equity investment.
 - Other possible same-event mentions, investor-entity synonyms, initial and follow-on purchases, announcement/closing, holding disclosures and fund/portfolio-company look-through are intentionally **not silently merged**.
