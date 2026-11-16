@@ -1,0 +1,826 @@
+{
+  "dataset": "GSI_V98_ADDITIONAL_TRANSACTION_DOSSIERS_BATCH_2026_11_16",
+  "status": "RESEARCH_IN_PROGRESS_NOT_CERTIFIED",
+  "source_master": "research/enrichment/v98_all_651_minimum_profiles_part_01..04_UNREVIEWED.json",
+  "record_count": 10,
+  "source_check_note": "Princeton Digital Group Mubadala announcement inspected 2026-11-16; other claims inherited from master and pending independent source validation",
+  "dossiers": [
+    {
+      "master_record_id": "GSI-2020-06-001",
+      "dossier_status": "SOURCE_LINKED",
+      "status_meaning": "Claims transcribed from v9.8 research master; source URLs recorded but not independently re-opened in this batch",
+      "economic_event_class": "EQUITY_INVESTMENT",
+      "investor": {
+        "group": "Mubadala",
+        "reported_entity": "MIC Redwood 1 RSC Limited (Mubadala)",
+        "legal_vehicle": null,
+        "vehicle_evidence_status": "NOT_VERIFIED",
+        "manager": null,
+        "gp": null,
+        "lp": null
+      },
+      "investee": {
+        "reported_name": "Jio Platforms — 1.85% proposed stake",
+        "verified_legal_name": null,
+        "country": "India"
+      },
+      "transaction": {
+        "announcement_date": "2020-06-04",
+        "completion_date": "2020-07-13",
+        "announced_investor_specific_amount": "9093.6",
+        "currency": "INR",
+        "amount_unit_or_basis": "INVESTOR_SPECIFIC_SUBSCRIPTION_INR_CRORE",
+        "amount_is_cash_deployed": null,
+        "amount_evidence_status": "PRIMARY_SOURCE_DIRECT",
+        "ownership_pct": null,
+        "round_total_amount": null,
+        "round_total_currency": null,
+        "round_total_not_investor_ticket": null
+      },
+      "financials": {
+        "pre_decision_reporting_period": null,
+        "revenue": null,
+        "ebitda": null,
+        "audit_status": null,
+        "source": null
+      },
+      "co_investors": [],
+      "advisers": {
+        "legal": [],
+        "financial": [],
+        "accounting": [],
+        "other": [],
+        "status": "NO_VERIFIED_ADVISER_ROLE_YET"
+      },
+      "lifecycle": {
+        "event_status": "SUBSCRIPTION_RECEIVED_SHARES_ALLOTTED_2020_07_13",
+        "follow_on_events": [],
+        "exit_event": null
+      },
+      "realized_returns": {
+        "investor_specific_irr": null,
+        "investor_specific_moic": null,
+        "net_realized_proceeds": null,
+        "reason": "Cash-flow schedule and invested basis not independently established"
+      },
+      "evidence": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-invest-12b-usd-jio-platforms",
+          "source_type": "REPORTED_PRIMARY_SOURCE",
+          "checked_this_batch": false,
+          "claim_scope": "Investor identity, event and transaction economics subject to source limitations"
+        },
+        {
+          "url": "https://www.ril.com/news-media/press-releases/mubadala-invest-rs909360-crore-jio-platforms",
+          "source_type": "MASTER_SECONDARY_OR_CORROBORATING_LINK",
+          "checked_this_batch": false,
+          "claim_scope": "Independent corroboration pending"
+        }
+      ],
+      "material_gaps": [
+        "Closing, settlement, ownership vehicle",
+        "Investor-specific cash flows and realized returns unavailable"
+      ],
+      "reviewed_on": "2026-11-16",
+      "not_publication_ready": true
+    },
+    {
+      "master_record_id": "GSI-2020-AUG-001",
+      "dossier_status": "SOURCE_LINKED",
+      "status_meaning": "Claims transcribed from v9.8 research master; source URLs recorded but not independently re-opened in this batch",
+      "economic_event_class": "EQUITY_INVESTMENT",
+      "investor": {
+        "group": "Mubadala",
+        "reported_entity": "Aerospace Holding Company LLC",
+        "legal_vehicle": null,
+        "vehicle_evidence_status": "NOT_VERIFIED",
+        "manager": null,
+        "gp": null,
+        "lp": null
+      },
+      "investee": {
+        "reported_name": "XPeng Inc. Series C preferred shares",
+        "verified_legal_name": null,
+        "country": "China"
+      },
+      "transaction": {
+        "announcement_date": "2020-08-06",
+        "completion_date": "2020-08-06",
+        "announced_investor_specific_amount": "100",
+        "currency": "USD",
+        "amount_unit_or_basis": "INVESTOR_SPECIFIC_ISSUANCE",
+        "amount_is_cash_deployed": null,
+        "amount_evidence_status": null,
+        "ownership_pct": null,
+        "round_total_amount": null,
+        "round_total_currency": null,
+        "round_total_not_investor_ticket": null
+      },
+      "financials": {
+        "pre_decision_reporting_period": null,
+        "revenue": null,
+        "ebitda": null,
+        "audit_status": null,
+        "source": null
+      },
+      "co_investors": [],
+      "advisers": {
+        "legal": [],
+        "financial": [],
+        "accounting": [],
+        "other": [],
+        "status": "NO_VERIFIED_ADVISER_ROLE_YET"
+      },
+      "lifecycle": {
+        "event_status": "Shares issued 2020-08-06",
+        "follow_on_events": [],
+        "exit_event": null
+      },
+      "realized_returns": {
+        "investor_specific_irr": null,
+        "investor_specific_moic": null,
+        "net_realized_proceeds": null,
+        "reason": "Cash-flow schedule and invested basis not independently established"
+      },
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1810997/000095012320012345/filename1.htm",
+          "source_type": "REPORTED_PRIMARY_SOURCE",
+          "checked_this_batch": false,
+          "claim_scope": "Investor identity, event and transaction economics subject to source limitations"
+        },
+        {
+          "url": "https://ir.xiaopeng.com/static-files/001b0177-ef03-4d67-9421-de4672ba37e9",
+          "source_type": "MASTER_SECONDARY_OR_CORROBORATING_LINK",
+          "checked_this_batch": false,
+          "claim_scope": "Independent corroboration pending"
+        }
+      ],
+      "material_gaps": [
+        "Investor legal vehicle, audited pre-entry financials, capital structure, closing and transaction advisers require verification",
+        "Investor-specific cash flows and realized returns unavailable"
+      ],
+      "reviewed_on": "2026-11-16",
+      "not_publication_ready": true
+    },
+    {
+      "master_record_id": "GSI-2020-SEP-001",
+      "dossier_status": "SOURCE_LINKED",
+      "status_meaning": "Claims transcribed from v9.8 research master; source URLs recorded but not independently re-opened in this batch",
+      "economic_event_class": "FUND_OR_STRATEGY_COMMITMENT",
+      "investor": {
+        "group": "Mubadala",
+        "reported_entity": "Mubadala Investment Company",
+        "legal_vehicle": null,
+        "vehicle_evidence_status": "NOT_VERIFIED",
+        "manager": null,
+        "gp": null,
+        "lp": null
+      },
+      "investee": {
+        "reported_name": "Silver Lake 25-year technology investment strategy",
+        "verified_legal_name": null,
+        "country": "United States"
+      },
+      "transaction": {
+        "announcement_date": "2020-09-30",
+        "completion_date": null,
+        "announced_investor_specific_amount": "2000",
+        "currency": "USD",
+        "amount_unit_or_basis": "INVESTOR_SPECIFIC_COMMITMENT",
+        "amount_is_cash_deployed": null,
+        "amount_evidence_status": null,
+        "ownership_pct": null,
+        "round_total_amount": null,
+        "round_total_currency": null,
+        "round_total_not_investor_ticket": null
+      },
+      "financials": {
+        "pre_decision_reporting_period": null,
+        "revenue": null,
+        "ebitda": null,
+        "audit_status": null,
+        "source": null
+      },
+      "co_investors": [],
+      "advisers": {
+        "legal": [],
+        "financial": [],
+        "accounting": [],
+        "other": [],
+        "status": "NO_VERIFIED_ADVISER_ROLE_YET"
+      },
+      "lifecycle": {
+        "event_status": "Announced strategy backed by Mubadala USD 2bn; deployment and drawdowns not established",
+        "follow_on_events": [],
+        "exit_event": null
+      },
+      "realized_returns": {
+        "investor_specific_irr": null,
+        "investor_specific_moic": null,
+        "net_realized_proceeds": null,
+        "reason": "Cash-flow schedule and invested basis not independently established"
+      },
+      "evidence": [
+        {
+          "url": "https://www.mubadala.com/en/news/silver-lake-and-mubadala-partner-establish-unique-long-term-investment-strategy",
+          "source_type": "REPORTED_PRIMARY_SOURCE",
+          "checked_this_batch": false,
+          "claim_scope": "Investor identity, event and transaction economics subject to source limitations"
+        },
+        {
+          "url": "https://www.silverlake.com/silver-lake-and-mubadala-partner-to-establish-unique-long-term-investment-strategy/",
+          "source_type": "MASTER_SECONDARY_OR_CORROBORATING_LINK",
+          "checked_this_batch": false,
+          "claim_scope": "Independent corroboration pending"
+        }
+      ],
+      "material_gaps": [
+        "Close/drawdown and definitive investor-specific cash evidence",
+        "Investor-specific cash flows and realized returns unavailable"
+      ],
+      "reviewed_on": "2026-11-16",
+      "not_publication_ready": true
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-001",
+      "dossier_status": "SOURCE_LINKED",
+      "status_meaning": "Claims transcribed from v9.8 research master; source URLs recorded but not independently re-opened in this batch",
+      "economic_event_class": "EQUITY_INVESTMENT",
+      "investor": {
+        "group": "Mubadala",
+        "reported_entity": "MIC Redwood 1 RSC Limited",
+        "legal_vehicle": null,
+        "vehicle_evidence_status": "NOT_VERIFIED",
+        "manager": null,
+        "gp": null,
+        "lp": null
+      },
+      "investee": {
+        "reported_name": "Reliance Retail Ventures Limited — 1.40% announced / subscription allotted",
+        "verified_legal_name": null,
+        "country": "India"
+      },
+      "transaction": {
+        "announcement_date": "2020-10-01",
+        "completion_date": "2020-10-15",
+        "announced_investor_specific_amount": "6247.5",
+        "currency": "INR crore",
+        "amount_unit_or_basis": "INVESTOR_SPECIFIC",
+        "amount_is_cash_deployed": null,
+        "amount_evidence_status": null,
+        "ownership_pct": null,
+        "round_total_amount": null,
+        "round_total_currency": null,
+        "round_total_not_investor_ticket": null
+      },
+      "financials": {
+        "pre_decision_reporting_period": null,
+        "revenue": null,
+        "ebitda": null,
+        "audit_status": null,
+        "source": null
+      },
+      "co_investors": [],
+      "advisers": {
+        "legal": [],
+        "financial": [],
+        "accounting": [],
+        "other": [],
+        "status": "NO_VERIFIED_ADVISER_ROLE_YET"
+      },
+      "lifecycle": {
+        "event_status": "Announced Oct 1; shares allotted and cash received 15 Oct 2020",
+        "follow_on_events": [],
+        "exit_event": null
+      },
+      "realized_returns": {
+        "investor_specific_irr": null,
+        "investor_specific_moic": null,
+        "net_realized_proceeds": null,
+        "reason": "Cash-flow schedule and invested basis not independently established"
+      },
+      "evidence": [
+        {
+          "url": "https://www.ril.com/news-media/press-releases/mubadala-invest-rs62475-crore-aed-31-billion-reliance-retail-ventures",
+          "source_type": "REPORTED_PRIMARY_SOURCE",
+          "checked_this_batch": false,
+          "claim_scope": "Investor identity, event and transaction economics subject to source limitations"
+        },
+        {
+          "url": "https://www.marketscreener.com/quote/stock/RELIANCE-INDUSTRIES-LTD-9058833/news/Reliance-Industries-Further-update-on-investment-into-Reliance-Retail-Ventures-Limited-Mubadala-a-31552717/",
+          "source_type": "MASTER_SECONDARY_OR_CORROBORATING_LINK",
+          "checked_this_batch": false,
+          "claim_scope": "Independent corroboration pending"
+        }
+      ],
+      "material_gaps": [
+        "Obtain original Reliance 15 Oct exchange PDF; confirm 2020 cap-table basis",
+        "Investor-specific cash flows and realized returns unavailable"
+      ],
+      "reviewed_on": "2026-11-16",
+      "not_publication_ready": true
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-002",
+      "dossier_status": "SOURCE_LINKED",
+      "status_meaning": "Claims transcribed from v9.8 research master; source URLs recorded but not independently re-opened in this batch",
+      "economic_event_class": "EQUITY_INVESTMENT",
+      "investor": {
+        "group": "ADIA",
+        "reported_entity": "Platinum Owl C 2018 RSC Limited trustee Platinum Jasmine A 2018 Trust",
+        "legal_vehicle": null,
+        "vehicle_evidence_status": "NOT_VERIFIED",
+        "manager": null,
+        "gp": null,
+        "lp": null
+      },
+      "investee": {
+        "reported_name": "Reliance Retail Ventures Limited — 1.20% announced / subscription allotted",
+        "verified_legal_name": null,
+        "country": "India"
+      },
+      "transaction": {
+        "announcement_date": "2020-10-06",
+        "completion_date": "2020-10-15",
+        "announced_investor_specific_amount": "5512.5",
+        "currency": "INR crore",
+        "amount_unit_or_basis": "INVESTOR_SPECIFIC",
+        "amount_is_cash_deployed": null,
+        "amount_evidence_status": null,
+        "ownership_pct": null,
+        "round_total_amount": null,
+        "round_total_currency": null,
+        "round_total_not_investor_ticket": null
+      },
+      "financials": {
+        "pre_decision_reporting_period": null,
+        "revenue": null,
+        "ebitda": null,
+        "audit_status": null,
+        "source": null
+      },
+      "co_investors": [],
+      "advisers": {
+        "legal": [],
+        "financial": [],
+        "accounting": [],
+        "other": [],
+        "status": "NO_VERIFIED_ADVISER_ROLE_YET"
+      },
+      "lifecycle": {
+        "event_status": "Announced Oct 6; shares allotted and cash received 15 Oct 2020",
+        "follow_on_events": [],
+        "exit_event": null
+      },
+      "realized_returns": {
+        "investor_specific_irr": null,
+        "investor_specific_moic": null,
+        "net_realized_proceeds": null,
+        "reason": "Cash-flow schedule and invested basis not independently established"
+      },
+      "evidence": [
+        {
+          "url": "https://www.ril.com/sites/default/files/2023-01/Media-Release-RRVL-06102020.pdf",
+          "source_type": "REPORTED_PRIMARY_SOURCE",
+          "checked_this_batch": false,
+          "claim_scope": "Investor identity, event and transaction economics subject to source limitations"
+        },
+        {
+          "url": "https://www.marketscreener.com/quote/stock/RELIANCE-INDUSTRIES-LTD-9058833/news/Reliance-Industries-Further-update-on-investment-into-Reliance-Retail-Ventures-Limited-Mubadala-a-31552717/",
+          "source_type": "MASTER_SECONDARY_OR_CORROBORATING_LINK",
+          "checked_this_batch": false,
+          "claim_scope": "Independent corroboration pending"
+        }
+      ],
+      "material_gaps": [
+        "Obtain direct original exchange PDF, independently verify legal trust structure",
+        "Investor-specific cash flows and realized returns unavailable"
+      ],
+      "reviewed_on": "2026-11-16",
+      "not_publication_ready": true
+    },
+    {
+      "master_record_id": "GSI-2020-OCT-006",
+      "dossier_status": "SOURCE_LINKED",
+      "status_meaning": "Claims transcribed from v9.8 research master; source URLs recorded but not independently re-opened in this batch",
+      "economic_event_class": "SECONDARY_DIVESTMENT",
+      "investor": {
+        "group": "Mubadala",
+        "reported_entity": "Mubadala Investment Company",
+        "legal_vehicle": null,
+        "vehicle_evidence_status": "NOT_VERIFIED",
+        "manager": null,
+        "gp": null,
+        "lp": null
+      },
+      "investee": {
+        "reported_name": "Borealis 39% sale to OMV — closing of March-announced transaction",
+        "verified_legal_name": null,
+        "country": "Austria"
+      },
+      "transaction": {
+        "announcement_date": "2020-10-29",
+        "completion_date": "2020-10-29",
+        "announced_investor_specific_amount": "4680",
+        "currency": "USD million",
+        "amount_unit_or_basis": "SALE_CONSIDERATION_NOT_NEW_DEPLOYMENT",
+        "amount_is_cash_deployed": false,
+        "amount_evidence_status": null,
+        "ownership_pct": null,
+        "round_total_amount": null,
+        "round_total_currency": null,
+        "round_total_not_investor_ticket": null
+      },
+      "financials": {
+        "pre_decision_reporting_period": null,
+        "revenue": null,
+        "ebitda": null,
+        "audit_status": null,
+        "source": null
+      },
+      "co_investors": [],
+      "advisers": {
+        "legal": [],
+        "financial": [],
+        "accounting": [],
+        "other": [],
+        "status": "NO_VERIFIED_ADVISER_ROLE_YET"
+      },
+      "lifecycle": {
+        "event_status": "Completed October 29 after March 12 signed agreement",
+        "follow_on_events": [],
+        "exit_event": {
+          "type": "SELLER_DIVESTMENT",
+          "announced_proceeds": "4680",
+          "currency": "USD million",
+          "source_status": "MASTER_CLAIM_NOT_REVALIDATED"
+        }
+      },
+      "realized_returns": {
+        "investor_specific_irr": null,
+        "investor_specific_moic": null,
+        "net_realized_proceeds": null,
+        "reason": "Cash-flow schedule and invested basis not independently established"
+      },
+      "evidence": [
+        {
+          "url": "https://www.mubadala.com/en/news/omv-and-mubadala-complete-borealis-transaction",
+          "source_type": "REPORTED_PRIMARY_SOURCE",
+          "checked_this_batch": false,
+          "claim_scope": "Investor identity, event and transaction economics subject to source limitations"
+        },
+        {
+          "url": "https://www.mubadala.com/en/news/39-share-purchase-mubadala-omv-acquire-majority-stake-borealis-us468-billion-largest",
+          "source_type": "MASTER_SECONDARY_OR_CORROBORATING_LINK",
+          "checked_this_batch": false,
+          "claim_scope": "Independent corroboration pending"
+        }
+      ],
+      "material_gaps": [
+        "Link original master record by stable master_record_id",
+        "Investor-specific cash flows and realized returns unavailable"
+      ],
+      "reviewed_on": "2026-11-16",
+      "not_publication_ready": true
+    },
+    {
+      "master_record_id": "GSI-2020-DEC-001",
+      "dossier_status": "SOURCE_LINKED",
+      "status_meaning": "Claims transcribed from v9.8 research master; source URLs recorded but not independently re-opened in this batch",
+      "economic_event_class": "EQUITY_INVESTMENT",
+      "investor": {
+        "group": "QIA",
+        "reported_entity": "QIA Florence Holdings LLC",
+        "legal_vehicle": null,
+        "vehicle_evidence_status": "NOT_VERIFIED",
+        "manager": null,
+        "gp": null,
+        "lp": null
+      },
+      "investee": {
+        "reported_name": "Fluence Energy LLC $125m private placement agreement",
+        "verified_legal_name": null,
+        "country": "United States"
+      },
+      "transaction": {
+        "announcement_date": "2020-12-27",
+        "completion_date": "2021-06-09",
+        "announced_investor_specific_amount": "125",
+        "currency": "USD",
+        "amount_unit_or_basis": "QIA-specific subscription amount in USD millions; NOT paid until June 2021",
+        "amount_is_cash_deployed": null,
+        "amount_evidence_status": "Source-backed; dates/amount scope as stated",
+        "ownership_pct": null,
+        "round_total_amount": null,
+        "round_total_currency": null,
+        "round_total_not_investor_ticket": null
+      },
+      "financials": {
+        "pre_decision_reporting_period": null,
+        "revenue": null,
+        "ebitda": null,
+        "audit_status": null,
+        "source": null
+      },
+      "co_investors": [],
+      "advisers": {
+        "legal": [],
+        "financial": [],
+        "accounting": [],
+        "other": [],
+        "status": "NO_VERIFIED_ADVISER_ROLE_YET"
+      },
+      "lifecycle": {
+        "event_status": "Signed 2020-12-27; announced 2020-12-30; issued shares 2021-06-09",
+        "follow_on_events": [],
+        "exit_event": null
+      },
+      "realized_returns": {
+        "investor_specific_irr": null,
+        "investor_specific_moic": null,
+        "net_realized_proceeds": null,
+        "reason": "Cash-flow schedule and invested basis not independently established"
+      },
+      "evidence": [
+        {
+          "url": "https://blog.fluenceenergy.com/qatar-investment-authority-commits-to-invest-125m-in-fluence",
+          "source_type": "REPORTED_PRIMARY_SOURCE",
+          "checked_this_batch": false,
+          "claim_scope": "Investor identity, event and transaction economics subject to source limitations"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/874761/000087476122000022/R18.htm",
+          "source_type": "MASTER_SECONDARY_OR_CORROBORATING_LINK",
+          "checked_this_batch": false,
+          "claim_scope": "Independent corroboration pending"
+        }
+      ],
+      "material_gaps": [
+        "Link 2021 June close, QIA vehicle QFH and 2021 Nov IPO conversion; check source discrepancy on QIA archive metadata.",
+        "Investor-specific cash flows and realized returns unavailable"
+      ],
+      "reviewed_on": "2026-11-16",
+      "not_publication_ready": true
+    },
+    {
+      "master_record_id": "GSI-2021-JAN-003",
+      "dossier_status": "SOURCE_LINKED",
+      "status_meaning": "Claims transcribed from v9.8 research master; source URLs recorded but not independently re-opened in this batch",
+      "economic_event_class": "EQUITY_INVESTMENT",
+      "investor": {
+        "group": "ADQ",
+        "reported_entity": "ADQ",
+        "legal_vehicle": null,
+        "vehicle_evidence_status": "NOT_VERIFIED",
+        "manager": null,
+        "gp": null,
+        "lp": null
+      },
+      "investee": {
+        "reported_name": "Biocon Biologics 1.80% minority primary-equity stake India",
+        "verified_legal_name": null,
+        "country": "India"
+      },
+      "transaction": {
+        "announcement_date": "2021-01-07",
+        "completion_date": null,
+        "announced_investor_specific_amount": "75000000",
+        "currency": "USD",
+        "amount_unit_or_basis": "USD 75m investor-specific proposed investment (Rs 555 crore); not confirmed settled in announcement",
+        "amount_is_cash_deployed": null,
+        "amount_evidence_status": "Contemporary first-party source reviewed",
+        "ownership_pct": null,
+        "round_total_amount": null,
+        "round_total_currency": null,
+        "round_total_not_investor_ticket": null
+      },
+      "financials": {
+        "pre_decision_reporting_period": null,
+        "revenue": null,
+        "ebitda": null,
+        "audit_status": null,
+        "source": null
+      },
+      "co_investors": [],
+      "advisers": {
+        "legal": [],
+        "financial": [],
+        "accounting": [],
+        "other": [],
+        "status": "NO_VERIFIED_ADVISER_ROLE_YET"
+      },
+      "lifecycle": {
+        "event_status": "BOARD_APPROVED_PENDING_CONDITIONS",
+        "follow_on_events": [],
+        "exit_event": null
+      },
+      "realized_returns": {
+        "investor_specific_irr": null,
+        "investor_specific_moic": null,
+        "net_realized_proceeds": null,
+        "reason": "Cash-flow schedule and invested basis not independently established"
+      },
+      "evidence": [
+        {
+          "url": "https://www.biocon.com/biocon-biologics-receives-rs-555-cr-usd-75-million-capital-injection-from-adq/",
+          "source_type": "REPORTED_PRIMARY_SOURCE",
+          "checked_this_batch": false,
+          "claim_scope": "Investor identity, event and transaction economics subject to source limitations"
+        },
+        {
+          "url": "https://www.biocon.com/biocon-q3fy21-results/",
+          "source_type": "MASTER_SECONDARY_OR_CORROBORATING_LINK",
+          "checked_this_batch": false,
+          "claim_scope": "Independent corroboration pending"
+        }
+      ],
+      "material_gaps": [
+        "Find filing showing satisfaction of conditions and allotment/payment date",
+        "Investor-specific cash flows and realized returns unavailable"
+      ],
+      "reviewed_on": "2026-11-16",
+      "not_publication_ready": true
+    },
+    {
+      "master_record_id": "GSI21J07-001",
+      "dossier_status": "SOURCE_LINKED",
+      "status_meaning": "Claims transcribed from v9.8 research master; source URLs recorded but not independently re-opened in this batch",
+      "economic_event_class": "EQUITY_INVESTMENT",
+      "investor": {
+        "group": "Mubadala",
+        "reported_entity": "Mubadala Investment Company affiliate",
+        "legal_vehicle": null,
+        "vehicle_evidence_status": "NOT_VERIFIED",
+        "manager": null,
+        "gp": null,
+        "lp": null
+      },
+      "investee": {
+        "reported_name": "Certara Inc. secondary share purchase",
+        "verified_legal_name": null,
+        "country": "United States"
+      },
+      "transaction": {
+        "announcement_date": "2021-07-27",
+        "completion_date": null,
+        "announced_investor_specific_amount": "250",
+        "currency": "USD",
+        "amount_unit_or_basis": "INVESTOR_SPECIFIC",
+        "amount_is_cash_deployed": null,
+        "amount_evidence_status": "CLAIM_SCOPE_VERIFIED",
+        "ownership_pct": null,
+        "round_total_amount": null,
+        "round_total_currency": null,
+        "round_total_not_investor_ticket": null
+      },
+      "financials": {
+        "pre_decision_reporting_period": null,
+        "revenue": null,
+        "ebitda": null,
+        "audit_status": null,
+        "source": null
+      },
+      "co_investors": [],
+      "advisers": {
+        "legal": [],
+        "financial": [],
+        "accounting": [],
+        "other": [],
+        "status": "NO_VERIFIED_ADVISER_ROLE_YET"
+      },
+      "lifecycle": {
+        "event_status": "SIGNED_PENDING_AUGUST_CLOSING",
+        "follow_on_events": [],
+        "exit_event": null
+      },
+      "realized_returns": {
+        "investor_specific_irr": null,
+        "investor_specific_moic": null,
+        "net_realized_proceeds": null,
+        "reason": "Cash-flow schedule and invested basis not independently established"
+      },
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1827090/000110465921096373/tm2123444d1_8k.htm",
+          "source_type": "REPORTED_PRIMARY_SOURCE",
+          "checked_this_batch": false,
+          "claim_scope": "Investor identity, event and transaction economics subject to source limitations"
+        },
+        {
+          "url": "https://ir.certara.com/node/7501/pdf",
+          "source_type": "MASTER_SECONDARY_OR_CORROBORATING_LINK",
+          "checked_this_batch": false,
+          "claim_scope": "Independent corroboration pending"
+        }
+      ],
+      "material_gaps": [
+        "Confirm August 2 actual close through subsequent SEC ownership filing",
+        "Investor-specific cash flows and realized returns unavailable"
+      ],
+      "reviewed_on": "2026-11-16",
+      "not_publication_ready": true
+    },
+    {
+      "master_record_id": "GSI22F02-001",
+      "dossier_status": "PARTIAL",
+      "status_meaning": "Issuer press release inspected directly for ticket, round and co-investors; other dimensions unresolved",
+      "economic_event_class": "EQUITY_INVESTMENT",
+      "investor": {
+        "group": "Mubadala",
+        "reported_entity": "Mubadala Investment Company",
+        "legal_vehicle": null,
+        "vehicle_evidence_status": "NOT_VERIFIED",
+        "manager": null,
+        "gp": null,
+        "lp": null
+      },
+      "investee": {
+        "reported_name": "Princeton Digital Group strategic equity investment",
+        "verified_legal_name": null,
+        "country": "Singapore"
+      },
+      "transaction": {
+        "announcement_date": "2022-02-22",
+        "completion_date": null,
+        "announced_investor_specific_amount": "350",
+        "currency": "USD",
+        "amount_unit_or_basis": "USD350M_MUBADALA_SPECIFIC_AGREEMENT;_USD505M_TOTAL_ROUND",
+        "amount_is_cash_deployed": null,
+        "amount_evidence_status": "VERIFIED_EVENT_LIMITED_CLOSING_OR_AMOUNT",
+        "ownership_pct": null,
+        "round_total_amount": 505,
+        "round_total_currency": "USD million",
+        "round_total_not_investor_ticket": true
+      },
+      "financials": {
+        "pre_decision_reporting_period": null,
+        "revenue": null,
+        "ebitda": null,
+        "audit_status": null,
+        "source": null
+      },
+      "co_investors": [
+        {
+          "name": "Warburg Pincus",
+          "role": "EXISTING_SHAREHOLDER_ROUND_PARTICIPANT",
+          "investor_specific_amount": null,
+          "source_url": "https://www.mubadala.com/en/news/mubadala-invest-350m-princeton-digital-group-asias-leading-data-center-company"
+        },
+        {
+          "name": "Ontario Teachers' Pension Plan Board",
+          "role": "EXISTING_SHAREHOLDER_ROUND_PARTICIPANT",
+          "investor_specific_amount": null,
+          "source_url": "https://www.mubadala.com/en/news/mubadala-invest-350m-princeton-digital-group-asias-leading-data-center-company"
+        }
+      ],
+      "advisers": {
+        "legal": [],
+        "financial": [],
+        "accounting": [],
+        "other": [],
+        "status": "NO_VERIFIED_ADVISER_ROLE_YET"
+      },
+      "lifecycle": {
+        "event_status": "ANNOUNCED_AGREEMENT_2022_02_22",
+        "follow_on_events": [],
+        "exit_event": null
+      },
+      "realized_returns": {
+        "investor_specific_irr": null,
+        "investor_specific_moic": null,
+        "net_realized_proceeds": null,
+        "reason": "Cash-flow schedule and invested basis not independently established"
+      },
+      "evidence": [
+        {
+          "url": "https://www.mubadala.com/en/news/mubadala-invest-350m-princeton-digital-group-asias-leading-data-center-company",
+          "source_type": "REPORTED_PRIMARY_SOURCE",
+          "checked_this_batch": true,
+          "claim_scope": "Investor identity, event and transaction economics subject to source limitations"
+        },
+        {
+          "url": "https://www.mubadala.com/en/what-we-do/real-assets",
+          "source_type": "MASTER_SECONDARY_OR_CORROBORATING_LINK",
+          "checked_this_batch": false,
+          "claim_scope": "Independent corroboration pending"
+        }
+      ],
+      "material_gaps": [
+        "Locate closing announcement, allocation and company filings.",
+        "Investor-specific cash flows and realized returns unavailable"
+      ],
+      "reviewed_on": "2026-11-16",
+      "not_publication_ready": true
+    }
+  ],
+  "deterministic_qa": {
+    "unique_ids": true,
+    "all_ids_in_master": true,
+    "all_have_primary_url": true,
+    "no_unproven_irr": true,
+    "no_unproven_moic": true,
+    "all_source_scoped": true,
+    "total_master_ids": 651
+  }
+}
