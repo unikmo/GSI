@@ -1,0 +1,149 @@
+{
+  "dataset": "GSI_GULF_PRIVATE_MANAGER_SEED_2026_11_16",
+  "status": "SOURCE_LINKED_RESEARCH_SEED_NOT_ENTITY_OWNERSHIP_CERTIFICATION",
+  "classification_policy": "A Gulf-based asset manager may manage sovereign LP capital, but is not classified as sovereign without ownership evidence. Manager, fund, and actual investing SPV identities remain distinct.",
+  "research_as_of": "2026-11-16",
+  "managers": [
+    {
+      "id": "GM-INVESTCORP",
+      "name": "Investcorp",
+      "jurisdiction": "Bahrain",
+      "entity_kind": "PRIVATE_INVESTMENT_MANAGER",
+      "ownership_class": "UNVERIFIED",
+      "gulf_connection": "BAHRAIN_OPERATIONS",
+      "strategies": [
+        "PRIVATE_EQUITY",
+        "PRIVATE_CREDIT",
+        "REAL_ESTATE"
+      ],
+      "sources": [
+        "SRC-INV-MENA",
+        "SRC-INV-GOV"
+      ],
+      "review_state": "SOURCE_LINKED_NOT_LEGAL_VERIFIED"
+    },
+    {
+      "id": "GM-GULF-CAPITAL",
+      "name": "Gulf Capital",
+      "jurisdiction": "United Arab Emirates",
+      "entity_kind": "PRIVATE_INVESTMENT_MANAGER",
+      "ownership_class": "UNVERIFIED",
+      "gulf_connection": "ABU_DHABI_HEADQUARTERS",
+      "strategies": [
+        "PRIVATE_EQUITY",
+        "PRIVATE_DEBT"
+      ],
+      "sources": [
+        "SRC-GC-FIRM",
+        "SRC-GC-PORT"
+      ],
+      "review_state": "SOURCE_LINKED_NOT_LEGAL_VERIFIED"
+    },
+    {
+      "id": "GM-JADWA",
+      "name": "Jadwa Investment Company",
+      "jurisdiction": "Saudi Arabia",
+      "entity_kind": "PRIVATE_INVESTMENT_MANAGER",
+      "ownership_class": "UNVERIFIED",
+      "gulf_connection": "RIYADH_HEADQUARTERS",
+      "regulator": "Saudi Capital Market Authority",
+      "strategies": [
+        "PRIVATE_EQUITY",
+        "PRIVATE_CREDIT",
+        "REAL_ESTATE"
+      ],
+      "sources": [
+        "SRC-JAD-CORP",
+        "SRC-JAD-PE"
+      ],
+      "review_state": "SOURCE_LINKED_NOT_LEGAL_VERIFIED"
+    },
+    {
+      "id": "GM-SHUAA",
+      "name": "SHUAA Capital",
+      "jurisdiction": "United Arab Emirates",
+      "entity_kind": "INVESTMENT_MANAGER",
+      "ownership_class": "UNVERIFIED",
+      "gulf_connection": "UAE_OPERATIONS",
+      "strategies": [
+        "PRIVATE_EQUITY",
+        "PRIVATE_MARKETS",
+        "REAL_ESTATE",
+        "DEBT"
+      ],
+      "sources": [
+        "SRC-SHUAA"
+      ],
+      "review_state": "SOURCE_LINKED_NOT_LEGAL_VERIFIED"
+    }
+  ],
+  "named_funds": [
+    {
+      "id": "FUND-JADWA-IPE",
+      "name": "Jadwa International PE Fund",
+      "manager_id": "GM-JADWA",
+      "fund_kind": "INTERNATIONAL_PRIVATE_EQUITY_PLATFORM",
+      "fund_legal_vehicle_id": null,
+      "source_id": "SRC-JAD-PE",
+      "review_state": "FUND_NAME_SOURCE_LINKED_VEHICLE_UNVERIFIED"
+    },
+    {
+      "id": "FUND-JADWA-HCO2",
+      "name": "Jadwa Healthcare Opportunity Fund 2",
+      "manager_id": "GM-JADWA",
+      "fund_kind": "PRIVATE_EQUITY_FUND",
+      "fund_legal_vehicle_id": null,
+      "source_id": "SRC-JAD-PE",
+      "review_state": "FUND_NAME_SOURCE_LINKED_VEHICLE_UNVERIFIED"
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-INV-MENA",
+      "publisher": "Investcorp",
+      "url": "https://www.investcorp.com/what-we-do/private-equity/private-equity-middle-east-north-africa/",
+      "claim_scope": "MENA PE strategy and regional investing; not a legal ownership register"
+    },
+    {
+      "id": "SRC-INV-GOV",
+      "publisher": "Investcorp",
+      "url": "https://www.investcorp.com/governance/",
+      "claim_scope": "Selected managing entities and regulated functions"
+    },
+    {
+      "id": "SRC-GC-FIRM",
+      "publisher": "Gulf Capital",
+      "url": "https://www.gulfcapital.com/the-firm",
+      "claim_scope": "PE and private-debt positioning"
+    },
+    {
+      "id": "SRC-GC-PORT",
+      "publisher": "Gulf Capital",
+      "url": "https://www.gulfcapital.com/portfolio",
+      "claim_scope": "Company portfolio and dates; not verified individual financing"
+    },
+    {
+      "id": "SRC-JAD-CORP",
+      "publisher": "Jadwa",
+      "url": "https://www.jadwa.com/en/corporate-information",
+      "claim_scope": "Regulatory identity and domicile"
+    },
+    {
+      "id": "SRC-JAD-PE",
+      "publisher": "Jadwa",
+      "url": "https://www.jadwa.com/en/private-equity",
+      "claim_scope": "Named funds, investee stakes, historic exits and strategy"
+    },
+    {
+      "id": "SRC-SHUAA",
+      "publisher": "SHUAA Capital",
+      "url": "https://www.shuaa.com/what-we-do/asset-management/private-markets",
+      "claim_scope": "Self-described private-market activity"
+    }
+  ],
+  "limits": [
+    "Illustrative starter universe, not the full population of Gulf private capital managers.",
+    "Funds managed by private firms may have public, institutional or sovereign LPs: no unverified state/private attribution.",
+    "No claim that missing funds are nonexistent; no investor fund sizes or performance inferred."
+  ]
+}
