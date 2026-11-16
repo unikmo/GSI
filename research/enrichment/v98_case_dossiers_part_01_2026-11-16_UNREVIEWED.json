@@ -10,8 +10,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "EQUITY_TRANSACTION",
       "source_inclusion_decision": "RETAIN_PROVISIONAL",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_ELIGIBLE_PUBLIC_EQUITY_PLACEMENT",
+      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_AND_AUDITED_PRE_ENTRY_FINANCIALS_CHECKED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -23,13 +23,52 @@
       },
       "investee": {
         "reported_name": "RWE AG",
-        "legal_name_verified": null,
+        "legal_name_verified": "RWE Aktiengesellschaft",
         "country": "Germany",
         "previous_financials": {
-          "revenue": null,
-          "ebitda": null,
-          "financial_period": null,
-          "verified_period_statements": [],
+          "revenue": {
+            "value": 17628,
+            "currency": "EUR",
+            "unit": "million",
+            "metric": "external revenue excluding natural gas and electricity tax",
+            "scope": "RWE consolidated group",
+            "period_end": "2025-12-31",
+            "report_published": "2026-03-12",
+            "audit_status": "AUDITED_CONSOLIDATED_STATEMENTS",
+            "source_url": "https://www.rwe.com/en/rwe-annual-report-2025",
+            "page": 2
+          },
+          "ebitda": {
+            "value": 5087,
+            "currency": "EUR",
+            "unit": "million",
+            "metric": "adjusted EBITDA",
+            "scope": "RWE consolidated group",
+            "period_end": "2025-12-31",
+            "report_published": "2026-03-12",
+            "audit_status": "NON_GAAP_ADJUSTED_METRIC_IN_AUDITED_ANNUAL_REPORT_NOT_SEPARATELY_AUDITED_AS_IFRS_LINE",
+            "source_url": "https://www.rwe.com/en/rwe-annual-report-2025",
+            "page": 2
+          },
+          "financial_period": "FY2025_PUBLISHED_BEFORE_2026_06_22_ISSUANCE",
+          "verified_period_statements": [
+            {
+              "source_url": "https://www.rwe.com/en/rwe-annual-report-2025",
+              "reporting_period": "2025-01-01/2025-12-31",
+              "publication_date": "2026-03-12",
+              "source_type": "ISSUER_AUDITED_ANNUAL_REPORT",
+              "audit_firm": "Deloitte GmbH Wirtschaftsprüfungsgesellschaft",
+              "audit_report_page": 328,
+              "statement_scope": "RWE_GROUP_CONSOLIDATED_NOT_AMPRION_STANDALONE",
+              "reported_values": {
+                "external_revenue_eur_m": 17628,
+                "operating_cash_flow_eur_m": 4954,
+                "net_debt_eur_m": 10921,
+                "adjusted_ebitda_eur_m": 5087,
+                "adjusted_ebitda_is_non_gaap": true
+              }
+            }
+          ],
           "other_historical_claims": []
         }
       },
@@ -40,20 +79,51 @@
         "original_amount": "432",
         "currency": "EUR",
         "amount_scope": "EUR432m investor-announced intended allocation; not demonstrated settled",
-        "amount_evidence_state": "INVESTOR_SPECIFIC_COMMITMENT_CONFIRMED_NOT_SETTLEMENT",
+        "amount_evidence_state": "QIA_PRIMARY_CONFIRMED_INVESTOR_SPECIFIC_INTENDED_ALLOCATION_EUR432M_SETTLEMENT_NOT_CHECKED",
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "event_type": "LISTED_ISSUER_ACCELERATED_BOOKBUILDING_NEW_AND_TREASURY_SHARES",
+          "issuer": "RWE Aktiengesellschaft",
+          "price_per_share_eur": 54,
+          "new_shares_placed": 36143952,
+          "treasury_shares_placed": 38240169,
+          "issuer_gross_proceeds_eur_m_approx": 4000,
+          "issuer_proceeds_are_not_qia_ticket": true,
+          "qia_announced_allocation_eur_m": 432,
+          "qia_allocation_is_not_confirmed_settled": true,
+          "qia_pre_placement_stake_percent": 9.27,
+          "qia_post_placement_expected_stake_percent": 9.87,
+          "scheduled_share_delivery": "2026-06-26",
+          "share_delivery_not_independently_confirmed": true,
+          "amprion_acquisition_issuer_use_of_proceeds_not_qia_direct_acquisition": true,
+          "amprion_indirect_stake_target_percent": 55,
+          "amprion_indirect_stake_purchase_price_eur_m_approx": 3600,
+          "amprion_purchase_not_qia_equity_ticket": true,
+          "source_urls": [
+            "https://www.qia.qa/en/Newsroom/Pages/QIA-participates-as-a-cornerstone-investor-in-RWE%E2%80%99s-equity-capital-raise-to-increase-in-Amprion-stake.aspx",
+            "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/ad-hoc-announcements/ad-hoc-2026-06-22_b/",
+            "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/ad-hoc-announcements/ad-hoc-2026-06-22_a/"
+          ]
+        },
         "lifecycle_events": []
       },
       "counterparties": {
         "master_syndicate_relationships": [],
-        "verified_co_investor_announcements": [],
+        "verified_co_investor_announcements": [
+          {
+            "name": "Norges Bank Investment Management",
+            "role": "SEPARATE_CORNERSTONE_INVESTOR_IN_RWE_PLACEMENT",
+            "evidence": "ISSUER_ANNOUNCEMENT",
+            "source_url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/ad-hoc-announcements/ad-hoc-2026-06-22_a/",
+            "scope": "EUR1bn combined QIA and NBIM cornerstone commitments; not each party's amount"
+          }
+        ],
         "source_ownership_claims": null,
-        "investor_ownership_stake_percent": null
+        "investor_ownership_stake_percent": 9.87
       },
       "service_providers": {
         "verified_issuer_disclosed_adviser_engagements": [],
-        "legal_adviser_research_status": "INCOMPLETE_UNLESS_LISTED"
+        "legal_adviser_research_status": "NO_TRANSACTION_SPECIFIC_EXTERNAL_COUNSEL_CONFIRMED;RWE_GENERAL_COUNSEL_IS_ANNOUNCEMENT_SIGNATORY_NOT_EXTERNAL_ADVISER"
       },
       "returns": {
         "investor_specific_proceeds": null,
@@ -64,10 +134,58 @@
       "evidence": {
         "primary_source": "https://www.qia.qa/en/Newsroom/Pages/QIA-participates-as-a-cornerstone-investor-in-RWE%E2%80%99s-equity-capital-raise-to-increase-in-Amprion-stake.aspx",
         "independent_source": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/ad-hoc-announcements/ad-hoc-2026-06-22_b/",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-participates-as-a-cornerstone-investor-in-RWE%E2%80%99s-equity-capital-raise-to-increase-in-Amprion-stake.aspx",
+            "source_date": "2026-06-23",
+            "reviewed_on": "2026-11-16",
+            "classification": "INVESTOR_PRIMARY_ANNOUNCEMENT",
+            "verified_claims": [
+              "QIA announced EUR432m allocation",
+              "QIA stake stated 9.27% to 9.87%",
+              "RWE proceeds intended for Amprion indirect stake"
+            ]
+          },
+          {
+            "source_url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/ad-hoc-announcements/ad-hoc-2026-06-22_b/",
+            "source_date": "2026-06-22",
+            "reviewed_on": "2026-11-16",
+            "classification": "ISSUER_REGULATORY_AD_HOC",
+            "verified_claims": [
+              "36,143,952 new shares and 38,240,169 treasury shares placed",
+              "EUR54 per share and approximately EUR4bn gross issuer proceeds",
+              "share delivery scheduled 26 June, not evidence of actual QIA settlement"
+            ]
+          },
+          {
+            "source_url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/ad-hoc-announcements/ad-hoc-2026-06-22_a/",
+            "source_date": "2026-06-22",
+            "reviewed_on": "2026-11-16",
+            "classification": "ISSUER_REGULATORY_AD_HOC",
+            "verified_claims": [
+              "NBIM named as separate cornerstone alongside QIA",
+              "EUR1bn combined commitments",
+              "Amprion acquisition separate and conditional"
+            ]
+          },
+          {
+            "source_url": "https://www.rwe.com/en/rwe-annual-report-2025",
+            "source_date": "2026-03-12",
+            "reviewed_on": "2026-11-16",
+            "classification": "AUDITED_PRE_ENTRY_ISSUER_ANNUAL_REPORT",
+            "verified_claims": [
+              "FY2025 consolidated external revenue EUR17,628m",
+              "FY2025 operating cash flow EUR4,954m",
+              "FY2025 adjusted EBITDA EUR5,087m non-GAAP",
+              "Deloitte audit report"
+            ]
+          }
+        ],
         "source_urls": [
           "https://www.qia.qa/en/Newsroom/Pages/QIA-participates-as-a-cornerstone-investor-in-RWE%E2%80%99s-equity-capital-raise-to-increase-in-Amprion-stake.aspx",
-          "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/ad-hoc-announcements/ad-hoc-2026-06-22_b/"
+          "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/ad-hoc-announcements/ad-hoc-2026-06-22_b/",
+          "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/ad-hoc-announcements/ad-hoc-2026-06-22_a/",
+          "https://www.rwe.com/en/rwe-annual-report-2025"
         ],
         "source_claim_blocks": [
           {
@@ -94,7 +212,10 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Confirm settlement, issuance and updated holding"
+          "Verify exact QIA legal holding vehicle and final shares/cash settlement via post-issuance ownership filings",
+          "RWE FY2025 group results are not Amprion standalone accounts; separate audited Amprion financials if assessing underlying use-of-proceeds asset",
+          "Identify transaction-specific bookrunners and external legal counsel with verified client mandates",
+          "Do not infer QIA realized returns from RWE share prices or dividends without attributable cashflows"
         ]
       },
       "coverage": {
@@ -102,15 +223,12 @@
         "record_type_review_needed": "FINANCIAL_VEHICLE_OWNERSHIP_ADVISER_EVIDENCE",
         "existing_source_research_count": 1,
         "completeness_gaps": [
-          "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
-          "INVESTEE_LEGAL_IDENTITY_NOT_VERIFIED",
-          "PRE_ENTRY_AUDITED_REVENUE_NOT_EXTRACTED",
-          "PRE_ENTRY_AUDITED_EBITDA_NOT_VERIFIED_OR_NOT_APPLICABLE",
-          "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
-          "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
-          "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
-          "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ULTIMATE_QIA_HOLDING_VEHICLE_NOT_VERIFIED",
+          "QIA_SHARE_DELIVERY_AND_SETTLED_CASH_NOT_CONFIRMED",
+          "POST_ISSUANCE_REGISTERED_STAKE_NOT_RECHECKED",
+          "AMPRION_STANDALONE_FINANCIALS_NOT_ASSESSED",
+          "TRANSACTION_SPECIFIC_EXTERNAL_ADVISERS_NOT_IDENTIFIED",
+          "INVESTOR_SPECIFIC_IRR_MOIC_NOT_ESTABLISHED"
         ],
         "requires_further_primary_research": true
       }
