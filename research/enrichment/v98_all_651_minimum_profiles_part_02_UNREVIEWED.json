@@ -176,7 +176,7 @@
       "primary_source": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2020/reliance-retail-ventures/",
       "independent_source": "https://www.ril.com/sites/default/files/2022-12/UpdatePIF.pdf",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": "Reliance Retail Ventures Limited",
+      "investee_legal_identity": null,
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -313,7 +313,8 @@
       "independently_checked_primary_claims": [],
       "verified_by_issuer_adviser_engagements": [],
       "verified_by_issuer_coinvestors": [],
-      "unresolved_dossier_gaps": []
+      "unresolved_dossier_gaps": [],
+      "dossier_investee_name": "Reliance Retail Ventures Limited"
     },
     {
       "master_record_id": "GSI-2020-NOV-002",
@@ -2852,7 +2853,7 @@
       "primary_source": "https://rsgt.com.sa/news/rsgt-announces-completion-of-usd-280-million-equity-sale-to-pif-cosco-shipping-ports-limited/",
       "independent_source": "https://english.mubasher.info/news/3831315/Saudi-Industrial-Services-Company-SISCO-completes-sale-of-21-2-minority-equity-stake-in-Red-Sea-Gateway-Terminal-Limited-RSGT-for-a-gross-consideration-of-SAR-556-5-million-to-the-Public-In//news/",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": "Red Sea Gateway Terminal Limited",
+      "investee_legal_identity": null,
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -2904,7 +2905,8 @@
       "independently_checked_primary_claims": [],
       "verified_by_issuer_adviser_engagements": [],
       "verified_by_issuer_coinvestors": [],
-      "unresolved_dossier_gaps": []
+      "unresolved_dossier_gaps": [],
+      "dossier_investee_name": "Red Sea Gateway Terminal Limited"
     },
     {
       "master_record_id": "GSI21J07-009",
@@ -3519,7 +3521,7 @@
       "primary_source": "https://www.rolls-royce-smr.com/press/rolls-royce-and-qia-announce-nuclear-investment",
       "independent_source": "https://www.world-nuclear-news.org/articles/qatar-invests-in-rolls-royce-smr",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": "Rolls-Royce SMR Limited",
+      "investee_legal_identity": null,
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -3573,7 +3575,8 @@
         "QIA £85m funds cannot be assumed paid at signing.",
         "Valuation and stake do not alone establish cash-flow profitability.",
         "Technology/project potential metrics (homes powered) are not current operation or revenue."
-      ]
+      ],
+      "dossier_investee_name": "Rolls-Royce SMR Limited"
     },
     {
       "master_record_id": "GSI21D12-002",
@@ -3633,7 +3636,7 @@
       "primary_source": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2021/pif-and-stc/",
       "independent_source": "https://www.argaam.com/en/article/articledetail/id/1519632",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": "Saudi Telecom Company (stc)",
+      "investee_legal_identity": null,
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -3755,7 +3758,8 @@
         "Cost basis, net proceeds, realised multiple and IRR unavailable: do not portray SAR12bn gross proceeds as profit.",
         "Company's later 2024 review restates FY2021 revenue to SAR63,007.986m, differing from original FY2021 report SAR63,416.977m; retain the vintage of each statement.",
         "Pre-2021 financial publication date requires precise confirmation before classifying as available at fund decision date."
-      ]
+      ],
+      "dossier_investee_name": "Saudi Telecom Company (stc)"
     },
     {
       "master_record_id": "GSI22J01-001",
@@ -4518,7 +4522,7 @@
       "primary_source": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2022/pif-and-capital-bank-group/",
       "independent_source": "https://saudigazette.com.sa/article/621392/BUSINESS/PIF-Capital-Bank-Group-sign-subscription-agreement-for-%24185-million",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": "Capital Bank of Jordan (Capital Bank Group)",
+      "investee_legal_identity": null,
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -4671,7 +4675,8 @@
         "Bank presentation says 23.79% while multiple legal/completion disclosures say 23.97%",
         "2021 bank regulatory series published today not proof publicly disclosed by deal signing",
         "Bank profitability should use net interest income or operating profit; EBITDA not a suitable banking denominator"
-      ]
+      ],
+      "dossier_investee_name": "Capital Bank of Jordan (Capital Bank Group)"
     },
     {
       "master_record_id": "GSI22J06-002",
