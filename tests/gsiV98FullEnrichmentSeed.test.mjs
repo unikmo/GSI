@@ -6,7 +6,13 @@ import {resolve,dirname} from 'node:path';
 import {parseCsv} from '../lib/gsiEnrichmentBridge.mjs';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const load=p=>readFileSync(resolve(root,p),'utf8');
-const profiles=JSON.parse(load('research/enrichment/v98_all_651_minimum_profiles_UNREVIEWED.json'));
+const parts=Array.from({length:4},(_,i)=>JSON.parse(load('research/enrichment/v98_all_651_minimum_profiles_part_'+String(i+1).padStart(2,'0')+'_UNREVIEWED.json')));
+const profiles={status:'UNREVIEWED_NOT_CERTIFIED',profiles:parts.flatMap(p=>p.profiles)};
+for(const [i,part] of parts.entries()){
+ assert.equal(part.part,i+1);
+ assert.equal(part.parts_total,4);
+ assert.equal(part.profile_count,part.profiles.length);
+}
 const master=parseCsv(load('database/GSI_Global_Research_Master_v9.8_WORKING.csv'));
 const syndicate=parseCsv(load('database/GSI_PE_Syndicate_Map_v9.8_WORKING.csv'));
 test('exactly 651 canonical master entries have individual source-linked enrichment skeletons',()=>{
