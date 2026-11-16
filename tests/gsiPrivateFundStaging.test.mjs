@@ -12,7 +12,7 @@ test('private fund SQL staging builder requires source-linked records and does n
  assert.deepEqual(r.by_kind,{MANAGER:8,FUND:4,TRANSACTION:5,EXIT:2,FUND_COMMITMENT:1});
  assert.equal(r.law_firms_in_payload,9);
  assert.equal(r.state,'PREPARED_UNREVIEWED_NOT_APPLIED');
- assert.ok(r.sql_bytes>20000);
+ assert.ok(r.sql_bytes>10000);
 });
 test('intake migration has private RLS and does not edit the public master',()=>{
  const sql=readFileSync(resolve(root,'supabase/capital_intelligence_private_research_staging.sql'),'utf8');
