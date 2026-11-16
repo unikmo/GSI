@@ -10,9 +10,9 @@ const manager=load('research/private_funds/gulf_manager_seed_2026-11-16_UNREVIEW
 const deals=load('research/private_funds/gulf_private_deals_advisers_pilot_2026-11-16_UNREVIEWED.json');
 test('source-backed Gulf private manager and transaction pilot remains unreviewed',()=>{
  const a=validatePrivateFundPilot(manager,deals);
- assert.equal(a.managers,4);
- assert.equal(a.named_funds,2);
- assert.equal(a.events,6);
+ assert.equal(a.managers,8);
+ assert.equal(a.named_funds,4);
+ assert.equal(a.events,8);
  assert.equal(a.exit_events.length,2);
  assert.ok(a.distinct_law_firms>=7);
  assert.ok(a.coinvestor_mentions.some(x=>x.includes('PSP')));
