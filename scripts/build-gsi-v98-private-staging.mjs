@@ -56,7 +56,7 @@ for(const [kind,,idKey] of sources){
 parts.push('INSERT INTO gsi_research_private.source_batch_versions (batch_id,source_version,declared_master,declared_ledger,declared_syndicate,declared_crosswalk,declared_held,source_commit_shas,record_state) VALUES ('+
   [sql(batch),sql(version),651,371,206,651,200,json(shas),sql('UNREVIEWED')].join(',')+
   ') ON CONFLICT (batch_id) DO NOTHING;');
-parts.push("DO $verify$ DECLARE n int; BEGIN "+
+parts.push("DO $verify$ DECLARE n int; BEGIN ",
   ...sources.map(([kind,,,count])=>
    "SELECT count(*) INTO n FROM gsi_research_private.source_row_versions WHERE source_version="+sql(version)+" AND source_table="+sql(kind)+"; "+
    "IF n <> "+count+" THEN RAISE EXCEPTION 'GSI v9.8 "+kind+" count % != "+count+"',n; END IF; "),
