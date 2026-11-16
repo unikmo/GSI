@@ -6,6 +6,9 @@ on:
     paths:
       - 'lib/naturalVerticalFit.mjs'
       - 'tests/gsiPrivateFundPilot.test.mjs'
+      - 'tests/gsiPrivateFundStaging.test.mjs'
+      - 'scripts/build-gsi-private-fund-staging.mjs'
+      - 'supabase/capital_intelligence_private_research_staging.sql'
       - 'scripts/validate-gsi-private-fund-pilot.mjs'
       - 'research/private_funds/**'
       - 'supabase/capital_intelligence_transaction_advisers_private.sql'
