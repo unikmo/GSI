@@ -102,7 +102,7 @@
       "primary_source": "https://www.sec.gov/Archives/edgar/data/1811210/000110465923068017/tm2317789d1_8k.htm",
       "independent_source": "https://www.sec.gov/Archives/edgar/data/1811210/000162828023027785/R21.htm",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": null,
+      "investee_legal_identity": "Lucid Group, Inc.",
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -116,7 +116,122 @@
       "related_syndicate_links": [],
       "research_state": "UNREVIEWED_SOURCE_CLAIM_ONLY",
       "enrichment_required": true,
-      "evidence_gap": "Pin exact June closing date and differentiate gross purchase price and net proceeds."
+      "evidence_gap": "Pin exact June closing date and differentiate gross purchase price and net proceeds.",
+      "enrichment_dossier_source": "research/verified_dossiers/gsi_three_transaction_dossiers_2026-11-15_batch02.json",
+      "enrichment_state": "SOURCE_LINKED_SELECTIVE_PRIMARY_SOURCE_CHECK",
+      "source_linked_financial_observations": [
+        {
+          "period": "FY2022",
+          "period_end": "2022-12-31",
+          "metric": "GAAP_revenue",
+          "value": 608.181,
+          "unit": "USD million",
+          "publication_date": "2023-02-22",
+          "pre_announcement_public": true,
+          "source_id": "LCID-FY2022"
+        },
+        {
+          "period": "FY2022",
+          "period_end": "2022-12-31",
+          "metric": "GAAP_operating_loss",
+          "value": -2593.991,
+          "unit": "USD million",
+          "publication_date": "2023-02-22",
+          "pre_announcement_public": true,
+          "source_id": "LCID-FY2022"
+        },
+        {
+          "period": "FY2022",
+          "period_end": "2022-12-31",
+          "metric": "vehicle_production",
+          "value": 7180,
+          "unit": "vehicles",
+          "publication_date": "2023-02-22",
+          "pre_announcement_public": true,
+          "source_id": "LCID-FY2022"
+        },
+        {
+          "period": "FY2022",
+          "period_end": "2022-12-31",
+          "metric": "vehicle_deliveries",
+          "value": 4369,
+          "unit": "vehicles",
+          "publication_date": "2023-02-22",
+          "pre_announcement_public": true,
+          "source_id": "LCID-FY2022"
+        }
+      ],
+      "source_linked_transaction_economics": [
+        {
+          "metric": "issued_common_shares",
+          "value": 265693703,
+          "unit": "shares",
+          "source_id": "LCID-2023-10K"
+        },
+        {
+          "metric": "price_per_share",
+          "value": 6.83,
+          "unit": "USD/share",
+          "source_id": "LCID-2023-10K"
+        },
+        {
+          "metric": "company_issuance_net_proceeds",
+          "value": 1800,
+          "unit": "USD million",
+          "state": "FUNDED_JUNE_2023",
+          "scope": "Issuer approximates to $1.8bn net; fees $2m, investor gross slightly greater",
+          "source_id": "LCID-2023-10K"
+        },
+        {
+          "metric": "net_proceeds_issuance_costs",
+          "value": 2,
+          "unit": "USD million",
+          "source_id": "LCID-2023-10K"
+        }
+      ],
+      "source_linked_transaction_terms": null,
+      "deal_lifecycle_events": [
+        {
+          "date": "2023-05-31",
+          "status": "SUBSCRIPTION_AGREEMENT_SIGNED",
+          "source_id": "LCID-2023-10K",
+          "claim": "Ayar agreed purchase of 265,693,703 common shares at $6.83/share"
+        },
+        {
+          "date": "2023-06",
+          "status": "ISSUED_PAID",
+          "source_id": "LCID-2023-10K",
+          "claim": "Shares issued; company received $1.8bn net proceeds, after $2.0m issuance costs. Exact day unspecified"
+        }
+      ],
+      "source_linked_ownership_claims": null,
+      "legal_vehicle_claim": "Ayar Third Investment Company (PIF affiliate)",
+      "legal_vehicle_evidence_status": "REPORTED_NOT_ENTITY_REGISTER_VERIFIED",
+      "source_linked_research_evidence": [
+        {
+          "id": "LCID-2023-10K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024007209/lcid-20231231.htm",
+          "publisher": "Lucid Group / SEC",
+          "published": "2024-02-27",
+          "kind": "AUDITED_SEC_REPORT"
+        },
+        {
+          "id": "LCID-FY2022",
+          "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-announces-fourth-quarter-and-full-year-2022-financial/",
+          "publisher": "Lucid Group",
+          "published": "2023-02-22",
+          "kind": "HISTORICAL_ISSUER_FINANCIAL_RESULTS"
+        }
+      ],
+      "independently_checked_primary_claims": [],
+      "verified_by_issuer_adviser_engagements": [],
+      "verified_by_issuer_coinvestors": [],
+      "unresolved_dossier_gaps": [
+        "Lucid 2023 10-K published 2024: June 2023 cash settlement confirmation is retrospective, not contemporaneous",
+        "FY2022 operating loss is not EBITDA and must not be used interchangeably",
+        "Investor-specific gross subscription proceeds versus issuer net proceeds differ by issuance costs",
+        "No investor-level future IRR or economic value at mark-to-market automatically derived"
+      ]
     },
     {
       "master_record_id": "GSI23M05-005",
@@ -694,7 +809,7 @@
       "primary_source": "https://www.ril.com/sites/default/files/2023-09/23082023-MR-QIA-TO-INVEST-%E2%82%B9-8%2C278-CRORE-IN-RRVL-AT-AN-EQUITY-VALUE-OF-%E2%82%B9-8-278-LAKH-CRORE%20%281%29.pdf",
       "independent_source": "https://www.ril.com/sites/default/files/2023-09/RIL-UpdateonQIA_signed.pdf",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": null,
+      "investee_legal_identity": "Reliance Retail Ventures Limited",
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -708,7 +823,116 @@
       "related_syndicate_links": [],
       "research_state": "UNREVIEWED_SOURCE_CLAIM_ONLY",
       "enrichment_required": true,
-      "evidence_gap": "Verify instrument class and QIA subsidiary chain; record September cash settlement against this entry."
+      "evidence_gap": "Verify instrument class and QIA subsidiary chain; record September cash settlement against this entry.",
+      "enrichment_dossier_source": "research/verified_dossiers/gsi_three_transaction_dossiers_2026-11-15_batch02.json",
+      "enrichment_state": "SOURCE_LINKED_SELECTIVE_PRIMARY_SOURCE_CHECK",
+      "source_linked_financial_observations": [
+        {
+          "period": "FY2022-23",
+          "period_end": "2023-03-31",
+          "metric": "retail_segment_gross_revenue",
+          "value": 260394,
+          "unit": "INR crore",
+          "company_scope": "Reliance Industries consolidated retail segment, not legal entity standalone RRVL",
+          "basis": "Gross revenue/value of sales and services",
+          "publication": "2023",
+          "pre_announcement_period": true,
+          "publication_date_exact": "UNVERIFIED",
+          "source_id": "RIL-AR-2023"
+        },
+        {
+          "period": "FY2022-23",
+          "period_end": "2023-03-31",
+          "metric": "retail_segment_ebitda",
+          "value": 17974,
+          "unit": "INR crore",
+          "company_scope": "Reliance Industries consolidated retail segment, not legal entity standalone RRVL",
+          "basis": "Group annual report segment EBITDA; later investor deck uses alternative EBITDA vintage",
+          "publication": "2023",
+          "pre_announcement_period": true,
+          "publication_date_exact": "UNVERIFIED",
+          "source_id": "RIL-AR-2023"
+        }
+      ],
+      "source_linked_transaction_economics": [
+        {
+          "metric": "investor_cash_received",
+          "value": 8278,
+          "unit": "INR crore",
+          "state": "ISSUER_CONFIRMED_FUNDS_RECEIVED",
+          "source_id": "RRVL-CLOSE-2023-09-06"
+        },
+        {
+          "metric": "new_shares_allotted",
+          "value": 68635010,
+          "unit": "shares",
+          "source_id": "RRVL-CLOSE-2023-09-06"
+        },
+        {
+          "metric": "fully_diluted_stake_announcement",
+          "value": 0.99,
+          "unit": "percent",
+          "scope": "Announcement indication, not independent post-closing cap table recalculation",
+          "source_id": "RRVL-ANN-2023-08-23"
+        },
+        {
+          "metric": "pre_money_equity_value",
+          "value": 8.278,
+          "unit": "INR lakh crore",
+          "scope": "Entire company valuation, not QIA ticket",
+          "source_id": "RRVL-ANN-2023-08-23"
+        }
+      ],
+      "source_linked_transaction_terms": null,
+      "deal_lifecycle_events": [
+        {
+          "date": "2023-08-23",
+          "status": "SIGNED_OR_ANNOUNCED",
+          "source_id": "RRVL-ANN-2023-08-23",
+          "claim": "Proposed subscription, 0.99% fully diluted, ₹8278 crore"
+        },
+        {
+          "date": "2023-09-06",
+          "status": "ISSUER_CONFIRMED_RECEIPT_AND_ALLOTMENT",
+          "source_id": "RRVL-CLOSE-2023-09-06",
+          "claim": "Company received ₹8278 crore and allotted 68,635,010 ordinary shares to Qatar Holding LLC"
+        }
+      ],
+      "source_linked_ownership_claims": null,
+      "legal_vehicle_claim": "Qatar Holding LLC",
+      "legal_vehicle_evidence_status": "REPORTED_NOT_ENTITY_REGISTER_VERIFIED",
+      "source_linked_research_evidence": [
+        {
+          "id": "RRVL-ANN-2023-08-23",
+          "url": "https://www.ril.com/news-media/press-releases/qia-invest-rs-8278-crore-reliance-retail-ventures-limited",
+          "publisher": "Reliance Industries",
+          "published": "2023-08-23",
+          "kind": "ISSUER_RELEASE"
+        },
+        {
+          "id": "RRVL-CLOSE-2023-09-06",
+          "url": "https://www.ril.com/sites/default/files/2023-09/RIL-UpdateonQIA_signed.pdf",
+          "publisher": "Reliance Industries",
+          "published": "2023-09-06",
+          "kind": "EXCHANGE_DISCLOSURE"
+        },
+        {
+          "id": "RIL-AR-2023",
+          "url": "https://www.ril.com/ar2022-23/reliance-at-a-glance.html",
+          "publisher": "Reliance Industries",
+          "published": "2023",
+          "kind": "HISTORICAL_ISSUER_ANNUAL_REPORT"
+        }
+      ],
+      "independently_checked_primary_claims": [],
+      "verified_by_issuer_adviser_engagements": [],
+      "verified_by_issuer_coinvestors": [],
+      "unresolved_dossier_gaps": [
+        "Exact posting date of RIL FY2023 annual report not independently verified before 23 August 2023",
+        "FY2023 financial metrics belong to retail segment; cannot equate to standalone RRVL audited statements",
+        "Fully diluted 0.99% per announcement not verified against post-closing complete cap table",
+        "No public investor IRR, later exits or investor-specific subsequent investment confirmed"
+      ]
     },
     {
       "master_record_id": "GSI23M09-001",
@@ -2518,8 +2742,8 @@
       "amount_evidence_state": "CLOSING_CONFIRMED",
       "primary_source": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024037638/lcid-20240816.htm",
       "independent_source": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-group-inc-announces-public-investment-fund-commitment-15",
-      "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": null,
+      "investor_vehicle_legal_identity": "Ayar Third Investment Company",
+      "investee_legal_identity": "Lucid Group Inc.",
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -2533,7 +2757,152 @@
       "related_syndicate_links": [],
       "research_state": "UNREVIEWED_SOURCE_CLAIM_ONLY",
       "enrichment_required": true,
-      "evidence_gap": "Trace later delayed-draw utilization and record linked historical Lucid investments; confirm net proceeds from FY2024 filing."
+      "evidence_gap": "Trace later delayed-draw utilization and record linked historical Lucid investments; confirm net proceeds from FY2024 filing.",
+      "enrichment_dossier_source": "research/verified_dossiers/gsi_three_priority_deep_reviews_2026-11-15_batch04.json",
+      "enrichment_state": "SOURCE_LINKED_SELECTIVE_PRIMARY_SOURCE_CHECK",
+      "source_linked_financial_observations": [
+        {
+          "metric": "FY2023_US_GAAP_revenue",
+          "value": 595.271,
+          "unit": "USD million",
+          "period_end": "2023-12-31",
+          "available_before_signing": true,
+          "source": "LUCID-FY2023-10K"
+        },
+        {
+          "metric": "FY2023_US_GAAP_operating_loss",
+          "value": -3099.588,
+          "unit": "USD million",
+          "period_end": "2023-12-31",
+          "available_before_signing": true,
+          "source": "LUCID-FY2023-10K"
+        },
+        {
+          "metric": "FY2023_cash_used_operations",
+          "value": -2489.8,
+          "unit": "USD million",
+          "period_end": "2023-12-31",
+          "available_before_signing": true,
+          "source": "LUCID-FY2023-RESULTS",
+          "precision": "one decimal million"
+        },
+        {
+          "metric": "Q2_2024_US_GAAP_revenue",
+          "value": 200.581,
+          "unit": "USD million",
+          "period_end": "2024-06-30",
+          "disclosed": "2024-08-05",
+          "available_before_signing": false,
+          "source": "LUCID-Q2-20240805"
+        },
+        {
+          "metric": "Q2_2024_US_GAAP_net_loss",
+          "value": -643.39,
+          "unit": "USD million",
+          "period_end": "2024-06-30",
+          "disclosed": "2024-08-05",
+          "available_before_signing": false,
+          "source": "LUCID-Q2-20240805"
+        }
+      ],
+      "source_linked_transaction_economics": [],
+      "source_linked_transaction_terms": {
+        "paid_preferred_equity_usd_m": 750,
+        "preferred_shares": 75000,
+        "initial_common_equivalent_shares_m_approx": 171.24,
+        "initial_conversion_price_usd": 4.3799,
+        "loan_facility_commitment_usd_m": 750,
+        "loan_drawn_on_announcement_usd_m": 0,
+        "net_issuer_proceeds_usd_m": 749.4,
+        "net_proceeds_disclosed_after_entry": true,
+        "cash_verified_by_issuer": true,
+        "warning": "$1.5bn headline is equity $750m plus separate loan capacity $750m, not $1.5bn of cash invested."
+      },
+      "deal_lifecycle_events": [
+        {
+          "date": "2024-08-04",
+          "event": "definitive_subscription_signed",
+          "evidence": "LUCID-8K-20240804"
+        },
+        {
+          "date": "2024-08-05",
+          "event": "public_transaction_and_Q2_earnings_disclosure",
+          "evidence": "LUCID-Q2-20240805"
+        },
+        {
+          "date": "2024-08-16",
+          "event": "subscription_closed_and_shares_purchased",
+          "evidence": "LUCID-8K-20240816"
+        }
+      ],
+      "source_linked_ownership_claims": null,
+      "legal_vehicle_claim": "Ayar Third Investment Company",
+      "legal_vehicle_evidence_status": "REPORTED_NOT_ENTITY_REGISTER_VERIFIED",
+      "source_linked_research_evidence": [
+        {
+          "id": "LUCID-8K-20240804",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024034724/lcid-20240804.htm",
+          "publisher": "Lucid / SEC",
+          "publication_date": "2024-08-05",
+          "type": "primary_regulatory"
+        },
+        {
+          "id": "LUCID-Q2-20240805",
+          "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-announces-second-quarter-2024-financial-results",
+          "publisher": "Lucid",
+          "publication_date": "2024-08-05",
+          "type": "primary_unaudited_earnings"
+        },
+        {
+          "id": "LUCID-8K-20240816",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024037638/lcid-20240816.htm",
+          "publisher": "Lucid / SEC",
+          "publication_date": "2024-08-19",
+          "type": "primary_regulatory"
+        },
+        {
+          "id": "LUCID-FY2023-10K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024007209/lcid-20231231.htm",
+          "publisher": "Lucid / SEC",
+          "publication_date": "2024-02-21",
+          "type": "primary_audited_annual"
+        },
+        {
+          "id": "LUCID-FY2023-RESULTS",
+          "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-announces-fourth-quarter-and-full-year-2023-financial",
+          "publisher": "Lucid",
+          "publication_date": "2024-02-21",
+          "type": "primary_earnings"
+        }
+      ],
+      "independently_checked_primary_claims": [
+        {
+          "master_record_id": "GSI24A08-002",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828024037638/lcid-20240816.htm",
+          "source_published_on": "2024-08-19",
+          "claim": "Ayar Third Investment Company, a Saudi LLC affiliated with PIF, acquired 75,000 Series B preferred shares on August 16, 2024 for USD 750 million",
+          "verified_fields": [
+            "investing_vehicle_legal_entity",
+            "preferred_shares",
+            "investor_paid_equity_usd",
+            "closing_date"
+          ],
+          "verified_vehicle": "Ayar Third Investment Company",
+          "transaction_cash": {
+            "value": 750,
+            "unit": "USD million",
+            "kind": "FUNDED_PREFERRED_EQUITY",
+            "as_of": "2024-08-16"
+          }
+        }
+      ],
+      "verified_by_issuer_adviser_engagements": [],
+      "verified_by_issuer_coinvestors": [],
+      "unresolved_dossier_gaps": [
+        "Persistent large operating losses and capital intensity in pre-decision FY2023 accounts",
+        "2024 Q2 release after Aug 4 agreement; prohibit retrospective point-in-time characterization",
+        "Loan undrawn at Aug 5; separate equity, facility, and future cash movements"
+      ]
     },
     {
       "master_record_id": "GSI24A08-003",
@@ -3111,7 +3480,7 @@
       "primary_source": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
       "independent_source": "https://www.mubadalacapital.ae/newsroom",
       "investor_vehicle_legal_identity": null,
-      "investee_legal_identity": null,
+      "investee_legal_identity": "CI Financial Corp",
       "investment_ownership_percent": null,
       "pre_entry_revenue": null,
       "pre_entry_ebitda": null,
@@ -3137,7 +3506,246 @@
       ],
       "research_state": "UNREVIEWED_SOURCE_CLAIM_ONLY",
       "enrichment_required": true,
-      "evidence_gap": "Verify exact closing date, final equity paid and financing syndicate or management rollover terms."
+      "evidence_gap": "Verify exact closing date, final equity paid and financing syndicate or management rollover terms.",
+      "enrichment_dossier_source": "research/verified_dossiers/gsi_three_lifecycle_cases_2026-11-15_batch03.json",
+      "enrichment_state": "SOURCE_LINKED_SELECTIVE_PRIMARY_SOURCE_CHECK",
+      "source_linked_financial_observations": [
+        {
+          "period": "Q3 2024",
+          "published": "2024-11-14",
+          "metric": "ifrs_total_net_revenues",
+          "value": 785.4,
+          "unit": "CAD million",
+          "source_id": "CI-Q3-2024-11-14",
+          "available_at_signing": true
+        },
+        {
+          "period": "Q3 2024",
+          "published": "2024-11-14",
+          "metric": "adjusted_net_revenues",
+          "value": 754.9,
+          "unit": "CAD million",
+          "source_id": "CI-Q3-2024-11-14",
+          "non_ifrs": true,
+          "available_at_signing": true
+        },
+        {
+          "period": "Q3 2024",
+          "published": "2024-11-14",
+          "metric": "reported_ebitda",
+          "value": 124.8,
+          "unit": "CAD million",
+          "source_id": "CI-Q3-2024-11-14",
+          "available_at_signing": true
+        },
+        {
+          "period": "Q3 2024",
+          "published": "2024-11-14",
+          "metric": "adjusted_ebitda_attributable_to_shareholders",
+          "value": 270.5,
+          "unit": "CAD million",
+          "non_ifrs": true,
+          "source_id": "CI-Q3-2024-11-14",
+          "available_at_signing": true
+        },
+        {
+          "period": "2024-09-30",
+          "published": "2024-11-14",
+          "metric": "company_defined_net_debt",
+          "value": 3602.4,
+          "unit": "CAD million",
+          "source_id": "CI-Q3-2024-11-14",
+          "available_at_signing": true
+        }
+      ],
+      "source_linked_transaction_economics": [
+        {
+          "metric": "equity_transaction_value",
+          "value": 4.7,
+          "unit": "CAD billion",
+          "basis": "Approximate headline equity value; not Mubadala funded equity cheque",
+          "source_id": "CI-DEAL-2024-11-25"
+        },
+        {
+          "metric": "enterprise_transaction_value",
+          "value": 12.1,
+          "unit": "CAD billion",
+          "basis": "Approximate enterprise value, includes debt; not cash paid by fund",
+          "source_id": "CI-DEAL-2024-11-25"
+        },
+        {
+          "metric": "offer_price",
+          "value": 32,
+          "unit": "CAD/share",
+          "source_id": "CI-DEAL-2024-11-25"
+        },
+        {
+          "metric": "shares_held_after_closing",
+          "value": 144228914,
+          "unit": "CI common shares",
+          "scope": "Indirectly through Accelerate Holdings Corp; 100% issued shares at closing following reorganisations",
+          "source_id": "CI-CLOSE-2025-08-13"
+        }
+      ],
+      "source_linked_transaction_terms": null,
+      "deal_lifecycle_events": [
+        {
+          "date": "2024-11-14",
+          "event": "PRE_DEAL_Q3_FINANCIAL_RESULTS_RELEASED",
+          "source_id": "CI-Q3-2024-11-14"
+        },
+        {
+          "date": "2024-11-25",
+          "event": "SIGNED_DEFINITIVE_TAKE_PRIVATE_AGREEMENT",
+          "source_id": "CI-DEAL-2024-11-25"
+        },
+        {
+          "date": "2025-08-12",
+          "event": "COMPLETED_TAKE_PRIVATE",
+          "source_id": "CI-CLOSE-2025-08-13",
+          "as_known_at_signing": false
+        }
+      ],
+      "source_linked_ownership_claims": {
+        "after_close": "100% indirectly acquired through Accelerate Holdings Corp",
+        "ultimate_investor": "UK limited partnership manager Mubadala Capital Management UK LLP",
+        "legal_fund_equity_commitment": null,
+        "source_id": "CI-CLOSE-2025-08-13"
+      },
+      "legal_vehicle_claim": "UK limited partnership manager Mubadala Capital Management UK LLP",
+      "legal_vehicle_evidence_status": "REPORTED_NOT_ENTITY_REGISTER_VERIFIED",
+      "source_linked_research_evidence": [
+        {
+          "id": "CI-Q3-2024-11-14",
+          "url": "https://www.cifinancial.com/ci-financial/ca/en/newsroom/CI-Financial-Reports-Record-Financial-Results-for-the-Third-Quarter-2024.html",
+          "published": "2024-11-14",
+          "type": "PRE_DEAL_ISSUER_QUARTERLY_FINANCIALS"
+        },
+        {
+          "id": "CI-DEAL-2024-11-25",
+          "url": "https://www.cifinancial.com/ci-financial/ca/en/newsroom/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer.html",
+          "published": "2024-11-25",
+          "type": "ISSUER_DEFINITIVE_SIGNING"
+        },
+        {
+          "id": "CI-CLOSE-2025-08-13",
+          "url": "https://www.cifinancial.com/ci-financial/ca/en/newsroom/ci-financial-and-mubadala-capital-announce-completion-of-take--private-transaction-by-mubadala-capital.html",
+          "published": "2025-08-13",
+          "type": "ISSUER_CLOSING"
+        }
+      ],
+      "independently_checked_primary_claims": [
+        {
+          "master_record_id": "GSI24N11-005",
+          "source_url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+          "source_published_on": "2024-11-25",
+          "claim": "CI Financial identifies CAD 4.7bn equity transaction value, CAD 12.1bn enterprise value; named buyer, company and committee advisers",
+          "verified_fields": [
+            "CAD_equity_transaction_value",
+            "CAD_enterprise_value",
+            "advisor_roles"
+          ]
+        },
+        {
+          "master_record_id": "GSI24N11-005",
+          "source_url": "https://www.cifinancial.com/ci-financial/ca/en/newsroom/ci-financial-and-mubadala-capital-announce-completion-of-take--private-transaction-by-mubadala-capital.html",
+          "source_published_on": "2025-08-12",
+          "claim": "CI Financial completion disclosure names transaction legal, financial and public-affairs advisers, and confirms closing",
+          "verified_fields": [
+            "closing_status",
+            "adviser_roles"
+          ]
+        }
+      ],
+      "verified_by_issuer_adviser_engagements": [
+        {
+          "firm": "Wildeboer Dellelce LLP",
+          "role": "SPECIAL_COMMITTEE_LEGAL",
+          "client": "CI Financial special committee",
+          "evidence_url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+          "evidence_date": "2024-11-25",
+          "verified_role_from_issuer": true
+        },
+        {
+          "firm": "Stikeman Elliott LLP",
+          "role": "INVESTEE_LEGAL",
+          "client": "CI Financial",
+          "evidence_url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+          "evidence_date": "2024-11-25",
+          "verified_role_from_issuer": true
+        },
+        {
+          "firm": "Skadden, Arps, Slate, Meagher & Flom LLP",
+          "role": "INVESTEE_LEGAL",
+          "client": "CI Financial",
+          "evidence_url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+          "evidence_date": "2024-11-25",
+          "verified_role_from_issuer": true
+        },
+        {
+          "firm": "Blake, Cassels & Graydon LLP",
+          "role": "BUYER_LEGAL",
+          "client": "Mubadala Capital",
+          "evidence_url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+          "evidence_date": "2024-11-25",
+          "verified_role_from_issuer": true
+        },
+        {
+          "firm": "Latham & Watkins LLP",
+          "role": "BUYER_LEGAL",
+          "client": "Mubadala Capital",
+          "evidence_url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+          "evidence_date": "2024-11-25",
+          "verified_role_from_issuer": true
+        },
+        {
+          "firm": "INFOR Financial",
+          "role": "SPECIAL_COMMITTEE_FINANCIAL",
+          "client": "CI Financial special committee",
+          "evidence_url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+          "evidence_date": "2024-11-25",
+          "verified_role_from_issuer": true
+        },
+        {
+          "firm": "RBC Capital Markets",
+          "role": "INVESTEE_FINANCIAL",
+          "client": "CI Financial",
+          "evidence_url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+          "evidence_date": "2024-11-25",
+          "verified_role_from_issuer": true
+        },
+        {
+          "firm": "Jefferies Securities Inc.",
+          "role": "BUYER_FINANCIAL",
+          "client": "Mubadala Capital",
+          "evidence_url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+          "evidence_date": "2024-11-25",
+          "verified_role_from_issuer": true
+        },
+        {
+          "firm": "BMO Capital Markets",
+          "role": "BUYER_FINANCIAL",
+          "client": "Mubadala Capital",
+          "evidence_url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+          "evidence_date": "2024-11-25",
+          "verified_role_from_issuer": true
+        },
+        {
+          "firm": "FGS Longview",
+          "role": "BUYER_PUBLIC_AFFAIRS",
+          "client": "Mubadala Capital",
+          "evidence_url": "https://ir.cifinancial.com/news/news-details/2024/Mubadala-Capital-to-Take-CI-Financial-Private-via-Premium-All-Cash-Offer/default.aspx",
+          "evidence_date": "2024-11-25",
+          "verified_role_from_issuer": true
+        }
+      ],
+      "verified_by_issuer_coinvestors": [],
+      "unresolved_dossier_gaps": [
+        "Actual Mubadala investment-specific equity cheque, syndicate financing and management rollover amounts",
+        "Company FY2023 audited financials not independently extracted in this dossier",
+        "Annualising Q3 reported or adjusted EBITDA for a purchase multiple would require consistent basis",
+        "2024 Mubadala review US-dollar currency error must be reconciled with fund IR"
+      ]
     },
     {
       "master_record_id": "GSI24N11-006",
