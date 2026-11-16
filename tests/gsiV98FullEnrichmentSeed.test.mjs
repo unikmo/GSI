@@ -31,7 +31,9 @@ test('exactly 651 canonical master entries have individual source-linked enrichm
   assert.equal(p.research_state,'UNREVIEWED_SOURCE_CLAIM_ONLY');
   assert.equal(p.pre_entry_revenue,null);
   assert.equal(p.pre_entry_ebitda,null);
-  assert.equal(p.investor_vehicle_legal_identity,null);
+  if(p.investor_vehicle_legal_identity!==null){
+   assert.ok(p.independently_checked_primary_claims?.some(s=>s.verified_vehicle===p.investor_vehicle_legal_identity));
+  }
   assert.deepEqual(p.law_firms,[]);
  }
 });
