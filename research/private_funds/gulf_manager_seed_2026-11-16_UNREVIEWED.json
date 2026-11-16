@@ -75,6 +75,72 @@
         "SRC-SHUAA"
       ],
       "review_state": "SOURCE_LINKED_NOT_LEGAL_VERIFIED"
+    },
+    {
+      "id": "GM-STV",
+      "name": "STV",
+      "jurisdiction": "Saudi Arabia (office/operations; legal domicile not verified)",
+      "entity_kind": "PRIVATE_INVESTMENT_MANAGER",
+      "ownership_class": "UNVERIFIED",
+      "gulf_connection": "RIYADH_OPERATIONS",
+      "strategies": [
+        "VENTURE_CAPITAL",
+        "GROWTH_EQUITY"
+      ],
+      "sources": [
+        "SRC-STV-SITE",
+        "SRC-STV-AIF"
+      ],
+      "review_state": "SOURCE_LINKED_NOT_LEGAL_VERIFIED"
+    },
+    {
+      "id": "GM-SHOROOQ",
+      "name": "Shorooq Partners",
+      "jurisdiction": "United Arab Emirates (ADGM regulated affiliate)",
+      "entity_kind": "MULTI_STRATEGY_INVESTMENT_MANAGER",
+      "ownership_class": "UNVERIFIED",
+      "gulf_connection": "ADGM_REGULATED_AFFILIATE",
+      "strategies": [
+        "VENTURE_CAPITAL",
+        "PRIVATE_EQUITY",
+        "CREDIT",
+        "REAL_ASSETS"
+      ],
+      "sources": [
+        "SRC-SH-ABOUT",
+        "SRC-SH-TERMS"
+      ],
+      "review_state": "SOURCE_LINKED_NOT_LEGAL_VERIFIED"
+    },
+    {
+      "id": "GM-BECO",
+      "name": "BECO Capital",
+      "jurisdiction": "Gulf region (legal domicile to verify)",
+      "entity_kind": "VENTURE_CAPITAL_MANAGER",
+      "ownership_class": "UNVERIFIED",
+      "gulf_connection": "GULF_REGIONAL_ACTIVITY",
+      "strategies": [
+        "VENTURE_CAPITAL"
+      ],
+      "sources": [
+        "SRC-BECO-PORT"
+      ],
+      "review_state": "SOURCE_LINKED_NOT_LEGAL_VERIFIED"
+    },
+    {
+      "id": "GM-GLOBAL-VENTURES",
+      "name": "Global Ventures",
+      "jurisdiction": "United Arab Emirates (Dubai HQ)",
+      "entity_kind": "VENTURE_CAPITAL_MANAGER",
+      "ownership_class": "UNVERIFIED",
+      "gulf_connection": "DUBAI_HEADQUARTERS",
+      "strategies": [
+        "VENTURE_CAPITAL"
+      ],
+      "sources": [
+        "SRC-GV-SITE"
+      ],
+      "review_state": "SOURCE_LINKED_NOT_LEGAL_VERIFIED"
     }
   ],
   "named_funds": [
@@ -94,6 +160,24 @@
       "fund_kind": "PRIVATE_EQUITY_FUND",
       "fund_legal_vehicle_id": null,
       "source_id": "SRC-JAD-PE",
+      "review_state": "FUND_NAME_SOURCE_LINKED_VEHICLE_UNVERIFIED"
+    },
+    {
+      "id": "FUND-STV-AI",
+      "name": "STV Emerging Tech & AI Fund",
+      "manager_id": "GM-STV",
+      "fund_kind": "VENTURE_CAPITAL_FUND",
+      "fund_legal_vehicle_id": null,
+      "source_id": "SRC-STV-AIF",
+      "review_state": "FUND_NAME_SOURCE_LINKED_VEHICLE_UNVERIFIED"
+    },
+    {
+      "id": "FUND-SHOROOQ-BEDAYA1",
+      "name": "Bedaya Fund I",
+      "manager_id": "GM-SHOROOQ",
+      "fund_kind": "VENTURE_CAPITAL_FUND",
+      "fund_legal_vehicle_id": null,
+      "source_id": "SRC-SH-TERMS",
       "review_state": "FUND_NAME_SOURCE_LINKED_VEHICLE_UNVERIFIED"
     }
   ],
@@ -139,11 +223,48 @@
       "publisher": "SHUAA Capital",
       "url": "https://www.shuaa.com/what-we-do/asset-management/private-markets",
       "claim_scope": "Self-described private-market activity"
+    },
+    {
+      "id": "SRC-STV-SITE",
+      "publisher": "STV",
+      "url": "https://stv.vc/",
+      "claim_scope": "MENA technology venture and growth equity activities"
+    },
+    {
+      "id": "SRC-STV-AIF",
+      "publisher": "STV",
+      "url": "https://stv.vc/blog/en/2026/5/18/stv-secures-strategic-commitment-from-sab-invest-for-its-emerging-tech-amp-ai-fund",
+      "claim_scope": "STV AI fund, SAB commitment, Google earlier backing"
+    },
+    {
+      "id": "SRC-SH-ABOUT",
+      "publisher": "Shorooq",
+      "url": "https://www.shorooq.com/about",
+      "claim_scope": "Multistrategy activity and ADGM regulated group member"
+    },
+    {
+      "id": "SRC-SH-TERMS",
+      "publisher": "Shorooq",
+      "url": "https://www.shorooq.com/terms",
+      "claim_scope": "Shorooq Partners Ltd regulated group member, Bedaya Fund I manager"
+    },
+    {
+      "id": "SRC-BECO-PORT",
+      "publisher": "BECO Capital",
+      "url": "https://www.becocapital.com/portfolio/",
+      "claim_scope": "Venture manager self-reported portfolio categories"
+    },
+    {
+      "id": "SRC-GV-SITE",
+      "publisher": "Global Ventures",
+      "url": "https://www.global.vc/",
+      "claim_scope": "Dubai-headquartered VC manager"
     }
   ],
   "limits": [
     "Illustrative starter universe, not the full population of Gulf private capital managers.",
     "Funds managed by private firms may have public, institutional or sovereign LPs: no unverified state/private attribution.",
-    "No claim that missing funds are nonexistent; no investor fund sizes or performance inferred."
+    "No claim that missing funds are nonexistent; no investor fund sizes or performance inferred.",
+    "Additional VC manager records use operating location, not verified legal incorporation or private beneficial ownership."
   ]
 }
