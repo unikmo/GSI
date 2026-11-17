@@ -2569,9 +2569,9 @@
       "record_id": "V1.6_CANDIDATES-013",
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "EQUITY",
-      "source_inclusion_decision": "ADMIT_CANDIDATE",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "source_inclusion_decision": "RETAIN_VERIFIED_ECONOMIC_EVENT_UNDISCLOSED_TICKET",
+      "analyst_classification_status": "SOURCE_REVIEWED_ELIGIBLE_COMPLETED_MINORITY_EQUITY_INVESTMENT",
+      "dossier_evidence_level": "PRIMARY_ISSUER_AND_MAJORITY_SPONSOR_CONFIRM_OWNERSHIP_NOT_FINANCIAL_CERTIFICATION",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "ADIA",
@@ -2583,7 +2583,7 @@
       },
       "investee": {
         "reported_name": "Sapiens International Corporation N.V.",
-        "legal_name_verified": null,
+        "legal_name_verified": "Sapiens International Corporation N.V.",
         "country": "Netherlands",
         "previous_financials": {
           "revenue": null,
@@ -2596,13 +2596,25 @@
       "transaction": {
         "announced_on": "2026-06-01",
         "completed_on": null,
-        "reported_event_status": "ADIA_MINORITY_INVESTMENT_COMPLETED_2026",
+        "reported_event_status": "ISSUER_AND_SPONSOR_CONFIRM_ADIA_SUBSIDIARY_ALREADY_BECAME_SIGNIFICANT_MINORITY_SHAREHOLDER",
         "original_amount": null,
         "currency": null,
         "amount_scope": "Undisclosed investor-specific ticket",
         "amount_evidence_state": "TARGET_AND_COUNTERPARTY_STATEMENTS; LEGAL_VEHICLE_NAME_UNVERIFIED",
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "investment_type": "POST_TAKE_PRIVATE_MINORITY_EQUITY",
+          "prior_sponsor": "Advent International",
+          "investor": "Unnamed wholly owned subsidiary of ADIA",
+          "legal_subsidiary_name_disclosed": false,
+          "investor_specific_ticket": null,
+          "investor_stake_percent": null,
+          "advent_2025_take_private_distinct_event": true,
+          "source_urls": [
+            "https://sapiens.com/us/newsroom/sapiens-welcomes-adia-as-an-investor/",
+            "https://www.adventinternational.com/news/sapiens-welcomes-adia-as-an-investor/"
+          ]
+        },
         "lifecycle_events": []
       },
       "counterparties": {
@@ -2624,10 +2636,33 @@
       "evidence": {
         "primary_source": "https://www.prnewswire.com/il/news-releases/sapiens-welcomes-adia-as-an-investor-302786846.html",
         "independent_source": "https://www.adventinternational.com/news/sapiens-welcomes-adia-as-an-investor/",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://sapiens.com/us/newsroom/sapiens-welcomes-adia-as-an-investor/",
+            "source_date": "2026-06-01",
+            "reviewed_on": "2026-11-17",
+            "classification": "ISSUER_PRIMARY_PRESS_RELEASE",
+            "verified_claims": [
+              "Wholly owned ADIA subsidiary invested and became significant minority shareholder",
+              "Advent was controlling owner following its 2025 acquisition",
+              "No legal subsidiary name, percentage or dollar ticket stated"
+            ]
+          },
+          {
+            "source_url": "https://www.adventinternational.com/news/sapiens-welcomes-adia-as-an-investor/",
+            "source_date": "2026-06-02",
+            "reviewed_on": "2026-11-17",
+            "classification": "MAJORITY_SPONSOR_PRIMARY_CONFIRMATION",
+            "verified_claims": [
+              "Advent corroborates completed minority participation by wholly owned ADIA subsidiary",
+              "Sponsor announcement does not disclose investor ticket, exact stake or legal vehicle name"
+            ]
+          }
+        ],
         "source_urls": [
           "https://www.prnewswire.com/il/news-releases/sapiens-welcomes-adia-as-an-investor-302786846.html",
-          "https://www.adventinternational.com/news/sapiens-welcomes-adia-as-an-investor/"
+          "https://www.adventinternational.com/news/sapiens-welcomes-adia-as-an-investor/",
+          "https://sapiens.com/us/newsroom/sapiens-welcomes-adia-as-an-investor/"
         ],
         "source_claim_blocks": [
           {
@@ -2753,7 +2788,11 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Investor-specific amount and ultimate vehicle; company domicile where unverified; legal settlement beyond transaction-level evidence."
+          "ADIA wholly owned investing subsidiary is not legally named; ultimate registration and fund vehicle remain unverified",
+          "Investor-specific ticket, ownership percentage, funding/settlement date and investor cash flows are undisclosed",
+          "Pre-June-2026 publicly available audited consolidated financial statements and audit opinions not extracted",
+          "Deal-specific counsel, financial advisers, represented parties and financing arrangements not confirmed",
+          "Advent 2025 acquisition consideration must not be treated as ADIA 2026 ticket"
         ]
       },
       "coverage": {
@@ -2769,7 +2808,10 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "INVESTOR_SPECIFIC_TICKET_UNDISCLOSED",
+          "EXACT_STAKE_UNDISCLOSED",
+          "PRIMARY_SOURCE_SPONSOR_CONFIRMED_BUT_NO_AUDITED_FINANCIAL_EXTRACTION"
         ],
         "requires_further_primary_research": true
       }
