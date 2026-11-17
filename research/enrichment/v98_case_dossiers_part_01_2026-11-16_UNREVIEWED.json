@@ -2097,7 +2097,7 @@
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "Masdar / UAE",
-        "reported_investing_entity": "Masdar via TERNA ENERGY",
+        "reported_investing_entity": "Abu Dhabi Future Energy Company PJSC – Masdar; TERNA ENERGY named as strategic acquisition platform (underlying buyer SPV unverified)",
         "legal_vehicle_verified": null,
         "vehicle_source": null,
         "vehicle_claim_from_unreviewed_dossier": null,
@@ -2124,7 +2124,16 @@
         "amount_scope": "No purchase price disclosed",
         "amount_evidence_state": null,
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "source_url": "https://www.mediaoffice.abudhabi/en/energy/masdar-expands-portfolio-in-greece-with-major-solar-project-acquisition/",
+          "source_as_of": "2026-10-24",
+          "asset_capacity_mw_lower_bound": 550,
+          "asset_capacity_qualifier": "550+ MW",
+          "seller": "Lightsource bp",
+          "purchase_price_disclosed": false,
+          "project_status": "EXPECTED_OPERATIONAL_BY_END_2026_NOT_CONFIRMED",
+          "closing_status": "REGULATORY_APPROVAL_AND_CUSTOMARY_CONDITIONS_PENDING"
+        },
         "lifecycle_events": []
       },
       "counterparties": {
@@ -2198,7 +2207,61 @@
         "underlying_dossier": null,
         "unresolved_source_notes": [
           "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
-        ]
+        ],
+        "primary_source_review_2026_11_17": {
+          "review_date": "2026-11-17",
+          "source_url": "https://www.mediaoffice.abudhabi/en/energy/masdar-expands-portfolio-in-greece-with-major-solar-project-acquisition/",
+          "source_type": "GOVERNMENT_MEDIA_OFFICE_REPUBLISHING_COMPANY_TRANSACTION_ANNOUNCEMENT",
+          "source_publication_date": "2026-10-24",
+          "status": "PRIMARY_TRANSACTION_ANNOUNCEMENT_REVIEWED_NOT_FINANCIALS_CERTIFIED",
+          "claims": [
+            {
+              "field": "investor_entity",
+              "value": "Abu Dhabi Future Energy Company PJSC – Masdar",
+              "basis": "Source explicitly identifies the signatory",
+              "evidence_status": "SOURCE_VERIFIED"
+            },
+            {
+              "field": "asset",
+              "value": "550+ MW Greek solar PV project with two privately owned grid substations; battery storage planned",
+              "basis": "Asset description in transaction announcement",
+              "evidence_status": "SOURCE_VERIFIED"
+            },
+            {
+              "field": "seller",
+              "value": "Lightsource bp",
+              "basis": "Source identifies seller",
+              "evidence_status": "SOURCE_VERIFIED"
+            },
+            {
+              "field": "transaction_stage",
+              "value": "Agreement signed; regulatory approval and customary conditions outstanding as of 2026-10-24",
+              "basis": "Explicit announcement wording",
+              "evidence_status": "SOURCE_VERIFIED"
+            },
+            {
+              "field": "platform",
+              "value": "First Masdar strategic investment through TERNA ENERGY",
+              "basis": "Source explicitly describes TERNA ENERGY platform",
+              "evidence_status": "SOURCE_VERIFIED"
+            },
+            {
+              "field": "transaction_scope_exclusion",
+              "value": "Separate Masdar–Khazna data-centre collaboration is not part of this solar asset acquisition",
+              "basis": "Separate agreement paragraph",
+              "evidence_status": "SOURCE_VERIFIED"
+            }
+          ],
+          "unknowns": [
+            "Acquisition SPV and exact legal buyer within TERNA ENERGY group",
+            "Seller project SPV identity and exact equity stake",
+            "Purchase consideration and individual cash paid",
+            "Closing date and regulatory approvals",
+            "Pre-decision standalone audited project financials and operating cash flows",
+            "Legal and financial transaction advisers",
+            "Investor-specific realised cash proceeds and returns"
+          ]
+        }
       },
       "coverage": {
         "original_screening_category": "INVESTEE_TRANSACTION_CANDIDATE",
@@ -2215,7 +2278,12 @@
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
           "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
         ],
-        "requires_further_primary_research": true
+        "requires_further_primary_research": true,
+        "analyst_economic_event_review": {
+          "reviewed_on": "2026-11-17",
+          "decision": "RETAIN_SIGNED_ASSET_ACQUISITION_CANDIDATE",
+          "reason": "Specific proposed acquisition of project assets; exclude separate Khazna cooperation from this economic event"
+        }
       }
     },
     {
@@ -2255,17 +2323,108 @@
         "amount_scope": "76% EQT, 16% Luxinva, 8% Mubadala proposed; QIA later expected 4.2% indirect economic interest; these are not simply additive without cap-table review",
         "amount_evidence_state": null,
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+          "source_as_of": "2026-09-23",
+          "bidco": "Isotope Bidco Limited",
+          "funds": [
+            "EQT X EUR SCSp",
+            "EQT X USD SCSp"
+          ],
+          "fund_manager": "EQT Fund Management S.à r.l.",
+          "deal_stage": "RECOMMENDED_CASH_SCHEME_NOT_PROVEN_CLOSED",
+          "financing_coissuers": [
+            "Isotope Finco S.à r.l.",
+            "Isotope Finco 2 LLC"
+          ]
+        },
         "lifecycle_events": []
       },
       "counterparties": {
         "master_syndicate_relationships": [],
-        "verified_co_investor_announcements": [],
+        "verified_co_investor_announcements": [
+          {
+            "name": "Luxinva",
+            "role": "Indirect minority shareholder of Bidco",
+            "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+            "as_of": "2026-09-23"
+          },
+          {
+            "name": "Mubadala",
+            "role": "Indirect minority shareholder of Bidco",
+            "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+            "as_of": "2026-09-23"
+          }
+        ],
         "source_ownership_claims": null,
         "investor_ownership_stake_percent": null
       },
       "service_providers": {
-        "verified_issuer_disclosed_adviser_engagements": [],
+        "verified_issuer_disclosed_adviser_engagements": [
+          {
+            "name": "Morgan Stanley",
+            "client": "Isotope Bidco Limited",
+            "role": "Lead financial adviser",
+            "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+            "as_of": "2026-09-23"
+          },
+          {
+            "name": "Barclays",
+            "client": "Isotope Bidco Limited",
+            "role": "Financial adviser",
+            "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+            "as_of": "2026-09-23"
+          },
+          {
+            "name": "Deutsche Bank",
+            "client": "Isotope Bidco Limited",
+            "role": "Financial adviser",
+            "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+            "as_of": "2026-09-23"
+          },
+          {
+            "name": "FGS Global",
+            "client": "Isotope Bidco Limited",
+            "role": "Communications adviser",
+            "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+            "as_of": "2026-09-23"
+          },
+          {
+            "name": "Freshfields LLP",
+            "client": "EQT and Isotope Bidco Limited",
+            "role": "Legal adviser",
+            "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+            "as_of": "2026-09-23"
+          },
+          {
+            "name": "Simpson Thacher & Bartlett LLP",
+            "client": "Isotope Bidco Limited",
+            "role": "Regulatory counsel",
+            "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+            "as_of": "2026-09-23"
+          },
+          {
+            "name": "Advokatfirman Vinge KB",
+            "client": "Isotope Bidco Limited",
+            "role": "Regulatory counsel",
+            "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+            "as_of": "2026-09-23"
+          },
+          {
+            "name": "Linklaters LLP",
+            "client": "Luxinva",
+            "role": "Legal adviser",
+            "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+            "as_of": "2026-09-23"
+          },
+          {
+            "name": "Clifford Chance LLP",
+            "client": "Mubadala",
+            "role": "Legal adviser",
+            "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+            "as_of": "2026-09-23"
+          }
+        ],
         "legal_adviser_research_status": "INCOMPLETE_UNLESS_LISTED"
       },
       "returns": {
@@ -2334,7 +2493,54 @@
         "underlying_dossier": null,
         "unresolved_source_notes": [
           "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
-        ]
+        ],
+        "primary_source_review_2026_11_17": {
+          "review_date": "2026-11-17",
+          "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
+          "source_type": "UK_RNS_REGULATED_COMPANY_ANNOUNCEMENT",
+          "source_publication_date": "2026-09-23",
+          "status": "REGULATORY_ANNOUNCEMENT_REVIEWED_NOT_FINANCIALS_CERTIFIED",
+          "claims": [
+            {
+              "field": "bidco",
+              "value": "Isotope Bidco Limited",
+              "evidence_status": "SOURCE_VERIFIED"
+            },
+            {
+              "field": "funds",
+              "value": "EQT X EUR SCSp and EQT X USD SCSp; manager EQT Fund Management S.à r.l.",
+              "evidence_status": "SOURCE_VERIFIED"
+            },
+            {
+              "field": "co_investor_roles",
+              "value": "Luxinva and Mubadala identified as indirect minority shareholders of Bidco; no individual ownership percentages confirmed by this release",
+              "evidence_status": "SOURCE_VERIFIED"
+            },
+            {
+              "field": "transaction_timeline",
+              "value": "Recommended cash acquisition agreed 2026-06-18; scheme circular 2026-07-15; financing documentation release 2026-09-23",
+              "evidence_status": "SOURCE_VERIFIED"
+            },
+            {
+              "field": "financing",
+              "value": "Isotope Finco S.à r.l. and Isotope Finco 2 LLC proposed co-issuers of senior secured notes; proposed term loans partially replace interim facilities",
+              "evidence_status": "SOURCE_VERIFIED"
+            },
+            {
+              "field": "closing",
+              "value": "Scheme of arrangement announced, but this release does not confirm completion",
+              "evidence_status": "SOURCE_VERIFIED"
+            }
+          ],
+          "unknowns": [
+            "Completion/effective date and final ownership cap table",
+            "QIA specific indirect participation not substantiated by this 2026-09-23 release",
+            "Ultimate Gulf investor funding SPVs and individual equity contributions",
+            "Investor-specific settled amounts",
+            "Audited financials publicly available before 2026-06-18 announcement",
+            "Investor-level realised returns"
+          ]
+        }
       },
       "coverage": {
         "original_screening_category": "INVESTEE_TRANSACTION_CANDIDATE",
@@ -2351,7 +2557,12 @@
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
           "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
         ],
-        "requires_further_primary_research": true
+        "requires_further_primary_research": true,
+        "analyst_economic_event_review": {
+          "reviewed_on": "2026-11-17",
+          "decision": "RETAIN_ONE_CONSORTIUM_TAKE_PRIVATE_AGREEMENT",
+          "reason": "One acquisition via Bidco; Gulf indirect investors are syndicate participations, not separate enterprise acquisitions"
+        }
       }
     },
     {
