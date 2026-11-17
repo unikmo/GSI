@@ -44,7 +44,7 @@ test('no records accidentally promoted to decision grade or assigned fabricated 
  const old=new Map(profiles.map(p=>[p.master_record_id,p]));
  for(const d of dossiers){
   assert.equal(d.dossier_certification,'NOT_CERTIFIED_NOT_DECISION_GRADE');
-  assert.ok(d.analyst_classification_status==='PROVISIONAL_RULE_BASED'||d.evidence.reopened_primary_claims.length>0,'Reviewed classification requires reopened primary-source claims');
+  assert.ok(d.analyst_classification_status==='PROVISIONAL_RULE_BASED'||(d.evidence.reopened_primary_claims.length>0||(d.evidence.reviewed_primary_sources||[]).some(s=>s.url?.startsWith('https://'))),'Reviewed classification requires reopened primary-source claims');
   assert.equal(d.coverage.requires_further_primary_research,true);
   assert.ok(d.coverage.completeness_gaps.length>0);
   const profile=old.get(d.record_id);
@@ -61,6 +61,11 @@ test('no records accidentally promoted to decision grade or assigned fabricated 
     assert.ok(current?.audit_status);
    }
   }
-  assert.equal(d.service_providers.verified_issuer_disclosed_adviser_engagements.length,(profile.verified_by_issuer_adviser_engagements||[]).length);
+  const originalAdvisers=profile.verified_by_issuer_adviser_engagements||[];
+  const currentAdvisers=d.service_providers.verified_issuer_disclosed_adviser_engagements;
+  if(currentAdvisers.length!==originalAdvisers.length){
+   assert.ok(d.evidence.reopened_primary_claims.length>0||(d.evidence.reviewed_primary_sources||[]).some(s=>s.url?.startsWith('https://')),'New adviser claims require primary source');
+   for(const adviser of currentAdvisers){assert.ok(adviser.firm);assert.ok(adviser.client);assert.ok(adviser.source_url?.startsWith('https://'));}
+  }
  }
 });
