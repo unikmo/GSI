@@ -1898,7 +1898,7 @@
       "original_event_classification": "EQUITY",
       "source_inclusion_decision": "ADMIT_CANDIDATE",
       "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "dossier_evidence_level": "PRIMARY_ISSUER_TRANSACTION_CLAIMS_REVIEWED_PARTIAL",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "Masdar / UAE",
@@ -2008,7 +2008,60 @@
         "underlying_dossier": null,
         "unresolved_source_notes": [
           "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
-        ]
+        ],
+        "primary_source_review_2026_11_17": {
+          "review_status": "PRIMARY_ISSUER_ANNOUNCEMENT_REOPENED_CLAIMS_PARTIALLY_VERIFIED",
+          "source_type": "ISSUER_PRESS_RELEASE",
+          "source_url": "https://www.repsol.com/en/press-room/press-releases/2026/repsol-masdar-partner-849-million-renewables-portfolio-spain/index.cshtml",
+          "source_publication_date": "2026-06-11",
+          "review_date": "2026-11-17",
+          "claims": [
+            {
+              "topic": "signed agreement",
+              "finding": "Repsol and Abu Dhabi Future Energy Company (Masdar) signed agreement for 49.99% of a Spanish renewable generation portfolio",
+              "evidence_classification": "AGREEMENT_NOT_SETTLEMENT",
+              "source_url": "https://www.repsol.com/en/press-room/press-releases/2026/repsol-masdar-partner-849-million-renewables-portfolio-spain/index.cshtml"
+            },
+            {
+              "topic": "portfolio valuation",
+              "finding": "EUR 849 million valuation of the entire portfolio; not a verified Masdar cash cheque",
+              "evidence_classification": "WHOLE_PORTFOLIO_VALUE_NOT_TICKET",
+              "source_url": "https://www.repsol.com/en/press-room/press-releases/2026/repsol-masdar-partner-849-million-renewables-portfolio-spain/index.cshtml"
+            },
+            {
+              "topic": "portfolio composition",
+              "finding": "705 MW operating capacity: 13 wind farms (402 MW), six solar parks (303 MW); >565 MW potential hybridisation pipeline",
+              "evidence_classification": "ISSUER_CONFIRMED",
+              "source_url": "https://www.repsol.com/en/press-room/press-releases/2026/repsol-masdar-partner-849-million-renewables-portfolio-spain/index.cshtml"
+            },
+            {
+              "topic": "financing",
+              "finding": "Repsol disclosed EUR 550 million syndicated portfolio financing arranged December 2025 from Banco Sabadell, Abanca, CaixaBank, BNP Paribas, UniCredit Bank and ICO; these are lenders, not Masdar equity syndicate",
+              "evidence_classification": "DEBT_FINANCING_SEPARATE_FROM_EQUITY",
+              "source_url": "https://www.repsol.com/en/press-room/press-releases/2026/repsol-masdar-partner-849-million-renewables-portfolio-spain/index.cshtml"
+            },
+            {
+              "topic": "closing",
+              "finding": "Closing anticipated toward end-2026, subject to regulatory approvals; not independently confirmed closed",
+              "evidence_classification": "ANNOUNCED_PENDING_CLOSE",
+              "source_url": "https://www.repsol.com/en/press-room/press-releases/2026/repsol-masdar-partner-849-million-renewables-portfolio-spain/index.cshtml"
+            },
+            {
+              "topic": "ownership",
+              "finding": "Masdar jointly owned by TAQA, ADNOC and Mubadala; not a direct sole Mubadala acquisition",
+              "evidence_classification": "CORPORATE_OWNERSHIP_NOT_FUND_LP",
+              "source_url": "https://www.repsol.com/en/press-room/press-releases/2026/repsol-masdar-partner-849-million-renewables-portfolio-spain/index.cshtml"
+            }
+          ],
+          "outstanding_evidence": [
+            "Ultimate Masdar acquisition SPV and ownership registry",
+            "Actual Masdar equity consideration and financing allocation; no multiplication of portfolio EV by stake",
+            "Independent closing notice and settled consideration",
+            "Pre-signing standalone audited project/SPV financial statements, FY2025 where available",
+            "Transaction lawyers, financial advisers and exact represented clients",
+            "Investor-specific cash flows and realized returns"
+          ]
+        }
       },
       "coverage": {
         "original_screening_category": "INVESTEE_TRANSACTION_CANDIDATE",
@@ -2023,7 +2076,13 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "Ultimate Masdar acquisition SPV and ownership registry",
+          "Actual Masdar equity consideration and financing allocation; no multiplication of portfolio EV by stake",
+          "Independent closing notice and settled consideration",
+          "Pre-signing standalone audited project/SPV financial statements, FY2025 where available",
+          "Transaction lawyers, financial advisers and exact represented clients",
+          "Investor-specific cash flows and realized returns"
         ],
         "requires_further_primary_research": true
       }
@@ -2905,7 +2964,7 @@
       "original_event_classification": "ACQUISITION_SIGNED",
       "source_inclusion_decision": "PROVISIONAL_ADMIT",
       "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "dossier_evidence_level": "PRIMARY_ISSUER_TRANSACTION_CLAIMS_REVIEWED_PARTIAL",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "L'IMAD / ADQ via AD Ports Group",
@@ -2961,7 +3020,8 @@
         "reopened_primary_claims": [],
         "source_urls": [
           "https://www.adportsgroup.com/en/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics",
-          "https://www.mbslogistics.com/en/news/mbs-logistics-to-be-acquired-by-ad-ports-group/"
+          "https://www.mbslogistics.com/en/news/mbs-logistics-to-be-acquired-by-ad-ports-group/",
+          "https://www.adportsgroup.com/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics/"
         ],
         "source_claim_blocks": [
           {
@@ -3015,7 +3075,55 @@
         "underlying_dossier": null,
         "unresolved_source_notes": [
           "Investor-specific amount and ultimate vehicle; company domicile where unverified; legal settlement beyond transaction-level evidence."
-        ]
+        ],
+        "primary_source_review_2026_11_17": {
+          "review_status": "PRIMARY_ISSUER_ANNOUNCEMENT_REOPENED_CLAIMS_PARTIALLY_VERIFIED",
+          "source_type": "ISSUER_PRESS_RELEASE",
+          "source_url": "https://www.adportsgroup.com/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics/",
+          "source_publication_date": "2026-05-18",
+          "review_date": "2026-11-17",
+          "claims": [
+            {
+              "topic": "signed agreement",
+              "finding": "AD Ports Group announced signed agreement to acquire 100% of MBS Logistics core business, excluding its joint ventures",
+              "evidence_classification": "ACQUISITION_AGREEMENT_NOT_CLOSING",
+              "source_url": "https://www.adportsgroup.com/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics/"
+            },
+            {
+              "topic": "enterprise value",
+              "finding": "AED 300 million / EUR 70 million enterprise value; not independently verified cash paid or equity consideration",
+              "evidence_classification": "ENTERPRISE_VALUE_NOT_INVESTOR_CHEQUE",
+              "source_url": "https://www.adportsgroup.com/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics/"
+            },
+            {
+              "topic": "historical target revenue",
+              "finding": "MBS Logistics reported 2025 revenue AED 870 million / EUR 205 million; issuer press figure, standalone audit status not evidenced",
+              "evidence_classification": "PRE_DECISION_MANAGEMENT_REPORTED_NOT_AUDITED",
+              "source_url": "https://www.adportsgroup.com/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics/"
+            },
+            {
+              "topic": "closing",
+              "finding": "Transaction subject to EU regulatory approval; expected H2 2026 as of announcement",
+              "evidence_classification": "CONDITIONAL_NO_VERIFIED_SETTLEMENT",
+              "source_url": "https://www.adportsgroup.com/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics/"
+            },
+            {
+              "topic": "buyer legal role",
+              "finding": "AD Ports Group PJSC named buyer; no separately verified acquisition SPV or direct L'IMAD investment in MBS",
+              "evidence_classification": "ISSUER_BUYER_IDENTIFIED_NOT_ULTIMATE_SPV",
+              "source_url": "https://www.adportsgroup.com/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics/"
+            }
+          ],
+          "outstanding_evidence": [
+            "Confirm final closing and EU competition approval",
+            "Legal asset perimeter and buyer SPV, if any",
+            "MBS 2025 audited standalone financial statements and accounting scope",
+            "Cash purchase price, assumed debt and purchase-price adjustment",
+            "Independent law-firm and financial-adviser client engagements",
+            "L'IMAD ownership attribution as of 2026-05-18; do not infer later ownership retroactively",
+            "Investor-specific realized return and exit cash flows"
+          ]
+        }
       },
       "coverage": {
         "original_screening_category": "INVESTEE_TRANSACTION_CANDIDATE",
@@ -3030,7 +3138,14 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "Confirm final closing and EU competition approval",
+          "Legal asset perimeter and buyer SPV, if any",
+          "MBS 2025 audited standalone financial statements and accounting scope",
+          "Cash purchase price, assumed debt and purchase-price adjustment",
+          "Independent law-firm and financial-adviser client engagements",
+          "L'IMAD ownership attribution as of 2026-05-18; do not infer later ownership retroactively",
+          "Investor-specific realized return and exit cash flows"
         ],
         "requires_further_primary_research": true
       }
