@@ -523,7 +523,7 @@
       "original_event_classification": "EQUITY_ROUND",
       "source_inclusion_decision": null,
       "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_REVIEWED_PARTIAL",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "Mubadala",
@@ -618,10 +618,118 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "Ultimate legal Mubadala investment subsidiary not disclosed",
+          "Second UAE sovereign investor unnamed",
+          "Company's audited financial statements available before 2026-01-27 not obtained",
+          "Ownership percentages and transaction closing/settlement not confirmed",
+          "Mubadala investor-specific realized proceeds and returns not available"
         ],
         "requires_further_primary_research": true
-      }
+      },
+      "primary_source_verification": [
+        {
+          "url": "https://www.mubadala.com/en/news/property-finder-announces-170m-investment-led-by-mubadala-with-uae-sovereign-fund-and-beco-capital",
+          "source_type": "INVESTOR_HOSTED_COMPANY_ANNOUNCEMENT",
+          "published_date": "2026-02-11",
+          "event_date": "2026-01-27",
+          "reviewed_on": "2026-11-17",
+          "review_state": "DIRECT_SOURCE_REVIEWED_TRANSACTION_TERMS_ONLY",
+          "claims": [
+            {
+              "field": "round_total_usd",
+              "value": 170000000,
+              "basis": "NEW_2026_EQUITY_INVESTMENT_TOTAL",
+              "state": "ISSUER_REVIEWED"
+            },
+            {
+              "field": "mubadala_individual_commitment_usd",
+              "value": 75000000,
+              "basis": "ANNOUNCED_COMMITMENT_NOT_SETTLEMENT",
+              "state": "ISSUER_REVIEWED"
+            },
+            {
+              "field": "unnamed_uae_sovereign_individual_commitment_usd",
+              "value": 75000000,
+              "basis": "ANNOUNCED_COMMITMENT_NOT_SETTLEMENT",
+              "state": "ISSUER_REVIEWED"
+            },
+            {
+              "field": "beco_growth_fund_i_commitment_usd",
+              "value": 20000000,
+              "basis": "ANNOUNCED_COMMITMENT_NOT_SETTLEMENT",
+              "state": "ISSUER_REVIEWED"
+            },
+            {
+              "field": "previous_2025_equity_round_usd",
+              "value": 525000000,
+              "basis": "SEPARATE_PREVIOUS_FINANCING_NOT_PART_OF_2026_ROUND",
+              "state": "ISSUER_REVIEWED"
+            },
+            {
+              "field": "separate_debt_financing_usd",
+              "value": 250000000,
+              "basis": "DEBT_FROM_ARES_MANAGEMENT_AND_HSBC_NOT_2026_EQUITY",
+              "state": "ISSUER_REVIEWED"
+            }
+          ],
+          "syndicate_participants": [
+            {
+              "name": "Unnamed UAE sovereign wealth fund",
+              "role": "2026 co-investor",
+              "ticket_usd": 75000000,
+              "identity_verified": false
+            },
+            {
+              "name": "BECO Capital Growth Fund I",
+              "role": "2026 co-investor",
+              "ticket_usd": 20000000,
+              "identity_verified": true
+            },
+            {
+              "name": "Permira-advised funds",
+              "role": "2025 previous equity lead, not confirmed 2026 co-investor"
+            },
+            {
+              "name": "Blackstone Growth",
+              "role": "2025 previous equity participant, not confirmed 2026 co-investor"
+            },
+            {
+              "name": "General Atlantic",
+              "role": "2018 investor and continuing shareholder"
+            }
+          ],
+          "deal_service_providers": [
+            {
+              "name": "J.P. Morgan",
+              "role": "Sole placement agent",
+              "client": "Property Finder"
+            },
+            {
+              "name": "Moelis & Company",
+              "role": "Independent financial adviser",
+              "client": "Property Finder"
+            },
+            {
+              "name": "Freshfields LLP",
+              "role": "Legal counsel",
+              "client": "Property Finder"
+            },
+            {
+              "name": "Cooley LLP",
+              "role": "Legal counsel",
+              "client": "Michael Lahyani"
+            }
+          ],
+          "unresolved": [
+            "Ultimate legal Mubadala investment subsidiary not disclosed",
+            "Second UAE sovereign investor unnamed",
+            "Company's audited financial statements available before 2026-01-27 not obtained",
+            "Ownership percentages and transaction closing/settlement not confirmed",
+            "Mubadala investor-specific realized proceeds and returns not available"
+          ]
+        }
+      ]
     },
     {
       "record_id": "GSI26JF-004",
@@ -1786,7 +1894,7 @@
       "original_event_classification": "EQUITY_FINANCING",
       "source_inclusion_decision": "CORE_PROVISIONAL",
       "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_REVIEWED_PARTIAL",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -1971,10 +2079,92 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "QIA's specific legal subscription vehicle and ticket amount undisclosed",
+          "Pre-entry audited financial statements not located",
+          "QIA individual equity percentage undisclosed",
+          "Individual investor cash flows and any realized returns unavailable"
         ],
         "requires_further_primary_research": true
-      }
+      },
+      "primary_source_verification": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/califia-farms-completes-landmark-225-million-financing-with-diverse-group-of-global-investors-300987171.html",
+          "source_type": "ISSUER_DISTRIBUTED_PRESS_RELEASE",
+          "published_date": "2020-01-15",
+          "event_date": "2020-01-15",
+          "reviewed_on": "2026-11-17",
+          "review_state": "DIRECT_SOURCE_REVIEWED_TRANSACTION_TERMS_ONLY",
+          "claims": [
+            {
+              "field": "series_d_total_usd",
+              "value": 225000000,
+              "basis": "ENTIRE_COMPLETED_SERIES_D_NOT_QIA_SPECIFIC",
+              "state": "COMPANY_PRESS_RELEASE_REVIEWED"
+            },
+            {
+              "field": "qia_specific_ticket_usd",
+              "value": null,
+              "basis": "UNDISCLOSED_NOT_INFERRED_FROM_ROUND",
+              "state": "NOT_DISCLOSED"
+            },
+            {
+              "field": "ownership_percent",
+              "value": null,
+              "basis": "MINORITY_NEW_INVESTOR_GROUP_WITHOUT_STAKE_ALLOCATION",
+              "state": "NOT_DISCLOSED"
+            }
+          ],
+          "syndicate_participants": [
+            {
+              "name": "Temasek",
+              "role": "Series D investor"
+            },
+            {
+              "name": "Claridge",
+              "role": "Series D investor"
+            },
+            {
+              "name": "Green Monday Ventures",
+              "role": "Series D investor"
+            },
+            {
+              "name": "Unnamed Latin American family investor",
+              "role": "Series D investor; legal identity undisclosed"
+            },
+            {
+              "name": "Sun Pacific",
+              "role": "Existing shareholder, not verified Series D participant"
+            },
+            {
+              "name": "Stripes",
+              "role": "Existing shareholder, not verified Series D participant"
+            },
+            {
+              "name": "Ambrosia Investments",
+              "role": "Existing shareholder, not verified Series D participant"
+            }
+          ],
+          "deal_service_providers": [
+            {
+              "name": "Barclays",
+              "role": "Exclusive financial adviser and sole placement agent",
+              "client": "Califia Farms"
+            },
+            {
+              "name": "Akin Gump",
+              "role": "Legal counsel",
+              "client": "Califia Farms (client attribution based on company announcement; engagement side not independently corroborated)"
+            }
+          ],
+          "unresolved": [
+            "QIA's specific legal subscription vehicle and ticket amount undisclosed",
+            "Pre-entry audited financial statements not located",
+            "QIA individual equity percentage undisclosed",
+            "Individual investor cash flows and any realized returns unavailable"
+          ]
+        }
+      ]
     },
     {
       "record_id": "GSI-2020-002",
