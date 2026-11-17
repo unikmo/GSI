@@ -1775,26 +1775,51 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "SECONDARY_EXISTING_EQUITY",
       "source_inclusion_decision": "RETAIN_VERIFIED_SINGLE_ECONOMIC_TRANSACTION",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_ELIGIBLE_SINGLE_EQUITY_ACQUISITION",
+      "dossier_evidence_level": "PRIMARY_ISSUER_VERIFIED_PARTIAL",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "PIF",
         "reported_investing_entity": "SALIC (PIF)",
-        "legal_vehicle_verified": null,
-        "vehicle_source": null,
+        "legal_vehicle_verified": "Saudi Agricultural and Livestock Investment Company (SALIC)",
+        "vehicle_source": "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html",
         "vehicle_claim_from_unreviewed_dossier": null,
         "investor_origin_country": "Saudi Arabia"
       },
       "investee": {
         "reported_name": "Olam Agri Holdings additional 44.58% stake",
-        "legal_name_verified": null,
+        "legal_name_verified": "Olam Agri Holdings (Olam Agri; issuer naming)",
         "country": "Singapore",
         "previous_financials": {
           "revenue": null,
           "ebitda": null,
           "financial_period": null,
-          "verified_period_statements": [],
+          "verified_period_statements": [
+            {
+              "metric": "revenue",
+              "value": 33171.4,
+              "currency": "SGD",
+              "unit": "million",
+              "period_end": "2024-12-31",
+              "scope": "OLAM_AGRI_OPERATING_GROUP_SEGMENT_NOT_STANDALONE_LEGAL_ENTITY",
+              "report_publication_date": "2025-02-28",
+              "pre_signing_available": false,
+              "audit_status": "ISSUER_FINANCIAL_RESULTS_RELEASE_NOT_INDEPENDENT_STANDALONE_AUDIT",
+              "url": "https://www.olamgroup.com/news/all-news/PressReleaseFinancial/olam-group-delivers-nine-point-two-percent-ebit-growth-in-2024-driven-by-ofi-and-olam-agri.html"
+            },
+            {
+              "metric": "EBIT",
+              "value": 1023.8,
+              "currency": "SGD",
+              "unit": "million",
+              "period_end": "2024-12-31",
+              "scope": "OLAM_AGRI_OPERATING_GROUP_SEGMENT_NOT_EBITDA",
+              "report_publication_date": "2025-02-28",
+              "pre_signing_available": false,
+              "audit_status": "ISSUER_FINANCIAL_RESULTS_RELEASE_NOT_INDEPENDENT_STANDALONE_AUDIT",
+              "url": "https://www.olamgroup.com/news/all-news/PressReleaseFinancial/olam-group-delivers-nine-point-two-percent-ebit-growth-in-2024-driven-by-ofi-and-olam-agri.html"
+            }
+          ],
           "other_historical_claims": []
         }
       },
@@ -1804,20 +1829,127 @@
         "reported_event_status": "SIGNED_2025_02_24_CLOSED_2026_04_27",
         "original_amount": "1880",
         "currency": "USD",
-        "amount_scope": "USD1780M_FEBRUARY_AGREED_FIRST_TRANCHE_SUBJECT_TO_CLOSING_ADJUSTMENTS",
-        "amount_evidence_state": "SIGNED_2025_02_24_CLOSED_2026_04_27",
-        "economic_term_claims": [],
+        "amount_scope": "USD_MILLIONS_CLOSING_ADJUSTED_44_58_PERCENT_TRANCHE_1_CONSIDERATION_NOT_ENTERPRISE_VALUE",
+        "amount_evidence_state": "ISSUER_CONFIRMED_CLOSING_CONSIDERATION_NOT_BANK_TRANSFER_AUDITED",
+        "economic_term_claims": [
+          {
+            "field": "signed_base_consideration",
+            "value": 1780,
+            "currency": "USD",
+            "unit": "million",
+            "as_of": "2025-02-24",
+            "status": "ISSUER_SIGNED_AGREEMENT",
+            "url": "https://www.olamgroup.com/news/all-news/press-release/proposed-sale-of-olam-group-remaining-64-point-57-percent-stake-in-olam-agri-to-salic.html"
+          },
+          {
+            "field": "completed_tranche1_consideration",
+            "value": 1880,
+            "currency": "USD",
+            "unit": "million",
+            "as_of": "2026-04-27",
+            "status": "ISSUER_CLOSING_CONFIRMED",
+            "url": "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html"
+          },
+          {
+            "field": "target_implied_100_percent_equity_value",
+            "value": 4000,
+            "currency": "USD",
+            "unit": "million",
+            "as_of": "2026-04-27",
+            "status": "ISSUER_DISCLOSED_VALUATION_NOT_INVESTOR_TICKET",
+            "url": "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html"
+          },
+          {
+            "field": "preexisting_salic_stake",
+            "value": 35.43,
+            "unit": "percent",
+            "as_of": "2025-02-24",
+            "status": "ISSUER_CONFIRMED_PRIOR_HOLDING",
+            "url": "https://www.olamgroup.com/news/all-news/press-release/proposed-sale-of-olam-group-remaining-64-point-57-percent-stake-in-olam-agri-to-salic.html"
+          },
+          {
+            "field": "salic_stake_at_tranche1_close",
+            "value": 80.01,
+            "unit": "percent",
+            "as_of": "2026-04-27",
+            "status": "ISSUER_CONFIRMED_OWNERSHIP",
+            "url": "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html"
+          },
+          {
+            "field": "salic_stake_after_CFG_SHARE_ISSUANCE",
+            "value": 81.81,
+            "unit": "percent",
+            "as_of": "2026-06-30",
+            "status": "ISSUER_SUBSEQUENT_EVENT_NOT_ORIGINAL_CASH_TICKET",
+            "url": "https://www.olamgroup.com/investors/our-re-organisation.html"
+          }
+        ],
         "transaction_terms": null,
-        "lifecycle_events": []
+        "lifecycle_events": [
+          {
+            "date": "2022-12",
+            "event": "PRIOR_35_43_PERCENT_ACQUISITION",
+            "amount_usd_millions": 1290,
+            "amount_scope": "2022_INITIAL_TRANSACTION_FINAL_CONSIDERATION_INCLUDING_2023_ADJUSTMENTS",
+            "url": "https://www.olamgroup.com/news/all-news/press-release/proposed-sale-of-olam-group-remaining-64-point-57-percent-stake-in-olam-agri-to-salic.html"
+          },
+          {
+            "date": "2025-02-24",
+            "event": "SIGNED_ADDITIONAL_44_58_PERCENT",
+            "amount_usd_millions": 1780,
+            "url": "https://www.olamgroup.com/news/all-news/press-release/proposed-sale-of-olam-group-remaining-64-point-57-percent-stake-in-olam-agri-to-salic.html"
+          },
+          {
+            "date": "2026-04-27",
+            "event": "CLOSED_ADDITIONAL_44_58_PERCENT",
+            "amount_usd_millions": 1880,
+            "url": "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html"
+          },
+          {
+            "date": "2026-06-30",
+            "event": "CONTINENTAL_FARMERS_GROUP_CONTRIBUTED_FOR_NEW_OLAM_AGRI_SHARES",
+            "cash_ticket": null,
+            "post_event_salic_ownership_percent": 81.81,
+            "url": "https://www.olamgroup.com/investors/our-re-organisation.html"
+          },
+          {
+            "date": null,
+            "event": "FUTURE_19_99_PERCENT_PUT_CALL_NOT_YET_COMPLETED",
+            "option_terms": "USD864.9m reference amount plus contractual 6% IRR; not SALIC realised IRR",
+            "url": "https://www.olamgroup.com/investors/our-re-organisation.html"
+          }
+        ]
       },
       "counterparties": {
         "master_syndicate_relationships": [],
         "verified_co_investor_announcements": [],
         "source_ownership_claims": null,
-        "investor_ownership_stake_percent": null
+        "investor_ownership_stake_percent": 80.01
       },
       "service_providers": {
-        "verified_issuer_disclosed_adviser_engagements": [],
+        "verified_issuer_disclosed_adviser_engagements": [
+          {
+            "firm": "Rothschild & Co Singapore Limited",
+            "role": "lead financial adviser",
+            "client": "Olam Group Limited (seller)",
+            "source_url": "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html",
+            "source_date": "2026-04-27"
+          },
+          {
+            "firm": "Citigroup Global Markets Singapore Pte. Ltd.",
+            "role": "joint financial adviser",
+            "client": "Olam Group Limited (seller)",
+            "source_url": "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html",
+            "source_date": "2026-04-27"
+          },
+          {
+            "firm": "The Hongkong and Shanghai Banking Corporation Limited, Singapore Branch",
+            "role": "joint financial adviser",
+            "client": "Olam Group Limited (seller)",
+            "source_url": "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html",
+            "source_date": "2026-04-27"
+          }
+        ],
         "legal_adviser_research_status": "INCOMPLETE_UNLESS_LISTED"
       },
       "returns": {
@@ -1832,7 +1964,9 @@
         "reopened_primary_claims": [],
         "source_urls": [
           "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html",
-          "https://www.olamgroup.com/news/all-news/press-release/proposed-sale-of-olam-group-remaining-64-point-57-percent-stake-in-olam-agri-to-salic.html"
+          "https://www.olamgroup.com/news/all-news/press-release/proposed-sale-of-olam-group-remaining-64-point-57-percent-stake-in-olam-agri-to-salic.html",
+          "https://www.olamgroup.com/investors/our-re-organisation.html",
+          "https://www.olamgroup.com/news/all-news/PressReleaseFinancial/olam-group-delivers-nine-point-two-percent-ebit-growth-in-2024-driven-by-ofi-and-olam-agri.html"
         ],
         "source_claim_blocks": [
           {
@@ -1943,16 +2077,34 @@
         "record_type_review_needed": "FINANCIAL_VEHICLE_OWNERSHIP_ADVISER_EVIDENCE",
         "existing_source_research_count": 3,
         "completeness_gaps": [
-          "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
-          "INVESTEE_LEGAL_IDENTITY_NOT_VERIFIED",
-          "PRE_ENTRY_AUDITED_REVENUE_NOT_EXTRACTED",
-          "PRE_ENTRY_AUDITED_EBITDA_NOT_VERIFIED_OR_NOT_APPLICABLE",
-          "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
-          "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
-          "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ULTIMATE_SPECIAL_PURPOSE_HOLDCO_OR_REGISTERED_SHAREHOLDER",
+          "BANK_CONFIRMED_PAID_CASH_AND_FUNDING_SOURCES",
+          "AUDITED_STANDALONE_PRE_SIGNING_FINANCIALS",
+          "BUYER_LEGAL_AND_FINANCIAL_ADVISERS",
+          "REALIZED_INVESTOR_SPECIFIC_RETURN",
+          "FUTURE_TRANCHE_2_COMPLETION"
         ],
         "requires_further_primary_research": true
+      },
+      "primary_source_review": {
+        "status": "DIRECT_ISSUER_SOURCE_REVIEWED",
+        "reviewed_on": "2026-11-17",
+        "eligibility": "ELIGIBLE_SINGLE_EQUITY_ACQUISITION_2025_AGREEMENT_2026_CLOSE",
+        "source_urls": [
+          "https://www.olamgroup.com/news/all-news/press-release/proposed-sale-of-olam-group-remaining-64-point-57-percent-stake-in-olam-agri-to-salic.html",
+          "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html",
+          "https://www.olamgroup.com/investors/our-re-organisation.html",
+          "https://www.olamgroup.com/news/all-news/PressReleaseFinancial/olam-group-delivers-nine-point-two-percent-ebit-growth-in-2024-driven-by-ofi-and-olam-agri.html"
+        ],
+        "financial_vintage_caveat": "FY2024 Olam Agri segment results were published February 28 2025 AFTER February 24 signing and must NOT be represented as pre-decision information.",
+        "unverified_fields": [
+          "ULTIMATE_SPECIAL_PURPOSE_HOLDCO_OR_REGISTERED_SHAREHOLDER",
+          "BANK_CONFIRMED_PAID_CASH_AND_FUNDING_SOURCES",
+          "AUDITED_STANDALONE_PRE_SIGNING_FINANCIALS",
+          "BUYER_LEGAL_AND_FINANCIAL_ADVISERS",
+          "REALIZED_INVESTOR_SPECIFIC_RETURN",
+          "FUTURE_TRANCHE_2_COMPLETION"
+        ]
       }
     },
     {
