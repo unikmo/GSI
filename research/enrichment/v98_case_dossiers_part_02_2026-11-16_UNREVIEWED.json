@@ -2678,9 +2678,9 @@
       "record_id": "GSI-2020-007",
       "dossier_type": "HOLD_OR_NONTRANSACTION_SCREEN",
       "original_event_classification": "MANDATE_POLICY",
-      "source_inclusion_decision": "MONITORING",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "source_inclusion_decision": "EXCLUDE_FROM_TRANSACTION_COUNTS_RETAIN_POLICY_CONTEXT",
+      "analyst_classification_status": "PRIMARY_SOURCE_REVIEWED_NONTRANSACTION_POLICY",
+      "dossier_evidence_level": "TWO_QIA_PRIMARY_PAGES_REVIEWED_POLICY_NOT_INVESTMENT",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -2733,7 +2733,28 @@
       "evidence": {
         "primary_source": "https://www.qia.qa/en/About/Pages/Sustainability.aspx",
         "independent_source": "https://www.qia.qa/en/about/pages/History.aspx",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://www.qia.qa/en/About/Pages/Sustainability.aspx",
+            "source_type": "QIA_OFFICIAL_SUSTAINABILITY_PAGE",
+            "source_review_date": "2026-11-17",
+            "source_publication_date": "NOT_STATED_ON_PAGE",
+            "historical_event_date": "2020-01",
+            "claim": "QIA announced in January 2020 that it would no longer deploy new investments in hydrocarbons.",
+            "review_status": "DIRECT_PRIMARY_SOURCE_VERIFIED",
+            "economic_event_eligibility": "NONTRANSACTION_POLICY"
+          },
+          {
+            "source_url": "https://www.qia.qa/en/about/pages/History.aspx",
+            "source_type": "QIA_OFFICIAL_HISTORY_PAGE",
+            "source_review_date": "2026-11-17",
+            "source_publication_date": "NOT_STATED_ON_PAGE",
+            "historical_event_date": "2020",
+            "claim": "QIA history describes CEO announcement at World Economic Forum of no new fossil-fuel investments; strategic reorganisation in 2020.",
+            "review_status": "DIRECT_PRIMARY_SOURCE_VERIFIED",
+            "economic_event_eligibility": "NONTRANSACTION_POLICY"
+          }
+        ],
         "source_urls": [
           "https://www.qia.qa/en/About/Pages/Sustainability.aspx",
           "https://www.qia.qa/en/about/pages/History.aspx"
@@ -2766,16 +2787,11 @@
       },
       "coverage": {
         "original_screening_category": "HOLD_OR_NONTRANSACTION_SCREEN",
-        "record_type_review_needed": "SOURCE_REVIEW_REQUIRED",
+        "record_type_review_needed": "PRIMARY_SOURCE_SCREEN_COMPLETED_NONTRANSACTION",
         "existing_source_research_count": 1,
-        "completeness_gaps": [
-          "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
-          "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
-          "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
-          "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
-        ],
-        "requires_further_primary_research": true
+        "completeness_gaps": [],
+        "requires_further_primary_research": false,
+        "non_applicable_transaction_fields_reason": "2020 QIA fossil-fuel new-investment policy announcement; no investee, investment vehicle, ticket, financial statements, advisers or realized returns associated with this policy event."
       }
     },
     {
