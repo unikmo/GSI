@@ -9620,8 +9620,8 @@
       "dossier_type": "EXCLUDED_OR_DUPLICATE_SCREEN",
       "original_event_classification": "ACQUISITION",
       "source_inclusion_decision": "EXCLUDE_DUPLICATE_CLOSING_STAGE_GSI25F02-001",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_DUPLICATE_CLOSING_STAGE_OF_GSI25F02-001",
+      "dossier_evidence_level": "PRIMARY_ISSUER_VERIFIED_DUPLICATE_DISPOSITION",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "PIF",
@@ -9677,7 +9677,9 @@
         "reopened_primary_claims": [],
         "source_urls": [
           "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html",
-          "https://www.pif.gov.sa/en/news-and-insights/newswire/2026/salic-raises-stake-in-olam-agri-to-80-for-stronger-role-in-global-food-supply-chains/"
+          "https://www.pif.gov.sa/en/news-and-insights/newswire/2026/salic-raises-stake-in-olam-agri-to-80-for-stronger-role-in-global-food-supply-chains/",
+          "https://www.olamgroup.com/news/all-news/press-release/proposed-sale-of-olam-group-remaining-64-point-57-percent-stake-in-olam-agri-to-salic.html",
+          "https://www.olamgroup.com/investors/our-re-organisation.html"
         ],
         "source_claim_blocks": [
           {
@@ -9786,13 +9788,22 @@
         "record_type_review_needed": "SOURCE_REVIEW_REQUIRED",
         "existing_source_research_count": 3,
         "completeness_gaps": [
-          "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
-          "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
-          "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
-          "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "CLOSING_DUPLICATE_RESOLVED_CANONICAL_GSI25F02-001"
         ],
         "requires_further_primary_research": true
+      },
+      "source_review": {
+        "reviewed_on": "2026-11-17",
+        "status": "ISSUER_CLOSING_AND_ORIGINAL_AGREEMENT_RECONCILED",
+        "economic_event_key": "OLAM_AGRI_SALIC_2025_2026_44_58_PERCENT",
+        "canonical_master_record_id": "GSI25F02-001",
+        "classification": "EXCLUDE_FROM_UNIQUE_INVESTMENT_COUNTS_CLOSING_OF_ALREADY_COUNTED_2025_AGREEMENT",
+        "sources": [
+          "https://www.olamgroup.com/news/all-news/press-release/proposed-sale-of-olam-group-remaining-64-point-57-percent-stake-in-olam-agri-to-salic.html",
+          "https://www.olamgroup.com/news/all-news/press-release/olam-group-announces-completion-of-44-point-58-stake-sale-in-olam-agri-to-salic.html",
+          "https://www.olamgroup.com/investors/our-re-organisation.html"
+        ],
+        "reason": "April 2026 closing of February 2025 signed 44.58% equity acquisition, not another 44.58% capital commitment; later June 2026 CFG share issuance separate noncash event."
       }
     },
     {
