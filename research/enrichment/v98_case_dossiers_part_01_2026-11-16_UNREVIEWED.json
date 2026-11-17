@@ -238,8 +238,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "EQUITY_TRANSACTION",
       "source_inclusion_decision": "RETAIN_PROVISIONAL",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_ELIGIBLE_MIXED_PRIMARY_SECONDARY_EQUITY_ROUND",
+      "dossier_evidence_level": "INVESTOR_PRIMARY_ANNOUNCEMENT_REVIEWED_FINANCIALS_UNAUDITED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -258,7 +258,20 @@
           "ebitda": null,
           "financial_period": null,
           "verified_period_statements": [],
-          "other_historical_claims": []
+          "other_historical_claims": [
+            {
+              "metric": "revenue",
+              "value_lower_bound": 250,
+              "currency": "EUR",
+              "unit": "million",
+              "period_end": "2025-12-31",
+              "source_published": "2026-06-09",
+              "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx",
+              "audit_status": "INVESTOR_PRESS_RELEASE_UNAUDITED_NOT_AUDITED_FINANCIAL_STATEMENTS",
+              "pre_entry_public_availability": "NOT_ESTABLISHED",
+              "scope": "ICEYE company reported revenue"
+            }
+          ]
         }
       },
       "transaction": {
@@ -268,14 +281,66 @@
         "original_amount": null,
         "currency": null,
         "amount_scope": "€1bn total financing includes primary and secondary; QIA individual amount not disclosed",
-        "amount_evidence_state": "TARGET_PRIMARY_CORROBORATION; INVESTOR_TICKET_UNRESOLVED",
+        "amount_evidence_state": "INVESTOR_PRIMARY_CONFIRMED_EUR1BN_COMBINED_ROUND_EUR450M_PRIMARY_QIA_TICKET_UNDISCLOSED",
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "round": "Series F",
+          "total_round_eur_m": 1000,
+          "primary_placement_eur_m": 450,
+          "secondary_placement_amount_eur_m": null,
+          "secondary_amount_not_derivable_as_indIVidual_ticket": true,
+          "reported_valuation_eur_b_over": 10,
+          "lead_investor": "General Atlantic",
+          "qia_individual_ticket_eur_m": null,
+          "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx",
+          "source_date": "2026-06-09"
+        },
         "lifecycle_events": []
       },
       "counterparties": {
         "master_syndicate_relationships": [],
-        "verified_co_investor_announcements": [],
+        "verified_co_investor_announcements": [
+          {
+            "name": "General Atlantic",
+            "role": "LEAD_INVESTOR",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx"
+          },
+          {
+            "name": "Solidium",
+            "role": "OTHER_ROUND_PARTICIPANT",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx"
+          },
+          {
+            "name": "Tesi",
+            "role": "OTHER_ROUND_PARTICIPANT",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx"
+          },
+          {
+            "name": "Varma",
+            "role": "OTHER_ROUND_PARTICIPANT",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx"
+          },
+          {
+            "name": "Ilmarinen",
+            "role": "OTHER_ROUND_PARTICIPANT",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx"
+          },
+          {
+            "name": "Lifeline Ventures",
+            "role": "OTHER_ROUND_PARTICIPANT",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx"
+          },
+          {
+            "name": "Nokia",
+            "role": "OTHER_ROUND_PARTICIPANT",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx"
+          },
+          {
+            "name": "TCV",
+            "role": "OTHER_ROUND_PARTICIPANT",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx"
+          }
+        ],
         "source_ownership_claims": null,
         "investor_ownership_stake_percent": null
       },
@@ -292,7 +357,21 @@
       "evidence": {
         "primary_source": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx",
         "independent_source": "https://www.iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx",
+            "source_date": "2026-06-09",
+            "reviewed_on": "2026-11-18",
+            "classification": "INVESTOR_PRIMARY_ANNOUNCEMENT",
+            "verified_claims": [
+              "QIA named as participant in ICEYE Series F",
+              "EUR1bn total round combines primary and secondary components; EUR450m primary placement",
+              "General Atlantic led; seven other investors named",
+              "ICEYE 2025 revenue above EUR250m is an unaudited press-release claim, not verified pre-entry audited accounts",
+              "Round valuation above EUR10bn is not QIA ticket or realized value"
+            ]
+          }
+        ],
         "source_urls": [
           "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx",
           "https://www.iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round"
@@ -322,7 +401,8 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Investor-specific amount and ultimate vehicle; company domicile where unverified; legal settlement beyond transaction-level evidence."
+          "Investor-specific amount and ultimate vehicle; company domicile where unverified; legal settlement beyond transaction-level evidence.",
+          "QIA individual ticket, stake, investing legal vehicle, actual settlement, and separately audited pre-decision ICEYE accounts not established from 9 June 2026 QIA announcement."
         ]
       },
       "coverage": {
