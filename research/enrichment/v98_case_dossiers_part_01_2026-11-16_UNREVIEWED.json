@@ -2568,8 +2568,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "TAKE_PRIVATE",
       "source_inclusion_decision": "ADMIT_CANDIDATE",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_ELIGIBLE_CONSORTIUM_TAKE_PRIVATE",
+      "dossier_evidence_level": "PRIMARY_QIA_ANNOUNCEMENT_TRANSACTION_AND_ADVISERS_CHECKED_PARTIAL",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -2581,7 +2581,7 @@
       },
       "investee": {
         "reported_name": "Janus Henderson Group take-private",
-        "legal_name_verified": null,
+        "legal_name_verified": "Janus Henderson Group plc",
         "country": "United Kingdom;United States",
         "previous_financials": {
           "revenue": null,
@@ -2600,18 +2600,90 @@
         "amount_scope": "Total $7.4bn acquisition valuation, NOT QIA contribution",
         "amount_evidence_state": "REGULATORY_ARCHIVED_PRIMARY_RELEASE_CONFIRMATION; INVESTOR_ALLOCATION_UNKNOWN",
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "event_type": "TAKE_PRIVATE_ALL_CASH_CONSORTIUM",
+          "agreement_announced": "2025-12-22",
+          "total_equity_value_usd_m_approx": 7400,
+          "total_is_not_qia_ticket": true,
+          "consideration_per_non_trian_share_usd": 49,
+          "trian_prior_shareholding_percent": 20.6,
+          "financing": "Investment vehicles managed by Trian and General Catalyst; QIA, Sun Hung Kai & Co. and MassMutual named financing participants; debt lenders separately identified",
+          "closing_claim_in_master": "2026-06-30",
+          "closing_independently_rechecked_in_this_review": false,
+          "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA%2C-Trian-Fund-Management-and-General-Catalyst-Partner-in-Janus-Henderson-Group-plc-%247.4-Billion-Take-Private-Transaction.aspx",
+          "debt_financing_providers": [
+            "JPMorgan Chase Bank, N.A.",
+            "Citi",
+            "Bank of America, N.A.",
+            "Jefferies LLC",
+            "MUFG Bank, Ltd."
+          ]
+        },
         "lifecycle_events": []
       },
       "counterparties": {
         "master_syndicate_relationships": [],
-        "verified_co_investor_announcements": [],
+        "verified_co_investor_announcements": [
+          "Trian Fund Management and affiliated funds — acquiring consortium co-lead, prior shareholder",
+          "General Catalyst Group Management and affiliated funds — acquiring consortium co-lead",
+          "Sun Hung Kai & Co. Limited — strategic financing participant",
+          "MassMutual — financing participant; exact economic form not established"
+        ],
         "source_ownership_claims": null,
         "investor_ownership_stake_percent": null
       },
       "service_providers": {
-        "verified_issuer_disclosed_adviser_engagements": [],
-        "legal_adviser_research_status": "INCOMPLETE_UNLESS_LISTED"
+        "verified_issuer_disclosed_adviser_engagements": [
+          {
+            "firm": "Goldman Sachs & Co. LLC",
+            "role": "financial adviser",
+            "client": "Janus Henderson independent special committee",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA%2C-Trian-Fund-Management-and-General-Catalyst-Partner-in-Janus-Henderson-Group-plc-%247.4-Billion-Take-Private-Transaction.aspx"
+          },
+          {
+            "firm": "Wachtell, Lipton, Rosen & Katz",
+            "role": "legal adviser",
+            "client": "Janus Henderson independent special committee",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA%2C-Trian-Fund-Management-and-General-Catalyst-Partner-in-Janus-Henderson-Group-plc-%247.4-Billion-Take-Private-Transaction.aspx"
+          },
+          {
+            "firm": "Skadden, Arps, Slate, Meagher & Flom LLP",
+            "role": "legal adviser",
+            "client": "Janus Henderson",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA%2C-Trian-Fund-Management-and-General-Catalyst-Partner-in-Janus-Henderson-Group-plc-%247.4-Billion-Take-Private-Transaction.aspx"
+          },
+          {
+            "firm": "Centerview Partners",
+            "role": "long-standing adviser; transaction mandate not established",
+            "client": "Janus Henderson",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA%2C-Trian-Fund-Management-and-General-Catalyst-Partner-in-Janus-Henderson-Group-plc-%247.4-Billion-Take-Private-Transaction.aspx"
+          },
+          {
+            "firm": "Jefferies Financial Group Inc.",
+            "role": "financial adviser",
+            "client": "Investor Group",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA%2C-Trian-Fund-Management-and-General-Catalyst-Partner-in-Janus-Henderson-Group-plc-%247.4-Billion-Take-Private-Transaction.aspx"
+          },
+          {
+            "firm": "Citi",
+            "role": "financial adviser",
+            "client": "Investor Group",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA%2C-Trian-Fund-Management-and-General-Catalyst-Partner-in-Janus-Henderson-Group-plc-%247.4-Billion-Take-Private-Transaction.aspx"
+          },
+          {
+            "firm": "Debevoise & Plimpton LLP",
+            "role": "legal adviser",
+            "client": "Investor Group",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA%2C-Trian-Fund-Management-and-General-Catalyst-Partner-in-Janus-Henderson-Group-plc-%247.4-Billion-Take-Private-Transaction.aspx"
+          },
+          {
+            "firm": "Kirkland & Ellis LLP",
+            "role": "legal adviser",
+            "client": "Investor Group",
+            "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA%2C-Trian-Fund-Management-and-General-Catalyst-Partner-in-Janus-Henderson-Group-plc-%247.4-Billion-Take-Private-Transaction.aspx"
+          }
+        ],
+        "legal_adviser_research_status": "PRIMARY_QIA_ANNOUNCEMENT_IDENTIFIES_CLIENT_ROLES"
       },
       "returns": {
         "investor_specific_proceeds": null,
@@ -2741,6 +2813,15 @@
         "underlying_dossier": null,
         "unresolved_source_notes": [
           "Investor-specific amount and ultimate vehicle; company domicile where unverified; legal settlement beyond transaction-level evidence."
+        ],
+        "reviewed_primary_sources": [
+          {
+            "url": "https://www.qia.qa/en/Newsroom/Pages/QIA%2C-Trian-Fund-Management-and-General-Catalyst-Partner-in-Janus-Henderson-Group-plc-%247.4-Billion-Take-Private-Transaction.aspx",
+            "source_type": "INVESTOR_PRIMARY_ANNOUNCEMENT",
+            "published_on": "2025-12-22",
+            "reviewed_on": "2026-11-17",
+            "scope": "agreement, valuation, syndicate, adviser roles, financing; does not verify 2026 closing"
+          }
         ]
       },
       "coverage": {
@@ -2749,13 +2830,14 @@
         "existing_source_research_count": 3,
         "completeness_gaps": [
           "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
-          "INVESTEE_LEGAL_IDENTITY_NOT_VERIFIED",
           "PRE_ENTRY_AUDITED_REVENUE_NOT_EXTRACTED",
           "PRE_ENTRY_AUDITED_EBITDA_NOT_VERIFIED_OR_NOT_APPLICABLE",
-          "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "CLOSING_2026_06_30_MASTER_CLAIM_NOT_INDEPENDENTLY_RECHECKED_THIS_RUN",
+          "QIA_SPECIFIC_FINANCING_TICKET_AND_ULTIMATE_VEHICLE_UNDISCLOSED",
+          "2024_AUDITED_OR_2025_PRE_DECISION_FINANCIAL_STATEMENTS_NOT_EXTRACTED",
+          "ADVISER_ASSIGNMENTS_QIA_SPECIFIC_NOT_DISCLOSED"
         ],
         "requires_further_primary_research": true
       }
@@ -2765,8 +2847,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "ACQUISITION_SIGNED",
       "source_inclusion_decision": "PROVISIONAL_ADMIT",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_ELIGIBLE_SIGNED_EQUITY_ACQUISITION",
+      "dossier_evidence_level": "PRIMARY_ADVENT_ANNOUNCEMENT_CHECKED_PARTIAL",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "ADIA",
@@ -2797,12 +2879,29 @@
         "amount_scope": "Undisclosed ADIA ticket",
         "amount_evidence_state": null,
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "event_type": "SIGNED_PRIVATE_EQUITY_ACQUISITION",
+          "announced_on": "2026-11-02",
+          "lead_buyer": "Advent",
+          "seller_parties": [
+            "Charterhouse Capital Partners",
+            "Badreddine Ouali"
+          ],
+          "founder_rollover": "Badreddine Ouali will remain a shareholder",
+          "minority_coinvestor": "Wholly owned subsidiary of Abu Dhabi Investment Authority, legal subsidiary name not disclosed",
+          "closing_expected": "H1 2027, subject to regulatory approvals and customary conditions",
+          "individual_adia_ticket": null,
+          "ownership_percent_adia": null,
+          "source_url": "https://www.adventinternational.com/news/advent-to-acquire-vermeg-a-global-provider-of-capital-markets-and-life-insurance-technology/"
+        },
         "lifecycle_events": []
       },
       "counterparties": {
         "master_syndicate_relationships": [],
-        "verified_co_investor_announcements": [],
+        "verified_co_investor_announcements": [
+          "Advent — acquisition lead",
+          "Badreddine Ouali — founder continuing shareholder (rollover, not new cash investment)"
+        ],
         "source_ownership_claims": null,
         "investor_ownership_stake_percent": null
       },
@@ -2938,6 +3037,15 @@
         "underlying_dossier": null,
         "unresolved_source_notes": [
           "Obtain Vermeg legal-entity domicile, competition/registry closing notice; identify ADIA SPV."
+        ],
+        "reviewed_primary_sources": [
+          {
+            "url": "https://www.adventinternational.com/news/advent-to-acquire-vermeg-a-global-provider-of-capital-markets-and-life-insurance-technology/",
+            "source_type": "LEAD_BUYER_PRIMARY_ANNOUNCEMENT",
+            "published_on": "2026-11-02",
+            "reviewed_on": "2026-11-17",
+            "scope": "signed agreement, seller identities, ADIA wholly owned subsidiary minority participation, founder rollover and expected closing"
+          }
         ]
       },
       "coverage": {
@@ -2953,7 +3061,11 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ADIA_SUBSIDIARY_LEGAL_NAME_AND_FUND_ALLOCATION_NOT_DISCLOSED",
+          "ADIA_INDIVIDUAL_TICKET_AND_PERCENT_STAKE_NOT_DISCLOSED",
+          "FOUNDER_ROLLOVER_VALUE_UNDISCLOSED",
+          "STANDALONE_AUDITED_VERMEG_PRE_DECISION_FINANCIALS_NOT_RETRIEVED",
+          "BUYER_SELLER_LEGAL_AND_FINANCIAL_ADVISERS_NOT_IDENTIFIED_IN_REVIEWED_RELEASE"
         ],
         "requires_further_primary_research": true
       }
