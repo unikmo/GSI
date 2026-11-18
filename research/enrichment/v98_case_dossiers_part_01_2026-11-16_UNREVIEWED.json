@@ -754,8 +754,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "EQUITY_TRANSACTION",
       "source_inclusion_decision": "RETAIN_PROVISIONAL",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_ELIGIBLE_ANNOUNCED_LISTED_EQUITY_OFFERING_QIA_ALLOCATION_UNDISCLOSED",
+      "dossier_evidence_level": "TWO_PRIMARY_ISSUER_AND_INVESTOR_ANNOUNCEMENTS_OFFER_TERMS_VERIFIED_SETTLEMENT_UNCONFIRMED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -767,7 +767,7 @@
       },
       "investee": {
         "reported_name": "Public Power Corporation S.A.",
-        "legal_name_verified": null,
+        "legal_name_verified": "PUBLIC POWER CORPORATION SOCIETE ANONYME",
         "country": "Greece",
         "previous_financials": {
           "revenue": null,
@@ -780,13 +780,22 @@
       "transaction": {
         "announced_on": "2026-05-25",
         "completed_on": null,
-        "reported_event_status": "Participation reported",
+        "reported_event_status": "Issuer priced offering 20 May 2026; QIA confirmed anchor participation 25 May 2026; individual allotment and settlement not established",
         "original_amount": null,
         "currency": null,
         "amount_scope": "€4.25bn primary placement plus €250m secondary is offering-wide; QIA amount unknown",
         "amount_evidence_state": null,
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "offer_price_eur_per_share": 18.63,
+          "primary_offering_eur": 4250000000,
+          "primary_new_shares_expected": 228126677,
+          "secondary_treasury_shares_authorized_max": 13419217,
+          "secondary_treasury_sale_eur_approx": 250000000,
+          "scope": "ISSUER_WIDE_OFFERING_NOT_QIA_TICKET",
+          "source_url": "https://www.ppcgroup.com/media/equk1kuv/regulated-announcement-offering-price_eng.pdf",
+          "as_of": "2026-05-20"
+        },
         "lifecycle_events": []
       },
       "counterparties": {
@@ -839,7 +848,37 @@
         "underlying_dossier": null,
         "unresolved_source_notes": [
           "Locate PPC allocation reports and issuer documents"
-        ]
+        ],
+        "primary_source_review_2026_11_18": {
+          "review_status": "TWO_PRIMARY_SOURCES_DIRECTLY_CHECKED",
+          "reviewed_on": "2026-11-18",
+          "sources": [
+            {
+              "url": "https://www.ppcgroup.com/media/equk1kuv/regulated-announcement-offering-price_eng.pdf",
+              "issuer": "PPC",
+              "published_on": "2026-05-20",
+              "claims": "Legal issuer name; €18.63 offer price; €4.25bn new-share issue; 228,126,677 expected new shares; up to 13,419,217 treasury shares authorized; Greek state and Aeolus cornerstone amounts; QIA and K Group separately named as anchor demand",
+              "limitation": "20 May announcement explicitly disclaims assurance of completion; allocation and settlement not established"
+            },
+            {
+              "url": "https://qia.qa/en/Newsroom/Pages/QIA-Anchors-Public-Power-Corporations-Share-Capital-Increase.aspx",
+              "issuer": "QIA",
+              "published_on": "2026-05-25",
+              "claims": "QIA publicly confirms anchor participation and €4.25bn primary plus €250m secondary offering-wide amounts",
+              "limitation": "No QIA-specific subscription amount, legal subscriber or shareholding stated"
+            }
+          ],
+          "missing_claims": [
+            "QIA_FINAL_ALLOCATION",
+            "QIA_SETTLEMENT_DATE_AND_CASH",
+            "QIA_LEGAL_SUBSCRIBER",
+            "QIA_POST_ISSUE_OWNERSHIP_PERCENT",
+            "PPC_PRE_ENTRY_AUDITED_FINANCIALS",
+            "TRANSACTION_ADVISERS_WITH_REPRESENTED_PARTIES",
+            "INVESTOR_SPECIFIC_CASH_FLOWS_AND_RETURNS"
+          ],
+          "classification_note": "QIA and QIA-backed private K Group are separately named; do not equate domicile, strategic partnership, legal subscriber or ownership. Do not double count the primary issue and treasury placement as independent QIA investments."
+        }
       },
       "coverage": {
         "original_screening_category": "INVESTEE_TRANSACTION_CANDIDATE",
