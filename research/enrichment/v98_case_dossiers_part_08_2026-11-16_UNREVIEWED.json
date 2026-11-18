@@ -109,8 +109,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "REAL_ESTATE_ACQUISITION",
       "source_inclusion_decision": "NEW_PROVISIONAL_SECONDARY_SOURCES_ONLY",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "MASTER_SOURCE_ONLY",
+      "analyst_classification_status": "SOURCE_REVIEWED_ELIGIBLE_REAL_ESTATE_ACQUISITION_AGREEMENT",
+      "dossier_evidence_level": "PRIMARY_SELLER_ANNOUNCEMENT_VERIFIED_FINANCIALS_NOT_VERIFIED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -138,10 +138,21 @@
         "reported_event_status": "AGREED",
         "original_amount": null,
         "currency": "USD",
-        "amount_scope": "About S$3.4bn, reported as USD 2.45bn (one outlet S$3.38bn); price per sq ft varies S$2,650 to S$2,720 by source",
-        "amount_evidence_state": null,
+        "amount_scope": "Approximately SGD3.4bn (USD2.45bn) agreed asset purchase price per BlackRock seller release, not independently verified settled QIA cash transfer",
+        "amount_evidence_state": "SELLER_PRIMARY_ANNOUNCEMENT_AGREED_PURCHASE_PRICE_NOT_SETTLEMENT",
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "event_type": "SINGLE_OFFICE_TOWER_REAL_ESTATE_ACQUISITION_AGREEMENT",
+          "asset": "Asia Square Tower 1, Singapore",
+          "seller": "BlackRock",
+          "buyer_announced": "Qatar Investment Authority",
+          "agreed_price_sgd_billion_approx": 3.4,
+          "agreed_price_usd_billion_approx": 2.45,
+          "asset_net_lettable_area_sqft_over": 1250000,
+          "source_url": "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2016/Qatar-Investment-Authority-to-Acquire-Landmark-Asia-Square-Tower-in-the-Heart-of-Singapores-New-CBD-from-BlackRock/default.aspx",
+          "source_date": "2016-06-06",
+          "closing_not_verified": true
+        },
         "lifecycle_events": []
       },
       "counterparties": {
@@ -163,8 +174,23 @@
         "investor_ownership_stake_percent": null
       },
       "service_providers": {
-        "verified_issuer_disclosed_adviser_engagements": [],
-        "legal_adviser_research_status": "INCOMPLETE_UNLESS_LISTED"
+        "verified_issuer_disclosed_adviser_engagements": [
+          {
+            "name": "JLL",
+            "role": "JOINT_SOLE_TRANSACTION_ADVISER",
+            "represented_party": "BlackRock (seller)",
+            "source_url": "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2016/Qatar-Investment-Authority-to-Acquire-Landmark-Asia-Square-Tower-in-the-Heart-of-Singapores-New-CBD-from-BlackRock/default.aspx",
+            "source_date": "2016-06-06"
+          },
+          {
+            "name": "CBRE",
+            "role": "JOINT_SOLE_TRANSACTION_ADVISER",
+            "represented_party": "BlackRock (seller)",
+            "source_url": "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2016/Qatar-Investment-Authority-to-Acquire-Landmark-Asia-Square-Tower-in-the-Heart-of-Singapores-New-CBD-from-BlackRock/default.aspx",
+            "source_date": "2016-06-06"
+          }
+        ],
+        "legal_adviser_research_status": "BLACKROCK_SELLER_JLL_AND_CBRE_VERIFIED;LEGAL_COUNSEL_AND_BUYER_ADVISERS_NOT_VERIFIED"
       },
       "returns": {
         "investor_specific_proceeds": null,
@@ -173,17 +199,36 @@
         "source_linked_unverified_returns": null
       },
       "evidence": {
-        "primary_source": "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2016/Qatar-Investment-Authority-to-Acquire-Landmark-Asia-Square-Tower-in-the-Heart-of-Singapores-New-CBD-from-BlackRock/default.aspx (seller release, listed; not opened)",
+        "primary_source": "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2016/Qatar-Investment-Authority-to-Acquire-Landmark-Asia-Square-Tower-in-the-Heart-of-Singapores-New-CBD-from-BlackRock/default.aspx",
         "independent_source": "https://www.mingtiandi.com/real-estate/finance-real-estate/blackrock-confirms-sale-of-asia-square-tower-1-for-s3-4bil",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2016/Qatar-Investment-Authority-to-Acquire-Landmark-Asia-Square-Tower-in-the-Heart-of-Singapores-New-CBD-from-BlackRock/default.aspx",
+            "source_date": "2016-06-06",
+            "reviewed_on": "2026-11-18",
+            "classification": "SELLER_OFFICIAL_PRIMARY_PRESS_RELEASE",
+            "verified_claims": [
+              "QIA and BlackRock reached agreement to acquire Asia Square Tower 1",
+              "Approximately SGD3.4bn (USD2.45bn) announced transaction price",
+              "JLL and CBRE named joint sole advisers to BlackRock",
+              "Asset is 43-story office tower with over 1.25m square feet net lettable area",
+              "Announcement describes agreement, not confirmed closing or settlement"
+            ]
+          }
+        ],
         "source_urls": [
-          "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2016/Qatar-Investment-Authority-to-Acquire-Landmark-Asia-Square-Tower-in-the-Heart-of-Singapores-New-CBD-from-BlackRock/default.aspx (seller release, listed; not opened)",
-          "https://www.mingtiandi.com/real-estate/finance-real-estate/blackrock-confirms-sale-of-asia-square-tower-1-for-s3-4bil"
+          "https://www.mingtiandi.com/real-estate/finance-real-estate/blackrock-confirms-sale-of-asia-square-tower-1-for-s3-4bil",
+          "https://ir.blackrock.com/news-and-events/press-releases/press-releases-details/2016/Qatar-Investment-Authority-to-Acquire-Landmark-Asia-Square-Tower-in-the-Heart-of-Singapores-New-CBD-from-BlackRock/default.aspx"
         ],
         "source_claim_blocks": [],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Closing date; QIA release"
+          "Closing date; QIA release",
+          "Verify ultimate QIA legal purchasing vehicle and title transfer in Singapore land/ACRA records",
+          "Find actual closing date and evidence of settled consideration; announced agreement price is not cash-flow proof",
+          "Seek pre-entry asset-level audited rental income and operating results; do not substitute BlackRock consolidated accounts",
+          "Verify buyer counsel, seller counsel and buyer financial adviser from law-firm/party releases",
+          "No attributable investor distributions or divestment proceeds; IRR/MOIC remain null"
         ]
       },
       "coverage": {
@@ -199,7 +244,10 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "AGREED_PRICE_NOT_INDEPENDENTLY_CONFIRMED_SETTLED",
+          "ASSET_LEVEL_PRE_ENTRY_AUDITED_FINANCIALS_NOT_VERIFIED",
+          "BUYER_AND_LEGAL_ADVISERS_NOT_VERIFIED"
         ],
         "requires_further_primary_research": true
       }
