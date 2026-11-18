@@ -496,8 +496,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "EQUITY_TRANSACTION",
       "source_inclusion_decision": "RETAIN_PROVISIONAL",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_ELIGIBLE_CLOSED_SERIES_D_QIA_TICKET_UNDISCLOSED",
+      "dossier_evidence_level": "TWO_INDEPENDENT_PARTY_PRIMARY_ANNOUNCEMENTS_ROUND_CLOSED_NO_AUDITED_FINANCIALS",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -522,24 +522,79 @@
       "transaction": {
         "announced_on": "2026-06-22",
         "completed_on": null,
-        "reported_event_status": "ROUND_CLOSED_QIA_PARTICIPANT_AMOUNT_UNDISCLOSED",
+        "reported_event_status": "ISSUER_REPORTS_SUCCESSFUL_SERIES_D_CLOSURE_2026_06_22_QIA_ALLOCATION_UNDISCLOSED",
         "original_amount": null,
         "currency": null,
-        "amount_scope": "$380m is total financing round, not QIA allocation",
-        "amount_evidence_state": "INVESTOR_AND_TARGET_PRIMARY_CORROBORATION; QIA_TICKET_UNRESOLVED",
+        "amount_scope": "USD380m issuer-confirmed total closed Series D; USD1.6bn announced valuation basis unspecified; QIA individual ticket unknown",
+        "amount_evidence_state": "ISSUER_AND_QIA_PRIMARY_CONFIRMED_WHOLE_ROUND_ONLY",
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "round": "Series D",
+          "round_total_usd_m": 380,
+          "valuation_usd_m": 1600,
+          "valuation_basis": "NOT_DISCLOSED_PRE_OR_POST_MONEY",
+          "lead_investor": "Fidelity Management & Research Company",
+          "qia_ticket_usd_m": null,
+          "qia_stake_percent": null,
+          "issuer_closing_announcement_date": "2026-06-22",
+          "issuer_closing_is_not_independent_QIA_SETTLEMENT_CONFIRMATION": true,
+          "source_urls": [
+            "https://qia.qa/en/Newsroom/Pages/QIA-Participates-in-Nearfield-Instruments%27-%24380-Million-Series-D-Funding-Round.aspx",
+            "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/"
+          ]
+        },
         "lifecycle_events": []
       },
       "counterparties": {
         "master_syndicate_relationships": [],
-        "verified_co_investor_announcements": [],
+        "verified_co_investor_announcements": [
+          {
+            "name": "Fidelity Management & Research Company",
+            "role": "ROUND_LEAD_NEW_INVESTOR",
+            "source_url": "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/"
+          },
+          {
+            "name": "Temasek",
+            "role": "ROUND_PARTICIPANT",
+            "source_url": "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/"
+          },
+          {
+            "name": "Walden Catalyst Ventures",
+            "role": "ROUND_PARTICIPANT",
+            "source_url": "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/"
+          },
+          {
+            "name": "Innovation Industries",
+            "role": "ROUND_PARTICIPANT",
+            "source_url": "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/"
+          },
+          {
+            "name": "M&G Investments",
+            "role": "ROUND_PARTICIPANT",
+            "source_url": "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/"
+          },
+          {
+            "name": "Invest-NL",
+            "role": "ROUND_PARTICIPANT",
+            "source_url": "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/"
+          },
+          {
+            "name": "TNO Ventures",
+            "role": "EXISTING_INVESTOR_PARTICIPANT",
+            "source_url": "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/"
+          },
+          {
+            "name": "ING",
+            "role": "EXISTING_INVESTOR_PARTICIPANT",
+            "source_url": "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/"
+          }
+        ],
         "source_ownership_claims": null,
         "investor_ownership_stake_percent": null
       },
       "service_providers": {
         "verified_issuer_disclosed_adviser_engagements": [],
-        "legal_adviser_research_status": "INCOMPLETE_UNLESS_LISTED"
+        "legal_adviser_research_status": "NO_TRANSACTION_SPECIFIC_FINANCIAL_OR_LEGAL_ADVISERS_NAMED_IN_TWO_REVIEWED_PRIMARY_ANNOUNCEMENTS;OTHER_SOURCES_NOT_EXHAUSTED"
       },
       "returns": {
         "investor_specific_proceeds": null,
@@ -550,7 +605,30 @@
       "evidence": {
         "primary_source": "https://qia.qa/en/Newsroom/Pages/QIA-Participates-in-Nearfield-Instruments%27-%24380-Million-Series-D-Funding-Round.aspx",
         "independent_source": "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://qia.qa/en/Newsroom/Pages/QIA-Participates-in-Nearfield-Instruments%27-%24380-Million-Series-D-Funding-Round.aspx",
+            "source_date": "2026-06-22",
+            "reviewed_on": "2026-11-18",
+            "classification": "INVESTOR_PRIMARY_ANNOUNCEMENT",
+            "verified_claims": [
+              "QIA participation in USD380m Series D",
+              "USD1.6bn announced valuation with unspecified pre/post-money basis",
+              "Fidelity identified as lead investor; other participants named"
+            ]
+          },
+          {
+            "source_url": "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/",
+            "source_date": "2026-06-22",
+            "reviewed_on": "2026-11-18",
+            "classification": "INVESTEE_PRIMARY_CLOSING_ANNOUNCEMENT",
+            "verified_claims": [
+              "Issuer explicitly reports successful closure of USD380m Series D",
+              "Fidelity leads; QIA described as new investor",
+              "TNO Ventures and ING identified as existing participating investors"
+            ]
+          }
+        ],
         "source_urls": [
           "https://qia.qa/en/Newsroom/Pages/QIA-Participates-in-Nearfield-Instruments%27-%24380-Million-Series-D-Funding-Round.aspx",
           "https://www.nearfieldinstruments.com/portfolio/380-million-series-d-funding/"
@@ -580,7 +658,11 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Investor-specific amount and ultimate vehicle; company domicile where unverified; legal settlement beyond transaction-level evidence."
+          "QIA investment vehicle, individual ticket, cash settlement and resulting ownership not disclosed in reviewed primary announcements",
+          "USD1.6bn valuation is issuer-reported; pre/post-money basis not stated",
+          "Obtain Dutch registry extract to verify investee legal entity and statutory accounts, and identify pre-entry audited accounts if publicly available",
+          "No transaction-specific law firm or financial adviser mandates confirmed from reviewed primary announcements",
+          "Do not calculate QIA IRR/MOIC absent attributable entry and exit cash flows"
         ]
       },
       "coverage": {
@@ -603,14 +685,16 @@
           "AUDITED_PRE_ENTRY_FINANCIALS",
           "CLOSING_EVIDENCE",
           "LEGAL_AND_FINANCIAL_ADVISERS",
-          "REALIZED_RETURNS"
+          "REALIZED_RETURNS",
+          "ROUND_VALUATION_PRE_POST_MONEY_BASIS_UNDISCLOSED",
+          "DUTCH_REGISTRY_AND_PRE_ENTRY_ACCOUNTS_NOT_CHECKED"
         ],
         "requires_further_primary_research": true,
-        "economic_event_disposition": "EQUITY_ROUND_ANNOUNCEMENT_CONFIRMED_INVESTOR_SPECIFIC_CAPITAL_NOT_CONFIRMED"
+        "economic_event_disposition": "ONE_ISSUER_CONFIRMED_CLOSED_SERIES_D_ROUND_NOT_SEPARATE_EVENTS_PER_PARTICIPANT"
       },
       "primary_source_review": {
-        "status": "DIRECT_PRIMARY_ISSUER_INVESTOR_ANNOUNCEMENT_READ",
-        "reviewed_on": "2026-11-16",
+        "status": "TWO_PRIMARY_PARTY_ANNOUNCEMENTS_INDEPENDENTLY_REOPENED_2026_11_18",
+        "reviewed_on": "2026-11-18",
         "published_on": "2026-06-22",
         "url": "https://qia.qa/en/Newsroom/Pages/QIA-Participates-in-Nearfield-Instruments%27-%24380-Million-Series-D-Funding-Round.aspx",
         "classification": "EQUITY_FINANCING_ROUND_CONFIRMED",
@@ -653,10 +737,11 @@
         ],
         "unverified_fields": [
           "QIA_INDIVIDUAL_TICKET",
+          "QIA_SETTLED_CASH",
           "ULTIMATE_INVESTING_VEHICLE",
           "INVESTOR_OWNERSHIP",
           "AUDITED_PRE_ENTRY_FINANCIALS",
-          "CLOSING_EVIDENCE",
+          "VALUATION_PRE_POST_MONEY_BASIS",
           "LEGAL_AND_FINANCIAL_ADVISERS",
           "REALIZED_RETURNS"
         ],
