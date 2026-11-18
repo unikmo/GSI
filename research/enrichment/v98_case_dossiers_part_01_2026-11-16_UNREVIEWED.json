@@ -1166,20 +1166,26 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "EQUITY_TRANSACTION",
       "source_inclusion_decision": "RETAIN_DIRECT_INVESTOR_SOURCE_CONFIRMED",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_ELIGIBLE_SECONDARY_INFRASTRUCTURE_STAKE_ACQUISITION",
+      "dossier_evidence_level": "PRIMARY_INVESTOR_AND_EU_REGULATORY_PRIMARY_SOURCES_REVIEWED_FINANCIALS_OUTSTANDING",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "Mubadala",
         "reported_investing_entity": "Mubadala Investment Company",
-        "legal_vehicle_verified": null,
-        "vehicle_source": null,
+        "legal_vehicle_verified": "One Hundred and Twenty Seventh Investment RSC Ltd",
+        "vehicle_source": {
+          "url": "https://eur-lex.europa.eu/eli/C/2026/2659/oj",
+          "document": "European Commission merger notification M.12321",
+          "published_on": "2026-05-13",
+          "control": "Controlled by Mubadala Investment Company PJSC",
+          "qualification": "Named notifying acquirer; direct shareholding chain and payment entity not independently verified"
+        },
         "vehicle_claim_from_unreviewed_dossier": null,
         "investor_origin_country": "United Arab Emirates"
       },
       "investee": {
         "reported_name": "Greenlink electricity interconnector",
-        "legal_name_verified": null,
+        "legal_name_verified": "Greenlink (Luxembourg) S.à r.l.",
         "country": "United Kingdom;Ireland",
         "previous_financials": {
           "revenue": null,
@@ -1198,7 +1204,25 @@
         "amount_scope": "USD200m from Mubadala transaction announcement",
         "amount_evidence_state": "MUBADALA_INVESTOR_SPECIFIC_200M_CONFIRMED",
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "regulatory_case": "M.12321",
+          "notification_received": "2026-04-29",
+          "notification_published": "2026-05-13",
+          "notified_joint_controllers": [
+            "One Hundred and Twenty Seventh Investment RSC Ltd (Mubadala-controlled)",
+            "Equitix Holdings Limited",
+            "Baltic Cable AB (Statkraft-controlled)"
+          ],
+          "target": "Greenlink (Luxembourg) S.à r.l.",
+          "notified_control": "Joint control",
+          "acquisition_price_usd_m_reported": 200,
+          "acquisition_price_scope": "Mubadala-reported purchase of part of Equitix stake, not enterprise value",
+          "eu_notice_is_not_settlement_confirmation": true,
+          "source_urls": [
+            "https://eur-lex.europa.eu/eli/C/2026/2659/oj",
+            "https://www.mubadala.com/en/news/mubadala-partners-with-equitix-to-invest-in-greenlink"
+          ]
+        },
         "lifecycle_events": []
       },
       "counterparties": {
@@ -1220,9 +1244,41 @@
       "evidence": {
         "primary_source": "https://www.mubadala.com/en/news/mubadala-partners-with-equitix-to-invest-in-greenlink",
         "independent_source": null,
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "classification": "EU_OFFICIAL_MERGER_NOTIFICATION_LEGAL_VEHICLE_AND_CONTROL",
+            "source_url": "https://eur-lex.europa.eu/eli/C/2026/2659/oj",
+            "source_publication_date": "2026-05-13",
+            "reviewed_on": "2026-11-18",
+            "claims": [
+              {
+                "field": "notifying_acquirer",
+                "value": "One Hundred and Twenty Seventh Investment RSC Ltd",
+                "scope": "MUBADALA_CONTROLLED_ENTITY_NOT_PROOF_OF_CASH_SETTLEMENT"
+              },
+              {
+                "field": "target",
+                "value": "Greenlink (Luxembourg) S.à r.l.",
+                "scope": "EU_MERGER_TARGET"
+              },
+              {
+                "field": "control",
+                "value": "Joint control by Mubadala-controlled acquirer, Equitix and Baltic Cable",
+                "scope": "REGULATORY_NOTIFICATION_NOT_PERCENTAGE_STAKES"
+              }
+            ],
+            "missing_claims": [
+              "DIRECT_SHARE_PURCHASE_AGREEMENT_AND_SETTLEMENT",
+              "EXACT_EQUITY_PERCENTAGES",
+              "PRE_DECISION_AUDITED_TARGET_FINANCIALS",
+              "TRANSACTION_ADVISER_MANDATES",
+              "INVESTOR_CASH_FLOW_RETURNS"
+            ]
+          }
+        ],
         "source_urls": [
-          "https://www.mubadala.com/en/news/mubadala-partners-with-equitix-to-invest-in-greenlink"
+          "https://www.mubadala.com/en/news/mubadala-partners-with-equitix-to-invest-in-greenlink",
+          "https://eur-lex.europa.eu/eli/C/2026/2659/oj"
         ],
         "source_claim_blocks": [
           {
@@ -1263,8 +1319,6 @@
         "record_type_review_needed": "FINANCIAL_VEHICLE_OWNERSHIP_ADVISER_EVIDENCE",
         "existing_source_research_count": 2,
         "completeness_gaps": [
-          "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
-          "INVESTEE_LEGAL_IDENTITY_NOT_VERIFIED",
           "PRE_ENTRY_AUDITED_REVENUE_NOT_EXTRACTED",
           "PRE_ENTRY_AUDITED_EBITDA_NOT_VERIFIED_OR_NOT_APPLICABLE",
           "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
@@ -1272,12 +1326,12 @@
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
           "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
-          "LEGAL_SHARE_PURCHASING_VEHICLE",
           "EXACT_PERCENT_STAKE_AND_EQUITIX_REMAINING_HOLDING",
           "PURCHASE_SETTLEMENT_DATE",
           "GREENLINK_PRE_DECISION_AUDITED_FINANCIALS",
           "DEAL_ADVISERS_WITH_CLIENT_ROLES",
-          "INVESTOR_SPECIFIC_REALIZED_RETURNS"
+          "INVESTOR_SPECIFIC_REALIZED_RETURNS",
+          "DIRECT_SHARE_PURCHASER_AND_PAYMENT_CHAIN_BEYOND_EU_NOTIFIER_NOT_VERIFIED"
         ],
         "requires_further_primary_research": true
       },
