@@ -5087,8 +5087,8 @@
       "dossier_type": "EXCLUDED_OR_DUPLICATE_SCREEN",
       "original_event_classification": "OFFICE_OPENING",
       "source_inclusion_decision": "EXCLUDE_NON_INVESTMENT",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_EXCLUDED_OPERATIONAL_HEADQUARTERS_OPENING_NOT_INVESTMENT",
+      "dossier_evidence_level": "PRIMARY_SAUDI_PRESS_AGENCY_OFFICE_OPENING_ANNOUNCEMENT_REVIEWED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "PIF",
@@ -5141,7 +5141,21 @@
       "evidence": {
         "primary_source": "https://www.spa.gov.sa/en/N2628609",
         "independent_source": null,
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://www.spa.gov.sa/en/N2628609",
+            "source_publisher": "Saudi Press Agency",
+            "source_title": "Saudi Ambassador to UK Inaugurates Sela Company's International Headquarters in London",
+            "source_review_date": "2026-11-18",
+            "source_review_status": "PRIMARY_SOURCE_TITLE_VERIFIED_BODY_NOT_MACHINE_READABLE",
+            "verified_claims": [
+              "Saudi Press Agency identifies event as inauguration of Sela Company's international headquarters in London, not an announced acquisition or equity placement"
+            ],
+            "limitations": [
+              "Source article body not retrievable in this review; no claim about disclosed capex, ownership or funding can be independently verified"
+            ]
+          }
+        ],
         "source_urls": [
           "https://www.spa.gov.sa/en/N2628609"
         ],
@@ -5158,21 +5172,19 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Track separately as operational footprint and seek specific capex if relevant."
+          "Track separately as operational footprint and seek specific capex if relevant.",
+          "2026-11-18: SPA headline verified; exclude as operational office opening. Do not infer an investment ticket from an office inauguration. Full article body not readable."
         ]
       },
       "coverage": {
         "original_screening_category": "EXCLUDED_OR_DUPLICATE_SCREEN",
-        "record_type_review_needed": "SOURCE_REVIEW_REQUIRED",
+        "record_type_review_needed": "PRIMARY_SOURCE_CLASSIFICATION_REVIEWED",
         "existing_source_research_count": 1,
         "completeness_gaps": [
-          "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
-          "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
-          "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
-          "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "OFFICE_OPENING_EXCLUDED_FROM_INVESTMENT_TRANSACTION_METRICS",
+          "SOURCE_BODY_NOT_READABLE_NO_CAPEX_CLAIMS_VERIFIED"
         ],
-        "requires_further_primary_research": true
+        "requires_further_primary_research": false
       }
     },
     {
