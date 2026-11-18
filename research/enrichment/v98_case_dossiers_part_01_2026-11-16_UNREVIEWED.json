@@ -1434,7 +1434,7 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "EQUITY_TRANSACTION",
       "source_inclusion_decision": "RETAIN_PROVISIONAL",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
+      "analyst_classification_status": "SOURCE_REVIEWED_CONSORTIUM_PROJECT_EQUITY_MUBADALA_2026_ENTRY_SETTLEMENT_UNCONFIRMED",
       "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
@@ -1467,7 +1467,15 @@
         "amount_evidence_state": null,
         "economic_term_claims": [],
         "transaction_terms": null,
-        "lifecycle_events": []
+        "lifecycle_events": [
+          {
+            "date": "2025-12-30",
+            "event": "Ørsted completed sale of 50% project stake to Apollo-managed funds",
+            "event_type": "PRE_EXISTING_PROJECT_JV_CLOSING",
+            "source_url": "https://orsted.com/en/media/news/2025/12/orsted-completes-divestment-of-50--stake-in-hornse-1473801111",
+            "scope_note": "Separate from Mubadala's announced 2026 consortium participation; not a second Mubadala investment or evidence of its ticket settlement"
+          }
+        ]
       },
       "counterparties": {
         "master_syndicate_relationships": [],
@@ -1524,7 +1532,36 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Verify completed investment and vehicle"
+          "Verify completed investment and vehicle",
+          "Ørsted's 2025-12-30 completion announcement verifies Apollo-managed funds' 50% acquisition only; do not equate it with Mubadala's 2026 funding or closing."
+        ],
+        "primary_source_reviews": [
+          {
+            "source_url": "https://orsted.com/en/media/news/2025/12/orsted-completes-divestment-of-50--stake-in-hornse-1473801111",
+            "source_publisher": "Ørsted A/S",
+            "source_publication_date": "2025-12-30",
+            "reviewed_on": "2026-11-18",
+            "review_status": "DIRECT_ISSUER_RELEASE_REVIEWED",
+            "verified_claims": [
+              {
+                "field": "orsted_apollo_project_joint_venture_closing",
+                "value": "Ørsted completed divestment of a 50% stake in Hornsea 3 to Apollo-managed funds on 2025-12-30",
+                "scope": "APOLLO_MANAGED_FUNDS_2025_PROJECT_STAKE_CLOSING_NOT_MUBADALA_2026_INDIVIDUAL_SETTLEMENT"
+              },
+              {
+                "field": "seller_and_acquirer",
+                "value": "Ørsted seller; Apollo-managed funds buyer",
+                "scope": "2025_DIVESTMENT_STAGE"
+              }
+            ],
+            "not_established": [
+              "MUBADALA_2026_TICKET_SETTLEMENT",
+              "MUBADALA_LEGAL_VEHICLE",
+              "MUBADALA_INDIRECT_STAKE",
+              "MUBADALA_INVESTOR_CASH_FLOWS",
+              "HORNSEA_3_STANDALONE_AUDITED_PRE_ENTRY_ACCOUNTS"
+            ]
+          }
         ]
       },
       "coverage": {
