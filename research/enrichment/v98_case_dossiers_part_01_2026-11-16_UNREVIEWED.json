@@ -2254,8 +2254,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "EQUITY",
       "source_inclusion_decision": "ADMIT_CANDIDATE",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "PRIMARY_ISSUER_TRANSACTION_CLAIMS_REVIEWED_PARTIAL",
+      "analyst_classification_status": "SOURCE_REVIEWED_SIGNED_SECONDARY_PORTFOLIO_EQUITY_ACQUISITION_NOT_CLOSED",
+      "dossier_evidence_level": "ISSUER_PRESS_RELEASE_AND_REGULATED_INSIDE_INFORMATION_REVIEWED_FINANCIALS_NOT_CERTIFIED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "Masdar / UAE",
@@ -2285,8 +2285,28 @@
         "currency": "EUR",
         "amount_scope": "Estimated EUR150m agreed purchase price, NOT EUR849m portfolio valuation",
         "amount_evidence_state": "SIGNED_AND_FORMALLY_DISCLOSED_NOT_CLOSED",
-        "economic_term_claims": [],
-        "transaction_terms": null,
+        "economic_term_claims": [
+          {
+            "claim": "Regulated issuer notice estimates €150m price for 49.99%; portfolio valued at €849m; expected €700m reduction in Repsol group net debt",
+            "source_url": "https://www.repsol.com/content/dam/repsol-corporate/en_gb/accionistas-e-inversores/cnmv/2026/ii11062026-information-agreement-sale-masdar-renewable-energy-portfolio-705-mw-spain.pdf",
+            "source_date": "2026-06-11",
+            "review_date": "2026-11-19",
+            "claim_status": "PRIMARY_REGULATED_ISSUER_DISCLOSURE_SIGNED_NOT_SETTLED"
+          }
+        ],
+        "transaction_terms": {
+          "stake_percent_agreed": 49.99,
+          "estimated_equity_purchase_price_eur_million": 150,
+          "whole_portfolio_valuation_eur_million": 849,
+          "expected_seller_net_debt_reduction_eur_million": 700,
+          "portfolio_syndicated_debt_eur_million": 550,
+          "portfolio_syndicated_debt_financing_date": "2025-12",
+          "status": "SIGNED_NOT_SETTLED",
+          "cash_paid_verified": null,
+          "source_url": "https://www.repsol.com/content/dam/repsol-corporate/en_gb/accionistas-e-inversores/cnmv/2026/ii11062026-information-agreement-sale-masdar-renewable-energy-portfolio-705-mw-spain.pdf",
+          "source_publication_date": "2026-06-11",
+          "notes": "€150m is estimated agreed consideration, not verified payment. €849m is whole-portfolio valuation; €700m projected seller net-debt reduction is not proceeds or return; €550m is portfolio syndicated financing, not Masdar equity ticket."
+        },
         "lifecycle_events": []
       },
       "counterparties": {
@@ -2418,6 +2438,52 @@
             "Transaction lawyers, financial advisers and exact represented clients",
             "Investor-specific cash flows and realized returns"
           ]
+        },
+        "primary_source_review_2026_11_19": {
+          "review_status": "REGULATED_ISSUER_INSIDE_INFORMATION_FULL_TEXT_REVIEWED",
+          "source_type": "REPSOL_CNMV_INSIDE_INFORMATION_NOTICE",
+          "source_url": "https://www.repsol.com/content/dam/repsol-corporate/en_gb/accionistas-e-inversores/cnmv/2026/ii11062026-information-agreement-sale-masdar-renewable-energy-portfolio-705-mw-spain.pdf",
+          "source_publication_date": "2026-06-11",
+          "review_date": "2026-11-19",
+          "claims": [
+            {
+              "topic": "individual agreed ticket",
+              "finding": "€150 million estimated purchase price for Masdar 49.99% stake; no evidence of settlement",
+              "source_page": 1
+            },
+            {
+              "topic": "whole-portfolio valuation",
+              "finding": "€849 million for portfolio; not Masdar cash outlay",
+              "source_page": 1
+            },
+            {
+              "topic": "seller balance sheet effect",
+              "finding": "€700 million expected Repsol group net-debt reduction; forecast, not realized return",
+              "source_page": 1
+            },
+            {
+              "topic": "financing",
+              "finding": "€550 million portfolio syndicated financing obtained December 2025 from Sabadell, Abanca, CaixaBank, BNP Paribas, UniCredit and ICO; lenders not equity consortium or deal advisers",
+              "source_page": 1
+            },
+            {
+              "topic": "status",
+              "finding": "Closing anticipated end-2026 subject to regulatory approvals; no closed status established",
+              "source_page": 1
+            },
+            {
+              "topic": "audit qualification",
+              "finding": "Issuer notice explicitly states its information was not verified or reviewed by Repsol auditors; no standalone pre-entry audited project statements supplied",
+              "source_page": 2
+            }
+          ],
+          "missing_claims": [
+            "Ultimate Masdar acquisition SPV and registered portfolio companies",
+            "Actual close, settlement date, paid consideration and debt allocation",
+            "FY2025 audited project/SPV financials available before signing, separated from Repsol consolidated financials",
+            "Equity and legal adviser mandates with represented parties",
+            "Investor-specific realized proceeds and cash-flow-derived IRR/MOIC"
+          ]
         }
       },
       "coverage": {
@@ -2439,7 +2505,9 @@
           "Independent closing notice and settled consideration",
           "Pre-signing standalone audited project/SPV financial statements, FY2025 where available",
           "Transaction lawyers, financial advisers and exact represented clients",
-          "Investor-specific cash flows and realized returns"
+          "Investor-specific cash flows and realized returns",
+          "REGULATED_NOTICE_UNAUDITED_AND_NOT_STANDALONE_PROJECT_ACCOUNTS",
+          "EUR_700M_EXPECTED_NET_DEBT_REDUCTION_NOT_INVESTOR_RETURN"
         ],
         "requires_further_primary_research": true
       }
