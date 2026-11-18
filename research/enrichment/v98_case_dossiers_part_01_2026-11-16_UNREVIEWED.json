@@ -861,8 +861,8 @@
       "dossier_type": "FUND_PLATFORM_FORMATION_REVIEWED",
       "original_event_classification": "FUND_FORMATION_AGREEMENT",
       "source_inclusion_decision": "HOLD_FUND_VEHICLE",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "PRIMARY_SOURCE_TRANSACTION_FACTS_CHECKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_FUND_FORMATION_COMMITMENTS_NOT_PORTFOLIO_EQUITY",
+      "dossier_evidence_level": "PRIMARY_QIA_COFIDES_AND_SPANISH_MINISTRY_COMMITMENT_BREAKDOWN_REVIEWED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA",
@@ -890,9 +890,20 @@
         "reported_event_status": "Agreement to establish fund",
         "original_amount": null,
         "currency": null,
-        "amount_scope": "€300m is proposed total fund size; not verified deployed capital",
+        "amount_scope": "Spanish Economy Ministry May 20 2026 states €150m QIA + €150m COFIDES via FOCO + €7.5m Portobello = €307.5m planned commitments; neither deployed cash nor a single investee transaction",
         "amount_evidence_state": null,
-        "economic_term_claims": [],
+        "economic_term_claims": [
+          {
+            "claim": "ANNOUNCED_FUND_PARTNER_COMMITMENTS",
+            "as_of": "2026-05-20",
+            "qia_eur": 150000000,
+            "cofides_foco_eur": 150000000,
+            "portobello_eur": 7500000,
+            "aggregate_eur": 307500000,
+            "scope": "announced fund capital contributions, not paid-in capital or actual deployment",
+            "source_url": "https://portal.mineco.gob.es/es-es/comunicacion/Paginas/Espana-y-Catar-lanzan-fondo-conjunto-mas-300-millones-impulsar-competitividad-economia-espanola.aspx"
+          }
+        ],
         "transaction_terms": null,
         "lifecycle_events": []
       },
@@ -915,10 +926,45 @@
       "evidence": {
         "primary_source": "https://www.qia.qa/en/Newsroom/Pages/QIA-and-COFIDES-launch-a-joint-investment-fund-to-support-Spain%E2%80%99s-green-and-digital-transition.aspx",
         "independent_source": "https://www.cofides.es/en/noticias/notas-de-prensa/qia-and-cofides-launch-joint-investment-fund-support-spains-green-and",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://portal.mineco.gob.es/es-es/comunicacion/Paginas/Espana-y-Catar-lanzan-fondo-conjunto-mas-300-millones-impulsar-competitividad-economia-espanola.aspx",
+            "published_on": "2026-05-20",
+            "reviewed_on": "2026-11-18",
+            "source_type": "SPANISH_GOVERNMENT_MINISTRY_PRIMARY",
+            "claim_status": "DIRECT_PRIMARY_SOURCE_VERIFIED",
+            "claims": [
+              {
+                "field": "QIA_ANNOUNCED_FUND_CONTRIBUTION_EUR",
+                "value": 150000000,
+                "scope": "announced contribution, not settled payment"
+              },
+              {
+                "field": "COFIDES_FOCO_ANNOUNCED_FUND_CONTRIBUTION_EUR",
+                "value": 150000000
+              },
+              {
+                "field": "PORTOBELLO_ANNOUNCED_FUND_CONTRIBUTION_EUR",
+                "value": 7500000
+              },
+              {
+                "field": "TOTAL_ANNOUNCED_PARTNER_CONTRIBUTIONS_EUR",
+                "value": 307500000
+              }
+            ],
+            "missing_claims": [
+              "LEGAL_REGISTERED_FUND_ENTITY",
+              "SIGNED_COMMITMENT_DOCUMENTS",
+              "CAPITAL_CALLS_AND_PAID_IN",
+              "UNDERLYING_INVESTEE_TRANSACTIONS",
+              "REALIZED_INVESTOR_RETURNS"
+            ]
+          }
+        ],
         "source_urls": [
           "https://www.qia.qa/en/Newsroom/Pages/QIA-and-COFIDES-launch-a-joint-investment-fund-to-support-Spain%E2%80%99s-green-and-digital-transition.aspx",
-          "https://www.cofides.es/en/noticias/notas-de-prensa/qia-and-cofides-launch-joint-investment-fund-support-spains-green-and"
+          "https://www.cofides.es/en/noticias/notas-de-prensa/qia-and-cofides-launch-joint-investment-fund-support-spains-green-and",
+          "https://portal.mineco.gob.es/es-es/comunicacion/Paginas/Espana-y-Catar-lanzan-fondo-conjunto-mas-300-millones-impulsar-competitividad-economia-espanola.aspx"
         ],
         "source_claim_blocks": [
           {
@@ -945,7 +991,8 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Verify fund legal establishment, capital calls and investee activity"
+          "Verify fund legal establishment, capital calls and investee activity",
+          "Spanish Economy Ministry explicitly identifies €150m QIA, €150m COFIDES/FOCO and €7.5m Portobello contributions; commitment versus cash-call/paid-in status remains unverified."
         ]
       },
       "coverage": {
@@ -958,13 +1005,13 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
-          "QIA_COMMITMENT_SHARE",
           "ACTUAL_PAID_IN_CAPITAL",
           "FUND_REGISTRY_LEGAL_ENTITY",
           "FUND_CLOSING_DATE",
           "UNDERLYING_PORTFOLIO_INVESTEES",
           "INVESTMENT_ADVISERS",
-          "REALIZED_RETURNS"
+          "REALIZED_RETURNS",
+          "SIGNED_COMMITMENT_DOCUMENTS_AND_CAPITAL_CALLS_UNVERIFIED"
         ],
         "requires_further_primary_research": true,
         "economic_event_disposition": "FUND_FORMATION_ELIGIBLE_FOR_FUND_COVERAGE_NOT_OPERATING_COMPANY_INVESTMENT"
@@ -999,10 +1046,25 @@
           {
             "field": "COFIDES_participation_channel",
             "value": "FOCO co-investment fund"
+          },
+          {
+            "field": "qia_announced_contribution_eur",
+            "value": 150000000,
+            "scope": "announced fund contribution not paid in",
+            "source_url": "https://portal.mineco.gob.es/es-es/comunicacion/Paginas/Espana-y-Catar-lanzan-fondo-conjunto-mas-300-millones-impulsar-competitividad-economia-espanola.aspx"
+          },
+          {
+            "field": "cofides_foco_announced_contribution_eur",
+            "value": 150000000,
+            "source_url": "https://portal.mineco.gob.es/es-es/comunicacion/Paginas/Espana-y-Catar-lanzan-fondo-conjunto-mas-300-millones-impulsar-competitividad-economia-espanola.aspx"
+          },
+          {
+            "field": "portobello_announced_contribution_eur",
+            "value": 7500000,
+            "source_url": "https://portal.mineco.gob.es/es-es/comunicacion/Paginas/Espana-y-Catar-lanzan-fondo-conjunto-mas-300-millones-impulsar-competitividad-economia-espanola.aspx"
           }
         ],
         "unverified_fields": [
-          "QIA_COMMITMENT_SHARE",
           "ACTUAL_PAID_IN_CAPITAL",
           "FUND_REGISTRY_LEGAL_ENTITY",
           "FUND_CLOSING_DATE",
