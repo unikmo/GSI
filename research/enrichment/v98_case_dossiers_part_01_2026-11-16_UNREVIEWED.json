@@ -5029,8 +5029,8 @@
       "dossier_type": "HOLD_OR_NONTRANSACTION_SCREEN",
       "original_event_classification": "PROPOSED_EQUITY_FINANCING",
       "source_inclusion_decision": "HOLD_NOT_DEPLOYED",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "PRIMARY_SOURCE_REVIEWED_PROPOSED_SHAREHOLDER_EQUITY_NOT_VERIFIED_DEPLOYED",
+      "dossier_evidence_level": "PRIMARY_SOURCE_ISSUER_OCTOBER_2026_UNAUDITED_TRADING_UPDATE",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "Mubadala",
@@ -5049,18 +5049,36 @@
           "ebitda": null,
           "financial_period": null,
           "verified_period_statements": [],
-          "other_historical_claims": []
+          "other_historical_claims": [
+            {
+              "source_url": "https://cityfibre.com/news/cityfibre-delivering-strong-underlying-performance-as-it-moves-to-strengthen-its-capital-structure-and-prepares-for-acquisition-drive-2",
+              "source_date": "2026-10-06",
+              "reporting_period": "nine months ended 2026-09-30",
+              "revenue_gbp_m": 164,
+              "adjusted_ebitda_gbp_m": 60,
+              "audit_status": "UNAUDITED_MANAGEMENT_ACCOUNTS",
+              "note": "Adjusted EBITDA non-GAAP; not audited FY2025 financial statements or pre-entry certified metrics"
+            }
+          ]
         }
       },
       "transaction": {
         "announced_on": "2026-07-30",
         "completed_on": null,
-        "reported_event_status": "PROPOSED_NOT_CLOSED",
+        "reported_event_status": "PROPOSED_EQUITY_COMMITMENT_NOT_CONFIRMED_FUNDED_AS_OF_2026_10_06",
         "original_amount": null,
         "currency": null,
         "amount_scope": "£900m total proposed shareholder funding, not sovereign allocation",
         "amount_evidence_state": null,
-        "economic_term_claims": [],
+        "economic_term_claims": [
+          {
+            "claim": "£900m proposed new shareholder equity commitment, not individual Mubadala allocation or cash funded",
+            "source_url": "https://cityfibre.com/news/cityfibre-delivering-strong-underlying-performance-as-it-moves-to-strengthen-its-capital-structure-and-prepares-for-acquisition-drive-2",
+            "source_date": "2026-10-06",
+            "source_reporting_as_of": "2026-09-30",
+            "verification_status": "ISSUER_PRIMARY_SOURCE_VERIFIED_PROPOSAL_ONLY"
+          }
+        ],
         "transaction_terms": null,
         "lifecycle_events": []
       },
@@ -5083,10 +5101,20 @@
       "evidence": {
         "primary_source": "https://cityfibre.com/news",
         "independent_source": "https://ebs.publicnow.com/view/8053F20FAFB569703BD2E7A9450E09366C0373AF",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://cityfibre.com/news/cityfibre-delivering-strong-underlying-performance-as-it-moves-to-strengthen-its-capital-structure-and-prepares-for-acquisition-drive-2",
+            "source_date": "2026-10-06",
+            "reviewed_on": "2026-11-20",
+            "source_type": "ISSUER_TRADING_UPDATE",
+            "verified": "£900m equity proposal announced August 2026 remained proposed; lender discussions ongoing on 6 October; nine-month 2026 revenue £164m and adjusted EBITDA £60m expressly unaudited",
+            "not_verified": "Mubadala allocation, legal subscription vehicle, paid-in capital, closing, shareholder ownership changes, audited pre-entry financials, transaction advisers, realized returns"
+          }
+        ],
         "source_urls": [
           "https://cityfibre.com/news",
-          "https://ebs.publicnow.com/view/8053F20FAFB569703BD2E7A9450E09366C0373AF"
+          "https://ebs.publicnow.com/view/8053F20FAFB569703BD2E7A9450E09366C0373AF",
+          "https://cityfibre.com/news/cityfibre-delivering-strong-underlying-performance-as-it-moves-to-strengthen-its-capital-structure-and-prepares-for-acquisition-drive-2"
         ],
         "source_claim_blocks": [
           {
@@ -5110,7 +5138,8 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
+          "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed.",
+          "Do not count £900m as deployed capital. Obtain August 2026 proposal, later definitive financing/closing disclosures and audited accounts; distinguish prior 2021/2022 Mubadala equity from proposed 2026 follow-on."
         ]
       },
       "coverage": {
