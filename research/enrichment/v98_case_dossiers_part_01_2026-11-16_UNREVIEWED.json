@@ -3990,8 +3990,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "ACQUISITION_SIGNED",
       "source_inclusion_decision": "PROVISIONAL_ADMIT",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "PRIMARY_ISSUER_TRANSACTION_CLAIMS_REVIEWED_PARTIAL",
+      "analyst_classification_status": "SOURCE_REVIEWED_SIGNED_MBS_ACQUISITION_Q3_PROGRESS_NOT_CLOSING",
+      "dossier_evidence_level": "BUYER_PRIMARY_SIGNING_AND_NOVEMBER_Q3_STATUS_REVIEWED_NOT_FINANCIALLY_CERTIFIED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "L'IMAD / ADQ via AD Ports Group",
@@ -4016,7 +4016,7 @@
       "transaction": {
         "announced_on": "2026-05-18",
         "completed_on": null,
-        "reported_event_status": "SIGNED_NOT_CLOSED_AS_OF_DOCUMENTED_2026_SOURCES",
+        "reported_event_status": "SIGNED; 2026-11-11 BUYER Q3 DISCLOSURE SAYS PROGRESSING WELL; NO CLOSING VERIFIED",
         "original_amount": null,
         "currency": null,
         "amount_scope": "EUR 70m enterprise value; NOT equity cheque / paid capital",
@@ -4044,11 +4044,25 @@
       "evidence": {
         "primary_source": "https://www.adportsgroup.com/en/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics",
         "independent_source": "https://www.mbslogistics.com/en/news/mbs-logistics-to-be-acquired-by-ad-ports-group/",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://www.adportsgroup.com/news-and-media/2026/11/11/ad-ports-group-posts-record-net-profit-of-nearly-aed-1-billion-in-q3-2026-64-yoy/",
+            "source_date": "2026-11-11",
+            "reviewed_on": "2026-11-19",
+            "classification": "BUYER_Q3_2026_RESULTS_POST_SIGNING_STATUS_AND_OWNERSHIP",
+            "verified_claims": [
+              "Buyer says MBS acquisition is progressing well, without announcing MBS closing",
+              "Buyer separately says Brazil CLI acquisition completed 1 October 2026; CLI closing cannot be attributed to MBS",
+              "L'IMAD via ADQ held 75.42% of AD Ports when August 2026 tender launched, rising to 98.93% after September tender; this is not evidence of MBS acquisition-vehicle ownership or May 2026 direct L'IMAD funding",
+              "Q3 group and Logistics Cluster results are post-entry buyer financial metrics, not MBS audited standalone FY2025 financials"
+            ]
+          }
+        ],
         "source_urls": [
           "https://www.adportsgroup.com/en/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics",
           "https://www.mbslogistics.com/en/news/mbs-logistics-to-be-acquired-by-ad-ports-group/",
-          "https://www.adportsgroup.com/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics/"
+          "https://www.adportsgroup.com/news-and-media/2026/05/18/adpg-further-consolidates-its-global-logistics-platform-with-the-acquisition-of-mbs-logistics/",
+          "https://www.adportsgroup.com/news-and-media/2026/11/11/ad-ports-group-posts-record-net-profit-of-nearly-aed-1-billion-in-q3-2026-64-yoy/"
         ],
         "source_claim_blocks": [
           {
@@ -4172,7 +4186,9 @@
           "Cash purchase price, assumed debt and purchase-price adjustment",
           "Independent law-firm and financial-adviser client engagements",
           "L'IMAD ownership attribution as of 2026-05-18; do not infer later ownership retroactively",
-          "Investor-specific realized return and exit cash flows"
+          "Investor-specific realized return and exit cash flows",
+          "Verify post-2026-11-11 MBS-specific closing disclosure, not CLI closing",
+          "Verify ownership chain as of 2026-05-18 separately from September L'IMAD tender"
         ],
         "requires_further_primary_research": true
       }
