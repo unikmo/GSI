@@ -267,7 +267,7 @@
               "period_end": "2025-12-31",
               "source_published": "2026-06-09",
               "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx",
-              "audit_status": "INVESTOR_PRESS_RELEASE_UNAUDITED_NOT_AUDITED_FINANCIAL_STATEMENTS",
+              "audit_status": "ISSUER_EXPLICITLY_UNAUDITED_2025_RESULTS_NOT_AUDITED_PRE_ENTRY_STATEMENTS",
               "pre_entry_public_availability": "NOT_ESTABLISHED",
               "scope": "ICEYE company reported revenue"
             }
@@ -293,7 +293,9 @@
           "lead_investor": "General Atlantic",
           "qia_individual_ticket_eur_m": null,
           "source_url": "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx",
-          "source_date": "2026-06-09"
+          "source_date": "2026-06-09",
+          "additional_co_lead": "Scaleup Europe Fund managed by EQT (announced August 2026; distinct from QIA)",
+          "closing_status": "ISSUER_AUGUST_2026_ANNOUNCEMENT_STILL_SUBJECT_TO_APPROVALS;QIA_SETTLEMENT_NOT_VERIFIED"
         },
         "lifecycle_events": []
       },
@@ -345,8 +347,49 @@
         "investor_ownership_stake_percent": null
       },
       "service_providers": {
-        "verified_issuer_disclosed_adviser_engagements": [],
-        "legal_adviser_research_status": "INCOMPLETE_UNLESS_LISTED"
+        "verified_issuer_disclosed_adviser_engagements": [
+          {
+            "firm": "Skadden, Arps, Slate, Meagher & Flom LLP",
+            "role": "LEGAL_ADVISER",
+            "represented_party": "ICEYE",
+            "mandate_scope": "EUR450m primary Series F",
+            "source_url": "https://www.skadden.com/about/news-and-rankings/news/2026/06/iceye-announces-1-billion-funding-round",
+            "source_date": "2026-06-10"
+          },
+          {
+            "firm": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+            "role": "LEGAL_ADVISER",
+            "represented_party": "General Atlantic",
+            "mandate_scope": "Lead investor Series F",
+            "source_url": "https://www.paulweiss.com/insights/client-news/general-atlantic-leads-funding-round-for-iceye",
+            "source_date": "2026-06-09"
+          },
+          {
+            "firm": "Castrén & Snellman",
+            "role": "LEGAL_ADVISER",
+            "represented_party": "General Atlantic",
+            "mandate_scope": "Lead investor Series F",
+            "source_url": "https://www.castren.fi/cases/general-atlantic-iceyes-eur-1-billion-series-f-funding-round/",
+            "source_date": "2026-06-09"
+          },
+          {
+            "firm": "Gibson, Dunn & Crutcher LLP",
+            "role": "LEGAL_ADVISER",
+            "represented_party": "EQT",
+            "mandate_scope": "EQT co-lead investor Series F",
+            "source_url": "https://www.gibsondunn.com/gibson-dunn-advised-eqt-on-e1-billion-financing-of-iceye-oy/",
+            "source_date": "2026-08-07"
+          },
+          {
+            "firm": "Simpson Thacher & Bartlett LLP",
+            "role": "REGULATORY_LEGAL_ADVISER",
+            "represented_party": "Scaleup Europe Fund (EQT-managed)",
+            "mandate_scope": "Regulatory matters on Series F",
+            "source_url": "https://www.stblaw.com/about-us/news/view/2026/08/24/simpson-thacher-advises-scaleup-europe-fund-and-eqt-on-investment-in-iceye-series-f-funding",
+            "source_date": "2026-08-24"
+          }
+        ],
+        "legal_adviser_research_status": "FIVE_SOURCE_CONFIRMED_LAW_FIRM_MANDATES_ISSUER_AND_OTHER_INVESTORS;QIA_COUNSEL_NOT_VERIFIED"
       },
       "returns": {
         "investor_specific_proceeds": null,
@@ -370,11 +413,80 @@
               "ICEYE 2025 revenue above EUR250m is an unaudited press-release claim, not verified pre-entry audited accounts",
               "Round valuation above EUR10bn is not QIA ticket or realized value"
             ]
+          },
+          {
+            "source_url": "https://www.skadden.com/about/news-and-rankings/news/2026/06/iceye-announces-1-billion-funding-round",
+            "source_date": "2026-06-10",
+            "reviewed_on": "2026-11-19",
+            "classification": "LAW_FIRM_TRANSACTION_MANDATE",
+            "verified_claims": [
+              "Skadden states it advises ICEYE (issuer) on the EUR450m primary Series F; transaction subject to closing conditions"
+            ]
+          },
+          {
+            "source_url": "https://www.paulweiss.com/insights/client-news/general-atlantic-leads-funding-round-for-iceye",
+            "source_date": "2026-06-09",
+            "reviewed_on": "2026-11-19",
+            "classification": "LAW_FIRM_TRANSACTION_MANDATE",
+            "verified_claims": [
+              "Paul Weiss states it advises General Atlantic as round lead investor; not counsel to QIA"
+            ]
+          },
+          {
+            "source_url": "https://www.castren.fi/cases/general-atlantic-iceyes-eur-1-billion-series-f-funding-round/",
+            "source_date": "2026-06-09",
+            "reviewed_on": "2026-11-19",
+            "classification": "LAW_FIRM_TRANSACTION_MANDATE",
+            "verified_claims": [
+              "Castrén & Snellman states it advised General Atlantic as lead investor"
+            ]
+          },
+          {
+            "source_url": "https://www.iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round",
+            "source_date": "2026-06-09",
+            "reviewed_on": "2026-11-19",
+            "classification": "ISSUER_PRIMARY_ANNOUNCEMENT",
+            "verified_claims": [
+              "ICEYE identifies EUR450m primary and total exceeding EUR1bn with secondary; explicitly labels 2025 financial results unaudited and states customary regulatory approvals and closing conditions"
+            ]
+          },
+          {
+            "source_url": "https://www.gibsondunn.com/gibson-dunn-advised-eqt-on-e1-billion-financing-of-iceye-oy/",
+            "source_date": "2026-08-07",
+            "reviewed_on": "2026-11-19",
+            "classification": "LAW_FIRM_TRANSACTION_MANDATE",
+            "verified_claims": [
+              "Gibson Dunn states it advised EQT as co-lead investor; EQT invested through Scaleup Europe Fund, not QIA"
+            ]
+          },
+          {
+            "source_url": "https://www.stblaw.com/about-us/news/view/2026/08/24/simpson-thacher-advises-scaleup-europe-fund-and-eqt-on-investment-in-iceye-series-f-funding",
+            "source_date": "2026-08-24",
+            "reviewed_on": "2026-11-19",
+            "classification": "LAW_FIRM_REGULATORY_MANDATE",
+            "verified_claims": [
+              "Simpson Thacher states it represented Scaleup Europe Fund managed/advised by EQT affiliates on regulatory matters; not QIA"
+            ]
+          },
+          {
+            "source_url": "https://www.iceye.com/newsroom/press-releases/iceye-secures-the-first-investment-from-european-commissions-scaleup-europe-fund?hs_amp=true",
+            "source_date": "2026-08-05",
+            "reviewed_on": "2026-11-19",
+            "classification": "ISSUER_LIFECYCLE_ANNOUNCEMENT",
+            "verified_claims": [
+              "ICEYE identifies EQT-managed Scaleup Europe Fund as co-lead; transaction expected to close subject to regulatory approvals"
+            ]
           }
         ],
         "source_urls": [
           "https://www.qia.qa/en/Newsroom/Pages/QIA-Participates-in-ICEYE%E2%80%99s-%E2%82%AC1B-Series-F-Funding-Round.aspx",
-          "https://www.iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round"
+          "https://www.iceye.com/newsroom/press-releases/iceye-leads-a-new-era-of-sovereign-intelligence-from-space-with-1b-funding-round",
+          "https://www.skadden.com/about/news-and-rankings/news/2026/06/iceye-announces-1-billion-funding-round",
+          "https://www.paulweiss.com/insights/client-news/general-atlantic-leads-funding-round-for-iceye",
+          "https://www.castren.fi/cases/general-atlantic-iceyes-eur-1-billion-series-f-funding-round/",
+          "https://www.gibsondunn.com/gibson-dunn-advised-eqt-on-e1-billion-financing-of-iceye-oy/",
+          "https://www.stblaw.com/about-us/news/view/2026/08/24/simpson-thacher-advises-scaleup-europe-fund-and-eqt-on-investment-in-iceye-series-f-funding",
+          "https://www.iceye.com/newsroom/press-releases/iceye-secures-the-first-investment-from-european-commissions-scaleup-europe-fund?hs_amp=true"
         ],
         "source_claim_blocks": [
           {
@@ -402,7 +514,8 @@
         "underlying_dossier": null,
         "unresolved_source_notes": [
           "Investor-specific amount and ultimate vehicle; company domicile where unverified; legal settlement beyond transaction-level evidence.",
-          "QIA individual ticket, stake, investing legal vehicle, actual settlement, and separately audited pre-decision ICEYE accounts not established from 9 June 2026 QIA announcement."
+          "QIA individual ticket, stake, investing legal vehicle, actual settlement, and separately audited pre-decision ICEYE accounts not established from 9 June 2026 QIA announcement.",
+          "Law-firm mandates are client-specific: ICEYE, General Atlantic and EQT/Scaleup Europe Fund; none establishes representation of QIA. August EQT participation is part of same Series F, not a separate QIA economic event."
         ]
       },
       "coverage": {
@@ -425,7 +538,11 @@
           "QIA_STAKE",
           "AUDITED_PRE_DECISION_FINANCIAL_STATEMENTS",
           "TRANSACTION_ADVISERS",
-          "REALIZED_RETURNS"
+          "REALIZED_RETURNS",
+          "QIA_SPECIFIC_LEGAL_COUNSEL_UNVERIFIED",
+          "QIA_INDIVIDUAL_PRIMARY_VS_SECONDARY_ALLOCATION_UNVERIFIED",
+          "QIA_SETTLEMENT_AND_OWNERSHIP_UNVERIFIED",
+          "AUDITED_PRE_ENTRY_ICEYE_FINANCIAL_STATEMENTS_UNAVAILABLE"
         ],
         "requires_further_primary_research": true,
         "economic_event_disposition": "EQUITY_ROUND_ANNOUNCEMENT_CONFIRMED_INVESTOR_SPECIFIC_CAPITAL_NOT_CONFIRMED"
