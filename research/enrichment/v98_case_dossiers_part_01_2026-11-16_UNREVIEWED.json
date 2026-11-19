@@ -2517,8 +2517,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "ASSET_ACQUISITION",
       "source_inclusion_decision": "ADMIT_CANDIDATE",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_SIGNED_SOLAR_ASSET_ACQUISITION_PROJECT_IDENTITY_PENDING",
+      "dossier_evidence_level": "MASDAR_PRIMARY_ANNOUNCEMENT_AND_EUROBANK_HISTORICAL_PROJECT_FINANCING_CROSSCHECKED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "Masdar / UAE",
@@ -2550,7 +2550,7 @@
         "amount_evidence_state": null,
         "economic_term_claims": [],
         "transaction_terms": {
-          "source_url": "https://www.mediaoffice.abudhabi/en/energy/masdar-expands-portfolio-in-greece-with-major-solar-project-acquisition/",
+          "source_url": "https://masdar.ae/en/news/newsroom/masdar-backs-greeces-digital-future-with-major-solar-acquisition",
           "source_as_of": "2026-10-24",
           "asset_capacity_mw_lower_bound": 550,
           "asset_capacity_qualifier": "550+ MW",
@@ -2578,11 +2578,13 @@
         "source_linked_unverified_returns": null
       },
       "evidence": {
-        "primary_source": "https://www.mediaoffice.abudhabi/en/energy/masdar-expands-portfolio-in-greece-with-major-solar-project-acquisition/",
-        "independent_source": null,
+        "primary_source": "https://masdar.ae/en/news/newsroom/masdar-backs-greeces-digital-future-with-major-solar-acquisition",
+        "independent_source": "https://www.eurobank.gr/-/media/eurobank/omilos/grafeio-tupou/deltia-tupou/2024/deltio-tupou-29-04-24/deltio-tupou-29-04-24-en.pdf",
         "reopened_primary_claims": [],
         "source_urls": [
-          "https://www.mediaoffice.abudhabi/en/energy/masdar-expands-portfolio-in-greece-with-major-solar-project-acquisition/"
+          "https://www.mediaoffice.abudhabi/en/energy/masdar-expands-portfolio-in-greece-with-major-solar-project-acquisition/",
+          "https://masdar.ae/en/news/newsroom/masdar-backs-greeces-digital-future-with-major-solar-acquisition",
+          "https://www.eurobank.gr/-/media/eurobank/omilos/grafeio-tupou/deltia-tupou/2024/deltio-tupou-29-04-24/deltio-tupou-29-04-24-en.pdf"
         ],
         "source_claim_blocks": [
           {
@@ -2686,6 +2688,50 @@
             "Legal and financial transaction advisers",
             "Investor-specific realised cash proceeds and returns"
           ]
+        },
+        "primary_source_review_2026_11_19": {
+          "review_date": "2026-11-19",
+          "status": "DIRECT_BUYER_ANNOUNCEMENT_VERIFIED_PROJECT_FINANCING_IDENTITY_NOT_MATCHED",
+          "sources": [
+            {
+              "url": "https://masdar.ae/en/news/newsroom/masdar-backs-greeces-digital-future-with-major-solar-acquisition",
+              "published_on": "2026-10-24",
+              "type": "BUYER_OFFICIAL_RELEASE",
+              "verified_claims": [
+                "Masdar signed agreement to acquire 550+ MW solar PV project from Lightsource bp",
+                "Two privately owned substations included",
+                "TERNA ENERGY described as acquisition platform, not legal SPV proof",
+                "Regulatory approval and customary closing conditions pending; closing expected by end-2026",
+                "No price, buyer equity stake or seller SPV disclosed"
+              ]
+            },
+            {
+              "url": "https://www.eurobank.gr/-/media/eurobank/omilos/grafeio-tupou/deltia-tupou/2024/deltio-tupou-29-04-24/deltio-tupou-29-04-24-en.pdf",
+              "published_on": "2024-04-29",
+              "type": "LENDER_OFFICIAL_PROJECT_FINANCING_RELEASE",
+              "verified_claims": [
+                "Enipeas Single-Member S.A. named as Lightsource bp subsidiary and borrower for 560 MWp project in Larissa and Fthiotida",
+                "EUR 315.34m project financing agreement with Eurobank and Greek state under Greece 2.0",
+                "EUR 395.15m total planned construction investment"
+              ],
+              "limitations": [
+                "Enipeas project has not been matched to Masdar purchase by buyer or seller primary announcement",
+                "EUR 315.34m is historical project debt, not Masdar acquisition consideration or investor ticket",
+                "EUR 395.15m is planned project investment, not transaction valuation",
+                "Project financing agreement is not audited standalone historical financial statements",
+                "TERNA ENERGY platform does not establish exact acquiring legal vehicle"
+              ]
+            }
+          ],
+          "explicit_missing_claims": [
+            "Confirmed seller project SPV and mapping to Enipeas",
+            "Exact legal acquiring subsidiary and share percentage",
+            "Signed sale agreement terms and consideration",
+            "Closing, regulatory consent and paid cash",
+            "Audited pre-entry project SPV statements and revenue/EBITDA",
+            "Deal financial/legal advisers and represented parties",
+            "Investor-specific cash flows, IRR and MOIC"
+          ]
         }
       },
       "coverage": {
@@ -2701,7 +2747,9 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "PROJECT_ENIPEAS_IDENTITY_NOT_PRIMARY_CONFIRMED",
+          "HISTORICAL_PROJECT_DEBT_NOT_ACQUISITION_PRICE"
         ],
         "requires_further_primary_research": true,
         "analyst_economic_event_review": {
