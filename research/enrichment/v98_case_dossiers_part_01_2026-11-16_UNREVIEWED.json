@@ -4198,20 +4198,20 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "Public tender-offer agreement",
       "source_inclusion_decision": "PROVISIONAL_ADMIT",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "PRIMARY_SOURCE_REVIEWED_SIGNED_CONDITIONAL_PUBLIC_TENDER_NOT_CLOSED",
+      "dossier_evidence_level": "ISSUER_PRIMARY_SIGNING_BIDDER_VEHICLE_CONSORTIUM_AND_ADVISERS_VERIFIED_PRE_ENTRY_AUDIT_PENDING",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "ADIA",
         "reported_investing_entity": "Luxinva S.A. (wholly owned ADIA subsidiary)",
-        "legal_vehicle_verified": null,
-        "vehicle_source": null,
+        "legal_vehicle_verified": "Luxinva S.A. (indirect co-investor in Crown NL Bidco B.V.; wholly owned ADIA subsidiary; equity participation not settled)",
+        "vehicle_source": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
         "vehicle_claim_from_unreviewed_dossier": null,
         "investor_origin_country": "United Arab Emirates"
       },
       "investee": {
         "reported_name": "QIAGEN N.V.",
-        "legal_name_verified": null,
+        "legal_name_verified": "QIAGEN N.V.",
         "country": "Netherlands;Germany",
         "previous_financials": {
           "revenue": null,
@@ -4228,20 +4228,190 @@
         "original_amount": null,
         "currency": null,
         "amount_scope": "€10.8bn whole-deal EV, not ADIA ticket",
-        "amount_evidence_state": null,
+        "amount_evidence_state": "EUR10_8BN_APPROX_WHOLE_DEAL_ENTERPRISE_VALUE_NOT_ADIA_TICKET",
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "offer_price_eur_per_share": 46.5,
+          "approx_enterprise_value_eur_bn": 10.8,
+          "valuation_scope": "WHOLE_TARGET_ENTERPRISE_VALUE_NOT_INVESTOR_CASH",
+          "bidder": "Crown NL Bidco B.V.",
+          "controlling_fund": "EQT XI",
+          "offer_status_as_of_announcement": "NOT_COMMENCED",
+          "minimum_acceptance": "50% plus one share",
+          "expected_closing": "mid-2027, conditional",
+          "adia_individual_equity_commitment": null,
+          "adia_stake_percent": null,
+          "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+          "source_date": "2026-10-21"
+        },
         "lifecycle_events": []
       },
       "counterparties": {
         "master_syndicate_relationships": [],
-        "verified_co_investor_announcements": [],
+        "verified_co_investor_announcements": [
+          {
+            "name": "EQT XI fund",
+            "role": "INDIRECT_CONTROLLING_SPONSOR_OF_BIDDER",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx"
+          },
+          {
+            "name": "CPP Investment Board Europe Inc.",
+            "role": "INDIRECT_CO_INVESTOR_WHOLE_OWNED_CPP_INVESTMENTS_SUBSIDIARY",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx"
+          },
+          {
+            "name": "Luxinva S.A.",
+            "role": "INDIRECT_CO_INVESTOR_WHOLE_OWNED_ADIA_SUBSIDIARY",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx"
+          }
+        ],
         "source_ownership_claims": null,
         "investor_ownership_stake_percent": null
       },
       "service_providers": {
-        "verified_issuer_disclosed_adviser_engagements": [],
-        "legal_adviser_research_status": "INCOMPLETE_UNLESS_LISTED"
+        "verified_issuer_disclosed_adviser_engagements": [
+          {
+            "firm": "Clifford Chance",
+            "represented_party": "ADIA",
+            "role": "LEGAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Freshfields",
+            "represented_party": "CPP Investments",
+            "role": "LEGAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Morgan Stanley",
+            "represented_party": "EQT Private Equity",
+            "role": "LEAD_FINANCIAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Jefferies",
+            "represented_party": "EQT Private Equity",
+            "role": "LEAD_FINANCIAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Deutsche Bank",
+            "represented_party": "EQT Private Equity",
+            "role": "FINANCIAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Milbank",
+            "represented_party": "EQT Private Equity",
+            "role": "LEAD_LEGAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Stibbe",
+            "represented_party": "EQT Private Equity",
+            "role": "LEGAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Paul Weiss",
+            "represented_party": "EQT Private Equity",
+            "role": "LEGAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Moelis & Company LLC",
+            "represented_party": "QIAGEN",
+            "role": "FINANCIAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Goldman Sachs Bank Europe SE",
+            "represented_party": "QIAGEN",
+            "role": "FINANCIAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Perella Weinberg Partners",
+            "represented_party": "QIAGEN Supervisory Board",
+            "role": "FINANCIAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "De Brauw Blackstone Westbroek N.V.",
+            "represented_party": "QIAGEN",
+            "role": "LEGAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Linklaters LLP",
+            "represented_party": "QIAGEN",
+            "role": "LEGAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          },
+          {
+            "firm": "Davis Polk & Wardwell LLP",
+            "represented_party": "QIAGEN",
+            "role": "LEGAL_ADVISER",
+            "source_type": "ISSUER_TRANSACTION_ANNOUNCEMENT",
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "mandate_status": "ISSUER_DISCLOSED_NOT_SEPARATELY_LAW_FIRM_CROSSCHECKED"
+          }
+        ],
+        "legal_adviser_research_status": "14_ISSUER_DISCLOSED_MANDATES_REVIEWED_INCLUDING_ADIA_CLIFFORD_CHANCE;INDEPENDENT_FIRM_CONFIRMATION_PENDING"
       },
       "returns": {
         "investor_specific_proceeds": null,
@@ -4252,7 +4422,21 @@
       "evidence": {
         "primary_source": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
         "independent_source": "https://www.sec.gov/Archives/edgar/data/1015820/000095010326015981/dp255365_ex9902.htm",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
+            "source_date": "2026-10-21",
+            "reviewed_on": "2026-11-19",
+            "classification": "ISSUER_PRIMARY_SIGNED_TAKEOVER_AGREEMENT",
+            "verified_claims": [
+              "Crown NL Bidco B.V. bidder indirectly controlled by EQT XI fund",
+              "Luxinva S.A. wholly owned by ADIA and indirect co-investor; CPP Investments separately represented",
+              "EUR46.50 per share and approximately EUR10.8bn enterprise value are whole-deal terms, not ADIA investment",
+              "Offer not commenced as of 21 October; expected mid-2027 closing conditional",
+              "Clifford Chance named legal adviser to ADIA; adviser parties separately identified in issuer announcement"
+            ]
+          }
+        ],
         "source_urls": [
           "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-and-EQT-Private-Equity-announce-agreement-on-a-recommended-voluntary-all-cash-public-takeover-offer/default.aspx",
           "https://www.sec.gov/Archives/edgar/data/1015820/000095010326015981/dp255365_ex9902.htm"
@@ -4308,7 +4492,11 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Resolve investor-specific payment, closing and entity chain where relevant"
+          "Resolve investor-specific payment, closing and entity chain where relevant",
+          "Extract QIAGEN FY2025 audited 20-F with publication date and distinguish GAAP consolidated results from adjusted/non-GAAP figures",
+          "Confirm BaFin-approved offer document, SEC Schedule TO, shareholder acceptance and closing; do not treat signing as settled investment",
+          "Obtain ADIA/Luxinva equity commitment and ownership percentage; do not infer from enterprise value",
+          "Issuer-announced adviser roles require independent law-firm confirmation where available"
         ]
       },
       "coverage": {
@@ -4316,15 +4504,13 @@
         "record_type_review_needed": "FINANCIAL_VEHICLE_OWNERSHIP_ADVISER_EVIDENCE",
         "existing_source_research_count": 1,
         "completeness_gaps": [
-          "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
-          "INVESTEE_LEGAL_IDENTITY_NOT_VERIFIED",
-          "PRE_ENTRY_AUDITED_REVENUE_NOT_EXTRACTED",
-          "PRE_ENTRY_AUDITED_EBITDA_NOT_VERIFIED_OR_NOT_APPLICABLE",
-          "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
-          "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
-          "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
-          "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "PRE_ENTRY_FY2025_AUDITED_20F_FINANCIALS_NOT_EXTRACTED",
+          "ADIA_LUXINVA_INDIVIDUAL_EQUITY_TICKET_UNDISCLOSED",
+          "BIDDER_INDIRECT_STAKE_AND_EQUITY_SPLIT_UNDISCLOSED",
+          "TENDER_OFFER_NOT_COMMENCED_AS_OF_2026_10_21",
+          "SETTLEMENT_AND_CLOSING_NOT_CONFIRMED",
+          "ADVISER_MANDATES_ISSUER_CONFIRMED_NOT_INDEPENDENTLY_CROSSCHECKED",
+          "INVESTOR_CASHFLOWS_IRR_MOIC_NOT_AVAILABLE"
         ],
         "requires_further_primary_research": true
       }
