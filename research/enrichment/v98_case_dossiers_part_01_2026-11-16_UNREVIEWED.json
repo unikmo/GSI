@@ -2764,8 +2764,8 @@
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "EQUITY",
       "source_inclusion_decision": "ADMIT_CANDIDATE",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "SOURCE_REVIEWED_ELIGIBLE_RECOMMENDED_CONSORTIUM_TAKE_PRIVATE_NOT_CLOSED",
+      "dossier_evidence_level": "PRIMARY_REGULATORY_SCHEME_AND_DEBT_FINANCING_TERMS_CHECKED_NOT_FINANCIALLY_CERTIFIED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "ADIA; Mubadala; QIA",
@@ -2809,7 +2809,22 @@
           "financing_coissuers": [
             "Isotope Finco S.à r.l.",
             "Isotope Finco 2 LLC"
-          ]
+          ],
+          "scheme_document_published": "2026-07-15",
+          "scheme_document_source": "https://data.fca.org.uk/artefacts/NSM/RNS/94262530-f121-4c0f-ac9f-a2d553877015.html",
+          "financing_as_of": "2026-10-09",
+          "financing_debt_not_equity_ticket": true,
+          "senior_facilities": {
+            "eur": 1570000000,
+            "aud": 350000000,
+            "usd": 2720000000
+          },
+          "senior_secured_notes": {
+            "eur": 435000000,
+            "usd": 700000000
+          },
+          "financing_source": "https://www.londonstockexchange.com/en/news/article/update-on-bidco-s-financing-arrangements/17829704",
+          "interim_facilities_cancelled_on": "2026-10-09"
         },
         "lifecycle_events": []
       },
@@ -2909,10 +2924,37 @@
       "evidence": {
         "primary_source": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
         "independent_source": "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/update-on-equity-co-investors-2-september-2026-/9752644",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://data.fca.org.uk/artefacts/NSM/RNS/94262530-f121-4c0f-ac9f-a2d553877015.html",
+            "source_date": "2026-07-15",
+            "reviewed_on": "2026-11-19",
+            "classification": "FCA_NATIONAL_STORAGE_MECHANISM_ISSUER_RNS",
+            "verified_claims": [
+              "Court-sanctioned Part 26 scheme proposed",
+              "Isotope Bidco Limited is proposed acquirer",
+              "EQT X EUR SCSp and EQT X USD SCSp are indirect majority fund owners; Luxinva and Mubadala named as minority participants",
+              "Scheme document published; publication alone is not closing"
+            ]
+          },
+          {
+            "source_url": "https://www.londonstockexchange.com/en/news/article/update-on-bidco-s-financing-arrangements/17829704",
+            "source_date": "2026-10-09",
+            "reviewed_on": "2026-11-19",
+            "classification": "LONDON_STOCK_EXCHANGE_BIDCO_FINANCING_RNS",
+            "verified_claims": [
+              "Isotope Finco S.à r.l. signed EUR1.57bn AUD350m USD2.72bn senior facilities",
+              "Isotope Finco S.à r.l. and Isotope Finco 2 LLC co-issued EUR435m and USD700m senior secured notes",
+              "Interim facilities cancelled on 9 October 2026",
+              "Debt financing amounts are not Gulf investor equity contributions or acquisition cash proceeds"
+            ]
+          }
+        ],
         "source_urls": [
           "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/publ-of-offering-memorandum-other-documents/9787611",
-          "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/update-on-equity-co-investors-2-september-2026-/9752644"
+          "https://www.investegate.co.uk/index.php/announcement/rns/intertek-group--itrk/update-on-equity-co-investors-2-september-2026-/9752644",
+          "https://data.fca.org.uk/artefacts/NSM/RNS/94262530-f121-4c0f-ac9f-a2d553877015.html",
+          "https://www.londonstockexchange.com/en/news/article/update-on-bidco-s-financing-arrangements/17829704"
         ],
         "source_claim_blocks": [
           {
@@ -2965,7 +3007,9 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
+          "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed.",
+          "As of 2026-11-19 no closing/court order verified; debt financing documentation does not prove acquisition settlement or Mubadala/Luxinva/QIA individual equity cash funding.",
+          "Verify whether QIA indirect 4.2% claim has signed subscription evidence; do not infer from consortium percentages."
         ],
         "primary_source_review_2026_11_17": {
           "review_date": "2026-11-17",
