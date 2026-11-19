@@ -122,8 +122,24 @@
         "investor_ownership_stake_percent": 9.87
       },
       "service_providers": {
-        "verified_issuer_disclosed_adviser_engagements": [],
-        "legal_adviser_research_status": "NO_TRANSACTION_SPECIFIC_EXTERNAL_COUNSEL_CONFIRMED;RWE_GENERAL_COUNSEL_IS_ANNOUNCEMENT_SIGNATORY_NOT_EXTERNAL_ADVISER"
+        "verified_issuer_disclosed_adviser_engagements": [
+          {
+            "firm": "Clifford Chance",
+            "role": "EXTERNAL_LEGAL_ADVISER",
+            "represented_party": "Qatar Investment Authority",
+            "mandate": "Cornerstone investment in RWE AG June 2026 accelerated bookbuilding",
+            "source_type": "LAW_FIRM_PRIMARY_MANDATE_ANNOUNCEMENT",
+            "source_url": "https://www.cliffordchance.com/news/news/2026/06/clifford-chance-advises-the-qatar-investment-authority-on-its-cornerstone-investment-in-rwe-aktiengesellschafts-approximately-eur-4-billion-capital-increase.html",
+            "source_date": "2026-06-23",
+            "reviewed_on": "2026-11-19",
+            "lead_partners": [
+              "Axel Wittmann",
+              "Samuel Frommelt"
+            ],
+            "not_evidence_of": "QIA settlement, exact holding vehicle or separate issuer counsel"
+          }
+        ],
+        "legal_adviser_research_status": "QIA_EXTERNAL_LEGAL_COUNSEL_CLIFFORD_CHANCE_PRIMARY_CONFIRMED;OTHER_PARTIES_ADVISERS_UNVERIFIED"
       },
       "returns": {
         "investor_specific_proceeds": null,
@@ -179,13 +195,25 @@
               "FY2025 adjusted EBITDA EUR5,087m non-GAAP",
               "Deloitte audit report"
             ]
+          },
+          {
+            "source_url": "https://www.cliffordchance.com/news/news/2026/06/clifford-chance-advises-the-qatar-investment-authority-on-its-cornerstone-investment-in-rwe-aktiengesellschafts-approximately-eur-4-billion-capital-increase.html",
+            "source_date": "2026-06-23",
+            "reviewed_on": "2026-11-19",
+            "classification": "LAW_FIRM_PRIMARY_TRANSACTION_SPECIFIC_MANDATE",
+            "verified_claims": [
+              "Clifford Chance advised QIA as cornerstone investor in RWE capital raise",
+              "Axel Wittmann and Samuel Frommelt led the Clifford Chance team",
+              "Mandate covers QIA participation, not RWE issuer or Amprion acquisition advice"
+            ]
           }
         ],
         "source_urls": [
           "https://www.qia.qa/en/Newsroom/Pages/QIA-participates-as-a-cornerstone-investor-in-RWE%E2%80%99s-equity-capital-raise-to-increase-in-Amprion-stake.aspx",
           "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/ad-hoc-announcements/ad-hoc-2026-06-22_b/",
           "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/ad-hoc-announcements/ad-hoc-2026-06-22_a/",
-          "https://www.rwe.com/en/rwe-annual-report-2025"
+          "https://www.rwe.com/en/rwe-annual-report-2025",
+          "https://www.cliffordchance.com/news/news/2026/06/clifford-chance-advises-the-qatar-investment-authority-on-its-cornerstone-investment-in-rwe-aktiengesellschafts-approximately-eur-4-billion-capital-increase.html"
         ],
         "source_claim_blocks": [
           {
@@ -214,8 +242,8 @@
         "unresolved_source_notes": [
           "Verify exact QIA legal holding vehicle and final shares/cash settlement via post-issuance ownership filings",
           "RWE FY2025 group results are not Amprion standalone accounts; separate audited Amprion financials if assessing underlying use-of-proceeds asset",
-          "Identify transaction-specific bookrunners and external legal counsel with verified client mandates",
-          "Do not infer QIA realized returns from RWE share prices or dividends without attributable cashflows"
+          "Do not infer QIA realized returns from RWE share prices or dividends without attributable cashflows",
+          "QIA legal counsel verified as Clifford Chance; identify issuer bookrunners and other represented parties independently"
         ]
       },
       "coverage": {
@@ -227,8 +255,8 @@
           "QIA_SHARE_DELIVERY_AND_SETTLED_CASH_NOT_CONFIRMED",
           "POST_ISSUANCE_REGISTERED_STAKE_NOT_RECHECKED",
           "AMPRION_STANDALONE_FINANCIALS_NOT_ASSESSED",
-          "TRANSACTION_SPECIFIC_EXTERNAL_ADVISERS_NOT_IDENTIFIED",
-          "INVESTOR_SPECIFIC_IRR_MOIC_NOT_ESTABLISHED"
+          "INVESTOR_SPECIFIC_IRR_MOIC_NOT_ESTABLISHED",
+          "OTHER_TRANSACTION_ADVISERS_AND_BOOKRUNNERS_NOT_FULLY_VERIFIED"
         ],
         "requires_further_primary_research": true
       }
