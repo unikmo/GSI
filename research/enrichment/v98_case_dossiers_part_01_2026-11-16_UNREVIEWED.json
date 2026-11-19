@@ -4080,9 +4080,9 @@
       "record_id": "V1.6_CANDIDATES-018",
       "dossier_type": "INVESTEE_TRANSACTION_CANDIDATE",
       "original_event_classification": "Project capital expenditure",
-      "source_inclusion_decision": "PROVISIONAL_ADMIT",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "source_inclusion_decision": "EXCLUDE_FROM_NEW_EQUITY_TRANSACTION_COUNTS_RETAIN_PROJECT_CONSTRUCTION_MILESTONE",
+      "analyst_classification_status": "SOURCE_REVIEWED_EXISTING_PARTNERSHIP_PROJECT_CONSTRUCTION_NOT_NEW_EQUITY_ENTRY",
+      "dossier_evidence_level": "PRIMARY_SOURCE_CONSTRUCTION_AND_AGGREGATE_CAPEX_VERIFIED_NOT_INVESTOR_CASHFLOW",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "Masdar (TAQA/Mubadala/ADNOC ownership)",
@@ -4110,10 +4110,27 @@
         "reported_event_status": "CONSTRUCTION STARTED",
         "original_amount": null,
         "currency": null,
-        "amount_scope": "€25.2m total three-project investment; Masdar's share unknown",
-        "amount_evidence_state": null,
+        "amount_scope": "EUR25.2m announced combined investment across three BESS projects; not a Masdar individual ticket or settled equity acquisition",
+        "amount_evidence_state": "MASDAR_PRIMARY_SOURCE_CONFIRMS_PROJECT_PORTFOLIO_AGGREGATE_CAPEX_NOT_INVESTOR_SPECIFIC",
         "economic_term_claims": [],
-        "transaction_terms": null,
+        "transaction_terms": {
+          "event_type": "CONSTRUCTION_START_EXISTING_2024_MASDAR_ENDESA_PARTNERSHIP",
+          "aggregate_project_investment_eur_m": 25.2,
+          "aggregate_is_not_masdar_ticket": true,
+          "projects": [
+            "Ardila",
+            "La Vega I",
+            "La Vega II"
+          ],
+          "storage_capacity_mw": 60.16,
+          "storage_capacity_mwh": 120.34,
+          "expected_operations_by": "2027-12-31",
+          "expected_operations_not_actual": true,
+          "prior_partnership_established": 2024,
+          "prior_equity_entry_separate_event": true,
+          "source_url": "https://masdar.ae/en/news/newsroom/masdar-and-endesa-begin-construction-25m-battery-storage-portfolio-in-spain",
+          "source_published": "2026-11-05"
+        },
         "lifecycle_events": []
       },
       "counterparties": {
@@ -4135,7 +4152,21 @@
       "evidence": {
         "primary_source": "https://masdar.ae/en/news/newsroom/masdar-and-endesa-begin-construction-25m-battery-storage-portfolio-in-spain",
         "independent_source": "https://www.wam.ae/en/article/c33pmjd-masdar-endesa-begin-construction-%25E2%2582%25AC252-million",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://masdar.ae/en/news/newsroom/masdar-and-endesa-begin-construction-25m-battery-storage-portfolio-in-spain",
+            "source_date": "2026-11-05",
+            "reviewed_on": "2026-11-19",
+            "classification": "MASDAR_PRIMARY_PROJECT_CONSTRUCTION_ANNOUNCEMENT",
+            "verified_claims": [
+              "Construction start of Ardila and La Vega I/II BESS",
+              "Combined announced project investment EUR25.2m, not Masdar-specific payment",
+              "60.16 MW / 120.34 MWh planned storage",
+              "Partnership established in 2024 through separate photovoltaic portfolio stake acquisition",
+              "Operations expected by end-2027, not completed"
+            ]
+          }
+        ],
         "source_urls": [
           "https://masdar.ae/en/news/newsroom/masdar-and-endesa-begin-construction-25m-battery-storage-portfolio-in-spain",
           "https://www.wam.ae/en/article/c33pmjd-masdar-endesa-begin-construction-%25E2%2582%25AC252-million"
@@ -4191,7 +4222,10 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Resolve investor-specific payment, closing and entity chain where relevant"
+          "Resolve investor-specific payment, closing and entity chain where relevant",
+          "Identify separate 2024 equity acquisition master ID before linking; do not duplicate the 2024 transaction",
+          "Project-level audited pre-entry accounts not evidenced; no assumption of standalone audited operating history",
+          "No individual Masdar equity cash payment, project ownership percentage, legal SPV or adviser mandates established"
         ]
       },
       "coverage": {
@@ -4207,7 +4241,9 @@
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
           "SETTLEMENT_CLOSING_DATE_NOT_VERIFIED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "PROJECT_AGGREGATE_CAPEX_NOT_INDIVIDUAL_INVESTOR_TICKET",
+          "2024_EQUITY_ENTRY_SEPARATE_FROM_2026_CONSTRUCTION_MILESTONE"
         ],
         "requires_further_primary_research": true
       }
