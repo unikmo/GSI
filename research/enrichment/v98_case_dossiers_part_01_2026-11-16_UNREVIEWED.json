@@ -4692,8 +4692,8 @@
       "dossier_type": "HOLD_OR_NONTRANSACTION_SCREEN",
       "original_event_classification": "EQUITY",
       "source_inclusion_decision": "HOLD_ATTRIBUTION",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "PRIMARY_SOURCE_REVIEWED_TENDER_OFFER_ADIA_ALLOCATION_UNVERIFIED",
+      "dossier_evidence_level": "ISSUER_OFFER_DOCUMENT_INDEX_AND_LAW_FIRM_MANDATE_REVIEWED",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "ADIA",
@@ -4705,7 +4705,7 @@
       },
       "investee": {
         "reported_name": "Recordati S.p.A. / Respighi BidCo tender offer",
-        "legal_name_verified": null,
+        "legal_name_verified": "Recordati S.p.A.",
         "country": "Italy",
         "previous_financials": {
           "revenue": null,
@@ -4718,12 +4718,20 @@
       "transaction": {
         "announced_on": "2026-05-22",
         "completed_on": null,
-        "reported_event_status": "TENDER_OFFER_FILED_NOT_ASSUMED_CLOSED",
+        "reported_event_status": "TENDER_OFFER_DOCUMENT_PUBLISHED_SUBSEQUENT_CLOSING_AND_ADIA_SETTLEMENT_NOT_PRIMARY_VERIFIED",
         "original_amount": null,
         "currency": null,
         "amount_scope": "€10.7bn bid value is NOT ADIA contribution",
         "amount_evidence_state": null,
-        "economic_term_claims": [],
+        "economic_term_claims": [
+          {
+            "claim": "Initial offer price €51.29 per share, as announced 22 May 2026; superseded by later price amendment, not current consideration",
+            "source_url": "https://recordati.com/investors-public-tender-offers/",
+            "source_date": "2026-05-22",
+            "reviewed_on": "2026-11-20",
+            "status": "PRIMARY_ISSUER_INDEX_VERIFIED_HISTORICAL_ONLY"
+          }
+        ],
         "transaction_terms": null,
         "lifecycle_events": []
       },
@@ -4734,7 +4742,18 @@
         "investor_ownership_stake_percent": null
       },
       "service_providers": {
-        "verified_issuer_disclosed_adviser_engagements": [],
+        "verified_issuer_disclosed_adviser_engagements": [
+          {
+            "firm": "Kirkland & Ellis",
+            "represented_party": "CPP Investments",
+            "mandate": "Minority consortium investment related to Recordati voluntary tender offer",
+            "source_url": "https://www.kirkland.com/news/press-release/2026/05/kirkland-advises-cpp-investments-on-m-i-in-cvc-and-gbl-led-consortium",
+            "source_date": "2026-05-26",
+            "reviewed_on": "2026-11-20",
+            "source_type": "LAW_FIRM_OWN_MANDATE_ANNOUNCEMENT",
+            "not_adia_adviser": true
+          }
+        ],
         "legal_adviser_research_status": "INCOMPLETE_UNLESS_LISTED"
       },
       "returns": {
@@ -4746,10 +4765,42 @@
       "evidence": {
         "primary_source": "https://recordati.com/investors-public-tender-offers/",
         "independent_source": "https://www.reuters.com/business/cvc-gbl-launch-107-bln-euro-full-takeover-offer-italys-recordati-2026-05-22/",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://recordati.com/investors-public-tender-offers/",
+            "source_date": "2026-07-20",
+            "reviewed_on": "2026-11-20",
+            "review_status": "ISSUER_OFFER_INDEX_REVIEWED_NOT_FULL_OFFER_DOCUMENT",
+            "claims": [
+              "Respighi BidCo S.p.A. identified as offeror",
+              "Issuer lists 20 July 2026 offer document and acceptance form",
+              "22 May 2026 initial offer at €51.29 per share"
+            ],
+            "limits": [
+              "Current final tender outcome and settlement not verified from original filing",
+              "ADIA-specific legal subscription vehicle, allocation and funding not established",
+              "Issuer's 2025 audited report linked but financial figures not extracted or certified"
+            ]
+          },
+          {
+            "source_url": "https://www.kirkland.com/news/press-release/2026/05/kirkland-advises-cpp-investments-on-m-i-in-cvc-and-gbl-led-consortium",
+            "source_date": "2026-05-26",
+            "reviewed_on": "2026-11-20",
+            "review_status": "LAW_FIRM_PRIMARY_ANNOUNCEMENT_REVIEWED",
+            "claims": [
+              "Kirkland & Ellis advises CPP Investments on minority consortium investment",
+              "CVC and GBL lead consortium; Respighi BidCo S.p.A. is Italian offeror"
+            ],
+            "limits": [
+              "No ADIA legal-adviser mandate established",
+              "€10.7bn headline valuation is whole offer, not ADIA equity ticket"
+            ]
+          }
+        ],
         "source_urls": [
           "https://recordati.com/investors-public-tender-offers/",
-          "https://www.reuters.com/business/cvc-gbl-launch-107-bln-euro-full-takeover-offer-italys-recordati-2026-05-22/"
+          "https://www.reuters.com/business/cvc-gbl-launch-107-bln-euro-full-takeover-offer-italys-recordati-2026-05-22/",
+          "https://www.kirkland.com/news/press-release/2026/05/kirkland-advises-cpp-investments-on-m-i-in-cvc-and-gbl-led-consortium"
         ],
         "source_claim_blocks": [
           {
@@ -4875,7 +4926,10 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed."
+          "Verify exact investor vehicle, allocation, legal closing and latest regulatory status; retain no-value/null where undisclosed.",
+          "Check 2026-10/11 final issuer/CONSOB settlement and offer-price amendment directly; do not retain €51.29 as final offer price.",
+          "Extract Recordati audited FY2025 consolidated statements and distinguish adjusted EBITDA from statutory earnings.",
+          "Verify ADIA co-investment vehicle, subscription amount, closing and indirect percentage from regulatory documents; do not infer from consortium headline."
         ]
       },
       "coverage": {
