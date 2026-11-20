@@ -5473,17 +5473,17 @@
       "record_id": "V1.5_HOLDS-002",
       "dossier_type": "EXCLUDED_OR_DUPLICATE_SCREEN",
       "original_event_classification": "PRIVATE_GULF_INVESTMENT",
-      "source_inclusion_decision": "EXCLUDE_NON_SOVEREIGN",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "source_inclusion_decision": "RETAIN_PRIVATE_GULF_ADJACENT_EXCLUDE_SOVEREIGN_CORE",
+      "analyst_classification_status": "PRIMARY_SOURCE_REVIEWED_COMPLETED_PRIVATE_GULF_MINORITY_STAKE",
+      "dossier_evidence_level": "TWO_PARTY_PRIMARY_ANNOUNCEMENTS_REVIEWED_INVESTOR_TICKET_AND_AUDITED_FINANCIALS_UNAVAILABLE",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "EIIC / National Holding (private UAE investor)",
         "reported_investing_entity": "Emirates International Investment Company",
         "legal_vehicle_verified": null,
-        "vehicle_source": null,
+        "vehicle_source": "https://www.eiic.ae/eiic-buys-stake-in-joe-the-juice/",
         "vehicle_claim_from_unreviewed_dossier": null,
-        "investor_origin_country": null
+        "investor_origin_country": "United Arab Emirates"
       },
       "investee": {
         "reported_name": "Joe & The Juice",
@@ -5494,25 +5494,42 @@
           "ebitda": null,
           "financial_period": null,
           "verified_period_statements": [],
-          "other_historical_claims": []
+          "other_historical_claims": [
+            {
+              "metric": "2025 revenue approximately USD 500 million",
+              "period_end": "2025-12-31",
+              "source_url": "https://www.eiic.ae/eiic-buys-stake-in-joe-the-juice/",
+              "source_published_on": "2026-04-16",
+              "audit_status": "PRESS_RELEASE_UNAUDITED_NOT_PRE_ENTRY_AUDITED_STATEMENT",
+              "scope": "Joe & The Juice company reported figure, no consolidated/segment audit verified"
+            }
+          ]
         }
       },
       "transaction": {
         "announced_on": "2026-04-16",
         "completed_on": null,
-        "reported_event_status": "ACQUIRED_ANNOUNCED",
+        "reported_event_status": "ACQUIRED_AS_ANNOUNCED_BY_INVESTOR_AND_PARENT_NO_SETTLEMENT_DOCUMENT",
         "original_amount": null,
         "currency": null,
         "amount_scope": "USD 1.8bn company valuation, NOT EIIC ticket",
-        "amount_evidence_state": null,
-        "economic_term_claims": [],
+        "amount_evidence_state": "USD_1_8_BILLION_COMPANY_VALUATION_ONLY_NOT_INVESTOR_TICKET",
+        "economic_term_claims": [
+          {
+            "claim": "Strategic minority stake acquired by EIIC; General Atlantic retains majority; USD 1.8bn is company valuation, not EIIC invested amount",
+            "source_url": "https://www.eiic.ae/eiic-buys-stake-in-joe-the-juice/",
+            "source_date": "2026-04-16",
+            "reviewed_on": "2026-11-20",
+            "status": "PRIMARY_SOURCE_CONFIRMED"
+          }
+        ],
         "transaction_terms": null,
         "lifecycle_events": []
       },
       "counterparties": {
         "master_syndicate_relationships": [],
         "verified_co_investor_announcements": [],
-        "source_ownership_claims": null,
+        "source_ownership_claims": "EIIC minority; General Atlantic majority, exact percentages undisclosed (EIIC and National Holding announcements 2026-04-16)",
         "investor_ownership_stake_percent": null
       },
       "service_providers": {
@@ -5528,7 +5545,39 @@
       "evidence": {
         "primary_source": "https://www.eiic.ae/eiic-buys-stake-in-joe-the-juice/",
         "independent_source": "https://www.nh.ae/joe-the-juice-welcomes-emirates-international-investment-company-as-a-strategic-investor/",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://www.eiic.ae/eiic-buys-stake-in-joe-the-juice/",
+            "source_date": "2026-04-16",
+            "reviewed_on": "2026-11-20",
+            "source_type": "INVESTOR_PRIMARY_ANNOUNCEMENT",
+            "verified_claims": [
+              "EIIC describes itself as private investment company and strategic investment arm of National Holding",
+              "EIIC acquired minority stake; General Atlantic remains majority",
+              "USD 1.8bn company valuation only",
+              "Approx USD 500m 2025 revenue disclosed without audit opinion"
+            ],
+            "missing_claims": [
+              "Ultimate beneficial ownership and direct legal subscription vehicle",
+              "EIIC individual cash investment and ownership percentage",
+              "Audited FY2025 pre-entry financial statements and EBITDA",
+              "Primary-versus-secondary equity split and settlement evidence",
+              "Transaction-specific legal and financial advisers",
+              "Investor-specific exit cash flows IRR and MOIC"
+            ]
+          },
+          {
+            "source_url": "https://www.nh.ae/joe-the-juice-welcomes-emirates-international-investment-company-as-a-strategic-investor/",
+            "reviewed_on": "2026-11-20",
+            "source_type": "PARENT_COMPANY_PRIMARY_ANNOUNCEMENT",
+            "verified_claims": [
+              "National Holding identifies EIIC as private strategic investment arm and confirms acquisition and GA majority"
+            ],
+            "missing_claims": [
+              "Independent proof of sovereign beneficial ownership"
+            ]
+          }
+        ],
         "source_urls": [
           "https://www.eiic.ae/eiic-buys-stake-in-joe-the-juice/",
           "https://www.nh.ae/joe-the-juice-welcomes-emirates-international-investment-company-as-a-strategic-investor/"
@@ -5584,19 +5633,25 @@
         ],
         "underlying_dossier": null,
         "unresolved_source_notes": [
-          "Only reconsider if sovereign beneficial ownership proven; consider future adjacent private-Gulf dataset."
+          "Only reconsider if sovereign beneficial ownership proven; consider future adjacent private-Gulf dataset.",
+          "Keep in private-Gulf adjacent coverage; private UAE domicile and National Holding affiliation do not prove sovereign beneficial ownership. Do not include in sovereign-core deployed capital."
         ]
       },
       "coverage": {
         "original_screening_category": "EXCLUDED_OR_DUPLICATE_SCREEN",
-        "record_type_review_needed": "SOURCE_REVIEW_REQUIRED",
+        "record_type_review_needed": "REVIEWED_PRIVATE_GULF_TRANSACTION_FURTHER_FINANCIAL_VERIFICATION_REQUIRED",
         "existing_source_research_count": 1,
         "completeness_gaps": [
           "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
           "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "AUDITED_FY2025_FINANCIALS_MISSING",
+          "EIIC_INDIVIDUAL_TICKET_AND_STAKE_UNDISCLOSED",
+          "LEGAL_SUBSCRIPTION_VEHICLE_UNVERIFIED",
+          "SOVEREIGN_BENEFICIAL_OWNERSHIP_NOT_ESTABLISHED",
+          "CLOSING_CASH_SETTLEMENT_NOT_INDEPENDENTLY_DOCUMENTED"
         ],
         "requires_further_primary_research": true
       }
