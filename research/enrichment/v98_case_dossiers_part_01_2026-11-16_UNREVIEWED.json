@@ -4951,8 +4951,8 @@
       "dossier_type": "HOLD_OR_NONTRANSACTION_SCREEN",
       "original_event_classification": "STRATEGIC_PARTNERSHIP",
       "source_inclusion_decision": "HOLD_NOT_DEPLOYED",
-      "analyst_classification_status": "PROVISIONAL_RULE_BASED",
-      "dossier_evidence_level": "SUPPLEMENTARY_SOURCE_RESEARCH_LINKED",
+      "analyst_classification_status": "PRIMARY_SOURCE_REVIEWED_SIGNED_DEVELOPMENT_PARTNERSHIP_FID_PENDING_NOT_DEPLOYED",
+      "dossier_evidence_level": "ISSUER_RNS_AND_JOINT_PARTNER_ANNOUNCEMENT_CROSSCHECKED_NO_INVESTOR_CASHFLOW",
       "dossier_certification": "NOT_CERTIFIED_NOT_DECISION_GRADE",
       "investor": {
         "group": "QIA / Qai",
@@ -4981,14 +4981,60 @@
         "original_amount": null,
         "currency": null,
         "amount_scope": "Up to £2.5bn phase-one potential; full project >£20bn speculative, NOT deployed",
-        "amount_evidence_state": null,
-        "economic_term_claims": [],
-        "transaction_terms": null,
+        "amount_evidence_state": "ISSUER_ESTIMATED_PROJECT_POTENTIAL_NOT_COMMITTED_OR_PAID_INVESTOR_TICKET",
+        "economic_term_claims": [
+          {
+            "source_url": "https://www.londonstockexchange.com/en/news/article/DRX/strategic-partnership-for-gw-scale-data-centre/bcae-aa-b6-ad-28-4a74ad",
+            "source_published_on": "2026-11-03",
+            "reviewed_on": "2026-11-20",
+            "claim": "Brookfield estimated potential investment exceeding GBP20bn including semiconductor chips across full project, with initial GBP2.5bn as part of Phase 1; neither amount is verified committed or deployed Gulf capital.",
+            "amount_scope": "PROJECT_ESTIMATE_NOT_INVESTOR_TICKET",
+            "status": "PRIMARY_SOURCE_VERIFIED_QUALIFIED"
+          }
+        ],
+        "transaction_terms": {
+          "source_url": "https://www.drax.com/news/strategic-partnership-for-gw-scale-data-centre/",
+          "source_published_on": "2026-11-03",
+          "reviewed_on": "2026-11-20",
+          "phase_one_capacity_mw_max": 100,
+          "phase_one_target_operations": "2028-Q1",
+          "phase_two_additional_capacity_mw_target": 500,
+          "phase_two_window": "2028-2031",
+          "conditions": [
+            "planning approvals",
+            "regulatory and network approvals",
+            "acceptable anchor tenant",
+            "commercial agreements",
+            "final investment decision by each party"
+          ],
+          "status": "SIGNED_DEVELOPMENT_PARTNERSHIP_NO_FID_OR_CAPITAL_SETTLEMENT_VERIFIED"
+        },
         "lifecycle_events": []
       },
       "counterparties": {
         "master_syndicate_relationships": [],
-        "verified_co_investor_announcements": [],
+        "verified_co_investor_announcements": [
+          {
+            "source_url": "https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/",
+            "source_published_on": "2026-11-03",
+            "reviewed_on": "2026-11-20",
+            "parties": [
+              {
+                "name": "Drax",
+                "role": "land power integration and planning"
+              },
+              {
+                "name": "Radiant",
+                "role": "design customer engagement and commercialisation"
+              },
+              {
+                "name": "Brookfield-Qai AI infrastructure joint venture",
+                "role": "proposed investment capital and operating capabilities; legal project SPV and Qai cash contribution not disclosed"
+              }
+            ],
+            "status": "PRIMARY_JOINT_ANNOUNCEMENT_ROLES_VERIFIED_NOT_CLOSED_EQUITY"
+          }
+        ],
         "source_ownership_claims": null,
         "investor_ownership_stake_percent": null
       },
@@ -5005,10 +5051,32 @@
       "evidence": {
         "primary_source": "https://www.drax.com/news/strategic-partnership-for-gw-scale-data-centre/",
         "independent_source": "https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/",
-        "reopened_primary_claims": [],
+        "reopened_primary_claims": [
+          {
+            "source_url": "https://www.drax.com/news/strategic-partnership-for-gw-scale-data-centre/",
+            "source_published_on": "2026-11-03",
+            "reviewed_on": "2026-11-20",
+            "source_type": "ISSUER_REGULATORY_ANNOUNCEMENT_RNS_5051B",
+            "verified_claims": [
+              "Development partnership signed, not a completed equity transaction",
+              "Phase 1 up to 100MW with Q1 2028 operations targeted",
+              "Planning, tenant, commercial agreement and each party's final investment decision outstanding",
+              "GBP2.5bn Phase 1 and >GBP20bn whole-project figures are potential project estimates, not Qai ticket or paid capital"
+            ],
+            "explicit_missing_claims": [
+              "Qai/Brookfield joint venture legal entity and project SPV",
+              "Qai direct/indirect equity percentage and funded ticket",
+              "Signed subscription or funding documents and final investment decision",
+              "Audited project-company pre-entry financials if an eligible project SPV exists",
+              "Adviser mandates and investor cash flows"
+            ],
+            "status": "PRIMARY_SOURCE_REVIEWED_NOT_FINANCIALLY_CERTIFIED"
+          }
+        ],
         "source_urls": [
           "https://www.drax.com/news/strategic-partnership-for-gw-scale-data-centre/",
-          "https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/"
+          "https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/",
+          "https://www.londonstockexchange.com/en/news/article/DRX/strategic-partnership-for-gw-scale-data-centre/bcae-aa-b6-ad-28-4a74ad"
         ],
         "source_claim_blocks": [
           {
@@ -5066,14 +5134,17 @@
       },
       "coverage": {
         "original_screening_category": "HOLD_OR_NONTRANSACTION_SCREEN",
-        "record_type_review_needed": "SOURCE_REVIEW_REQUIRED",
+        "record_type_review_needed": "ANALYST_REVIEWED_HOLD_PENDING_FID",
         "existing_source_research_count": 1,
         "completeness_gaps": [
           "ULTIMATE_INVESTING_LEGAL_VEHICLE_NOT_VERIFIED",
           "DEAL_ADVISER_RESEARCH_NOT_COMPLETE_OR_UNDISCLOSED",
           "INVESTOR_RETURN_IRR_NOT_ESTABLISHED",
           "INVESTOR_RETURN_MOIC_NOT_ESTABLISHED",
-          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW"
+          "ECONOMIC_EVENT_ELIGIBILITY_REQUIRES_ANALYST_REVIEW",
+          "NO_FINAL_INVESTMENT_DECISION_OR_CLOSING",
+          "PROJECT_ESTIMATE_NOT_INVESTOR_CAPITAL",
+          "PROJECT_SPV_AND_AUDITED_PRE_ENTRY_FINANCIALS_UNVERIFIED"
         ],
         "requires_further_primary_research": true
       }
