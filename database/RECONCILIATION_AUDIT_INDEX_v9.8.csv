@@ -1,0 +1,311 @@
+"source_file","source_report_status","ledger_rows_claimed","pe_map_rows_claimed","candidate_rows_claimed","coverage_rows_claimed","primary_source_caveat","historical_notes","reconciliation_disposition"
+"GSI_1950_1978_Audit_PROPOSED.md","UNCERTIFIED","1","1","6","3480","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- The KIA before 1982: Kuwait Investment Board, Office or state as the investing entity.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+- Treasury and portfolio holdings are not records.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1979_1989_Audit_PROPOSED.md","UNCERTIFIED","3","3","6","1320","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- KIO versus KIA as investing entity before 1982 and in 1987 to 1989.
+- State oil companies (Kuwait Petroleum Corporation) versus funds.
+- Placeholder months where the purchase day is unseen.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1990_Audit_PROPOSED.md","UNCERTIFIED","1","1","6","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Whether the KIO (London arm) is the investing entity under the KIA group.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+- Private royals (Alwaleed) out of scope.
+- Increases of existing control holdings.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1991_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Loans to an investee (Torras) versus equity.
+- Existing holdings with no entry date.
+- Private royals out of scope.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1992_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Domestic bank rescue (UNB): ledger-only, or admit as a record.
+- Loss events (Torras) are ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1993_Audit_PROPOSED.md","UNCERTIFIED","1","1","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Planned purchases with no confirmed completion.
+- Buyer named as state institutions, not as the KIO or KIA.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1994_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+
+## Late addition (2026-11-13)
+- May: IPIC and OIAG consortium stake in OMV (GSI94M05-001), found while screening 1996","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1995_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1996_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1997_Audit_PROPOSED.md","UNCERTIFIED","0","0","4","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1998_Audit_PROPOSED.md","UNCERTIFIED","1","1","4","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_1999_Audit_PROPOSED.md","UNCERTIFIED","1","1","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2000_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2001_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Private royals (Alwaleed) out of scope, or a separate private-investor list.
+- Loans and loss events ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2002_Audit_PROPOSED.md","UNCERTIFIED","0","0","3","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Government-owned operating companies versus sovereign funds.
+- Intra-Gulf joint ventures ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2003_Audit_PROPOSED.md","UNCERTIFIED","0","0","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Government-owned operating companies versus sovereign funds.
+- Intra-Gulf joint ventures ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2004_Audit_PROPOSED.md","UNCERTIFIED","1","1","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Government-owned operating companies versus sovereign funds.
+- Intra-Gulf joint ventures ledger-only.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2005_Audit_PROPOSED.md","UNCERTIFIED","2","2","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Derived investor amount (Borealis EUR 736m from two reported figures).
+- AMI price including net debt versus equity price.
+- IPIC fund group before the 2017 Mubadala merger.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2006_Audit_PROPOSED.md","UNCERTIFIED","2","2","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Hyundai Oilbank date conflict (2003 agreement versus Feb 2006).
+- Threshold filings as records (Lagardere).
+- QIA establishment date (decision June 2005, operations early 2006).
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2007_Audit_PROPOSED.md","UNCERTIFIED","4","4","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Delta Two as a QIA vehicle (entity classification).
+- Convertible equity units (Citigroup): record type and stake ceiling.
+- Fund commitments alongside equity (Carlyle USD 500m): excluded.
+- Borse Dubai and other Dubai government holdings: scope.
+- Whether pre-2010 rows follow the same v4.9 ad","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2008_Audit_PROPOSED.md","UNCERTIFIED","6","6","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Qatar Holding versus Challenger (Sheikh Hamad vehicle) in the Barclays rows.
+- Convertible and preferred instruments (KIA, ADIA).
+- Abu Dhabi Investment Council (later Mubadala) as an investor group.
+- Intra-Abu Dhabi transfers (Pearl Energy) ledger-only.
+- Whether pre-2010 rows follow the sam","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2009_Audit_PROPOSED.md","UNCERTIFIED","5","5","5","120","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Aabar (listed IPIC subsidiary) as investing entity.
+- Options and planned conversion (Porsche and Volkswagen): ceiling, not held stake.
+- Month placeholders where signing day is unseen.
+- Whether pre-2010 rows follow the same v4.9 admission rules.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2010_JanJun_Audit_PROPOSED.md","UNCERTIFIED","2","2","8","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Bilateral platforms (OIJIF, Uzbek-Oman).
+- Intra-group restructuring (ATIC) ledger-only.
+- Intra-Abu Dhabi target (Abu Dhabi Terminals).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+
+## Late addition
+GSI10M02-001 (ADIA, about 15% of Gatwick, February 2010, GBP 125m reported)","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2010_JulDec_Audit_PROPOSED.md","UNCERTIFIED","3","3","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Bilateral platform (Oman India fund).
+- Co-investment where ADIA's own amount is not stated (Port of Brisbane).
+- Notes and equity mix (Carlyle).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2011_JanJun_Audit_PROPOSED.md","UNCERTIFIED","2","2","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Press-reported buyer with no filing (TPG).
+- Consolidating an existing holding (Songbird).
+- Intra-Gulf targets (John Buck) and intra-group (ATIC): ledger-only.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+
+## Late addition
+GSI11M02-001 (IPIC buys Total's 48.83% of Cepsa; si","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2011_JulDec_Audit_PROPOSED.md","UNCERTIFIED","1","1","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Fund group for IPIC and Aabar before the 2017 merger into Mubadala.
+- Public-market holdings with unseen filing dates (EDP, Total, Vivendi, Tiffany).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2012_JanJun_Audit_PROPOSED.md","UNCERTIFIED","4","4","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Public-market stake builds and increases of existing holdings (Xstrata, Vivendi, Lagardere, Tiffany): records or holdings notes.
+- Multi-month stake builds: one record or one per threshold.
+- IPIC fund group before the 2017 merger.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2012_JulDec_Audit_PROPOSED.md","UNCERTIFIED","1","1","8","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Bilateral 50-50 funds (Oman India) and how to show the sovereign share.
+- Domestic exchange stakes (Qatar Exchange): ledger-only.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+
+## Late addition (2026-11-13)
+- Aug: Qatar Holding 22.22% of CITIC Capital Holdings (GSI12M08-002),","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2013_JanJun_Audit_PROPOSED.md","UNCERTIFIED","3","3","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Domestic targets (ONIC) and whether Oman Investment Fund sits under the Oman group.
+- Press range for investor amount (VTB).
+- Signing versus completion (Porto Sudeste).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2013_JulDec_Audit_PROPOSED.md","UNCERTIFIED","3","3","7","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Bilateral 50-50 funds (Oman India).
+- Press-reported holdings with no filing (BofA, Samsung).
+- Domestic exchange stakes (Qatar Exchange): ledger-only.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2014_JanJun_Audit_PROPOSED.md","UNCERTIFIED","1","1","9","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Consortium rows with no investor amount (Queensland Motorways).
+- Divestments and intra-Gulf sales: ledger-only (ADAT).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2014_JulDec_Audit_PROPOSED.md","UNCERTIFIED","5","5","9","60","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Stakes taken in a debt restructuring (MMX, Prumo).
+- Bilateral 50-50 funds (Oman India).
+- Consortium rows with no investor amount (GEMS).
+- Intra-Gulf target (GEMS is UAE-based).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2015_JanApr_Audit_PROPOSED.md","UNCERTIFIED","3","3","6","40","NOT_DETERMINED_FROM_AUDIT","## Open rulings touched
+- Whether a maximum commitment in a rights offering is an investor amount (QIA and Dufry).
+- Month-of-announcement rule when press lags the filing (KIA).
+- Real estate JV: ADIA share unconfirmed.
+- Whether v9.5 equals the locked v4.9 schema, for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2015_MayAug_Audit_PROPOSED.md","UNCERTIFIED","3","2","5","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Platform and MoU commitments (RDIF): ledger-only until deployed.
+- Announcement-month rule when preliminary and signed dates differ (POSCO).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2015_SepDec_Audit_PROPOSED.md","UNCERTIFIED","3","3","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Domestic listed-stake purchases: ledger-only recommended.
+- In-principle approvals and conditional cornerstone commitments (Kenmare).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2016_JanApr_Audit_PROPOSED.md","UNCERTIFIED","2","2","5","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Intra-Gulf targets (Gulf Cryo).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2016_MayAug_Audit_PROPOSED.md","UNCERTIFIED","6","6","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Intra-Gulf targets and Gulf managers (Investcorp).
+- Divestments ledger-only (SR Technics).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2016_SepDec_Audit_PROPOSED.md","UNCERTIFIED","3","3","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Non-binding fund commitments (Vision Fund): ledger-only until funded.
+- Intra-Gulf targets (Adeptio).
+- Month rule when the SPA precedes the public announcement (Banvit).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2017_JanApr_Audit_PROPOSED.md","UNCERTIFIED","1","1","7","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Backfill approval (Rosneft).
+- Divestments ledger-only (Ardian).
+- Intra-group restructurings ledger-only (Mubadala and IPIC).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2017_MayAug_Audit_PROPOSED.md","UNCERTIFIED","3","3","7","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- MoU and fund commitments (Blackstone, Vision Fund): ledger-only until funded.
+- Divestments ledger-only (Tabreed).
+- Internal state transfers ledger-only (QIA domestic holdings).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2017_SepDec_Audit_PROPOSED.md","UNCERTIFIED","2","2","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Non-binding MoUs (Virgin): ledger-only until funded.
+- Advisory-unit acquisitions (Verno).
+- Divestments ledger-only (Rosneft resale, Tabreed, AMD).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2018_JanApr_Audit_PROPOSED.md","UNCERTIFIED","2","2","8","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Multi-investor consortium where the investor's own amount is not stated (AccorInvest).
+- Round headline separate from the investor amount (Magic Leap).
+- Intra-group restructuring (Mubadala and ADIC): ledger-only.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2018_MayAug_Audit_PROPOSED.md","UNCERTIFIED","5","5","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Consolidation of an existing consortium holding (Rosneft).
+- Press-reported public-market stakes (Tesla).
+- Co-investment amount vs round headline (UPL).
+- Domestic stakes ledger-only (ACWA Power).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2018_SepDec_Audit_PROPOSED.md","UNCERTIFIED","2","2","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Floor amounts (""more than"").
+- Subsidiary hotel unit of a fund (Katara).
+- Domestic listed stakes ledger-only (ACWA Power, Kingdom Holding).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2019_JanApr_Audit_PROPOSED.md","UNCERTIFIED","3","3","7","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Real-estate co-investment where QIA's own amount is not stated.
+- Placing participation (Sirius).
+- Divestments ledger-only (Borealis, Cepsa, SABIC).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2019_MayAug_Audit_PROPOSED.md","UNCERTIFIED","3","3","9","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Round headline vs the investor amount (SoFi).
+- Divestments and domestic JV purchases ledger-only (Cepsa, Gulf Bank, Jasara).
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2019_SepDec_Audit_PROPOSED.md","UNCERTIFIED","2","2","6","40","NO_PRIMARY_PAGE_OPENED","## Open rulings touched
+- Co-investment where the investor's own amount is not stated (Mumbai airport).
+- Domestic fund-of-funds vehicle (Jada) and domestic education platform (ELM): ledger-only.
+- Divestment (Hyperoptic) ledger-only.
+- Whether v9.5 equals the locked v4.9 schema for pre-2020 rows.
+
+## Phase note
+This c","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2025_Aug_Audit_PROPOSED.md","UNCERTIFIED","3","2","","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2025_Dec_Audit_PROPOSED.md","UNCERTIFIED","10","5","","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2025_Jul_Audit_PROPOSED.md","UNCERTIFIED","","","","","SOME_PRIMARY_SOURCE_REVIEW_CLAIMED","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2025_Jun_Audit_PROPOSED.md","UNCERTIFIED","","","","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2025_Nov_Audit_PROPOSED.md","UNCERTIFIED","4","2","","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2025_Oct_Audit_PROPOSED.md","UNCERTIFIED","11","5","","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2025_Sep_Audit_PROPOSED.md","UNCERTIFIED","7","6","","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2026_Apr_Audit_PROPOSED.md","UNCERTIFIED","6","1","7","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2026_Aug_Audit_PROPOSED.md","UNCERTIFIED","9","3","8","","NOT_DETERMINED_FROM_AUDIT","## Open rulings touched
+- Domestic listed-stake increases and domestic fund commitments (AD Ports, Aldar, Lesha).
+- Alpha Dhabi as an investor (MICAD).
+- Mubadala Capital as an entity (Arrive Logistics).
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2026_Feb_Audit_PROPOSED.md","UNCERTIFIED","8","1","6","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2026_Jan_Audit_PROPOSED.md","UNCERTIFIED","8","1","6","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2026_Jul_Audit_PROPOSED.md","UNCERTIFIED","10","3","11","","NOT_DETERMINED_FROM_AUDIT","## Open rulings touched
+- Fund commitments (Brookfield). Bid-stage co-investments (Paramount, Warner Bros. Discovery). Intra-group transfers (Mubadala credit, Olam Agri). Divestments (ledger-only).
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2026_Jun_Audit_PROPOSED.md","UNCERTIFIED","11","5","5","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2026_Mar_Audit_PROPOSED.md","UNCERTIFIED","6","1","6","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2026_May_Audit_PROPOSED.md","UNCERTIFIED","10","4","8","","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2026_Nov_Audit_PROPOSED.md","UNCERTIFIED","8","3","8","","NOT_DETERMINED_FROM_AUDIT","## Open rulings touched
+- Term sheets and MoUs for fund vehicles (OIA): ledger-only until definitive agreement, as recommended.
+- Domestic transfers between Saudi state entities (HUMAIN and Aramco).
+- Masdar as a Gulf sovereign investor; whether a EUR 25m construction start is a record.
+- Mubadala Capital as an entity.","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2026_Oct_Audit_PROPOSED.md","UNCERTIFIED","6","2","7","","NOT_DETERMINED_FROM_AUDIT","## Open rulings touched
+- Bid-stage take-private co-investment (QIAGEN).
+- Inbound capital into a Gulf manager (Apollo).
+- Masdar as a Gulf sovereign investor.
+- Domestic fund programmes (QIA Fund of Funds).
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_2026_Sep_Audit_PROPOSED.md","UNCERTIFIED","11","3","9","","NOT_DETERMINED_FROM_AUDIT","## Open rulings touched
+- Luckin exclusion and China-destination treatment.
+- Manager mandates and fund commitments (QIA with JPMorgan).
+- Domestic divestments and listed-stake increases (Al Hilal, AD Ports).
+- Masdar as a Gulf sovereign investor; Mubadala Capital as an entity.
+","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"
+"GSI_Merged_1950_2019_Audit_PROPOSED.md","UNCERTIFIED","103","102","281","8400","NOT_DETERMINED_FROM_AUDIT","","AUDIT_METADATA_INDEXED_NOT_EVIDENCE_CERTIFIED"

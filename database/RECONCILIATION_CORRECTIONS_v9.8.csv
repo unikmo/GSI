@@ -1,0 +1,9 @@
+source_file,lead_id,transaction,canonical_existing_record,disposition,remaining_check
+GSI_Merged_1950_2019_Candidates_UNVERIFIED.csv,R01,POSCO Engineering and Construction,GSI15M06-001,EXISTING_MASTER_AND_LEDGER_DO_NOT_DUPLICATE,Potential February 2015 preliminary announcement versus recorded June SPA; primary chronology evidence required
+GSI_Merged_1950_2019_Candidates_UNVERIFIED.csv,S01,GEMS Education,GSI14M10-001,RESOLVED_EXISTING_2014_RECORD,Already dated 2014-10-15 in canonical master and ledger; share and corroboration still provisional
+GSI_Merged_1950_2019_Candidates_UNVERIFIED.csv,W01,Banvit,GSI16M12-001,EXISTING_RECORD_DATE_CONFLICT_HELD,December 2016 SPA versus January 2017 public announcement; primary disclosure needed; no second deal
+GSI_Merged_1950_2019_Candidates_UNVERIFIED.csv,Y04,Hyperoptic,GSI18M11-001,RESOLVED_EXISTING_2018_RECORD,Already dated 2018-11-07 in canonical master and ledger; no second entry
+GSI_Merged_1950_2019_Candidates_UNVERIFIED.csv,B03,ACWA Power domestic stake,NO_CANONICAL_MATCH_CONFIRMED,DOMESTIC_LEDGER_ONLY_DATE_REVIEW,Original June versus July 2018 date unsettled; no new equity master row without issuer record
+GSI_Merged_1950_2019_Candidates_UNVERIFIED.csv,B05,Hyperoptic,GSI18M11-001,RESOLVED_SAME_EVENT_AS_Y04,Duplicate correction lead already matched to 2018-11-07 master and ledger
+GSI_Merged_1950_2019_Candidates_UNVERIFIED.csv,E01,Investcorp 20pct,GSI16M07-001,RESOLVED_EXISTING_2016_RECORD,Already dated 2016-07-28 in canonical master and ledger; do not create 2019 record
+GSI_2026_Apr_Candidates_UNVERIFIED.csv,R06,Escribano stake repurchase,GSI22F02-004 / GSI26M03-006,EXISTING_2022_EXIT_AND_2026_UNCERTAIN_LEDGER_FLAG,2022 master exit exists; 2026 ledger date may be crawl date and should not be counted as new 2026 transaction
